@@ -16,27 +16,13 @@ export default function PageHeader({ title, breadcrumbUrl, quickExplore }: PageH
         className="absolute inset-0 bg-cover bg-center z-0" 
         style={{ backgroundImage: "url('/images/shapes/breadcrumb-1.jpg')" }}
       >
-        <div className="absolute inset-0 bg-black/60"></div>
+        {/* Background Overlay */}
+        <div className="absolute inset-0 bg-brand-900/80 mix-blend-multiply" />
+        
+        {/* Animated Shapes (Legacy shapes removed for cleaner UI or replace with CSS shapes if needed) */}
       </div>
 
-      {/* Floating Shapes */}
-      <div className="absolute top-10 left-10 z-0 animate-bounce">
-        <img src="/images/shapes/breadcrumb-style1__shape1.png" alt="shape" />
-      </div>
-      <div className="absolute bottom-10 left-1/4 z-0 animate-pulse">
-        <img src="/images/shapes/breadcrumb-style1__shape2.png" alt="shape" />
-      </div>
-      <div className="absolute top-1/2 left-1/2 z-0 animate-spin-slow">
-        <img src="/images/shapes/breadcrumb-style1__shape3.png" alt="shape" />
-      </div>
-      <div className="absolute top-10 right-1/4 z-0 animate-bounce">
-        <img src="/images/shapes/breadcrumb-style1__shape4.png" alt="shape" />
-      </div>
-      <div className="absolute bottom-10 right-10 z-0 animate-pulse">
-        <img src="/images/shapes/breadcrumb-style1__shape5.png" alt="shape" />
-      </div>
-
-      <div className="container mx-auto px-4 relative z-10">
+      <div className="container relative z-10 mx-auto px-6 lg:px-8 h-full flex flex-col justify-center">
         <div className="flex flex-col md:flex-row items-center justify-between">
           <div className="md:w-1/2">
             <div className="mb-4">

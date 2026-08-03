@@ -1,82 +1,113 @@
-export default function patientprogramPage() {
+"use client";
+import { motion } from "framer-motion";
+import { HeartPulse, CheckCircle2, UserCheck, Stethoscope, ArrowRight } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function PatientProgramPage() {
+  const pillars = [
+    {
+      title: "Personalized Support",
+      icon: HeartPulse,
+      description: "Programs designed to provide ongoing support, helping patients understand their treatment and manage side effects."
+    },
+    {
+      title: "Ethical & Compliant",
+      icon: CheckCircle2,
+      description: "Clinically informed, ethically guided, and fully compliant with local and international healthcare regulations."
+    },
+    {
+      title: "Digital Engagement",
+      icon: UserCheck,
+      description: "Utilizing telemedicine platforms and secure engagement channels to make support accessible and continuous."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/breadcrumb-1.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Patient Support Programs  </h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Patient &amp; Healthcarer </li>
-                     <li class="active">Patient Support Programs </li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/healthcare-tool" class="text-white">Healthcare Professional Tools
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Patient Support Programs"
+        paths={[{ name: "Patient & Healthcare", href: "#" }, { name: "Patient Programs" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row-reverse gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-brand-100 mb-6 shadow-sm">
+                <Stethoscope className="w-4 h-4 text-brand-700" />
+                <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">Patient Centric Care</span>
+              </div>
+              
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Putting Patients at the Heart of Healthcare
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                At Plexus Group of Companies, we put patients at the heart of everything we do. Our Patient Support Programs are designed to provide personalized guidance, education, and ongoing support.
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                By combining scientific insight, patient-centric care, and real-world data, our programs empower patients, strengthen adherence, and foster collaboration with healthcare providers—ultimately contributing to healthier communities and measurable clinical impact.
+              </p>
+
+              <div className="flex flex-wrap gap-4">
+                <Link href="/healthcare-tool" className="inline-flex items-center gap-2 px-6 py-3 bg-brand-900 text-white rounded-xl font-medium hover:bg-brand-800 transition-colors">
+                  Healthcare Professional Tools <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/resources/patient.png"
+                alt="Patient Program"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Pillars Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {pillars.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 group"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-900 group-hover:text-white transition-colors duration-300">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="about-style1">
-   <div class="about-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/about-style-1-shape-1.png" alt="shape">
-   </div>
-   <div class="about-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/about-style-1-shape-3.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row justify-content-center align-items-center">
-         <div class="col-xl-7 mt-3">
-            <div class="about-style1__content">
-               <div class="top-title">
-                  <h2>Patient Support Programs
-                  </h2>
-               </div>
-               <div class="text">
-                  <p class="mt-3 text-justify">At Plexus Group of Companies, we put patients at the heart of everything we do. Our Patient Support Programs are designed to provide personalized guidance, education, and ongoing support, helping patients understand their treatment, manage side effects, and achieve better health outcomes.</p>
-                  <p class="mt-3 text-justify">
-                     We work closely with healthcare professionals and partners to ensure that every program is clinically informed, ethically guided, and fully compliant with local and international regulations. Through digital tools, telemedicine platforms, and secure patient engagement channels, we make support accessible, continuous, and meaningful.
-                  </p>
-                  <p class="mt-3 text-justify">By combining scientific insight, patient-centric care, and real-world data, our programs empower patients, strengthen adherence, and foster collaboration with healthcare providers—ultimately contributing to healthier communities and measurable clinical impact.</p>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-5 mt-3">
-            <img src="/assets/images/resources/patient.png" width="600px" alt="Patient Program">
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

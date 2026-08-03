@@ -1,88 +1,106 @@
-export default function distributorshipPage() {
+"use client";
+import { motion } from "framer-motion";
+import { ArrowRight, Plane, FileCheck, Users } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function DistributorshipPage() {
+  const highlights = [
+    {
+      title: "Regulatory Reliability",
+      icon: FileCheck,
+      description: "Partner selection follows a structured evaluation process that considers local regulatory capability and quality infrastructure."
+    },
+    {
+      title: "Supply Chain Continuity",
+      icon: Plane,
+      description: "We align with partners who can uphold global quality standards while effectively navigating regional commercial environments."
+    },
+    {
+      title: "Harmonized Controls",
+      icon: Users,
+      description: "We support distributors through aligned Quality Management Systems and standardized regulatory documentation."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Distributorship &amp; Agency</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Business Partnerships</li>
-                     <li class="active">Distributorship &amp; Agency</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/licensing" class="text-white">Licensing Opportunities
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/strategic-alliance" class="text-white">Strategic Alliances</a></li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Distributorship & Agency"
+        paths={[{ name: "Partnering", href: "/partnership" }, { name: "Distributorship" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row-reverse gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Structured Market Access Through Trusted Partners
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                Plexus Group engages with distributors and agents as long-term market access partners, enabling efficient, compliant, and sustainable commercialization of healthcare products across diverse geographies. 
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                Our distributorship and agency models are designed to ensure regulatory reliability, supply chain continuity, and consistent product performance in each market.
+              </p>
+
+              <Link href="/business-enquiry" className="inline-flex items-center gap-2 px-6 py-3 bg-brand-900 text-white rounded-xl font-medium hover:bg-brand-800 transition-colors">
+                Become a Distributor <ArrowRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[450px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/resources/distribute.jpg"
+                alt="Pharma Distributorship"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Highlights Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {highlights.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:bg-white hover:shadow-xl transition-all duration-300 group"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-white shadow-sm text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-900 group-hover:text-white transition-colors duration-300">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="features-style1">
-   <div class="features-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src=" assets/images/shapes/features-style1-shape-1.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-xl-7 mt-3">
-            <div class="features-style1__content">
-               <div class="top-title">
-                  <h2>Structured Market Access Through Trusted Distribution Partnerships</h2>
-               </div>
-               <p class="text-justify mt-3">Plexus Group engages with distributors and agents as long-term market access partners, enabling efficient, compliant, and sustainable commercialization of healthcare products across diverse geographies. Our distributorship and agency models are designed to ensure regulatory reliability, supply chain continuity, and consistent product performance in each market.</p>
-               <p class="text-justify mt-3">Partner selection follows a structured evaluation process that considers local regulatory capability, market reach, quality infrastructure, and operational maturity. This disciplined approach allows us to align with partners who can uphold global quality standards while effectively navigating regional regulatory and commercial environments.</p>
-               <p class="text-justify mt-3">From an operational perspective, we support distributors through aligned Quality Management Systems (QMS), standardized regulatory documentation, and harmonized operational controls. These measures ensure traceability, audit readiness, and compliance consistency across markets governed by EU, U.S. FDA, and other international regulatory frameworks.</p>
-               <p class="text-justify mt-3">Our agency and distributorship relationships are governed by clear performance metrics, transparent reporting mechanisms, and ongoing technical support, enabling partners to operate with confidence while delivering reliable healthcare solutions to their local markets.</p>
-            </div>
-         </div>
-         <div class="col-xl-5 mt-3">
-            <div class="features-style1__img">
-               <div class="features-style1__shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                  <img class="rotate-me" src="/assets/images/shapes/features-style1-shape-2.png" alt="shape">
-               </div>
-               <div class="box one"></div>
-               <div class="box two"></div>
-               <div class="box three"></div>
-               <div class="box four"></div>
-               <div class="features-style1__img-inner">
-                  <img src="/assets/images/resources/distribute.jpg" class="distri-img" alt="Pharma Distributorship">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- /.container -->
-</section>
-` }} />
+    </div>
   );
 }

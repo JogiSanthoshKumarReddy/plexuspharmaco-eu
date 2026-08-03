@@ -1,231 +1,145 @@
-export default function lifePage() {
+"use client";
+import { motion } from "framer-motion";
+import { Users, GraduationCap, TrendingUp, Lightbulb, CheckCircle2 } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+
+export default function LifePage() {
+  const values = [
+    {
+      title: "Skill Development Programs",
+      icon: GraduationCap,
+    },
+    {
+      title: "Mentorship & Coaching",
+      icon: Users,
+    },
+    {
+      title: "Knowledge Sharing Culture",
+      icon: Lightbulb,
+    },
+    {
+      title: "Career Progression Opportunities",
+      icon: TrendingUp,
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Life at the Company</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Careers</li>
-                     <li class="active">Life at the Company</li>
-                  </ul>
-               </div>
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Life at Plexuspharmaco"
+        paths={[{ name: "Careers", href: "#" }, { name: "Life at Plexus" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Culture Section */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 mb-6 shadow-sm">
+                <CheckCircle2 className="w-4 h-4 text-brand-700" />
+                <span className="text-sm font-bold text-brand-900 uppercase tracking-widest">Our Culture</span>
+              </div>
+              
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Integrity, Quality, and Scientific Responsibility
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                At Plexuspharmaco, our culture is built on integrity, quality, and scientific responsibility. We foster an environment where compliance, ethical practices, and patient safety are at the core of every decision, encouraging accountability and excellence across teams.
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                We believe in collaboration, continuous learning, and innovation. By empowering our people, valuing diverse perspectives, and supporting professional growth, we create a workplace where individuals contribute meaningfully to global healthcare and grow together with the organization.
+              </p>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/resources/life.jpg"
+                alt="Life at Plexus"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Growth & Learning Section */}
+        <div className="bg-brand-900 rounded-3xl p-8 lg:p-16 text-white mb-24 relative overflow-hidden">
+          <div className="absolute inset-0 opacity-10 mix-blend-overlay">
+            <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div className="relative z-10">
+            <div className="flex flex-col lg:flex-row gap-16 items-center">
+              <div className="w-full lg:w-1/2">
+                <h3 className="text-4xl font-bold mb-6">Growth & Learning</h3>
+                <p className="text-brand-200 text-lg leading-relaxed mb-6">
+                  At our company, we believe that continuous growth and learning are the cornerstones of both personal and organizational success. We strive to create an environment where every team member has the opportunity to expand their skills, knowledge, and career potential.
+                </p>
+                <p className="text-brand-200 text-lg leading-relaxed">
+                  <strong>Our Commitment:</strong> We are committed to nurturing an environment where learning never stops, and where every individual feels empowered to grow, innovate, and reach their full potential.
+                </p>
+              </div>
+              <div className="w-full lg:w-1/2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                {values.map((val, idx) => (
+                  <motion.div
+                    key={idx}
+                    initial={{ opacity: 0, y: 20 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: idx * 0.1 }}
+                    className="bg-white/10 backdrop-blur-md rounded-2xl p-6 border border-white/20"
+                  >
+                    <val.icon className="w-8 h-8 text-brand-300 mb-4" />
+                    <h4 className="font-bold text-white">{val.title}</h4>
+                  </motion.div>
+                ))}
+              </div>
             </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/gallery" class="text-white">Our Gallery
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/job-opening" class="text-white">Job Openings
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/internship" class="text-white">Internship &amp; Training
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+          </div>
+        </div>
+
+        {/* Gallery Preview */}
+        <div className="text-center">
+          <h3 className="text-3xl font-bold text-brand-900 mb-12">Team & Workplace</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[1, 2, 3, 4].map((num) => (
+              <motion.div
+                key={num}
+                initial={{ opacity: 0, scale: 0.9 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                className="relative aspect-square rounded-2xl overflow-hidden shadow-sm"
+              >
+                <Image 
+                  src={`/assets/images/g${num}.jpg`}
+                  alt="Workplace"
+                  fill
+                  className="object-cover hover:scale-110 transition-transform duration-500"
+                />
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="features-style1">
-   <div class="features-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src=" assets/images/shapes/features-style1-shape-1.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row">
-         <div class="col-xl-7">
-            <div class="features-style1__content">
-               <div class="top-title">
-                  <h2>Our Culture</h2>
-                  <p>At Plexuspharmaco, our culture is built on integrity, quality, and scientific responsibility. We foster an environment where compliance, ethical practices, and patient safety are at the core of every decision, encouraging accountability and excellence across teams.</p>
-                  <p>We believe in collaboration, continuous learning, and innovation. By empowering our people, valuing diverse perspectives, and supporting professional growth, we create a workplace where individuals contribute meaningfully to global healthcare and grow together with the organization.</p>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-5">
-            <div class="features-style1__img">
-               <div class="features-style1__shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                  <img class="rotate-me" src="/assets/images/shapes/features-style1-shape-2.png" alt="shape">
-               </div>
-               <div class="box one"></div>
-               <div class="box two"></div>
-               <div class="box three"></div>
-               <div class="box four"></div>
-               <div class="features-style1__img-inner">
-                  <img src="/assets/images/resources/life.jpg" alt="Life at Plexus">
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-   <!-- /.container -->
-</section>
-<section class="digital-strategy">
-   <div class="digital-strategy__shape1 zoominout"></div>
-   <div class="digital-strategy__bg jarallax bg-background-area" data-jarallax="" data-speed="0.1" data-imgposition="0% 0%" data-bg="/assets/images/backgrounds/digital-strategy-bg.jpg"></div>
-   <div class="container">
-      <div class="row">
-         <div class="col-xl-5">
-            <div class="digital-strategy__title-box">
-               <div class="top-title">
-                  <h2>Growth &amp; Learning</h2>
-                  <p class="mb-3">At our company, we believe that continuous growth and learning are the cornerstones of both personal and organizational success. We strive to create an environment where every team member has the opportunity to expand their skills, knowledge, and career potential.</p>
-                  <h5>Our Commitment:</h5>
-                  <p>We are committed to nurturing an environment where learning never stops, and where every individual feels empowered to grow, innovate, and reach their full potential.</p>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-2">
-            <div class="project-counting-box">
-               <div class="counting">
-                  <h2 class="odometer" data-count="2">00</h2>
-                  <span class="k">k</span>
-                  <i class="icon-plus plus"></i>
-               </div>
-               <p>Total Projects<br> Completed</p>
-            </div>
-         </div>
-         <div class="col-xl-5">
-            <div class="digital-strategy__content-box">
-               <div class="text-box">
-                  <p>Key Aspects of Growth &amp; Learning</p>
-               </div>
-               <ul>
-                  <li>Skill Development Programs</li>
-                  <li>Mentorship &amp; Coaching</li>
-                  <li>Knowledge Sharing Culture</li>
-                  <li>Career Progression Opportunities</li>
-                  <li>Innovation &amp; Experimentation</li>
-               </ul>
-            </div>
-         </div>
-      </div>
-      <!-- /.row -->
-   </div>
-   <!-- /.container -->
-</section>
-<section class="container mt-5 mb-5">
-   <div class="">
-      <div>
-         <h2 class="text-center mb-5">Team &amp; Workplace</h2>
-      </div>
-      <div class="row popup-gallery">
-         <div class="col-md-4 mb-3">
-            <a href="/assets/images/g1.jpg" class="image-overlay">
-               <img src="/assets/images/g1.jpg" class="g-img" alt="Work Culture">
-               <div class="overlay">
-                  <i class="fa fa-eye"></i>
-               </div>
-            </a>
-         </div>
-         <div class="col-md-4 mb-3">
-            <a href="/assets/images/g2.jpg" class="image-overlay">
-               <img src="/assets/images/g2.jpg" class="g-img" alt="Work Culture">
-               <div class="overlay">
-                  <i class="fa fa-eye"></i>
-               </div>
-            </a>
-         </div>
-         <div class="col-md-4 mb-3">
-            <a href="/assets/images/g3.jpg" class="image-overlay">
-               <img src="/assets/images/g3.jpg" class="g-img" alt="Work Culture">
-               <div class="overlay">
-                  <i class="fa fa-eye"></i>
-               </div>
-            </a>
-         </div>
-         <div class="col-md-4 mb-3">
-            <a href="/assets/images/g4.jpg" class="image-overlay">
-               <img src="/assets/images/g4.jpg" class="g-img" alt="Work Culture">
-               <div class="overlay">
-                  <i class="fa fa-eye"></i>
-               </div>
-            </a>
-         </div>
-         <div class="col-md-4 mb-3">
-            <a href="/assets/images/g5.jpg" class="image-overlay">
-               <img src="/assets/images/g5.jpg" class="g-img" alt="Work Culture">
-               <div class="overlay">
-                  <i class="fa fa-eye"></i>
-               </div>
-            </a>
-         </div>
-         <div class="col-md-4 mb-3">
-            <a href="/assets/images/g6.jpg" class="image-overlay">
-               <img src="/assets/images/g6.jpg" class="g-img" alt="Work Culture">
-               <div class="overlay">
-                  <i class="fa fa-eye"></i>
-               </div>
-            </a>
-         </div>
-      </div>
-   </div>
-</section>
-<section class="slogan-style1">
-   <div class="slogan-style1__left"></div>
-   <div class="slogan-style1__left-box"></div>
-   <div class="slogan-style1__right"></div>
-   <div class="slogan-style1__right-box"></div>
-   <div class="slogan-style1__shape1  wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/slogan-style1-shape1.png" alt="shape">
-   </div>
-   <div class="slogan-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/slogan-style1-shape2.png" alt="shape">
-   </div>
-   <div class="slogan-style1__shape3 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/slogan-style1-shape3.png" alt="shape">
-   </div>
-   <div class="slogan-style1__shape5 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/slogan-style1-shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="slogan-content-box">
-         <div class="title-box">
-            <h2>
-               <span>
-               Let’s Connect to Build Better 
-               <img class="slogan-style1__shape4 float-bob-right" src="/assets/images/shapes/slogan-style1-shape4.png" alt="shape">
-               </span>
-               <br> Healthcare Solutions
-            </h2>
-         </div>
-         <div class="btn-box">
-            <a class="btn-one" href="#">
-            <span class="txt">
-            Connect with Us
-            <i class="icon-plus"></i>
-            </span>
-            </a>
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

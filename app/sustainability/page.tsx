@@ -1,81 +1,121 @@
-export default function sustainabilityPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Leaf, Recycle, Factory, Activity } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+
+export default function SustainabilityPage() {
+  const initiatives = [
+    {
+      title: "Resource Efficiency",
+      icon: Factory,
+      description: "We pursue resource-efficient manufacturing, waste minimization, and energy optimization, ensuring sustainability without compromising product quality."
+    },
+    {
+      title: "Environmental Management",
+      icon: Leaf,
+      description: "Our environmental responsibility is supported by risk-based management systems, continuous monitoring, and improvement initiatives."
+    },
+    {
+      title: "Sustainable Supply Chain",
+      icon: Recycle,
+      description: "Sustainability considerations are integrated into process design, technology selection, and supply chain operations worldwide."
+    },
+    {
+      title: "Global ESG Alignment",
+      icon: Activity,
+      description: "We align our practices with global ESG expectations, regulatory standards, and industry best practices, reinforcing accountability and transparency."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/breadcrumb-1.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Sustainability &amp; Environment</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Corporate Social Responsibility (CSR)</li>
-                     <li class="active">Sustainability &amp; Environment</li>
-                  </ul>
-               </div>
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Sustainability & Environment"
+        paths={[{ name: "CSR", href: "#" }, { name: "Sustainability" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-4xl mx-auto text-center mb-24">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-50 border border-green-200 mb-6"
+          >
+            <Leaf className="w-4 h-4 text-green-600" />
+            <span className="text-sm font-bold text-green-700 uppercase tracking-widest">Environmental Stewardship</span>
+          </motion.div>
+          
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-8 leading-tight"
+          >
+            Responsible Operations for a <br/> Sustainable Future
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-lg text-slate-600 leading-relaxed"
+          >
+            Environmental stewardship at Plexus Group of Companies is embedded within our operational and governance framework. By balancing innovation, compliance, and sustainability, we contribute to environmental protection while enabling responsible growth across global markets.
+          </motion.p>
+        </div>
+
+        {/* Initiatives Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-24">
+          {initiatives.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:bg-white hover:shadow-2xl transition-all duration-300 group"
+            >
+              <div className="w-16 h-16 rounded-full bg-white shadow-sm flex items-center justify-center mb-6 group-hover:bg-green-600 group-hover:text-white text-green-600 transition-colors duration-300">
+                <item.icon className="w-8 h-8" />
+              </div>
+              <h3 className="text-2xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+        
+        {/* Call to Action Banner */}
+        <div className="w-full bg-brand-900 rounded-3xl p-12 text-center text-white relative overflow-hidden">
+          <div className="absolute inset-0 opacity-10 mix-blend-overlay">
+            <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div className="relative z-10 max-w-2xl mx-auto">
+            <h3 className="text-3xl font-bold mb-6">Our Commitment to Society</h3>
+            <p className="text-brand-200 text-lg mb-8 leading-relaxed">
+              Beyond environmental sustainability, we are deeply committed to ethical standards and health community initiatives across the globe.
+            </p>
+            <div className="flex flex-col sm:flex-row justify-center gap-4">
+              <a href="/health-community" className="px-8 py-3 bg-white text-brand-900 font-bold rounded-xl hover:bg-brand-50 transition-colors shadow-lg">
+                Health Initiatives
+              </a>
+              <a href="/ethical-standard" className="px-8 py-3 bg-brand-800 text-white font-bold rounded-xl hover:bg-brand-700 border border-brand-700 transition-colors">
+                Ethical Standards
+              </a>
             </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/health-community" class="text-white">Health &amp; Community Initiatives
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/ethical-standard" class="text-white">Ethical Standards</a></li>
-               </ul>
-            </div>
-         </div>
+          </div>
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="about-style1">
-   <div class="about-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/about-style-1-shape-1.png" alt="shape">
-   </div>
-   <div class="about-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/about-style-1-shape-3.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row justify-content-center">
-         <div class="col-xl-10">
-            <div class="about-style1__content">
-               <div class="top-title">
-                  <h2>Responsible Operations for a Sustainable Future
-                  </h2>
-               </div>
-               <div class="text">
-                  <p class="mt-3 text-justify">Environmental stewardship at Plexus Group of Companies is embedded within our operational and governance framework. We pursue resource-efficient manufacturing, waste minimization, energy optimization, and environmentally responsible sourcing, ensuring sustainability without compromising product quality or regulatory compliance.</p>
-                  <p class="mt-3 text-justify">
-                     Our environmental responsibility is supported by risk-based environmental management systems, continuous monitoring, and improvement initiatives designed to reduce environmental impact across the product lifecycle. Sustainability considerations are integrated into process design, technology selection, and supply chain operations.
-                  </p>
-                  <p class="mt-3 text-justify">We align our environmental practices with global ESG expectations, regulatory standards, and industry best practices, reinforcing accountability and transparency. Through disciplined execution and data-driven monitoring, Plexus works to minimize its environmental footprint while supporting long-term operational resilience.</p>
-                  <p class="mt-3 text-justify">By balancing innovation, compliance, and sustainability, we contribute to environmental protection while enabling responsible growth across global markets.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

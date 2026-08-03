@@ -8,47 +8,55 @@ export const navigation = [
     title: "Company",
     items: [
       { name: "About Us", href: "/about" },
+      { name: "Our Team", href: "/about#team" },
       { name: "Corporate Governance", href: "/corporate-governance" },
-      { name: "Profile", href: "/profile" },
     ],
   },
   {
-    title: "Products",
+    title: "Product Catalogue",
     items: [
-      { name: "Product Catalogue", href: "/product-catalogue" },
-      { name: "Pipeline", href: "/pipeline" },
-      { name: "Licensing", href: "/licensing" },
+      { name: "Product", href: "/product-catalogue" },
+      { name: "Pipeline / Under Development", href: "/pipeline" },
     ],
   },
   {
-    title: "R&D, Manufacturing & Quality",
+    title: "Manufacturing & Quality",
     items: [
-      { name: "Research & Development", href: "/research-development" },
       { name: "Manufacturing Capabilities", href: "/manufacture-capability" },
-      { name: "Quality Assurance", href: "/quality-assurance" },
-      { name: "Contract Manufacturing", href: "/contract-manufacturing" },
-      { name: "Technology Platforms", href: "/technology-platforms" },
+      { name: "Quality Assurance & Control", href: "/quality-assurance" },
       { name: "Regulatory Compliance", href: "/regulatory-compliance" },
+      { name: "Contract Manufacturing (CMO/CDMO)", href: "/contract-manufacturing" },
+    ],
+  },
+  {
+    title: "Innovation & Technology",
+    items: [
+      { name: "Research & Development", href: "/research" },
+      { name: "Technology Platforms", href: "/technology-platforms" },
       { name: "Intellectual Property", href: "/intellectual-property" },
     ],
   },
   {
-    title: "Global Footprints",
+    title: "Global Markets",
     items: [
       { name: "Global Presence", href: "/presence" },
-      { name: "Joint Ventures", href: "/joint-venture" },
-      { name: "Partnership", href: "/partnership" },
-      { name: "Distributorship", href: "/distributorship" },
-      { name: "Strategic Alliance", href: "/strategic-alliance" },
-      { name: "Logistics", href: "/logistics" },
-      { name: "Global Offices", href: "/global-office" },
+      { name: "Country Profiles", href: "/profile" },
+      { name: "Export & Logistics", href: "/logistics" },
     ],
   },
   {
-    title: "Responsibility",
+    title: "Business Partnerships",
     items: [
-      { name: "Health Community", href: "/health-community" },
-      { name: "Sustainability", href: "/sustainability" },
+      { name: "Licensing Opportunities", href: "/licensing" },
+      { name: "Distributorship & Agency", href: "/distributorship" },
+      { name: "Strategic Alliances", href: "/strategic-alliance" },
+    ],
+  },
+  {
+    title: "Corporate Social Responsibility (CSR)",
+    items: [
+      { name: "Health & Community Initiatives", href: "/health-community" },
+      { name: "Sustainability & Environment", href: "/sustainability" },
       { name: "Ethical Standards", href: "/ethical-standard" },
     ],
   },
@@ -63,10 +71,10 @@ export const navigation = [
   {
     title: "Careers",
     items: [
+      { name: "Explore Gallery", href: "/gallery" },
       { name: "Life at Plexuspharmaco", href: "/life" },
       { name: "Job Openings", href: "/job-opening" },
-      { name: "Internships", href: "/internship" },
-      { name: "Photo Gallery", href: "/gallery" },
+      { name: "Internship & Training", href: "/internship" },
     ],
   },
   {
@@ -79,10 +87,16 @@ export const navigation = [
   {
     title: "Contact & Support",
     items: [
-      { name: "Business Enquiry", href: "/business-enquiry" },
+      { name: "Global Office", href: "/global-office" },
+      { name: "Business Inquiry Form", href: "/business-enquiry" },
       { name: "Compliance & Reporting", href: "/compilance-reporting" },
-      { name: "Patient Programs", href: "/patient-program" },
-      { name: "Healthcare Tools", href: "/healthcare-tool" },
+    ],
+  },
+  {
+    title: "Patient & Healthcarer",
+    items: [
+      { name: "Patient Support Programs", href: "/patient-program" },
+      { name: "Healthcare Professional Tools", href: "/healthcare-tool" },
     ],
   },
 ];

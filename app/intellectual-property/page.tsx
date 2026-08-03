@@ -1,93 +1,112 @@
-export default function intellectualpropertyPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Shield, Target, FileSignature, ArrowRight } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function IntellectualPropertyPage() {
+  const principles = [
+    {
+      title: "Strategic Asset Management",
+      icon: Target,
+      description: "IP is managed to safeguard innovation while supporting long-term business sustainability."
+    },
+    {
+      title: "Ethical Collaboration Models",
+      icon: Shield,
+      description: "Structured documentation and knowledge management ensure innovation remains secure and compliant."
+    },
+    {
+      title: "Purpose-Driven Protection",
+      icon: FileSignature,
+      description: "Protection is used to reinforce patient benefit, quality consistency, and regulatory confidence."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/breadcrumb-1.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Intellectual Property</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Innovation &amp; Technology</li>
-                     <li class="active">Intellectual Property</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/research" class="text-white">Research &amp; Development</a></li>
-                  <li class="mt-0 pt-0 text-start"><a href="/technology-platforms" class="text-white">Technology Platforms</a></li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Intellectual Property"
+        paths={[{ name: "Innovation", href: "/research-development" }, { name: "Intellectual Property" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row-reverse gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Protecting Innovation with Integrity and Foresight
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                Intellectual Property (IP) at Plexus Group is managed as a strategic asset that safeguards innovation while supporting long-term business sustainability. 
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                Our IP approach focuses on protecting proprietary formulations, platform technologies, and differentiated development processes, aligned with global regulatory and commercial frameworks.
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                Every innovation is evaluated not only for its novelty, but also for its clinical relevance, manufacturability, regulatory robustness, and market viability.
+              </p>
+              
+              <div className="flex flex-wrap gap-4">
+                <Link href="/research-development" className="inline-flex items-center gap-2 px-6 py-3 bg-brand-900 text-white rounded-xl font-medium hover:bg-brand-800 transition-colors">
+                  View Innovation Hub <ArrowRight className="w-4 h-4" />
+                </Link>
+              </div>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/img/i3.jpg"
+                alt="Pharma IP"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Principles Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          {principles.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:bg-white hover:shadow-xl transition-all duration-300 group"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-white shadow-sm text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-900 group-hover:text-white transition-colors duration-300">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="service-details-page">
-   <div class="container">
-      <div class="row justify-content-center">
-         <!--Start Service Details Page Content-->
-         <div class="col-xl-10 col-lg-7">
-            <div class="service-details-page__content">
-               <div class="features-style1__img mt-3">
-                  <div class="features-style1__shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                     <img class="rotate-me" src="/assets/images/shapes/features-style1-shape-2.png" alt="shape">
-                  </div>
-                  <div class="box one"></div>
-                  <div class="box two"></div>
-                  <div class="box three"></div>
-                  <div class="box four"></div>
-                  <div class="features-style1__img-inner">
-                     <img src="/assets/images/img/i3.jpg" alt="Pharma IP">
-                  </div>
-               </div>
-               <!-- Main Text -->
-               <div class="service-details-page__text1 text-justify">
-                  <div class="top-title">
-                     <h2>Protecting Innovation with Integrity and Foresight</h2>
-                  </div>
-                  <p>
-                     Intellectual Property (IP) at Plexus Group is managed as a strategic asset that safeguards innovation while supporting long-term business sustainability. Our IP approach focuses on protecting proprietary formulations, platform technologies, and differentiated development processes, aligned with global regulatory and commercial frameworks.
-                  </p>
-                  <p>
-                     Every innovation is evaluated not only for its novelty, but also for its clinical relevance, manufacturability, regulatory robustness, and market viability. This ensures that protected innovations translate into scalable and compliant healthcare solutions rather than isolated scientific achievements.
-                  </p>
-                  <p>
-                     We follow structured documentation, controlled knowledge management, and ethical collaboration models to ensure that innovation remains secure, compliant, and responsibly deployed across partnerships and markets. IP strategy is closely aligned with our development and commercialization roadmap, enabling confident collaborations and licensing opportunities.
-                  </p>
-                  <p>
-                     Importantly, innovation at Plexus Group is always purpose-driven. Intellectual property protection is used to reinforce patient benefit, quality consistency, regulatory confidence, and sustainable growth—transforming ideas into credible, globally relevant healthcare solutions.
-                  </p>
-               </div>
-            </div>
-         </div>
-         <!--End Service Details Page Content-->
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

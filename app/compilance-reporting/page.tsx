@@ -1,187 +1,191 @@
+"use client";
+import { motion } from "framer-motion";
+import { ShieldAlert, Mail, Lock, ArrowRight, CheckCircle2 } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Link from "next/link";
+import { useState } from "react";
+
 export default function ComplianceReportingPage() {
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isSuccess, setIsSuccess] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    setIsSubmitting(true);
+    setErrorMessage("");
+
+    const formData = new FormData(e.currentTarget);
+    const data = {
+      formType: "Compliance Report",
+      form_name: formData.get("name") || "Anonymous",
+      form_email: formData.get("email") || "Anonymous",
+      form_subject: formData.get("subject"),
+      form_message: formData.get("message"),
+    };
+
+    try {
+      const response = await fetch("/api/submit-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      if (!response.ok) throw new Error("Failed to submit form");
+
+      setIsSuccess(true);
+      (e.target as HTMLFormElement).reset();
+      
+      setTimeout(() => setIsSuccess(false), 5000);
+    } catch (error) {
+      setErrorMessage("Something went wrong. Please try again later or contact us directly at compliance@plexuspharmaco.com.");
+    } finally {
+      setIsSubmitting(false);
+    }
+  };
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/enquiry-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Compliance and Reporting</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Contact &amp; Support</li>
-                     <li class="active">Compliance and Reporting</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/business-enquiry" class="text-white">Business Inquiry Form
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/global-office" class="text-white">Global Offices
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Compliance & Reporting"
+        paths={[{ name: "Contact & Support", href: "#" }, { name: "Compliance" }]}
+        bgImage="/assets/images/breadcrumb/enquiry-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-red-50 border border-red-100 mb-6 shadow-sm"
+          >
+            <ShieldAlert className="w-4 h-4 text-red-600" />
+            <span className="text-sm font-bold text-red-600 uppercase tracking-widest">Confidential Reporting</span>
+          </motion.div>
+          
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
+          >
+            Upholding Corporate Integrity
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-lg text-slate-600 leading-relaxed"
+          >
+            Plexuspharmaco is committed to maintaining the highest ethical standards. If you have observed behavior that violates our corporate policies, regulatory standards, or ethical guidelines, we encourage you to report it safely and confidentially.
+          </motion.p>
+        </div>
+
+        <div className="flex flex-col lg:flex-row gap-12 max-w-6xl mx-auto">
+          
+          {/* Contact Cards */}
+          <div className="w-full lg:w-1/3 space-y-6">
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm"
+            >
+              <div className="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6">
+                <Mail className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-2">Compliance Officer</h3>
+              <p className="text-slate-600 mb-4">Direct and confidential email to the Chief Compliance Officer.</p>
+              <a href="mailto:compliance@plexuspharmaco.com" className="text-brand-700 font-bold hover:text-brand-900 transition-colors">
+                compliance@plexuspharmaco.com
+              </a>
+            </motion.div>
+            
+            <motion.div
+              initial={{ opacity: 0, x: -20 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.1 }}
+              className="bg-white rounded-2xl p-8 border border-slate-200 shadow-sm"
+            >
+              <div className="w-12 h-12 rounded-xl bg-red-50 text-red-600 flex items-center justify-center mb-6">
+                <Lock className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-2">Whistleblower Protection</h3>
+              <p className="text-slate-600">
+                All reports are treated with strict confidentiality. Plexuspharmaco explicitly prohibits any form of retaliation against individuals who report concerns in good faith.
+              </p>
+            </motion.div>
+          </div>
+
+          {/* Reporting Form */}
+          <div className="w-full lg:w-2/3">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="bg-white rounded-3xl p-8 lg:p-12 border border-slate-200 shadow-lg relative overflow-hidden"
+            >
+              {/* Success Overlay */}
+              <div 
+                className={`absolute inset-0 bg-white/95 backdrop-blur-sm z-10 flex flex-col items-center justify-center transition-all duration-500 ${
+                  isSuccess ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
+                }`}
+              >
+                <CheckCircle2 className="w-20 h-20 text-green-500 mb-6" />
+                <h3 className="text-3xl font-bold text-brand-900 mb-2">Report Submitted securely</h3>
+                <p className="text-brand-600 text-center max-w-sm">
+                  Your confidential report has been submitted to the Compliance Officer.
+                </p>
+              </div>
+
+              <h3 className="text-2xl font-bold text-brand-900 mb-8">Secure Reporting Form</h3>
+              
+              {errorMessage && (
+                <div className="mb-6 p-4 rounded-xl bg-red-50 text-red-700 text-sm font-medium border border-red-100">
+                  {errorMessage}
+                </div>
+              )}
+
+              <form onSubmit={handleSubmit} className="space-y-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="name" className="block text-sm font-bold text-slate-700 mb-2">Name (Optional)</label>
+                    <input id="name" name="name" type="text" className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all" placeholder="Enter your name" />
+                  </div>
+                  <div>
+                    <label htmlFor="email" className="block text-sm font-bold text-slate-700 mb-2">Email Address (Optional)</label>
+                    <input id="email" name="email" type="email" className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all" placeholder="Enter your email" />
+                  </div>
+                </div>
+                
+                <div>
+                  <label htmlFor="subject" className="block text-sm font-bold text-slate-700 mb-2">Subject *</label>
+                  <input id="subject" name="subject" type="text" className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all" placeholder="Nature of report" required />
+                </div>
+
+                <div>
+                  <label htmlFor="message" className="block text-sm font-bold text-slate-700 mb-2">Message Details *</label>
+                  <textarea id="message" name="message" rows={5} className="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent transition-all resize-none" placeholder="Please provide as much detail as possible..." required></textarea>
+                </div>
+
+                <div className="pt-4">
+                  <button type="submit" disabled={isSubmitting} className="w-full sm:w-auto px-8 py-4 bg-brand-900 text-white rounded-xl font-bold hover:bg-brand-800 transition-colors shadow-lg hover:shadow-xl flex items-center justify-center gap-2 disabled:opacity-70 disabled:cursor-not-allowed">
+                    {isSubmitting ? "Submitting..." : "Submit Confidential Report"} <ArrowRight className="w-5 h-5" />
+                  </button>
+                </div>
+              </form>
+            </motion.div>
+          </div>
+
+        </div>
       </div>
-   </div>
-</section>
-<section class="main-contact-form-area" id="compilance">
-   <div class="container">
-      <div class="inner-title text-center">
-         <h2>Reporting Form</h2>
-      </div>
-      <!-- /.inner-title -->
-      <div class="row justify-content-center form-margin">
-         <div class="col-xl-7 border p-5">
-            <div class="contact-form p-0">
-               <form id="contact-form" name="contact_form" class="default-form2" action="assets/inc/sendmail.php" method="post">
-                  <div class="row">
-                     <div class="col-xl-6">
-                        <div class="form-group">
-                           <div class="input-box">
-                              <label class="form-label">Name</label>
-                              <input type="text" name="form_name" id="formName" placeholder="Name" required="">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-6">
-                        <div class="form-group">
-                           <div class="input-box">
-                              <label class="form-label">Email Address</label>
-                              <input type="text" name="form_name" id="formName" placeholder="Email Address" required="">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-6">
-                        <div class="form-group">
-                           <div class="input-box">
-                              <label class="form-label">Subject</label>
-                              <input type="text" name="form_name" id="formName" placeholder="Subject" required="">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-6">
-                        <div class="form-group">
-                           <div class="input-box">
-                              <label class="form-label">File Upload</label>
-                              <input type="file" name="form_name" class="border p-2 w-100" id="formName" placeholder="Subject" required="">
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-12">
-                        <div class="form-group">
-                           <label class="form-label">Message</label>
-                           <div class="input-box">
-                              <textarea name="form_message" id="formMessage" placeholder="Message" required=""></textarea>
-                           </div>
-                        </div>
-                     </div>
-                     <div class="col-xl-12">
-                        <div class="form-group">
-                           <div class="g-recaptcha pb-3 mt-3" data-sitekey="6LfCGrcsAAAAAJmecSf8KKOlmSGcREaPvcCxObp1"></div>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                     <div class="col-xl-12 text-center">
-                        <div class="button-box">
-                           <input id="form_botcheck" name="form_botcheck" class="form-control" type="hidden" value="">
-                           <button class="btn-one" type="submit" data-loading-text="Please wait...">
-                           <span class="txt">
-                           submit 
-                           </span>
-                           </button>
-                        </div>
-                     </div>
-                  </div>
-               </form>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<section class="py-5 bg-light">
-   <div class="container">
-      <div class="row justify-content-center">
-         <div class="col-lg-8">
-            <div class="card border-0 shadow-sm">
-               <div class="card-body p-4 rounded">
-                  <h4 class="mb-4 text-center fw-semibold">
-                     Compliance Contact Information
-                  </h4>
-                  <!-- Compliance Officer Email -->
-                  <div class="d-flex align-items-start mb-3">
-                     <div class="me-3 text-secondary fs-4">
-                        <i class="fa fa-envelope"></i>
-                     </div>
-                     <div>
-                        <h5 class="mb-1 fw-semibold">Compliance <span class="ff">Officer</span></h5>
-                        <a href="mailto:compliance@companyname.com" class="text-decoration-none text-danger">
-                        compliance@companyname.com
-                        </a>
-                     </div>
-                  </div>
-                  <hr>
-                  <!-- Official Reporting Channel -->
-                  <div class="d-flex align-items-start mb-3">
-                     <div class="me-3 text-secondary fs-4">
-                        <i class="fa fa-envelope"></i>
-                     </div>
-                     <div>
-                        <h5 class="mb-1 fw-semibold"><span class="ff">Official</span> Reporting Channel</h5>
-                        <a href="mailto:ethics@companyname.com" class="text-decoration-none text-danger">
-                        ethics@companyname.com
-                        </a>
-                     </div>
-                  </div>
-                  <hr>
-                  <!-- Disclaimer -->
-                  <div class="d-flex align-items-start">
-                     <div class="me-3 text-muted fs-4">
-                        <i class="fa fa-info-circle"></i>
-                     </div>
-                     <div>
-                        <h5 class="mb-1 fw-semibold">Disclaimer</h5>
-                        <p class="mb-0 text-muted small">
-                           All reports submitted through this channel are treated with
-                           strict confidentiality and reviewed in accordance with
-                           applicable laws and internal company policies. Retaliation
-                           against individuals raising concerns in good faith is
-                           strictly prohibited.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

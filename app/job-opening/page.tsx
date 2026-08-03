@@ -1,178 +1,132 @@
-export default function jobopeningPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Briefcase, MapPin, ArrowRight, Clock } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Link from "next/link";
+
+export default function JobOpeningPage() {
+  const jobs = [
+    {
+      title: "Submission / Documentation Officer",
+      department: "Regulatory Affairs",
+      location: "Global HQ",
+      type: "Full-Time",
+      description: "Play a key role in ensuring regulatory dossiers and documentation are accurate, complete, and submitted on time.",
+    },
+    {
+      title: "Accounts Executive / Accountant",
+      department: "Finance",
+      location: "Global HQ",
+      type: "Full-Time",
+      description: "Maintain accurate financial records and support the finance team in day-to-day accounting operations.",
+    },
+    {
+      title: "Regulatory / Liaison Officer (Corporate Compliance)",
+      department: "Corporate Governance",
+      location: "Global HQ",
+      type: "Full-Time",
+      description: "Ensure seamless compliance with corporate and regulatory requirements across jurisdictions.",
+    },
+    {
+      title: "Medical Content Writer",
+      department: "Medical Affairs",
+      location: "Global HQ",
+      type: "Full-Time",
+      description: "Transform complex scientific and medical information into clear, engaging, and compliant content for a global audience.",
+    },
+    {
+      title: "Export & Logistics Coordinator",
+      department: "Supply Chain",
+      location: "Logistics Hub",
+      type: "Full-Time",
+      description: "Manage international shipments, documentation, and supply chain coordination.",
+    },
+    {
+      title: "International Business Development Manager",
+      department: "Business Development",
+      location: "Global HQ",
+      type: "Full-Time",
+      description: "Drive global partnerships, licensing opportunities, and market expansion.",
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Our Job Openings</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Careers</li>
-                     <li class="active">Our Job Openings</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/gallery" class="text-white">Our Gallery
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/life" class="text-white">Life at Plexuspharmaco
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/internship" class="text-white">Internship &amp; Training
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Job Openings"
+        paths={[{ name: "Careers", href: "#" }, { name: "Job Openings" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-3xl mx-auto text-center mb-20">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
+          >
+            Shape the Future of Healthcare
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-lg text-slate-600 leading-relaxed"
+          >
+            At Plexus Group of Companies, our people are at the heart of every innovation and achievement. We invite talented, motivated professionals to join our global teams, contribute to transformative healthcare solutions, and grow in a culture of excellence, collaboration, and purpose-driven impact.
+          </motion.p>
+        </div>
+
+        {/* Jobs Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          {jobs.map((job, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col h-full"
+            >
+              <div className="flex justify-between items-start mb-6">
+                <div className="flex items-center gap-2 text-sm font-bold text-brand-700 bg-brand-50 px-3 py-1 rounded-full border border-brand-100">
+                  <Briefcase className="w-4 h-4" />
+                  {job.department}
+                </div>
+              </div>
+              
+              <h3 className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors">
+                {job.title}
+              </h3>
+              
+              <p className="text-slate-600 mb-8 flex-grow">
+                {job.description}
+              </p>
+
+              <div className="flex flex-wrap gap-4 items-center mb-8 pt-4 border-t border-slate-100">
+                <div className="flex items-center gap-2 text-slate-500 text-sm">
+                  <MapPin className="w-4 h-4" />
+                  <span className="font-medium">{job.location}</span>
+                </div>
+                <div className="flex items-center gap-2 text-slate-500 text-sm">
+                  <Clock className="w-4 h-4" />
+                  <span className="font-medium">{job.type}</span>
+                </div>
+              </div>
+              
+              <Link href="#" className="inline-flex justify-center items-center gap-2 w-full px-6 py-3 bg-brand-50 text-brand-900 rounded-xl font-bold hover:bg-brand-900 hover:text-white transition-colors mt-auto">
+                Apply Now <ArrowRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="service-style3 service-style3--about-page">
-   <div class="container">
-      <div class="sec-title text-center">
-         <div class="sec-title__shape item-center">
-            <img src="/assets/images/shapes/sec-title-shape-1.png" alt="shape">
-         </div>
-         <h2>
-            Shape the Future of Healthcare with Us
-         </h2>
-         <p class="mt-3">At Plexus Group of Companies, our people are at the heart of every innovation and achievement. We invite talented, motivated professionals to join our global teams, contribute to transformative healthcare solutions, and grow in a culture of excellence, collaboration, and purpose-driven impact. Explore current opportunities and be part of a journey that combines professional growth, scientific innovation, and meaningful societal contribution.</p>
-      </div>
-      <div class="services-style3-carousel owl-dot-style1 row justify-content-center">
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href="">Submission / Documentation Officer</a></h3>
-                  <p></p><p>As a Submission / Documentation Officer at Plexus Group, you will play a key role in ensuring regulatory dossiers and documentation are accurate, complete, and submitted on time.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle7YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href="">Accounts Executive / Accountant</a></h3>
-                  <p></p><p>As an Accounts Executive at Plexus Group, you will play a key role in maintaining accurate financial records and supporting the finance team in day-to-day accounting operations.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle6YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href="">Regulatory / Liaison Officer (Corporate Compliance)</a></h3>
-                  <p></p><p>As a Regulatory / Liaison Officer at Plexus Group, you will ensure seamless compliance with corporate and regulatory requirements across jurisdictions.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle5YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href="">Medical Content Writer</a></h3>
-                  <p></p><p>As a Medical Content Writer at Plexus Group, you will transform complex scientific and medical information into clear, engaging, and compliant content for a global audience.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle4YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href=""> Export &amp; Logistics Coordinator</a></h3>
-                  <p></p><p>Plexuspharmaco is looking for an Export &amp; Logistics Coordinator to manage international shipments, documentation, and supply chain coordination.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle3YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href=""> International Business Development Manager</a></h3>
-                  <p></p><p>Plexuspharmaco is hiring an International Business Development Manager to drive global partnerships, licensing opportunities, and market expansion.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle2YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-                  <!--Start Single career Style3-->
-         <div class="col-md-4 mt-3">
-            <div class="single-service-style3 mt-3">
-               <div class="single-service-style3__bg bg-background-area" data-bg="/assets/images/shapes/single-service-style3__shape.png">
-               </div>
-               <div class="text-box">
-                  <h3><a href=""> Regulatory Affairs Executive</a></h3>
-                  <p></p><p>We are seeking a Quality Assurance Executive to support GMP compliance, quality systems, and documentation across pharmaceutical operations.</p><p></p>
-               </div>
-               <div class="btn-box">
-                  <a data-bs-target="#exampleModalToggle1YSP" data-bs-toggle="modal"><i class="icon-plus"></i></a>
-               </div>
-            </div>
-         </div>
-         <!--End Single career Style3-->
-               </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

@@ -1,332 +1,126 @@
-export default function eventPage() {
+"use client";
+import { motion } from "framer-motion";
+import { CalendarDays, MapPin, ArrowRight, Video } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Link from "next/link";
+
+export default function EventPage() {
+  const events = [
+    {
+      title: "Global Conference on Pharmaceutics & Novel Drug Delivery Systems (PPDS)",
+      date: "02 Feb 2026",
+      location: "London, UK",
+      type: "In-Person",
+    },
+    {
+      title: "International Conferences on Nutrition & Health / Dietary Science Series",
+      date: "02 Feb 2026",
+      location: "Geneva, Switzerland",
+      type: "Hybrid",
+    },
+    {
+      title: "European Pharma Outsourcing Summit",
+      date: "02 Feb 2026",
+      location: "Frankfurt, Germany",
+      type: "In-Person",
+    },
+    {
+      title: "Pharmapack Europe — Packaging & Drug Delivery Innovation Summit",
+      date: "02 Feb 2026",
+      location: "Paris, France",
+      type: "In-Person",
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-item-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Events and Conferences</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">News and Media</li>
-                     <li class="active">Events and Conferences</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/press-release" class="text-white">Press Releases
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/media" class="text-white">Media Coverage
-                     </a>
-                  </li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Events & Conferences"
+        paths={[{ name: "News & Media", href: "/media" }, { name: "Events" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-3xl mx-auto text-center mb-20">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
+          >
+            Connect with Plexuspharmaco
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-lg text-slate-600 leading-relaxed"
+          >
+            Meet our leadership team and scientific experts at major global healthcare conferences, trade shows, and industry summits. 
+          </motion.p>
+        </div>
+
+        {/* Events Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          {events.map((event, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group flex flex-col h-full"
+            >
+              <div className="flex justify-between items-start mb-6">
+                <div className="flex items-center gap-2 text-sm font-bold text-brand-700 bg-brand-50 px-3 py-1 rounded-full border border-brand-100">
+                  <CalendarDays className="w-4 h-4" />
+                  {event.date}
+                </div>
+                {event.type === "Hybrid" && (
+                  <div className="flex items-center gap-1 text-xs font-bold text-slate-500 bg-slate-100 px-2 py-1 rounded-full">
+                    <Video className="w-3 h-3" /> Hybrid
+                  </div>
+                )}
+              </div>
+              
+              <h3 className="text-xl font-bold text-brand-900 mb-6 group-hover:text-brand-700 transition-colors flex-grow">
+                {event.title}
+              </h3>
+              
+              <div className="flex items-center gap-2 text-slate-500 mb-8 pt-4 border-t border-slate-100">
+                <MapPin className="w-5 h-5 text-brand-300" />
+                <span className="font-medium">{event.location}</span>
+              </div>
+              
+              <Link href="#" className="inline-flex items-center gap-2 text-brand-700 font-bold hover:text-brand-900 transition-colors mt-auto">
+                Event Details <ArrowRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="bg-brand-900 rounded-3xl p-12 text-center text-white relative overflow-hidden mt-24">
+          <div className="absolute inset-0 opacity-10 mix-blend-overlay">
+            <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div className="relative z-10 max-w-2xl mx-auto">
+            <h3 className="text-3xl font-bold mb-4">Request a Meeting</h3>
+            <p className="text-brand-200 mb-8 text-lg">
+              Attending one of these events? Schedule a private meeting with our business development or scientific teams.
+            </p>
+            <Link href="/business-enquiry" className="inline-flex items-center gap-2 px-8 py-4 bg-white text-brand-900 rounded-xl font-bold hover:bg-brand-50 transition-colors">
+              Schedule Meeting <ArrowRight className="w-5 h-5" />
+            </Link>
+          </div>
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="blog-page-one" id="event">
-   <div class="container">
-    
-      <div class="row justify-content-center">
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'global-conference-on-pharmaceutics-novel-drug-delivery-systems-ppds-','Global Conference on Pharmaceutics &amp; Novel Drug Delivery Systems (PPDS)', 'event-details')">
-                     Global Conference on Pharmaceutics &amp; Novel Drug Delivery Systems (PPDS)                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'global-conference-on-pharmaceutics-novel-drug-delivery-systems-ppds-','Global Conference on Pharmaceutics &amp; Novel Drug Delivery Systems (PPDS)', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'international-conferences-on-nutrition-health-dietary-science-series','International Conferences on Nutrition &amp; Health / Dietary Science Series', 'event-details')">
-                     International Conferences on Nutrition &amp; Health / Dietary Science Series                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'international-conferences-on-nutrition-health-dietary-science-series','International Conferences on Nutrition &amp; Health / Dietary Science Series', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'european-pharma-outsourcing-summit','European Pharma Outsourcing Summit', 'event-details')">
-                     European Pharma Outsourcing Summit                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'european-pharma-outsourcing-summit','European Pharma Outsourcing Summit', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'pharmapack-europe-packaging-drug-delivery-innovation-summit','Pharmapack Europe — Packaging &amp; Drug Delivery Innovation Summit', 'event-details')">
-                     Pharmapack Europe — Packaging &amp; Drug Delivery Innovation Summit                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'pharmapack-europe-packaging-drug-delivery-innovation-summit','Pharmapack Europe — Packaging &amp; Drug Delivery Innovation Summit', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'medica-trade-fair-medical-technology-devices','Medica Trade Fair — Medical Technology &amp; Devices', 'event-details')">
-                     Medica Trade Fair — Medical Technology &amp; Devices                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'medica-trade-fair-medical-technology-devices','Medica Trade Fair — Medical Technology &amp; Devices', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'interphex-usa-japan-pharmaceutical-manufacturing-technology','INTERPHEX (USA &amp; Japan) Pharmaceutical Manufacturing &amp; Technology', 'event-details')">
-                     INTERPHEX (USA &amp; Japan) Pharmaceutical Manufacturing &amp; Technology                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'interphex-usa-japan-pharmaceutical-manufacturing-technology','INTERPHEX (USA &amp; Japan) Pharmaceutical Manufacturing &amp; Technology', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'vitafoods-europe-','Vitafoods Europe ', 'event-details')">
-                     Vitafoods Europe                      </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'vitafoods-europe-','Vitafoods Europe ', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'international-business-partner-meet','International Business Partner Meet', 'event-details')">
-                     International Business Partner Meet                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'international-business-partner-meet','International Business Partner Meet', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'presence-at-arab-health-exhibition','Presence at Arab Health Exhibition', 'event-details')">
-                     Presence at Arab Health Exhibition                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'presence-at-arab-health-exhibition','Presence at Arab Health Exhibition', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-                  <!--Start Single blog Style1-->
-         <div class="col-xl-4 col-lg-4 wow fadeInUp mt-3" data-wow-delay="500ms" data-wow-duration="1500ms">
-            <div class="single-blog-style1">
-               <div class="img-holder">
-                  
-               </div>
-               <div class="text-holder">
-                  <h3 class="blog-title">
-                     <a href="#" onclick="submitForm1(event, 'participation-at-cphi-worldwide','Participation at CPhI Worldwide', 'event-details')">
-                     Participation at CPhI Worldwide                     </a>
-                  </h3>
-                  <div class="meta-box mt-3">
-                     <ul class="meta-info">
-                        <li>
-                           <strong>Date :</strong> 
-                           02 Feb                        </li>
-                     </ul>
-                  </div>
-                  <div class="bottom-box">
-                     <div class="btn-box">
-                        <a href="#" onclick="submitForm1(event, 'participation-at-cphi-worldwide','Participation at CPhI Worldwide', 'event-details')"><i class="icon-plus"></i></a>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!--End Single blog Style1-->
-               </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

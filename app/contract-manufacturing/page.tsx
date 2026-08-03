@@ -1,85 +1,126 @@
-export default function contractmanufacturingPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Factory, ArrowRight, Cog, CheckCircle2, PackageSearch } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function ContractManufacturingPage() {
+  const offerings = [
+    {
+      title: "Contract Manufacturing (CMO)",
+      icon: Factory,
+      description: "End-to-end manufacturing solutions tailored to the evolving needs of global pharmaceutical partners."
+    },
+    {
+      title: "CDMO Services",
+      icon: Cog,
+      description: "Integrated capabilities encompassing formulation support, technology transfer, manufacturing, and regulatory readiness."
+    },
+    {
+      title: "White Labelling",
+      icon: PackageSearch,
+      description: "Rapid market entry solutions while maintaining full compliance, confidentiality, and brand integrity."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Contract Manufacturing</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Manufacturing Capabilities</li>
-                     <li class="active">Contract Manufacturing</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="border-top mt-0 pt-0 text-start"><a href="/manufacture-capability" class="text-white">Manufacturing Capabilities</a></li>
-                  <li class="mt-0 pt-0 text-start"><a href="/quality-assurance.php" class="text-white">Quality Assurance &amp; Control</a></li>
-                  <li class="mt-0 pt-0 text-start"><a href="/regulatory-compliance" class="text-white">Regulatory Compliance</a></li>
-               </ul>
-               <ul>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Contract Manufacturing"
+        paths={[{ name: "Partnering", href: "/partnership" }, { name: "Contract Manufacturing" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-brand-100 mb-6 shadow-sm">
+                <CheckCircle2 className="w-4 h-4 text-brand-700" />
+                <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">Global Standards</span>
+              </div>
+              
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Manufacturing Partnerships Aligned with Global Standards
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                Plexus Group of Companies provides end-to-end Contract Manufacturing (CMO), Contract Development and Manufacturing (CDMO), and White Labelling solutions tailored to the evolving needs of global pharmaceutical and healthcare partners.
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                Our operating model is designed to support products from concept and development through commercialization and scale-up, ensuring speed, flexibility, and consistent quality.
+              </p>
+
+              <Link href="/business-enquiry" className="inline-flex items-center gap-2 px-6 py-3 bg-brand-900 text-white rounded-xl font-medium hover:bg-brand-800 transition-colors">
+                Discuss CMO Services <ArrowRight className="w-4 h-4" />
+              </Link>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[500px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/resources/contract.jpg"
+                alt="Contract Manufacturing"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Offerings Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+          {offerings.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
+        {/* Highlight Section */}
+        <div className="bg-brand-900 rounded-3xl p-12 text-center text-white relative overflow-hidden">
+          <div className="absolute inset-0 opacity-10 mix-blend-overlay">
+            <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+              <path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"/>
+            </svg>
+          </div>
+          <div className="relative z-10 max-w-4xl mx-auto">
+            <h3 className="text-3xl font-bold mb-6">Reliability & Compliance</h3>
+            <p className="text-brand-200 text-lg leading-relaxed">
+              All activities are executed in strict compliance with EU regulatory requirements, U.S. FDA cGMP standards, and globally accepted quality frameworks. With a strong focus on operational excellence, regulatory discipline, and long-term partnership, Plexus Group serves as a reliable manufacturing ally for sustainable global growth.
+            </p>
+          </div>
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="about-style1">
-   <div class="about-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-  
-   </div>
-   <div class="about-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/about-style-1-shape-3.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row justify-content-center align-items-center">
-         <div class="col-xl-6">
-            <div class="about-style1__content">
-               <div class="top-title">
-                  <h2>Manufacturing Partnerships Aligned<br>
-                     with Global Standards
-                  </h2>
-               </div>
-               <div class="text">
-                  <p class="mt-3 text-justify">Plexus Group of Companies provides end-to-end Contract Manufacturing (CMO), Contract Development and Manufacturing (CDMO), and White Labelling solutions tailored to the evolving needs of global pharmaceutical and healthcare partners. Our operating model is designed to support products from concept and development through commercialization and scale-up, ensuring speed, flexibility, and consistent quality.</p>
-                  <p class="mt-3 text-justify">
-                     We offer integrated capabilities encompassing formulation support, technology transfer, manufacturing, primary and secondary packaging, and regulatory readiness, supported by validated systems and advanced manufacturing infrastructure. All activities are executed in strict compliance with EU regulatory requirements, U.S. FDA cGMP standards, and globally accepted quality frameworks.
-                  </p>
-                  <p class="mt-3 text-justify">Our white labelling solutions enable rapid market entry while maintaining full compliance, confidentiality, and brand integrity. With a strong focus on operational excellence, regulatory discipline, and long-term partnership, Plexus Group serves as a reliable manufacturing ally for sustainable global growth.</p>
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-6">
-            <img src="/assets/images/resources/contract.jpg" class="contract-img" alt="Contract Manufacturing">
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

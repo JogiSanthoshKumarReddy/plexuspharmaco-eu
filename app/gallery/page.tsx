@@ -1,117 +1,109 @@
-export default function galleryPage() {
+"use client";
+import { useState } from "react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Expand, X } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+
+export default function GalleryPage() {
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+
+  const images = [
+    { id: 1, src: "/assets/images/g1.jpg", alt: "Corporate Facility" },
+    { id: 2, src: "/assets/images/g2.jpg", alt: "Manufacturing Plant" },
+    { id: 3, src: "/assets/images/g3.jpg", alt: "Laboratory" },
+    { id: 4, src: "/assets/images/g4.jpg", alt: "Team Collaboration" },
+    { id: 5, src: "/assets/images/g5.jpg", alt: "Logistics Hub" },
+    { id: 6, src: "/assets/images/g6.jpg", alt: "Research Center" },
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-            <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-            </div>
-            <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-            </div>
-            <div class="container">
-                <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="inner-content">
-                            <div class="title">
-                                <h2>Our Gallery</h2>
-                            </div>
-                            <div class="breadcrumb-menu">
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                     <li class="active">Careers</li>
-                                    <li class="active">Our Gallery</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    
-                    
-                     <div class="col-md-6 pt-2 pb-3 quick-explore">
-                        <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-                        <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-                            <ul>
-                                <li class="mt-0 pt-0 text-start"><a href="/life" class="text-white">Life at Plexuspharmaco
-</a></li>
-                                <li class="mt-0 pt-0 text-start"><a href="/job-opening" class="text-white">Job Openings
-</a></li>
-<li class="mt-0 pt-0 text-start"><a href="/internship" class="text-white">Internship &amp; Training
-</a></li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-<section class="container mt-5 mb-5">
-    <div class="">
-       
-        <div class="row popup-gallery">
-            
-            <div class="col-md-4 mb-3">
-              <a href="/assets/images/g1.jpg" class="image-overlay">
-                <img src="/assets/images/g1.jpg" class="g-img" alt="Photo Gallery">
-                <div class="overlay">
-                    <i class="fa fa-eye"></i>
-                </div>
-              </a>  
-            </div>
-              <div class="col-md-4 mb-3">
-              <a href="/assets/images/g2.jpg" class="image-overlay" alt="Photo Gallery">
-                <img src="/assets/images/g2.jpg" class="g-img">
-                <div class="overlay">
-                    <i class="fa fa-eye"></i>
-                </div>
-              </a>  
-            </div>
-              <div class="col-md-4 mb-3">
-              <a href="/assets/images/g3.jpg" class="image-overlay" alt="Photo Gallery">
-                <img src="/assets/images/g3.jpg" class="g-img">
-                <div class="overlay">
-                    <i class="fa fa-eye"></i>
-                </div>
-              </a>  
-            </div>
-              <div class="col-md-4 mb-3">
-              <a href="/assets/images/g4.jpg" class="image-overlay" alt="Photo Gallery">
-                <img src="/assets/images/g4.jpg" class="g-img">
-                <div class="overlay">
-                    <i class="fa fa-eye"></i>
-                </div>
-              </a>  
-            </div>
-              <div class="col-md-4 mb-3">
-              <a href="/assets/images/g5.jpg" class="image-overlay" alt="Photo Gallery">
-                <img src="/assets/images/g5.jpg" class="g-img">
-                <div class="overlay">
-                    <i class="fa fa-eye"></i>
-                </div>
-              </a>  
-            </div>
-              <div class="col-md-4 mb-3">
-              <a href="/assets/images/g6.jpg" class="image-overlay" alt="Photo Gallery">
-                <img src="/assets/images/g6.jpg" class="g-img">
-                <div class="overlay">
-                    <i class="fa fa-eye"></i>
-                </div>
-              </a>  
-            </div>
-       
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Our Gallery"
+        paths={[{ name: "Careers", href: "#" }, { name: "Gallery" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
         
+        {/* Intro Section */}
+        <div className="text-center mb-16">
+          <h2 className="text-4xl font-bold text-brand-900 mb-4">
+            Inside Plexuspharmaco
+          </h2>
+          <p className="text-lg text-slate-600 max-w-2xl mx-auto">
+            Explore our state-of-the-art facilities, research laboratories, and the dedicated teams driving global healthcare innovation.
+          </p>
         </div>
+
+        {/* Masonry-style Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {images.map((img, idx) => (
+            <motion.div
+              key={img.id}
+              initial={{ opacity: 0, scale: 0.9 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="relative h-64 sm:h-72 lg:h-80 rounded-2xl overflow-hidden group cursor-pointer shadow-sm hover:shadow-xl transition-all duration-300"
+              onClick={() => setSelectedImage(img.src)}
+            >
+              <Image 
+                src={img.src}
+                alt={img.alt}
+                fill
+                className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
+              />
+              <div className="absolute inset-0 bg-brand-900/0 group-hover:bg-brand-900/40 transition-colors duration-300 flex items-center justify-center">
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  whileHover={{ opacity: 1, y: 0 }}
+                  className="w-12 h-12 bg-white rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-all duration-300 delay-100 transform scale-75 group-hover:scale-100 shadow-xl"
+                >
+                  <Expand className="w-5 h-5 text-brand-900" />
+                </motion.div>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
+      </div>
+
+      {/* Lightbox Modal */}
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            onClick={() => setSelectedImage(null)}
+            className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm cursor-zoom-out"
+          >
+            <button 
+              className="absolute top-6 right-6 text-white hover:text-brand-300 transition-colors bg-white/10 p-2 rounded-full"
+              onClick={() => setSelectedImage(null)}
+            >
+              <X className="w-8 h-8" />
+            </button>
+            <motion.div
+              initial={{ scale: 0.9 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.9 }}
+              className="relative w-full max-w-5xl aspect-video rounded-xl overflow-hidden shadow-2xl"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <Image 
+                src={selectedImage}
+                alt="Enlarged gallery image"
+                fill
+                className="object-contain"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
     </div>
-</section>
-` }} />
   );
 }

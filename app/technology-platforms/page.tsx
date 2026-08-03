@@ -1,97 +1,109 @@
-export default function technologyplatformsPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Cpu, Fingerprint, Database, CheckCircle2 } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+
+export default function TechnologyPlatformsPage() {
+  const pillars = [
+    {
+      title: "Advanced Formulation",
+      icon: Cpu,
+      description: "Applying liposomal and specialized delivery systems designed to support diverse dosage forms."
+    },
+    {
+      title: "Digital Integration",
+      icon: Database,
+      description: "Deploying electronic Quality Management Systems (eQMS) and data-driven compliance tools for faster regulatory responses."
+    },
+    {
+      title: "Continuous Improvement",
+      icon: Fingerprint,
+      description: "Integrating digital quality platforms with manufacturing to ensure data integrity and execution excellence."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/breadcrumb-1.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Technology Platforms</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Innovation &amp; Technology</li>
-                     <li class="active">Technology Platforms</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/research" class="text-white">Research &amp; Development</a></li>
-                  <li class="mt-0 pt-0 text-start"><a href="/intellectual-property" class="text-white">Intellectual Property</a></li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Technology Platforms"
+        paths={[{ name: "Innovation", href: "/research-development" }, { name: "Technology Platforms" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-brand-100 mb-6 shadow-sm">
+                <CheckCircle2 className="w-4 h-4 text-brand-700" />
+                <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">Scalable & Compliant</span>
+              </div>
+              
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Technology-Enabled Solutions
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                Technology at Plexus Group is selected and deployed through a structured, evidence-based approach that balances scientific robustness, regulatory acceptability, and commercial scalability. 
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                Our technology platforms are designed to support diverse dosage forms and delivery systems while meeting global regulatory expectations. We apply advanced formulation technologies, supported by process engineering and digital enablement.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                Digitalization is a core pillar of our technology strategy, enabling proactive risk identification, faster regulatory responses, and effective lifecycle management across products and geographies.
+              </p>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/img/i2.jpg"
+                alt="Technology Platforms"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Pillars Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+          {pillars.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-white rounded-3xl p-8 border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="service-details-page">
-   <div class="container">
-      <div class="row justify-content-center">
-         <!--Start Service Details Page Content-->
-         <div class="col-xl-10 col-lg-10">
-            <div class="service-details-page__content">
-               <!-- Main Image -->
-               <!--<div class="service-details-page__main-img">-->
-               <!--    <img src="/assets/images/img/i2.jpg" alt="" class="img-border">-->
-               <!--</div>-->
-               <div class="features-style1__img mt-3">
-                  <div class="features-style1__shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                     <img class="rotate-me" src="/assets/images/shapes/features-style1-shape-2.png" alt="shape">
-                  </div>
-                  <div class="box one"></div>
-                  <div class="box two"></div>
-                  <div class="box three"></div>
-                  <div class="box four"></div>
-                  <div class="features-style1__img-inner">
-                     <img src="/assets/images/img/i2.jpg" alt="Technology Platforms">
-                  </div>
-               </div>
-               <!-- Main Text -->
-               <div class="service-details-page__text1 img-border mt-3 text-justify">
-                  <div class="top-title">
-                     <h2>Technology-Enabled, Scalable, and Compliant Solutions</h2>
-                  </div>
-                  <p>
-                     Technology at Plexus Group is selected and deployed through a structured, evidence-based approach that balances scientific robustness, regulatory acceptability, and commercial scalability. Our technology platforms are designed to support diverse dosage forms and delivery systems while meeting global regulatory expectations.
-                  </p>
-                  <p>
-                     We apply advanced formulation technologies, including liposomal and specialized delivery systems, supported by process engineering and digital enablement. Technology selection is driven bytherapeutic need, manufacturability, lifecycle sustainability, and global compliance readiness, ensuring adaptability across markets.
-                  </p>
-                  <p>
-                     Digitalization is a core pillar of our technology strategy. We deploy electronic Quality Management Systems (eQMS), data-driven compliance tools, and advanced analytics to enhance traceability, audit readiness, and decision-making accuracy. These platforms enable  proactive risk identification, faster regulatory responses, and effective lifecycle management  across products and geographies.
-                  </p>
-                  <p>
-                     By integrating digital quality platforms with manufacturing and development processes, we ensure  operational efficiency, data integrity, and continuous improvement, strengthening both regulatory confidence and execution excellence.
-                  </p>
-               </div>
-            </div>
-         </div>
-         <!--End Service Details Page Content-->
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

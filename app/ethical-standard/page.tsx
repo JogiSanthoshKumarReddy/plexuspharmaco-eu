@@ -1,95 +1,99 @@
-export default function ethicalstandardPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Scale, Users, Shield, ArrowRight } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Link from "next/link";
+
+export default function EthicalStandardPage() {
+  const standards = [
+    {
+      title: "Regulatory Compliance",
+      icon: Scale,
+      description: "Adherence to international ethical business practices, data integrity principles, and global safety requirements."
+    },
+    {
+      title: "Evidence-Based Decisions",
+      icon: Shield,
+      description: "Responsible innovation enforced through robust governance and compliance frameworks."
+    },
+    {
+      title: "Transparent Engagement",
+      icon: Users,
+      description: "Our engagement with partners and healthcare professionals is governed by clear conflict-of-interest policies."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-            <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-            </div>
-            <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-            </div>
-            <div class="container">
-                 <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="inner-content">
-                            <div class="title">
-                                <h2>Ethical Standards</h2>
-                            </div>
-                            <div class="breadcrumb-menu">
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li class="active">Corporate Social Responsibility (CSR)</li>
-                                    <li class="active">Ethical Standards</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6 pt-2 pb-3 quick-explore">
-                        <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-                        <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-                            <ul>
-                                <li class="mt-0 pt-0 text-start"><a href="/sustainability" class="text-white">Sustainability &amp; Environment
-</a></li>
-                                <li class="mt-0 pt-0 text-start"><a href="/health-community" class="text-white">Health &amp; Community Initiatives
-</a></li>
-                               
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-<section class="about-style1">
-            <div class="about-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-y" src="/assets/images/shapes/about-style-1-shape-1.png" alt="shape">
-            </div>
-            <div class="about-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-x" src="/assets/images/shapes/about-style-1-shape-3.png" alt="shape">
-            </div>
-            <div class="container">
-                <div class="row justify-content-center">
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Ethical Standards"
+        paths={[{ name: "CSR", href: "#" }, { name: "Ethical Standards" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
 
-                 
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-4xl mx-auto text-center mb-20">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
+          >
+            Integrity, Compliance, and Responsible Governance
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-lg text-slate-600 leading-relaxed mb-6"
+          >
+            Ethical conduct is a foundational pillar of Corporate Social Responsibility at Plexus Group of Companies. Our ethical standards are rooted in scientific integrity, regulatory compliance, transparency, and accountability, guiding every aspect of our operations and decision-making.
+          </motion.p>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-lg text-slate-600 leading-relaxed"
+          >
+            Through strong ethical governance and transparent reporting, Plexus builds trust with stakeholders and reinforces its commitment to responsible, compliant, and sustainable healthcare advancement.
+          </motion.p>
+        </div>
 
-                    <div class="col-xl-10">
-                        <div class="about-style1__content">
-                            <div class="top-title">
-                                <h2>Integrity, Compliance, and Responsible Governance
-                                </h2>
-                            </div>
-                           
-                            <div class="text">
-                                <p class="mt-3 text-justify">Ethical conduct is a foundational pillar of Corporate Social Responsibility at Plexus Group of Companies. Our ethical standards are rooted in scientific integrity, regulatory compliance, transparency, and accountability, guiding every aspect of our operations and decision-making.</p>
+        {/* Standards Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 max-w-6xl mx-auto">
+          {standards.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:bg-white hover:shadow-xl transition-all duration-300 group"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-white shadow-sm text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-900 group-hover:text-white transition-colors duration-300">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+        
+        <div className="text-center">
+          <Link href="/compilance-reporting" className="inline-flex items-center gap-2 px-8 py-4 bg-brand-900 text-white rounded-xl font-bold hover:bg-brand-800 transition-colors shadow-lg hover:shadow-xl">
+            View Compliance & Reporting <ArrowRight className="w-5 h-5" />
+          </Link>
+        </div>
 
-                                <p class="mt-3 text-justify">
-                                	We operate within highly regulated pharmaceutical and healthcare environments and adhere to international ethical business practices, data integrity principles, and patient safety requirements. Evidence-based decision-making, research ethics, and responsible innovation are enforced through robust governance and compliance frameworks.
-                                </p>
-                                <p class="mt-3 text-justify">Our engagement with employees, partners, healthcare professionals, and research institutions is governed by clear ethical guidelines, conflict-of-interest policies, and compliance oversight mechanisms. Regular training, audits, and performance reviews ensure awareness, adherence, and continuous improvement.</p>
-                                <p class="mt-3 text-justify">Through strong ethical governance and transparent reporting, Plexus builds trust with stakeholders and reinforces its commitment to responsible, compliant, and sustainable healthcare advancement.</p>
-                            </div>
-
-                          
-
-                        </div>
-
-                        
-                    </div>
-
-
-
-                </div>
-            </div>
-        </section>
-` }} />
+      </div>
+    </div>
   );
 }

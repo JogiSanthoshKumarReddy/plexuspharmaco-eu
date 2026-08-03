@@ -1,114 +1,119 @@
-export default function financialreportPage() {
+"use client";
+import { motion } from "framer-motion";
+import { FileText, Download, ShieldCheck, ArrowRight } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+import Link from "next/link";
+
+export default function FinancialReportPage() {
+  const reports = [
+    { year: "2023", title: "Annual Financial Report", type: "PDF", size: "4.2 MB" },
+    { year: "2023", title: "ESG & Sustainability Report", type: "PDF", size: "5.1 MB" },
+    { year: "2022", title: "Annual Financial Report", type: "PDF", size: "3.8 MB" },
+    { year: "2022", title: "Q4 Earnings Release", type: "PDF", size: "1.2 MB" },
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-            <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Financial Reports"
+        paths={[{ name: "Investors", href: "/investor-relation" }, { name: "Financial Reports" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-100 border border-slate-200 mb-6 shadow-sm">
+                <ShieldCheck className="w-4 h-4 text-brand-700" />
+                <span className="text-sm font-bold text-brand-900 uppercase tracking-widest">IFRS & GAAP Compliant</span>
+              </div>
+              
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Transparent and Auditable Financial Reporting
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                Plexus Group of Companies adheres to the highest international accounting and reporting standards, ensuring transparency, accuracy, and regulatory compliance.
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                In alignment with global sustainability expectations, we integrate ESG reporting frameworks to provide insights on environmental, social, and governance initiatives, demonstrating our commitment to responsible and sustainable business practices.
+              </p>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[400px]"
+            >
+              <Image 
+                src="/assets/images/resources/finance.png"
+                alt="Financial Report"
+                fill
+                className="object-contain"
+              />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Reports Download Grid */}
+        <div className="bg-slate-50 rounded-3xl p-8 lg:p-12 border border-slate-100">
+          <div className="flex flex-col md:flex-row justify-between items-end mb-10">
+            <div>
+              <h3 className="text-3xl font-bold text-brand-900 mb-3">Document Library</h3>
+              <p className="text-slate-600">Download our latest financial and sustainability reports.</p>
             </div>
-            <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-            </div>
-            <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-            </div>
-            <div class="container">
-               <div class="row align-items-center">
-                    <div class="col-md-6">
-                        <div class="inner-content">
-                            <div class="title">
-                                <h2>Investor </h2>
-                            </div>
-                            <div class="breadcrumb-menu">
-                                <ul>
-                                    <li><a href="/">Home</a></li>
-                                    <li class="active">Investor</li>
-                                    <li class="active">Investor</li>
-                                </ul>
-                            </div>
-                        </div>
+            <Link href="/investor-relation" className="text-brand-700 font-bold hover:text-brand-900 flex items-center gap-2 mt-4 md:mt-0 transition-colors">
+              Back to Investor Relations <ArrowRight className="w-4 h-4" />
+            </Link>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            {reports.map((report, idx) => (
+              <motion.a
+                href="#"
+                key={idx}
+                initial={{ opacity: 0, y: 20 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className="flex items-center justify-between p-6 bg-white rounded-2xl border border-slate-200 hover:border-brand-500 hover:shadow-lg transition-all duration-300 group cursor-pointer"
+              >
+                <div className="flex items-center gap-5">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 text-brand-700 flex items-center justify-center group-hover:bg-brand-900 group-hover:text-white transition-colors">
+                    <FileText className="w-6 h-6" />
+                  </div>
+                  <div>
+                    <div className="flex items-center gap-2 mb-1">
+                      <span className="text-xs font-bold px-2 py-0.5 rounded bg-slate-100 text-slate-600">{report.year}</span>
+                      <span className="text-xs font-bold px-2 py-0.5 rounded bg-brand-50 text-brand-700">{report.type}</span>
                     </div>
-                    <div class="col-md-6 pt-2 pb-3 quick-explore">
-                        <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-                        <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-                            <ul>
-                               
-<li class="mt-0 pt-0 text-start"><a href="/investor-relation" class="text-white">Investor
-</a></li>
-                               
-                            </ul>
-                        </div>
-                    </div>
+                    <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors">{report.title}</h4>
+                  </div>
                 </div>
-            </div>
-        </section>
-<section class="mb-5" id="financial">
-            <div class="about-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-y" src="/assets/images/shapes/about-style-1-shape-1.png" alt="shape">
-            </div>
-            <div class="about-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                <img class="float-bob-x" src="/assets/images/shapes/about-style-1-shape-3.png" alt="shape">
-            </div>
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-
-                   
-
-                    <div class="col-xl-7 mt-3">
-                        <div class="about-style1__content">
-                            <div class="top-title">
-                                <h2>Financial reports (PDFs / data)
-                                </h2>
-                            </div>
-                           
-                            <div class="text">
-                                <p class="mt-3 text-justify">Plexus Group of Companies adheres to the highest international accounting and reporting standards, ensuring transparency, accuracy, and regulatory compliance. Our financial reports are prepared in accordance with IFRS and GAAP, with comprehensive disclosures covering balance sheets, income statements, cash flows, and key performance indicators.</p>
-
-                                <p class="mt-3 text-justify">
-                                    In alignment with global sustainability expectations, we integrate ESG reporting frameworks to provide insights on environmental, social, and governance initiatives, demonstrating our commitment to responsible and sustainable business practices.
-                                </p>
-                                <p class="mt-3 text-justify">Through this rigorous, standards-driven reporting, we empower investors, regulators, and stakeholders with reliable, auditable, and actionable information to make informed decisions, maintain trust, and monitor long-term value creation.</p>
-                            </div>
-
-                          
-
-                        </div>
-
-                    </div>
-
-
-
-                     <div class="col-xl-5 mt-3">
-                      
-                       
-                       
-                        
-                          <div class="features-style1__img mt-3 ms-3">
-                            <div class="features-style1__shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                                <img class="rotate-me" src="/assets/images/shapes/features-style1-shape-2.png" alt="shape">
-                            </div>
-                            <div class="box one"></div>
-                            <div class="box two"></div>
-                            <div class="box three"></div>
-                            <div class="box four"></div>
-                            <div class="features-style1__img-inner">
-                                <img src="/assets/images/resources/finance.png" class="licensing-img" alt="Financial Report">
-                            </div>
-                        </div>
-                                
-                    </div>
-
-
-
+                <div className="flex items-center gap-3">
+                  <span className="text-sm font-medium text-slate-400 hidden sm:block">{report.size}</span>
+                  <div className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-brand-900 group-hover:bg-brand-50 transition-colors">
+                    <Download className="w-5 h-5" />
+                  </div>
                 </div>
-            </div>
-        </section>
-` }} />
+              </motion.a>
+            ))}
+          </div>
+        </div>
+
+      </div>
+    </div>
   );
 }

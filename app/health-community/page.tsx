@@ -1,81 +1,99 @@
-export default function healthcommunityPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Globe2, HeartHandshake, Leaf, ArrowRight } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Link from "next/link";
+
+export default function HealthCommunityPage() {
+  const initiatives = [
+    {
+      title: "Sustainable Access",
+      icon: Globe2,
+      description: "Contributing to public health through compliant manufacturing and transparent supply chains."
+    },
+    {
+      title: "Community Engagement",
+      icon: HeartHandshake,
+      description: "Focusing on health awareness, education, and skill development through structured, long-term programs."
+    },
+    {
+      title: "Shared Value",
+      icon: Leaf,
+      description: "Integrating social responsibility into our core mission, addressing unmet medical and societal needs."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/event-bg.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Health &amp; Community Initiatives</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Corporate Social Responsibility (CSR)</li>
-                     <li class="active">Health &amp; Community Initiatives</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/sustainability" class="text-white">Sustainability &amp; Environment
-                     </a>
-                  </li>
-                  <li class="mt-0 pt-0 text-start"><a href="/ethical-standard" class="text-white">Ethical Standards</a></li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Health & Community Initiatives"
+        paths={[{ name: "CSR", href: "#" }, { name: "Health & Community" }]}
+        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-4xl mx-auto text-center mb-20">
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
+          >
+            Advancing Health Access & Well-Being
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-lg text-slate-600 leading-relaxed mb-6"
+          >
+            At Plexus Group of Companies, health and community initiatives are designed as long-term, impact-driven programs aligned with our commitment to strengthening healthcare systems and improving patient outcomes.
+          </motion.p>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-lg text-slate-600 leading-relaxed"
+          >
+            Our approach prioritizes sustainable healthcare access, education, and capacity building, particularly in emerging and underserved regions. These efforts support healthcare resilience while addressing unmet medical and societal needs.
+          </motion.p>
+        </div>
+
+        {/* Initiatives Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20 max-w-6xl mx-auto">
+          {initiatives.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:bg-white hover:shadow-xl transition-all duration-300 group"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-white shadow-sm text-brand-700 flex items-center justify-center mb-6 group-hover:bg-brand-900 group-hover:text-white transition-colors duration-300">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+        
+        <div className="text-center">
+          <Link href="/sustainability" className="inline-flex items-center gap-2 px-8 py-4 bg-brand-900 text-white rounded-xl font-bold hover:bg-brand-800 transition-colors shadow-lg hover:shadow-xl">
+            View Sustainability Initiatives <ArrowRight className="w-5 h-5" />
+          </Link>
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="about-style1">
-   <div class="about-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/about-style-1-shape-1.png" alt="shape">
-   </div>
-   <div class="about-style1__shape2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/about-style-1-shape-3.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row justify-content-center">
-         <div class="col-xl-10">
-            <div class="about-style1__content">
-               <div class="top-title">
-                  <h2>Advancing Health Access and Community Well-Being
-                  </h2>
-               </div>
-               <div class="text">
-                  <p class="mt-3 text-justify">At Plexus Group of Companies, health and community initiatives are designed as long-term, impact-driven programs aligned with our commitment to strengthening healthcare systems and improving patient outcomes. Our approach prioritizes sustainable healthcare access, education, and capacity building, particularly in emerging and underserved regions.</p>
-                  <p class="mt-3 text-justify">
-                     We contribute to public health advancement through responsible product development, compliant manufacturing practices, and transparent supply chains that ensure the availability of safe, effective, and high-quality healthcare solutions. These efforts support healthcare resilience while addressing unmet medical and societal needs.
-                  </p>
-                  <p class="mt-3 text-justify">Community engagement initiatives focus on health awareness, education, skill development, and well-being, implemented through structured programs rather than short-term interventions. Our initiatives are designed to be scalable, measurable, and locally relevant, ensuring meaningful and lasting social impact.</p>
-                  <p class="mt-3 text-justify">By aligning healthcare delivery with community development, Plexus integrates social responsibility into its core mission—creating shared value for patients, communities, and healthcare ecosystems worldwide.</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

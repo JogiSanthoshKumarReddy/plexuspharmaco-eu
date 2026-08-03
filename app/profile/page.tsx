@@ -1,285 +1,136 @@
-export default function profilePage() {
+"use client";
+import { motion } from "framer-motion";
+import { MapPin, Building2, Globe2, ArrowRight } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
+
+export default function ProfilePage() {
+  const regions = [
+    {
+      title: "India",
+      type: "HO & Manufacturing",
+      facilities: ["Plexus Biogenix LLP", "Plexus Biocare Pvt. Ltd."],
+      image: "/assets/images/india.jpg"
+    },
+    {
+      title: "Germany",
+      type: "HO & Manufacturing",
+      facilities: ["Frankenstr 34, 96146", "Altendorf, Germany"],
+      image: "/assets/images/germany.png"
+    },
+    {
+      title: "Turkey",
+      type: "HO & Manufacturing",
+      facilities: ["Mimar Sinan Mahallesi", "Sultanbeyli, Istanbul"],
+      image: "/assets/images/turkey.jpg"
+    },
+    {
+      title: "Poland",
+      type: "JV Manufacturing",
+      facilities: ["EU-GMP Certified Facility", "Solid & Liquid Orals"],
+      image: "/assets/images/poland.png"
+    },
+    {
+      title: "Spain",
+      type: "JV Manufacturing",
+      facilities: ["Advanced Injectables", "Dermo-Cosmetics Hub"],
+      image: "/assets/images/spain.webp"
+    },
+    {
+      title: "United States",
+      type: "JV Manufacturing",
+      facilities: ["FDA-Approved Facility", "Specialized Formulations"],
+      image: "/assets/images/us.png"
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/breadcrumb-1.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Country <span class="ff">Profiles</span></h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Global Markets</li>
-                     <li class="active">Country <span class="ff">Profiles</span></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/presence" class="text-white">Global Presence</a></li>
-                  <li class="mt-0 pt-0 text-start"><a href="/logistics" class="text-white">Export &amp; Logistics</a></li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Country Profiles"
+        paths={[{ name: "Global Markets", href: "#" }, { name: "Country Profiles" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="max-w-4xl mx-auto text-center mb-20">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-900/10 border border-brand-900/20 mb-6 shadow-sm"
+          >
+            <Globe2 className="w-4 h-4 text-brand-900" />
+            <span className="text-sm font-bold text-brand-900 uppercase tracking-widest">Global Integrated Footprint</span>
+          </motion.div>
+
+          <motion.h2 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.1 }}
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
+          >
+            Worldwide Manufacturing & Supply Continuity
+          </motion.h2>
+          
+          <motion.p 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.2 }}
+            className="text-lg text-slate-600 leading-relaxed mb-6"
+          >
+            Plexuspharmaco operates a globally integrated footprint supporting compliant manufacturing, regional market access, and supply continuity. The Group owns manufacturing facilities in Germany, Turkey, and India, complemented by joint-venture manufacturing sites in Poland, Spain, and the United States.
+          </motion.p>
+        </div>
+
+        {/* Regions Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-20">
+          {regions.map((region, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.1 }}
+              className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300 group"
+            >
+              <div className="relative h-48 w-full bg-slate-100">
+                <Image 
+                  src={region.image}
+                  alt={region.title}
+                  fill
+                  className="object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-900/80 to-transparent" />
+                <h3 className="absolute bottom-4 left-6 text-2xl font-bold text-white">
+                  {region.title}
+                </h3>
+              </div>
+              
+              <div className="p-6">
+                <div className="flex items-center gap-2 mb-4 text-sm font-bold text-brand-700 bg-brand-50 px-3 py-1 rounded-full border border-brand-100 w-fit">
+                  <Building2 className="w-4 h-4" />
+                  {region.type}
+                </div>
+                
+                <ul className="space-y-3">
+                  {region.facilities.map((facility, fIdx) => (
+                    <li key={fIdx} className="flex items-start gap-2 text-slate-600">
+                      <MapPin className="w-5 h-5 text-slate-400 shrink-0 mt-0.5" />
+                      <span>{facility}</span>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="">
-   <div class="container">
-      <h2 class="mt-5">Country <span class="ff">Profiles</span></h2>
-      <p class="mb-5 text-justify mt-4">Plexuspharmaco operates a globally integrated footprint supporting compliant
-         manufacturing, regional market access, and supply continuity. The Group owns
-         manufacturing facilities in Germany, Turkey, and India, complemented by joint-venture
-         manufacturing sites in Poland, Spain, and the United States. Regional operations are
-         further supported by Strategic Business Units (SBUs) in Ecuador, the Netherlands,
-         Nigeria, and Australia, serving as hubs for regulatory coordination, distribution oversight,
-         and market execution. This structured country presence enables consistent quality,
-         regulatory compliance, and sustainable global operations.
-      </p>
-      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
-         <li class="nav-item" role="presentation">
-            <button class="nav-link active m-2 border" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Our HO &amp; Manufacturing Sites</button>
-         </li>
-         <li class="nav-item" role="presentation">
-            <button class="nav-link m-2 border" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Our Manufacturing (JV) Sites</button>
-         </li>
-         <li class="nav-item" role="presentation">
-            <button class="nav-link m-2 border" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Our SBU Locations</button>
-         </li>
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-         <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-            <div class="service-style1 pt-5">
-               <ul class="row">
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/india.jpg" width="100px" alt="India">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>India</a></h3>
-                        </div>
-                        <div class="text">
-                           <p><strong>HO &amp; Manufacturing</strong></p>
-                           <p>Plexus Biogenix LLP</p>
-                           <p>Plexus Biocare Pvt. Ltd.</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/germany.png" width="100px" alt="Germany">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Germany</a></h3>
-                        </div>
-                        <div class="text">
-                           <p><strong>HO &amp; Manufacturing</strong></p>
-                           <p>Frankenstr 34,96146</p>
-                           <p>Altendorf, Germany</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/turkey.jpg" width="100px" alt="Turkey">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Turkey</a></h3>
-                        </div>
-                        <div class="text">
-                           <p><strong>HO &amp; Manufacturing</strong></p>
-                           <p>Mimar Sinan Mahallesi, Mimar Sinan</p>
-                           <p>Caddesi, Keresteci Sokak No:2,</p>
-                           <p>Sultanbeyli, Istanbul, Republic of Turkey</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-               </ul>
-            </div>
-         </div>
-         <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-            <div class="service-style1 pt-5">
-               <ul class="row">
-                  <li class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/poland.png" width="100px" alt="Poland">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Poland</a></h3>
-                        </div>
-                        <div class="text">
-                           <!--<p><strong>HO & Manufacturing</strong></p>-->
-                           <p>101 Ostrobramska Street, 04-041</p>
-                           <p>Warszawa, Poland</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/spain.png" width="100px" alt="Spain">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Spain</a></h3>
-                        </div>
-                        <div class="text">
-                           <p>Calle Albert Einstein,</p>
-                           <p>15Parque Tecnologico de</p>
-                           <p>Alava01510 Vitoria-Gasteiz,</p>
-                           <p>Alava, Spain</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-4 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/usa.jpg" width="100px" alt="USA">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>USA</a></h3>
-                        </div>
-                        <div class="text">
-                           <p>6105 Preservation Drive</p>
-                           <p>Chattanooga, Tennessee</p>
-                           <p>37416, USA</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-               </ul>
-            </div>
-         </div>
-         <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-            <div class="service-style1 pt-5">
-               <ul class="row">
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/australia.jpg" width="100px" alt="Australia">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Australia</a></h3>
-                        </div>
-                        <div class="text">
-                           <p>1Fyfe circle, Bullcreek,</p>
-                           <p>Western Australia,</p>
-                           <p>Perth - 6149, Australia</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/nigeria.jpg" width="100px" alt="Nigeria">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Nigeria</a></h3>
-                        </div>
-                        <div class="text">
-                           <p>13 Tinubu Road</p>
-                           <p>Palmgrove Estate</p>
-                           <p>Palmgrove Lagos, Nigeria </p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/netherland.png" width="100px" alt="Netherands">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Netherands</a></h3>
-                        </div>
-                        <div class="text">
-                           <p>Flevoweg 12, 2318 BZ</p>
-                           <p>Leiden, Netherands.</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-                  <!--Start Single Service Style1-->
-                  <li class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="100ms" data-wow-duration="1500ms">
-                     <div class="single-service-style1 p-4">
-                        <div class="single-service-style1__bg bg-background-area" data-bg="/assets/images/shapes/service-style1-shape-1.png">
-                        </div>
-                        <div class="icon-box mb-2">
-                           <img src="/assets/images/ecuador.jpg" width="100px" alt="Ecuador">
-                        </div>
-                        <div class="title-box mb-2">
-                           <h3><a>Ecuador</a></h3>
-                        </div>
-                        <div class="text">
-                           <p>Juan Leon mera N24</p>
-                           <p>288 y Cordero, 17043,</p>
-                           <p>Quito Ecuador</p>
-                        </div>
-                     </div>
-                  </li>
-                  <!--End Single Service Style1-->
-               </ul>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-` }} />
+    </div>
   );
 }

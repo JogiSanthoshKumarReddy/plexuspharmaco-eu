@@ -1,88 +1,110 @@
-export default function researchPage() {
+"use client";
+import { motion } from "framer-motion";
+import { Microscope, Activity, Link as LinkIcon, ShieldCheck } from "lucide-react";
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Link from "next/link";
+import Image from "next/image";
+
+export default function ResearchPage() {
+  const highlights = [
+    {
+      title: "Translational Science",
+      icon: Microscope,
+      description: "Data integrity and rigorous scientific methodology driving innovations from the lab directly to patient care."
+    },
+    {
+      title: "Quality by Design (QbD)",
+      icon: Activity,
+      description: "Integrating risk-based models and real-time monitoring to ensure robust and reproducible outcomes."
+    },
+    {
+      title: "Global Collaboration",
+      icon: LinkIcon,
+      description: "Working closely with academic institutions and contract research organizations to accelerate timelines."
+    }
+  ];
+
   return (
-    <div dangerouslySetInnerHTML={{ __html: `<section class="breadcrumb-style1">
-   <div class="breadcrumb-style1-bg bg-background-area" data-bg="/assets/images/breadcrumb/breadcrumb-1.jpg">
-   </div>
-   <div class="breadcrumb-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src="/assets/images/shapes/breadcrumb-style1__shape1.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape2 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-x" src="/assets/images/shapes/breadcrumb-style1__shape2.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape3 wow slideInUp" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class=" rotatescale" src="/assets/images/shapes/breadcrumb-style1__shape3.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape4 wow slideInDown" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob" src="/assets/images/shapes/breadcrumb-style1__shape4.png" alt="shape">
-   </div>
-   <div class="breadcrumb-style1__shape5 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-right" src="/assets/images/shapes/breadcrumb-style1__shape5.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row align-items-center">
-         <div class="col-md-6">
-            <div class="inner-content">
-               <div class="title">
-                  <h2>Research &amp; Development</h2>
-               </div>
-               <div class="breadcrumb-menu">
-                  <ul>
-                     <li><a href="/">Home</a></li>
-                     <li class="active">Innovation &amp; Technology</li>
-                     <li class="active">Research &amp; Development</li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-         <div class="col-md-6 pt-2 pb-3 quick-explore">
-            <h6 class="fw-bold text-white mb-1 text-start border-bottom d-inline-block pb-1">Quick Explore</h6>
-            <div class="d-md-flex d-block gap-1 justify-content-start position-relative">
-               <ul>
-                  <li class="mt-0 pt-0 text-start"><a href="/technology-platforms" class="text-white">Technology Platforms</a></li>
-                  <li class="mt-0 pt-0 text-start"><a href="/intellectual-property" class="text-white">Intellectual Property</a></li>
-               </ul>
-            </div>
-         </div>
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
+      <BreadcrumbHero 
+        title="Research & Development"
+        paths={[{ name: "Innovation", href: "#" }, { name: "R&D" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+      />
+
+      <div className="container mx-auto px-6 lg:px-12 mt-16">
+        
+        {/* Intro Section */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-900/10 border border-brand-900/20 mb-6 shadow-sm">
+                <ShieldCheck className="w-4 h-4 text-brand-900" />
+                <span className="text-sm font-bold text-brand-900 uppercase tracking-widest">Science-Led Innovation</span>
+              </div>
+              
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">
+                Innovation with Purpose
+              </h2>
+              
+              <p className="text-lg text-slate-600 mb-6 leading-relaxed">
+                At Plexus Group of Companies, innovation begins with a disciplined, science-driven research and development framework embedded across formulation design, process development, and commercialization.
+              </p>
+              
+              <p className="text-lg text-slate-600 leading-relaxed mb-6">
+                Our R&D approach is guided by data integrity, translational science, and regulatory foresight, ensuring that every development delivers measurable value to patients, partners, and healthcare systems.
+              </p>
+              <p className="text-lg text-slate-600 leading-relaxed mb-8">
+                We leverage advanced formulation science and process engineering to develop robust, scalable, and compliant healthcare solutions across pharmaceuticals, nutraceuticals, liposomal delivery systems, medical devices, and dermo-cosmetics.
+              </p>
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/resources/research.jpg"
+                alt="Pharma R&D"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/20 mix-blend-multiply" />
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Highlights Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+          {highlights.map((item, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 30 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ delay: idx * 0.15 }}
+              className="bg-white rounded-3xl p-8 border border-slate-200 shadow-sm hover:shadow-xl transition-all duration-300"
+            >
+              <div className="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-6">
+                <item.icon className="w-7 h-7" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">{item.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {item.description}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
       </div>
-   </div>
-</section>
-<section class="features-style1">
-   <div class="features-style1__shape1 wow slideInLeft" data-wow-delay="100ms" data-wow-duration="2500ms">
-      <img class="float-bob-y" src=" assets/images/shapes/features-style1-shape-1.png" alt="shape">
-   </div>
-   <div class="container">
-      <div class="row">
-         <div class="col-xl-7">
-            <div class="features-style1__content">
-               <div class="top-title">
-                  <h2>Science-Led Innovation with Purpose</h2>
-               </div>
-               <p class="text-justify mt-3">At Plexus Group of Companies, innovation begins with a disciplined, science-driven research and development framework embedded across formulation design, process development, and commercialization. Our R&amp;D approach is guided by data integrity, translational science, and regulatory foresight, ensuring that every development delivers measurable value to patients, partners, and healthcare systems.</p>
-               <p class="text-justify mt-3">We leverage advanced formulation science and process engineering to develop robust, scalable, and compliant healthcare solutions across pharmaceuticals, nutraceuticals, liposomal delivery systems, medical devices, and dermo-cosmetics. A strong emphasis is placed on enhancing bioavailability, stability, safety, and therapeutic performance, driven by sound scientific rationale and lifecycle sustainability.</p>
-            </div>
-         </div>
-         <div class="col-xl-5">
-            <div class="features-style1__img mt-3">
-               <div class="features-style1__shape-2 wow slideInRight" data-wow-delay="100ms" data-wow-duration="2500ms">
-                  <img class="rotate-me" src="/assets/images/shapes/features-style1-shape-2.png" alt="shape">
-               </div>
-               <div class="box one"></div>
-               <div class="box two"></div>
-               <div class="box three"></div>
-               <div class="box four"></div>
-               <div class="features-style1__img-inner">
-                  <img src="/assets/images/resources/research.jpg" class="licensing-img" alt="Pharma R&amp;D">
-               </div>
-            </div>
-         </div>
-         <div class="col-xl-12">
-            <p class="mt-3 text-justify">Our development framework integrates Quality by Design (QbD) principles, risk-based development models, and validated technology transfer protocols, enabling efficient progression from concept to commercial scale. Process optimization is supported by statistical modeling, real-time monitoring, and continuous improvement methodologies, ensuring consistency, reproducibility, and operational resilience.</p>
-            <p class="mt-3 text-justify">Collaboration plays a critical role in our R&amp;D ecosystem. We work closely with academic institutions, contract research organizations, technology partners, and regulatory experts to accelerate development timelines while maintaining scientific rigor and compliance integrity.</p>
-         </div>
-      </div>
-   </div>
-   <!-- /.container -->
-</section>
-` }} />
+    </div>
   );
 }

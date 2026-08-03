@@ -1,182 +1,100 @@
-"use client";
-import React, { useState } from "react";
-import BreadcrumbSection from '@/components/layout/BreadcrumbSection';
+import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import ContactForm from "@/components/contact/ContactForm";
+import { Mail, MapPin, Phone } from "lucide-react";
 
 export default function BusinessEnquiryPage() {
-  const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-    // Simulate form submission
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-    }, 800);
-  };
-
   return (
-    <div>
-      <BreadcrumbSection
+    <div className="modern-page-wrapper bg-brand-50 pb-24">
+      <BreadcrumbHero
         title="Business Enquiry"
-        bgImage="/assets/images/breadcrumb/enquiry-bg.jpg"
-        breadcrumbs={[
-          { label: "Home", href: "/" },
-          { label: "Contact & Support" },
-          { label: "Business Enquiry" },
-        ]}
-        quickExplore={[
-          { label: "Compliance & Reporting", href: "/compilance-reporting" },
-          { label: "Global Offices", href: "/global-office" },
-        ]}
+        paths={[{ name: "Contact", href: "/business-enquiry" }, { name: "Enquiry" }]}
+        bgImage="/assets/images/breadcrumb/breadcrumb-3.jpg"
       />
-      <section className="main-contact-form-area" id="b-enquiry">
-        <div className="container">
-          <div className="inner-title text-center">
-            <h2>
-              Reach out to us for <br />
-              business collaborations and opportunities
-            </h2>
+
+      <div className="container mx-auto px-6 lg:px-12 -mt-16 relative z-20">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+
+          {/* Form Column */}
+          <div className="lg:col-span-2">
+            <ContactForm />
           </div>
 
-          <div className="row justify-content-center form-margin">
-            <div className="col-xl-8 border p-5">
-              <div className="contact-form p-0">
-                {submitted ? (
-                  <div className="text-center py-5">
-                    <h3 className="text-success mb-3">Thank You!</h3>
-                    <p>
-                      Your business enquiry has been submitted successfully. Our
-                      team will get back to you shortly.
-                    </p>
-                    <button
-                      className="btn-one mt-4"
-                      onClick={() => setSubmitted(false)}
-                    >
-                      <span className="txt">Submit Another Enquiry</span>
-                    </button>
+          {/* Contact Info Column */}
+          <div className="flex flex-col gap-6">
+            {/* Direct Contact Card */}
+            <div className="bg-white rounded-3xl p-8 shadow-sm border border-slate-100">
+              <h3 className="text-xl font-bold text-brand-900 mb-6">Direct Contact</h3>
+
+              <div className="flex flex-col gap-6">
+                <a href="mailto:info@plexuspharmaco.com" className="flex items-start gap-4 group">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center group-hover:bg-accent-500 transition-colors flex-shrink-0">
+                    <Mail className="w-6 h-6 text-brand-700 group-hover:text-white transition-colors" />
                   </div>
-                ) : (
-                  <form
-                    id="contact-form"
-                    name="contact_form"
-                    className="default-form2"
-                    onSubmit={handleSubmit}
-                  >
-                    <div className="row">
-                      <div className="col-xl-6">
-                        <div className="form-group">
-                          <div className="input-box">
-                            <label className="form-label">Full Name</label>
-                            <input
-                              type="text"
-                              name="form_name"
-                              id="formName"
-                              placeholder="Full Name"
-                              required
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-xl-6">
-                        <div className="form-group">
-                          <div className="input-box">
-                            <label className="form-label">Company Name</label>
-                            <input
-                              type="text"
-                              name="company_name"
-                              id="companyName"
-                              placeholder="Company Name"
-                              required
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-xl-6">
-                        <div className="form-group">
-                          <div className="input-box">
-                            <label className="form-label">Email Address</label>
-                            <input
-                              type="email"
-                              name="form_email"
-                              id="formEmail"
-                              placeholder="Email Address"
-                              required
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-xl-6">
-                        <div className="form-group">
-                          <div className="input-box">
-                            <label className="form-label">Country</label>
-                            <input
-                              type="text"
-                              name="form_country"
-                              id="formCountry"
-                              placeholder="Country"
-                              required
-                            />
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-xl-12 mb-3">
-                        <div className="form-group">
-                          <div className="input-box">
-                            <label className="form-label" htmlFor="inquiryType">Inquiry Type</label>
-                            <select
-                              className="form-select"
-                              id="inquiryType"
-                              name="inquiry_type"
-                              aria-label="Select inquiry type"
-                              required
-                            >
-                              <option value="">Select Inquiry Type</option>
-                              <option value="licensing">Licensing</option>
-                              <option value="distribution">Distribution</option>
-                              <option value="manufacturing">Manufacturing</option>
-                              <option value="other">Other</option>
-                            </select>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="col-xl-12">
-                        <div className="form-group">
-                          <label className="form-label">Message box</label>
-                          <div className="input-box">
-                            <textarea
-                              name="form_message"
-                              id="formMessage"
-                              placeholder="Message"
-                              required
-                            ></textarea>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="row mt-4">
-                      <div className="col-xl-12 text-center">
-                        <div className="button-box">
-                          <button
-                            className="btn-one"
-                            type="submit"
-                            disabled={loading}
-                          >
-                            <span className="txt">
-                              {loading ? "Submitting..." : "submit now"}
-                            </span>
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
-                )}
+                  <div>
+                    <span className="block text-sm font-semibold text-brand-900 mb-1">Email Us</span>
+                    <span className="text-brand-600 group-hover:text-brand-900 transition-colors">info@plexuspharmaco.com</span>
+                  </div>
+                </a>
+
+                <a href="tel:+4915213048766" className="flex items-start gap-4 group">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center group-hover:bg-accent-500 transition-colors flex-shrink-0">
+                    <Phone className="w-6 h-6 text-brand-700 group-hover:text-white transition-colors" />
+                  </div>
+                  <div>
+                    <span className="block text-sm font-semibold text-brand-900 mb-1">Call Germany (HQ)</span>
+                    <span className="text-brand-600 group-hover:text-brand-900 transition-colors">+49 152 1304 8766</span>
+                  </div>
+                </a>
+
+                <a href="tel:+917304159520" className="flex items-start gap-4 group">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center group-hover:bg-accent-500 transition-colors flex-shrink-0">
+                    <Phone className="w-6 h-6 text-brand-700 group-hover:text-white transition-colors" />
+                  </div>
+                  <div>
+                    <span className="block text-sm font-semibold text-brand-900 mb-1">Call India</span>
+                    <span className="text-brand-600 group-hover:text-brand-900 transition-colors">+91 7304159520</span>
+                  </div>
+                </a>
               </div>
             </div>
+
+            {/* Offices Card */}
+            <div className="bg-brand-900 rounded-3xl p-8 shadow-xl text-white">
+              <h3 className="text-xl font-bold mb-6">Our Global Offices</h3>
+
+              <div className="flex flex-col gap-6">
+                <div>
+                  <h4 className="font-semibold text-brand-200 mb-2 flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-accent-500" /> Germany (Head Office)
+                  </h4>
+                  <p className="text-sm text-brand-300 pl-6 leading-relaxed">
+                    Plexuspharmaco GmbH<br />
+                    Frankenstr. 34<br />
+                    96146, Altendorf Germany.
+                  </p>
+                </div>
+
+                <div className="border-t border-white/10 pt-4">
+                  <h4 className="font-semibold text-brand-200 mb-2 flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-accent-500" /> India Offices
+                  </h4>
+                  <p className="text-sm text-brand-300 pl-6 leading-relaxed mb-3">
+                    <strong>Plexus Biogenix LLP</strong><br />
+                    Janapath, 217 Sadashiv Peth<br />
+                    Pune – 411030 (MS), India.
+                  </p>
+                  <p className="text-sm text-brand-300 pl-6 leading-relaxed">
+                    <strong>Plexus Biocare Pvt. Ltd.</strong><br />
+                    Sankruti Sankul, Sitabuldi<br />
+                    Nagpur – 440012 (MS), India.
+                  </p>
+                </div>
+              </div>
+            </div>
+
           </div>
         </div>
-      </section>
+      </div>
     </div>
   );
 }

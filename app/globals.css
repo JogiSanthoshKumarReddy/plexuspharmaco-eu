@@ -1,56 +1,54 @@
-:root {
-  --font-heading: var(--font-poppins);
-  --font-body: var(--font-inter);
+@import "tailwindcss";
+
+@theme {
+  --font-inter: var(--font-inter);
+  --font-poppins: var(--font-poppins);
+  
+  /* Premium Corporate Brand Colors */
+  --color-brand-50: #f0f4f8;
+  --color-brand-100: #d9e2ec;
+  --color-brand-200: #bcccdc;
+  --color-brand-300: #9fb3c8;
+  --color-brand-400: #829ab1;
+  --color-brand-500: #627d98;
+  --color-brand-600: #486581;
+  --color-brand-700: #334e68; /* Primary */
+  --color-brand-800: #243b53;
+  --color-brand-900: #102a43;
+  
+  --color-accent-500: #e53e3e; /* Trust Red */
+  --color-accent-600: #c53030;
 }
 
-html {
-  scroll-behavior: smooth;
+@layer base {
+  body {
+    @apply bg-white text-slate-900 font-inter antialiased selection:bg-brand-200 selection:text-brand-900;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-poppins tracking-tight;
+  }
+  a {
+    @apply text-inherit no-underline;
+  }
 }
 
-body {
-  font-family: var(--font-body);
-}
-
-body.locked {
-  overflow: hidden;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: var(--font-heading);
-}
-
-a {
-  text-decoration: none;
-}
-
-.collapse-trigger-icon {
-  position: absolute;
-  right: 0;
-  top: 0;
-  width: 50px;
-  height: 100%;
-  cursor: pointer;
-  z-index: 10;
-}
-
-/* Product catalogue toggle button styling */
-.toggle-table-btn {
-  appearance: none;
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  color: inherit;
-}
-
-.toggle-table-btn:focus {
-  outline: 2px solid var(--thm-base, #ec1c24);
-  outline-offset: 2px;
+@layer utilities {
+  .glass {
+    @apply bg-white/70 backdrop-blur-md border border-white/20 shadow-[0_8px_32px_0_rgba(31,38,135,0.07)];
+  }
+  .glass-dark {
+    @apply bg-slate-900/70 backdrop-blur-md border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.3)];
+  }
+  .glass-card {
+    @apply bg-white/90 backdrop-blur-xl border border-white/50 shadow-xl;
+  }
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-700 to-brand-500;
+  }
+  .text-gradient-premium {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-slate-100 via-white to-slate-300;
+  }
+  .hover-lift {
+    @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+  }
 }
