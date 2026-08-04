@@ -13,11 +13,6 @@ export default function ProductCataloguePage() {
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(12);
 
-  // Reset pagination when filters change
-  useEffect(() => {
-    setVisibleCount(12);
-  }, [searchQuery, activeCategory]);
-
   // Extract unique categories
   const categories = ["All Products", ...Array.from(new Set(products.map(p => p.category)))];
 
@@ -105,7 +100,7 @@ export default function ProductCataloguePage() {
                   {categories.map((cat, idx) => (
                     <li key={idx}>
                       <button
-                        onClick={() => { setActiveCategory(cat); setIsMobileFiltersOpen(false); }}
+                        onClick={() => { setActiveCategory(cat); setIsMobileFiltersOpen(false); setVisibleCount(12); }}
                         className={`w-full text-left px-5 py-3 rounded-xl text-sm font-bold transition-all flex items-center justify-between group ${
                           activeCategory === cat 
                             ? "bg-brand-50 text-brand-700 shadow-sm border border-brand-100" 
@@ -138,12 +133,12 @@ export default function ProductCataloguePage() {
                 type="text"
                 placeholder="Search products by name or therapeutic area..."
                 value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
+                onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(12); }}
                 className="w-full bg-transparent border-none focus:ring-0 text-brand-900 font-medium placeholder:text-slate-400 placeholder:font-normal text-lg py-4 outline-none"
               />
               {searchQuery && (
                 <div className="pr-4">
-                  <button onClick={() => setSearchQuery("")} className="p-2 bg-slate-100 rounded-full text-slate-500 hover:text-red-500 hover:bg-red-50 transition-colors">
+                  <button onClick={() => { setSearchQuery(""); setVisibleCount(12); }} className="p-2 bg-slate-100 rounded-full text-slate-500 hover:text-red-500 hover:bg-red-50 transition-colors">
                     <X className="w-5 h-5" />
                   </button>
                 </div>
@@ -198,7 +193,7 @@ export default function ProductCataloguePage() {
                         <div className="pt-6 border-t border-slate-100">
                           <h5 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Key Ingredients</h5>
                           <div className="flex flex-wrap gap-2">
-                            {product.ingredients.slice(0, 3).map((ing: any, idx: number) => (
+                            {product.ingredients.slice(0, 3).map((ing: { name: string; dosage: string }, idx: number) => (
                               <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-50 text-slate-600 border border-slate-200">
                                 {ing.name} <span className="text-slate-400 ml-1">({ing.dosage})</span>
                               </span>
@@ -247,7 +242,7 @@ export default function ProductCataloguePage() {
                   We couldn&apos;t find any products matching &quot;{searchQuery}&quot; in {activeCategory}. Please try adjusting your search terms.
                 </p>
                 <button 
-                  onClick={() => { setSearchQuery(""); setActiveCategory("All Products"); }}
+                  onClick={() => { setSearchQuery(""); setActiveCategory("All Products"); setVisibleCount(12); }}
                   className="inline-flex items-center gap-2 px-8 py-4 bg-brand-900 text-white rounded-xl font-bold hover:bg-brand-800 transition-colors shadow-lg hover:shadow-xl"
                 >
                   Clear All Filters

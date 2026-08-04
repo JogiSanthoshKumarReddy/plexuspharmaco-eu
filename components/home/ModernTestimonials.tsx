@@ -76,7 +76,7 @@ export default function ModernTestimonials() {
               </div>
               
               <p className="text-slate-700 leading-relaxed mb-10 relative z-10 flex-grow text-lg italic">
-                "{testimonial.quote}"
+                &ldquo;{testimonial.quote}&rdquo;
               </p>
               
               <div className="flex items-center gap-4 mt-auto">

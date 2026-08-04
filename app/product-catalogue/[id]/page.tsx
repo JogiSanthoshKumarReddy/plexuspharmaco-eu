@@ -136,7 +136,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100">
-                  {product.ingredients.map((ing: any, idx: number) => (
+                  {product.ingredients.map((ing: { name: string; dosage: string; dv?: string }, idx: number) => (
                     <tr key={idx} className="hover:bg-slate-50/50 transition-colors">
                       <td className="py-5 px-6 font-semibold text-brand-900">{ing.name}</td>
                       <td className="py-5 px-6 font-medium text-slate-600">{ing.dosage}</td>
