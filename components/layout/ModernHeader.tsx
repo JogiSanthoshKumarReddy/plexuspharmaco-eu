@@ -35,7 +35,7 @@ export default function ModernHeader() {
     >
       {/* Top Bar for Language Switcher (Optional, hidden on mobile for cleaner UI) */}
       <div className="hidden lg:flex justify-end items-center px-8 pb-2 border-b border-slate-100">
-        <div id="google_translate_element" className="hidden" aria-hidden="true"></div>
+        <div id="google_translate_element" className="opacity-0 absolute pointer-events-none w-[1px] h-[1px] overflow-hidden" aria-hidden="true"></div>
         <div className="flex items-center gap-4 text-sm text-slate-500">
           <Globe className="w-4 h-4" aria-hidden="true" />
           <button onClick={() => changeLanguage("en")} aria-label="Translate to English" className="hover:text-brand-700 transition-colors">English</button>

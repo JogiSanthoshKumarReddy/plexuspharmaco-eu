@@ -68,14 +68,16 @@ export default function RootLayout({
         <link rel="manifest" href="/manifest.json" />
         <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
         <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
-          function googleTranslateElementInit() {
+          window.googleTranslateElementInit = function() {
             new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
           }
           window.changeLanguage = function(lang) {
             var teCombo = document.querySelector('.goog-te-combo');
             if (teCombo) {
               teCombo.value = lang;
-              teCombo.dispatchEvent(new Event('change'));
+              teCombo.dispatchEvent(new Event('change', { bubbles: true, cancelable: true }));
+            } else {
+              console.warn('Google Translate combobox not found');
             }
           }
         ` }}></script>
