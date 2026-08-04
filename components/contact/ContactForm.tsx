@@ -27,13 +27,26 @@ export default function ContactForm() {
     register,
     handleSubmit,
     reset,
+    watch,
+    setValue,
     formState: { errors },
   } = useForm<ContactFormValues>({
     resolver: zodResolver(contactSchema),
     defaultValues: {
       formType: "Business Enquiry Form",
+      inquiry_type: "",
     }
   });
+
+  const selectedInquiry = watch("inquiry_type");
+
+  const inquiryOptions = [
+    "Distribution Partnership",
+    "Contract Manufacturing",
+    "Product Sourcing & Supply",
+    "Regulatory Affairs",
+    "Other"
+  ];
 
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
@@ -145,20 +158,24 @@ export default function ContactForm() {
 
         {/* Inquiry Type */}
         <div>
-          <label htmlFor="inquiry_type" className="block text-sm font-bold text-slate-500 mb-3 uppercase tracking-wider">Type of Inquiry *</label>
-          <select 
-            id="inquiry_type"
-            {...register("inquiry_type")}
-            className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.inquiry_type ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-brand-900 focus:ring-4 focus:bg-white focus:outline-none transition-all appearance-none`}
-          >
-            <option value="" disabled className="text-slate-400">Select an option</option>
-            <option value="Distribution">Distribution Partnership</option>
-            <option value="Contract Manufacturing">Contract Manufacturing (CMO/CDMO)</option>
-            <option value="Product Sourcing">Product Sourcing & Supply</option>
-            <option value="Regulatory Affairs">Regulatory Affairs & Compliance</option>
-            <option value="Other">Other</option>
-          </select>
-          {errors.inquiry_type && <p className="mt-2 text-sm text-red-500">{errors.inquiry_type.message}</p>}
+          <label className="block text-sm font-bold text-slate-500 mb-4 uppercase tracking-wider">Type of Inquiry *</label>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+            {inquiryOptions.map((option) => (
+              <button
+                key={option}
+                type="button"
+                onClick={() => setValue("inquiry_type", option, { shouldValidate: true })}
+                className={`px-4 py-3.5 rounded-xl border text-sm font-medium transition-all text-left ${
+                  selectedInquiry === option 
+                    ? "bg-brand-50 border-brand-500 text-brand-900 shadow-[0_0_0_1px_rgba(30,58,138,1)]" 
+                    : "bg-white border-slate-200 text-slate-600 hover:border-brand-300 hover:bg-slate-50"
+                }`}
+              >
+                {option}
+              </button>
+            ))}
+          </div>
+          {errors.inquiry_type && <p className="mt-3 text-sm text-red-500">{errors.inquiry_type.message}</p>}
         </div>
 
         {/* Message Field */}
