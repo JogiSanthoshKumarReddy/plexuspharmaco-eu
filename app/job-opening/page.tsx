@@ -51,7 +51,7 @@ export default function JobOpeningPage() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            At Plexuspharmaco, you aren't just taking a job—you are joining a global mission to extend and improve human life. We foster an inclusive, high-performance culture that empowers our people to innovate, grow, and lead.
+            At Plexuspharmaco, you aren&apos;t just taking a job—you are joining a global mission to extend and improve human life. We foster an inclusive, high-performance culture that empowers our people to innovate, grow, and lead.
           </motion.p>
         </div>
 
@@ -103,7 +103,7 @@ export default function JobOpeningPage() {
             >
               <h3 className="text-3xl font-bold text-brand-900 mb-6">A Culture of Excellence & Learning</h3>
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                We believe our greatest asset is our talent. We invest heavily in our "Future Leaders Program," providing mentorship from industry veterans, cross-functional rotations, and executive coaching.
+                We believe our greatest asset is our talent. We invest heavily in our &quot;Future Leaders Program,&quot; providing mentorship from industry veterans, cross-functional rotations, and executive coaching.
               </p>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
                 Whether you are a seasoned pharmaceutical executive or a recent science graduate entering our robust Internship Program, Plexuspharmaco offers a defined trajectory for your ambitions.
@@ -154,7 +154,7 @@ export default function JobOpeningPage() {
           </div>
 
           <div className="mt-12 text-center">
-            <p className="text-slate-600 mb-6">Don't see a role that fits? Send us your resume anyway.</p>
+            <p className="text-slate-600 mb-6">Don&apos;t see a role that fits? Send us your resume anyway.</p>
             <Link href="/business-enquiry" className="inline-flex items-center gap-2 px-8 py-4 bg-brand-900 text-white font-bold rounded-xl hover:bg-brand-800 transition-all shadow-md hover:shadow-xl hover:-translate-y-1">
               <UserPlus className="w-5 h-5" /> Submit General Application
             </Link>
