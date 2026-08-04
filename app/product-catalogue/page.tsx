@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -11,6 +11,12 @@ export default function ProductCataloguePage() {
   const [searchQuery, setSearchQuery] = useState("");
   const [activeCategory, setActiveCategory] = useState<string>("All Products");
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
+  const [visibleCount, setVisibleCount] = useState(12);
+
+  // Reset pagination when filters change
+  useEffect(() => {
+    setVisibleCount(12);
+  }, [searchQuery, activeCategory]);
 
   // Extract unique categories
   const categories = ["All Products", ...Array.from(new Set(products.map(p => p.category)))];
@@ -153,9 +159,9 @@ export default function ProductCataloguePage() {
             </div>
 
             {/* Product Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-12">
               <AnimatePresence mode="popLayout">
-                {filteredProducts.map((product) => (
+                {filteredProducts.slice(0, visibleCount).map((product) => (
                   <motion.div
                     key={product.id}
                     layout
@@ -213,6 +219,18 @@ export default function ProductCataloguePage() {
                 ))}
               </AnimatePresence>
             </div>
+
+            {/* Load More Button */}
+            {visibleCount < filteredProducts.length && (
+              <div className="flex justify-center mb-12">
+                <button
+                  onClick={() => setVisibleCount((prev) => prev + 12)}
+                  className="px-8 py-4 bg-brand-900 hover:bg-brand-800 text-white rounded-xl font-bold transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1"
+                >
+                  Load More Products ({filteredProducts.length - visibleCount} remaining)
+                </button>
+              </div>
+            )}
 
             {/* Empty State */}
             {filteredProducts.length === 0 && (
