@@ -9,8 +9,31 @@ interface BreadcrumbHeroProps {
 }
 
 export default function BreadcrumbHero({ title, paths, bgImage = "/assets/images/breadcrumb/breadcrumb-1.jpg" }: BreadcrumbHeroProps) {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://plexuspharmaco.eu"
+      },
+      ...paths.map((path, idx) => ({
+        "@type": "ListItem",
+        "position": idx + 2,
+        "name": path.name,
+        "item": path.href ? `https://plexuspharmaco.eu${path.href}` : undefined
+      }))
+    ]
+  };
+
   return (
     <div className="relative h-[300px] md:h-[400px] w-full flex items-center justify-center overflow-hidden bg-brand-900 mt-20">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <div className="absolute inset-0 z-0">
         <Image
           src={bgImage}

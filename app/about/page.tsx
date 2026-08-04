@@ -2,10 +2,10 @@ import { Metadata } from "next";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import CompanyOverview from "@/components/about/CompanyOverview";
 import LeadershipTeam from "@/components/about/LeadershipTeam";
-import CompanyTimeline from "@/components/about/CompanyTimeline";
 import Certifications from "@/components/about/Certifications";
 import CSRSection from "@/components/about/CSRSection";
 import UniqueSellingPoints from "@/components/home/UniqueSellingPoints";
+import HistoryTimeline from "@/components/about/HistoryTimeline";
 
 export const metadata: Metadata = {
   title: "About Us",
@@ -21,7 +21,7 @@ export default function AboutPage() {
       />
       
       <CompanyOverview />
-      <CompanyTimeline />
+      <HistoryTimeline />
       <Certifications />
       <CSRSection />
       <LeadershipTeam />

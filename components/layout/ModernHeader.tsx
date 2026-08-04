@@ -70,7 +70,8 @@ export default function ModernHeader() {
                 >
                   <button 
                     aria-expanded={activeDropdown === idx}
-                    className={`flex items-center gap-1 font-medium transition-colors py-2 ${isActive ? "text-brand-600" : "text-brand-900 hover:text-brand-600"}`}
+                    aria-controls={`mega-menu-${idx}`}
+                    className={`flex items-center gap-1 font-medium transition-colors py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 rounded-md px-2 ${isActive ? "text-brand-600" : "text-brand-900 hover:text-brand-600"}`}
                   >
                     {nav.title}
                     <ChevronDown className={`w-4 h-4 transition-transform duration-200 ${activeDropdown === idx ? 'rotate-180' : ''}`} aria-hidden="true" />
@@ -78,16 +79,30 @@ export default function ModernHeader() {
                   
                   {/* Mega Menu Dropdown */}
                   <div 
-                    className={`absolute top-full left-1/2 -translate-x-1/2 w-[300px] bg-white rounded-xl shadow-xl border border-slate-100 transition-all duration-200 overflow-hidden ${
+                    id={`mega-menu-${idx}`}
+                    role="menu"
+                    className={`absolute top-full left-1/2 -translate-x-1/2 w-[500px] bg-white rounded-xl shadow-2xl border border-slate-100 transition-all duration-200 overflow-hidden flex ${
                       activeDropdown === idx ? "opacity-100 visible translate-y-2" : "opacity-0 invisible translate-y-4"
                     }`}
                   >
-                    <div className="py-2">
+                    <div className="w-1/2 bg-slate-50 p-6 flex flex-col justify-between">
+                      <div>
+                        <h4 className="text-sm font-bold text-brand-900 mb-2">{nav.title} Overview</h4>
+                        <p className="text-xs text-slate-500 leading-relaxed mb-4">
+                          Explore our comprehensive offerings and commitment to advancing global healthcare through innovation and quality.
+                        </p>
+                      </div>
+                      <Link href={nav.items[0]?.href || "/"} className="text-sm text-brand-600 font-bold hover:text-brand-800 transition-colors inline-flex items-center gap-1">
+                        View All <ChevronDown className="w-3 h-3 -rotate-90" />
+                      </Link>
+                    </div>
+                    <div className="w-1/2 py-4">
                       {nav.items.map((item, i) => (
                         <Link 
                           key={i} 
                           href={item.href}
-                          className={`block px-6 py-3 text-sm transition-colors ${
+                          role="menuitem"
+                          className={`block px-6 py-2.5 text-sm transition-colors focus-visible:outline-none focus-visible:bg-brand-50 ${
                             pathname === item.href 
                               ? "bg-brand-50 text-brand-900 font-bold" 
                               : "text-brand-700 hover:bg-brand-50 hover:text-brand-900"
