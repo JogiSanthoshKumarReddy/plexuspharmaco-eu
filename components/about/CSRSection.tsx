@@ -73,15 +73,15 @@ export default function CSRSection() {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="relative h-[500px] w-full rounded-3xl overflow-hidden shadow-2xl"
+              className="relative h-[500px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100 group"
             >
               <Image 
-                src="/assets/images/resources/sustainability.jpg"
-                alt="Corporate Social Responsibility"
+                src="/assets/images/ai/csr_sustainability.png"
+                alt="Corporate Social Responsibility & Clean Production"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-900/40 to-transparent" />
             </motion.div>
           </div>
         </div>

@@ -64,15 +64,15 @@ export default function CorporateGovernancePage() {
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              className="absolute inset-4 rounded-3xl overflow-hidden shadow-2xl z-10 border border-brand-100"
+              className="absolute inset-4 rounded-3xl overflow-hidden shadow-2xl z-10 border border-brand-100 group"
             >
               <Image 
-                src="/assets/images/resources/c1.jpg"
-                alt="Corporate Governance"
+                src="/assets/images/ai/corporate_governance.png"
+                alt="Corporate Governance Board"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-900/40 to-transparent" />
             </motion.div>
             
             <motion.div
@@ -80,13 +80,13 @@ export default function CorporateGovernancePage() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: 0.2 }}
-              className="absolute -bottom-8 -left-8 w-64 h-64 rounded-3xl overflow-hidden shadow-xl z-20 border-4 border-white"
+              className="absolute -bottom-8 -left-8 w-64 h-64 rounded-3xl overflow-hidden shadow-xl z-20 border-4 border-white group"
             >
               <Image 
-                src="/assets/images/resources/c2.jpg"
-                alt="Pharma Leadership"
+                src="/assets/images/ai/modern_pharma_lab.png"
+                alt="Scientific Leadership"
                 fill
-                className="object-cover"
+                className="object-cover group-hover:scale-110 transition-transform duration-700"
               />
             </motion.div>
           </div>

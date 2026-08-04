@@ -18,14 +18,14 @@ export default function CompanyOverview() {
           
           {/* Image Collage Side */}
           <div className="w-full lg:w-1/2 relative">
-            <div className="relative h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl">
+            <div className="relative h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
               <Image 
-                src="/assets/images/about/about-style2-1.jpg"
-                alt="Plexuspharmaco Operations"
+                src="/assets/images/ai/modern_pharma_lab.png"
+                alt="Plexuspharmaco European Operations"
                 fill
-                className="object-cover"
+                className="object-cover hover:scale-105 transition-transform duration-700"
               />
-              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-900/40 to-transparent" />
             </div>
             
             {/* Floating Experience Badge */}
