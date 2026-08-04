@@ -30,15 +30,22 @@ export default function CompanyHighlights() {
   };
 
   return (
-    <section className="py-24 bg-brand-50 relative overflow-hidden">
+    <section className="py-32 bg-slate-950 relative overflow-hidden border-t border-white/5">
+      {/* Abstract Glowing Backgrounds */}
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-brand-500/10 rounded-full blur-[120px] pointer-events-none" />
+      
+      {/* High-tech grid overlay */}
+      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none" />
+      <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(rgba(255,255,255,0.05) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
+
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
-            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6"
+            className="text-4xl lg:text-5xl font-bold text-white mb-6 tracking-tight"
           >
             {title}
           </motion.h2>
@@ -47,7 +54,7 @@ export default function CompanyHighlights() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="text-xl text-brand-600 leading-relaxed"
+            className="text-xl text-slate-300 leading-relaxed font-light"
           >
             {description}
           </motion.p>
@@ -58,29 +65,32 @@ export default function CompanyHighlights() {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true, margin: "-100px" }}
-          className="grid grid-cols-1 md:grid-cols-3 gap-8"
+          className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto"
         >
           {features.map((feature, idx) => (
             <motion.div 
               key={idx}
               variants={itemVariants}
-              className="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-brand-100 group overflow-hidden flex flex-col"
+              className="bg-white/5 backdrop-blur-xl rounded-3xl shadow-lg hover:shadow-[0_0_40px_-10px_rgba(59,130,246,0.3)] transition-all duration-500 border border-white/10 group overflow-hidden flex flex-col hover:-translate-y-2 relative"
             >
-              <div className="relative h-64 w-full overflow-hidden">
+              {/* Hover Glow Effect */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-brand-500/20 rounded-full blur-[40px] group-hover:bg-brand-400/30 transition-colors duration-500 pointer-events-none" />
+
+              <div className="relative h-64 w-full overflow-hidden rounded-t-3xl border-b border-white/10">
                 <Image 
                   src={feature.image} 
                   alt={feature.title} 
                   fill 
                   className="object-cover group-hover:scale-110 transition-transform duration-700" 
                 />
-                <div className="absolute inset-0 bg-gradient-to-t from-brand-900/90 via-brand-900/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-300" />
-                <div className="absolute bottom-6 left-6 w-14 h-14 rounded-2xl bg-brand-500/90 backdrop-blur flex items-center justify-center border border-white/20 shadow-lg group-hover:-translate-y-2 transition-transform duration-300">
+                <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/20 to-transparent opacity-90 transition-opacity duration-300" />
+                <div className="absolute bottom-6 left-6 w-14 h-14 rounded-2xl bg-white/10 backdrop-blur-md flex items-center justify-center border border-white/20 shadow-lg group-hover:-translate-y-2 group-hover:bg-brand-500 transition-all duration-300 z-10">
                   {iconMap[feature.icon]}
                 </div>
               </div>
-              <div className="p-8 flex-grow flex flex-col">
-                <h3 className="text-2xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors">{feature.title}</h3>
-                <p className="text-slate-600 leading-relaxed flex-grow">{feature.desc}</p>
+              <div className="p-8 flex-grow flex flex-col relative z-10">
+                <h3 className="text-2xl font-bold text-white mb-4 tracking-wide group-hover:text-accent-400 transition-colors">{feature.title}</h3>
+                <p className="text-slate-400 font-light leading-relaxed flex-grow">{feature.desc}</p>
               </div>
             </motion.div>
           ))}

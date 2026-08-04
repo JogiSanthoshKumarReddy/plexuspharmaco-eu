@@ -12,11 +12,14 @@ const stats = [
 
 export default function CompanyStats() {
   return (
-    <section className="py-16 bg-brand-900 text-white relative overflow-hidden">
+    <section className="py-16 bg-slate-950 text-white relative overflow-hidden border-t border-white/5">
       {/* Background abstract element */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-brand-700 rounded-full blur-[120px] opacity-50 -translate-y-1/2 translate-x-1/2" />
-      <div className="absolute bottom-0 left-0 w-96 h-96 bg-accent-600 rounded-full blur-[150px] opacity-20 translate-y-1/2 -translate-x-1/2" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-brand-600/20 rounded-full blur-[150px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-accent-600/10 rounded-full blur-[150px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
       
+      {/* High-tech grid overlay */}
+      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none" />
+
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 divide-x divide-white/10">
           {stats.map((stat, idx) => (
