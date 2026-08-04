@@ -1,52 +1,66 @@
 "use client";
 import { motion } from "framer-motion";
-import { Leaf, Recycle, Factory, Activity } from "lucide-react";
+import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
+import Image from "next/image";
 
 export default function SustainabilityPage() {
-  const initiatives = [
+  const envGoals = [
     {
-      title: "Resource Efficiency",
-      icon: Factory,
-      description: "We pursue resource-efficient manufacturing, waste minimization, and energy optimization, ensuring sustainability without compromising product quality."
+      title: "Zero-Liquid Discharge",
+      icon: Droplets,
+      description: "100% of wastewater from our manufacturing facilities is treated, recycled, and reused within our operations."
     },
     {
-      title: "Environmental Management",
+      title: "Carbon Neutrality by 2035",
+      icon: Wind,
+      description: "Transitioning to 60% renewable energy across all global hubs by 2028, on track for net-zero emissions by 2035."
+    },
+    {
+      title: "Green Chemistry",
       icon: Leaf,
-      description: "Our environmental responsibility is supported by risk-based management systems, continuous monitoring, and improvement initiatives."
+      description: "Innovating formulation processes to minimize toxic solvents and reduce energy consumption during API synthesis."
+    }
+  ];
+
+  const csrPrograms = [
+    {
+      title: "Community Healthcare Access",
+      icon: Stethoscope,
+      description: "Running free diagnostic camps, mobile clinics, and subsidized medicine programs for underserved communities in rural India and Africa."
     },
     {
-      title: "Sustainable Supply Chain",
-      icon: Recycle,
-      description: "Sustainability considerations are integrated into process design, technology selection, and supply chain operations worldwide."
+      title: "Medical Education Grants",
+      icon: GraduationCap,
+      description: "Providing scholarships and research grants to promising medical students and researchers in developing nations."
     },
     {
-      title: "Global ESG Alignment",
-      icon: Activity,
-      description: "We align our practices with global ESG expectations, regulatory standards, and industry best practices, reinforcing accountability and transparency."
+      title: "Employee Volunteering",
+      icon: Users,
+      description: "Plexuspharmaco employees dedicate over 10,000 hours annually to local community service, disaster relief, and health awareness campaigns."
     }
   ];
 
   return (
-    <div className="modern-page-wrapper bg-white min-h-screen pb-24">
+    <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
-        title="Sustainability & Environment"
-        paths={[{ name: "CSR", href: "/" }, { name: "Sustainability" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        title="CSR & Sustainability"
+        paths={[{ name: "Corporate", href: "/" }, { name: "Sustainability" }]}
+        bgImage="/assets/images/ai/csr_sustainability.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
         
         {/* Intro Section */}
-        <div className="max-w-4xl mx-auto text-center mb-24">
+        <div className="text-center max-w-4xl mx-auto mb-24">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-green-50 border border-green-200 mb-6"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 mb-6 shadow-sm"
           >
-            <Leaf className="w-4 h-4 text-green-600" />
-            <span className="text-sm font-bold text-green-700 uppercase tracking-widest">Environmental Stewardship</span>
+            <HeartHandshake className="w-4 h-4 text-brand-700" />
+            <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">Our ESG Commitment</span>
           </motion.div>
           
           <motion.h2 
@@ -54,9 +68,9 @@ export default function SustainabilityPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-8 leading-tight"
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
           >
-            Responsible Operations for a <br/> Sustainable Future
+            Healing People, Protecting the Planet
           </motion.h2>
           
           <motion.p 
@@ -64,54 +78,95 @@ export default function SustainabilityPage() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-slate-600 leading-relaxed"
+            className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            Environmental stewardship at Plexus Group of Companies is embedded within our operational and governance framework. By balancing innovation, compliance, and sustainability, we contribute to environmental protection while enabling responsible growth across global markets.
+            At Plexuspharmaco, Corporate Social Responsibility is not an afterthought; it is integrated into our core business strategy. Our Environmental, Social, and Governance (ESG) framework ensures that our rapid global growth never comes at the expense of our communities or our environment.
           </motion.p>
         </div>
 
-        {/* Initiatives Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto mb-24">
-          {initiatives.map((item, idx) => (
+        {/* Environmental Sustainability */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2 relative h-[500px]">
             <motion.div
-              key={idx}
               initial={{ opacity: 0, scale: 0.95 }}
               whileInView={{ opacity: 1, scale: 1 }}
               viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
-              className="bg-slate-50 rounded-3xl p-8 border border-slate-100 hover:bg-white hover:shadow-2xl transition-all duration-300 group"
+              className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100"
             >
-              <div className="w-16 h-16 rounded-full bg-white shadow-sm flex items-center justify-center mb-6 group-hover:bg-green-600 group-hover:text-white text-green-600 transition-colors duration-300">
-                <item.icon className="w-8 h-8" />
-              </div>
-              <h3 className="text-2xl font-bold text-brand-900 mb-4">{item.title}</h3>
-              <p className="text-slate-600 leading-relaxed">
-                {item.description}
-              </p>
+              <Image 
+                src="/assets/images/ai/csr_sustainability.png"
+                alt="Green Manufacturing"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
             </motion.div>
-          ))}
-        </div>
-        
-        {/* Call to Action Banner */}
-        <div className="w-full bg-brand-900 rounded-3xl p-12 text-center text-white relative overflow-hidden">
-          <div className="absolute inset-0 opacity-10 mix-blend-overlay">
-            <svg className="w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
-              <path d="M0 100 C 20 0 50 0 100 100 Z" fill="currentColor"/>
-            </svg>
           </div>
-          <div className="relative z-10 max-w-2xl mx-auto">
-            <h3 className="text-3xl font-bold mb-6">Our Commitment to Society</h3>
-            <p className="text-brand-200 text-lg mb-8 leading-relaxed">
-              Beyond environmental sustainability, we are deeply committed to ethical standards and health community initiatives across the globe.
-            </p>
-            <div className="flex flex-col sm:flex-row justify-center gap-4">
-              <a href="/health-community" className="px-8 py-3 bg-white text-brand-900 font-bold rounded-xl hover:bg-brand-50 transition-colors shadow-lg">
-                Health Initiatives
-              </a>
-              <a href="/ethical-standard" className="px-8 py-3 bg-brand-800 text-white font-bold rounded-xl hover:bg-brand-700 border border-brand-700 transition-colors">
-                Ethical Standards
-              </a>
-            </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h3 className="text-3xl font-bold text-brand-900 mb-8">Environmental Stewardship</h3>
+              <div className="space-y-8">
+                {envGoals.map((goal, idx) => (
+                  <div key={idx} className="flex gap-6">
+                    <div className="w-14 h-14 rounded-full bg-brand-50 flex items-center justify-center flex-shrink-0 text-brand-700 shadow-sm border border-brand-100">
+                      <goal.icon className="w-6 h-6" />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-brand-900 mb-2">{goal.title}</h4>
+                      <p className="text-slate-600 font-light leading-relaxed">{goal.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Social Responsibility / CSR */}
+        <div className="flex flex-col lg:flex-row-reverse gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2 relative h-[500px]">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/ai/hero_slide_4.png"
+                alt="Community Healthcare"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: -30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h3 className="text-3xl font-bold text-brand-900 mb-8">Uplifting Communities</h3>
+              <div className="space-y-8">
+                {csrPrograms.map((prog, idx) => (
+                  <div key={idx} className="flex gap-6 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="w-12 h-12 rounded-full bg-accent-500/10 flex items-center justify-center flex-shrink-0 text-accent-600">
+                      <prog.icon className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-brand-900 mb-2">{prog.title}</h4>
+                      <p className="text-slate-600 font-light leading-relaxed">{prog.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
           </div>
         </div>
 

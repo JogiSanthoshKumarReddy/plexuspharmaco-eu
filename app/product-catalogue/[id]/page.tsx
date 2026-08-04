@@ -1,11 +1,10 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, Download } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, Download, Box, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid } from 'lucide-react';
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 
-// Generate static params for all products so they can be statically generated at build time
 export async function generateStaticParams() {
   return products.map((product) => ({
     id: product.id,
@@ -20,7 +19,6 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
     notFound();
   }
 
-  // Determine a hero image based on category if one isn't strictly provided or to match catalog logic
   const getProductImage = (category: string) => {
     const nutraCategories = ["KID’S HEALTH", "VITAMINS", "SUPPLEMENTS", "NUTRACEUTICALS", "SPORTS NUTRITION", "SLEEP & RELAXATION"];
     if (nutraCategories.some(cat => category.toUpperCase().includes(cat))) {
@@ -40,7 +38,6 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">
-        {/* Back Button */}
         <Link 
           href="/product-catalogue" 
           className="inline-flex items-center gap-2 text-brand-600 hover:text-brand-900 font-bold mb-10 group transition-colors"
@@ -51,11 +48,8 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
           Back to Catalogue
         </Link>
 
-        {/* Main Product Hero */}
         <div className="bg-white rounded-[40px] shadow-sm border border-slate-100 overflow-hidden mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2">
-            
-            {/* Image Column */}
             <div className="bg-gradient-to-br from-slate-50 to-brand-50/30 p-12 lg:p-20 flex items-center justify-center relative border-b lg:border-b-0 lg:border-r border-slate-100">
               <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none" />
               <div className="relative w-full max-w-md aspect-square drop-shadow-2xl hover:scale-105 transition-transform duration-700">
@@ -68,7 +62,6 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               </div>
             </div>
 
-            {/* Content Column */}
             <div className="p-12 lg:p-16 flex flex-col justify-center">
               <div className="inline-block px-4 py-1.5 rounded-full bg-brand-50 text-brand-700 text-sm font-bold tracking-wider uppercase mb-6 border border-brand-100 w-fit">
                 {product.category}
@@ -111,10 +104,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
           </div>
         </div>
 
-        {/* Technical Data Section */}
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          
-          {/* Ingredients Table */}
           <div className="lg:col-span-2 bg-white rounded-3xl shadow-sm border border-slate-100 p-8 lg:p-12 overflow-hidden">
             <div className="flex items-center gap-4 mb-8">
               <div className="w-12 h-12 rounded-2xl bg-brand-50 flex items-center justify-center">
@@ -153,7 +143,6 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             </div>
           </div>
 
-          {/* Quality Standards */}
           <div className="bg-brand-900 rounded-3xl shadow-xl border border-brand-800 p-8 lg:p-12 text-white relative overflow-hidden">
             <div className="absolute top-0 right-0 w-48 h-48 bg-brand-700/50 rounded-full blur-[50px] pointer-events-none" />
             
@@ -184,8 +173,73 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               </ul>
             </div>
           </div>
-
         </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 mb-24">
+          <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+            <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
+              <Package className="w-6 h-6" />
+            </div>
+            <h3 className="text-xl font-bold text-brand-900 mb-4">Packaging</h3>
+            <p className="text-slate-600 font-light">Available in primary packaging (blisters, HDPE bottles) and secondary packaging compliant with international transport standards. Customized packaging available for bulk orders.</p>
+          </div>
+          
+          <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+            <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
+              <ThermometerSnowflake className="w-6 h-6" />
+            </div>
+            <h3 className="text-xl font-bold text-brand-900 mb-4">Storage Conditions</h3>
+            <p className="text-slate-600 font-light">Store in a cool, dry place away from direct sunlight. Maintain temperature between 15°C and 25°C unless otherwise specified. Keep out of reach of children.</p>
+          </div>
+          
+          <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+            <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
+              <FileCheck className="w-6 h-6" />
+            </div>
+            <h3 className="text-xl font-bold text-brand-900 mb-4">Regulatory Compliance</h3>
+            <p className="text-slate-600 font-light">Manufactured under EU-GMP guidelines. Comprehensive dossiers (CTD format), Certificates of Analysis (CoA), and Free Sale Certificates (FSC) available upon request.</p>
+          </div>
+        </div>
+
+        <div className="mb-24 bg-white rounded-[3rem] p-10 lg:p-16 border border-slate-100 shadow-sm">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl font-bold text-brand-900 mb-4">Frequently Asked Questions</h2>
+            <p className="text-slate-600">Common queries regarding {product.name}</p>
+          </div>
+          <div className="space-y-6 max-w-4xl mx-auto">
+            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
+              <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> What is the minimum order quantity (MOQ)?</h4>
+              <p className="text-slate-600 font-light text-sm">MOQ varies depending on the packaging type and destination country. Please contact our sales team using the inquiry form for a detailed quote.</p>
+            </div>
+            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
+              <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Can this product be formulated under private label?</h4>
+              <p className="text-slate-600 font-light text-sm">Yes, Plexuspharmaco offers extensive contract manufacturing and private labeling services for this product category subject to regulatory approvals in the target market.</p>
+            </div>
+            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
+              <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Are stability studies available?</h4>
+              <p className="text-slate-600 font-light text-sm">Real-time and accelerated stability study data for climatic zones II, III, and IV are available as part of the product dossier.</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="mb-12">
+          <div className="flex items-center justify-between mb-8">
+            <h2 className="text-3xl font-bold text-brand-900">Recommended Products</h2>
+            <Link href="/product-catalogue" className="text-brand-700 font-bold hover:text-brand-900 flex items-center gap-2">View All <Grid className="w-4 h-4" /></Link>
+          </div>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 3).map(related => (
+              <Link key={related.id} href={`/product-catalogue/${related.id}`} className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:border-brand-200 transition-all group">
+                <div className="relative h-48 w-full mb-6 rounded-2xl overflow-hidden bg-slate-50 flex items-center justify-center p-4">
+                  <Image src={getProductImage(related.category)} alt={related.name} fill className="object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500" />
+                </div>
+                <div className="text-xs font-bold text-brand-600 uppercase mb-2">{related.category}</div>
+                <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1">{related.name}</h4>
+              </Link>
+            ))}
+          </div>
+        </div>
+
       </div>
     </div>
   );

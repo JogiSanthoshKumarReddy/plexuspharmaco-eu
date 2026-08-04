@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import CompanyOverview from "@/components/about/CompanyOverview";
 import LeadershipTeam from "@/components/about/LeadershipTeam";
@@ -5,6 +6,11 @@ import CompanyTimeline from "@/components/about/CompanyTimeline";
 import Certifications from "@/components/about/Certifications";
 import CSRSection from "@/components/about/CSRSection";
 import UniqueSellingPoints from "@/components/home/UniqueSellingPoints";
+
+export const metadata: Metadata = {
+  title: "About Us",
+  description: "Learn about Plexuspharmaco, our history, mission, and commitment to global healthcare solutions.",
+};
 
 export default function AboutPage() {
   return (

@@ -1,19 +1,34 @@
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import ContactForm from "@/components/contact/ContactForm";
-import { Mail, MapPin, Phone } from "lucide-react";
+import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
+import { Mail, MapPin, Phone, Clock, Share2, Briefcase, Stethoscope, Users, Building2, AlertTriangle } from "lucide-react";
 
 export default function BusinessEnquiryPage() {
+  const departments = [
+    { name: "Global Sales & Distribution", email: "sales@plexuspharmaco.com", icon: Building2 },
+    { name: "Regulatory Affairs", email: "regulatory@plexuspharmaco.com", icon: Stethoscope },
+    { name: "Human Resources (Careers)", email: "careers@plexuspharmaco.com", icon: Users },
+    { name: "Partnerships & Licensing", email: "partner@plexuspharmaco.com", icon: Briefcase }
+  ];
+
   return (
-    <div className="modern-page-wrapper bg-brand-50 pb-24 relative overflow-hidden">
+    <div className="modern-page-wrapper bg-slate-50 pb-24 relative overflow-hidden">
       <BreadcrumbHero
-        title="Business Enquiry"
-        paths={[{ name: "Contact", href: "/business-enquiry" }, { name: "Enquiry" }]}
-        bgImage="/assets/images/ai/hero_slide_3.png"
+        title="Contact & Global Offices"
+        paths={[{ name: "Corporate", href: "/" }, { name: "Contact Us" }]}
+        bgImage="/assets/images/ai/hero_slide_4.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16 relative z-20">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        
+        {/* Intro */}
+        <div className="text-center max-w-3xl mx-auto mb-16">
+          <h2 className="text-4xl font-bold text-brand-900 mb-6">How Can We Help You?</h2>
+          <p className="text-lg text-slate-600 font-light">Whether you are looking for a reliable manufacturing partner, need regulatory support, or want to join our global team, we are ready to connect.</p>
+        </div>
 
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-24">
+          
           {/* Form Column */}
           <div className="lg:col-span-2">
             <ContactForm />
@@ -21,82 +36,87 @@ export default function BusinessEnquiryPage() {
 
           {/* Contact Info Column */}
           <div className="flex flex-col gap-6">
-            {/* Direct Contact Card */}
-            <div className="bg-white rounded-3xl p-8 shadow-sm border border-brand-100 group">
-              <h3 className="text-xl font-bold text-brand-900 mb-8 tracking-wide">Direct Contact</h3>
-
+            
+            {/* Primary Contact Card */}
+            <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-brand-100 group">
+              <h3 className="text-xl font-bold text-brand-900 mb-8 tracking-wide">European Headquarters</h3>
               <div className="flex flex-col gap-8">
                 <a href="mailto:info@plexuspharmaco.com" className="flex items-start gap-5 group/item">
-                  <div className="w-14 h-14 rounded-2xl bg-brand-50 border border-brand-100 flex items-center justify-center group-hover/item:scale-110 group-hover/item:bg-accent-500 group-hover/item:border-accent-400 transition-all duration-300 flex-shrink-0 shadow-sm">
-                    <Mail className="w-6 h-6 text-brand-600 group-hover/item:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 group-hover/item:bg-accent-500 group-hover/item:text-white transition-all text-brand-700">
+                    <Mail className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block text-sm font-bold text-slate-500 mb-1 uppercase tracking-wider">Email Us</span>
-                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors text-lg">info@plexuspharmaco.com</span>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">General Email</span>
+                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors">info@plexuspharmaco.com</span>
                   </div>
                 </a>
 
                 <a href="tel:+4915213048766" className="flex items-start gap-5 group/item">
-                  <div className="w-14 h-14 rounded-2xl bg-brand-50 border border-brand-100 flex items-center justify-center group-hover/item:scale-110 group-hover/item:bg-accent-500 group-hover/item:border-accent-400 transition-all duration-300 flex-shrink-0 shadow-sm">
-                    <Phone className="w-6 h-6 text-brand-600 group-hover/item:text-white transition-colors" />
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 group-hover/item:bg-accent-500 group-hover/item:text-white transition-all text-brand-700">
+                    <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block text-sm font-bold text-slate-500 mb-1 uppercase tracking-wider">Germany (HQ)</span>
-                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors text-lg">+49 152 1304 8766</span>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Direct Phone (HQ)</span>
+                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors">+49 152 1304 8766</span>
                   </div>
                 </a>
 
-                <a href="tel:+917304159520" className="flex items-start gap-5 group/item">
-                  <div className="w-14 h-14 rounded-2xl bg-brand-50 border border-brand-100 flex items-center justify-center group-hover/item:scale-110 group-hover/item:bg-accent-500 group-hover/item:border-accent-400 transition-all duration-300 flex-shrink-0 shadow-sm">
-                    <Phone className="w-6 h-6 text-brand-600 group-hover/item:text-white transition-colors" />
+                <div className="flex items-start gap-5">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 text-brand-700">
+                    <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block text-sm font-bold text-slate-500 mb-1 uppercase tracking-wider">India</span>
-                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors text-lg">+91 7304159520</span>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Address</span>
+                    <span className="text-brand-900 font-medium leading-relaxed">Frankenstr. 34, 96146,<br/>Altendorf, Germany</span>
                   </div>
-                </a>
+                </div>
+
+                <div className="flex items-start gap-5 border-t border-slate-100 pt-6">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 text-brand-700">
+                    <Clock className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Working Hours</span>
+                    <span className="text-brand-900 font-medium">Mon - Fri: 09:00 - 18:00 CET</span>
+                  </div>
+                </div>
               </div>
             </div>
 
-            {/* Offices Card */}
-            <div className="bg-brand-900 rounded-3xl p-8 shadow-xl border border-brand-800 relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-32 h-32 bg-brand-700/50 rounded-full blur-[40px] pointer-events-none" />
-              
-              <h3 className="text-xl font-bold text-white mb-8 tracking-wide relative z-10">Our Global Offices</h3>
-
-              <div className="flex flex-col gap-6 relative z-10">
-                <div>
-                  <h4 className="font-bold text-accent-400 mb-2 flex items-center gap-2 text-base">
-                    <MapPin className="w-5 h-5" /> Germany (Head Office)
-                  </h4>
-                  <p className="text-brand-100 pl-7 leading-relaxed font-light text-sm">
-                    Plexuspharmaco GmbH<br />
-                    Frankenstr. 34<br />
-                    96146, Altendorf Germany.
-                  </p>
-                </div>
-
-                <div className="border-t border-brand-800 pt-6 mt-2">
-                  <h4 className="font-bold text-accent-400 mb-2 flex items-center gap-2 text-base">
-                    <MapPin className="w-5 h-5" /> India Offices
-                  </h4>
-                  <p className="text-brand-100 pl-7 leading-relaxed mb-4 font-light text-sm">
-                    <strong className="text-white font-semibold">Plexus Biogenix LLP</strong><br />
-                    Janapath, 217 Sadashiv Peth<br />
-                    Pune – 411030 (MS), India.
-                  </p>
-                  <p className="text-brand-100 pl-7 leading-relaxed font-light text-sm">
-                    <strong className="text-white font-semibold">Plexus Biocare Pvt. Ltd.</strong><br />
-                    Sankruti Sankul, Sitabuldi<br />
-                    Nagpur – 440012 (MS), India.
-                  </p>
-                </div>
+            {/* Emergency Contact */}
+            <div className="bg-accent-500 rounded-[2rem] p-8 shadow-lg text-white">
+              <div className="flex items-center gap-3 mb-4">
+                <AlertTriangle className="w-6 h-6 text-brand-100" />
+                <h3 className="text-xl font-bold">Pharmacovigilance</h3>
               </div>
+              <p className="text-brand-100 text-sm mb-6 leading-relaxed">For urgent reporting of adverse drug reactions or product quality complaints, please contact our 24/7 safety desk.</p>
+              <a href="mailto:safety@plexuspharmaco.com" className="block w-full py-3 bg-white text-accent-600 font-bold text-center rounded-xl hover:bg-brand-50 transition-colors">
+                safety@plexuspharmaco.com
+              </a>
             </div>
 
           </div>
         </div>
+
+        {/* Department Contacts */}
+        <div className="mb-24">
+          <h3 className="text-3xl font-bold text-brand-900 mb-10 text-center">Specific Inquiries</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            {departments.map((dept, idx) => (
+              <a key={idx} href={`mailto:${dept.email}`} className="bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all group block text-center">
+                <dept.icon className="w-8 h-8 text-brand-700 mx-auto mb-4 group-hover:scale-110 transition-transform" />
+                <h4 className="font-bold text-brand-900 mb-2">{dept.name}</h4>
+                <p className="text-sm text-brand-600 font-medium">{dept.email}</p>
+              </a>
+            ))}
+          </div>
+        </div>
+
       </div>
+      
+      {/* Interactive Map */}
+      <GlobalPresenceMap />
+      
     </div>
   );
 }

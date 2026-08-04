@@ -1,8 +1,9 @@
 "use client";
+
+
 import { motion } from "framer-motion";
-import { Microscope, Activity, Link as LinkIcon, ShieldCheck } from "lucide-react";
+import { Microscope, Activity, Link as LinkIcon, ShieldCheck, TestTube, Network, FlaskConical, Stethoscope, BriefcaseMedical } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
-import Link from "next/link";
 import Image from "next/image";
 
 export default function ResearchPage() {
@@ -24,12 +25,35 @@ export default function ResearchPage() {
     }
   ];
 
+  const competencies = [
+    {
+      title: "Formulation Development",
+      icon: FlaskConical,
+      description: "Developing complex generics, sustained-release, and novel drug delivery systems across solid oral, liquid, and sterile injectable forms."
+    },
+    {
+      title: "Analytical Development",
+      icon: TestTube,
+      description: "State-of-the-art analytical labs for method development, validation, stability testing, and degradation profiling."
+    },
+    {
+      title: "Technology Transfer",
+      icon: Network,
+      description: "Seamless scale-up from lab scale to commercial manufacturing, ensuring absolute process equivalency and regulatory compliance."
+    },
+    {
+      title: "Clinical Support",
+      icon: Stethoscope,
+      description: "End-to-end bioequivalence (BE) and clinical trial support, including dossier compilation and clinical monitoring."
+    }
+  ];
+
   return (
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Research & Development"
         paths={[{ name: "Innovation", href: "/" }, { name: "R&D" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/ai/modern_pharma_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -52,7 +76,7 @@ export default function ResearchPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Group of Companies, innovation begins with a disciplined, science-driven research and development framework embedded across formulation design, process development, and commercialization.
+                At Plexuspharmaco, innovation begins with a disciplined, science-driven research and development framework embedded across formulation design, process development, and commercialization.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
@@ -72,8 +96,8 @@ export default function ResearchPage() {
               className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/ai/quality_control_1785826430290.png"
-                alt="Pharma R&D"
+                src="/assets/images/ai/hero_slide_3.png"
+                alt="Pharma R&D Labs"
                 fill
                 className="object-cover"
               />
@@ -103,6 +127,57 @@ export default function ResearchPage() {
             </motion.div>
           ))}
         </div>
+
+        {/* Core Competencies Section */}
+        <div className="mb-24">
+          <div className="text-center max-w-3xl mx-auto mb-16">
+            <h2 className="text-3xl lg:text-4xl font-bold text-brand-900 mb-6">Core R&D Competencies</h2>
+            <p className="text-lg text-slate-600">Our multidisciplinary research teams are equipped with industry-leading infrastructure to tackle the most complex pharmaceutical development challenges.</p>
+          </div>
+          
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            {competencies.map((comp, idx) => (
+              <motion.div
+                key={idx}
+                initial={{ opacity: 0, scale: 0.95 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                viewport={{ once: true }}
+                transition={{ delay: idx * 0.1 }}
+                className="flex items-start gap-6 bg-white p-8 rounded-[2rem] border border-slate-100 shadow-sm hover:shadow-lg transition-all"
+              >
+                <div className="w-16 h-16 rounded-2xl bg-brand-900 flex-shrink-0 flex items-center justify-center text-white shadow-md">
+                  <comp.icon className="w-8 h-8" />
+                </div>
+                <div>
+                  <h3 className="text-2xl font-bold text-brand-900 mb-3">{comp.title}</h3>
+                  <p className="text-slate-600 leading-relaxed font-light">{comp.description}</p>
+                </div>
+              </motion.div>
+            ))}
+          </div>
+        </div>
+
+        {/* Research Pipeline */}
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="bg-brand-900 rounded-[3rem] p-12 lg:p-16 text-white text-center shadow-2xl relative overflow-hidden"
+        >
+          <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none">
+            <Image src="/assets/images/ai/modern_pharma_lab.png" alt="Lab Texture" fill className="object-cover" />
+          </div>
+          <div className="relative z-10 max-w-3xl mx-auto">
+            <BriefcaseMedical className="w-16 h-16 text-brand-200 mx-auto mb-6" />
+            <h2 className="text-3xl lg:text-5xl font-bold mb-6">Our Robust Research Pipeline</h2>
+            <p className="text-lg text-brand-100 font-light leading-relaxed mb-10">
+              Plexuspharmaco is aggressively expanding its therapeutic footprint. We currently have over 45 active R&D projects in various stages of development, focusing heavily on oncology, cardiovascular, and advanced nutraceutical formulations.
+            </p>
+            <a href="/pipeline" className="inline-flex items-center gap-2 px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+              Explore Our Pipeline
+            </a>
+          </div>
+        </motion.div>
 
       </div>
     </div>

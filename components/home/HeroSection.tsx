@@ -6,9 +6,10 @@ import { motion, AnimatePresence } from "framer-motion";
 import { homepageData } from "@/data/homepage";
 
 const slides = [
-  { id: 1, image: "/assets/images/ai/hero_bg_1785826407723.png" },
+  { id: 1, image: "/assets/images/ai/hero_slide_1.png" },
   { id: 2, image: "/assets/images/ai/hero_slide_2.png" },
   { id: 3, image: "/assets/images/ai/hero_slide_3.png" },
+  { id: 4, image: "/assets/images/ai/hero_slide_4.png" },
 ];
 
 export default function HeroSection() {

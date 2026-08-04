@@ -1,8 +1,10 @@
 "use client";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Globe2 } from "lucide-react";
+import { MapPin, Phone, Mail, Globe2, Building2, TrendingUp, Ship } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
+import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
+import CompanyStats from "@/components/home/CompanyStats";
 
 export default function GlobalOfficePage() {
   const offices = [
@@ -14,7 +16,8 @@ export default function GlobalOfficePage() {
       address: "Frankenstr. 34, 96146, Altendorf Germany.",
       phone: "+49 152 1304 8766",
       email: "info@plexuspharmaco.com",
-      image: "/assets/images/about/about-style2-1.jpg"
+      image: "/assets/images/ai/hero_slide_4.png",
+      capabilities: "Corporate Strategy, EU Regulatory Affairs, European Distribution"
     },
     {
       id: "india-pune",
@@ -24,118 +27,170 @@ export default function GlobalOfficePage() {
       address: "Janapath, 217 Sadashiv Peth, Pune – 411030 (MS), India.",
       phone: "+91 7304159520",
       email: "info@plexuspharmaco.com",
-      image: "/assets/images/about/about-style2-2.jpg"
+      image: "/assets/images/ai/manufacturing_1785826419695.png",
+      capabilities: "APAC Supply Chain, Regional R&D, Clinical Trials Management"
     },
     {
       id: "india-nagpur",
-      title: "Manufacturing & Distribution",
+      title: "Manufacturing Hub",
       country: "India",
       company: "Plexus Biocare Pvt. Ltd.",
       address: "Sankruti Sankul, Sitabuldi, Nagpur – 440012 (MS), India.",
       phone: "+91 7304159520",
       email: "info@plexuspharmaco.com",
-      image: "/assets/images/about/about-style2-3.jpg"
+      image: "/assets/images/ai/hero_slide_1.png",
+      capabilities: "API Synthesis, High-Volume Solid Oral Production, Export Logistics"
     }
+  ];
+
+  const exportMarkets = [
+    { region: "European Union", volume: "35%", status: "Direct Subsidiary Operations" },
+    { region: "Asia Pacific", volume: "30%", status: "Regional HQs & Joint Ventures" },
+    { region: "Middle East & Africa", volume: "20%", status: "Strategic Distribution Partners" },
+    { region: "Latin America", volume: "15%", status: "Contract Manufacturing Partners" }
   ];
 
   return (
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
-        title="Global Presence"
-        paths={[{ name: "Contact & Support", href: "/" }, { name: "Global Offices" }]}
-        bgImage="/assets/images/ai/csr_sustainability.png"
+        title="Global Presence & Logistics"
+        paths={[{ name: "Corporate", href: "/" }, { name: "Global Offices" }]}
+        bgImage="/assets/images/ai/global_reach_1785828011652.png"
       />
+
+      {/* Global Interactive Map Section */}
+      <GlobalPresenceMap />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
         
         {/* Intro */}
         <div className="max-w-3xl mb-16 text-center mx-auto">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-brand-100 mb-6 shadow-sm"
-          >
-            <Globe2 className="w-4 h-4 text-brand-700" />
-            <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">Our Strategic Footprint</span>
-          </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ delay: 0.1 }}
-            className="text-4xl font-bold text-brand-900 mb-6"
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6"
           >
-            Delivering Healthcare Solutions Across Continents
+            A Borderless Approach to Healthcare
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-lg text-brand-600 leading-relaxed"
+            className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            With our European headquarters in Germany and expansive operations across India, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
+            With our European headquarters in Germany and expansive manufacturing operations in India, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
           </motion.p>
         </div>
 
-        {/* Global Map Illustration (Placeholder for a real SVG Map if available) */}
-        <div className="w-full h-64 md:h-96 bg-brand-900 rounded-3xl mb-16 relative overflow-hidden flex items-center justify-center">
-          <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'url("/assets/images/resources/map-pattern.png")', backgroundSize: 'cover', backgroundPosition: 'center' }}></div>
-          <div className="relative z-10 text-center">
-            <Globe2 className="w-24 h-24 text-white/50 mx-auto mb-4" />
-            <h3 className="text-2xl md:text-3xl font-bold text-white">Connecting Global Markets</h3>
+        {/* Global Stats */}
+        <CompanyStats />
+
+        <div className="mt-24 mb-16">
+          <h2 className="text-3xl lg:text-4xl font-bold text-brand-900 mb-12 text-center">Our Strategic Global Hubs</h2>
+          {/* Office Grid */}
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+            {offices.map((office, idx) => (
+              <motion.div 
+                key={office.id}
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.5, delay: idx * 0.15 }}
+                className="bg-white rounded-[2rem] border border-slate-100 overflow-hidden shadow-sm hover:shadow-2xl hover:-translate-y-2 transition-all duration-500 group flex flex-col"
+              >
+                {/* Office Image */}
+                <div className="relative h-56 w-full overflow-hidden">
+                  <Image 
+                    src={office.image}
+                    alt={office.title}
+                    fill
+                    className="object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-brand-900/40 group-hover:bg-brand-900/10 transition-colors duration-500" />
+                  <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-brand-900 font-bold text-sm shadow-lg flex items-center gap-2">
+                    <MapPin className="w-4 h-4 text-accent-500" /> {office.country}
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="p-8 flex flex-col flex-grow">
+                  <h3 className="text-2xl font-bold text-brand-900 mb-2">{office.title}</h3>
+                  <div className="inline-block px-3 py-1 bg-brand-50 text-brand-700 text-xs font-bold rounded-lg mb-6">
+                    {office.company}
+                  </div>
+
+                  <div className="space-y-4 text-sm text-slate-600 mb-8 flex-grow">
+                    <div className="flex items-start gap-3">
+                      <Building2 className="w-5 h-5 text-brand-400 mt-0.5 flex-shrink-0" />
+                      <span>{office.address}</span>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Phone className="w-5 h-5 text-brand-400 flex-shrink-0" />
+                      <a href={`tel:${office.phone}`} className="hover:text-brand-700 transition-colors font-medium">{office.phone}</a>
+                    </div>
+                    <div className="flex items-center gap-3">
+                      <Mail className="w-5 h-5 text-brand-400 flex-shrink-0" />
+                      <a href={`mailto:${office.email}`} className="hover:text-brand-700 transition-colors font-medium">{office.email}</a>
+                    </div>
+                  </div>
+
+                  <div className="pt-6 border-t border-slate-100">
+                    <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">Hub Capabilities</p>
+                    <p className="text-sm font-medium text-brand-900">{office.capabilities}</p>
+                  </div>
+                </div>
+              </motion.div>
+            ))}
           </div>
         </div>
 
-        {/* Office Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {offices.map((office, idx) => (
-            <motion.div 
-              key={office.id}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: idx * 0.2 }}
-              className="bg-white rounded-3xl border border-slate-100 overflow-hidden shadow-sm hover:shadow-2xl transition-all duration-300 group flex flex-col"
-            >
-              <div className="relative h-48 w-full overflow-hidden bg-brand-50">
-                 <Image 
-                    src={office.image.includes('placeholder') ? '/assets/images/resources/no-image.jpg' : office.image}
-                    alt={office.title}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500 opacity-80 mix-blend-multiply"
-                 />
-                 <div className="absolute top-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-brand-900 border border-brand-100 shadow-sm flex items-center gap-1">
-                   <MapPin className="w-3 h-3 text-accent-500" /> {office.country}
-                 </div>
-              </div>
-              
-              <div className="p-8 flex flex-col flex-grow">
-                <h4 className="text-sm font-bold text-accent-500 uppercase tracking-widest mb-2">{office.title}</h4>
-                <h3 className="text-2xl font-bold text-brand-900 mb-6">{office.company}</h3>
-                
-                <div className="flex flex-col gap-4 mb-8 flex-grow">
-                  <div className="flex items-start gap-3">
-                    <MapPin className="w-5 h-5 text-brand-300 flex-shrink-0 mt-0.5" />
-                    <span className="text-brand-600 text-sm leading-relaxed">{office.address}</span>
+        {/* Distribution Network & Export Markets */}
+        <div className="flex flex-col lg:flex-row gap-12 mt-24">
+          <motion.div 
+            initial={{ opacity: 0, x: -30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="w-full lg:w-1/2 bg-white rounded-[2rem] p-10 lg:p-12 border border-slate-100 shadow-sm"
+          >
+            <Ship className="w-12 h-12 text-brand-700 mb-6" />
+            <h3 className="text-3xl font-bold text-brand-900 mb-6">Robust Export Network</h3>
+            <p className="text-slate-600 leading-relaxed font-light mb-8">
+              Plexuspharmaco leverages a highly optimized, temperature-controlled global logistics network ensuring our products reach distributors, hospitals, and pharmacies rapidly without compromising product integrity.
+            </p>
+            <div className="space-y-4">
+              {exportMarkets.map((market, idx) => (
+                <div key={idx} className="flex justify-between items-center p-4 bg-slate-50 rounded-xl border border-slate-100">
+                  <div>
+                    <h4 className="font-bold text-brand-900">{market.region}</h4>
+                    <p className="text-xs text-slate-500">{market.status}</p>
                   </div>
-                  <div className="flex items-center gap-3">
-                    <Phone className="w-5 h-5 text-brand-300 flex-shrink-0" />
-                    <a href={`tel:${office.phone.replace(/[^0-9+]/g, '')}`} className="text-brand-600 text-sm hover:text-brand-900 transition-colors">{office.phone}</a>
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <Mail className="w-5 h-5 text-brand-300 flex-shrink-0" />
-                    <a href={`mailto:${office.email}`} className="text-brand-600 text-sm hover:text-brand-900 transition-colors">{office.email}</a>
-                  </div>
+                  <div className="text-xl font-black text-brand-700">{market.volume}</div>
                 </div>
-                
-                <a href="/business-enquiry" className="w-full py-3 px-4 bg-brand-50 hover:bg-brand-900 text-brand-700 hover:text-white font-medium rounded-xl transition-colors duration-300 flex items-center justify-center text-sm">
-                  Contact Office
-                </a>
+              ))}
+            </div>
+          </motion.div>
+
+          <motion.div 
+            initial={{ opacity: 0, x: 30 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            viewport={{ once: true }}
+            className="w-full lg:w-1/2 relative min-h-[400px] rounded-[2rem] overflow-hidden shadow-xl"
+          >
+            <Image 
+              src="/assets/images/ai/hero_slide_2.png"
+              alt="Global Supply Chain Logistics"
+              fill
+              className="object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-brand-900/80 via-transparent to-transparent flex items-end p-12">
+              <div>
+                <h3 className="text-2xl font-bold text-white mb-2">Unbroken Cold Chain</h3>
+                <p className="text-brand-100">End-to-end digital tracking ensuring API and product viability across all borders.</p>
               </div>
-            </motion.div>
-          ))}
+            </div>
+          </motion.div>
         </div>
 
       </div>
