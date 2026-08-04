@@ -13,14 +13,22 @@ export default function GlobalPresenceMap() {
   ];
 
   return (
-    <section className="py-24 bg-brand-50 relative overflow-hidden">
+    <section className="py-32 bg-slate-950 relative overflow-hidden">
+      {/* Abstract Glowing Globe Background */}
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-brand-500/20 rounded-full blur-[120px] pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent-500/10 rounded-full blur-[80px] pointer-events-none" />
+      
+      {/* High-tech grid overlay */}
+      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none" />
+      <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
+
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <div className="text-center max-w-3xl mx-auto mb-20">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-brand-100 text-brand-700 rounded-full text-sm font-bold uppercase tracking-wider"
+            className="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-white/5 border border-white/10 text-accent-400 rounded-full text-sm font-bold uppercase tracking-widest backdrop-blur-md"
           >
             <Globe2 className="w-4 h-4" /> Global Reach
           </motion.div>
@@ -29,7 +37,7 @@ export default function GlobalPresenceMap() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
-            className="text-4xl md:text-5xl font-bold text-brand-900 mb-6"
+            className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight"
           >
             Delivering Healthcare Worldwide
           </motion.h2>
@@ -38,34 +46,37 @@ export default function GlobalPresenceMap() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="text-xl text-brand-600 leading-relaxed"
+            className="text-xl text-slate-300 leading-relaxed font-light"
           >
             Our strategically located operational hubs ensure rapid distribution and compliance with international regulatory standards.
           </motion.p>
         </div>
 
-        {/* Clean Grid Visualization instead of an abstract map */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
+        {/* Ultra-Premium Glassmorphism Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {locations.map((loc, idx) => (
             <motion.div
               key={idx}
-              initial={{ opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: idx * 0.1 }}
-              className="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm hover:shadow-xl transition-all duration-300 group"
+              transition={{ delay: idx * 0.15, type: "spring", stiffness: 100 }}
+              className="relative group rounded-3xl p-8 bg-white/5 backdrop-blur-xl border border-white/10 hover:bg-white/10 transition-all duration-500 hover:-translate-y-2 hover:shadow-[0_0_40px_-10px_rgba(59,130,246,0.3)] overflow-hidden"
             >
-              <div className="flex items-start justify-between mb-6">
-                <div className="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center group-hover:scale-110 group-hover:bg-brand-700 group-hover:text-white transition-all duration-300">
-                  <loc.icon className="w-7 h-7" />
+              {/* Hover Glow Effect */}
+              <div className="absolute top-0 right-0 w-32 h-32 bg-brand-500/20 rounded-full blur-[40px] group-hover:bg-brand-400/30 transition-colors duration-500" />
+              
+              <div className="flex items-start justify-between mb-8 relative z-10">
+                <div className="w-16 h-16 rounded-2xl bg-white/10 border border-white/10 text-white flex items-center justify-center group-hover:scale-110 group-hover:bg-brand-500 group-hover:border-brand-400 transition-all duration-500 shadow-lg">
+                  <loc.icon className="w-8 h-8" />
                 </div>
-                <div className="flex items-center gap-1 text-sm font-bold text-accent-500 bg-accent-50 px-3 py-1 rounded-full">
+                <div className="flex items-center gap-1.5 text-xs font-bold text-slate-900 bg-accent-400 px-4 py-1.5 rounded-full shadow-[0_0_15px_rgba(34,211,238,0.4)]">
                   <MapPin className="w-3.5 h-3.5" />
                   {loc.country}
                 </div>
               </div>
-              <h3 className="text-xl font-bold text-brand-900 mb-3">{loc.title}</h3>
-              <p className="text-slate-600 leading-relaxed">
+              <h3 className="text-2xl font-bold text-white mb-4 relative z-10 tracking-wide group-hover:text-accent-400 transition-colors">{loc.title}</h3>
+              <p className="text-slate-400 leading-relaxed relative z-10 font-light">
                 {loc.desc}
               </p>
             </motion.div>
