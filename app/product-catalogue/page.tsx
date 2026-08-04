@@ -187,7 +187,6 @@ export default function ProductCataloguePage() {
                         {product.description}
                       </p>
                       
-// Remember to import Link at the top! (I'll do that in another replacement if needed, wait I should just add it to the import block)
                       {/* Ingredients Section (Hover Reveal) */}
                       <div className="mt-auto flex flex-col gap-6">
                         <div className="pt-6 border-t border-slate-100">
