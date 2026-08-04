@@ -3,7 +3,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { Loader2, CheckCircle2 } from "lucide-react";
+import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle } from "lucide-react";
 
 // Form Schema Definition
 const contactSchema = z.object({
@@ -41,11 +41,11 @@ export default function ContactForm() {
   const selectedInquiry = watch("inquiry_type");
 
   const inquiryOptions = [
-    "Distribution Partnership",
-    "Contract Manufacturing",
-    "Product Sourcing & Supply",
-    "Regulatory Affairs",
-    "Other"
+    { title: "Distribution Partnership", desc: "Expand our global reach", icon: Globe },
+    { title: "Contract Manufacturing", desc: "End-to-end CMO services", icon: Factory },
+    { title: "Product Sourcing", desc: "Supply chain & API sourcing", icon: PackageSearch },
+    { title: "Regulatory Affairs", desc: "Compliance & submissions", icon: ShieldCheck },
+    { title: "Other", desc: "General inquiries", icon: HelpCircle }
   ];
 
   const onSubmit = async (data: ContactFormValues) => {
@@ -159,19 +159,33 @@ export default function ContactForm() {
         {/* Inquiry Type */}
         <div>
           <label className="block text-sm font-bold text-slate-500 mb-4 uppercase tracking-wider">Type of Inquiry *</label>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             {inquiryOptions.map((option) => (
               <button
-                key={option}
+                key={option.title}
                 type="button"
-                onClick={() => setValue("inquiry_type", option, { shouldValidate: true })}
-                className={`px-4 py-3.5 rounded-xl border text-sm font-medium transition-all text-left ${
-                  selectedInquiry === option 
-                    ? "bg-brand-50 border-brand-500 text-brand-900 shadow-[0_0_0_1px_rgba(30,58,138,1)]" 
-                    : "bg-white border-slate-200 text-slate-600 hover:border-brand-300 hover:bg-slate-50"
+                onClick={() => setValue("inquiry_type", option.title, { shouldValidate: true })}
+                className={`p-5 rounded-2xl border transition-all text-left group flex flex-col gap-3 ${
+                  selectedInquiry === option.title 
+                    ? "bg-brand-50 border-brand-500 shadow-[0_0_0_1px_rgba(30,58,138,1)]" 
+                    : "bg-white border-slate-200 hover:border-brand-300 hover:shadow-md"
                 }`}
               >
-                {option}
+                <div className={`w-10 h-10 rounded-xl flex items-center justify-center transition-colors ${
+                  selectedInquiry === option.title 
+                    ? "bg-brand-500 text-white" 
+                    : "bg-slate-100 text-slate-500 group-hover:bg-brand-100 group-hover:text-brand-700"
+                }`}>
+                  <option.icon className="w-5 h-5" />
+                </div>
+                <div>
+                  <h4 className={`font-bold transition-colors ${selectedInquiry === option.title ? "text-brand-900" : "text-slate-700 group-hover:text-brand-900"}`}>
+                    {option.title}
+                  </h4>
+                  <p className={`text-xs mt-1 transition-colors ${selectedInquiry === option.title ? "text-brand-700" : "text-slate-500"}`}>
+                    {option.desc}
+                  </p>
+                </div>
               </button>
             ))}
           </div>
