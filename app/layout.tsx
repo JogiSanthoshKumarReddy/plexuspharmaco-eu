@@ -66,6 +66,19 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#1e3a8a" />
         <link rel="manifest" href="/manifest.json" />
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
+        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
+          function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+          }
+          window.changeLanguage = function(lang) {
+            var teCombo = document.querySelector('.goog-te-combo');
+            if (teCombo) {
+              teCombo.value = lang;
+              teCombo.dispatchEvent(new Event('change'));
+            }
+          }
+        ` }}></script>
       </head>
       <body className={`${inter.variable} ${poppins.variable} font-inter antialiased bg-white text-slate-900`}>
         <StructuredData />

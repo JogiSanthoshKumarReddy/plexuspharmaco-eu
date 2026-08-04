@@ -45,8 +45,9 @@ export default function GlobalPresenceMap() {
         </div>
 
         {/* Abstract Map Visualization */}
-        <div className="relative w-full max-w-5xl mx-auto aspect-[2/1] bg-white rounded-3xl shadow-xl border border-brand-100 overflow-hidden">
-          <div className="absolute inset-0 opacity-10 bg-[url('/pharma/assets/images/696f65db8cb34.png')] bg-center bg-no-repeat bg-[length:50%]" style={{ filter: "grayscale(100%)" }} />
+        <div className="relative w-full max-w-5xl mx-auto aspect-[2/1] bg-slate-900 rounded-3xl shadow-2xl border border-slate-800 overflow-hidden">
+          <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(#3b82f6 1px, transparent 1px)', backgroundSize: '30px 30px' }} />
+          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-slate-900/50" />
           
           {/* Animated Location Pins */}
           {locations.map((loc, idx) => (

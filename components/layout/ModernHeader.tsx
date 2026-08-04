@@ -39,6 +39,7 @@ export default function ModernHeader() {
           <button onClick={() => changeLanguage("en")} className="hover:text-brand-700 transition-colors">English</button>
           <button onClick={() => changeLanguage("de")} className="hover:text-brand-700 transition-colors">German</button>
           <button onClick={() => changeLanguage("fr")} className="hover:text-brand-700 transition-colors">French</button>
+          <button onClick={() => changeLanguage("es")} className="hover:text-brand-700 transition-colors">Spanish</button>
         </div>
       </div>
 

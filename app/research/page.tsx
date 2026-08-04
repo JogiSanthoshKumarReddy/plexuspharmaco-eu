@@ -72,7 +72,7 @@ export default function ResearchPage() {
               className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/resources/research.jpg"
+                src="/assets/images/ai/quality_control_1785826430290.png"
                 alt="Pharma R&D"
                 fill
                 className="object-cover"
