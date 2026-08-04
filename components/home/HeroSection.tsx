@@ -1,31 +1,50 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Image from "next/image";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 import { homepageData } from "@/data/homepage";
+
+const slides = [
+  { id: 1, image: "/assets/images/ai/hero_bg_1785826407723.png" },
+  { id: 2, image: "/assets/images/ai/hero_slide_2.png" },
+  { id: 3, image: "/assets/images/ai/hero_slide_3.png" },
+];
 
 export default function HeroSection() {
   const { title, subtitle } = homepageData.hero;
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
+    }, 6000); // Change slide every 6 seconds
+    return () => clearInterval(timer);
+  }, []);
 
   return (
     <section className="relative h-screen min-h-[600px] w-full flex items-center justify-center overflow-hidden bg-brand-900">
-      {/* Background Image with Parallax and Overlay */}
-      <motion.div 
-        initial={{ scale: 1.1 }}
-        animate={{ scale: 1 }}
-        transition={{ duration: 2.5, ease: "easeOut" }}
-        className="absolute inset-0 z-0"
-      >
-        <Image
-          src="/assets/images/ai/hero_bg_1785826407723.png"
-          alt="Modern Pharmaceutical Laboratory"
-          fill
-          priority
-          className="object-cover object-center opacity-60"
-        />
-        {/* Premium Gradient Overlay */}
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-900/90 via-brand-900/70 to-transparent" />
-      </motion.div>
+      {/* Background Image Slider with Parallax and Overlay */}
+      <AnimatePresence mode="wait">
+        <motion.div 
+          key={currentSlide}
+          initial={{ opacity: 0, scale: 1.05 }}
+          animate={{ opacity: 1, scale: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1.5, ease: "easeInOut" }}
+          className="absolute inset-0 z-0"
+        >
+          <Image
+            src={slides[currentSlide].image}
+            alt="Pharmaceutical Hero Background"
+            fill
+            priority
+            className="object-cover object-center opacity-60"
+          />
+          {/* Premium Gradient Overlay */}
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-900/95 via-brand-900/70 to-transparent" />
+        </motion.div>
+      </AnimatePresence>
 
       {/* Animated Content */}
       <div className="relative z-10 container mx-auto px-6 lg:px-12">
@@ -73,6 +92,20 @@ export default function HeroSection() {
             </a>
           </motion.div>
         </div>
+      </div>
+
+      {/* Slide Indicators */}
+      <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex gap-3">
+        {slides.map((_, idx) => (
+          <button
+            key={idx}
+            onClick={() => setCurrentSlide(idx)}
+            aria-label={`Go to slide ${idx + 1}`}
+            className={`w-3 h-3 rounded-full transition-all duration-500 ${
+              currentSlide === idx ? "bg-accent-500 w-8" : "bg-white/40 hover:bg-white/70"
+            }`}
+          />
+        ))}
       </div>
     </section>
   );
