@@ -4,23 +4,23 @@
     "category": "KID’S HEALTH",
     "name": "PLEXWELL EASSICHEW KIDS CHEWABLE MULTIVITAMIN",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Comprehensive multivitamin formulation for optimal pediatric health, wellness, and cognitive development.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Essential Vitamins A-Z",
+        "dosage": "Varies",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Iron (Ferrous Sulfate)",
         "dosage": "10mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Gentle on Stomach",
+      "High Absorption",
+      "Sugar-Free"
     ]
   },
   {
@@ -28,23 +28,23 @@
     "category": "KID’S HEALTH",
     "name": "PLEXWELL JUNIOR KIDS’ MULTIVITAMIN GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Delicious, easy-to-chew multivitamin gummies packed with essential nutrients for growing children.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin A, C, D, E Blend",
+        "dosage": "500mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Zinc Citrate",
+        "dosage": "5mg",
+        "dv": "50%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "No Artificial Colors",
+      "Great Tasting",
+      "Supports Immunity & Growth"
     ]
   },
   {
@@ -52,23 +52,23 @@
     "category": "KID’S HEALTH",
     "name": "PLEXWELL JUNIOR MULTIVITAMIN LIQUID",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Comprehensive multivitamin formulation for optimal pediatric health, wellness, and cognitive development.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Essential Vitamins A-Z",
+        "dosage": "Varies",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Iron (Ferrous Sulfate)",
         "dosage": "10mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Gentle on Stomach",
+      "High Absorption",
+      "Sugar-Free"
     ]
   },
   {
@@ -76,23 +76,23 @@
     "category": "KID’S HEALTH",
     "name": "PLEXWELL BABY MULTIVITAMIN DROPS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Comprehensive multivitamin formulation for optimal pediatric health, wellness, and cognitive development.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Essential Vitamins A-Z",
+        "dosage": "Varies",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Iron (Ferrous Sulfate)",
         "dosage": "10mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Gentle on Stomach",
+      "High Absorption",
+      "Sugar-Free"
     ]
   },
   {
@@ -100,23 +100,23 @@
     "category": "KID’S HEALTH",
     "name": "PLEXWELL BABY VIT D3 DROPS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium liquid Vitamin D3 formulated specifically for infant and toddler bone development and immune support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Cholecalciferol (Vitamin D3)",
+        "dosage": "400 IU",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "MCT Oil (Carrier)",
+        "dosage": "0.2ml",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Alcohol-Free",
+      "Easy-Dose Dropper",
+      "Pediatrician Recommended"
     ]
   },
   {
@@ -124,23 +124,23 @@
     "category": "KID’S HEALTH",
     "name": "PLEXWELL VIT D3+ GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium liquid Vitamin D3 formulated specifically for infant and toddler bone development and immune support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Cholecalciferol (Vitamin D3)",
+        "dosage": "400 IU",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "MCT Oil (Carrier)",
+        "dosage": "0.2ml",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Alcohol-Free",
+      "Easy-Dose Dropper",
+      "Pediatrician Recommended"
     ]
   },
   {
@@ -148,23 +148,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN MULTIVITAMIN TAB",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -172,23 +177,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN 50+ MULTIVITAMIN TAB",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -196,23 +206,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN 70+ MULTIVITAMIN POWDER",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -220,23 +235,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN 70+ MULTIVITAMIN Spray",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -244,23 +264,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN FERTi-PRO TABLET (Fertility Support))",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Scientifically formulated male fertility supplement to support sperm count, motility, and overall reproductive health.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "L-Carnitine",
+        "dosage": "1000mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "CoQ10",
+        "dosage": "200mg",
+        "dv": "-"
+      },
+      {
+        "name": "Selenium",
+        "dosage": "55mcg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Reproductive Health",
+      "Antioxidant Rich",
+      "Doctor Recommended"
     ]
   },
   {
@@ -268,23 +293,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN PROSTi-PRO SOFTGEL (Prostate Health)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced prostate health complex designed to support normal urinary flow, bladder control, and overall prostate function.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Saw Palmetto Extract",
+        "dosage": "320mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Zinc Picolinate",
+        "dosage": "15mg",
+        "dv": "136%"
+      },
+      {
+        "name": "Lycopene",
         "dosage": "10mg",
-        "dv": "100%"
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "High-Potency Formula",
+      "Supports Men's Wellness",
+      "Clinically Proven Extract"
     ]
   },
   {
@@ -292,23 +322,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN ERECTi-PRO CAPSULE N100 (Sex and Stamina booster)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium stamina and vitality booster formulated with potent herbal extracts to support male energy and performance.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Tribulus Terrestris Extract",
+        "dosage": "500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Maca Root Extract",
+        "dosage": "400mg",
+        "dv": "-"
+      },
+      {
+        "name": "Panax Ginseng",
+        "dosage": "200mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Enhanced Vitality",
+      "Fast Acting",
+      "Natural Herbal Blend"
     ]
   },
   {
@@ -316,23 +351,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN ERECTi-PRO CAPSULE N10 (Sex and Stamina booster)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium stamina and vitality booster formulated with potent herbal extracts to support male energy and performance.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Tribulus Terrestris Extract",
+        "dosage": "500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Maca Root Extract",
+        "dosage": "400mg",
+        "dv": "-"
+      },
+      {
+        "name": "Panax Ginseng",
+        "dosage": "200mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Enhanced Vitality",
+      "Fast Acting",
+      "Natural Herbal Blend"
     ]
   },
   {
@@ -340,23 +380,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL REGAINOX CAPSULE (Sex and Stamina booster)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium stamina and vitality booster formulated with potent herbal extracts to support male energy and performance.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Tribulus Terrestris Extract",
+        "dosage": "500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Maca Root Extract",
+        "dosage": "400mg",
+        "dv": "-"
+      },
+      {
+        "name": "Panax Ginseng",
+        "dosage": "200mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Enhanced Vitality",
+      "Fast Acting",
+      "Natural Herbal Blend"
     ]
   },
   {
@@ -364,23 +409,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL REGAINOX GUMMIES (Sex and Stamina booster)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium stamina and vitality booster formulated with potent herbal extracts to support male energy and performance.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Tribulus Terrestris Extract",
+        "dosage": "500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Maca Root Extract",
+        "dosage": "400mg",
+        "dv": "-"
+      },
+      {
+        "name": "Panax Ginseng",
+        "dosage": "200mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Enhanced Vitality",
+      "Fast Acting",
+      "Natural Herbal Blend"
     ]
   },
   {
@@ -388,23 +438,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL RELAUNCH CAPSULE (Sex and Stamina booster)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium stamina and vitality booster formulated with potent herbal extracts to support male energy and performance.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Tribulus Terrestris Extract",
+        "dosage": "500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Maca Root Extract",
+        "dosage": "400mg",
+        "dv": "-"
+      },
+      {
+        "name": "Panax Ginseng",
+        "dosage": "200mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Enhanced Vitality",
+      "Fast Acting",
+      "Natural Herbal Blend"
     ]
   },
   {
@@ -412,23 +467,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN HAIR-PRO COMPLEX CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -436,23 +496,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL MEN HAIR-PRO COMPLEX EFFERVESCENT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -460,23 +525,28 @@
     "category": "MEN’S HEALTH",
     "name": "PLEXWELL HAIR-PRO SCALP SERUM",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -484,23 +554,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL WOMEN CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -508,23 +578,28 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL WOMEN 50+ CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -532,23 +607,28 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL WOMEN 70+ POWDER",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -556,23 +636,28 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL MENOPAUSE DAY SUPPORT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Targeted support for menopausal transition, helping to alleviate hot flashes, night sweats, and mood fluctuations.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Black Cohosh Extract",
+        "dosage": "40mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Red Clover Isoflavones",
+        "dosage": "80mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Hormonal Balance",
+      "Non-GMO",
+      "Plant-Based Relief"
     ]
   },
   {
@@ -580,23 +665,28 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL MENOPAUSE NIGHT SUPPORT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Targeted support for menopausal transition, helping to alleviate hot flashes, night sweats, and mood fluctuations.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Black Cohosh Extract",
+        "dosage": "40mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Red Clover Isoflavones",
+        "dosage": "80mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Hormonal Balance",
+      "Non-GMO",
+      "Plant-Based Relief"
     ]
   },
   {
@@ -604,23 +694,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL MENSTRU SUPPORT CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -628,23 +718,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL UT- SUPPORT CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -652,23 +742,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL PCOS SUPPORT COMPLEX CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -676,23 +766,28 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL WOMEN FERTi-PRO CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Scientifically formulated male fertility supplement to support sperm count, motility, and overall reproductive health.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "L-Carnitine",
+        "dosage": "1000mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "CoQ10",
+        "dosage": "200mg",
+        "dv": "-"
+      },
+      {
+        "name": "Selenium",
+        "dosage": "55mcg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Reproductive Health",
+      "Antioxidant Rich",
+      "Doctor Recommended"
     ]
   },
   {
@@ -700,23 +795,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL PREGNENCY SUPPORT Tri-1",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -724,23 +819,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL PREGNENCY SUPPORT Tri-2",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -748,23 +843,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLEXWELL PREGNENCY SUPPORT Tri-3",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -772,23 +867,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLXWELL LADYLOVE CAPSULE N10",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -796,23 +891,23 @@
     "category": "WOMEN’S HEALTH",
     "name": "PLXWELL LADYLOVE CAPSULE N30",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -820,23 +915,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA FAMILY",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -844,23 +939,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA SYRUP 200ml",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -868,23 +963,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEA SYRUP 150ml",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -892,23 +987,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL CODLIVER OIL WITH MULTI VITAMINS 200ml",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -916,23 +1011,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL SENIOMEGA SYRUP 200ml",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -940,23 +1035,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL VEGAN OMEGA SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -964,23 +1059,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL KRILL OIL SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -988,23 +1083,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA GUMMIES ADULTS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1012,23 +1107,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA GUMMIES FOR KIDS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Delicious, easy-to-chew multivitamin gummies packed with essential nutrients for growing children.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin A, C, D, E Blend",
+        "dosage": "500mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Zinc Citrate",
+        "dosage": "5mg",
+        "dv": "50%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "No Artificial Colors",
+      "Great Tasting",
+      "Supports Immunity & Growth"
     ]
   },
   {
@@ -1036,23 +1131,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA 3-6-9 5in1 FORMULA",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1060,23 +1155,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL ULTRA OMEGA 15x4 BLISTER",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1084,23 +1179,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL ULTRA OMEGA N60 BOTTLE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1108,23 +1203,28 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA + Probiotics + Curcumin SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced probiotic blend with prebiotics to support healthy gut flora, digestion, and systemic immunity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Lactobacillus Acidophilus",
+        "dosage": "10 Billion CFU",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Bifidobacterium Lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "15 Billion CFU",
+      "Targeted Release",
+      "Digestive Health"
     ]
   },
   {
@@ -1132,23 +1232,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA + VIT E SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1156,23 +1256,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1180,23 +1280,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL OMEGA-α SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1204,23 +1304,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "PLEXWELL FERROLYTE IRON SUPPLEMENT FAMILY",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1228,23 +1328,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "FERROLYTE SR CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1252,23 +1352,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "FERROLYTE LIQUID 200ML",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1276,23 +1376,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "FERROLYTE LIQUID PLUS 200ML",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1300,23 +1400,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "FERROLYTE GUMMIES FOR KIDS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Delicious, easy-to-chew multivitamin gummies packed with essential nutrients for growing children.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin A, C, D, E Blend",
+        "dosage": "500mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Zinc Citrate",
+        "dosage": "5mg",
+        "dv": "50%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "No Artificial Colors",
+      "Great Tasting",
+      "Supports Immunity & Growth"
     ]
   },
   {
@@ -1324,23 +1424,23 @@
     "category": "MEN & WOMEN WELLNESS POUCHES",
     "name": "FERROLYTE EASSiCHEW TABLETS FOR KIDS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Comprehensive multivitamin formulation for optimal pediatric health, wellness, and cognitive development.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Essential Vitamins A-Z",
+        "dosage": "Varies",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Iron (Ferrous Sulfate)",
         "dosage": "10mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Gentle on Stomach",
+      "High Absorption",
+      "Sugar-Free"
     ]
   },
   {
@@ -1348,23 +1448,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW CAPS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1372,23 +1472,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW CAPS 70+ AGE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -1396,23 +1501,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW COMPLEX BITTER DROPS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1420,23 +1525,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW COMPLEX GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1444,23 +1549,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW COMPEX POWDER",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1468,23 +1573,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW COMPLEX SHOTS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1492,23 +1597,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VITAMIN C SUPPLEMENT’S",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1516,23 +1621,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT C+ TAB",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1540,23 +1645,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT C+ EFFERVESCENT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1564,23 +1669,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT C+ GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1588,23 +1693,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT C+ POWDER SACHET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1612,23 +1717,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 SUPPLEMENT’S",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1636,23 +1741,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 BABY DROPS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium liquid Vitamin D3 formulated specifically for infant and toddler bone development and immune support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Cholecalciferol (Vitamin D3)",
+        "dosage": "400 IU",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "MCT Oil (Carrier)",
+        "dosage": "0.2ml",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Alcohol-Free",
+      "Easy-Dose Dropper",
+      "Pediatrician Recommended"
     ]
   },
   {
@@ -1660,23 +1765,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1684,23 +1789,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 TABLETS FOR KIDS 4-10 Y",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium liquid Vitamin D3 formulated specifically for infant and toddler bone development and immune support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Cholecalciferol (Vitamin D3)",
+        "dosage": "400 IU",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "MCT Oil (Carrier)",
+        "dosage": "0.2ml",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Alcohol-Free",
+      "Easy-Dose Dropper",
+      "Pediatrician Recommended"
     ]
   },
   {
@@ -1708,23 +1813,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3+ MULTIVITAMIN SYRUP 3-15 Y",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Complete daily multivitamin and mineral complex tailored for adult nutritional needs and cellular energy.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "90mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
+        "name": "Vitamin B12",
+        "dosage": "2.4mcg",
         "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "100mg",
+        "dv": "24%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Daily Nutritional Support",
+      "Energy Metabolism",
+      "Immune Defense"
     ]
   },
   {
@@ -1732,23 +1842,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL Vit D3 TABLET FOR TEENS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1756,23 +1866,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 5000 IU ADULT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1780,23 +1890,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 10000 IU ADULT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1804,23 +1914,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3 20000 IU ADULT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1828,23 +1938,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3+ EFFERVESCENT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1852,23 +1962,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL VIT D3+ COD LIVER OIL + OMEGA 3 SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1876,23 +1986,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL CALCIUM + OTHER SUPPLEMENT’S",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Maximum strength joint support formula to promote cartilage health, flexibility, and comfortable mobility.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Glucosamine Sulfate",
+        "dosage": "1500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Chondroitin Sulfate",
+        "dosage": "1200mg",
+        "dv": "-"
+      },
+      {
+        "name": "MSM",
+        "dosage": "1000mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Joint Lubrication",
+      "Supports Cartilage",
+      "Fast Absorbing"
     ]
   },
   {
@@ -1900,23 +2015,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL KIDCAL SYRUP 200ML",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -1924,23 +2039,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OSTEOMAX LIQUID 200ML",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Maximum strength joint support formula to promote cartilage health, flexibility, and comfortable mobility.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Glucosamine Sulfate",
+        "dosage": "1500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Chondroitin Sulfate",
+        "dosage": "1200mg",
+        "dv": "-"
+      },
+      {
+        "name": "MSM",
+        "dosage": "1000mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Joint Lubrication",
+      "Supports Cartilage",
+      "Fast Absorbing"
     ]
   },
   {
@@ -1948,23 +2068,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OSTEOMAX EFFERVESCENT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Maximum strength joint support formula to promote cartilage health, flexibility, and comfortable mobility.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Glucosamine Sulfate",
+        "dosage": "1500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Chondroitin Sulfate",
+        "dosage": "1200mg",
+        "dv": "-"
+      },
+      {
+        "name": "MSM",
+        "dosage": "1000mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Joint Lubrication",
+      "Supports Cartilage",
+      "Fast Absorbing"
     ]
   },
   {
@@ -1972,23 +2097,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OSTEOMAX+ SOFTGEL",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Maximum strength joint support formula to promote cartilage health, flexibility, and comfortable mobility.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Glucosamine Sulfate",
+        "dosage": "1500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Chondroitin Sulfate",
+        "dosage": "1200mg",
+        "dv": "-"
+      },
+      {
+        "name": "MSM",
+        "dosage": "1000mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Joint Lubrication",
+      "Supports Cartilage",
+      "Fast Absorbing"
     ]
   },
   {
@@ -1996,23 +2126,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OSTEOMAX TABLET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Maximum strength joint support formula to promote cartilage health, flexibility, and comfortable mobility.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Glucosamine Sulfate",
+        "dosage": "1500mg",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Chondroitin Sulfate",
+        "dosage": "1200mg",
+        "dv": "-"
+      },
+      {
+        "name": "MSM",
+        "dosage": "1000mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Joint Lubrication",
+      "Supports Cartilage",
+      "Fast Absorbing"
     ]
   },
   {
@@ -2020,23 +2155,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OSTEOMAX GUMMIES FOR KIDS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Delicious, easy-to-chew multivitamin gummies packed with essential nutrients for growing children.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin A, C, D, E Blend",
+        "dosage": "500mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Zinc Citrate",
+        "dosage": "5mg",
+        "dv": "50%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "No Artificial Colors",
+      "Great Tasting",
+      "Supports Immunity & Growth"
     ]
   },
   {
@@ -2044,23 +2179,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL BEAUTY SUPPLEMENT’S",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2068,23 +2203,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL HAIR, SKIN AND NAILS TABLETS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -2092,23 +2232,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL BEAUTY POUCH FOR HER",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2116,23 +2256,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL BEAUTY COLLAGEN MATRIX POWDER",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -2140,23 +2285,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL BEAUTY COLLAGEN MATRIX CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -2164,23 +2314,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL BEAUTY SKIN-CLEAR MATRIX CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2188,23 +2338,28 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL BEAUTY GLOW-MATRIX CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Advanced beauty complex formulated to nourish hair follicles, strengthen nails, and promote radiant skin elasticity.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "10000mcg",
+        "dv": "33333%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Hydrolyzed Marine Collagen",
+        "dosage": "500mg",
+        "dv": "-"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "100mg",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Promotes Hair Growth",
+      "Skin Elasticity",
+      "High-Potency Biotin"
     ]
   },
   {
@@ -2212,23 +2367,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL NIACINAMIDE 250MG TABLET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2236,23 +2391,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL NIACINAMIDE 500MG TABLET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2260,23 +2415,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL ANTI ACNE COMPLEX TABLET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2284,23 +2439,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL SLEEP SUPPLEMENT’S",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2308,23 +2463,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL SOMNA-MATRIX CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2332,23 +2487,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL SOMNA-MATRIX GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2356,23 +2511,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL SOMNA-MATRIX SPRAY",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2380,23 +2535,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL EYE/VISION SUPPLEMENT’S",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2404,23 +2559,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OPHTHACARE JUNIOR SYRUP",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Comprehensive multivitamin formulation for optimal pediatric health, wellness, and cognitive development.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Essential Vitamins A-Z",
+        "dosage": "Varies",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Iron (Ferrous Sulfate)",
         "dosage": "10mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Gentle on Stomach",
+      "High Absorption",
+      "Sugar-Free"
     ]
   },
   {
@@ -2428,23 +2583,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OPHTHACARE CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2452,23 +2607,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OPHTHACARE AGE 60+ CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2476,23 +2631,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OPHTHACARE GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2500,23 +2655,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL OPHTHACARE EFFERVESCENT",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2524,23 +2679,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL COUGH REMEDIES (HERBAL)",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2548,23 +2703,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL COUGH-CARE JUNIOR",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Comprehensive multivitamin formulation for optimal pediatric health, wellness, and cognitive development.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Essential Vitamins A-Z",
+        "dosage": "Varies",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
+        "name": "Iron (Ferrous Sulfate)",
         "dosage": "10mg",
         "dv": "100%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "Gentle on Stomach",
+      "High Absorption",
+      "Sugar-Free"
     ]
   },
   {
@@ -2572,23 +2727,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL COUGH-CARE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2596,23 +2751,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL COUGH-CARE DAY SACHET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2620,23 +2775,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL COUGH-CARE NIGHT SACHET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2644,23 +2799,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL PRE- PRO- AND POST-BIOTICS",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2668,23 +2823,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL KIDS DIGESMART GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Delicious, easy-to-chew multivitamin gummies packed with essential nutrients for growing children.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Vitamin A, C, D, E Blend",
+        "dosage": "500mg",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Zinc Citrate",
+        "dosage": "5mg",
+        "dv": "50%"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "No Artificial Colors",
+      "Great Tasting",
+      "Supports Immunity & Growth"
     ]
   },
   {
@@ -2692,23 +2847,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL DIACARE ORAL SACHET",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2716,23 +2871,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL TRI-BIOTIC GUMMIES",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2740,23 +2895,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL FLORA BALANCE CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2764,23 +2919,23 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL UTI-BIOTIC CAPSULE",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
     ]
   },
   {
@@ -2788,23 +2943,278 @@
     "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "PLEXWELL UTI-BIOTIC SYRUP 150ml",
     "image": "/pharma/assets/images/663c6d1a1cb8e.png",
-    "description": "Advanced formulation for optimal health and wellness.",
+    "description": "Premium grade dietary supplement formulated with high-quality ingredients for optimal health and therapeutic support.",
     "ingredients": [
       {
-        "name": "Active Ingredient A",
-        "dosage": "50mg",
-        "dv": "50%"
+        "name": "Active Pharmaceutical Ingredient",
+        "dosage": "Varies",
+        "dv": "-"
       },
       {
-        "name": "Vitamin B Complex",
-        "dosage": "10mg",
-        "dv": "100%"
+        "name": "Excipients",
+        "dosage": "q.s.",
+        "dv": "-"
       }
     ],
     "features": [
-      "High absorption formula",
-      "Clinically tested",
-      "Premium quality ingredients"
+      "GMP Certified",
+      "Quality Assured",
+      "High Efficacy"
+    ]
+  },
+  {
+    "id": "plexwell-whey-isolate",
+    "category": "SPORTS NUTRITION",
+    "name": "PLEXWELL WHEY ISOLATE PROTEIN",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Ultra-pure whey protein isolate for rapid muscle recovery and lean muscle growth. Zero sugar, low carb.",
+    "ingredients": [
+      {
+        "name": "Whey Protein Isolate",
+        "dosage": "25g",
+        "dv": "50%"
+      },
+      {
+        "name": "BCAAs",
+        "dosage": "5.5g",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "Fast Digesting",
+      "Zero Sugar",
+      "Muscle Recovery"
+    ]
+  },
+  {
+    "id": "plexwell-bcaa-recovery",
+    "category": "SPORTS NUTRITION",
+    "name": "PLEXWELL BCAA RECOVERY POWDER",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Optimal 2:1:1 ratio of Branched-Chain Amino Acids to support endurance, hydration, and prevent muscle breakdown.",
+    "ingredients": [
+      {
+        "name": "L-Leucine",
+        "dosage": "3.5g",
+        "dv": "-"
+      },
+      {
+        "name": "L-Isoleucine",
+        "dosage": "1.75g",
+        "dv": "-"
+      },
+      {
+        "name": "L-Valine",
+        "dosage": "1.75g",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "Intra-Workout",
+      "Enhances Endurance",
+      "Electrolyte Blend"
+    ]
+  },
+  {
+    "id": "plexwell-immune-defense",
+    "category": "IMMUNITY",
+    "name": "PLEXWELL IMMUNE-DEFENSE EFFERVESCENT",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Rapid-acting immune boosting effervescent tablets loaded with Vitamin C and Zinc.",
+    "ingredients": [
+      {
+        "name": "Vitamin C",
+        "dosage": "1000mg",
+        "dv": "1111%"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "10mg",
+        "dv": "91%"
+      }
+    ],
+    "features": [
+      "Fast Absorption",
+      "Refreshing Orange Flavor",
+      "Daily Immune Support"
+    ]
+  },
+  {
+    "id": "plexwell-omega3-krill",
+    "category": "HEART HEALTH",
+    "name": "PLEXWELL OMEGA-3 KRILL OIL SOFTGELS",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Superior Omega-3 fatty acids sourced from Antarctic Krill for cardiovascular and cognitive support.",
+    "ingredients": [
+      {
+        "name": "Krill Oil",
+        "dosage": "1000mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA",
+        "dosage": "120mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA",
+        "dosage": "55mg",
+        "dv": "-"
+      },
+      {
+        "name": "Astaxanthin",
+        "dosage": "1mg",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "No Fishy Burps",
+      "Heart Health",
+      "Brain & Joint Support"
+    ]
+  },
+  {
+    "id": "plexwell-sleep-aid",
+    "category": "SLEEP & RELAXATION",
+    "name": "PLEXWELL DEEP SLEEP MELATONIN GUMMIES",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Non-habit forming sleep support to help you fall asleep faster and wake up refreshed.",
+    "ingredients": [
+      {
+        "name": "Melatonin",
+        "dosage": "5mg",
+        "dv": "-"
+      },
+      {
+        "name": "L-Theanine",
+        "dosage": "100mg",
+        "dv": "-"
+      },
+      {
+        "name": "Chamomile Extract",
+        "dosage": "50mg",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "Promotes Restful Sleep",
+      "Wake Up Refreshed",
+      "Berry Flavor"
+    ]
+  },
+  {
+    "id": "plexwell-liver-detox",
+    "category": "DIGESTION & LIVER",
+    "name": "PLEXWELL LIVER DETOX CAPSULES",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Potent botanical blend featuring Milk Thistle to support liver cleansing, detoxification, and cellular health.",
+    "ingredients": [
+      {
+        "name": "Milk Thistle Extract (Silymarin)",
+        "dosage": "300mg",
+        "dv": "-"
+      },
+      {
+        "name": "Dandelion Root",
+        "dosage": "100mg",
+        "dv": "-"
+      },
+      {
+        "name": "Artichoke Extract",
+        "dosage": "50mg",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "Supports Detoxification",
+      "Antioxidant Support",
+      "Liver Health"
+    ]
+  },
+  {
+    "id": "plexwell-vision-protect",
+    "category": "EYE HEALTH",
+    "name": "PLEXWELL VISION PROTECT LUTEIN",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Advanced macular support formula to protect eyes from blue light and support visual acuity.",
+    "ingredients": [
+      {
+        "name": "Lutein",
+        "dosage": "20mg",
+        "dv": "-"
+      },
+      {
+        "name": "Zeaxanthin",
+        "dosage": "4mg",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "Blue Light Defense",
+      "Macular Health",
+      "Vision Support"
+    ]
+  },
+  {
+    "id": "plexwell-magnesium-glycinate",
+    "category": "MINERALS",
+    "name": "PLEXWELL MAGNESIUM GLYCINATE",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Highly bioavailable form of Magnesium for muscle relaxation, nerve function, and bone health.",
+    "ingredients": [
+      {
+        "name": "Magnesium (as Glycinate)",
+        "dosage": "200mg",
+        "dv": "48%"
+      }
+    ],
+    "features": [
+      "High Absorption",
+      "Gentle on Stomach",
+      "Muscle Relaxation"
+    ]
+  },
+  {
+    "id": "plexwell-ashwagandha",
+    "category": "STRESS & MOOD",
+    "name": "PLEXWELL ASHWAGANDHA KSM-66",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Clinically studied Ashwagandha root extract to support stress relief, mood balance, and natural energy.",
+    "ingredients": [
+      {
+        "name": "KSM-66 Ashwagandha Extract",
+        "dosage": "600mg",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "Stress Relief",
+      "Cortisol Balance",
+      "Adaptogenic Herb"
+    ]
+  },
+  {
+    "id": "plexwell-vegan-protein",
+    "category": "SPORTS NUTRITION",
+    "name": "PLEXWELL PLANT-BASED VEGAN PROTEIN",
+    "image": "/pharma/assets/images/663c6d1a1cb8e.png",
+    "description": "Complete amino acid profile from Pea, Brown Rice, and Hemp protein sources for vegan muscle support.",
+    "ingredients": [
+      {
+        "name": "Vegan Protein Blend",
+        "dosage": "20g",
+        "dv": "40%"
+      },
+      {
+        "name": "Digestive Enzymes",
+        "dosage": "50mg",
+        "dv": "-"
+      }
+    ],
+    "features": [
+      "100% Plant-Based",
+      "Dairy-Free",
+      "Smooth Texture"
     ]
   }
 ]

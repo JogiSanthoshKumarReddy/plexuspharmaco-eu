@@ -1,6 +1,7 @@
 "use client";
 import { useState, useMemo } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Search, Filter, ChevronRight, X, Info } from 'lucide-react';
 import products from '@/data/products.json';
@@ -186,8 +187,9 @@ export default function ProductCataloguePage() {
                         {product.description}
                       </p>
                       
+// Remember to import Link at the top! (I'll do that in another replacement if needed, wait I should just add it to the import block)
                       {/* Ingredients Section (Hover Reveal) */}
-                      <div className="mt-auto">
+                      <div className="mt-auto flex flex-col gap-6">
                         <div className="pt-6 border-t border-slate-100">
                           <h5 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">Key Ingredients</h5>
                           <div className="flex flex-wrap gap-2">
@@ -203,6 +205,9 @@ export default function ProductCataloguePage() {
                             )}
                           </div>
                         </div>
+                        <Link href={`/product-catalogue/${product.id}`} className="w-full py-3 px-4 bg-brand-50 hover:bg-brand-900 text-brand-700 hover:text-white rounded-xl font-bold transition-all duration-300 flex items-center justify-center gap-2 group/btn border border-brand-100 hover:border-brand-900">
+                          View Full Details <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                        </Link>
                       </div>
                     </div>
                   </motion.div>
