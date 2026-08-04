@@ -96,7 +96,7 @@ export default function EventPage() {
                 <span className="font-medium">{event.location}</span>
               </div>
               
-              <Link href="#" className="inline-flex items-center gap-2 text-brand-700 font-bold hover:text-brand-900 transition-colors mt-auto">
+              <Link href="/business-enquiry" className="inline-flex items-center gap-2 text-brand-700 font-bold hover:text-brand-900 transition-colors mt-auto">
                 Event Details <ArrowRight className="w-4 h-4" />
               </Link>
             </motion.div>

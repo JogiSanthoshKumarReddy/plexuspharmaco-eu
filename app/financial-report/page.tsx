@@ -82,7 +82,7 @@ export default function FinancialReportPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {reports.map((report, idx) => (
               <motion.a
-                href="#"
+                href="/business-enquiry"
                 key={idx}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}

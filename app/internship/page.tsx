@@ -102,7 +102,7 @@ export default function InternshipPage() {
         </div>
 
         <div className="text-center">
-          <Link href="#" className="inline-flex items-center gap-2 px-8 py-4 bg-brand-900 text-white rounded-xl font-bold hover:bg-brand-800 transition-colors shadow-lg hover:shadow-xl">
+          <Link href="/business-enquiry" className="inline-flex items-center gap-2 px-8 py-4 bg-brand-900 text-white rounded-xl font-bold hover:bg-brand-800 transition-colors shadow-lg hover:shadow-xl">
             Apply for Internship Program <ArrowRight className="w-5 h-5" />
           </Link>
         </div>

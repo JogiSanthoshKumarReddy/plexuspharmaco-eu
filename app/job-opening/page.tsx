@@ -119,7 +119,7 @@ export default function JobOpeningPage() {
                 </div>
               </div>
               
-              <Link href="#" className="inline-flex justify-center items-center gap-2 w-full px-6 py-3 bg-brand-50 text-brand-900 rounded-xl font-bold hover:bg-brand-900 hover:text-white transition-colors mt-auto">
+              <Link href="/business-enquiry" className="inline-flex justify-center items-center gap-2 w-full px-6 py-3 bg-brand-50 text-brand-900 rounded-xl font-bold hover:bg-brand-900 hover:text-white transition-colors mt-auto">
                 Apply Now <ArrowRight className="w-4 h-4" />
               </Link>
             </motion.div>
