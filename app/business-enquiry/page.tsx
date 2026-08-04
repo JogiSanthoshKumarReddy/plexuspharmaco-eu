@@ -1,7 +1,10 @@
+"use client";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import ContactForm from "@/components/contact/ContactForm";
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
-import { Mail, MapPin, Phone, Clock, Share2, Briefcase, Stethoscope, Users, Building2, AlertTriangle } from "lucide-react";
+import { Mail, MapPin, Phone, Clock, Briefcase, Stethoscope, Users, Building2, AlertTriangle, ChevronDown } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
 
 export default function BusinessEnquiryPage() {
   const departments = [
@@ -9,6 +12,13 @@ export default function BusinessEnquiryPage() {
     { name: "Regulatory Affairs", email: "regulatory@plexuspharmaco.com", icon: Stethoscope },
     { name: "Human Resources (Careers)", email: "careers@plexuspharmaco.com", icon: Users },
     { name: "Partnerships & Licensing", email: "partner@plexuspharmaco.com", icon: Briefcase }
+  ];
+  const [openFaq, setOpenFaq] = useState<number | null>(null);
+
+  const faqs = [
+    { q: "What information should I include in a contract manufacturing inquiry?", a: "Please include your required product specifications, anticipated annual volume, target markets, and preferred packaging formats. This allows our team to quickly assess feasibility and provide an accurate timeline." },
+    { q: "How long does it take for a sales representative to respond?", a: "Our Global Sales & Distribution team typically responds to all inquiries within 24-48 business hours. For urgent regulatory matters, please contact the specific regional office directly via phone." },
+    { q: "Do you offer white-labeling services for nutraceuticals?", a: "Yes, our Biocare division specializes in white-label and private-label nutraceuticals. Please direct these specific inquiries to partner@plexuspharmaco.com." },
   ];
 
   return (
@@ -21,21 +31,34 @@ export default function BusinessEnquiryPage() {
 
       <div className="container mx-auto px-6 lg:px-12 mt-16 relative z-20">
         
-        {/* Intro */}
-        <div className="text-center max-w-3xl mx-auto mb-16">
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-center max-w-3xl mx-auto mb-16"
+        >
           <h2 className="text-4xl font-bold text-brand-900 mb-6">How Can We Help You?</h2>
           <p className="text-lg text-slate-600 font-light">Whether you are looking for a reliable manufacturing partner, need regulatory support, or want to join our global team, we are ready to connect.</p>
-        </div>
+        </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-24">
           
           {/* Form Column */}
-          <div className="lg:col-span-2">
+          <motion.div 
+            initial={{ opacity: 0, x: -20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.1 }}
+            className="lg:col-span-2"
+          >
             <ContactForm />
-          </div>
+          </motion.div>
 
           {/* Contact Info Column */}
-          <div className="flex flex-col gap-6">
+          <motion.div 
+            initial={{ opacity: 0, x: 20 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ delay: 0.2 }}
+            className="flex flex-col gap-6"
+          >
             
             {/* Primary Contact Card */}
             <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-brand-100 group">
@@ -95,11 +118,16 @@ export default function BusinessEnquiryPage() {
               </a>
             </div>
 
-          </div>
+          </motion.div>
         </div>
 
         {/* Department Contacts */}
-        <div className="mb-24">
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mb-24"
+        >
           <h3 className="text-3xl font-bold text-brand-900 mb-10 text-center">Specific Inquiries</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {departments.map((dept, idx) => (
@@ -110,7 +138,44 @@ export default function BusinessEnquiryPage() {
               </a>
             ))}
           </div>
-        </div>
+        </motion.div>
+
+        {/* FAQs */}
+        <motion.div 
+          initial={{ opacity: 0, y: 30 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="max-w-3xl mx-auto mb-24"
+        >
+          <h3 className="text-3xl font-bold text-brand-900 mb-10 text-center">Frequently Asked Questions</h3>
+          <div className="space-y-4">
+            {faqs.map((faq, idx) => (
+              <div key={idx} className="bg-white rounded-2xl border border-slate-100 overflow-hidden shadow-sm">
+                <button 
+                  onClick={() => setOpenFaq(openFaq === idx ? null : idx)}
+                  className="w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none"
+                >
+                  <span className="font-bold text-brand-900 pr-4">{faq.q}</span>
+                  <ChevronDown className={`w-5 h-5 text-brand-500 transition-transform duration-300 ${openFaq === idx ? 'rotate-180' : ''}`} />
+                </button>
+                <AnimatePresence>
+                  {openFaq === idx && (
+                    <motion.div 
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      className="overflow-hidden"
+                    >
+                      <div className="px-6 pb-5 pt-0 text-slate-600 leading-relaxed border-t border-slate-50 mt-2">
+                        {faq.a}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            ))}
+          </div>
+        </motion.div>
 
       </div>
       

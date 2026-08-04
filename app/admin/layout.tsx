@@ -27,6 +27,7 @@ export default function AdminLayout({ children }: { children: React.ReactNode })
   // Simple local auth check
   useEffect(() => {
     const auth = localStorage.getItem("adminAuth");
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsAuthenticated(auth === "true");
   }, []);
 
