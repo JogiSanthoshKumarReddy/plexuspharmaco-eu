@@ -1,15 +1,15 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Globe, MapPin } from "lucide-react";
+import { Building2, Factory, FlaskConical, Truck, Globe2, MapPin } from "lucide-react";
 
 export default function GlobalPresenceMap() {
   const locations = [
-    { name: "European HQ (UK)", top: "30%", left: "48%" },
-    { name: "Manufacturing Hub (Germany)", top: "32%", left: "51%" },
-    { name: "R&D Center (France)", top: "35%", left: "49%" },
-    { name: "Distribution (USA)", top: "40%", left: "22%" },
-    { name: "Asia Pacific (Singapore)", top: "60%", left: "78%" },
+    { title: "European HQ", country: "United Kingdom", icon: Building2, desc: "Global strategy and corporate governance." },
+    { title: "Manufacturing Hub", country: "Germany", icon: Factory, desc: "State-of-the-art production facilities." },
+    { title: "R&D Center", country: "France", icon: FlaskConical, desc: "Advanced research and innovation lab." },
+    { title: "Distribution", country: "USA", icon: Truck, desc: "North American supply chain logistics." },
+    { title: "Asia Pacific", country: "Singapore", icon: Globe2, desc: "APAC regional operations and support." },
   ];
 
   return (
@@ -22,7 +22,7 @@ export default function GlobalPresenceMap() {
             viewport={{ once: true }}
             className="inline-flex items-center gap-2 mb-4 px-4 py-2 bg-brand-100 text-brand-700 rounded-full text-sm font-bold uppercase tracking-wider"
           >
-            <Globe className="w-4 h-4" /> Global Reach
+            <Globe2 className="w-4 h-4" /> Global Reach
           </motion.div>
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
@@ -44,37 +44,32 @@ export default function GlobalPresenceMap() {
           </motion.p>
         </div>
 
-        {/* Abstract Map Visualization */}
-        <div className="relative w-full max-w-5xl mx-auto aspect-[2/1] bg-slate-900 rounded-3xl shadow-2xl border border-slate-800 overflow-hidden">
-          <div className="absolute inset-0 opacity-20" style={{ backgroundImage: 'radial-gradient(#3b82f6 1px, transparent 1px)', backgroundSize: '30px 30px' }} />
-          <div className="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-slate-900/50" />
-          
-          {/* Animated Location Pins */}
+        {/* Clean Grid Visualization instead of an abstract map */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
           {locations.map((loc, idx) => (
             <motion.div
               key={idx}
-              initial={{ scale: 0, opacity: 0 }}
-              whileInView={{ scale: 1, opacity: 1 }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: 0.3 + (idx * 0.2), type: "spring" }}
-              className="absolute flex flex-col items-center group cursor-pointer"
-              style={{ top: loc.top, left: loc.left }}
+              transition={{ delay: idx * 0.1 }}
+              className="bg-white rounded-3xl p-8 border border-brand-100 shadow-sm hover:shadow-xl transition-all duration-300 group"
             >
-              <div className="relative">
-                <div className="absolute inset-0 bg-accent-500 rounded-full animate-ping opacity-75" />
-                <div className="relative bg-accent-500 text-white p-2 rounded-full shadow-lg group-hover:scale-110 transition-transform">
-                  <MapPin className="w-5 h-5" />
+              <div className="flex items-start justify-between mb-6">
+                <div className="w-14 h-14 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center group-hover:scale-110 group-hover:bg-brand-700 group-hover:text-white transition-all duration-300">
+                  <loc.icon className="w-7 h-7" />
+                </div>
+                <div className="flex items-center gap-1 text-sm font-bold text-accent-500 bg-accent-50 px-3 py-1 rounded-full">
+                  <MapPin className="w-3.5 h-3.5" />
+                  {loc.country}
                 </div>
               </div>
-              <div className="absolute top-12 opacity-0 group-hover:opacity-100 transition-opacity bg-brand-900 text-white text-sm font-bold px-3 py-1.5 rounded-lg whitespace-nowrap shadow-xl pointer-events-none z-20">
-                {loc.name}
-              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-3">{loc.title}</h3>
+              <p className="text-slate-600 leading-relaxed">
+                {loc.desc}
+              </p>
             </motion.div>
           ))}
-          
-          <div className="absolute bottom-6 right-6 text-brand-400 font-medium text-sm flex items-center gap-2">
-            <span className="w-2 h-2 rounded-full bg-accent-500 animate-pulse" /> Active Operations
-          </div>
         </div>
       </div>
     </section>
