@@ -1,0 +1,21 @@
+{
+  "name": "Plexuspharmaco Europe",
+  "short_name": "Plexuspharmaco",
+  "description": "Global Healthcare Solutions and Advanced Therapies",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "icons": [
+    {
+      "src": "/pharma/assets/images/696f65db8cb34.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/pharma/assets/images/696f65db8cb34.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

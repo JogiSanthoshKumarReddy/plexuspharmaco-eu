@@ -64,6 +64,8 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="theme-color" content="#1e3a8a" />
+        <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`${inter.variable} ${poppins.variable} font-inter antialiased bg-white text-slate-900`}>
         <StructuredData />
