@@ -42,7 +42,7 @@ export default function GlobalOfficePage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Global Presence"
-        paths={[{ name: "Contact & Support", href: "#" }, { name: "Global Offices" }]}
+        paths={[{ name: "Contact & Support", href: "/" }, { name: "Global Offices" }]}
         bgImage="/assets/images/breadcrumb/office-bg.jpg"
       />
 

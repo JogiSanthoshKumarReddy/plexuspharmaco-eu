@@ -31,7 +31,7 @@ export default function BiocarePage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Plexus Biocare Pvt. Ltd."
-        paths={[{ name: "Subsidiaries", href: "#" }, { name: "Plexus Biocare" }]}
+        paths={[{ name: "Subsidiaries", href: "/" }, { name: "Plexus Biocare" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

@@ -28,7 +28,7 @@ export default function LifePage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Life at Plexuspharmaco"
-        paths={[{ name: "Careers", href: "#" }, { name: "Life at Plexus" }]}
+        paths={[{ name: "Careers", href: "/" }, { name: "Life at Plexus" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

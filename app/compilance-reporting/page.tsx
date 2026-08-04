@@ -48,7 +48,7 @@ export default function ComplianceReportingPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Compliance & Reporting"
-        paths={[{ name: "Contact & Support", href: "#" }, { name: "Compliance" }]}
+        paths={[{ name: "Contact & Support", href: "/" }, { name: "Compliance" }]}
         bgImage="/assets/images/breadcrumb/enquiry-bg.jpg"
       />
 

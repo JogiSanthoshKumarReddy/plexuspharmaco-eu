@@ -27,7 +27,7 @@ export default function CorporateGovernancePage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Corporate Governance"
-        paths={[{ name: "Company", href: "#" }, { name: "Corporate Governance" }]}
+        paths={[{ name: "Company", href: "/" }, { name: "Corporate Governance" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

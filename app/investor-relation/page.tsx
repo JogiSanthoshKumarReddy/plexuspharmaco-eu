@@ -29,7 +29,7 @@ export default function InvestorRelationPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Investor Relations"
-        paths={[{ name: "Investors", href: "#" }, { name: "Investor Relations" }]}
+        paths={[{ name: "Investors", href: "/" }, { name: "Investor Relations" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

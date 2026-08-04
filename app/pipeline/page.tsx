@@ -30,7 +30,7 @@ export default function PipelinePage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="R&D Pipeline"
-        paths={[{ name: "Innovation", href: "#" }, { name: "Pipeline" }]}
+        paths={[{ name: "Innovation", href: "/" }, { name: "Pipeline" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

@@ -28,7 +28,7 @@ export default function PartnershipPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Partnership Opportunities"
-        paths={[{ name: "Partnering", href: "#" }, { name: "Opportunities" }]}
+        paths={[{ name: "Partnering", href: "/" }, { name: "Opportunities" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

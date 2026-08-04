@@ -48,7 +48,7 @@ export default function ProfilePage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Country Profiles"
-        paths={[{ name: "Global Markets", href: "#" }, { name: "Country Profiles" }]}
+        paths={[{ name: "Global Markets", href: "/" }, { name: "Country Profiles" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

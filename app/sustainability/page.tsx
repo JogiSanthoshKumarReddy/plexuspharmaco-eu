@@ -31,7 +31,7 @@ export default function SustainabilityPage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Sustainability & Environment"
-        paths={[{ name: "CSR", href: "#" }, { name: "Sustainability" }]}
+        paths={[{ name: "CSR", href: "/" }, { name: "Sustainability" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

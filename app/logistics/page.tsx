@@ -31,7 +31,7 @@ export default function LogisticsPage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Export & Logistics"
-        paths={[{ name: "Global Markets", href: "#" }, { name: "Export & Logistics" }]}
+        paths={[{ name: "Global Markets", href: "/" }, { name: "Export & Logistics" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

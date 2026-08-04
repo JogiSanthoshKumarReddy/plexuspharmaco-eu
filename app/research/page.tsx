@@ -28,7 +28,7 @@ export default function ResearchPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Research & Development"
-        paths={[{ name: "Innovation", href: "#" }, { name: "R&D" }]}
+        paths={[{ name: "Innovation", href: "/" }, { name: "R&D" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

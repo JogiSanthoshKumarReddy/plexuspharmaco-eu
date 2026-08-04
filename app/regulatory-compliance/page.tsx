@@ -27,7 +27,7 @@ export default function RegulatoryCompliancePage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Regulatory Compliance"
-        paths={[{ name: "Operations", href: "#" }, { name: "Regulatory Compliance" }]}
+        paths={[{ name: "Operations", href: "/" }, { name: "Regulatory Compliance" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

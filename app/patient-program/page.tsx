@@ -28,7 +28,7 @@ export default function PatientProgramPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Patient Support Programs"
-        paths={[{ name: "Patient & Healthcare", href: "#" }, { name: "Patient Programs" }]}
+        paths={[{ name: "Patient & Healthcare", href: "/" }, { name: "Patient Programs" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

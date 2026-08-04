@@ -27,7 +27,7 @@ export default function HealthCommunityPage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Health & Community Initiatives"
-        paths={[{ name: "CSR", href: "#" }, { name: "Health & Community" }]}
+        paths={[{ name: "CSR", href: "/" }, { name: "Health & Community" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

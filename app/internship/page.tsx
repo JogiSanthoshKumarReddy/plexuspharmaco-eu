@@ -28,7 +28,7 @@ export default function InternshipPage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Internship & Training"
-        paths={[{ name: "Careers", href: "#" }, { name: "Internship & Training" }]}
+        paths={[{ name: "Careers", href: "/" }, { name: "Internship & Training" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

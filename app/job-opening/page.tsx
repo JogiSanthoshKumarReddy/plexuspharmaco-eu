@@ -54,7 +54,7 @@ export default function JobOpeningPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Job Openings"
-        paths={[{ name: "Careers", href: "#" }, { name: "Job Openings" }]}
+        paths={[{ name: "Careers", href: "/" }, { name: "Job Openings" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

@@ -48,7 +48,7 @@ export default function ResearchDevelopmentHubPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="R&D, Manufacturing & Quality"
-        paths={[{ name: "Innovation", href: "#" }, { name: "R&D Hub" }]}
+        paths={[{ name: "Innovation", href: "/" }, { name: "R&D Hub" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

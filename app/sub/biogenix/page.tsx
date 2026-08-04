@@ -31,7 +31,7 @@ export default function BiogenixPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Plexus Biogenix LLP"
-        paths={[{ name: "Subsidiaries", href: "#" }, { name: "Plexus Biogenix" }]}
+        paths={[{ name: "Subsidiaries", href: "/" }, { name: "Plexus Biogenix" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

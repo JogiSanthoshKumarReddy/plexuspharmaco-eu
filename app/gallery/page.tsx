@@ -21,7 +21,7 @@ export default function GalleryPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Our Gallery"
-        paths={[{ name: "Careers", href: "#" }, { name: "Gallery" }]}
+        paths={[{ name: "Careers", href: "/" }, { name: "Gallery" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

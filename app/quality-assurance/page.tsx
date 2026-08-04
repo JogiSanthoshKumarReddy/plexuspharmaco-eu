@@ -16,7 +16,7 @@ export default function QualityAssurancePage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Quality Assurance & Control"
-        paths={[{ name: "Operations", href: "#" }, { name: "Quality Assurance" }]}
+        paths={[{ name: "Operations", href: "/" }, { name: "Quality Assurance" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 

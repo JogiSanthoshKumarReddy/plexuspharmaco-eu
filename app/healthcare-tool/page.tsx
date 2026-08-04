@@ -32,7 +32,7 @@ export default function HealthcareToolPage() {
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
         title="Healthcare Professional Tools"
-        paths={[{ name: "Patient & Healthcare", href: "#" }, { name: "HCP Tools" }]}
+        paths={[{ name: "Patient & Healthcare", href: "/" }, { name: "HCP Tools" }]}
         bgImage="/assets/images/breadcrumb/event-bg.jpg"
       />
 

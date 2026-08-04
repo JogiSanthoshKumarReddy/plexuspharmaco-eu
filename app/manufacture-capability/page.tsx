@@ -41,7 +41,7 @@ export default function ManufactureCapabilityPage() {
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
       <BreadcrumbHero 
         title="Manufacturing Capabilities"
-        paths={[{ name: "Operations", href: "#" }, { name: "Manufacturing" }]}
+        paths={[{ name: "Operations", href: "/" }, { name: "Manufacturing" }]}
         bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
       />
 
