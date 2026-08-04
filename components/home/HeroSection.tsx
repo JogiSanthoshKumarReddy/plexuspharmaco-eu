@@ -17,8 +17,8 @@ export default function HeroSection() {
         className="absolute inset-0 z-0"
       >
         <Image
-          src="/assets/images/hero-2.jpg"
-          alt="Plexuspharmaco Operations"
+          src="/assets/images/ai/hero_bg_1785826407723.png"
+          alt="Modern Pharmaceutical Laboratory"
           fill
           priority
           className="object-cover object-center opacity-60"

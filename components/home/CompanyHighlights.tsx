@@ -1,13 +1,14 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { Factory, ShieldCheck, Globe } from "lucide-react";
 import { homepageData } from "@/data/homepage";
 
 const iconMap: Record<string, React.ReactNode> = {
-  "factory": <Factory className="w-10 h-10 text-brand-600" />,
-  "shield-check": <ShieldCheck className="w-10 h-10 text-brand-600" />,
-  "globe": <Globe className="w-10 h-10 text-brand-600" />,
+  "factory": <Factory className="w-8 h-8 text-white" />,
+  "shield-check": <ShieldCheck className="w-8 h-8 text-white" />,
+  "globe": <Globe className="w-8 h-8 text-white" />,
 };
 
 export default function CompanyHighlights() {
@@ -29,15 +30,15 @@ export default function CompanyHighlights() {
   };
 
   return (
-    <section className="py-24 bg-brand-50">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="py-24 bg-brand-50 relative overflow-hidden">
+      <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, margin: "-100px" }}
             transition={{ duration: 0.6 }}
-            className="text-4xl font-bold text-brand-900 mb-6"
+            className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6"
           >
             {title}
           </motion.h2>
@@ -63,13 +64,24 @@ export default function CompanyHighlights() {
             <motion.div 
               key={idx}
               variants={itemVariants}
-              className="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border border-brand-100 group"
+              className="bg-white rounded-3xl shadow-sm hover:shadow-2xl transition-all duration-500 border border-brand-100 group overflow-hidden flex flex-col"
             >
-              <div className="w-20 h-20 rounded-2xl bg-brand-50 flex items-center justify-center mb-6 group-hover:scale-110 group-hover:bg-brand-100 transition-transform duration-300">
-                {iconMap[feature.icon]}
+              <div className="relative h-64 w-full overflow-hidden">
+                <Image 
+                  src={feature.image} 
+                  alt={feature.title} 
+                  fill 
+                  className="object-cover group-hover:scale-110 transition-transform duration-700" 
+                />
+                <div className="absolute inset-0 bg-gradient-to-t from-brand-900/90 via-brand-900/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-300" />
+                <div className="absolute bottom-6 left-6 w-14 h-14 rounded-2xl bg-brand-500/90 backdrop-blur flex items-center justify-center border border-white/20 shadow-lg group-hover:-translate-y-2 transition-transform duration-300">
+                  {iconMap[feature.icon]}
+                </div>
               </div>
-              <h3 className="text-2xl font-semibold text-brand-900 mb-4">{feature.title}</h3>
-              <p className="text-brand-600 leading-relaxed">{feature.desc}</p>
+              <div className="p-8 flex-grow flex flex-col">
+                <h3 className="text-2xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors">{feature.title}</h3>
+                <p className="text-slate-600 leading-relaxed flex-grow">{feature.desc}</p>
+              </div>
             </motion.div>
           ))}
         </motion.div>
