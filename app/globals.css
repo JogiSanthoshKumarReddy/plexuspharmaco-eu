@@ -25,8 +25,21 @@
 
 @layer base {
   body {
+    top: 0 !important;
     @apply bg-slate-50 text-slate-900 font-inter antialiased selection:bg-brand-200 selection:text-brand-900;
   }
+  
+  /* Hide Google Translate Banner and Frame */
+  .skiptranslate iframe,
+  .goog-te-banner-frame {
+    display: none !important;
+    visibility: hidden !important;
+  }
+  
+  #goog-gt-tt {
+    display: none !important;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     @apply font-poppins tracking-tight text-brand-900;
   }

@@ -72,13 +72,10 @@ export default function RootLayout({
             new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
           }
           window.changeLanguage = function(lang) {
-            var teCombo = document.querySelector('.goog-te-combo');
-            if (teCombo) {
-              teCombo.value = lang;
-              teCombo.dispatchEvent(new Event('change', { bubbles: true, cancelable: true }));
-            } else {
-              console.warn('Google Translate combobox not found');
-            }
+            var cookieStr = '/en/' + lang;
+            document.cookie = 'googtrans=' + cookieStr + '; path=/';
+            document.cookie = 'googtrans=' + cookieStr + '; path=/; domain=' + window.location.hostname;
+            window.location.reload();
           }
         ` }}></script>
       </head>

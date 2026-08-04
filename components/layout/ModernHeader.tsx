@@ -10,6 +10,7 @@ export default function ModernHeader() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
+  const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const pathname = usePathname();
 
   useEffect(() => {
@@ -33,19 +34,9 @@ export default function ModernHeader() {
         isScrolled ? "bg-white/95 backdrop-blur-md shadow-md py-3" : "bg-white py-5"
       }`}
     >
-      {/* Top Bar for Language Switcher (Optional, hidden on mobile for cleaner UI) */}
-      <div className="hidden lg:flex justify-end items-center px-8 pb-2 border-b border-slate-100">
-        <div id="google_translate_element" className="opacity-0 absolute pointer-events-none w-[1px] h-[1px] overflow-hidden" aria-hidden="true"></div>
-        <div className="flex items-center gap-4 text-sm text-slate-500">
-          <Globe className="w-4 h-4" aria-hidden="true" />
-          <button onClick={() => changeLanguage("en")} aria-label="Translate to English" className="hover:text-brand-700 transition-colors">English</button>
-          <button onClick={() => changeLanguage("de")} aria-label="Translate to German" className="hover:text-brand-700 transition-colors">German</button>
-          <button onClick={() => changeLanguage("fr")} aria-label="Translate to French" className="hover:text-brand-700 transition-colors">French</button>
-          <button onClick={() => changeLanguage("es")} aria-label="Translate to Spanish" className="hover:text-brand-700 transition-colors">Spanish</button>
-        </div>
-      </div>
-
-      <div className="container mx-auto px-6 lg:px-8 pt-2">
+      <div id="google_translate_element" className="opacity-0 absolute pointer-events-none w-[1px] h-[1px] overflow-hidden" aria-hidden="true"></div>
+      
+      <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 relative z-50" aria-label="Plexuspharmaco Home">
@@ -112,8 +103,49 @@ export default function ModernHeader() {
             })}
           </nav>
 
-          {/* Contact Button Desktop */}
-          <div className="hidden lg:flex items-center">
+          {/* Contact Button Desktop & Language Dropdown */}
+          <div className="hidden lg:flex items-center gap-4">
+            {/* Language Selector */}
+            <div 
+              className="relative"
+              onMouseEnter={() => setLangDropdownOpen(true)}
+              onMouseLeave={() => setLangDropdownOpen(false)}
+            >
+              <button 
+                className="p-2 text-slate-600 hover:text-brand-700 hover:bg-slate-50 rounded-full transition-colors flex items-center gap-1"
+                aria-label="Language Selector"
+              >
+                <Globe className="w-5 h-5" />
+                <ChevronDown className={`w-3 h-3 transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
+              </button>
+              
+              <div 
+                className={`absolute top-full right-0 mt-2 w-40 bg-white rounded-xl shadow-xl border border-slate-100 transition-all duration-200 overflow-hidden ${
+                  langDropdownOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"
+                }`}
+              >
+                <div className="py-2">
+                  {[
+                    { code: "en", label: "English" },
+                    { code: "de", label: "German" },
+                    { code: "fr", label: "French" },
+                    { code: "es", label: "Spanish" },
+                  ].map((lang) => (
+                    <button
+                      key={lang.code}
+                      onClick={() => {
+                        changeLanguage(lang.code);
+                        setLangDropdownOpen(false);
+                      }}
+                      className="w-full text-left px-4 py-2 text-sm text-brand-700 hover:bg-brand-50 hover:text-brand-900 transition-colors font-medium"
+                    >
+                      {lang.label}
+                    </button>
+                  ))}
+                </div>
+              </div>
+            </div>
+
             <Link 
               href="/business-enquiry" 
               className="px-6 py-2.5 bg-brand-900 hover:bg-brand-800 text-white rounded-lg font-medium transition-colors shadow-sm hover:shadow-md"
@@ -172,11 +204,21 @@ export default function ModernHeader() {
             </div>
           ))}
 
-          <div className="pt-6 mt-auto">
+          <div className="mt-8 pt-8 border-t border-slate-100 flex flex-col gap-4">
+            <div className="mb-4">
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-2"><Globe className="w-4 h-4"/> Select Language</h4>
+              <div className="grid grid-cols-2 gap-2">
+                <button onClick={() => { changeLanguage("en"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">English</button>
+                <button onClick={() => { changeLanguage("de"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">German</button>
+                <button onClick={() => { changeLanguage("fr"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">French</button>
+                <button onClick={() => { changeLanguage("es"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">Spanish</button>
+              </div>
+            </div>
+            
             <Link 
               href="/business-enquiry" 
-              onClick={() => setMobileMenuOpen(false)}
               className="block w-full text-center bg-brand-700 text-white py-4 rounded-xl font-medium text-lg"
+              onClick={() => setMobileMenuOpen(false)}
             >
               Contact Us
             </Link>
