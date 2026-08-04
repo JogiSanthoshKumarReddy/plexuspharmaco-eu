@@ -73,7 +73,7 @@ export default function LicensingPage() {
       <BreadcrumbHero 
         title="Licensing Opportunities"
         paths={[{ name: "Partnering", href: "/partnership" }, { name: "Licensing" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

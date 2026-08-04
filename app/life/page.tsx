@@ -29,7 +29,7 @@ export default function LifePage() {
       <BreadcrumbHero 
         title="Life at Plexuspharmaco"
         paths={[{ name: "Careers", href: "/" }, { name: "Life at Plexus" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

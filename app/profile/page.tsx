@@ -49,7 +49,7 @@ export default function ProfilePage() {
       <BreadcrumbHero 
         title="Country Profiles"
         paths={[{ name: "Global Markets", href: "/" }, { name: "Country Profiles" }]}
-        bgImage="/assets/images/breadcrumb/breadcrumb-1.jpg"
+        bgImage="/assets/images/ai/hero_slide_2.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

@@ -43,7 +43,7 @@ export default function GlobalOfficePage() {
       <BreadcrumbHero 
         title="Global Presence"
         paths={[{ name: "Contact & Support", href: "/" }, { name: "Global Offices" }]}
-        bgImage="/assets/images/breadcrumb/office-bg.jpg"
+        bgImage="/assets/images/ai/csr_sustainability.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

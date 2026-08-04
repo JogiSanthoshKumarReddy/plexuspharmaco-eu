@@ -36,7 +36,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
       <BreadcrumbHero 
         title="Product Details"
         paths={[{ name: "Products", href: "/product-catalogue" }, { name: product.name }]}
-        bgImage="/assets/images/breadcrumb/breadcrumb-2.jpg"
+        bgImage="/assets/images/ai/modern_pharma_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">

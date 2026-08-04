@@ -43,7 +43,7 @@ export default function MediaPage() {
       <BreadcrumbHero 
         title="Media Coverage"
         paths={[{ name: "News & Media", href: "/media" }, { name: "Media Coverage" }]}
-        bgImage="/assets/images/breadcrumb/media-bg.jpg"
+        bgImage="/assets/images/ai/hero_bg_1785826407723.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

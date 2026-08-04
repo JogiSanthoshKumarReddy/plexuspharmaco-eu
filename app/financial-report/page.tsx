@@ -18,7 +18,7 @@ export default function FinancialReportPage() {
       <BreadcrumbHero 
         title="Financial Reports"
         paths={[{ name: "Investors", href: "/investor-relation" }, { name: "Financial Reports" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

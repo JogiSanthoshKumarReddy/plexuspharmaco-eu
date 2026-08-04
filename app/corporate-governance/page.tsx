@@ -28,7 +28,7 @@ export default function CorporateGovernancePage() {
       <BreadcrumbHero 
         title="Corporate Governance"
         paths={[{ name: "Company", href: "/" }, { name: "Corporate Governance" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

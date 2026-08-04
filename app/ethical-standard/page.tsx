@@ -28,7 +28,7 @@ export default function EthicalStandardPage() {
       <BreadcrumbHero 
         title="Ethical Standards"
         paths={[{ name: "CSR", href: "/" }, { name: "Ethical Standards" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

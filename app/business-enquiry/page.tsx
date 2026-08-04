@@ -8,7 +8,7 @@ export default function BusinessEnquiryPage() {
       <BreadcrumbHero
         title="Business Enquiry"
         paths={[{ name: "Contact", href: "/business-enquiry" }, { name: "Enquiry" }]}
-        bgImage="/assets/images/breadcrumb/breadcrumb-3.jpg"
+        bgImage="/assets/images/ai/hero_slide_3.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16 relative z-20">

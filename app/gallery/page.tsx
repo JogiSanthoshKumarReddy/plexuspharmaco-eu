@@ -22,7 +22,7 @@ export default function GalleryPage() {
       <BreadcrumbHero 
         title="Our Gallery"
         paths={[{ name: "Careers", href: "/" }, { name: "Gallery" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

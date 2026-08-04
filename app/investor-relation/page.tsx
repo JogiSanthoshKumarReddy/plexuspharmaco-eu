@@ -30,7 +30,7 @@ export default function InvestorRelationPage() {
       <BreadcrumbHero 
         title="Investor Relations"
         paths={[{ name: "Investors", href: "/" }, { name: "Investor Relations" }]}
-        bgImage="/assets/images/breadcrumb/event-bg.jpg"
+        bgImage="/assets/images/ai/corporate_governance.png"
       />
 
       <CompanyStats />

@@ -47,7 +47,7 @@ export default function ProductCataloguePage() {
       <BreadcrumbHero 
         title="Product Catalogue"
         paths={[{ name: "Products", href: "/product-catalogue" }, { name: "Catalogue" }]}
-        bgImage="/assets/images/breadcrumb/breadcrumb-2.jpg"
+        bgImage="/assets/images/ai/modern_pharma_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">
