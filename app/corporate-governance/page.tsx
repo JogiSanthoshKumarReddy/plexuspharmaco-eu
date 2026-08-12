@@ -14,7 +14,7 @@ export default function CorporateGovernancePage() {
     {
       title: "Strategic Oversight",
       icon: Scale,
-      description: "Our leadership and Board of Directors provide strategic oversight, with clear roles and responsibilities across subsidiaries to ensure alignment with the Group’s vision."
+      description: "Our leadership and Board of Directors provide strategic oversight, with clear roles and responsibilities across subsidiaries to ensure alignment with the company’s vision."
     },
     {
       title: "Scientific Integrity",
@@ -28,7 +28,7 @@ export default function CorporateGovernancePage() {
       <BreadcrumbHero 
         title="Corporate Governance"
         paths={[{ name: "Company", href: "/" }, { name: "Corporate Governance" }]}
-        bgImage="/assets/images/ai/corporate_governance.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -52,9 +52,9 @@ export default function CorporateGovernancePage() {
               </h2>
               
               <p className="text-lg text-brand-600 mb-8 leading-relaxed">
-                At Plexus Group of Companies, strong corporate governance underpins everything we do, ensuring transparency, accountability, and sustainable value creation. 
+                At Plexuspharmaco GmbH, strong corporate governance underpins everything we do, ensuring transparency, accountability, and sustainable value creation. 
                 <br/><br/>
-                This disciplined approach enables Plexus Group to foster innovation, collaboration, and sustainable growth across pharmaceuticals, nutraceuticals, healthcare solutions, and advanced technology platforms worldwide.
+                This disciplined approach enables Plexuspharmaco to foster innovation, collaboration, and sustainable growth across pharmaceuticals, nutraceuticals, healthcare solutions, and advanced technology platforms worldwide.
               </p>
             </motion.div>
           </div>
@@ -67,7 +67,7 @@ export default function CorporateGovernancePage() {
               className="absolute inset-4 rounded-3xl overflow-hidden shadow-2xl z-10 border border-brand-100 group"
             >
               <Image 
-                src="/assets/images/ai/corporate_governance.png"
+                src="/assets/images/pharma_hero_corporate.png"
                 alt="Corporate Governance Board"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
@@ -83,7 +83,7 @@ export default function CorporateGovernancePage() {
               className="absolute -bottom-8 -left-8 w-64 h-64 rounded-3xl overflow-hidden shadow-xl z-20 border-4 border-white group"
             >
               <Image 
-                src="/assets/images/ai/modern_pharma_lab.png"
+                src="/assets/images/pharma_hero_lab.png"
                 alt="Scientific Leadership"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-700"

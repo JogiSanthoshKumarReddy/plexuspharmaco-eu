@@ -75,7 +75,7 @@ export default function ManufactureCapabilityPage() {
       <BreadcrumbHero 
         title="Manufacturing Capabilities"
         paths={[{ name: "Operations", href: "/" }, { name: "Manufacturing" }]}
-        bgImage="/assets/images/ai/hero_slide_1.png"
+        bgImage="/assets/images/pharma_hero_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -90,7 +90,7 @@ export default function ManufactureCapabilityPage() {
               className="absolute inset-4 rounded-3xl overflow-hidden shadow-2xl z-10 border border-brand-100"
             >
               <Image 
-                src="/assets/images/ai/manufacturing_1785826419695.png"
+                src="/assets/images/pharma_hero_mfg.png"
                 alt="EU-GMP Manufacturing"
                 fill
                 className="object-cover"
@@ -106,7 +106,7 @@ export default function ManufactureCapabilityPage() {
               className="absolute -bottom-8 -right-8 w-64 h-64 rounded-3xl overflow-hidden shadow-xl z-20 border-4 border-white"
             >
               <Image 
-                src="/assets/images/ai/quality_control_1785826430290.png"
+                src="/assets/images/pharma_quality_control.png"
                 alt="Quality Inspection"
                 fill
                 className="object-cover"
@@ -184,7 +184,7 @@ export default function ManufactureCapabilityPage() {
           className="bg-brand-900 rounded-[3rem] p-12 lg:p-16 text-white flex flex-col md:flex-row justify-around items-center text-center shadow-2xl relative overflow-hidden mb-24"
         >
           <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none">
-            <Image src="/assets/images/ai/hero_slide_1.png" alt="Lab Texture" fill className="object-cover" />
+            <Image src="/assets/images/pharma_hero_lab.png" alt="Lab Texture" fill className="object-cover" />
           </div>
           
           <div className="relative z-10 p-6">

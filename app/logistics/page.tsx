@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Truck, Globe2, ShieldCheck, FileCheck, RefreshCw, ArrowRight } from "lucide-react";
+import { Truck, Globe2, ShieldCheck, FileCheck, RefreshCw } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 
 export default function LogisticsPage() {
@@ -32,7 +32,7 @@ export default function LogisticsPage() {
       <BreadcrumbHero 
         title="Export & Logistics"
         paths={[{ name: "Global Markets", href: "/" }, { name: "Export & Logistics" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

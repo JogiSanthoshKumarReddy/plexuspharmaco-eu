@@ -11,7 +11,7 @@ const newsItems = [
     category: "Press Release",
     date: "Aug 15, 2026",
     author: "Corporate Comms",
-    image: "/assets/images/ai/hero_slide_3.png",
+    image: "/assets/images/pharma_hero_corporate.png",
     excerpt: "The European Medicines Agency has granted fast-track designation for our latest targeted therapy, accelerating the path to market for critical patient care."
   },
   {
@@ -19,7 +19,7 @@ const newsItems = [
     category: "Corporate News",
     date: "Jul 28, 2026",
     author: "Operations",
-    image: "/assets/images/ai/manufacturing_1785826419695.png",
+    image: "/assets/images/pharma_hero_mfg.png",
     excerpt: "To meet surging global demand, Plexuspharmaco has committed €150M to expand our active pharmaceutical ingredient facilities in Europe and Asia."
   },
   {
@@ -27,7 +27,7 @@ const newsItems = [
     category: "Sustainability",
     date: "Jun 10, 2026",
     author: "ESG Board",
-    image: "/assets/images/ai/csr_sustainability.png",
+    image: "/assets/images/pharma_hero_lab.png",
     excerpt: "Our commitment to the planet reaches a new milestone as all core manufacturing sites achieve 100% zero-liquid discharge and 60% renewable energy use."
   }
 ];
@@ -66,7 +66,7 @@ export default function LatestNews() {
               <div className="relative h-64 overflow-hidden">
                 <Image 
                   src={item.image} 
-                  alt={item.title} 
+                  alt="" 
                   fill 
                   className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
                 />

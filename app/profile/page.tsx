@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { MapPin, Building2, Globe2, ArrowRight } from "lucide-react";
+import { MapPin, Building2, Globe2 } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
@@ -15,7 +15,7 @@ export default function ProfilePage() {
     {
       title: "Germany",
       type: "HO & Manufacturing",
-      facilities: ["Frankenstr 34, 96146", "Altendorf, Germany"],
+      facilities: ["Frankenstr. 34, 96146 Altendorf, Germany."],
       image: "/assets/images/germany.png"
     },
     {
@@ -39,7 +39,7 @@ export default function ProfilePage() {
     {
       title: "United States",
       type: "JV Manufacturing",
-      facilities: ["FDA-Approved Facility", "Specialized Formulations"],
+      facilities: ["FDA-Compliant Facility", "Specialized Formulations"],
       image: "/assets/images/us.png"
     }
   ];
@@ -49,7 +49,7 @@ export default function ProfilePage() {
       <BreadcrumbHero 
         title="Country Profiles"
         paths={[{ name: "Global Markets", href: "/" }, { name: "Country Profiles" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

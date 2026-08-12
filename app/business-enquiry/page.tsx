@@ -26,7 +26,7 @@ export default function BusinessEnquiryPage() {
       <BreadcrumbHero
         title="Contact & Global Offices"
         paths={[{ name: "Corporate", href: "/" }, { name: "Contact Us" }]}
-        bgImage="/assets/images/ai/hero_slide_4.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16 relative z-20">
@@ -90,7 +90,7 @@ export default function BusinessEnquiryPage() {
                   </div>
                   <div>
                     <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Address</span>
-                    <span className="text-brand-900 font-medium leading-relaxed">Frankenstr. 34, 96146,<br/>Altendorf, Germany</span>
+                    <span className="text-brand-900 font-medium leading-relaxed">Frankenstr. 34, 96146 Altendorf, Germany.</span>
                   </div>
                 </div>
 

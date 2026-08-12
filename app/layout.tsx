@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Inter, Poppins } from "next/font/google";
+import { Inter, Outfit } from "next/font/google";
 import "./globals.css";
 import ModernHeader from "@/components/layout/ModernHeader";
 import ModernFooter from "@/components/layout/ModernFooter";
@@ -8,7 +8,7 @@ import StructuredData from "@/components/common/StructuredData";
 
 // Import modern UI fonts
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
-const poppins = Poppins({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"], variable: "--font-poppins", display: "swap" });
+const outfit = Outfit({ subsets: ["latin"], weight: ["300", "400", "500", "600", "700"], variable: "--font-outfit", display: "swap" });
 
 export const metadata: Metadata = {
   title: {
@@ -79,7 +79,7 @@ export default function RootLayout({
           }
         ` }}></script>
       </head>
-      <body className={`${inter.variable} ${poppins.variable} font-inter antialiased bg-white text-slate-900`}>
+      <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
         <StructuredData />
         <div className="flex flex-col min-h-screen">
           <RouteChangeHandler />

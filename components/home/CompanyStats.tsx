@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import AnimatedCounter from "@/components/common/AnimatedCounter";
 
 const stats = [
-  { label: "Global Markets", value: 50, suffix: "+" },
-  { label: "Years of Experience", value: 20, suffix: "+" },
+  { label: "Global Partners", value: 15, suffix: "+" },
+  { label: "Years Combined Experience", value: 50, suffix: "+" },
   { label: "Therapeutic Categories", value: 12, suffix: "" },
-  { label: "Research Scientists", value: 150, suffix: "+" },
+  { label: "Research Scientists", value: 25, suffix: "+" },
 ];
 
 export default function CompanyStats() {

@@ -53,7 +53,7 @@ export default function ResearchPage() {
       <BreadcrumbHero 
         title="Research & Development"
         paths={[{ name: "Innovation", href: "/" }, { name: "R&D" }]}
-        bgImage="/assets/images/ai/modern_pharma_lab.png"
+        bgImage="/assets/images/pharma_hero_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -96,7 +96,7 @@ export default function ResearchPage() {
               className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/ai/hero_slide_3.png"
+                src="/assets/images/pharma_hero_corporate.png"
                 alt="Pharma R&D Labs"
                 fill
                 className="object-cover"
@@ -165,7 +165,7 @@ export default function ResearchPage() {
           className="bg-brand-900 rounded-[3rem] p-12 lg:p-16 text-white text-center shadow-2xl relative overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none">
-            <Image src="/assets/images/ai/modern_pharma_lab.png" alt="Lab Texture" fill className="object-cover" />
+            <Image src="/assets/images/pharma_hero_lab.png" alt="Lab Texture" fill className="object-cover" />
           </div>
           <div className="relative z-10 max-w-3xl mx-auto">
             <BriefcaseMedical className="w-16 h-16 text-brand-200 mx-auto mb-6" />

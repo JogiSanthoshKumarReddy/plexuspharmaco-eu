@@ -31,7 +31,7 @@ export default function PipelinePage() {
       <BreadcrumbHero 
         title="R&D Pipeline"
         paths={[{ name: "Innovation", href: "/" }, { name: "Pipeline" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">

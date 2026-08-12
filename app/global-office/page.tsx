@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { MapPin, Phone, Mail, Globe2, Building2, TrendingUp, Ship } from "lucide-react";
+import { MapPin, Phone, Mail, Building2, Ship } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
@@ -13,10 +13,10 @@ export default function GlobalOfficePage() {
       title: "European Headquarters",
       country: "Germany",
       company: "Plexuspharmaco GmbH",
-      address: "Frankenstr. 34, 96146, Altendorf Germany.",
+      address: "Frankenstr. 34, 96146 Altendorf, Germany",
       phone: "+49 152 1304 8766",
       email: "info@plexuspharmaco.com",
-      image: "/assets/images/ai/hero_slide_4.png",
+      image: "/assets/images/pharma_hero_corporate.png",
       capabilities: "Corporate Strategy, EU Regulatory Affairs, European Distribution"
     },
     {
@@ -27,7 +27,7 @@ export default function GlobalOfficePage() {
       address: "Janapath, 217 Sadashiv Peth, Pune – 411030 (MS), India.",
       phone: "+91 7304159520",
       email: "info@plexuspharmaco.com",
-      image: "/assets/images/ai/manufacturing_1785826419695.png",
+      image: "/assets/images/pharma_hero_mfg.png",
       capabilities: "APAC Supply Chain, Regional R&D, Clinical Trials Management"
     },
     {
@@ -38,7 +38,7 @@ export default function GlobalOfficePage() {
       address: "Sankruti Sankul, Sitabuldi, Nagpur – 440012 (MS), India.",
       phone: "+91 7304159520",
       email: "info@plexuspharmaco.com",
-      image: "/assets/images/ai/hero_slide_1.png",
+      image: "/assets/images/pharma_hero_lab.png",
       capabilities: "API Synthesis, High-Volume Solid Oral Production, Export Logistics"
     }
   ];
@@ -55,7 +55,7 @@ export default function GlobalOfficePage() {
       <BreadcrumbHero 
         title="Global Presence & Logistics"
         paths={[{ name: "Corporate", href: "/" }, { name: "Global Offices" }]}
-        bgImage="/assets/images/ai/global_reach_1785828011652.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       {/* Global Interactive Map Section */}
@@ -179,7 +179,7 @@ export default function GlobalOfficePage() {
             className="w-full lg:w-1/2 relative min-h-[400px] rounded-[2rem] overflow-hidden shadow-xl"
           >
             <Image 
-              src="/assets/images/ai/hero_slide_2.png"
+              src="/assets/images/pharma_hero_mfg.png"
               alt="Global Supply Chain Logistics"
               fill
               className="object-cover"

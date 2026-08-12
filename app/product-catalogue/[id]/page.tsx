@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, Download, Box, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, Download, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid } from 'lucide-react';
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';
@@ -23,9 +23,9 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
   const getProductImage = (category: string) => {
     const nutraCategories = ["KID’S HEALTH", "VITAMINS", "SUPPLEMENTS", "NUTRACEUTICALS", "SPORTS NUTRITION", "SLEEP & RELAXATION"];
     if (nutraCategories.some(cat => category.toUpperCase().includes(cat))) {
-      return "/assets/images/ai/product_nutra_1785826451390.png";
+      return "/assets/images/pharma_product_nutra.png";
     }
-    return "/assets/images/ai/product_pharma_1785826440640.png";
+    return "/assets/images/pharma_product_pharma.png";
   };
 
   const imageSrc = getProductImage(product.category);
@@ -36,7 +36,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
       <BreadcrumbHero 
         title="Product Details"
         paths={[{ name: "Products", href: "/product-catalogue" }, { name: product.name }]}
-        bgImage="/assets/images/ai/modern_pharma_lab.png"
+        bgImage="/assets/images/pharma_hero_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">

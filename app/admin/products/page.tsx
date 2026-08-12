@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Search, Plus, Filter, MoreVertical, Edit, Trash2 } from "lucide-react";
+import { Search, Plus, Filter, Edit, Trash2 } from "lucide-react";
 import productsData from "@/data/products.json";
 
 export default function AdminProductsPage() {

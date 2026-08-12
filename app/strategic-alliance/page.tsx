@@ -29,7 +29,7 @@ export default function StrategicAlliancePage() {
       <BreadcrumbHero 
         title="Strategic Alliances"
         paths={[{ name: "Partnering", href: "/partnership" }, { name: "Strategic Alliances" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

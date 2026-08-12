@@ -6,10 +6,9 @@ import { motion, AnimatePresence } from "framer-motion";
 import { homepageData } from "@/data/homepage";
 
 const slides = [
-  { id: 1, image: "/assets/images/ai/hero_slide_1.png" },
-  { id: 2, image: "/assets/images/ai/hero_slide_2.png" },
-  { id: 3, image: "/assets/images/ai/hero_slide_3.png" },
-  { id: 4, image: "/assets/images/ai/hero_slide_4.png" },
+  { id: 1, image: "/assets/images/pharma_hero_lab.png" },
+  { id: 2, image: "/assets/images/pharma_hero_mfg.png" },
+  { id: 3, image: "/assets/images/pharma_hero_corporate.png" },
 ];
 
 export default function HeroSection() {
@@ -43,7 +42,8 @@ export default function HeroSection() {
             className="object-cover object-center opacity-60"
           />
           {/* Premium Gradient Overlay */}
-          <div className="absolute inset-0 bg-gradient-to-r from-brand-900/95 via-brand-900/70 to-transparent" />
+          <div className="absolute inset-0 bg-gradient-to-r from-brand-900/90 via-brand-900/60 to-transparent mix-blend-multiply" />
+          <div className="absolute inset-0 bg-brand-900/20" />
         </motion.div>
       </AnimatePresence>
 

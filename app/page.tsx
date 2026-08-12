@@ -1,8 +1,8 @@
 "use client";
-import { Suspense } from 'react';
+import {} from 'react';
 import HeroSection from "@/components/home/HeroSection";
 import CompanyStats from "@/components/home/CompanyStats";
-import CompanyHighlights from "@/components/home/CompanyHighlights";
+
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
 import UniqueSellingPoints from "@/components/home/UniqueSellingPoints";
 import FAQSection from "@/components/home/FAQSection";
@@ -42,12 +42,12 @@ export default function Home() {
       
       {/* Company Introduction */}
       <FeatureSection 
-        title="Advancing Global Healthcare Through Science and Empathy"
+        title="Delivering Quality Healthcare Solutions Worldwide"
         subtitle="Who We Are"
-        description="Plexuspharmaco is a premier European multinational pharmaceutical corporation dedicated to developing, manufacturing, and commercializing advanced healthcare solutions. With a legacy built on scientific excellence and unyielding quality standards, we are transforming the landscape of modern medicine. Our state-of-the-art facilities and world-class research hubs empower us to deliver accessible, life-saving therapies to millions of patients worldwide."
-        image="/assets/images/ai/hero_slide_4.png"
-        imageAlt="Plexuspharmaco Global Boardroom"
-        linkText="Explore Our Legacy"
+        description="Plexuspharmaco is an innovative European pharmaceutical company dedicated to developing, manufacturing, and commercializing advanced healthcare solutions. Driven by scientific excellence and stringent quality standards, we focus on therapeutic areas with high unmet medical needs. Our robust manufacturing network empowers us to deliver accessible, high-quality therapies to patients globally."
+        image="/assets/images/pharma_hero_corporate.png"
+        imageAlt="Plexuspharmaco Corporate Leadership"
+        linkText="Explore Our Company"
         linkHref="/about"
       />
 
@@ -62,10 +62,10 @@ export default function Home() {
 
       {/* Research & Innovation */}
       <FeatureSection 
-        title="Pioneering Tomorrow's Therapies Today"
-        subtitle="Research & Innovation"
-        description="Our global network of R&D centers represents the pinnacle of pharmaceutical innovation. Equipped with cutting-edge analytical technologies and staffed by industry-leading scientists, we accelerate the discovery and development of novel chemical entities, complex generics, and advanced drug delivery systems. We bridge the gap between groundbreaking science and clinical application."
-        image="/assets/images/ai/modern_pharma_lab.png"
+        title="Advancing Patient Outcomes Through Science"
+        subtitle="Research & Development"
+        description="Our R&D infrastructure is dedicated to the formulation and development of complex generics and advanced drug delivery systems. By leveraging rigorous analytical technologies and deep scientific expertise, we focus on bridging the gap between innovative research and scalable clinical application, ensuring rapid market access for critical therapeutics."
+        image="/assets/images/pharma_hero_lab.png"
         imageAlt="Modern Pharmaceutical Laboratory"
         linkText="Discover Our R&D Engine"
         linkHref="/research-development"
@@ -82,10 +82,10 @@ export default function Home() {
 
       {/* Manufacturing Excellence */}
       <FeatureSection 
-        title="Unparalleled Manufacturing Infrastructure"
-        subtitle="Manufacturing Excellence"
-        description="Our manufacturing footprint spans across multiple continents, featuring fully automated, closed-loop production systems that ensure zero contamination and absolute precision. From high-potency active pharmaceutical ingredients (HPAPIs) to sterile injectables and solid oral dosages, our facilities are designed to meet and exceed the most stringent global regulatory standards."
-        image="/assets/images/ai/manufacturing_1785826419695.png"
+        title="Robust Global Manufacturing Network"
+        subtitle="Manufacturing & Supply Chain"
+        description="Our diverse manufacturing footprint features modern, highly automated production lines engineered for absolute precision and compliance. From solid oral dosages to specialized therapeutic formulations, our facilities operate strictly under WHO and EU GMP guidelines, ensuring uninterrupted supply of quality-assured medicines across regulated and emerging markets."
+        image="/assets/images/pharma_hero_mfg.png"
         imageAlt="Advanced Manufacturing Facility"
         linkText="View Our Capabilities"
         linkHref="/manufacture-capability"
@@ -97,10 +97,10 @@ export default function Home() {
 
       {/* Quality Assurance */}
       <FeatureSection 
-        title="Quality is Not Checked, It is Engineered"
+        title="Quality is Built Into Our Process"
         subtitle="Quality Assurance"
-        description="Our philosophy of 'Quality by Design' (QbD) is embedded in every stage of our product lifecycle. From rigorous vendor qualification and raw material testing to real-time process monitoring and exhaustive finished product analysis, we leave absolutely nothing to chance. Every batch released bears the Plexuspharmaco seal of uncompromising safety and efficacy."
-        image="/assets/images/ai/quality_control_1785826430290.png"
+        description="Our philosophy of 'Quality by Design' (QbD) is embedded in every stage of our product lifecycle. From rigorous vendor qualification and raw material testing to continuous process monitoring and exhaustive finished product analysis, we ensure the highest standards. Every batch released bears our seal of uncompromising safety and efficacy."
+        image="/assets/images/pharma_quality_control.png"
         imageAlt="Quality Control Testing"
         linkText="Read Our Quality Policy"
         linkHref="/quality-assurance"
@@ -119,7 +119,7 @@ export default function Home() {
         title="Healing the Planet, Uplifting Communities"
         subtitle="CSR & Sustainability"
         description="As a responsible global corporate citizen, we believe that human health is inextricably linked to planetary health. Our sustainability initiatives focus on green chemistry, aggressive carbon reduction targets, and zero-liquid discharge manufacturing. Simultaneously, our philanthropic arms run extensive community healthcare programs, providing free medical access and education to underserved populations."
-        image="/assets/images/ai/csr_sustainability.png"
+        image="/assets/images/pharma_sustainability.png"
         imageAlt="Sustainable Green Manufacturing"
         linkText="Learn About Our Impact"
         linkHref="/sustainability"

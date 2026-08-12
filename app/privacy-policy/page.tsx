@@ -6,7 +6,7 @@ export default function PrivacyPolicyPage() {
       <BreadcrumbHero 
         title="Privacy Policy"
         paths={[{ name: "Company", href: "/about" }, { name: "Privacy Policy" }]}
-        bgImage="/assets/images/ai/modern_pharma_lab.png"
+        bgImage="/assets/images/pharma_hero_lab.png"
       />
       
       <div className="container mx-auto px-6 lg:px-12 mt-16 max-w-4xl">

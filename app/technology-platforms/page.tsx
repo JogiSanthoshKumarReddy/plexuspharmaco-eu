@@ -28,7 +28,7 @@ export default function TechnologyPlatformsPage() {
       <BreadcrumbHero 
         title="Technology Platforms"
         paths={[{ name: "Innovation", href: "/research-development" }, { name: "Technology Platforms" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

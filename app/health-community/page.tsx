@@ -28,7 +28,7 @@ export default function HealthCommunityPage() {
       <BreadcrumbHero 
         title="Health & Community Initiatives"
         paths={[{ name: "CSR", href: "/" }, { name: "Health & Community" }]}
-        bgImage="/assets/images/ai/corporate_governance.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

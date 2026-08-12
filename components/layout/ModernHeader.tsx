@@ -30,8 +30,8 @@ export default function ModernHeader() {
 
   return (
     <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-white/95 backdrop-blur-md shadow-md py-3" : "bg-white py-5"
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-[var(--ease-premium)] ${
+        isScrolled ? "bg-white/95 backdrop-blur-xl shadow-[0_4px_20px_-10px_rgba(16,42,67,0.1)] py-3" : "bg-white py-5 border-b border-transparent"
       }`}
     >
       <div id="google_translate_element" className="opacity-0 absolute pointer-events-none w-[1px] h-[1px] overflow-hidden" aria-hidden="true"></div>
@@ -81,8 +81,8 @@ export default function ModernHeader() {
                   <div 
                     id={`mega-menu-${idx}`}
                     role="menu"
-                    className={`absolute top-full left-1/2 -translate-x-1/2 w-[500px] bg-white rounded-xl shadow-2xl border border-slate-100 transition-all duration-200 overflow-hidden flex ${
-                      activeDropdown === idx ? "opacity-100 visible translate-y-2" : "opacity-0 invisible translate-y-4"
+                    className={`absolute top-full mt-4 left-1/2 -translate-x-1/2 w-[500px] bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_20px_40px_-15px_rgba(16,42,67,0.1)] border border-slate-100/50 transition-all duration-300 overflow-hidden flex ${
+                      activeDropdown === idx ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-4"
                     }`}
                   >
                     <div className="w-1/2 bg-slate-50 p-6 flex flex-col justify-between">
@@ -135,7 +135,7 @@ export default function ModernHeader() {
               </button>
               
               <div 
-                className={`absolute top-full right-0 mt-2 w-40 bg-white rounded-xl shadow-xl border border-slate-100 transition-all duration-200 overflow-hidden ${
+                className={`absolute top-full mt-4 right-0 w-40 bg-white/95 backdrop-blur-xl rounded-xl shadow-[0_15px_30px_-10px_rgba(16,42,67,0.1)] border border-slate-100/50 transition-all duration-300 overflow-hidden ${
                   langDropdownOpen ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"
                 }`}
               >

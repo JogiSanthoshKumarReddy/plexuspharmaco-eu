@@ -5,10 +5,10 @@ import { CheckCircle2 } from "lucide-react";
 
 export default function CompanyOverview() {
   const points = [
-    "Delivering high-quality, evidence-based healthcare solutions.",
-    "Operating to the highest standards of scientific rigor.",
-    "Unwavering commitment to quality assurance and regulatory compliance.",
-    "Partnering globally to bring trusted pharmaceuticals to diverse markets."
+    "Advanced R&D Capabilities",
+    "Global Supply Chain Network",
+    "Sustainable Manufacturing",
+    "Patient-Centric Approach"
   ];
 
   return (
@@ -20,7 +20,7 @@ export default function CompanyOverview() {
           <div className="w-full lg:w-1/2 relative">
             <div className="relative h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
               <Image 
-                src="/assets/images/ai/modern_pharma_lab.png"
+                src="/assets/images/pharma_hero_lab.png"
                 alt="Plexuspharmaco European Operations"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
@@ -35,8 +35,8 @@ export default function CompanyOverview() {
               viewport={{ once: true }}
               className="absolute -bottom-8 -right-8 bg-white p-6 rounded-2xl shadow-xl border border-slate-100 hidden md:flex flex-col items-center justify-center w-48 h-48"
             >
-              <div className="text-5xl font-bold text-accent-500 mb-2">15+</div>
-              <div className="text-brand-900 font-semibold text-center leading-tight">Years of<br/>Excellence</div>
+              <div className="text-5xl font-bold text-accent-500 mb-2">2018</div>
+              <div className="text-brand-900 font-semibold text-center leading-tight">Year<br/>Founded</div>
             </motion.div>
           </div>
 
@@ -58,7 +58,7 @@ export default function CompanyOverview() {
               </h2>
               
               <p className="text-lg text-brand-600 mb-8 leading-relaxed">
-                Plexuspharmaco GmbH is a Germany-based pharmaceutical organization committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide. 
+                Plexuspharmaco GmbH is a Germany-based pharmaceutical organization and a core entity within the broader Plexus Group of Companies, committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide. 
                 <br/><br/>
                 Operating to the highest standards of scientific rigor, quality assurance, and regulatory compliance, we partner globally to bring trusted pharmaceuticals, nutraceuticals, liposomal formulations, medical devices, and dermo-cosmetic products to diverse markets.
               </p>

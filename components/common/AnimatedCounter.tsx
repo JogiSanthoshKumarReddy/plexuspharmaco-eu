@@ -10,7 +10,7 @@ interface AnimatedCounterProps {
   prefix?: string;
 }
 
-export default function AnimatedCounter({ value, duration = 2.5, suffix = "", prefix = "" }: AnimatedCounterProps) {
+export default function AnimatedCounter({ value = 2.5, suffix = "", prefix = "" }: AnimatedCounterProps) {
   const ref = useRef<HTMLSpanElement>(null);
   const isInView = useInView(ref, { once: true, margin: "-100px" });
   

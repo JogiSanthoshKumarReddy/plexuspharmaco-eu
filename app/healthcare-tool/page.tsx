@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Stethoscope, Workflow, BadgeCheck, Lightbulb, ArrowRight } from "lucide-react";
+import { Stethoscope, Workflow, BadgeCheck, Lightbulb } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
@@ -33,7 +33,7 @@ export default function HealthcareToolPage() {
       <BreadcrumbHero 
         title="Healthcare Professional Tools"
         paths={[{ name: "Patient & Healthcare", href: "/" }, { name: "HCP Tools" }]}
-        bgImage="/assets/images/ai/corporate_governance.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

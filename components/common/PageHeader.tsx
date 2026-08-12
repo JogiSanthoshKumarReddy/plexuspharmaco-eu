@@ -31,7 +31,7 @@ export default function PageHeader({ title, breadcrumbUrl, quickExplore }: PageH
             <div>
               <ul className="flex items-center space-x-2 text-sm font-medium text-white">
                 <li><Link href="/" className="hover:text-blue-400 transition-colors">Home</Link></li>
-                {parts.map((part, index) => {
+                {parts.map((part) => {
                   const titleCase = part.replace(/-/g, " ").replace(/\b\w/g, l => l.toUpperCase());
                   return (
                     <li key={part} className="flex items-center space-x-2">

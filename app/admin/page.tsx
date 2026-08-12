@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Users, FileText, Activity, TrendingUp, Package, ArrowUpRight, ArrowDownRight } from "lucide-react";
+import { Users, FileText, Activity, Package, ArrowUpRight, ArrowDownRight } from "lucide-react";
 import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 
 const data = [

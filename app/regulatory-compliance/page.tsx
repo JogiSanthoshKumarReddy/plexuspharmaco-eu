@@ -28,7 +28,7 @@ export default function RegulatoryCompliancePage() {
       <BreadcrumbHero 
         title="Regulatory Compliance"
         paths={[{ name: "Operations", href: "/" }, { name: "Regulatory Compliance" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

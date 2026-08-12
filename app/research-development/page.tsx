@@ -49,7 +49,7 @@ export default function ResearchDevelopmentHubPage() {
       <BreadcrumbHero 
         title="R&D, Manufacturing & Quality"
         paths={[{ name: "Innovation", href: "/" }, { name: "R&D Hub" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

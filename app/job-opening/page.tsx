@@ -29,7 +29,7 @@ export default function JobOpeningPage() {
       <BreadcrumbHero 
         title="Careers & Culture"
         paths={[{ name: "Corporate", href: "/" }, { name: "Careers" }]}
-        bgImage="/assets/images/ai/hero_slide_4.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -88,7 +88,7 @@ export default function JobOpeningPage() {
               className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/ai/hero_slide_4.png"
+                src="/assets/images/pharma_hero_corporate.png"
                 alt="Plexuspharmaco Culture"
                 fill
                 className="object-cover"

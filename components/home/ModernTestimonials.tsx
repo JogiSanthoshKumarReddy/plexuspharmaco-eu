@@ -84,12 +84,12 @@ export default function ModernTestimonials() {
                   {/* Using a placeholder since we might not have actual images, or fallback to an icon */}
                   <Image 
                     src={testimonial.image.includes('placeholder') ? '/assets/images/resources/no-image.jpg' : '/assets/images/resources/no-image.jpg'} 
-                    alt={testimonial.author}
+                    alt=""
                     fill
                     className="object-cover"
                   />
                   {/* Fallback initials if image fails/isn't real */}
-                  <div className="absolute inset-0 bg-brand-900 text-white flex items-center justify-center font-bold text-lg">
+                  <div aria-hidden="true" className="absolute inset-0 bg-brand-900 text-white flex items-center justify-center font-bold text-lg">
                     {testimonial.author.charAt(0)}
                   </div>
                 </div>

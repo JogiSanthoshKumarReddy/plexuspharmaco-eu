@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Stethoscope, Activity, Dna, Factory, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Stethoscope, Activity, Dna, Factory, CheckCircle2 } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 
 export default function BiocarePage() {
@@ -32,7 +32,7 @@ export default function BiocarePage() {
       <BreadcrumbHero 
         title="Plexus Biocare Pvt. Ltd."
         paths={[{ name: "Subsidiaries", href: "/" }, { name: "Plexus Biocare" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

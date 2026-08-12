@@ -7,7 +7,7 @@ export default function Certifications() {
   const certs = [
     { title: "GMP Certified", desc: "Good Manufacturing Practices compliant across all facilities.", icon: ShieldCheck },
     { title: "ISO 9001:2015", desc: "Highest standards in Quality Management Systems.", icon: Award },
-    { title: "FDA Approved", desc: "Key manufacturing sites registered and approved by the FDA.", icon: FileCheck },
+    { title: "FDA Registered", desc: "Key manufacturing sites are FDA registered and compliant.", icon: FileCheck },
     { title: "GLP Compliant", desc: "Good Laboratory Practice adherence in all R&D centers.", icon: FlaskConical },
   ];
 

@@ -1,8 +1,8 @@
 "use client";
 import { motion } from "framer-motion";
-import { Megaphone, Calendar, ArrowRight } from "lucide-react";
+import { Megaphone, Calendar } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
-import Link from "next/link";
+
 
 export default function PressReleasePage() {
   const releases = [
@@ -43,7 +43,7 @@ export default function PressReleasePage() {
       <BreadcrumbHero 
         title="Press Releases"
         paths={[{ name: "News & Media", href: "/media" }, { name: "Press Releases" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

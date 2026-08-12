@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { LineChart, BarChart3, TrendingUp, ArrowRight, Download, FileText, Landmark, Users2, ShieldAlert } from "lucide-react";
+import { LineChart, BarChart3, TrendingUp, Download, FileText, Landmark, Users2, ShieldAlert } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import CompanyStats from "@/components/home/CompanyStats";
 import Image from "next/image";
@@ -42,7 +42,7 @@ export default function InvestorRelationPage() {
       <BreadcrumbHero 
         title="Investor Relations"
         paths={[{ name: "Investors", href: "/" }, { name: "Investor Relations" }]}
-        bgImage="/assets/images/ai/hero_slide_4.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <CompanyStats />
@@ -59,7 +59,7 @@ export default function InvestorRelationPage() {
               className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-brand-100"
             >
               <Image 
-                src="/assets/images/ai/corporate_governance.png"
+                src="/assets/images/pharma_hero_corporate.png"
                 alt="Corporate Governance"
                 fill
                 className="object-cover"

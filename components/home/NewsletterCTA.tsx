@@ -24,7 +24,7 @@ export default function NewsletterCTA() {
           {/* Internal background image for texture */}
           <div className="absolute inset-0 opacity-20 mix-blend-overlay pointer-events-none">
             <Image 
-              src="/assets/images/ai/hero_slide_2.png" 
+              src="/assets/images/pharma_hero_mfg.png" 
               alt="Texture" 
               fill 
               className="object-cover"

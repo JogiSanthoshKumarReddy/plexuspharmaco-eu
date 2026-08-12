@@ -2,7 +2,7 @@
 import { motion } from "framer-motion";
 import { ShieldAlert, Mail, Lock, ArrowRight, CheckCircle2 } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
-import Link from "next/link";
+
 import { useState } from "react";
 
 export default function ComplianceReportingPage() {
@@ -49,7 +49,7 @@ export default function ComplianceReportingPage() {
       <BreadcrumbHero 
         title="Compliance & Reporting"
         paths={[{ name: "Contact & Support", href: "/" }, { name: "Compliance" }]}
-        bgImage="/assets/images/ai/hero_slide_3.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -134,7 +134,7 @@ export default function ComplianceReportingPage() {
             >
               {/* Success Overlay */}
               <div 
-                className={`absolute inset-0 bg-white/95 backdrop-blur-sm z-10 flex flex-col items-center justify-center transition-all duration-500 ${
+                className={`absolute inset-0 bg-white/95 backdrop-blur-sm z-50 flex flex-col items-center justify-center transition-all duration-500 ${
                   isSuccess ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
                 }`}
               >

@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users } from "lucide-react";
+import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users, ShieldCheck, Scale } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
@@ -12,14 +12,32 @@ export default function SustainabilityPage() {
       description: "100% of wastewater from our manufacturing facilities is treated, recycled, and reused within our operations."
     },
     {
-      title: "Carbon Neutrality by 2035",
+      title: "Carbon Neutrality by 2030",
       icon: Wind,
-      description: "Transitioning to 60% renewable energy across all global hubs by 2028, on track for net-zero emissions by 2035."
+      description: "Transitioning to 60% renewable energy across all global hubs by 2028, on track for net-zero emissions by 2030."
     },
     {
       title: "Green Chemistry",
       icon: Leaf,
       description: "Innovating formulation processes to minimize toxic solvents and reduce energy consumption during API synthesis."
+    }
+  ];
+
+  const govPrograms = [
+    {
+      title: "Ethical Business Practices",
+      icon: ShieldCheck,
+      description: "Strict adherence to international compliance laws, anti-corruption policies, and transparent financial reporting."
+    },
+    {
+      title: "Board Diversity & Independence",
+      icon: Users,
+      description: "Maintaining a diverse leadership team with independent directors to ensure balanced and fair decision-making."
+    },
+    {
+      title: "Risk Management",
+      icon: Scale,
+      description: "Proactive identification and mitigation of environmental, social, and operational risks across our global supply chain."
     }
   ];
 
@@ -46,7 +64,7 @@ export default function SustainabilityPage() {
       <BreadcrumbHero 
         title="CSR & Sustainability"
         paths={[{ name: "Corporate", href: "/" }, { name: "Sustainability" }]}
-        bgImage="/assets/images/ai/csr_sustainability.png"
+        bgImage="/assets/images/pharma_hero_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -94,7 +112,7 @@ export default function SustainabilityPage() {
               className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/ai/csr_sustainability.png"
+                src="/assets/images/pharma_hero_lab.png"
                 alt="Green Manufacturing"
                 fill
                 className="object-cover"
@@ -137,7 +155,7 @@ export default function SustainabilityPage() {
               className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/ai/hero_slide_4.png"
+                src="/assets/images/pharma_hero_corporate.png"
                 alt="Community Healthcare"
                 fill
                 className="object-cover"
@@ -157,6 +175,49 @@ export default function SustainabilityPage() {
                 {csrPrograms.map((prog, idx) => (
                   <div key={idx} className="flex gap-6 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
                     <div className="w-12 h-12 rounded-full bg-accent-500/10 flex items-center justify-center flex-shrink-0 text-accent-600">
+                      <prog.icon className="w-5 h-5" />
+                    </div>
+                    <div>
+                      <h4 className="text-xl font-bold text-brand-900 mb-2">{prog.title}</h4>
+                      <p className="text-slate-600 font-light leading-relaxed">{prog.description}</p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </motion.div>
+          </div>
+        </div>
+
+        {/* Corporate Governance */}
+        <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
+          <div className="w-full lg:w-1/2 relative h-[500px]">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.95 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              className="absolute inset-0 rounded-[3rem] overflow-hidden shadow-2xl border border-slate-100"
+            >
+              <Image 
+                src="/assets/images/pharma_hero_corporate.png"
+                alt="Corporate Governance"
+                fill
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-brand-900/10 mix-blend-multiply" />
+            </motion.div>
+          </div>
+
+          <div className="w-full lg:w-1/2">
+            <motion.div
+              initial={{ opacity: 0, x: 30 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+            >
+              <h3 className="text-3xl font-bold text-brand-900 mb-8">Corporate Governance</h3>
+              <div className="space-y-8">
+                {govPrograms.map((prog, idx) => (
+                  <div key={idx} className="flex gap-6 bg-white p-6 rounded-2xl border border-slate-100 shadow-sm hover:shadow-md transition-shadow">
+                    <div className="w-12 h-12 rounded-full bg-brand-50 flex items-center justify-center flex-shrink-0 text-brand-700">
                       <prog.icon className="w-5 h-5" />
                     </div>
                     <div>

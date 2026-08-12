@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Search, Filter, Mail, Phone, Eye } from "lucide-react";
+import { Search, Filter, Eye } from "lucide-react";
 
 const mockInquiries = [
   { id: "INQ-001", name: "Dr. Sarah Jenkins", company: "BioHealth Ltd", type: "Partnership", status: "New", date: "2024-03-15", email: "sarah@biohealth.com" },

@@ -39,7 +39,7 @@ export default function GlobalPresenceMap() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-6xl font-bold text-white mb-6 tracking-tight"
           >
-            Delivering Healthcare Worldwide
+            Delivering Innovative Healthcare Solutions Worldwide
           </motion.h2>
           <motion.p 
             initial={{ opacity: 0, y: 20 }}

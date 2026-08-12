@@ -37,7 +37,7 @@ export default function EventPage() {
       <BreadcrumbHero 
         title="Events & Conferences"
         paths={[{ name: "News & Media", href: "/media" }, { name: "Events" }]}
-        bgImage="/assets/images/ai/corporate_governance.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

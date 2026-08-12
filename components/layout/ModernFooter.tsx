@@ -60,8 +60,7 @@ export default function ModernFooter() {
               </h4>
               <p className="text-sm text-brand-400 pl-6">
                 Plexuspharmaco GmbH<br />
-                Frankenstr. 34<br />
-                96146, Altendorf Germany.
+                Frankenstr. 34, 96146 Altendorf, Germany.
               </p>
             </div>
             
@@ -130,9 +129,9 @@ export default function ModernFooter() {
             &copy; {currentYear} <span className="text-white font-medium">Plexuspharmaco Europe</span>. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-brand-400">
-            <Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="/sitemap" className="hover:text-white transition-colors">Sitemap</Link>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms-condition" className="hover:text-white transition-colors">Terms of Service</Link>
+            <Link href="/sitemap.xml" className="hover:text-white transition-colors">Sitemap</Link>
           </div>
         </div>
       </div>

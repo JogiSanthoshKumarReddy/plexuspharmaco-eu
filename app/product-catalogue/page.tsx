@@ -1,5 +1,5 @@
 "use client";
-import { useState, useMemo, useEffect } from 'react';
+import { useState, useMemo } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -20,9 +20,9 @@ export default function ProductCataloguePage() {
   const getProductImage = (category: string) => {
     const nutraCategories = ["KID’S HEALTH", "VITAMINS", "SUPPLEMENTS", "NUTRACEUTICALS"];
     if (nutraCategories.some(cat => category.toUpperCase().includes(cat))) {
-      return "/assets/images/ai/product_nutra_1785826451390.png";
+      return "/assets/images/pharma_product_nutra.png";
     }
-    return "/assets/images/ai/product_pharma_1785826440640.png";
+    return "/assets/images/pharma_product_pharma.png";
   };
 
   // Filter products
@@ -42,7 +42,7 @@ export default function ProductCataloguePage() {
       <BreadcrumbHero 
         title="Product Catalogue"
         paths={[{ name: "Products", href: "/product-catalogue" }, { name: "Catalogue" }]}
-        bgImage="/assets/images/ai/modern_pharma_lab.png"
+        bgImage="/assets/images/pharma_hero_lab.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">

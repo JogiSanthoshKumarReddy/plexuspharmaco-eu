@@ -1,30 +1,30 @@
 "use client";
 import { motion } from "framer-motion";
-import { Calendar, ChevronRight } from "lucide-react";
+import { Calendar } from "lucide-react";
 
 const milestones = [
   {
-    year: "1995",
+    year: "2018",
     title: "Foundation & Vision",
     description: "Plexuspharmaco was founded with a singular vision: to bridge the gap between complex pharmaceutical R&D and accessible patient care globally. Our first research facility opened in Frankfurt, Germany."
   },
   {
-    year: "2002",
+    year: "2020",
     title: "European Expansion",
     description: "Successfully expanded operations across Western Europe, establishing state-of-the-art manufacturing hubs in Spain and France to meet growing regional demands."
   },
   {
-    year: "2010",
+    year: "2022",
     title: "Breakthrough Innovation",
     description: "Launched our flagship cardiovascular and neurological product lines, securing 5 major international patents and cementing our reputation as a leader in innovative formulations."
   },
   {
-    year: "2018",
+    year: "2024",
     title: "Global Footprint",
     description: "Achieved regulatory approvals in over 40 countries outside of the EU. Opened new regional headquarters in Asia-Pacific and Latin America to support global distribution networks."
   },
   {
-    year: "2024",
+    year: "2026",
     title: "Sustainable Future",
     description: "Committed to 100% carbon-neutral manufacturing by 2030. Unveiled our new biologicals and personalized medicine divisions, pioneering the next generation of healthcare solutions."
   }

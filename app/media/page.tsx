@@ -1,9 +1,9 @@
 "use client";
 import { motion } from "framer-motion";
-import { Newspaper, Calendar, PlayCircle, Image as ImageIcon, ArrowRight, Video, Mail } from "lucide-react";
+import { Newspaper, Calendar, Image as ImageIcon, ArrowRight, Video, Mail } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
-import Link from "next/link";
+
 
 export default function MediaCenterPage() {
   const pressReleases = [
@@ -24,19 +24,19 @@ export default function MediaCenterPage() {
       title: "Leadership & Vision: Plexuspharmaco's Science-Led Growth Journey",
       date: "02-02-2026",
       summary: "Media profiles often reference the leadership vision driving Plexuspharmaco's growth trajectory. A strong emphasis on science, quality, and ethics defines the Group's culture.",
-      image: "/assets/images/ai/hero_slide_4.png"
+      image: "/assets/images/pharma_hero_corporate.png"
     },
     {
       title: "Diversified Portfolio Drives Plexuspharmaco's Market Relevance",
       date: "02-02-2026",
       summary: "Media commentary highlights Plexuspharmaco's broad portfolio covering pharma FDFs, nutraceuticals, medical devices, dermo-cosmetics, and biological products.",
-      image: "/assets/images/ai/manufacturing_1785826419695.png"
+      image: "/assets/images/pharma_hero_mfg.png"
     },
     {
       title: "Global Expansion Story: Expanding International Presence",
       date: "15-01-2026",
       summary: "Media features have highlighted Plexuspharmaco's expanding footprint across Europe, LATAM, Africa, Asia, and GCC regions.",
-      image: "/assets/images/ai/global_reach_1785828011652.png"
+      image: "/assets/images/pharma_hero_corporate.png"
     }
   ];
 
@@ -45,7 +45,7 @@ export default function MediaCenterPage() {
       <BreadcrumbHero 
         title="Media & News Center"
         paths={[{ name: "Corporate", href: "/" }, { name: "Media Center" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -101,7 +101,7 @@ export default function MediaCenterPage() {
           {/* Events */}
           <div className="w-full lg:w-1/3 bg-brand-900 rounded-[2rem] p-10 text-white shadow-xl relative overflow-hidden">
             <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none">
-              <Image src="/assets/images/ai/hero_slide_1.png" alt="Texture" fill className="object-cover" />
+              <Image src="/assets/images/pharma_hero_lab.png" alt="Texture" fill className="object-cover" />
             </div>
             <div className="relative z-10">
               <h3 className="text-2xl font-bold mb-8 flex items-center gap-3 border-b border-white/10 pb-6">

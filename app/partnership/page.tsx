@@ -29,7 +29,7 @@ export default function PartnershipPage() {
       <BreadcrumbHero 
         title="Partnership Opportunities"
         paths={[{ name: "Partnering", href: "/" }, { name: "Opportunities" }]}
-        bgImage="/assets/images/ai/hero_slide_2.png"
+        bgImage="/assets/images/pharma_hero_mfg.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

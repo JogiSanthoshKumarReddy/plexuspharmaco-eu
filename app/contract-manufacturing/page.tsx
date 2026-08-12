@@ -29,7 +29,7 @@ export default function ContractManufacturingPage() {
       <BreadcrumbHero 
         title="Contract Manufacturing"
         paths={[{ name: "Partnering", href: "/partnership" }, { name: "Contract Manufacturing" }]}
-        bgImage="/assets/images/ai/corporate_governance.png"
+        bgImage="/assets/images/pharma_hero_corporate.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">

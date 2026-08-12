@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { ShieldCheck, Search, FileText, CheckCircle2, Shield, AlertTriangle, Fingerprint, RefreshCcw, Activity } from "lucide-react";
+import { ShieldCheck, Search, CheckCircle2, Shield, AlertTriangle, Fingerprint, RefreshCcw, Activity } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
@@ -43,7 +43,7 @@ export default function QualityAssurancePage() {
       <BreadcrumbHero 
         title="Quality Assurance"
         paths={[{ name: "Operations", href: "/" }, { name: "Quality Assurance" }]}
-        bgImage="/assets/images/ai/quality_control_1785826430290.png"
+        bgImage="/assets/images/pharma_quality_control.png"
       />
 
       <div className="container mx-auto px-6 lg:px-12 mt-16">
@@ -83,7 +83,7 @@ export default function QualityAssurancePage() {
               className="relative w-full h-[550px] rounded-3xl overflow-hidden shadow-2xl border border-slate-100"
             >
               <Image 
-                src="/assets/images/ai/quality_control_1785826430290.png"
+                src="/assets/images/pharma_quality_control.png"
                 alt="Quality Assurance Lab"
                 fill
                 className="object-cover"
@@ -128,7 +128,7 @@ export default function QualityAssurancePage() {
           className="bg-brand-900 rounded-[3rem] p-12 lg:p-16 text-white text-center shadow-2xl relative overflow-hidden"
         >
           <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none">
-            <Image src="/assets/images/ai/hero_slide_2.png" alt="Lab Texture" fill className="object-cover" />
+            <Image src="/assets/images/pharma_hero_mfg.png" alt="Lab Texture" fill className="object-cover" />
           </div>
           <div className="relative z-10 max-w-3xl mx-auto">
             <Activity className="w-16 h-16 text-brand-200 mx-auto mb-6" />

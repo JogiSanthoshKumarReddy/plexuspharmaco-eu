@@ -1,18 +1,14 @@
 export const statistics = [
   {
-    number: "25+",
-    title: "Years of Excellence",
+    number: "50+",
+    title: "Global Markets",
   },
   {
-    number: "40+",
-    title: "Countries Served",
+    number: "20+",
+    title: "Years of Experience",
   },
   {
     number: "150+",
-    title: "Product Portfolio",
-  },
-  {
-    number: "100+",
-    title: "Strategic Partners",
-  },
+    title: "Research Scientists",
+  }
 ];
