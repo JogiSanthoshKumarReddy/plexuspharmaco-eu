@@ -14,6 +14,8 @@ import LatestNews from "@/components/home/LatestNews";
 import NewsletterCTA from "@/components/home/NewsletterCTA";
 import { ShieldCheck, Heart, Leaf, Microscope, Globe2, Truck, TestTube, Lightbulb, Users, Award, Shield, FileCheck2 } from "lucide-react";
 
+import FeaturedKidsProducts from "@/components/home/FeaturedKidsProducts";
+
 export default function Home() {
   const coreValues = [
     { icon: Heart, title: "Patient Centricity", description: "Our primary focus is improving patient outcomes globally through accessible and innovative healthcare therapies." },
@@ -39,6 +41,8 @@ export default function Home() {
   return (
     <div className="modern-page-wrapper">
       <HeroSection />
+      
+      <FeaturedKidsProducts />
       
       {/* Company Introduction */}
       <FeatureSection 

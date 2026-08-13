@@ -169,7 +169,7 @@ export default function ProductCataloguePage() {
                     {/* Image Header */}
                     <div className="relative h-64 bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center overflow-hidden border-b border-slate-100">
                       <Image 
-                        src={getProductImage(product.category)}
+                        src={product.image || getProductImage(product.category)}
                         alt={product.name}
                         fill
                         className="object-contain p-8 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"

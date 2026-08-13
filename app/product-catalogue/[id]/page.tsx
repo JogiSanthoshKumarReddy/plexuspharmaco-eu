@@ -5,6 +5,7 @@ import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, Download, Thermomete
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';
+import { Product } from '@/types/product';
 
 export async function generateStaticParams() {
   return products.map((product) => ({
@@ -28,7 +29,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
     return "/assets/images/pharma_product_pharma.png";
   };
 
-  const imageSrc = getProductImage(product.category);
+  const imageSrc = product.image || getProductImage(product.category);
 
   return (
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
@@ -224,16 +225,41 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
           </div>
         </div>
 
+        {/* Product Gallery Section */}
+        {((product as Product).advertImage || (product as Product).supplementFactsImage) && (
+          <div className="mb-24">
+            <h2 className="text-3xl font-bold text-brand-900 mb-8">Product Gallery</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {(product as Product).advertImage && (
+                <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm flex flex-col items-center">
+                  <h3 className="text-xl font-bold text-brand-900 mb-6">Marketing Material</h3>
+                  <div className="relative w-full aspect-square md:aspect-video rounded-xl overflow-hidden bg-slate-50">
+                    <Image src={(product as Product).advertImage!} alt={`${product.name} Advert`} fill className="object-contain mix-blend-multiply" />
+                  </div>
+                </div>
+              )}
+              {(product as Product).supplementFactsImage && (
+                <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm flex flex-col items-center">
+                  <h3 className="text-xl font-bold text-brand-900 mb-6">Supplement Facts</h3>
+                  <div className="relative w-full aspect-square md:aspect-video rounded-xl overflow-hidden bg-slate-50">
+                    <Image src={(product as Product).supplementFactsImage!} alt={`${product.name} Supplement Facts`} fill className="object-contain mix-blend-multiply" />
+                  </div>
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
         <div className="mb-12">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-3xl font-bold text-brand-900">Recommended Products</h2>
             <Link href="/product-catalogue" className="text-brand-700 font-bold hover:text-brand-900 flex items-center gap-2">View All <Grid className="w-4 h-4" /></Link>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            {products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 3).map(related => (
+            {products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 3).map((related: Product) => (
               <Link key={related.id} href={`/product-catalogue/${related.id}`} className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:border-brand-200 transition-all group">
                 <div className="relative h-48 w-full mb-6 rounded-2xl overflow-hidden bg-slate-50 flex items-center justify-center p-4">
-                  <Image src={getProductImage(related.category)} alt={related.name} fill className="object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500" />
+                  <Image src={related.image || getProductImage(related.category)} alt={related.name} fill className="object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="text-xs font-bold text-brand-600 uppercase mb-2">{related.category}</div>
                 <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1">{related.name}</h4>
