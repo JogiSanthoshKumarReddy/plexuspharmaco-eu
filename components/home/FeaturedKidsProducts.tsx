@@ -11,8 +11,8 @@ export default function FeaturedKidsProducts() {
   // Filter only the kids products that have the new WeTransfer images
   const featuredProducts = products.filter(
     (p: Product) =>
-      p.category === "KID’S HEALTH" && p.image && p.image.includes("/images/products/kids/")
-  ).slice(0, 4);
+      p.category === "Kids Health"
+  ).slice(0, 8);
 
   if (featuredProducts.length === 0) return null;
 

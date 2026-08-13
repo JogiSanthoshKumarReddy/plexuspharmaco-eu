@@ -1,7 +1,7 @@
 [
   {
     "id": "plexwell-eassichew-kids-chewable-multivitamin",
-    "category": "KID’S HEALTH",
+    "category": "Kids Health",
     "name": "PLEXWELL EASSICHEW KIDS CHEWABLE MULTIVITAMIN",
     "image": "/images/products/kids/Plexwell EassiChew kids multivitamin chewable tablets N100.png",
     "description": "Premium Plexwell EassiChew kids multivitamin chewable tablets N100 formulation scientifically designed for optimal kid s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -27,7 +27,7 @@
   },
   {
     "id": "plexwell-junior-kids-multivitamin-gummies",
-    "category": "KID’S HEALTH",
+    "category": "Kids Health",
     "name": "PLEXWELL JUNIOR KIDS’ MULTIVITAMIN GUMMIES",
     "image": "/images/products/kids/PlexWell_Junior daily 2 multivitamin gummies N60.png",
     "description": "Premium PlexWell_Junior daily 2 multivitamin gummies N60 formulation scientifically designed for optimal kid s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -56,7 +56,7 @@
   },
   {
     "id": "plexwell-junior-multivitamin-liquid",
-    "category": "KID’S HEALTH",
+    "category": "Kids Health",
     "name": "PLEXWELL JUNIOR MULTIVITAMIN LIQUID",
     "image": "/images/products/kids/Plexwell Junior multivitamin kids liquid 200ml.png",
     "description": "Premium Plexwell Junior multivitamin kids liquid 200ml formulation scientifically designed for optimal kid s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -81,7 +81,7 @@
   },
   {
     "id": "plexwell-baby-multivitamin-drops",
-    "category": "KID’S HEALTH",
+    "category": "Kids Health",
     "name": "PLEXWELL BABY MULTIVITAMIN DROPS",
     "image": "/images/products/kids/PlexWell Baby multiviamin drops 50ml.png",
     "description": "Premium PlexWell Baby multiviamin drops 50ml formulation scientifically designed for optimal kid s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -106,7 +106,7 @@
   },
   {
     "id": "plexwell-baby-vit-d3-drops",
-    "category": "KID’S HEALTH",
+    "category": "Kids Health",
     "name": "PLEXWELL BABY VIT D3 DROPS",
     "image": "/images/products/kids/PlexWell Baby Vit D3 drops 20ml.png",
     "description": "Premium PlexWell Baby Vit D3 drops 20ml formulation scientifically designed for optimal kid s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -131,7 +131,7 @@
   },
   {
     "id": "plexwell-vit-d3-gummies",
-    "category": "KID’S HEALTH",
+    "category": "Kids Health",
     "name": "PLEXWELL VIT D3+ GUMMIES",
     "image": "/images/products/d3/PlexWell D3 family/PlexWell Vit D3+ gummies N60.png",
     "description": "Premium PlexWell Vit D3+ gummies N60 formulation scientifically designed for optimal kid s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -158,7 +158,7 @@
   },
   {
     "id": "plexwell-men-multivitamin-tab",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN MULTIVITAMIN TAB",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 50+ multivitamin_100 tablets.png",
     "description": "Premium PlexWell Men 50+ multivitamin_100 tablets formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -190,7 +190,7 @@
   },
   {
     "id": "plexwell-men-70-multivitamin-powder",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN 70+ MULTIVITAMIN POWDER",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 70+ multivitamin_Powder sachet N28.png",
     "description": "Premium PlexWell Men 70+ multivitamin_Powder sachet N28 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -222,7 +222,7 @@
   },
   {
     "id": "plexwell-men-70-multivitamin-spray",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN 70+ MULTIVITAMIN Spray",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 70+ multivitamin_Spray 75ml.png",
     "description": "Premium PlexWell Men 70+ multivitamin_Spray 75ml formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -254,7 +254,7 @@
   },
   {
     "id": "plexwell-men-ferti-pro-tablet-fertility-support",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN FERTi-PRO TABLET (Fertility Support))",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_FERTi-PRO tablet_N100.png",
     "description": "Premium PlexWell_FERTi-PRO tablet_N100 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -286,7 +286,7 @@
   },
   {
     "id": "plexwell-men-prosti-pro-softgel-prostate-health",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN PROSTi-PRO SOFTGEL (Prostate Health)",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_PROSTi-PRO_softgel N100.png",
     "description": "Premium PlexWell_PROSTi-PRO_softgel N100 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -318,7 +318,7 @@
   },
   {
     "id": "plexwell-men-erecti-pro-capsule-n100-sex-and-stamina-booster",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN ERECTi-PRO CAPSULE N100 (Sex and Stamina booster)",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_ERECTi-PRO_Capsule N100.png",
     "description": "Premium PlexWell_ERECTi-PRO_Capsule N100 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -350,7 +350,7 @@
   },
   {
     "id": "plexwell-men-erecti-pro-capsule-n10-sex-and-stamina-booster",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN ERECTi-PRO CAPSULE N10 (Sex and Stamina booster)",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_ERECTi-PRO_Capsule N10.png",
     "description": "Premium PlexWell_ERECTi-PRO_Capsule N10 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -382,7 +382,7 @@
   },
   {
     "id": "plexwell-men-hair-pro-complex-capsule",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN HAIR-PRO COMPLEX CAPSULE",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_Hair-PRO Complex_Capsule_ N100.png",
     "description": "Premium PlexWell_Hair-PRO Complex_Capsule_ N100 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -414,7 +414,7 @@
   },
   {
     "id": "plexwell-men-hair-pro-complex-effervescent",
-    "category": "MEN’S HEALTH",
+    "category": "Men Health",
     "name": "PLEXWELL MEN HAIR-PRO COMPLEX EFFERVESCENT",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_Hair-PRO Complex_Effervescent_ N20.png",
     "description": "Premium PlexWell_Hair-PRO Complex_Effervescent_ N20 formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -446,7 +446,7 @@
   },
   {
     "id": "plexwell-hair-pro-scalp-serum",
-    "category": "MEN’S HEALTH",
+    "category": "Beauty & Care",
     "name": "PLEXWELL HAIR-PRO SCALP SERUM",
     "image": "/images/products/men/Plexwell Men Supplements/PlexWell_Hair-PRO Complex_Scalp Serum_ 100ml.png",
     "description": "Premium PlexWell_Hair-PRO Complex_Scalp Serum_ 100ml formulation scientifically designed for optimal men s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -475,7 +475,7 @@
   },
   {
     "id": "plexwell-menopause-day-support",
-    "category": "WOMEN’S HEALTH",
+    "category": "Women Health",
     "name": "PLEXWELL MENOPAUSE DAY SUPPORT",
     "image": "/images/products/women/Plexwell Women Supplements/PlexWell_Menopause DAY Support tablet_N30_Blister.png",
     "description": "Premium PlexWell_Menopause DAY Support tablet_N30_Blister formulation scientifically designed for optimal women s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -507,7 +507,7 @@
   },
   {
     "id": "plexwell-menopause-night-support",
-    "category": "WOMEN’S HEALTH",
+    "category": "Women Health",
     "name": "PLEXWELL MENOPAUSE NIGHT SUPPORT",
     "image": "/images/products/women/Plexwell Women Supplements/PlexWell_Menopause Night Support capsule_N100.png",
     "description": "Premium PlexWell_Menopause Night Support capsule_N100 formulation scientifically designed for optimal women s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -539,7 +539,7 @@
   },
   {
     "id": "plexwell-pcos-support-complex-capsule",
-    "category": "WOMEN’S HEALTH",
+    "category": "Women Health",
     "name": "PLEXWELL PCOS SUPPORT COMPLEX CAPSULE",
     "image": "/images/products/women/Plexwell Women Supplements/PlexWell_PCOS Support_Capsule N100.png",
     "description": "Premium PlexWell_PCOS Support_Capsule N100 formulation scientifically designed for optimal women s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -566,7 +566,7 @@
   },
   {
     "id": "plexwell-pregnency-support-tri-1",
-    "category": "WOMEN’S HEALTH",
+    "category": "Women Health",
     "name": "PLEXWELL PREGNENCY SUPPORT Tri-1",
     "image": "/images/products/women/Plexwell Women Supplements/PlexWell_Pregnency Support_Tri-1_N180 capsules.png",
     "description": "Premium PlexWell_Pregnency Support_Tri-1_N180 capsules formulation scientifically designed for optimal women s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -595,7 +595,7 @@
   },
   {
     "id": "plxwell-ladylove-capsule-n10",
-    "category": "WOMEN’S HEALTH",
+    "category": "Women Health",
     "name": "PLXWELL LADYLOVE CAPSULE N10",
     "image": "/images/products/women/Plexwell Women Supplements/Plexwell_LadyLove_Capsule N10 Blister.png",
     "description": "Premium Plexwell_LadyLove_Capsule N10 Blister formulation scientifically designed for optimal women s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -622,7 +622,7 @@
   },
   {
     "id": "plxwell-ladylove-capsule-n30",
-    "category": "WOMEN’S HEALTH",
+    "category": "Women Health",
     "name": "PLXWELL LADYLOVE CAPSULE N30",
     "image": "/images/products/women/Plexwell Women Supplements/Plexwell_LadyLove_Capsule N30.png",
     "description": "Premium Plexwell_LadyLove_Capsule N30 formulation scientifically designed for optimal women s health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -649,7 +649,7 @@
   },
   {
     "id": "plexwell-omega-family",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA FAMILY",
     "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL_OMEGA_FAMILY_ULTRA_HD.png",
     "description": "Premium PLEXWELL_OMEGA_FAMILY_ULTRA_HD formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -673,7 +673,7 @@
   },
   {
     "id": "plexwell-omega-syrup-200ml",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA SYRUP 200ml",
     "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL Omega + Multiitamin Syrup for kids 200ml.png",
     "description": "Premium PLEXWELL Omega + Multiitamin Syrup for kids 200ml formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -703,7 +703,7 @@
   },
   {
     "id": "plexwell-seniomega-syrup-200ml",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL SENIOMEGA SYRUP 200ml",
     "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell SeniOmega Syrup for 50+ age 200ml.png",
     "description": "Premium PlexWell SeniOmega Syrup for 50+ age 200ml formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -731,7 +731,7 @@
   },
   {
     "id": "plexwell-vegan-omega-softgel",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL VEGAN OMEGA SOFTGEL",
     "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell Vegan Omega 1200mg softgel.png",
     "description": "Premium PlexWell Vegan Omega 1200mg softgel formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -759,7 +759,7 @@
   },
   {
     "id": "plexwell-omega-gummies-for-kids",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA GUMMIES FOR KIDS",
     "image": "/images/products/omega/PlexWell Omega Supplements/Plexwell Omega 3 gummies for kids 3-14 years.png",
     "description": "Premium Plexwell Omega 3 gummies for kids 3-14 years formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -787,7 +787,7 @@
   },
   {
     "id": "plexwell-ultra-omega-15x4-blister",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL ULTRA OMEGA 15x4 BLISTER",
     "image": "/images/products/omega/PlexWell Omega Supplements/Plexwell Ultra Omega 2000mg softgel_blister pack.png",
     "description": "Premium Plexwell Ultra Omega 2000mg softgel_blister pack formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -814,7 +814,7 @@
   },
   {
     "id": "plexwell-omega-probiotics-curcumin-softgel",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA + Probiotics + Curcumin SOFTGEL",
     "image": "/images/products/omega/PlexWell Omega Supplements/Plexwell_Omega+Probiotics+Curcumin N60.png",
     "description": "Premium Plexwell_Omega+Probiotics+Curcumin N60 formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -846,7 +846,7 @@
   },
   {
     "id": "plexwell-omega-vit-d3-vit-e-coq10-curcumin-softgel",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell_VIt D3+Cod liver+Omega 3_Softgel_N30.png",
     "description": "Premium Plexwell_VIt D3+Cod liver+Omega 3_Softgel_N30 formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -873,7 +873,7 @@
   },
   {
     "id": "ferrolyte-sr-capsule",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "General Wellness",
     "name": "FERROLYTE SR CAPSULE",
     "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Capsule N30.jpeg",
     "description": "Premium Ferrolyte Capsule N30 formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -901,7 +901,7 @@
   },
   {
     "id": "ferrolyte-liquid-200ml",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "General Wellness",
     "name": "FERROLYTE LIQUID 200ML",
     "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid 200ml.png",
     "description": "Premium Ferrolyte Liquid 200ml formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -932,7 +932,7 @@
   },
   {
     "id": "ferrolyte-liquid-plus-200ml",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "General Wellness",
     "name": "FERROLYTE LIQUID PLUS 200ML",
     "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid PLUS 200ml.png",
     "description": "Premium Ferrolyte Liquid PLUS 200ml formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -960,7 +960,7 @@
   },
   {
     "id": "ferrolyte-gummies-for-kids",
-    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "category": "General Wellness",
     "name": "FERROLYTE GUMMIES FOR KIDS",
     "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Gummies for Kids N60.png",
     "description": "Premium Ferrolyte Gummies for Kids N60 formulation scientifically designed for optimal men   women wellness pouches support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -988,7 +988,7 @@
   },
   {
     "id": "age-slow-caps",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "AGE-SLOW CAPS",
     "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex 70+ age N60 Caps.png",
     "description": "Premium AgeSlow-Complex 70+ age N60 Caps formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1016,7 +1016,7 @@
   },
   {
     "id": "age-slow-complex-bitter-drops",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "AGE-SLOW COMPLEX BITTER DROPS",
     "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex BItter drops 50ml.png",
     "description": "Premium AgeSlow-Complex BItter drops 50ml formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1046,7 +1046,7 @@
   },
   {
     "id": "age-slow-compex-powder",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "AGE-SLOW COMPEX POWDER",
     "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Cellular Reset Powder 12gm_N30.png",
     "description": "Premium AgeSlow-Cellular Reset Powder 12gm_N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1073,7 +1073,7 @@
   },
   {
     "id": "age-slow-complex-shots",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "AGE-SLOW COMPLEX SHOTS",
     "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex Shots 30ml_N15-1.png",
     "description": "Premium AgeSlow-Complex Shots 30ml_N15-1 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1097,7 +1097,7 @@
   },
   {
     "id": "plexwell-vit-c-tab",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT C+ TAB",
     "image": "/images/products/vitamin-c/Vitamin C+ Supplements/Plexwell_VIt C+_Tablets_N100.png",
     "description": "Premium Plexwell_VIt C+_Tablets_N100 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1124,7 +1124,7 @@
   },
   {
     "id": "plexwell-vit-c-effervescent",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT C+ EFFERVESCENT",
     "image": "/images/products/vitamin-c/Vitamin C+ Supplements/Plexwell_VIt C+_Effervescent_N20.png",
     "description": "Premium Plexwell_VIt C+_Effervescent_N20 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1151,7 +1151,7 @@
   },
   {
     "id": "plexwell-vit-c-gummies",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT C+ GUMMIES",
     "image": "/images/products/vitamin-c/Vitamin C+ Supplements/Plexwell_VIt C+_Gummies_N30.png",
     "description": "Premium Plexwell_VIt C+_Gummies_N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1178,7 +1178,7 @@
   },
   {
     "id": "plexwell-vit-d3-tablets-for-kids-4-10-y",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT D3 TABLETS FOR KIDS 4-10 Y",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 tablets for kids 4-10 Y age.png",
     "description": "Premium Plexwell Vit D3 tablets for kids 4-10 Y age formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1206,7 +1206,7 @@
   },
   {
     "id": "plexwell-vit-d3-multivitamin-syrup-3-15-y",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT D3+ MULTIVITAMIN SYRUP 3-15 Y",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age.png",
     "description": "Premium Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1239,7 +1239,7 @@
   },
   {
     "id": "plexwell-vit-d3-tablet-for-teens",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL Vit D3 TABLET FOR TEENS",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 5000 IU tablets for adults.png",
     "description": "Premium Plexwell Vit D3 5000 IU tablets for adults formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1267,7 +1267,7 @@
   },
   {
     "id": "plexwell-vit-d3-10000-iu-adult",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT D3 10000 IU ADULT",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 tablets for adults 10000 IU.png",
     "description": "Premium Plexwell Vit D3 tablets for adults 10000 IU formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1295,7 +1295,7 @@
   },
   {
     "id": "plexwell-vit-d3-20000-iu-adult",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT D3 20000 IU ADULT",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 tablets for adults 20000 IU.png",
     "description": "Premium Plexwell Vit D3 tablets for adults 20000 IU formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1323,7 +1323,7 @@
   },
   {
     "id": "plexwell-vit-d3-effervescent",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL VIT D3+ EFFERVESCENT",
     "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 effervescent tablets for adults.png",
     "description": "Premium Plexwell Vit D3 effervescent tablets for adults formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1351,7 +1351,7 @@
   },
   {
     "id": "plexwell-osteomax-liquid-200ml",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OSTEOMAX LIQUID 200ML",
     "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax liquid 200ml.png",
     "description": "Premium Plexwell_Osteomax liquid 200ml formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1383,7 +1383,7 @@
   },
   {
     "id": "plexwell-osteomax-effervescent",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OSTEOMAX EFFERVESCENT",
     "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax Effervescent Tab_N20-1.png",
     "description": "Premium Plexwell_Osteomax Effervescent Tab_N20-1 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1412,7 +1412,7 @@
   },
   {
     "id": "plexwell-osteomax-softgel",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OSTEOMAX+ SOFTGEL",
     "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax+Softgel_N60.png",
     "description": "Premium Plexwell_Osteomax+Softgel_N60 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1444,7 +1444,7 @@
   },
   {
     "id": "plexwell-osteomax-tablet",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OSTEOMAX TABLET",
     "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax tablet N30.png",
     "description": "Premium Plexwell_Osteomax tablet N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1476,7 +1476,7 @@
   },
   {
     "id": "plexwell-hair-skin-and-nails-tablets",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL HAIR, SKIN AND NAILS TABLETS",
     "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty_Hair Skin and Nails tab_N30.png",
     "description": "Premium Plexwell_Beauty_Hair Skin and Nails tab_N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1508,7 +1508,7 @@
   },
   {
     "id": "plexwell-beauty-pouch-for-her",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL BEAUTY POUCH FOR HER",
     "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty Pouch for her_N14.png",
     "description": "Premium Plexwell_Beauty Pouch for her_N14 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1535,7 +1535,7 @@
   },
   {
     "id": "plexwell-beauty-collagen-matrix-powder",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL BEAUTY COLLAGEN MATRIX POWDER",
     "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty Collagen Matrix Capsule_N100.png",
     "description": "Premium Plexwell_Beauty Collagen Matrix Capsule_N100 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "plexwell-beauty-glow-matrix-capsule",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL BEAUTY GLOW-MATRIX CAPSULE",
     "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty Glow Matrix Capsule_N60.png",
     "description": "Premium Plexwell_Beauty Glow Matrix Capsule_N60 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1599,7 +1599,7 @@
   },
   {
     "id": "plexwell-ophthacare-junior-syrup",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OPHTHACARE JUNIOR SYRUP",
     "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare Junior Syrup 150ml.png",
     "description": "Premium PlexWell_Ophthacare Junior Syrup 150ml formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1626,7 +1626,7 @@
   },
   {
     "id": "plexwell-ophthacare-capsule",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OPHTHACARE CAPSULE",
     "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell Ophthacare Capsule N60.png",
     "description": "Premium PlexWell Ophthacare Capsule N60 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1650,7 +1650,7 @@
   },
   {
     "id": "plexwell-ophthacare-age-60-capsule",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OPHTHACARE AGE 60+ CAPSULE",
     "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare Age 60+_Capsule N30.png",
     "description": "Premium PlexWell_Ophthacare Age 60+_Capsule N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1677,7 +1677,7 @@
   },
   {
     "id": "plexwell-ophthacare-gummies",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OPHTHACARE GUMMIES",
     "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare_Gummies N30.png",
     "description": "Premium PlexWell_Ophthacare_Gummies N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1704,7 +1704,7 @@
   },
   {
     "id": "plexwell-ophthacare-effervescent",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL OPHTHACARE EFFERVESCENT",
     "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare_Effervescent_N20.png",
     "description": "Premium PlexWell_Ophthacare_Effervescent_N20 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1731,7 +1731,7 @@
   },
   {
     "id": "plexwell-cough-care-junior",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL COUGH-CARE JUNIOR",
     "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Junior Day time 150ml.png",
     "description": "Premium Plexwell Cough Care Junior Day time 150ml formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1755,7 +1755,7 @@
   },
   {
     "id": "plexwell-cough-care",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL COUGH-CARE",
     "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Adult 200ml.png",
     "description": "Premium Plexwell Cough Care Adult 200ml formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1782,7 +1782,7 @@
   },
   {
     "id": "plexwell-cough-care-day-sachet",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL COUGH-CARE DAY SACHET",
     "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell_Cough-Care Day Time Drink sachets_N30.png",
     "description": "Premium Plexwell_Cough-Care Day Time Drink sachets_N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1809,7 +1809,7 @@
   },
   {
     "id": "plexwell-cough-care-night-sachet",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL COUGH-CARE NIGHT SACHET",
     "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell_Cough-Care Night Time Drink sachets_N30.png",
     "description": "Premium Plexwell_Cough-Care Night Time Drink sachets_N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1836,7 +1836,7 @@
   },
   {
     "id": "plexwell-kids-digesmart-gummies",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Kids Health",
     "name": "PLEXWELL KIDS DIGESMART GUMMIES",
     "image": "/images/products/kids/Plexwell Kids Digesmart Gummies N30.png",
     "description": "Premium Plexwell Kids Digesmart Gummies N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1861,7 +1861,7 @@
   },
   {
     "id": "plexwell-diacare-oral-sachet",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Kids Health",
     "name": "PLEXWELL DIACARE ORAL SACHET",
     "image": "/images/products/kids/Plexwell Diacare Oral sachet N14.png",
     "description": "Premium Plexwell Diacare Oral sachet N14 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1886,7 +1886,7 @@
   },
   {
     "id": "plexwell-tri-biotic-gummies",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL TRI-BIOTIC GUMMIES",
     "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/PlexWell_Tri-Biotic Gummies N60.png",
     "description": "Premium PlexWell_Tri-Biotic Gummies N60 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1915,7 +1915,7 @@
   },
   {
     "id": "plexwell-uti-biotic-capsule",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL UTI-BIOTIC CAPSULE",
     "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC capsule N30.png",
     "description": "Premium Plexwell UTI-BIOTIC capsule N30 formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1942,7 +1942,7 @@
   },
   {
     "id": "plexwell-uti-biotic-syrup-150ml",
-    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL UTI-BIOTIC SYRUP 150ml",
     "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC Syrup 150ml.png",
     "description": "Premium Plexwell UTI-BIOTIC Syrup 150ml formulation scientifically designed for optimal anti aging ageslow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1969,7 +1969,7 @@
   },
   {
     "id": "ageslow-complex-n60-caps",
-    "category": "Age Slow Complex",
+    "category": "Age-Slow Complex",
     "name": "AGESLOW-COMPLEX N60 CAPS",
     "image": "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps.png",
     "description": "Premium AgeSlow-Complex N60 Caps formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -1999,7 +1999,7 @@
   },
   {
     "id": "ageslow-complex-shots-30ml_n15",
-    "category": "Age Slow Complex",
+    "category": "Age-Slow Complex",
     "name": "AGESLOW-COMPLEX SHOTS 30ML N15",
     "image": "/images/products/age-slow-complex/AgeSlow-Complex Shots 30ml_N15.png",
     "description": "Premium AgeSlow-Complex Shots 30ml_N15 formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -2025,7 +2025,7 @@
   },
   {
     "id": "ageslow-complex_combo-pack_n60-capsule50ml-bitter-drops-together",
-    "category": "Age Slow Complex",
+    "category": "Age-Slow Complex",
     "name": "AGESLOW-COMPLEX COMBO PACK N60 CAPSULE+50ML BITTER DROPS TOGETHER",
     "image": "/images/products/age-slow-complex/AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together.png",
     "description": "Premium AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -2050,7 +2050,7 @@
   },
   {
     "id": "ageslow-gummies-n60",
-    "category": "Age Slow Complex",
+    "category": "Age-Slow Complex",
     "name": "AGESLOW-GUMMIES N60",
     "image": "/images/products/age-slow-complex/AgeSlow-Gummies N60.png",
     "description": "Premium AgeSlow-Gummies N60 formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -2079,7 +2079,7 @@
   },
   {
     "id": "plexwell_ageslow-gummies-n60",
-    "category": "Age Slow Complex",
+    "category": "Age-Slow Complex",
     "name": "PLEXWELL AGESLOW GUMMIES N60",
     "image": "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60.png",
     "description": "Premium PlexWell_AgeSlow gummies N60 formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
@@ -2413,31 +2413,6 @@
     ]
   },
   {
-    "id": "plexwell-omega-family",
-    "category": "Omega Supplements",
-    "name": "PLEXWELL OMEGA FAMILY",
-    "image": "/images/products/omega-supplements/Plexwell Omega Family.png",
-    "description": "Premium Plexwell Omega Family formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
-    "ingredients": [
-      {
-        "name": "Active Compound Complex",
-        "dosage": "Proprietary",
-        "dv": "-"
-      },
-      {
-        "name": "Essential Vitamins & Minerals",
-        "dosage": "Varies",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Clinically formulated",
-      "High Bioavailability",
-      "GMP Certified",
-      "Quality Assured"
-    ]
-  },
-  {
     "id": "plexwell-omega-syrup-150ml",
     "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA SYRUP 150ML",
@@ -2550,9 +2525,9 @@
   },
   {
     "id": "plexwell_somna-matrix_capsule-with-box_n60",
-    "category": "Men Health",
+    "category": "Sleep Support",
     "name": "PLEXWELL SOMNA-MATRIX CAPSULE WITH BOX N60",
-    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Capsule with box_N60.png",
+    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Capsule with box_N60.png",
     "description": "Premium Plexwell_Somna-Matrix_Capsule with box_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2575,9 +2550,9 @@
   },
   {
     "id": "plexwell_somna-matrix_capsule_n60",
-    "category": "Men Health",
+    "category": "Sleep Support",
     "name": "PLEXWELL SOMNA-MATRIX CAPSULE N60",
-    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Capsule_N60.png",
+    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Capsule_N60.png",
     "description": "Premium Plexwell_Somna-Matrix_Capsule_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2597,13 +2572,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Somna-Matrix_Capsule_N60_Advert.png"
+    "advertImage": "/images/products/sleep-support/Plexwell_Somna-Matrix_Capsule_N60_Advert.png"
   },
   {
     "id": "plexwell_somna-matrix_family",
-    "category": "Men Health",
+    "category": "Sleep Support",
     "name": "PLEXWELL SOMNA-MATRIX FAMILY",
-    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Family.png",
+    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Family.png",
     "description": "Premium Plexwell_Somna-Matrix_Family formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2626,9 +2601,9 @@
   },
   {
     "id": "plexwell_somna-matrix_family2",
-    "category": "Men Health",
+    "category": "Sleep Support",
     "name": "PLEXWELL SOMNA-MATRIX FAMILY2",
-    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Family2.png",
+    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Family2.png",
     "description": "Premium Plexwell_Somna-Matrix_Family2 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2651,9 +2626,9 @@
   },
   {
     "id": "plexwell_somna-matrix_gummy_n60",
-    "category": "Men Health",
+    "category": "Sleep Support",
     "name": "PLEXWELL SOMNA-MATRIX GUMMY N60",
-    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Gummy_N60.png",
+    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Gummy_N60.png",
     "description": "Premium Plexwell_Somna-Matrix_Gummy_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2673,13 +2648,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Somna-Matrix_Gummy_N60_Advert.png"
+    "advertImage": "/images/products/sleep-support/Plexwell_Somna-Matrix_Gummy_N60_Advert.png"
   },
   {
     "id": "plexwell_somna-matrix_oral-spray_30ml",
-    "category": "Men Health",
+    "category": "Sleep Support",
     "name": "PLEXWELL SOMNA-MATRIX ORAL SPRAY 30ML",
-    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Oral Spray_30ml.png",
+    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Oral Spray_30ml.png",
     "description": "Premium Plexwell_Somna-Matrix_Oral Spray_30ml formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2699,13 +2674,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Somna-Matrix_Oral Spray_30ml_Advert.png"
+    "advertImage": "/images/products/sleep-support/Plexwell_Somna-Matrix_Oral Spray_30ml_Advert.png"
   },
   {
     "id": "3in1-collagen-multiblister",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "3IN1 COLLAGEN MULTIBLISTER",
-    "image": "/images/products/men-health/3in1 Collagen Multiblister.png",
+    "image": "/images/products/beauty-care/3in1 Collagen Multiblister.png",
     "description": "Premium 3in1 Collagen Multiblister formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2728,9 +2703,9 @@
   },
   {
     "id": "plexwell-hair-skin-nail-pro-n30",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "PLEXWELL HAIR SKIN NAIL PRO N30",
-    "image": "/images/products/men-health/Plexwell Hair Skin Nail Pro N30.png",
+    "image": "/images/products/beauty-care/Plexwell Hair Skin Nail Pro N30.png",
     "description": "Premium Plexwell Hair Skin Nail Pro N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2753,9 +2728,9 @@
   },
   {
     "id": "plexwell_beauty-collagen-matrix_n30",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "PLEXWELL BEAUTY COLLAGEN MATRIX N30",
-    "image": "/images/products/men-health/Plexwell_Beauty Collagen Matrix_N30.png",
+    "image": "/images/products/beauty-care/Plexwell_Beauty Collagen Matrix_N30.png",
     "description": "Premium Plexwell_Beauty Collagen Matrix_N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2775,13 +2750,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Beauty Collagen Matrix_N30_Advert.png"
+    "advertImage": "/images/products/beauty-care/Plexwell_Beauty Collagen Matrix_N30_Advert.png"
   },
   {
     "id": "plexwell_skin-clear-matrix_capsule_n60",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "PLEXWELL SKIN CLEAR MATRIX CAPSULE N60",
-    "image": "/images/products/men-health/Plexwell_Skin clear Matrix_Capsule_N60.png",
+    "image": "/images/products/beauty-care/Plexwell_Skin clear Matrix_Capsule_N60.png",
     "description": "Premium Plexwell_Skin clear Matrix_Capsule_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2802,14 +2777,14 @@
       "Quality Assured"
     ],
     "galleryImages": [
-      "/images/products/men-health/Plexwell_Beauty Skin clear Matrix_Capsule_N60_Advert.png"
+      "/images/products/beauty-care/Plexwell_Beauty Skin clear Matrix_Capsule_N60_Advert.png"
     ]
   },
   {
     "id": "vitabiotin-10000",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "VITABIOTIN 10000",
-    "image": "/images/products/men-health/Vitabiotin 10000.jpeg",
+    "image": "/images/products/beauty-care/Vitabiotin 10000.jpeg",
     "description": "Premium Vitabiotin 10000 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2832,9 +2807,9 @@
   },
   {
     "id": "vitasoma-collagen-1000mg",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "VITASOMA COLLAGEN 1000MG",
-    "image": "/images/products/men-health/Vitasoma Collagen 1000mg.jpeg",
+    "image": "/images/products/beauty-care/Vitasoma Collagen 1000mg.jpeg",
     "description": "Premium Vitasoma Collagen 1000mg formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2857,9 +2832,9 @@
   },
   {
     "id": "calciplex_tablets",
-    "category": "Men Health",
+    "category": "Calcium Supplements",
     "name": "CALCIPLEX TABLETS",
-    "image": "/images/products/men-health/Calciplex_tablets.png",
+    "image": "/images/products/calcium-supplements/Calciplex_tablets.png",
     "description": "Premium Calciplex_tablets formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2882,9 +2857,9 @@
   },
   {
     "id": "plexwell-osteomax-family-1",
-    "category": "Men Health",
+    "category": "Calcium Supplements",
     "name": "PLEXWELL OSTEOMAX FAMILY-1",
-    "image": "/images/products/men-health/Plexwell Osteomax family-1.png",
+    "image": "/images/products/calcium-supplements/Plexwell Osteomax family-1.png",
     "description": "Premium Plexwell Osteomax family-1 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2907,9 +2882,9 @@
   },
   {
     "id": "plexwell-osteomax-family",
-    "category": "Men Health",
+    "category": "Calcium Supplements",
     "name": "PLEXWELL OSTEOMAX FAMILY",
-    "image": "/images/products/men-health/Plexwell Osteomax family.png",
+    "image": "/images/products/calcium-supplements/Plexwell Osteomax family.png",
     "description": "Premium Plexwell Osteomax family formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2932,9 +2907,9 @@
   },
   {
     "id": "plexwell_junior-calcium-syrup-200ml",
-    "category": "Men Health",
+    "category": "Calcium Supplements",
     "name": "PLEXWELL JUNIOR CALCIUM SYRUP 200ML",
-    "image": "/images/products/men-health/Plexwell_Junior Calcium Syrup 200ml.png",
+    "image": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200ml.png",
     "description": "Premium Plexwell_Junior Calcium Syrup 200ml formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2954,13 +2929,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Junior Calcium Syrup 200ml_Advert.png"
+    "advertImage": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200ml_Advert.png"
   },
   {
     "id": "plexwell_osteomax-effervescent-tab_n20",
-    "category": "Men Health",
+    "category": "Calcium Supplements",
     "name": "PLEXWELL OSTEOMAX EFFERVESCENT TAB N20",
-    "image": "/images/products/men-health/Plexwell_Osteomax Effervescent Tab_N20.png",
+    "image": "/images/products/calcium-supplements/Plexwell_Osteomax Effervescent Tab_N20.png",
     "description": "Premium Plexwell_Osteomax Effervescent Tab_N20 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -2980,13 +2955,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Osteomax Effervescent Tab_N20_Advert.png"
+    "advertImage": "/images/products/calcium-supplements/Plexwell_Osteomax Effervescent Tab_N20_Advert.png"
   },
   {
     "id": "plexwell_osteomax-gummies_n60",
-    "category": "Men Health",
+    "category": "Calcium Supplements",
     "name": "PLEXWELL OSTEOMAX GUMMIES N60",
-    "image": "/images/products/men-health/Plexwell_Osteomax Gummies_N60.png",
+    "image": "/images/products/calcium-supplements/Plexwell_Osteomax Gummies_N60.png",
     "description": "Premium Plexwell_Osteomax Gummies_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -3006,7 +2981,7 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_Osteomax Gummies_N60_Advert.png"
+    "advertImage": "/images/products/calcium-supplements/Plexwell_Osteomax Gummies_N60_Advert.png"
   },
   {
     "id": "cofcare_day-time-drink",
@@ -3394,9 +3369,9 @@
   },
   {
     "id": "plexwell_hair-pro-complex_effervescent_-n20_1",
-    "category": "Men Health",
+    "category": "Beauty & Care",
     "name": "PLEXWELL HAIR-PRO COMPLEX EFFERVESCENT  N20 1",
-    "image": "/images/products/men-health/PlexWell_Hair-PRO Complex_Effervescent_ N20_1.png",
+    "image": "/images/products/beauty-care/PlexWell_Hair-PRO Complex_Effervescent_ N20_1.png",
     "description": "Premium PlexWell_Hair-PRO Complex_Effervescent_ N20_1 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -3623,9 +3598,9 @@
   },
   {
     "id": "plexwell-flora-balance-capsule-n30",
-    "category": "Men Health",
+    "category": "Biotics",
     "name": "PLEXWELL FLORA BALANCE CAPSULE N30",
-    "image": "/images/products/men-health/Plexwell Flora Balance capsule N30.png",
+    "image": "/images/products/biotics/Plexwell Flora Balance capsule N30.png",
     "description": "Premium Plexwell Flora Balance capsule N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -3645,13 +3620,13 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "supplementFactsImage": "/images/products/men-health/Plexwell Flora Balance capsule N30_Supplement facts table.png"
+    "supplementFactsImage": "/images/products/biotics/Plexwell Flora Balance capsule N30_Supplement facts table.png"
   },
   {
     "id": "plexwell-flora-balance-capsule-op-1-n30",
-    "category": "Men Health",
+    "category": "Biotics",
     "name": "PLEXWELL FLORA BALANCE CAPSULE OP 1 N30",
-    "image": "/images/products/men-health/Plexwell Flora Balance capsule OP 1 N30.png",
+    "image": "/images/products/biotics/Plexwell Flora Balance capsule OP 1 N30.png",
     "description": "Premium Plexwell Flora Balance capsule OP 1 N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -3674,9 +3649,9 @@
   },
   {
     "id": "plexwell-uti-biotic-syrup-op-2-150ml",
-    "category": "Men Health",
+    "category": "Biotics",
     "name": "PLEXWELL UTI-BIOTIC SYRUP OP 2 150ML",
-    "image": "/images/products/men-health/Plexwell UTI-BIOTIC Syrup OP 2 150ml.png",
+    "image": "/images/products/biotics/Plexwell UTI-BIOTIC Syrup OP 2 150ml.png",
     "description": "Premium Plexwell UTI-BIOTIC Syrup OP 2 150ml formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -3699,9 +3674,9 @@
   },
   {
     "id": "plexwell-uti-biotic-capsule-op1-n30",
-    "category": "Men Health",
+    "category": "Biotics",
     "name": "PLEXWELL UTI-BIOTIC CAPSULE OP1 N30",
-    "image": "/images/products/men-health/Plexwell UTI-BIOTIC capsule Op1 N30.png",
+    "image": "/images/products/biotics/Plexwell UTI-BIOTIC capsule Op1 N30.png",
     "description": "Premium Plexwell UTI-BIOTIC capsule Op1 N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -4398,9 +4373,9 @@
   },
   {
     "id": "plexwell_vit-c_energy-powder_n30",
-    "category": "Men Health",
+    "category": "Vitamin C",
     "name": "PLEXWELL VIT C+ ENERGY POWDER N30",
-    "image": "/images/products/men-health/Plexwell_VIt C+_Energy Powder_N30.png",
+    "image": "/images/products/vitamin-c/Plexwell_VIt C+_Energy Powder_N30.png",
     "description": "Premium Plexwell_VIt C+_Energy Powder_N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
     "ingredients": [
       {
@@ -4420,9 +4395,9 @@
       "GMP Certified",
       "Quality Assured"
     ],
-    "advertImage": "/images/products/men-health/Plexwell_VIt C+_Energy Powder_N30_Advert1.png",
+    "advertImage": "/images/products/vitamin-c/Plexwell_VIt C+_Energy Powder_N30_Advert1.png",
     "galleryImages": [
-      "/images/products/men-health/Plexwell_VIt C+_Energy Powder_N30_Advert 2.png"
+      "/images/products/vitamin-c/Plexwell_VIt C+_Energy Powder_N30_Advert 2.png"
     ]
   }
 ]

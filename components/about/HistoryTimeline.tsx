@@ -26,7 +26,7 @@ const milestones = [
   {
     year: "2026",
     title: "Sustainable Future",
-    description: "Committed to 100% carbon-neutral manufacturing by 2030. Unveiled our new biologicals and personalized medicine divisions, pioneering the next generation of healthcare solutions."
+    description: "Committed to 100% carbon-neutral manufacturing by 2035. Unveiled our new biologicals and personalized medicine divisions, pioneering the next generation of healthcare solutions."
   }
 ];
 
