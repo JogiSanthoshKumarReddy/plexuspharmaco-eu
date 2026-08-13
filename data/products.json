@@ -49,7 +49,10 @@
       "Supports Immunity & Growth"
     ],
     "advertImage": "/images/products/kids/PlexWell_Junior daily 2 multivitamin gummies N60_Advert.png",
-    "supplementFactsImage": "/images/products/kids/PlexWell_Junior daily 2 multivitamin gummies N60_Supplement facts table.png"
+    "supplementFactsImage": "/images/products/kids/PlexWell_Junior daily 2 multivitamin gummies N60_Supplement facts table.png",
+    "galleryImages": [
+      "/images/products/kids-health/PlexWell_Junior daily 2 multivitamin gummies N60_advert 2.png"
+    ]
   },
   {
     "id": "plexwell-junior-multivitamin-liquid",
@@ -148,6 +151,9 @@
       "Alcohol-Free",
       "Easy-Dose Dropper",
       "Pediatrician Recommended"
+    ],
+    "galleryImages": [
+      "/images/products/kids-health/PlexWell Vit D3+ gummies N60_Advert.png"
     ]
   },
   {
@@ -177,6 +183,9 @@
       "Daily Nutritional Support",
       "Energy Metabolism",
       "Immune Defense"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell Men and Men50+_A4 advert.png"
     ]
   },
   {
@@ -206,6 +215,9 @@
       "Daily Nutritional Support",
       "Energy Metabolism",
       "Immune Defense"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell Men 70+ multivitamin_Powder sachet N28_Advert.png"
     ]
   },
   {
@@ -235,6 +247,9 @@
       "Daily Nutritional Support",
       "Energy Metabolism",
       "Immune Defense"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell Men 70+ multivitamin_Spray 75ml_Advert.png"
     ]
   },
   {
@@ -264,6 +279,9 @@
       "Reproductive Health",
       "Antioxidant Rich",
       "Doctor Recommended"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell_FERTi-PRO tablet_N100_Advert.png"
     ]
   },
   {
@@ -293,6 +311,9 @@
       "High-Potency Formula",
       "Supports Men's Wellness",
       "Clinically Proven Extract"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell_PROSTi-PRO_softgel N100_Advert.png"
     ]
   },
   {
@@ -322,6 +343,9 @@
       "Enhanced Vitality",
       "Fast Acting",
       "Natural Herbal Blend"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell_ERECTi-PRO_Capsule N100_Advert.png"
     ]
   },
   {
@@ -351,6 +375,9 @@
       "Enhanced Vitality",
       "Fast Acting",
       "Natural Herbal Blend"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell_ERECTi-PRO_Capsule N10_Advert.png"
     ]
   },
   {
@@ -380,6 +407,9 @@
       "Promotes Hair Growth",
       "Skin Elasticity",
       "High-Potency Biotin"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell_Hair-PRO Complex_Capsule_ N100_Advert.png"
     ]
   },
   {
@@ -409,6 +439,9 @@
       "Promotes Hair Growth",
       "Skin Elasticity",
       "High-Potency Biotin"
+    ],
+    "galleryImages": [
+      "/images/products/mens-health/PlexWell_Hair-PRO Complex_Effervescent_ N20_Advert.png"
     ]
   },
   {
@@ -467,6 +500,9 @@
       "Hormonal Balance",
       "Non-GMO",
       "Plant-Based Relief"
+    ],
+    "galleryImages": [
+      "/images/products/womens-health/PlexWell_Menopause DAY Support tablet_N30_Blister_Supplement facts table.png"
     ]
   },
   {
@@ -496,6 +532,9 @@
       "Hormonal Balance",
       "Non-GMO",
       "Plant-Based Relief"
+    ],
+    "galleryImages": [
+      "/images/products/womens-health/PlexWell_Menopause Night Support capsule_N100_Advert.png"
     ]
   },
   {
@@ -520,6 +559,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/womens-health/PlexWell_PCOS Support_Capsule N100_Advert.png"
     ]
   },
   {
@@ -544,6 +586,11 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/womens-health/PlexWell_Pregnency Support_Tri-1_N180 capsules_Advert.png",
+      "/images/products/womens-health/PlexWell_Pregnency Support_Tri-1_N180 capsules_Supplement facts table.png",
+      "/images/products/womens-health/PlexWell_Pregnency Support A4 Advert.png"
     ]
   },
   {
@@ -568,6 +615,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/womens-health/Plexwell_LadyLove_Capsule N10 Blister_Advert.png"
     ]
   },
   {
@@ -592,6 +642,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/womens-health/Plexwell_LadyLove_Capsule N30_Advert.png"
     ]
   },
   {
@@ -640,6 +693,12 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/PLEXWELL Omega + Multiitamin Syrup for kids 200ml_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/PLEXWELL Omega + Multiitamin Syrup for kids 200ml_advert.png",
+      "/images/products/men-women-wellness-pouches/Plexwell Omega 1-6 Y Syrup 200ml_advert.png",
+      "/images/products/men-women-wellness-pouches/Plexwell Omega Syrup 200ml_advert.png"
     ]
   },
   {
@@ -664,6 +723,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/PlexWell SeniOmega Syrup for 50+ age 200ml_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/PlexWell SeniOmega Syrup for 50+ age 200ml_Advert.png"
     ]
   },
   {
@@ -688,6 +751,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/PlexWell Vegan Omega 1200mg softgel_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/PlexWell Vegan Omega 1200mg softgel_Advert.png"
     ]
   },
   {
@@ -712,6 +779,10 @@
       "No Artificial Colors",
       "Great Tasting",
       "Supports Immunity & Growth"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Plexwell Omega 3 gummies for kids 3-14 years_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/Plexwell Omega 3 gummies for kids 3-14 years_Advert.png"
     ]
   },
   {
@@ -736,6 +807,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Plexwell Ultra Omega 2000mg softgel_blister pack_A4 advert.png"
     ]
   },
   {
@@ -765,6 +839,9 @@
       "15 Billion CFU",
       "Targeted Release",
       "Digestive Health"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Plexwell_Omega+Probiotics+Curcumin N60_Advert.png"
     ]
   },
   {
@@ -789,6 +866,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Plexwell_VIt D3+Cod liver+Omega 3_Softgel_N30_Advert.png"
     ]
   },
   {
@@ -813,6 +893,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Ferrolyte Capsule N30_A4 advert.jpeg",
+      "/images/products/men-women-wellness-pouches/Ferrolyte Capsule N30_Advert.jpeg"
     ]
   },
   {
@@ -837,6 +921,13 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid 200ml_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid 200ml_Advert.png",
+      "/images/products/men-women-wellness-pouches/Ferrolyte family_advert-1.png",
+      "/images/products/men-women-wellness-pouches/Ferrolyte family_advert-2.png",
+      "/images/products/men-women-wellness-pouches/Ferrolyte family_advert.png"
     ]
   },
   {
@@ -861,6 +952,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid PLUS 200ml_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid PLUS 200ml_Advert.png"
     ]
   },
   {
@@ -885,6 +980,10 @@
       "No Artificial Colors",
       "Great Tasting",
       "Supports Immunity & Growth"
+    ],
+    "galleryImages": [
+      "/images/products/men-women-wellness-pouches/Ferrolyte Gummies for Kids N60_A4 advert.png",
+      "/images/products/men-women-wellness-pouches/Ferrolyte Gummies for Kids N60_Advert.png"
     ]
   },
   {
@@ -909,6 +1008,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex 70+ age N60 Caps_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex 70+ age N60 Caps_Advert.png"
     ]
   },
   {
@@ -933,6 +1036,12 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex BItter drops 50ml_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex BItter drops_White Background_ 50ml.png",
+      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex BItter drops_White Background_ 50ml_Advert.png",
+      "/images/products/anti-aging-ageslow-complex/PlexWell Bitter Drops 50ml_A4 advert.png"
     ]
   },
   {
@@ -957,6 +1066,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/AgeSlow-Cellular Reset Powder 12gm_N30_Advert.png"
     ]
   },
   {
@@ -1005,6 +1117,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_VIt C+_Tablets_N100_Advert.png"
     ]
   },
   {
@@ -1029,6 +1144,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_VIt C+_Effervescent_N20_Advert.png"
     ]
   },
   {
@@ -1053,6 +1171,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_VIt C+_Gummies_N30_Advert.png"
     ]
   },
   {
@@ -1077,6 +1198,10 @@
       "Alcohol-Free",
       "Easy-Dose Dropper",
       "Pediatrician Recommended"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for kids 4-10 Y age_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for kids 4-10 Y age_Advert.png"
     ]
   },
   {
@@ -1106,6 +1231,10 @@
       "Daily Nutritional Support",
       "Energy Metabolism",
       "Immune Defense"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age_Advert.png"
     ]
   },
   {
@@ -1130,6 +1259,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 5000 IU tablets for adults_Advert.png",
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets 5000 IU for adults_A4 advert.png"
     ]
   },
   {
@@ -1154,6 +1287,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 10000 IU_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 10000 IU_Advert.png"
     ]
   },
   {
@@ -1178,6 +1315,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 20000 IU_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 20000 IU_Advert.png"
     ]
   },
   {
@@ -1202,6 +1343,10 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 effervescent tablets for adults_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 effervescent tablets for adults_Advert.png"
     ]
   },
   {
@@ -1231,6 +1376,9 @@
       "Joint Lubrication",
       "Supports Cartilage",
       "Fast Absorbing"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Osteomax liquid 200ml_Advert.png"
     ]
   },
   {
@@ -1289,6 +1437,9 @@
       "Joint Lubrication",
       "Supports Cartilage",
       "Fast Absorbing"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Osteomax+Softgel_N60_Advert.png"
     ]
   },
   {
@@ -1318,6 +1469,9 @@
       "Joint Lubrication",
       "Supports Cartilage",
       "Fast Absorbing"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Osteomax tablet N30_Advert.png"
     ]
   },
   {
@@ -1347,6 +1501,9 @@
       "Promotes Hair Growth",
       "Skin Elasticity",
       "High-Potency Biotin"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty_Hair Skin and Nails tab_N30_Advert.png"
     ]
   },
   {
@@ -1371,6 +1528,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty Pouch for her_N14_Advert.png"
     ]
   },
   {
@@ -1400,6 +1560,9 @@
       "Promotes Hair Growth",
       "Skin Elasticity",
       "High-Potency Biotin"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty Collagen Matrix Capsule_N100_Advert.png"
     ]
   },
   {
@@ -1429,6 +1592,9 @@
       "Promotes Hair Growth",
       "Skin Elasticity",
       "High-Potency Biotin"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty Glow Matrix Capsule_N60_Advert.png"
     ]
   },
   {
@@ -1453,6 +1619,9 @@
       "Gentle on Stomach",
       "High Absorption",
       "Sugar-Free"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare Junior Syrup 150ml_Advert.png"
     ]
   },
   {
@@ -1501,6 +1670,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare Age 60+_Capsule N30_Advert.png"
     ]
   },
   {
@@ -1525,6 +1697,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare_Gummies N30_Advert.png"
     ]
   },
   {
@@ -1549,6 +1724,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare_Effervescent_N20_Advert.png"
     ]
   },
   {
@@ -1597,6 +1775,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell Cough Care Adult 200ml_Advert.png"
     ]
   },
   {
@@ -1621,6 +1802,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Cough-Care Day Time Drink sachets_N30_Advert.png"
     ]
   },
   {
@@ -1645,6 +1829,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell_Cough-Care Night Time Drink sachets_N30_Advert.png"
     ]
   },
   {
@@ -1719,6 +1906,11 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Tri-Biotic Gummies N60_A4 advert.png",
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Tri-Biotic Gummies N60_Advert.png",
+      "/images/products/anti-aging-ageslow-complex/PlexWell_Tri-Biotic Gummies N60_Supplement facts.png"
     ]
   },
   {
@@ -1743,6 +1935,9 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell UTI-BIOTIC capsule N30_Supplement facts.png"
     ]
   },
   {
@@ -1767,6 +1962,2467 @@
       "GMP Certified",
       "Quality Assured",
       "High Efficacy"
+    ],
+    "galleryImages": [
+      "/images/products/anti-aging-ageslow-complex/Plexwell UTI-BIOTIC Syrup 150ml_Supplement facts.png"
+    ]
+  },
+  {
+    "id": "ageslow-complex-n60-caps",
+    "category": "Age Slow Complex",
+    "name": "AGESLOW-COMPLEX N60 CAPS",
+    "image": "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps.png",
+    "description": "Premium AgeSlow-Complex N60 Caps formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps_Advert.png",
+    "galleryImages": [
+      "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps_A4 advert.png",
+      "/images/products/age-slow-complex/AgeSlow-Complex Family_A4 advert.png"
+    ]
+  },
+  {
+    "id": "ageslow-complex-shots-30ml_n15",
+    "category": "Age Slow Complex",
+    "name": "AGESLOW-COMPLEX SHOTS 30ML N15",
+    "image": "/images/products/age-slow-complex/AgeSlow-Complex Shots 30ml_N15.png",
+    "description": "Premium AgeSlow-Complex Shots 30ml_N15 formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/age-slow-complex/AgeSlow-Complex Shots 30ml_N15-1_Advert.png"
+  },
+  {
+    "id": "ageslow-complex_combo-pack_n60-capsule50ml-bitter-drops-together",
+    "category": "Age Slow Complex",
+    "name": "AGESLOW-COMPLEX COMBO PACK N60 CAPSULE+50ML BITTER DROPS TOGETHER",
+    "image": "/images/products/age-slow-complex/AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together.png",
+    "description": "Premium AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "ageslow-gummies-n60",
+    "category": "Age Slow Complex",
+    "name": "AGESLOW-GUMMIES N60",
+    "image": "/images/products/age-slow-complex/AgeSlow-Gummies N60.png",
+    "description": "Premium AgeSlow-Gummies N60 formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/age-slow-complex/AgeSlow-Gummies N60_Advert.png",
+    "galleryImages": [
+      "/images/products/age-slow-complex/AgeSlow-Gummies N60_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell_ageslow-gummies-n60",
+    "category": "Age Slow Complex",
+    "name": "PLEXWELL AGESLOW GUMMIES N60",
+    "image": "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60.png",
+    "description": "Premium PlexWell_AgeSlow gummies N60 formulation scientifically designed for optimal age slow complex support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60_Advert.png",
+    "galleryImages": [
+      "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60_A4 advert.png"
+    ]
+  },
+  {
+    "id": "ferrolyte_essichew-tablet-for-kids",
+    "category": "Iron Supplements",
+    "name": "FERROLYTE ESSICHEW TABLET FOR KIDS",
+    "image": "/images/products/iron-supplements/Ferrolyte_Essichew tablet for kids.png",
+    "description": "Premium Ferrolyte_Essichew tablet for kids formulation scientifically designed for optimal iron supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/iron-supplements/Ferrolyte_Essichew tablet for kids_Advert.png"
+  },
+  {
+    "id": "plexwell-vit-d3-drops-for-kids-1-4-y-age",
+    "category": "Vitamin D3",
+    "name": "PLEXWELL VIT D3 DROPS FOR KIDS 1-4 Y AGE",
+    "image": "/images/products/vitamin-d3/Plexwell Vit D3 drops for kids 1-4 Y age.png",
+    "description": "Premium Plexwell Vit D3 drops for kids 1-4 Y age formulation scientifically designed for optimal vitamin d3 support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/vitamin-d3/Plexwell Vit D3 drops for kids 1-4 Y age_Advert.png",
+    "galleryImages": [
+      "/images/products/vitamin-d3/Plexwell Vit D3 drops for kids 1-4 Y age_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-vit-d3-gummies-for-kids-4-10-y-age",
+    "category": "Vitamin D3",
+    "name": "PLEXWELL VIT D3 GUMMIES FOR KIDS 4-10 Y AGE",
+    "image": "/images/products/vitamin-d3/Plexwell Vit D3 gummies for kids 4-10 Y age.png",
+    "description": "Premium Plexwell Vit D3 gummies for kids 4-10 Y age formulation scientifically designed for optimal vitamin d3 support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/vitamin-d3/Plexwell Vit D3 gummies for kids 4-10 Y age_Advert.png",
+    "galleryImages": [
+      "/images/products/vitamin-d3/Plexwell Vit D3 gummies for kids 4-10 Y age_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-vit-d3-tablets-for-teen-11-17-y-age",
+    "category": "Vitamin D3",
+    "name": "PLEXWELL VIT D3 TABLETS FOR TEEN 11-17 Y AGE",
+    "image": "/images/products/vitamin-d3/Plexwell Vit D3 tablets for Teen 11-17 Y age.png",
+    "description": "Premium Plexwell Vit D3 tablets for Teen 11-17 Y age formulation scientifically designed for optimal vitamin d3 support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/vitamin-d3/Plexwell Vit D3 tablets for Teen 11-17 Y age_Advert.png",
+    "galleryImages": [
+      "/images/products/vitamin-d3/Plexwell Vit D3 tablets for Teen 11-17 Y age_A4 advert.png"
+    ]
+  },
+  {
+    "id": "omepren-1000mg",
+    "category": "Omega Supplements",
+    "name": "OMEPREN 1000MG",
+    "image": "/images/products/omega-supplements/Omepren 1000mg.png",
+    "description": "Premium Omepren 1000mg formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-omeha-alpha-softgel-n30",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMEHA-ALPHA SOFTGEL N30",
+    "image": "/images/products/omega-supplements/PLexwell Omeha-Alpha softgel N30.png",
+    "description": "Premium PLexwell Omeha-Alpha softgel N30 formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/PLexwell Omeha-Alpha softgel N30_Advert.png"
+  },
+  {
+    "id": "plexwell-cod-liver-oil-1500mg_200ml",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL COD LIVER OIL 1500MG 200ML",
+    "image": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200ml.png",
+    "description": "Premium PlexWell Cod Liver Oil 1500mg_200ml formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200ml_Advert.png",
+    "galleryImages": [
+      "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200ml_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-multivitaminomega_gummies-n60",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL MULTIVITAMIN+OMEGA GUMMIES N60",
+    "image": "/images/products/omega-supplements/PlexWell Multivitamin+Omega_Gummies N60.png",
+    "description": "Premium PlexWell Multivitamin+Omega_Gummies N60 formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-omega-3-1200mg-gummies-n60",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMEGA 3 1200MG GUMMIES N60",
+    "image": "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60.png",
+    "description": "Premium PlexWell Omega 3 1200mg Gummies N60 formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60_Advert.png",
+    "galleryImages": [
+      "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60_A4 advert.png",
+      "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60_Advert-1.png"
+    ]
+  },
+  {
+    "id": "plexwell-omga-3-6-9-with-multivitamin-softgel-for-adults",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMGA 3 6 9 WITH MULTIVITAMIN SOFTGEL FOR ADULTS",
+    "image": "/images/products/omega-supplements/PlexWell Omga 3 6 9 with multivitamin softgel for adults.png",
+    "description": "Premium PlexWell Omga 3 6 9 with multivitamin softgel for adults formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/PlexWell Omga 3 6 9 with multivitamin softgel for adults_Advert.png",
+    "galleryImages": [
+      "/images/products/omega-supplements/PlexWell Omga 3 6 9 with multivitamin softgel for adults_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-krill-oil-1200mg-softgel",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL KRILL OIL 1200MG SOFTGEL",
+    "image": "/images/products/omega-supplements/Plexwell Krill oil 1200mg softgel.png",
+    "description": "Premium Plexwell Krill oil 1200mg softgel formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/Plexwell Krill oil 1200mg softgel_Advert.png",
+    "galleryImages": [
+      "/images/products/omega-supplements/Plexwell Krill oil 1200mg softgel_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-omega-family",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMEGA FAMILY",
+    "image": "/images/products/omega-supplements/Plexwell Omega Family.png",
+    "description": "Premium Plexwell Omega Family formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-omega-syrup-150ml",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMEGA SYRUP 150ML",
+    "image": "/images/products/omega-supplements/Plexwell Omega Syrup 150ml.png",
+    "description": "Premium Plexwell Omega Syrup 150ml formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/Plexwell Omega Syrup 150ml_Advert.png",
+    "galleryImages": [
+      "/images/products/omega-supplements/Plexwell Omega Syrup 150ml_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-ultra-omega-2000mg-softgel",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL ULTRA OMEGA 2000MG SOFTGEL",
+    "image": "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel.png",
+    "description": "Premium Plexwell Ultra Omega 2000mg softgel formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel_blister pack_Advert.png",
+    "galleryImages": [
+      "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel_A4 advert.png",
+      "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel_Advert.png"
+    ]
+  },
+  {
+    "id": "plexwell_omegavit-d3coq10_vit-ecucumin_n60",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMEGA+VIT D3+COQ10 VIT E+CUCUMIN N60",
+    "image": "/images/products/omega-supplements/Plexwell_Omega+Vit D3+CoQ10_Vit E+Cucumin_N60.png",
+    "description": "Premium Plexwell_Omega+Vit D3+CoQ10_Vit E+Cucumin_N60 formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/Plexwell_Omega+Vit D3+CoQ10_Vit E+Cucumin_N60_Advert.png"
+  },
+  {
+    "id": "plexwell_omegavit-e-n60",
+    "category": "Omega Supplements",
+    "name": "PLEXWELL OMEGA+VIT E N60",
+    "image": "/images/products/omega-supplements/Plexwell_Omega+Vit E N60.png",
+    "description": "Premium Plexwell_Omega+Vit E N60 formulation scientifically designed for optimal omega supplements support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/omega-supplements/Plexwell_Omega+Vit E N60_Advert.png"
+  },
+  {
+    "id": "plexwell_somna-matrix_capsule-with-box_n60",
+    "category": "Men Health",
+    "name": "PLEXWELL SOMNA-MATRIX CAPSULE WITH BOX N60",
+    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Capsule with box_N60.png",
+    "description": "Premium Plexwell_Somna-Matrix_Capsule with box_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_somna-matrix_capsule_n60",
+    "category": "Men Health",
+    "name": "PLEXWELL SOMNA-MATRIX CAPSULE N60",
+    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Capsule_N60.png",
+    "description": "Premium Plexwell_Somna-Matrix_Capsule_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Somna-Matrix_Capsule_N60_Advert.png"
+  },
+  {
+    "id": "plexwell_somna-matrix_family",
+    "category": "Men Health",
+    "name": "PLEXWELL SOMNA-MATRIX FAMILY",
+    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Family.png",
+    "description": "Premium Plexwell_Somna-Matrix_Family formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_somna-matrix_family2",
+    "category": "Men Health",
+    "name": "PLEXWELL SOMNA-MATRIX FAMILY2",
+    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Family2.png",
+    "description": "Premium Plexwell_Somna-Matrix_Family2 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_somna-matrix_gummy_n60",
+    "category": "Men Health",
+    "name": "PLEXWELL SOMNA-MATRIX GUMMY N60",
+    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Gummy_N60.png",
+    "description": "Premium Plexwell_Somna-Matrix_Gummy_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Somna-Matrix_Gummy_N60_Advert.png"
+  },
+  {
+    "id": "plexwell_somna-matrix_oral-spray_30ml",
+    "category": "Men Health",
+    "name": "PLEXWELL SOMNA-MATRIX ORAL SPRAY 30ML",
+    "image": "/images/products/men-health/Plexwell_Somna-Matrix_Oral Spray_30ml.png",
+    "description": "Premium Plexwell_Somna-Matrix_Oral Spray_30ml formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Somna-Matrix_Oral Spray_30ml_Advert.png"
+  },
+  {
+    "id": "3in1-collagen-multiblister",
+    "category": "Men Health",
+    "name": "3IN1 COLLAGEN MULTIBLISTER",
+    "image": "/images/products/men-health/3in1 Collagen Multiblister.png",
+    "description": "Premium 3in1 Collagen Multiblister formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-hair-skin-nail-pro-n30",
+    "category": "Men Health",
+    "name": "PLEXWELL HAIR SKIN NAIL PRO N30",
+    "image": "/images/products/men-health/Plexwell Hair Skin Nail Pro N30.png",
+    "description": "Premium Plexwell Hair Skin Nail Pro N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_beauty-collagen-matrix_n30",
+    "category": "Men Health",
+    "name": "PLEXWELL BEAUTY COLLAGEN MATRIX N30",
+    "image": "/images/products/men-health/Plexwell_Beauty Collagen Matrix_N30.png",
+    "description": "Premium Plexwell_Beauty Collagen Matrix_N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Beauty Collagen Matrix_N30_Advert.png"
+  },
+  {
+    "id": "plexwell_skin-clear-matrix_capsule_n60",
+    "category": "Men Health",
+    "name": "PLEXWELL SKIN CLEAR MATRIX CAPSULE N60",
+    "image": "/images/products/men-health/Plexwell_Skin clear Matrix_Capsule_N60.png",
+    "description": "Premium Plexwell_Skin clear Matrix_Capsule_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "galleryImages": [
+      "/images/products/men-health/Plexwell_Beauty Skin clear Matrix_Capsule_N60_Advert.png"
+    ]
+  },
+  {
+    "id": "vitabiotin-10000",
+    "category": "Men Health",
+    "name": "VITABIOTIN 10000",
+    "image": "/images/products/men-health/Vitabiotin 10000.jpeg",
+    "description": "Premium Vitabiotin 10000 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "vitasoma-collagen-1000mg",
+    "category": "Men Health",
+    "name": "VITASOMA COLLAGEN 1000MG",
+    "image": "/images/products/men-health/Vitasoma Collagen 1000mg.jpeg",
+    "description": "Premium Vitasoma Collagen 1000mg formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "calciplex_tablets",
+    "category": "Men Health",
+    "name": "CALCIPLEX TABLETS",
+    "image": "/images/products/men-health/Calciplex_tablets.png",
+    "description": "Premium Calciplex_tablets formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-osteomax-family-1",
+    "category": "Men Health",
+    "name": "PLEXWELL OSTEOMAX FAMILY-1",
+    "image": "/images/products/men-health/Plexwell Osteomax family-1.png",
+    "description": "Premium Plexwell Osteomax family-1 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-osteomax-family",
+    "category": "Men Health",
+    "name": "PLEXWELL OSTEOMAX FAMILY",
+    "image": "/images/products/men-health/Plexwell Osteomax family.png",
+    "description": "Premium Plexwell Osteomax family formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_junior-calcium-syrup-200ml",
+    "category": "Men Health",
+    "name": "PLEXWELL JUNIOR CALCIUM SYRUP 200ML",
+    "image": "/images/products/men-health/Plexwell_Junior Calcium Syrup 200ml.png",
+    "description": "Premium Plexwell_Junior Calcium Syrup 200ml formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Junior Calcium Syrup 200ml_Advert.png"
+  },
+  {
+    "id": "plexwell_osteomax-effervescent-tab_n20",
+    "category": "Men Health",
+    "name": "PLEXWELL OSTEOMAX EFFERVESCENT TAB N20",
+    "image": "/images/products/men-health/Plexwell_Osteomax Effervescent Tab_N20.png",
+    "description": "Premium Plexwell_Osteomax Effervescent Tab_N20 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Osteomax Effervescent Tab_N20_Advert.png"
+  },
+  {
+    "id": "plexwell_osteomax-gummies_n60",
+    "category": "Men Health",
+    "name": "PLEXWELL OSTEOMAX GUMMIES N60",
+    "image": "/images/products/men-health/Plexwell_Osteomax Gummies_N60.png",
+    "description": "Premium Plexwell_Osteomax Gummies_N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Osteomax Gummies_N60_Advert.png"
+  },
+  {
+    "id": "cofcare_day-time-drink",
+    "category": "Cough Remedies",
+    "name": "COFCARE DAY TIME DRINK",
+    "image": "/images/products/cough-remedies/Cofcare_Day Time Drink.png",
+    "description": "Premium Cofcare_Day Time Drink formulation scientifically designed for optimal cough remedies support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "cofcare_night-time-drink",
+    "category": "Cough Remedies",
+    "name": "COFCARE NIGHT TIME DRINK",
+    "image": "/images/products/cough-remedies/Cofcare_Night Time Drink.png",
+    "description": "Premium Cofcare_Night Time Drink formulation scientifically designed for optimal cough remedies support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "ophthaplex-complex-tablet",
+    "category": "Eye Vitamins",
+    "name": "OPHTHAPLEX COMPLEX TABLET",
+    "image": "/images/products/eye-vitamins/Ophthaplex Complex Tablet.png",
+    "description": "Premium Ophthaplex Complex Tablet formulation scientifically designed for optimal eye vitamins support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_ophthacare-60-n30-capsule",
+    "category": "Eye Vitamins",
+    "name": "PLEXWELL OPHTHACARE 60+ N30 CAPSULE",
+    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare 60+ N30 capsule.png",
+    "description": "Premium PlexWell_Ophthacare 60+ N30 capsule formulation scientifically designed for optimal eye vitamins support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_ophthacare-junior-liquid-150ml",
+    "category": "Eye Vitamins",
+    "name": "PLEXWELL OPHTHACARE JUNIOR LIQUID 150ML",
+    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml.png",
+    "description": "Premium PlexWell_Ophthacare Junior Liquid 150ml formulation scientifically designed for optimal eye vitamins support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml_Advert.png",
+    "galleryImages": [
+      "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml_Advert 2.png",
+      "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml_Advert 3.png"
+    ]
+  },
+  {
+    "id": "plexwell_ophthacare_capsule-n30",
+    "category": "Eye Vitamins",
+    "name": "PLEXWELL OPHTHACARE CAPSULE N30",
+    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare_Capsule N30.png",
+    "description": "Premium PlexWell_Ophthacare_Capsule N30 formulation scientifically designed for optimal eye vitamins support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/eye-vitamins/PlexWell_Ophthacare_Capsule N30_Advert.png"
+  },
+  {
+    "id": "plexwell-vision-pro-n30",
+    "category": "Eye Vitamins",
+    "name": "PLEXWELL VISION PRO N30",
+    "image": "/images/products/eye-vitamins/Plexwell Vision Pro N30.png",
+    "description": "Premium Plexwell Vision Pro N30 formulation scientifically designed for optimal eye vitamins support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_ophthacare-family",
+    "category": "Eye Vitamins",
+    "name": "PLEXWELL OPHTHACARE FAMILY",
+    "image": "/images/products/eye-vitamins/Plexwell_Ophthacare Family.png",
+    "description": "Premium Plexwell_Ophthacare Family formulation scientifically designed for optimal eye vitamins support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "inuflora-kids",
+    "category": "Kids Health",
+    "name": "INUFLORA KIDS",
+    "image": "/images/products/kids-health/Inuflora kids.jpeg",
+    "description": "Premium Inuflora kids formulation scientifically designed for optimal kids health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "andropren-tablet",
+    "category": "Men Health",
+    "name": "ANDROPREN TABLET",
+    "image": "/images/products/men-health/Andropren tablet.jpeg",
+    "description": "Premium Andropren tablet formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "formafert-tablet",
+    "category": "Men Health",
+    "name": "FORMAFERT TABLET",
+    "image": "/images/products/men-health/Formafert tablet.jpeg",
+    "description": "Premium Formafert tablet formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "libidoclin-caps",
+    "category": "Men Health",
+    "name": "LIBIDOCLIN CAPS",
+    "image": "/images/products/men-health/Libidoclin caps.jpeg",
+    "description": "Premium Libidoclin caps formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-men-50-multivitamin",
+    "category": "Men Health",
+    "name": "PLEXWELL MEN 50+ MULTIVITAMIN",
+    "image": "/images/products/men-health/PlexWell Men 50+ multivitamin.png",
+    "description": "Premium PlexWell Men 50+ multivitamin formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/PlexWell Men 50+ multivitamin_100 tablets_Advert.png"
+  },
+  {
+    "id": "plexwell-men-multivitamin-100-tablets",
+    "category": "Men Health",
+    "name": "PLEXWELL MEN MULTIVITAMIN 100 TABLETS",
+    "image": "/images/products/men-health/PlexWell Men multivitamin 100 tablets.png",
+    "description": "Premium PlexWell Men multivitamin 100 tablets formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/PlexWell Men multivitamin 100 tablets_Advert.png"
+  },
+  {
+    "id": "plexwell-men-multivitamin",
+    "category": "Men Health",
+    "name": "PLEXWELL MEN MULTIVITAMIN",
+    "image": "/images/products/men-health/PlexWell Men multivitamin.png",
+    "description": "Premium PlexWell Men multivitamin formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/PlexWell Men multivitamin 100 tablets_Advert.png"
+  },
+  {
+    "id": "plexwell_hair-pro-complex_effervescent_-n20_1",
+    "category": "Men Health",
+    "name": "PLEXWELL HAIR-PRO COMPLEX EFFERVESCENT  N20 1",
+    "image": "/images/products/men-health/PlexWell_Hair-PRO Complex_Effervescent_ N20_1.png",
+    "description": "Premium PlexWell_Hair-PRO Complex_Effervescent_ N20_1 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_men-wellness-pouch_n28-pouches",
+    "category": "Men Health",
+    "name": "PLEXWELL MEN WELLNESS POUCH N28 POUCHES",
+    "image": "/images/products/men-health/PlexWell_Men Wellness Pouch_N28 pouches.png",
+    "description": "Premium PlexWell_Men Wellness Pouch_N28 pouches formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/PlexWell_Men Wellness Pouch_N28 pouches_Advert.png"
+  },
+  {
+    "id": "plexbido-capsule",
+    "category": "Men Health",
+    "name": "PLEXBIDO CAPSULE",
+    "image": "/images/products/men-health/Plexbido Capsule.png",
+    "description": "Premium Plexbido Capsule formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-conception-plus-sex-drive-enhancer-for-him-in-bottle",
+    "category": "Men Health",
+    "name": "PLEXWELL CONCEPTION PLUS SEX DRIVE ENHANCER FOR HIM IN BOTTLE",
+    "image": "/images/products/men-health/Plexwell Conception plus Sex drive enhancer for Him in bottle.png",
+    "description": "Premium Plexwell Conception plus Sex drive enhancer for Him in bottle formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_regainox_capsule-n10",
+    "category": "Men Health",
+    "name": "PLEXWELL REGAINOX CAPSULE N10",
+    "image": "/images/products/men-health/Plexwell_RegaiNOX_Capsule N10.png",
+    "description": "Premium Plexwell_RegaiNOX_Capsule N10 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_RegaiNOX_Capsule N10_Advert.png"
+  },
+  {
+    "id": "plexwell_regainox_gummies-n60",
+    "category": "Men Health",
+    "name": "PLEXWELL REGAINOX GUMMIES N60",
+    "image": "/images/products/men-health/Plexwell_RegaiNOX_Gummies N60.png",
+    "description": "Premium Plexwell_RegaiNOX_Gummies N60 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_RegaiNOX_Gummies N60_Advert.png"
+  },
+  {
+    "id": "plexwell_relaunch_capsule-n10",
+    "category": "Men Health",
+    "name": "PLEXWELL RELAUNCH CAPSULE N10",
+    "image": "/images/products/men-health/Plexwell_Relaunch_Capsule N10.png",
+    "description": "Premium Plexwell_Relaunch_Capsule N10 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_Relaunch_Capsule N10_Advert.png"
+  },
+  {
+    "id": "plexwell_relaunch_capsule-n30-bottle",
+    "category": "Men Health",
+    "name": "PLEXWELL RELAUNCH CAPSULE N30 BOTTLE",
+    "image": "/images/products/men-health/Plexwell_Relaunch_Capsule N30 Bottle.png",
+    "description": "Premium Plexwell_Relaunch_Capsule N30 Bottle formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_relaunch_capsule-n30",
+    "category": "Men Health",
+    "name": "PLEXWELL RELAUNCH CAPSULE N30",
+    "image": "/images/products/men-health/Plexwell_Relaunch_Capsule N30.png",
+    "description": "Premium Plexwell_Relaunch_Capsule N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-flora-balance-capsule-n30",
+    "category": "Men Health",
+    "name": "PLEXWELL FLORA BALANCE CAPSULE N30",
+    "image": "/images/products/men-health/Plexwell Flora Balance capsule N30.png",
+    "description": "Premium Plexwell Flora Balance capsule N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/men-health/Plexwell Flora Balance capsule N30_Supplement facts table.png"
+  },
+  {
+    "id": "plexwell-flora-balance-capsule-op-1-n30",
+    "category": "Men Health",
+    "name": "PLEXWELL FLORA BALANCE CAPSULE OP 1 N30",
+    "image": "/images/products/men-health/Plexwell Flora Balance capsule OP 1 N30.png",
+    "description": "Premium Plexwell Flora Balance capsule OP 1 N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-uti-biotic-syrup-op-2-150ml",
+    "category": "Men Health",
+    "name": "PLEXWELL UTI-BIOTIC SYRUP OP 2 150ML",
+    "image": "/images/products/men-health/Plexwell UTI-BIOTIC Syrup OP 2 150ml.png",
+    "description": "Premium Plexwell UTI-BIOTIC Syrup OP 2 150ml formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-uti-biotic-capsule-op1-n30",
+    "category": "Men Health",
+    "name": "PLEXWELL UTI-BIOTIC CAPSULE OP1 N30",
+    "image": "/images/products/men-health/Plexwell UTI-BIOTIC capsule Op1 N30.png",
+    "description": "Premium Plexwell UTI-BIOTIC capsule Op1 N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "folifen-tablet",
+    "category": "Women Health",
+    "name": "FOLIFEN TABLET",
+    "image": "/images/products/women-health/Folifen Tablet.jpg",
+    "description": "Premium Folifen Tablet formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "folifen-liquid-150ml",
+    "category": "Women Health",
+    "name": "FOLIFEN LIQUID 150ML",
+    "image": "/images/products/women-health/Folifen liquid 150ml.jpeg",
+    "description": "Premium Folifen liquid 150ml formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-women-50-60-capsules",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN 50+ 60 CAPSULES",
+    "image": "/images/products/women-health/PlexWell Women 50+ 60 capsules.png",
+    "description": "Premium PlexWell Women 50+ 60 capsules formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "galleryImages": [
+      "/images/products/women-health/PlexWell Women and Women50+_A4 advert.png"
+    ]
+  },
+  {
+    "id": "plexwell-women-60-capsules",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN 60 CAPSULES",
+    "image": "/images/products/women-health/PlexWell Women 60 capsules.png",
+    "description": "Premium PlexWell Women 60 capsules formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "galleryImages": [
+      "/images/products/women-health/PlexWell Women 60 capsules Brouchure.png"
+    ]
+  },
+  {
+    "id": "plexwell_manstru-support-capsule_n100",
+    "category": "Women Health",
+    "name": "PLEXWELL MANSTRU SUPPORT CAPSULE N100",
+    "image": "/images/products/women-health/PlexWell_Manstru Support Capsule_N100.png",
+    "description": "Premium PlexWell_Manstru Support Capsule_N100 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Manstru Support Capsule_N100_Advert.png"
+  },
+  {
+    "id": "plexwell_menopause-day-support-tablet_n100",
+    "category": "Women Health",
+    "name": "PLEXWELL MENOPAUSE DAY SUPPORT TABLET N100",
+    "image": "/images/products/women-health/PlexWell_Menopause Day Support tablet_N100.png",
+    "description": "Premium PlexWell_Menopause Day Support tablet_N100 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Menopause Day Support tablet_N100_Advert.png"
+  },
+  {
+    "id": "plexwell_menopause-night-support-tablet_n30_blister",
+    "category": "Women Health",
+    "name": "PLEXWELL MENOPAUSE NIGHT SUPPORT TABLET N30 BLISTER",
+    "image": "/images/products/women-health/PlexWell_Menopause Night Support tablet_N30_Blister.png",
+    "description": "Premium PlexWell_Menopause Night Support tablet_N30_Blister formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/PlexWell_Menopause Night Support tablet_N30_Blister_Supplement facts table.png"
+  },
+  {
+    "id": "plexwell_menstrual-support-capsule_n20",
+    "category": "Women Health",
+    "name": "PLEXWELL MENSTRUAL SUPPORT CAPSULE N20",
+    "image": "/images/products/women-health/PlexWell_Menstrual Support Capsule_N20.png",
+    "description": "Premium PlexWell_Menstrual Support Capsule_N20 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/PlexWell_Menstrual Support Capsule_N20_Supplement facts table.png"
+  },
+  {
+    "id": "plexwell_pcos-support_capsule-n30",
+    "category": "Women Health",
+    "name": "PLEXWELL PCOS SUPPORT CAPSULE N30",
+    "image": "/images/products/women-health/PlexWell_PCOS Support_Capsule N30.png",
+    "description": "Premium PlexWell_PCOS Support_Capsule N30 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/PlexWell_PCOS Support_Capsule N30_Supplements facts table.png"
+  },
+  {
+    "id": "plexwell_pregnency-support_tri-2_n180-capsules",
+    "category": "Women Health",
+    "name": "PLEXWELL PREGNENCY SUPPORT TRI-2 N180 CAPSULES",
+    "image": "/images/products/women-health/PlexWell_Pregnency Support_Tri-2_N180 capsules.png",
+    "description": "Premium PlexWell_Pregnency Support_Tri-2_N180 capsules formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Pregnency Support_Tri-2_N180 capsules_Advert.png"
+  },
+  {
+    "id": "plexwell_pregnency-support_tri-3_n180-capsules",
+    "category": "Women Health",
+    "name": "PLEXWELL PREGNENCY SUPPORT TRI-3 N180 CAPSULES",
+    "image": "/images/products/women-health/PlexWell_Pregnency Support_Tri-3_N180 capsules.png",
+    "description": "Premium PlexWell_Pregnency Support_Tri-3_N180 capsules formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Pregnency Support_Tri-3_N180 capsules_Advert.png"
+  },
+  {
+    "id": "plexwell_ut-support_capsule_n100",
+    "category": "Women Health",
+    "name": "PLEXWELL UT-SUPPORT CAPSULE N100",
+    "image": "/images/products/women-health/PlexWell_UT-Support_Capsule_N100.png",
+    "description": "Premium PlexWell_UT-Support_Capsule_N100 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_UT-Support_Capsule_N100_Advert.png"
+  },
+  {
+    "id": "plexwell_uti-support_capsule_n30",
+    "category": "Women Health",
+    "name": "PLEXWELL UTI-SUPPORT CAPSULE N30",
+    "image": "/images/products/women-health/PlexWell_UTI-Support_Capsule_N30.png",
+    "description": "Premium PlexWell_UTI-Support_Capsule_N30 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/PlexWell_UTI-Support_Capsule_N30_Supplement facts table.png"
+  },
+  {
+    "id": "plexwell_women-50-capsule_n100",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN 50+ CAPSULE N100",
+    "image": "/images/products/women-health/PlexWell_Women 50+ Capsule_N100.png",
+    "description": "Premium PlexWell_Women 50+ Capsule_N100 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Women 50+ Capsule_N100_Advert.png"
+  },
+  {
+    "id": "plexwell_women-70-powder-sachet_n28",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN 70+ POWDER SACHET N28",
+    "image": "/images/products/women-health/PlexWell_Women 70+ Powder Sachet_N28.png",
+    "description": "Premium PlexWell_Women 70+ Powder Sachet_N28 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Women 70+ Powder Sachet_N28_Advert.png"
+  },
+  {
+    "id": "plexwell_women-capsule_n100",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN CAPSULE N100",
+    "image": "/images/products/women-health/PlexWell_Women Capsule_N100.png",
+    "description": "Premium PlexWell_Women Capsule_N100 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Women Capsule_N100_Advert.png"
+  },
+  {
+    "id": "plexwell_women-ferti-pro_capsule-n100",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN FERTI-PRO CAPSULE N100",
+    "image": "/images/products/women-health/PlexWell_Women FERTi-PRO_Capsule N100.png",
+    "description": "Premium PlexWell_Women FERTi-PRO_Capsule N100 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Women FERTi-PRO_Capsule N100_Advert.png",
+    "supplementFactsImage": "/images/products/women-health/PlexWell_Women FERTi-PRO_Capsule N100_Supplement facts table.png"
+  },
+  {
+    "id": "plexwell_women-wellness-pouch_n28-pouches",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN WELLNESS POUCH N28 POUCHES",
+    "image": "/images/products/women-health/PlexWell_Women Wellness Pouch_N28 pouches.png",
+    "description": "Premium PlexWell_Women Wellness Pouch_N28 pouches formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/women-health/PlexWell_Women Wellness Pouch_N28 pouches_Advert.png"
+  },
+  {
+    "id": "plexwell-conception-for-couple",
+    "category": "Women Health",
+    "name": "PLEXWELL CONCEPTION FOR COUPLE",
+    "image": "/images/products/women-health/Plexwell Conception for Couple.png",
+    "description": "Premium Plexwell Conception for Couple formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-conception-for-women",
+    "category": "Women Health",
+    "name": "PLEXWELL CONCEPTION FOR WOMEN",
+    "image": "/images/products/women-health/Plexwell Conception for women.png",
+    "description": "Premium Plexwell Conception for women formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-niacinamide-250mg",
+    "category": "Women Health",
+    "name": "PLEXWELL NIACINAMIDE 250MG",
+    "image": "/images/products/women-health/Plexwell Niacinamide 250mg.png",
+    "description": "Premium Plexwell Niacinamide 250mg formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/Plexwell Niacinamide 250mg_Supplement facts.png"
+  },
+  {
+    "id": "plexwell-niacinamide-500mg",
+    "category": "Women Health",
+    "name": "PLEXWELL NIACINAMIDE 500MG",
+    "image": "/images/products/women-health/Plexwell Niacinamide 500mg.png",
+    "description": "Premium Plexwell Niacinamide 500mg formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/Plexwell Niacinamide 500mg_Supplement facts.png"
+  },
+  {
+    "id": "plexwell-women-n30",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN N30",
+    "image": "/images/products/women-health/Plexwell Women N30.png",
+    "description": "Premium Plexwell Women N30 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell-women-pro-n30",
+    "category": "Women Health",
+    "name": "PLEXWELL WOMEN PRO N30",
+    "image": "/images/products/women-health/Plexwell Women Pro N30.png",
+    "description": "Premium Plexwell Women Pro N30 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_anti-acne-complex-tablet-n30",
+    "category": "Women Health",
+    "name": "PLEXWELL ANTI ACNE COMPLEX TABLET N30",
+    "image": "/images/products/women-health/Plexwell_Anti Acne Complex Tablet N30.png",
+    "description": "Premium Plexwell_Anti Acne Complex Tablet N30 formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "supplementFactsImage": "/images/products/women-health/Plexwell_Anti Acne Complex Tablet N30_Supplement facts.png"
+  },
+  {
+    "id": "pregnafen-liquid",
+    "category": "Women Health",
+    "name": "PREGNAFEN LIQUID",
+    "image": "/images/products/women-health/Pregnafen Liquid.jpg",
+    "description": "Premium Pregnafen Liquid formulation scientifically designed for optimal women health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ]
+  },
+  {
+    "id": "plexwell_vit-c_energy-powder_n30",
+    "category": "Men Health",
+    "name": "PLEXWELL VIT C+ ENERGY POWDER N30",
+    "image": "/images/products/men-health/Plexwell_VIt C+_Energy Powder_N30.png",
+    "description": "Premium Plexwell_VIt C+_Energy Powder_N30 formulation scientifically designed for optimal men health support. This advanced therapeutic profile is manufactured under rigorous WHO and EU GMP guidelines to ensure maximum bioavailability, safety, and clinical efficacy.",
+    "ingredients": [
+      {
+        "name": "Active Compound Complex",
+        "dosage": "Proprietary",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Varies",
+        "dv": "100%"
+      }
+    ],
+    "features": [
+      "Clinically formulated",
+      "High Bioavailability",
+      "GMP Certified",
+      "Quality Assured"
+    ],
+    "advertImage": "/images/products/men-health/Plexwell_VIt C+_Energy Powder_N30_Advert1.png",
+    "galleryImages": [
+      "/images/products/men-health/Plexwell_VIt C+_Energy Powder_N30_Advert 2.png"
     ]
   }
 ]

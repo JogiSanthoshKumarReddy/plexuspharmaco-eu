@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
+import Script from "next/script";
 
 interface BreadcrumbHeroProps {
   title: string;
@@ -30,7 +31,8 @@ export default function BreadcrumbHero({ title, paths, bgImage = "/assets/images
 
   return (
     <div className="relative h-[300px] md:h-[400px] w-full flex items-center justify-center overflow-hidden bg-brand-900 mt-20">
-      <script
+      <Script
+        id="breadcrumb-schema"
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />

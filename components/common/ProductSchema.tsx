@@ -1,3 +1,4 @@
+import Script from "next/script";
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function ProductSchema({ product }: { product: any }) {
   const jsonLd = {
@@ -24,7 +25,8 @@ export default function ProductSchema({ product }: { product: any }) {
   };
 
   return (
-    <script
+    <Script
+      id={`product-schema-${product.id}`}
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />

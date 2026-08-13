@@ -1,3 +1,5 @@
+import Script from "next/script";
+
 export default function StructuredData() {
   const jsonLd = {
     "@context": "https://schema.org",
@@ -19,7 +21,8 @@ export default function StructuredData() {
   };
 
   return (
-    <script
+    <Script
+      id="structured-data"
       type="application/ld+json"
       dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
     />

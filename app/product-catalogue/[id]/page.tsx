@@ -247,6 +247,22 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                 </div>
               )}
             </div>
+
+            {/* Extended Media Gallery */}
+            {(product as Product).galleryImages && (product as Product).galleryImages!.length > 0 && (
+              <div className="mt-12">
+                <h3 className="text-xl font-bold text-brand-900 mb-6">Additional Variations</h3>
+                <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+                  {(product as Product).galleryImages!.map((img, idx) => (
+                    <div key={idx} className="bg-white p-4 rounded-2xl border border-slate-100 shadow-sm flex flex-col items-center">
+                      <div className="relative w-full aspect-square rounded-xl overflow-hidden bg-slate-50">
+                        <Image src={img} alt={`${product.name} Variation ${idx + 1}`} fill className="object-contain mix-blend-multiply hover:scale-105 transition-transform duration-500" />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            )}
           </div>
         )}
 

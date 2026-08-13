@@ -5,6 +5,7 @@ import ModernHeader from "@/components/layout/ModernHeader";
 import ModernFooter from "@/components/layout/ModernFooter";
 import RouteChangeHandler from "@/components/common/RouteChangeHandler";
 import StructuredData from "@/components/common/StructuredData";
+import Script from "next/script";
 
 // Import modern UI fonts
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -66,8 +67,10 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
         <meta name="theme-color" content="#1e3a8a" />
         <link rel="manifest" href="/manifest.json" />
-        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" async></script>
-        <script type="text/javascript" dangerouslySetInnerHTML={{ __html: `
+      </head>
+      <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
+        <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="afterInteractive" />
+        <Script id="google-translate-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
           window.googleTranslateElementInit = function() {
             new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
           }
@@ -77,9 +80,7 @@ export default function RootLayout({
             document.cookie = 'googtrans=' + cookieStr + '; path=/; domain=' + window.location.hostname;
             window.location.reload();
           }
-        ` }}></script>
-      </head>
-      <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
+        ` }} />
         <StructuredData />
         <div className="flex flex-col min-h-screen">
           <RouteChangeHandler />

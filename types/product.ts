@@ -5,6 +5,7 @@ export interface Product {
   image?: string;
   advertImage?: string;
   supplementFactsImage?: string;
+  galleryImages?: string[];
   description: string;
   ingredients: { name: string; dosage: string; dv?: string }[];
   features: string[];
