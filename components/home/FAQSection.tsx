@@ -90,21 +90,17 @@ export default function FAQSection() {
                   </div>
                 </button>
                 
-                <AnimatePresence>
-                  {isOpen && (
-                    <motion.div
-                      initial={{ height: 0, opacity: 0 }}
-                      animate={{ height: "auto", opacity: 1 }}
-                      exit={{ height: 0, opacity: 0 }}
-                      transition={{ duration: 0.3, ease: "easeInOut" }}
-                      className="overflow-hidden"
-                    >
-                      <div className="p-6 text-slate-600 leading-relaxed bg-white/50 rounded-b-2xl border-x border-b border-slate-200 -mt-2 pt-6">
-                        {faq.answer}
-                      </div>
-                    </motion.div>
-                  )}
-                </AnimatePresence>
+                <motion.div
+                  initial={false}
+                  animate={{ height: isOpen ? "auto" : 0, opacity: isOpen ? 1 : 0 }}
+                  transition={{ duration: 0.3, ease: "easeInOut" }}
+                  className="overflow-hidden"
+                  aria-hidden={!isOpen}
+                >
+                  <div className="p-6 text-slate-600 leading-relaxed bg-white/50 rounded-b-2xl border-x border-b border-slate-200 -mt-2 pt-6">
+                    {faq.answer}
+                  </div>
+                </motion.div>
               </motion.div>
             );
           })}

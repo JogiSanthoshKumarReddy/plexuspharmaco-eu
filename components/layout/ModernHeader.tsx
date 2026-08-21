@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation";
+import { usePathname, useRouter } from "next/navigation";
 import { Menu, X, ChevronDown, Globe } from "lucide-react";
 import { navigation } from "../../data/navigation";
 
@@ -12,6 +12,17 @@ export default function ModernHeader() {
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const pathname = usePathname();
+  const router = useRouter();
+
+  const switchLanguage = (newLang: string) => {
+    // Set cookie for middleware
+    document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=31536000`;
+    // pathname starts with the current locale, e.g., /en/about
+    const newPath = pathname.replace(/^\/[^\/]+/, `/${newLang}`);
+    router.push(newPath);
+    setLangDropdownOpen(false);
+    setMobileMenuOpen(false);
+  };
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,12 +43,6 @@ export default function ModernHeader() {
     };
   }, [mobileMenuOpen]);
 
-  const changeLanguage = (lang: string) => {
-    const win = window as unknown as { changeLanguage?: (l: string) => void };
-    if (typeof win.changeLanguage === 'function') {
-      win.changeLanguage(lang);
-    }
-  };
 
   return (
     <header 
@@ -46,8 +51,6 @@ export default function ModernHeader() {
       }`}
       style={isScrolled ? { WebkitBackdropFilter: "blur(24px)", backdropFilter: "blur(24px)" } : {}}
     >
-      <div id="google_translate_element" className="fixed top-0 left-0 w-0 h-0 opacity-0 pointer-events-none overflow-hidden" aria-hidden="true"></div>
-      
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
@@ -162,10 +165,7 @@ export default function ModernHeader() {
                   ].map((lang) => (
                     <button
                       key={lang.code}
-                      onClick={() => {
-                        changeLanguage(lang.code);
-                        setLangDropdownOpen(false);
-                      }}
+                      onClick={() => switchLanguage(lang.code)}
                       className="w-full text-left px-4 py-2 text-sm text-brand-700 hover:bg-brand-50 hover:text-brand-900 transition-colors font-medium"
                     >
                       {lang.label}
@@ -237,10 +237,10 @@ export default function ModernHeader() {
             <div className="mb-4">
               <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-2"><Globe className="w-4 h-4"/> Select Language</h4>
               <div className="grid grid-cols-2 gap-2">
-                <button onClick={() => { changeLanguage("en"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">English</button>
-                <button onClick={() => { changeLanguage("de"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">German</button>
-                <button onClick={() => { changeLanguage("fr"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">French</button>
-                <button onClick={() => { changeLanguage("es"); setMobileMenuOpen(false); }} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">Spanish</button>
+                <button onClick={() => switchLanguage("en")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">English</button>
+                <button onClick={() => switchLanguage("de")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">German</button>
+                <button onClick={() => switchLanguage("fr")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">French</button>
+                <button onClick={() => switchLanguage("es")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">Spanish</button>
               </div>
             </div>
             
