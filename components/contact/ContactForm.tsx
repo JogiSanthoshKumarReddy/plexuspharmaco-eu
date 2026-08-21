@@ -70,8 +70,8 @@ export default function ContactForm() {
       
       // Reset success message after 5 seconds
       setTimeout(() => setIsSuccess(false), 5000);
-    } catch (error: any) {
-      setErrorMessage(error.message || "Something went wrong. Please try again later or contact us directly.");
+    } catch (error: unknown) {
+      setErrorMessage(error instanceof Error ? error.message : "Something went wrong. Please try again later or contact us directly.");
     } finally {
       setIsSubmitting(false);
     }

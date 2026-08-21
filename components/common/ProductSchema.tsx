@@ -7,7 +7,7 @@ export default function ProductSchema({ product }: { product: any }) {
     "name": product.name,
     "image": "https://plexuspharmaco.eu/pharma/assets/images/696f65db8cb34.png",
     "description": product.description,
-    "material": product.ingredients?.map((ing: any) => `${ing.name} (${ing.dosage})`).join(', '),
+    "material": product.ingredients?.map((ing: { name: string, dosage: string }) => `${ing.name} (${ing.dosage})`).join(', '),
     "brand": {
       "@type": "Brand",
       "name": "Plexuspharmaco"

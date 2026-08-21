@@ -36,9 +36,9 @@ export default function NewsletterCTA() {
       setStatus("success");
       setEmail("");
       setTimeout(() => setStatus("idle"), 5000);
-    } catch (err: any) {
+    } catch (err: unknown) {
       setStatus("error");
-      setErrorMessage(err.message || "An unexpected error occurred.");
+      setErrorMessage(err instanceof Error ? err.message : "An unexpected error occurred.");
     }
   };
   return (

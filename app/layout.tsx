@@ -5,7 +5,6 @@ import ModernHeader from "@/components/layout/ModernHeader";
 import ModernFooter from "@/components/layout/ModernFooter";
 import RouteChangeHandler from "@/components/common/RouteChangeHandler";
 import StructuredData from "@/components/common/StructuredData";
-import Script from "next/script";
 
 // Import modern UI fonts
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
