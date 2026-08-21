@@ -4,35 +4,12 @@ import { motion } from "framer-motion";
 import { ArrowRight, Calendar, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
-
-const newsItems = [
-  {
-    title: "Plexuspharmaco Receives Fast-Track Designation for Novel Oncology Pipeline",
-    category: "Press Release",
-    date: "Aug 15, 2026",
-    author: "Corporate Comms",
-    image: "/assets/images/pharma_hero_corporate.png",
-    excerpt: "The European Medicines Agency has granted fast-track designation for our latest targeted therapy, accelerating the path to market for critical patient care."
-  },
-  {
-    title: "Expansion of Global API Manufacturing Capacity by 40%",
-    category: "Corporate News",
-    date: "Jul 28, 2026",
-    author: "Operations",
-    image: "/assets/images/pharma_hero_mfg.png",
-    excerpt: "To meet surging global demand, Plexuspharmaco has committed €150M to expand our active pharmaceutical ingredient facilities in Europe and Asia."
-  },
-  {
-    title: "Sustainability Report 2026: Achieving Zero-Liquid Discharge",
-    category: "Sustainability",
-    date: "Jun 10, 2026",
-    author: "ESG Board",
-    image: "/assets/images/pharma_hero_lab.png",
-    excerpt: "Our commitment to the planet reaches a new milestone as all core manufacturing sites achieve 100% zero-liquid discharge and 60% renewable energy use."
-  }
-];
+import { pressReleases } from "@/data/press-releases";
 
 export default function LatestNews() {
+  // Show only the first 3 press releases on the homepage
+  const newsItems = pressReleases.slice(0, 3);
+
   return (
     <section className="section-padding bg-slate-50 border-t border-slate-200/60">
       <div className="container-padding">
@@ -55,7 +32,7 @@ export default function LatestNews() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {newsItems.map((item, idx) => (
-            <Link href="/press-release" key={idx} className="block group">
+            <Link href={`/press-release/${item.id}`} key={item.id} className="block group">
               <motion.div 
                 initial={{ opacity: 0, y: 30 }}
                 whileInView={{ opacity: 1, y: 0 }}
@@ -83,7 +60,7 @@ export default function LatestNews() {
                   {item.title}
                 </h3>
                 <p className="text-slate-600 leading-relaxed mb-6 font-light line-clamp-3">
-                  {item.excerpt}
+                  {item.summary}
                 </p>
                 <div className="mt-auto">
                   <span className="inline-flex items-center gap-2 text-brand-700 font-bold text-sm group-hover:gap-3 transition-all">

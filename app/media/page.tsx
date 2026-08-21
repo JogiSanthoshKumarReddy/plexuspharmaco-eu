@@ -1,19 +1,14 @@
-
 "use client";
 import { motion } from "framer-motion";
 import { Newspaper, Calendar, Image as ImageIcon, ArrowRight, Video, Mail } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 import Link from "next/link";
+import { pressReleases } from "@/data/press-releases";
 
 
 export default function MediaCenterPage() {
-  const pressReleases = [
-    { title: "Plexuspharmaco Receives Fast-Track Designation for Novel Oncology Pipeline", date: "Aug 15, 2026", type: "Press Release" },
-    { title: "Expansion of Global API Manufacturing Capacity by 40%", date: "Jul 28, 2026", type: "Corporate News" },
-    { title: "Q2 2026 Financial Results Exceed Analyst Expectations", date: "Jul 10, 2026", type: "Financials" },
-    { title: "Sustainability Report 2026: Achieving Zero-Liquid Discharge", date: "Jun 10, 2026", type: "Sustainability" }
-  ];
+  const latestReleases = pressReleases.slice(0, 4);
 
   const events = [
     { title: "CPHI Worldwide 2026", date: "Oct 24-26, 2026", location: "Barcelona, Spain" },
@@ -82,15 +77,15 @@ export default function MediaCenterPage() {
               <h3 className="text-2xl font-bold text-brand-900 flex items-center gap-3">
                 <Newspaper className="w-6 h-6 text-brand-700" /> Press Releases
               </h3>
-              <button onClick={() => alert('Navigating to full archive...')} className="text-brand-700 font-bold hover:text-brand-900 text-sm">View All Archive</button>
+              <Link href="/press-release" className="text-brand-700 font-bold hover:text-brand-900 text-sm">View All Archive</Link>
             </div>
             <div className="space-y-6">
-              {pressReleases.map((pr, idx) => (
-                <Link href="/press-release" key={idx} className="block group flex flex-col sm:flex-row justify-between sm:items-center gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 cursor-pointer">
+              {latestReleases.map((pr) => (
+                <Link href={`/press-release/${pr.id}`} key={pr.id} className="block group flex flex-col sm:flex-row justify-between sm:items-center gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 cursor-pointer">
                   <div>
                     <div className="flex items-center gap-3 mb-2">
                       <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">{pr.date}</span>
-                      <span className="px-2 py-0.5 rounded bg-brand-50 text-brand-700 text-xs font-bold">{pr.type}</span>
+                      <span className="px-2 py-0.5 rounded bg-brand-50 text-brand-700 text-xs font-bold">{pr.category}</span>
                     </div>
                     <h4 className="text-lg font-bold text-brand-900 group-hover:text-brand-600 transition-colors">{pr.title}</h4>
                   </div>
@@ -138,7 +133,6 @@ export default function MediaCenterPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
-                onClick={() => alert(`Opening full article: ${article.title}`)}
                 className="bg-white hover-lift overflow-hidden rounded-[2rem] border border-slate-100 shadow-sm flex flex-col h-full group cursor-pointer"
               >
                 <div className="relative h-48 w-full overflow-hidden">
@@ -168,15 +162,15 @@ export default function MediaCenterPage() {
           <h3 className="text-3xl font-bold text-brand-900 mb-6">Media Kits & Assets</h3>
           <p className="text-lg text-slate-600 mb-12 max-w-2xl mx-auto">High-resolution corporate logos, executive headshots, and B-roll footage available for verified press and media organizations.</p>
           <div className="flex flex-wrap justify-center gap-6">
-            <button onClick={() => window.location.href = '/gallery'} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
-              <ImageIcon className="w-5 h-5" /> View Image Gallery
-            </button>
-            <button onClick={() => window.location.href = '/gallery'} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+            <Link href="/media-kits" className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+              <ImageIcon className="w-5 h-5" /> Download Media Kits
+            </Link>
+            <Link href="/b-roll" className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
               <Video className="w-5 h-5" /> Access Corporate B-Roll
-            </button>
-            <button onClick={() => window.location.href = '/business-enquiry'} className="flex items-center gap-3 px-8 py-4 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-colors shadow-md">
+            </Link>
+            <Link href="/business-enquiry" className="flex items-center gap-3 px-8 py-4 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-colors shadow-md">
               <Mail className="w-5 h-5" /> Contact Press Office
-            </button>
+            </Link>
           </div>
         </div>
 
