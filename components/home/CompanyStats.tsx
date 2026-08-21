@@ -18,7 +18,7 @@ export default function CompanyStats() {
       <div className="absolute bottom-0 left-0 w-[600px] h-[600px] bg-accent-600/10 rounded-full blur-[150px] translate-y-1/2 -translate-x-1/2 pointer-events-none" />
       
       {/* High-tech grid overlay */}
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none" />
+      <div className="absolute inset-0 bg-[url('/assets/images/noise.svg')] opacity-20 pointer-events-none" />
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 divide-x divide-white/10">

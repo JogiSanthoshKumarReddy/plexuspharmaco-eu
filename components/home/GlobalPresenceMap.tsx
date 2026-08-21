@@ -18,7 +18,7 @@ export default function GlobalPresenceMap() {
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-accent-500/10 rounded-full blur-[80px] pointer-events-none" />
       
       {/* High-tech grid overlay */}
-      <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 pointer-events-none" />
+      <div className="absolute inset-0 bg-[url('/assets/images/noise.svg')] opacity-20 pointer-events-none" />
       <div className="absolute inset-0" style={{ backgroundImage: 'radial-gradient(rgba(255,255,255,0.1) 1px, transparent 1px)', backgroundSize: '40px 40px' }} />
 
       <div className="container mx-auto px-6 lg:px-12 relative z-10">

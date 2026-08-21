@@ -20,9 +20,7 @@ export default function CookieBanner() {
     // Check if consent has already been given
     const consentStr = localStorage.getItem('plexus_cookie_consent');
     if (!consentStr) {
-      // Small delay to ensure hydration matches and to not block initial paint abruptly
-      const timer = setTimeout(() => setShowBanner(true), 1000);
-      return () => clearTimeout(timer);
+      setShowBanner(true);
     }
   }, []);
 

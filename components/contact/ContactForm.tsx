@@ -10,7 +10,6 @@ import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, Help
 const contactSchema = z.object({
   form_name: z.string().min(2, "Name is required (at least 2 characters)"),
   company_name: z.string().optional(),
-  annual_revenue: z.string().optional(),
   form_email: z.string().email("Please enter a valid email address"),
   form_country: z.string().min(2, "Country is required"),
   inquiry_type: z.string().min(1, "Please select an inquiry type"),
@@ -182,22 +181,6 @@ export default function ContactForm() {
               placeholder="e.g. Your Company Ltd"
               className="w-full px-5 py-4 rounded-xl bg-slate-50 border border-slate-200 text-base text-brand-900 placeholder-slate-400 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20 focus:bg-white focus:outline-none transition-all"
             />
-          </div>
-
-          {/* Annual Revenue Field */}
-          <div>
-            <label htmlFor="annual_revenue" className="block text-sm font-bold text-slate-500 mb-3 uppercase tracking-wider">Annual Revenue (Optional)</label>
-            <select 
-              id="annual_revenue"
-              {...register("annual_revenue")}
-              className="w-full px-5 py-4 rounded-xl bg-slate-50 border border-slate-200 text-base text-brand-900 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20 focus:bg-white focus:outline-none transition-all appearance-none"
-            >
-              <option value="">Select Revenue Range</option>
-              <option value="Under $1M">Under $1M</option>
-              <option value="$1M - $10M">$1M - $10M</option>
-              <option value="$10M - $50M">$10M - $50M</option>
-              <option value="Over $50M">Over $50M</option>
-            </select>
           </div>
 
           {/* Email Field */}

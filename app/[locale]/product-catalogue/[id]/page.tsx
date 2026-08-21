@@ -101,7 +101,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
         <div className="bg-white rounded-[40px] shadow-sm border border-slate-100 overflow-hidden mb-12">
           <div className="grid grid-cols-1 lg:grid-cols-2">
             <div className="bg-gradient-to-br from-slate-50 to-brand-50/30 p-12 lg:p-20 flex items-center justify-center relative border-b lg:border-b-0 lg:border-r border-slate-100">
-              <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-[0.03] pointer-events-none" />
+              <div className="absolute inset-0 bg-[url('/assets/images/noise.svg')] opacity-[0.03] pointer-events-none" />
               <div className="relative w-full max-w-md aspect-square drop-shadow-2xl hover:scale-105 transition-transform duration-700">
                 <Image 
                   src={imageSrc}
