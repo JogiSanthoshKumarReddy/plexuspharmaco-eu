@@ -1,8 +1,7 @@
-
 "use client";
 import { useState } from "react";
-import { motion } from "framer-motion";
-import { Briefcase, ArrowRight, UserPlus, Heart, GraduationCap, TrendingUp, Sparkles, Building2, Coffee, MapPin, CheckCircle2 } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import { Briefcase, ArrowRight, UserPlus, Heart, GraduationCap, TrendingUp, Sparkles, Building2, Coffee, MapPin, CheckCircle2, ChevronDown } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 import Link from "next/link";
@@ -18,15 +17,53 @@ export default function JobOpeningPage() {
   ];
 
   const jobs = [
-    { title: "Senior Formulation Scientist", dept: "R&D", location: "Altendorf, Germany", type: "Full-Time" },
-    { title: "Regulatory Affairs Manager", dept: "Compliance", location: "Frankfurt, Germany", type: "Full-Time" },
-    { title: "Quality Assurance Lead", dept: "Quality", location: "Berlin, Germany", type: "Full-Time" },
-    { title: "Global Supply Chain Director", dept: "Logistics", location: "Remote / Europe", type: "Full-Time" },
-    { title: "Clinical Trial Coordinator", dept: "Clinical", location: "Munich, Germany", type: "Full-Time" },
-    { title: "Summer Internship (Pharma)", dept: "R&D", location: "Altendorf, Germany", type: "Internship" }
+    { 
+      title: "Senior Formulation Scientist", 
+      dept: "R&D", 
+      location: "Altendorf, Germany", 
+      type: "Full-Time",
+      description: "As a Senior Formulation Scientist, you will lead the development of innovative oral and injectable drug delivery systems. You will collaborate with analytical and clinical teams to ensure new formulations meet international stability and bioavailability standards. The ideal candidate has 7+ years of pharmaceutical formulation experience and a strong background in QbD (Quality by Design)."
+    },
+    { 
+      title: "Regulatory Affairs Manager", 
+      dept: "Compliance", 
+      location: "Frankfurt, Germany", 
+      type: "Full-Time",
+      description: "You will be responsible for overseeing global regulatory submissions (EMA, FDA, MHRA). Your role ensures that our expanding portfolio of specialized medicines complies with all international guidelines. This requires deep knowledge of eCTD publishing and life-cycle management of pharmaceutical products."
+    },
+    { 
+      title: "Quality Assurance Lead", 
+      dept: "Quality", 
+      location: "Berlin, Germany", 
+      type: "Full-Time",
+      description: "The QA Lead will manage the quality management systems (QMS) across our European manufacturing sites. You will lead internal audits, manage CAPAs, and ensure strict adherence to EU-GMP guidelines to guarantee product safety and efficacy."
+    },
+    { 
+      title: "Global Supply Chain Director", 
+      dept: "Logistics", 
+      location: "Remote / Europe", 
+      type: "Full-Time",
+      description: "Drive the strategic optimization of our global pharmaceutical supply chain. You will manage end-to-end logistics, from active pharmaceutical ingredient (API) sourcing to final distribution, ensuring cold-chain integrity and cost efficiency across 45+ countries."
+    },
+    { 
+      title: "Clinical Trial Coordinator", 
+      dept: "Clinical", 
+      location: "Munich, Germany", 
+      type: "Full-Time",
+      description: "Coordinate phase II and phase III oncology clinical trials. You will be the primary liaison between clinical research organizations (CROs), hospitals, and internal stakeholders, ensuring data integrity, patient safety, and strict protocol adherence."
+    },
+    { 
+      title: "Summer Internship (Pharma)", 
+      dept: "R&D", 
+      location: "Altendorf, Germany", 
+      type: "Internship",
+      description: "A 12-week intensive program designed for rising seniors and recent graduates in life sciences. You will gain hands-on experience in modern laboratory techniques, shadow senior scientists, and present a capstone project to our executive leadership team."
+    }
   ];
 
   const [activeDept, setActiveDept] = useState("All");
+  const [expandedJob, setExpandedJob] = useState<number | null>(null);
+
   const departments = ["All", ...Array.from(new Set(jobs.map(j => j.dept)))];
   const filteredJobs = activeDept === "All" ? jobs : jobs.filter(j => j.dept === activeDept);
 
@@ -136,7 +173,10 @@ export default function JobOpeningPage() {
             {departments.map(dept => (
               <button
                 key={dept}
-                onClick={() => setActiveDept(dept)}
+                onClick={() => {
+                  setActiveDept(dept);
+                  setExpandedJob(null);
+                }}
                 className={`px-5 py-2 rounded-full font-bold text-sm transition-colors ${
                   activeDept === dept 
                     ? "bg-brand-900 text-white" 
@@ -148,28 +188,68 @@ export default function JobOpeningPage() {
             ))}
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+          <div className="flex flex-col gap-4">
             {filteredJobs.map((job, idx) => (
-              <Link href="/business-enquiry" key={idx} className="block group">
-                <motion.div 
-                  initial={{ opacity: 0, y: 10 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  className="flex flex-col sm:flex-row sm:items-center justify-between p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all cursor-pointer bg-slate-50/50 hover:bg-white"
+              <motion.div 
+                key={idx}
+                initial={{ opacity: 0, y: 10 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                className={`rounded-2xl border transition-all overflow-hidden ${
+                  expandedJob === idx 
+                    ? "border-brand-300 shadow-lg bg-white" 
+                    : "border-slate-100 bg-slate-50/50 hover:border-brand-200 hover:bg-white cursor-pointer"
+                }`}
+              >
+                {/* Header (Clickable) */}
+                <div 
+                  className="p-6 flex flex-col sm:flex-row sm:items-center justify-between"
+                  onClick={() => setExpandedJob(expandedJob === idx ? null : idx)}
                 >
                   <div>
-                    <h4 className="text-xl font-bold text-brand-900 mb-2 group-hover:text-brand-600 transition-colors">{job.title}</h4>
+                    <h4 className={`text-xl font-bold mb-2 transition-colors ${expandedJob === idx ? "text-brand-700" : "text-brand-900 group-hover:text-brand-600"}`}>
+                      {job.title}
+                    </h4>
                     <div className="flex flex-wrap items-center gap-3 text-sm text-slate-500 font-medium">
                       <span className="bg-slate-200/50 px-2.5 py-1 rounded-md text-slate-600">{job.dept}</span>
                       <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> {job.location}</span>
                       <span className="flex items-center gap-1"><Briefcase className="w-4 h-4" /> {job.type}</span>
                     </div>
                   </div>
-                  <div className="mt-4 sm:mt-0 w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-700 group-hover:bg-brand-900 group-hover:text-white transition-colors flex-shrink-0">
-                    <ArrowRight className="w-5 h-5 group-hover:-rotate-45 transition-transform" />
+                  <div className={`mt-4 sm:mt-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors flex-shrink-0 ${
+                    expandedJob === idx ? "bg-brand-900 text-white" : "bg-brand-50 text-brand-700"
+                  }`}>
+                    <ChevronDown className={`w-5 h-5 transition-transform duration-300 ${expandedJob === idx ? "rotate-180" : ""}`} />
                   </div>
-                </motion.div>
-              </Link>
+                </div>
+                
+                {/* Expandable Body */}
+                <AnimatePresence>
+                  {expandedJob === idx && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: "auto", opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: "easeInOut" }}
+                    >
+                      <div className="p-6 pt-0 border-t border-slate-100 mt-2">
+                        <div className="pt-4">
+                          <h5 className="font-bold text-brand-900 mb-2">Role Description</h5>
+                          <p className="text-slate-600 leading-relaxed mb-8">
+                            {job.description}
+                          </p>
+                          <Link 
+                            href={`/business-enquiry?role=${encodeURIComponent(job.title)}`} 
+                            className="inline-flex items-center gap-2 px-6 py-3 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-all shadow-md"
+                          >
+                            Apply for this role <ArrowRight className="w-4 h-4" />
+                          </Link>
+                        </div>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
             ))}
           </div>
 
@@ -185,5 +265,3 @@ export default function JobOpeningPage() {
     </div>
   );
 }
-
-
