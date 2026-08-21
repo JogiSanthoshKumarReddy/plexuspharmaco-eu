@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { ShieldCheck, Search, CheckCircle2, Shield, AlertTriangle, Fingerprint, RefreshCcw, Activity } from "lucide-react";
@@ -97,7 +98,7 @@ export default function QualityAssurancePage() {
         <div className="mb-24">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-brand-900 mb-6">The Six Pillars of Our QMS</h2>
-            <p className="text-lg text-slate-600">A comprehensive, closed-loop approach that guarantees product safety from active pharmaceutical ingredient (API) sourcing to post-market surveillance.</p>
+            <p className="text-lg text-slate-600">A comprehensive, closed-loop approach that operates under rigorous quality systems to support product safety from active pharmaceutical ingredient (API) sourcing to post-market surveillance.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -134,7 +135,7 @@ export default function QualityAssurancePage() {
             <Activity className="w-16 h-16 text-brand-200 mx-auto mb-6" />
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">Post-Market Surveillance & Pharmacovigilance</h2>
             <p className="text-lg text-brand-100 font-light leading-relaxed">
-              Our responsibility does not end when the product leaves our facility. We maintain a robust global pharmacovigilance network to monitor the safety and efficacy of our medicines in real-world clinical settings, ensuring continuous patient protection.
+              Our responsibility does not end when the product leaves our facility. We maintain a robust global pharmacovigilance network to monitor the safety and efficacy of our medicines in real-world clinical settings, ensuring supports patient safety.
             </p>
           </div>
         </motion.div>

@@ -1,7 +1,6 @@
-"use client";
+export const revalidate = 3600;
 import {} from 'react';
 import HeroSection from "@/components/home/HeroSection";
-import CompanyStats from "@/components/home/CompanyStats";
 
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
 import UniqueSellingPoints from "@/components/home/UniqueSellingPoints";
@@ -18,24 +17,24 @@ import FeaturedKidsProducts from "@/components/home/FeaturedKidsProducts";
 
 export default function Home() {
   const coreValues = [
-    { icon: Heart, title: "Patient Centricity", description: "Our primary focus is improving patient outcomes globally through accessible and innovative healthcare therapies." },
-    { icon: ShieldCheck, title: "Uncompromising Quality", description: "From API sourcing to final packaging, we adhere to the strictest WHO GMP and EU GMP standards without compromise." },
-    { icon: Lightbulb, title: "Continuous Innovation", description: "We invest heavily in R&D to develop advanced formulations and novel drug delivery systems for tomorrow's challenges." },
-    { icon: Globe2, title: "Global Accessibility", description: "Our robust supply chain and regulatory expertise ensure life-saving medicines reach patients across 50+ countries." },
-    { icon: Users, title: "Collaboration & Trust", description: "We build enduring partnerships with healthcare professionals, distributors, and stakeholders based on absolute transparency." },
-    { icon: Leaf, title: "Sustainable Practices", description: "We are committed to reducing our carbon footprint through eco-friendly manufacturing and green chemistry initiatives." }
+    { iconElement: <Heart className="w-8 h-8" />, iconBgElement: <Heart className="w-48 h-48 text-brand-900" />, title: "Patient Centricity", description: "Our primary focus is improving patient outcomes globally through accessible and innovative healthcare therapies." },
+    { iconElement: <ShieldCheck className="w-8 h-8" />, iconBgElement: <ShieldCheck className="w-48 h-48 text-brand-900" />, title: "Uncompromising Quality", description: "From API sourcing to final packaging, we adhere to the applicable WHO GMP and EU GMP standards without compromise." },
+    { iconElement: <Lightbulb className="w-8 h-8" />, iconBgElement: <Lightbulb className="w-48 h-48 text-brand-900" />, title: "Continuous Innovation", description: "We invest heavily in R&D to develop advanced formulations and novel drug delivery systems for tomorrow's challenges." },
+    { iconElement: <Globe2 className="w-8 h-8" />, iconBgElement: <Globe2 className="w-48 h-48 text-brand-900" />, title: "Global Accessibility", description: "Our robust supply chain and regulatory expertise ensure advanced therapeutics reach patients across 50+ countries." },
+    { iconElement: <Users className="w-8 h-8" />, iconBgElement: <Users className="w-48 h-48 text-brand-900" />, title: "Collaboration & Trust", description: "We build enduring partnerships with healthcare professionals, distributors, and stakeholders based on transparency, accountability, and trust." },
+    { iconElement: <Leaf className="w-8 h-8" />, iconBgElement: <Leaf className="w-48 h-48 text-brand-900" />, title: "Sustainable Practices", description: "We are committed to reducing our carbon footprint through eco-friendly manufacturing and green chemistry initiatives." }
   ];
 
   const businessDivisions = [
-    { icon: TestTube, title: "Pharmaceuticals", description: "A comprehensive portfolio of life-saving therapeutics spanning oncology, cardiology, neurology, and infectious diseases." },
-    { icon: Microscope, title: "Nutraceuticals", description: "Evidence-based dietary supplements and functional foods designed to support proactive health and wellness." },
-    { icon: Truck, title: "Contract Manufacturing", description: "End-to-end CDMO services offering scalable, high-quality production capabilities for global pharmaceutical partners." }
+    { iconElement: <TestTube className="w-8 h-8" />, iconBgElement: <TestTube className="w-48 h-48 text-brand-900" />, title: "Pharmaceuticals", description: "A comprehensive portfolio of critical care medicines spanning oncology, cardiology, neurology, and infectious diseases." },
+    { iconElement: <Microscope className="w-8 h-8" />, iconBgElement: <Microscope className="w-48 h-48 text-brand-900" />, title: "Nutraceuticals", description: "Evidence-based dietary supplements and functional foods designed to support proactive health and wellness." },
+    { iconElement: <Truck className="w-8 h-8" />, iconBgElement: <Truck className="w-48 h-48 text-brand-900" />, title: "Contract Manufacturing", description: "End-to-end CDMO services offering scalable, high-quality production capabilities for global pharmaceutical partners." }
   ];
 
   const certifications = [
-    { icon: Shield, title: "WHO GMP Certified", description: "Our manufacturing facilities operate strictly under World Health Organization Good Manufacturing Practices." },
-    { icon: FileCheck2, title: "ISO 9001:2015", description: "Internationally recognized standard ensuring that our products consistently meet customer and regulatory requirements." },
-    { icon: Award, title: "EU GMP Compliance", description: "Stringent adherence to European Medicines Agency guidelines, enabling seamless export to highly regulated markets." }
+    { iconElement: <Shield className="w-8 h-8" />, iconBgElement: <Shield className="w-48 h-48 text-brand-900" />, title: "WHO GMP Certified", description: "Our manufacturing facilities operate strictly under World Health Organization Good Manufacturing Practices." },
+    { iconElement: <FileCheck2 className="w-8 h-8" />, iconBgElement: <FileCheck2 className="w-48 h-48 text-brand-900" />, title: "ISO 9001:2015", description: "Internationally recognized standard ensuring that our products consistently meet customer and regulatory requirements." },
+    { iconElement: <Award className="w-8 h-8" />, iconBgElement: <Award className="w-48 h-48 text-brand-900" />, title: "EU GMP Compliance", description: "Stringent adherence to European Medicines Agency guidelines, enabling seamless export to highly regulated markets." }
   ];
 
   return (
@@ -88,22 +87,21 @@ export default function Home() {
       <FeatureSection 
         title="Robust Global Manufacturing Network"
         subtitle="Manufacturing & Supply Chain"
-        description="Our diverse manufacturing footprint features modern, highly automated production lines engineered for absolute precision and compliance. From solid oral dosages to specialized therapeutic formulations, our facilities operate strictly under WHO and EU GMP guidelines, ensuring uninterrupted supply of quality-assured medicines across regulated and emerging markets."
+        description="Our diverse manufacturing footprint features modern, highly automated production lines engineered for high-precision and compliance. From solid oral dosages to specialized therapeutic formulations, our facilities operate strictly under WHO and EU GMP guidelines, supporting reliable supply of quality-assured medicines across regulated and emerging markets."
         image="/assets/images/pharma_hero_mfg.png"
         imageAlt="Advanced Manufacturing Facility"
         linkText="View Our Capabilities"
         linkHref="/manufacture-capability"
       />
 
-      <CompanyStats />
-      
+
       <GlobalPresenceMap />
 
       {/* Quality Assurance */}
       <FeatureSection 
         title="Quality is Built Into Our Process"
         subtitle="Quality Assurance"
-        description="Our philosophy of 'Quality by Design' (QbD) is embedded in every stage of our product lifecycle. From rigorous vendor qualification and raw material testing to continuous process monitoring and exhaustive finished product analysis, we ensure the highest standards. Every batch released bears our seal of uncompromising safety and efficacy."
+        description="Our philosophy of 'Quality by Design' (QbD) is embedded in every stage of our product lifecycle. From rigorous vendor qualification and raw material testing to continuous process monitoring and exhaustive finished product analysis, we ensure the highest standards. Every batch released bears our seal of evidence-based safety and efficacy."
         image="/assets/images/pharma_quality_control.png"
         imageAlt="Quality Control Testing"
         linkText="Read Our Quality Policy"

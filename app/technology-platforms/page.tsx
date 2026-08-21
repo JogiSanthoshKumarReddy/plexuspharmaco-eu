@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Cpu, Fingerprint, Database, CheckCircle2 } from "lucide-react";
@@ -82,7 +83,7 @@ export default function TechnologyPlatformsPage() {
         </div>
 
         {/* Pillars Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {pillars.map((item, idx) => (
             <motion.div
               key={idx}

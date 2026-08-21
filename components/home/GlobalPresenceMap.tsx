@@ -1,15 +1,14 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Building2, Factory, FlaskConical, Truck, Globe2, MapPin } from "lucide-react";
+import { Building2, Factory, Truck, Globe2, MapPin } from "lucide-react";
 
 export default function GlobalPresenceMap() {
   const locations = [
-    { title: "European HQ", country: "United Kingdom", icon: Building2, desc: "Global strategy and corporate governance." },
-    { title: "Manufacturing Hub", country: "Germany", icon: Factory, desc: "State-of-the-art production facilities." },
-    { title: "R&D Center", country: "France", icon: FlaskConical, desc: "Advanced research and innovation lab." },
-    { title: "Distribution", country: "USA", icon: Truck, desc: "North American supply chain logistics." },
-    { title: "Asia Pacific", country: "Singapore", icon: Globe2, desc: "APAC regional operations and support." },
+    { title: "European HQ & Manufacturing", country: "Germany", icon: Building2, desc: "Global strategy, corporate governance, and modern, validated production." },
+    { title: "Manufacturing Hub", country: "Turkey", icon: Factory, desc: "Owned facility supporting global FDF pharmaceutical supply." },
+    { title: "JV Manufacturing & Distribution", country: "USA", icon: Truck, desc: "North American supply chain logistics and manufacturing." },
+    { title: "JV Manufacturing Hubs", country: "Spain & Poland", icon: Globe2, desc: "European joint-venture facilities for scalable supply." },
   ];
 
   return (

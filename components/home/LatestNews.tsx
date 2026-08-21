@@ -53,7 +53,7 @@ export default function LatestNews() {
           </Link>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {newsItems.map((item, idx) => (
             <motion.div 
               key={idx}
@@ -66,7 +66,7 @@ export default function LatestNews() {
               <div className="relative h-64 overflow-hidden">
                 <Image 
                   src={item.image} 
-                  alt="" 
+                  alt={item.title} 
                   fill 
                   className="object-cover group-hover:scale-110 transition-transform duration-700 ease-in-out"
                 />

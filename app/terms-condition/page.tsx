@@ -1,5 +1,6 @@
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 
+
 export default function TermsConditionPage() {
   return (
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">

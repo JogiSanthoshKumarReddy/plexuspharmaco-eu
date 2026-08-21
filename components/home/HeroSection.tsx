@@ -23,7 +23,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <section className="relative h-screen min-h-[600px] w-full flex items-center justify-center overflow-hidden bg-brand-900">
+    <section className="relative h-screen min-h-[100dvh] w-full flex items-center justify-center overflow-hidden bg-brand-900 touch-pan-y">
       {/* Background Image Slider with Parallax and Overlay */}
       <AnimatePresence mode="wait">
         <motion.div 

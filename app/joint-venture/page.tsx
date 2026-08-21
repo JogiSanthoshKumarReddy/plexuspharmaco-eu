@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { ArrowRight, Merge, Map, BarChart3 } from "lucide-react";
@@ -79,7 +80,7 @@ export default function JointVenturePage() {
         </div>
 
         {/* Pillars Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {pillars.map((pillar, idx) => (
             <motion.div
               key={idx}

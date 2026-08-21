@@ -20,19 +20,25 @@ export default function AnimatedCounter({ value = 2.5, suffix = "", prefix = "" 
     stiffness: 100,
   });
 
-  const [displayValue, setDisplayValue] = useState("0");
+  const [displayValue, setDisplayValue] = useState(value.toString());
 
   useEffect(() => {
     if (isInView) {
-      motionValue.set(value);
+      motionValue.set(0);
+      setTimeout(() => {
+        motionValue.set(value);
+      }, 50);
     }
   }, [motionValue, isInView, value]);
 
   useEffect(() => {
     return springValue.on("change", (latest) => {
-      setDisplayValue(Math.floor(latest).toLocaleString());
+      // Only update if it's actually changing, preventing SSR mismatch
+      if (latest > 0 || displayValue === "0") {
+        setDisplayValue(Math.floor(latest).toLocaleString());
+      }
     });
-  }, [springValue]);
+  }, [springValue, displayValue]);
 
   return (
     <span ref={ref} className="font-bold tabular-nums">

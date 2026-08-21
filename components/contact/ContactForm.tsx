@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { useForm } from "react-hook-form";
+import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
 import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle } from "lucide-react";
@@ -28,7 +28,7 @@ export default function ContactForm() {
     register,
     handleSubmit,
     reset,
-    watch,
+    control,
     setValue,
     formState: { errors },
   } = useForm<ContactFormValues>({
@@ -39,7 +39,7 @@ export default function ContactForm() {
     }
   });
 
-  const selectedInquiry = watch("inquiry_type");
+  const selectedInquiry = useWatch({ control, name: "inquiry_type" });
 
   const inquiryOptions = [
     { title: "Distribution Partnership", desc: "Expand our global reach", icon: Globe },
@@ -60,15 +60,18 @@ export default function ContactForm() {
         body: JSON.stringify(data),
       });
 
-      if (!response.ok) throw new Error("Failed to submit form");
+      const responseData = await response.json().catch(() => null);
+      if (!response.ok) {
+        throw new Error(responseData?.message || "Failed to submit form");
+      }
 
       setIsSuccess(true);
       reset();
       
       // Reset success message after 5 seconds
       setTimeout(() => setIsSuccess(false), 5000);
-    } catch (error) {
-      setErrorMessage("Something went wrong. Please try again later or contact us directly.");
+    } catch (error: any) {
+      setErrorMessage(error.message || "Something went wrong. Please try again later or contact us directly.");
     } finally {
       setIsSubmitting(false);
     }
@@ -114,8 +117,8 @@ export default function ContactForm() {
             <input 
               id="form_name"
               {...register("form_name")}
-              placeholder="John Doe"
-              className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_name ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all`}
+              placeholder="e.g. Alex Smith"
+              className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_name ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all`}
             />
             {errors.form_name && <p className="mt-2 text-sm text-red-500">{errors.form_name.message}</p>}
           </div>
@@ -126,8 +129,8 @@ export default function ContactForm() {
             <input 
               id="company_name"
               {...register("company_name")}
-              placeholder="Acme Corp"
-              className="w-full px-5 py-4 rounded-xl bg-slate-50 border border-slate-200 text-brand-900 placeholder-slate-400 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20 focus:bg-white focus:outline-none transition-all"
+              placeholder="e.g. Your Company Ltd"
+              className="w-full px-5 py-4 rounded-xl bg-slate-50 border border-slate-200 text-base text-brand-900 placeholder-slate-400 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20 focus:bg-white focus:outline-none transition-all"
             />
           </div>
 
@@ -137,7 +140,7 @@ export default function ContactForm() {
             <select 
               id="annual_revenue"
               {...register("annual_revenue")}
-              className="w-full px-5 py-4 rounded-xl bg-slate-50 border border-slate-200 text-brand-900 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20 focus:bg-white focus:outline-none transition-all appearance-none"
+              className="w-full px-5 py-4 rounded-xl bg-slate-50 border border-slate-200 text-base text-brand-900 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/20 focus:bg-white focus:outline-none transition-all appearance-none"
             >
               <option value="">Select Revenue Range</option>
               <option value="Under $1M">Under $1M</option>
@@ -154,8 +157,8 @@ export default function ContactForm() {
               id="form_email"
               {...register("form_email")}
               type="email"
-              placeholder="john@example.com"
-              className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_email ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all`}
+              placeholder="e.g. alex@example.com"
+              className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_email ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all`}
             />
             {errors.form_email && <p className="mt-2 text-sm text-red-500">{errors.form_email.message}</p>}
           </div>
@@ -167,7 +170,7 @@ export default function ContactForm() {
               id="form_country"
               {...register("form_country")}
               placeholder="Germany"
-              className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_country ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all`}
+              className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_country ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all`}
             />
             {errors.form_country && <p className="mt-2 text-sm text-red-500">{errors.form_country.message}</p>}
           </div>
@@ -217,7 +220,7 @@ export default function ContactForm() {
             {...register("form_message")}
             rows={5}
             placeholder="How can we help you?"
-            className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_message ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all resize-none`}
+            className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_message ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all resize-none`}
           />
           {errors.form_message && <p className="mt-2 text-sm text-red-500">{errors.form_message.message}</p>}
         </div>

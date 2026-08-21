@@ -13,7 +13,7 @@ const testimonials = [
     image: "/assets/images/resources/testi-1.jpg"
   },
   {
-    quote: "The strategic licensing agreement with Plexus allowed us to expand our cardiology portfolio significantly. Their regulatory expertise and seamless tech-transfer process are truly world-class.",
+    quote: "The strategic licensing agreement with Plexuspharmaco allowed us to expand our cardiology portfolio significantly. Their regulatory expertise and seamless tech-transfer process are truly globally integrated.",
     author: "Marcus Chen",
     role: "VP of Global Partnerships",
     organization: "NovaMed Pharmaceuticals",
@@ -55,7 +55,7 @@ export default function ModernTestimonials() {
           </motion.p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {testimonials.map((testimonial, idx) => (
             <motion.div
               key={idx}
@@ -84,7 +84,7 @@ export default function ModernTestimonials() {
                   {/* Using a placeholder since we might not have actual images, or fallback to an icon */}
                   <Image 
                     src={testimonial.image.includes('placeholder') ? '/assets/images/resources/no-image.jpg' : '/assets/images/resources/no-image.jpg'} 
-                    alt=""
+                    alt={testimonial.author}
                     fill
                     className="object-cover"
                   />

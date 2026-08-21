@@ -24,9 +24,24 @@
 }
 
 @layer base {
+  html {
+    scroll-padding-top: 80px;
+    scrollbar-gutter: stable;
+  }
   body {
     top: 0 !important;
     @apply bg-slate-50 text-slate-900 font-inter antialiased selection:bg-brand-200 selection:text-brand-900;
+  }
+  
+  *:focus-visible {
+    outline: 2px solid theme('colors.brand.500');
+    outline-offset: 2px;
+  }
+  
+  @media (forced-colors: active) {
+    button, a[href] {
+      border: 1px solid CanvasText;
+    }
   }
   
   /* Hide Google Translate Banner and Frame */

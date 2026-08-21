@@ -17,13 +17,13 @@ export default function ModernFooter() {
               A globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions across regulated and emerging markets.
             </p>
             <div className="flex items-center gap-4">
-              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="Follow us on LinkedIn" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">
+              <a href="https://linkedin.com" target="_blank" rel="noreferrer" aria-label="Follow us on LinkedIn" className="w-12 h-12 p-3 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">
                 <svg className="w-5 h-5 fill-current" aria-hidden="true" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
               </a>
-              <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Follow us on Twitter" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">
+              <a href="https://twitter.com" target="_blank" rel="noreferrer" aria-label="Follow us on Twitter" className="w-12 h-12 p-3 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">
                 <svg className="w-5 h-5 fill-current" aria-hidden="true" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg>
               </a>
-              <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Follow us on Facebook" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">
+              <a href="https://facebook.com" target="_blank" rel="noreferrer" aria-label="Follow us on Facebook" className="w-12 h-12 p-3 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">
                 <svg className="w-5 h-5 fill-current" aria-hidden="true" viewBox="0 0 24 24"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"/></svg>
               </a>
             </div>
@@ -39,7 +39,7 @@ export default function ModernFooter() {
                   <ul className="flex flex-col gap-2 pl-3 border-l border-white/10">
                     {nav.items.slice(0, 3).map((item, i) => (
                       <li key={i}>
-                        <Link href={item.href} className="text-sm text-brand-400 hover:text-white transition-colors">
+                        <Link href={item.href} className="text-sm text-brand-400 hover:text-white transition-colors inline-flex min-h-[48px] items-center">
                           {item.name}
                         </Link>
                       </li>
@@ -61,22 +61,6 @@ export default function ModernFooter() {
               <p className="text-sm text-brand-400 pl-6">
                 Plexuspharmaco GmbH<br />
                 Frankenstr. 34, 96146 Altendorf, Germany.
-              </p>
-            </div>
-            
-            <div>
-              <h4 className="text-white font-medium mb-2 flex items-center gap-2">
-                <MapPin className="w-4 h-4 text-accent-500" /> India Offices
-              </h4>
-              <p className="text-sm text-brand-400 pl-6 mb-3">
-                <strong>Plexus Biogenix LLP</strong><br />
-                Janapath, 217 Sadashiv Peth<br />
-                Pune – 411030 (MS), India.
-              </p>
-              <p className="text-sm text-brand-400 pl-6">
-                <strong>Plexus Biocare Pvt. Ltd.</strong><br />
-                Sankruti Sankul, Sitabuldi<br />
-                Nagpur – 440012 (MS), India.
               </p>
             </div>
           </div>
@@ -107,17 +91,6 @@ export default function ModernFooter() {
                   </div>
                 </a>
               </li>
-              <li>
-                <a href="tel:+917304159520" className="flex items-start gap-3 group">
-                  <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-accent-500 transition-colors flex-shrink-0">
-                    <Phone className="w-5 h-5 text-brand-300 group-hover:text-white" />
-                  </div>
-                  <div>
-                    <span className="block text-xs text-brand-500 font-medium uppercase tracking-wider mb-1">Call India</span>
-                    <span className="text-sm text-brand-300 group-hover:text-white transition-colors">+91 7304159520</span>
-                  </div>
-                </a>
-              </li>
             </ul>
           </div>
           
@@ -129,9 +102,9 @@ export default function ModernFooter() {
             &copy; {currentYear} <span className="text-white font-medium">Plexuspharmaco Europe</span>. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-brand-400">
-            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
-            <Link href="/terms-condition" className="hover:text-white transition-colors">Terms of Service</Link>
-            <Link href="/sitemap.xml" className="hover:text-white transition-colors">Sitemap</Link>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Privacy Policy</Link>
+            <Link href="/terms-condition" className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Terms of Service</Link>
+            <Link href="/sitemap.xml" className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Sitemap</Link>
           </div>
         </div>
       </div>

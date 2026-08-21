@@ -1,3 +1,4 @@
+
 "use client";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -33,7 +34,7 @@ export default function GalleryPage() {
             Inside Plexuspharmaco
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
-            Explore our state-of-the-art facilities, research laboratories, and the dedicated teams driving global healthcare innovation.
+            Explore our modern, validated facilities, research laboratories, and the dedicated teams driving global healthcare innovation.
           </p>
         </div>
 
@@ -79,10 +80,14 @@ export default function GalleryPage() {
             exit={{ opacity: 0 }}
             onClick={() => setSelectedImage(null)}
             className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-4 backdrop-blur-sm cursor-zoom-out"
+            role="dialog"
+            aria-modal="true"
+            tabIndex={-1}
           >
             <button 
               className="absolute top-6 right-6 text-white hover:text-brand-300 transition-colors bg-white/10 p-2 rounded-full"
               onClick={() => setSelectedImage(null)}
+              aria-label="Close gallery modal"
             >
               <X className="w-8 h-8" />
             </button>
@@ -90,7 +95,7 @@ export default function GalleryPage() {
               initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
               exit={{ scale: 0.9 }}
-              className="relative w-full max-w-5xl aspect-video rounded-xl overflow-hidden shadow-2xl"
+              className="relative w-full max-w-5xl aspect-video rounded-xl overflow-hidden shadow-2xl cursor-default"
               onClick={(e) => e.stopPropagation()}
             >
               <Image 

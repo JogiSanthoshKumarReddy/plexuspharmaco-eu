@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Briefcase, ArrowRight, UserPlus, Heart, GraduationCap, TrendingUp, Sparkles, Building2, Coffee, MapPin, CheckCircle2 } from "lucide-react";
@@ -16,12 +17,12 @@ export default function JobOpeningPage() {
   ];
 
   const jobs = [
-    { title: "Senior Formulation Scientist", dept: "R&D", location: "Pune, India", type: "Full-Time" },
+    { title: "Senior Formulation Scientist", dept: "R&D", location: "Altendorf, Germany", type: "Full-Time" },
     { title: "Regulatory Affairs Manager", dept: "Compliance", location: "Frankfurt, Germany", type: "Full-Time" },
-    { title: "Quality Assurance Lead", dept: "Quality", location: "Nagpur, India", type: "Full-Time" },
+    { title: "Quality Assurance Lead", dept: "Quality", location: "Berlin, Germany", type: "Full-Time" },
     { title: "Global Supply Chain Director", dept: "Logistics", location: "Remote / Europe", type: "Full-Time" },
-    { title: "Clinical Trial Coordinator", dept: "Clinical", location: "Pune, India", type: "Full-Time" },
-    { title: "Summer Internship (Pharma)", dept: "R&D", location: "Nagpur, India", type: "Internship" }
+    { title: "Clinical Trial Coordinator", dept: "Clinical", location: "Munich, Germany", type: "Full-Time" },
+    { title: "Summer Internship (Pharma)", dept: "R&D", location: "Altendorf, Germany", type: "Internship" }
   ];
 
   return (

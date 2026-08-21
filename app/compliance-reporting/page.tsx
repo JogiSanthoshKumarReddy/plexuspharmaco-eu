@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { ShieldAlert, Mail, Lock, ArrowRight, CheckCircle2 } from "lucide-react";
@@ -37,7 +38,7 @@ export default function ComplianceReportingPage() {
       (e.target as HTMLFormElement).reset();
       
       setTimeout(() => setIsSuccess(false), 5000);
-    } catch (error) {
+    } catch {
       setErrorMessage("Something went wrong. Please try again later or contact us directly at compliance@plexuspharmaco.com.");
     } finally {
       setIsSubmitting(false);

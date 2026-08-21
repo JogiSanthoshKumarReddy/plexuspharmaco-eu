@@ -11,7 +11,7 @@ const milestones = [
   {
     year: "2020",
     title: "European Expansion",
-    description: "Successfully expanded operations across Western Europe, establishing state-of-the-art manufacturing hubs in Spain and France to meet growing regional demands."
+    description: "Successfully expanded operations across Western Europe, establishing modern, validated manufacturing hubs in Spain and France to meet growing regional demands."
   },
   {
     year: "2022",

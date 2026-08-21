@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Settings, Shield, Zap, SearchCheck, Factory, Box, ThermometerSnowflake, Truck, PackageCheck, Layers } from "lucide-react";
@@ -9,7 +10,7 @@ export default function ManufactureCapabilityPage() {
     {
       title: "Advanced Infrastructure",
       icon: Settings,
-      description: "State-of-the-art infrastructure, validated processes, and digital quality systems to ensure consistent product excellence."
+      description: "modern, validated infrastructure, validated processes, and digital quality systems to ensure consistent product excellence."
     },
     {
       title: "Scalable Platforms",
@@ -153,7 +154,7 @@ export default function ManufactureCapabilityPage() {
         <div className="mb-24">
           <div className="text-center max-w-3xl mx-auto mb-16">
             <h2 className="text-3xl lg:text-4xl font-bold text-brand-900 mb-6">Unrivaled Production Capacity</h2>
-            <p className="text-lg text-slate-600">Our facilities are engineered for maximum throughput without compromising on our zero-defect quality mandate. From raw API synthesis to final sterile packaging, we control the entire value chain.</p>
+            <p className="text-lg text-slate-600">Our facilities are engineered for maximum throughput without compromising on our quality-focused quality mandate. From raw API synthesis to final sterile packaging, we control the core value chain stages.</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { LineChart, BarChart3, TrendingUp, Download, FileText, Landmark, Users2, ShieldAlert } from "lucide-react";
@@ -79,7 +80,7 @@ export default function InvestorRelationPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Plexuspharmaco’s Investor Relations framework is built on a foundation of absolute transparency, financial discipline, and a clear vision for the future of global healthcare.
+                Plexuspharmaco’s Investor Relations framework is built on a foundation of transparency, accountability, and trust, financial discipline, and a clear vision for the future of global healthcare.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
@@ -101,7 +102,7 @@ export default function InvestorRelationPage() {
         </div>
 
         {/* Pillars Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {pillars.map((item, idx) => (
             <motion.div
               key={idx}
@@ -128,7 +129,7 @@ export default function InvestorRelationPage() {
             <h2 className="text-3xl lg:text-4xl font-bold text-brand-900 mb-6">Corporate Governance</h2>
             <p className="text-lg text-slate-600">Rigorous oversight and ethical business practices are the cornerstones of our operational philosophy.</p>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {governance.map((gov, idx) => (
               <div key={idx} className="flex flex-col items-center text-center p-8 bg-white rounded-3xl border border-slate-100 shadow-sm">
                 <gov.icon className="w-12 h-12 text-brand-700 mb-6" />

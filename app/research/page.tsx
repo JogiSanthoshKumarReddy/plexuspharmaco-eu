@@ -1,3 +1,4 @@
+
 "use client";
 
 
@@ -34,7 +35,7 @@ export default function ResearchPage() {
     {
       title: "Analytical Development",
       icon: TestTube,
-      description: "State-of-the-art analytical labs for method development, validation, stability testing, and degradation profiling."
+      description: "modern, validated analytical labs for method development, validation, stability testing, and degradation profiling."
     },
     {
       title: "Technology Transfer",
@@ -107,7 +108,7 @@ export default function ResearchPage() {
         </div>
 
         {/* Highlights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {highlights.map((item, idx) => (
             <motion.div
               key={idx}

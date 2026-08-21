@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Megaphone, Calendar } from "lucide-react";
@@ -34,7 +35,7 @@ export default function PressReleasePage() {
     {
       title: "Plexuspharmaco Celebrates 100+ Years of Collective Industry Experience",
       date: "02-02-2026",
-      summary: "Plexuspharmaco Group has secured NAFDAC approval for its food supplements manufacturing unit in Nigeria, marking a key milestone for the company and local consumers. The state-of-the-art facility is now authorized to produce EU-quality tablets, capsules, soft gels, powders, and liquid formulations, all adhering to the highest international standards. This approval reflects Plexuspharmaco's unwavering commitment to quality and safety. With a diverse portfolio designed to support nutrition and overall wellness, the company is set to elevate Nigeria's nutraceutical industry. This launch comes at a time of growing demand for preventive healthcare, offering consumers trusted, world-class supplements for healthier lives."
+      summary: "Plexuspharmaco Group has secured NAFDAC approval for its food supplements manufacturing unit in Nigeria, marking a key milestone for the company and local consumers. The modern, validated facility is now authorized to produce EU-quality tablets, capsules, soft gels, powders, and liquid formulations, all adhering to the highest international standards. This approval reflects Plexuspharmaco's unwavering commitment to quality and safety. With a diverse portfolio designed to support nutrition and overall wellness, the company is set to elevate Nigeria's nutraceutical industry. This launch comes at a time of growing demand for preventive healthcare, offering consumers trusted, globally integrated supplements for healthier lives."
     }
   ];
 

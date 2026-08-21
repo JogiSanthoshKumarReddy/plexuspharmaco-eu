@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { MapPin, Phone, Mail, Building2, Ship } from "lucide-react";
@@ -19,28 +20,6 @@ export default function GlobalOfficePage() {
       image: "/assets/images/pharma_hero_corporate.png",
       capabilities: "Corporate Strategy, EU Regulatory Affairs, European Distribution"
     },
-    {
-      id: "india-pune",
-      title: "Asia Pacific Operations",
-      country: "India",
-      company: "Plexus Biogenix LLP",
-      address: "Janapath, 217 Sadashiv Peth, Pune – 411030 (MS), India.",
-      phone: "+91 7304159520",
-      email: "info@plexuspharmaco.com",
-      image: "/assets/images/pharma_hero_mfg.png",
-      capabilities: "APAC Supply Chain, Regional R&D, Clinical Trials Management"
-    },
-    {
-      id: "india-nagpur",
-      title: "Manufacturing Hub",
-      country: "India",
-      company: "Plexus Biocare Pvt. Ltd.",
-      address: "Sankruti Sankul, Sitabuldi, Nagpur – 440012 (MS), India.",
-      phone: "+91 7304159520",
-      email: "info@plexuspharmaco.com",
-      image: "/assets/images/pharma_hero_lab.png",
-      capabilities: "API Synthesis, High-Volume Solid Oral Production, Export Logistics"
-    }
   ];
 
   const exportMarkets = [
@@ -80,7 +59,7 @@ export default function GlobalOfficePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            With our European headquarters in Germany and expansive manufacturing operations in India, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
+            With our European headquarters in Germany, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
           </motion.p>
         </div>
 

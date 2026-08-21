@@ -9,12 +9,6 @@ export default function LeadershipTeam() {
       role: "Founder and CEO",
       image: "/pharma/assets/images/6960c9043c7cf.jpeg",
       bio: "Dr. Avinash holds a PhD in Neuroscience from Friedrich-Alexander-Universität (FAU), Germany, and is the author of 25 peer-reviewed scientific publications. With a rare blend of deep scientific expertise and entrepreneurial acumen, Dr. Avinash founded Plexuspharmaco GmbH in 2018 with a clear vision to advance innovation-driven, evidence-based healthcare solutions."
-    },
-    {
-      name: "Mr. Arvind M. Ambre",
-      role: "Managing Director",
-      image: "/pharma/assets/images/6960c97dc04c3.jpeg",
-      bio: "Mr. Arvind Ambre brings over 25+ years of extensive international business leadership to the Board, with deep expertise in cross-border strategy, mergers and acquisitions, joint ventures, and global partnerships. He holds a bachelor’s degree and an MBA in International Business from a reputed premier institution."
     }
   ];
 
@@ -42,7 +36,7 @@ export default function LeadershipTeam() {
           </motion.h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 gap-12 max-w-md mx-auto">
           {team.map((member, idx) => (
             <motion.div
               key={idx}

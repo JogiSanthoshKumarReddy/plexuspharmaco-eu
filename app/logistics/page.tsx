@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Truck, Globe2, ShieldCheck, FileCheck, RefreshCw } from "lucide-react";
@@ -66,7 +67,7 @@ export default function LogisticsPage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed"
           >
-            Our dedicated export and logistics division ensures that high-quality healthcare solutions reach global markets securely, efficiently, and in full compliance with international trade and regulatory standards. We partner with world-class logistics providers to manage complex cold-chain and ambient distribution networks.
+            Our dedicated export and logistics division ensures that high-quality healthcare solutions reach global markets securely, efficiently, and in full compliance with international trade and regulatory standards. We partner with globally integrated logistics providers to manage complex cold-chain and ambient distribution networks.
           </motion.p>
         </div>
 

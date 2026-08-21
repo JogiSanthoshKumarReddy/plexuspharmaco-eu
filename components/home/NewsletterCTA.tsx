@@ -1,10 +1,46 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Send } from "lucide-react";
+import { Send, CheckCircle2, AlertCircle } from "lucide-react";
 import Image from "next/image";
 
 export default function NewsletterCTA() {
+  const [email, setEmail] = useState("");
+  const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!email) return;
+
+    setStatus("loading");
+    setErrorMessage("");
+
+    try {
+      const response = await fetch("/api/submit-form", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          formType: "Newsletter Subscription",
+          email: email
+        }),
+      });
+
+      const data = await response.json().catch(() => null);
+
+      if (!response.ok) {
+        throw new Error(data?.message || "Failed to subscribe.");
+      }
+
+      setStatus("success");
+      setEmail("");
+      setTimeout(() => setStatus("idle"), 5000);
+    } catch (err: any) {
+      setStatus("error");
+      setErrorMessage(err.message || "An unexpected error occurred.");
+    }
+  };
   return (
     <section className="section-padding bg-white relative overflow-hidden">
       {/* Decorative background elements */}
@@ -42,20 +78,37 @@ export default function NewsletterCTA() {
             </div>
             
             <div className="w-full lg:w-1/2 max-w-lg mx-auto lg:mx-0">
-              <form className="relative flex flex-col sm:flex-row gap-4 sm:gap-0" onSubmit={(e) => e.preventDefault()}>
+              <form className="relative flex flex-col sm:flex-row gap-4 sm:gap-0" onSubmit={handleSubmit}>
                 <input 
                   type="email" 
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   placeholder="Enter your corporate email address" 
-                  className="w-full px-8 py-5 rounded-xl sm:rounded-r-none sm:rounded-l-2xl border-none focus:ring-4 focus:ring-accent-500/30 text-brand-900 placeholder:text-slate-400 font-medium text-lg shadow-inner outline-none transition-all"
+                  className="w-full px-8 py-5 rounded-xl sm:rounded-r-none sm:rounded-l-2xl border-none focus:ring-4 focus:ring-accent-500/30 text-brand-900 placeholder:text-slate-400 font-medium text-lg shadow-inner outline-none transition-all disabled:opacity-50"
                   required
+                  disabled={status === "loading" || status === "success"}
                 />
                 <button 
                   type="submit" 
-                  className="px-8 py-5 bg-accent-500 hover:bg-accent-600 text-white font-bold rounded-xl sm:rounded-l-none sm:rounded-r-2xl transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 flex-shrink-0"
+                  disabled={status === "loading" || status === "success"}
+                  className="px-8 py-5 bg-accent-500 hover:bg-accent-600 text-white font-bold rounded-xl sm:rounded-l-none sm:rounded-r-2xl transition-all shadow-lg hover:shadow-xl flex items-center justify-center gap-2 flex-shrink-0 disabled:opacity-70"
                 >
-                  Subscribe <Send className="w-5 h-5" />
+                  {status === "loading" ? "Subscribing..." : status === "success" ? "Subscribed!" : "Subscribe"} 
+                  {status === "success" ? <CheckCircle2 className="w-5 h-5" /> : <Send className="w-5 h-5" />}
                 </button>
               </form>
+              
+              {status === "error" && (
+                <p className="text-red-300 text-sm mt-3 flex items-center justify-center lg:justify-start gap-1">
+                  <AlertCircle className="w-4 h-4" /> {errorMessage}
+                </p>
+              )}
+              {status === "success" && (
+                <p className="text-green-300 text-sm mt-3 flex items-center justify-center lg:justify-start gap-1">
+                  <CheckCircle2 className="w-4 h-4" /> Thank you for subscribing to our newsletter!
+                </p>
+              )}
+              
               <p className="text-brand-200/60 text-xs mt-4 text-center lg:text-left">
                 By subscribing, you agree to our Privacy Policy and consent to receive corporate communications.
               </p>

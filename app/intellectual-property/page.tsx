@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Shield, Target, FileSignature, ArrowRight } from "lucide-react";
@@ -85,7 +86,7 @@ export default function IntellectualPropertyPage() {
         </div>
 
         {/* Principles Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {principles.map((item, idx) => (
             <motion.div
               key={idx}

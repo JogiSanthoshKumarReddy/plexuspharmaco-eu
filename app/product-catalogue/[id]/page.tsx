@@ -7,6 +7,29 @@ import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';
 import { Product } from '@/types/product';
 
+import { Metadata } from 'next';
+
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+  const { id } = await params;
+  const product = products.find((p) => p.id === id);
+
+  if (!product) {
+    return {
+      title: 'Product Not Found',
+      description: 'The requested product could not be found.',
+    };
+  }
+
+  return {
+    title: `${product.name} | Plexuspharmaco`,
+    description: product.description.substring(0, 160),
+    openGraph: {
+      title: product.name,
+      description: product.description.substring(0, 160),
+    },
+  };
+}
+
 export async function generateStaticParams() {
   return products.map((product) => ({
     id: product.id,
@@ -119,7 +142,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               </div>
             </div>
 
-            <div className="overflow-x-auto">
+            <div className="overflow-x-auto w-full">
               <table className="w-full text-left border-collapse">
                 <thead>
                   <tr className="border-b-2 border-slate-100">
@@ -158,7 +181,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
 
             <div className="space-y-6 relative z-10 font-light text-brand-100 leading-relaxed">
               <p>
-                All Plexuspharmaco products are manufactured in state-of-the-art facilities adhering to stringent Global Good Manufacturing Practices (cGMP).
+                All Plexuspharmaco products are manufactured in modern, validated facilities adhering to stringent Global Good Manufacturing Practices (cGMP).
               </p>
               <ul className="space-y-4 pt-4 border-t border-brand-800">
                 <li className="flex items-center gap-3">
@@ -178,7 +201,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 mb-24">
           <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
             <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
               <Package className="w-6 h-6" />
@@ -271,7 +294,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             <h2 className="text-3xl font-bold text-brand-900">Recommended Products</h2>
             <Link href="/product-catalogue" className="text-brand-700 font-bold hover:text-brand-900 flex items-center gap-2">View All <Grid className="w-4 h-4" /></Link>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {products.filter(p => p.category === product.category && p.id !== product.id).slice(0, 3).map((related: Product) => (
               <Link key={related.id} href={`/product-catalogue/${related.id}`} className="bg-white p-6 rounded-3xl border border-slate-100 shadow-sm hover:shadow-xl hover:border-brand-200 transition-all group">
                 <div className="relative h-48 w-full mb-6 rounded-2xl overflow-hidden bg-slate-50 flex items-center justify-center p-4">

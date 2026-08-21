@@ -4,7 +4,8 @@ import { motion } from "framer-motion";
 import { LucideIcon } from "lucide-react";
 
 interface GridItem {
-  icon: LucideIcon;
+  iconElement: React.ReactNode;
+  iconBgElement: React.ReactNode;
   title: string;
   description: string;
 }
@@ -69,10 +70,10 @@ export default function GridSection({
               className="glass-card p-10 rounded-[2rem] hover-lift group relative overflow-hidden flex flex-col"
             >
               <div className="absolute top-0 right-0 p-8 opacity-5 group-hover:opacity-10 transition-opacity duration-500 group-hover:scale-150 transform origin-top-right">
-                <item.icon className="w-48 h-48 text-brand-900" />
+                {item.iconBgElement}
               </div>
               <div className="w-16 h-16 rounded-2xl bg-brand-50 text-brand-700 flex items-center justify-center mb-8 relative z-10 border border-brand-100 group-hover:bg-brand-900 group-hover:text-white transition-colors duration-500">
-                <item.icon className="w-8 h-8" />
+                {item.iconElement}
               </div>
               <h3 className="text-2xl font-bold text-brand-900 mb-4 relative z-10">
                 {item.title}

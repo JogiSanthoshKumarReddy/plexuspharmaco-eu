@@ -6,6 +6,7 @@
 export const navigation = [
   {
     title: "Company",
+    description: "Discover our mission, leadership, corporate governance, and commitment to sustainable global healthcare.",
     items: [
       { name: "About Us", href: "/about" },
       { name: "Corporate Governance", href: "/corporate-governance" },
@@ -17,6 +18,7 @@ export const navigation = [
   },
   {
     title: "Products & Patients",
+    description: "Explore our comprehensive portfolio of therapeutics, patient support programs, and tools for healthcare professionals.",
     items: [
       { name: "Product Catalogue", href: "/product-catalogue" },
       { name: "Pipeline / R&D", href: "/pipeline" },
@@ -26,6 +28,7 @@ export const navigation = [
   },
   {
     title: "Operations",
+    description: "Learn about our modern, validated manufacturing capabilities, rigorous quality assurance, and global supply chain.",
     items: [
       { name: "Manufacturing Capabilities", href: "/manufacture-capability" },
       { name: "Quality Assurance & Control", href: "/quality-assurance" },
@@ -36,6 +39,7 @@ export const navigation = [
   },
   {
     title: "Innovation & Partners",
+    description: "Partner with us in R&D, leverage our technology platforms, and explore licensing opportunities to advance medical science.",
     items: [
       { name: "Research & Development", href: "/research" },
       { name: "Technology Platforms", href: "/technology-platforms" },

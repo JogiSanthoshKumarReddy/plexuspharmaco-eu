@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users, ShieldCheck, Scale } from "lucide-react";
@@ -12,9 +13,9 @@ export default function SustainabilityPage() {
       description: "100% of wastewater from our manufacturing facilities is treated, recycled, and reused within our operations."
     },
     {
-      title: "Carbon Neutrality by 2030",
+      title: "Carbon Neutrality Goals",
       icon: Wind,
-      description: "Transitioning to 60% renewable energy across all global hubs by 2028, on track for net-zero emissions by 2030."
+      description: "Transitioning to renewable energy sources across our global hubs to significantly reduce emissions and environmental impact."
     },
     {
       title: "Green Chemistry",

@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Microscope, FlaskConical, ShieldCheck, Factory, Dna, FileCheck, ArrowRight } from "lucide-react";
@@ -15,7 +16,7 @@ export default function ResearchDevelopmentHubPage() {
     {
       title: "Manufacturing Capabilities",
       href: "/manufacture-capability",
-      description: "World-class manufacturing infrastructure aligned with WHO-GMP, EU-GMP, and other international standards.",
+      description: "globally integrated manufacturing infrastructure aligned with WHO-GMP, EU-GMP, and other international standards.",
       icon: Factory,
     },
     {

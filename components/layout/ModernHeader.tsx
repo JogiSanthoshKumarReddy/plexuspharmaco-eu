@@ -21,6 +21,17 @@ export default function ModernHeader() {
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
 
+  useEffect(() => {
+    if (mobileMenuOpen) {
+      document.body.style.overflow = 'hidden';
+    } else {
+      document.body.style.overflow = '';
+    }
+    return () => {
+      document.body.style.overflow = '';
+    };
+  }, [mobileMenuOpen]);
+
   const changeLanguage = (lang: string) => {
     const win = window as unknown as { changeLanguage?: (l: string) => void };
     if (typeof win.changeLanguage === 'function') {
@@ -33,8 +44,9 @@ export default function ModernHeader() {
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-[var(--ease-premium)] ${
         isScrolled ? "bg-white/95 backdrop-blur-xl shadow-[0_4px_20px_-10px_rgba(16,42,67,0.1)] py-3" : "bg-white py-5 border-b border-transparent"
       }`}
+      style={isScrolled ? { WebkitBackdropFilter: "blur(24px)", backdropFilter: "blur(24px)" } : {}}
     >
-      <div id="google_translate_element" className="opacity-0 absolute pointer-events-none w-[1px] h-[1px] overflow-hidden" aria-hidden="true"></div>
+      <div id="google_translate_element" className="fixed top-0 left-0 w-0 h-0 opacity-0 pointer-events-none overflow-hidden" aria-hidden="true"></div>
       
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
@@ -71,6 +83,7 @@ export default function ModernHeader() {
                   <button 
                     aria-expanded={activeDropdown === idx}
                     aria-controls={`mega-menu-${idx}`}
+                    onClick={() => setActiveDropdown(activeDropdown === idx ? null : idx)}
                     className={`flex items-center gap-1 font-medium transition-colors py-2 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 rounded-md px-2 ${isActive ? "text-brand-600" : "text-brand-900 hover:text-brand-600"}`}
                   >
                     {nav.title}
@@ -81,6 +94,7 @@ export default function ModernHeader() {
                   <div 
                     id={`mega-menu-${idx}`}
                     role="menu"
+                    style={{ WebkitBackdropFilter: "blur(24px)", backdropFilter: "blur(24px)" }}
                     className={`absolute top-full mt-4 left-1/2 -translate-x-1/2 w-[500px] bg-white/95 backdrop-blur-xl rounded-2xl shadow-[0_20px_40px_-15px_rgba(16,42,67,0.1)] border border-slate-100/50 transition-all duration-300 overflow-hidden flex ${
                       activeDropdown === idx ? "opacity-100 visible translate-y-0" : "opacity-0 invisible translate-y-4"
                     }`}
@@ -89,7 +103,7 @@ export default function ModernHeader() {
                       <div>
                         <h4 className="text-sm font-bold text-brand-900 mb-2">{nav.title} Overview</h4>
                         <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                          Explore our comprehensive offerings and commitment to advancing global healthcare through innovation and quality.
+                          {nav.description || "Explore our comprehensive offerings and commitment to advancing global healthcare through innovation and quality."}
                         </p>
                       </div>
                       <Link href={nav.items[0]?.href || "/"} className="text-sm text-brand-600 font-bold hover:text-brand-800 transition-colors inline-flex items-center gap-1">

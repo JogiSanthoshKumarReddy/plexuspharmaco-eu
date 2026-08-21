@@ -35,7 +35,7 @@ export default function AboutSection() {
               <div className="relative h-[450px] overflow-hidden rounded-lg shadow-lg mt-12">
                 <Image
                   src="/images/about/about-2.jpg"
-                  alt="Oncology India"
+                  alt="Oncology Germany"
                   fill
                   className="object-cover transition-transform duration-500 hover:scale-110"
                 />
@@ -63,22 +63,8 @@ export default function AboutSection() {
                 Our integrated model spans product development, regulatory expertise, global distribution, and strategic partnerships, enabling sustainable value creation for healthcare systems and improved patient outcomes across regions.
               </p>
               <p>
-                Through our Indian subsidiaries— Plexus Biogenix LLP, focused on global trade, commercial operations, and strategic expansion.
+                To learn more, please explore our website for seamless navigation and comprehensive information on our global execution capabilities.
               </p>
-              <p>To learn more, please click on the relevant tab for seamless navigation.</p>
-              
-              <Link href="/sub/biogenix" className="text-blue-600 font-bold hover:underline block">
-                Plexus Biogenix LLP
-              </Link>
-              
-              <p className="mt-4">
-                Plexus Biocare Pvt. Ltd., dedicated to manufacturing, CMO/CDMO services, white labelling, and advanced packaging solutions—we strengthen our global execution capabilities.
-              </p>
-              <p>To learn more, please click on the relevant tab for seamless navigation.</p>
-              
-              <Link href="/sub/biocare" className="text-blue-600 font-bold hover:underline block">
-                Plexus Biocare Pvt. Ltd.
-              </Link>
               
               <p className="mt-6 italic font-medium text-gray-800">
                 Driven by excellence, transparency, and long-term collaboration, Plexuspharmaco GmbH stands as a reliable partner in advancing global health.

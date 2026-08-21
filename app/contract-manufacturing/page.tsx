@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { Factory, ArrowRight, Cog, CheckCircle2, PackageSearch } from "lucide-react";
@@ -84,7 +85,7 @@ export default function ContractManufacturingPage() {
         </div>
 
         {/* Offerings Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {offerings.map((item, idx) => (
             <motion.div
               key={idx}

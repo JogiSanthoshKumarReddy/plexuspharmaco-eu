@@ -64,12 +64,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, interactive-widget=resizes-content" />
         <meta name="theme-color" content="#1e3a8a" />
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
-        <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="afterInteractive" />
+        {/* 
+        <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="lazyOnload" />
         <Script id="google-translate-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
           window.googleTranslateElementInit = function() {
             new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
@@ -80,7 +81,8 @@ export default function RootLayout({
             document.cookie = 'googtrans=' + cookieStr + '; path=/; domain=' + window.location.hostname;
             window.location.reload();
           }
-        ` }} />
+        ` }} /> 
+        */}
         <StructuredData />
         <div className="flex flex-col min-h-screen">
           <RouteChangeHandler />

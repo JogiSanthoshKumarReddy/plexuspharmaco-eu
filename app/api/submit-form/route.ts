@@ -1,8 +1,41 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
 
+const rateLimitMap = new Map<string, number[]>();
+const RATE_LIMIT_WINDOW_MS = 60 * 1000; // 1 minute
+const MAX_REQUESTS_PER_WINDOW = 3;
+
+// Basic HTML Sanitization for XSS prevention
+function sanitizeHtml(str: string): string {
+  if (typeof str !== 'string') return str;
+  return str
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#039;');
+}
+
 export async function POST(request: Request) {
   try {
+    const ip = request.headers.get('x-forwarded-for') || 'unknown';
+    const now = Date.now();
+    
+    if (ip !== 'unknown') {
+      const timestamps = rateLimitMap.get(ip) || [];
+      const validTimestamps = timestamps.filter(t => now - t < RATE_LIMIT_WINDOW_MS);
+      
+      if (validTimestamps.length >= MAX_REQUESTS_PER_WINDOW) {
+        return NextResponse.json(
+          { success: false, message: 'Too many requests. Please try again later.' },
+          { status: 429 }
+        );
+      }
+      
+      validTimestamps.push(now);
+      rateLimitMap.set(ip, validTimestamps);
+    }
+
     const data = await request.json();
     
     // Create a Nodemailer transporter using SMTP
@@ -25,13 +58,16 @@ export async function POST(request: Request) {
     for (const [key, value] of Object.entries(data)) {
       if (key !== 'formType') {
         // Format key (e.g. form_name -> Form Name)
-        const formattedKey = key
-          .replace(/^form_/, '')
-          .split('_')
-          .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ');
+        const formattedKey = sanitizeHtml(
+          key
+            .replace(/^form_/, '')
+            .split('_')
+            .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ')
+        );
         
-        emailHtml += `<tr><td><strong>${formattedKey}</strong></td><td>${value}</td></tr>`;
+        const safeValue = sanitizeHtml(String(value));
+        emailHtml += `<tr><td><strong>${formattedKey}</strong></td><td>${safeValue}</td></tr>`;
       }
     }
     emailHtml += '</table>';

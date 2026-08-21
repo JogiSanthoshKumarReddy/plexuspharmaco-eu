@@ -1,3 +1,4 @@
+
 "use client";
 import { motion } from "framer-motion";
 import { GraduationCap, Sparkles, BookOpen, Microscope, ArrowRight } from "lucide-react";
@@ -80,7 +81,7 @@ export default function InternshipPage() {
         </div>
 
         {/* Highlights Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
           {highlights.map((item, idx) => (
             <motion.div
               key={idx}
