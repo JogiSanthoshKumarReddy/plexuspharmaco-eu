@@ -62,7 +62,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Add Dynamic Product Routes
   if (Array.isArray(productsData)) {
-    productsData.forEach((product: any) => {
+    productsData.forEach((product: { id: string }) => {
       if (product && product.id) {
         LOCALES.forEach(locale => {
           routes.push({
@@ -78,7 +78,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Add Dynamic Press Release Routes
   if (Array.isArray(pressReleases)) {
-    pressReleases.forEach((pr: any) => {
+    pressReleases.forEach((pr) => {
       if (pr && pr.id) {
         LOCALES.forEach(locale => {
           routes.push({
