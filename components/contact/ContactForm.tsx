@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -38,6 +38,17 @@ export default function ContactForm() {
       inquiry_type: "",
     }
   });
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      const params = new URLSearchParams(window.location.search);
+      const role = params.get("role");
+      if (role) {
+        setValue("inquiry_type", "Other");
+        setValue("form_message", `I would like to apply for the role of: ${role}\n\n[Please write your cover letter here and attach a link to your resume/LinkedIn]`);
+      }
+    }
+  }, [setValue]);
 
   const selectedInquiry = useWatch({ control, name: "inquiry_type" });
 
