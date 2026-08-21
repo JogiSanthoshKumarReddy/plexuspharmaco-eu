@@ -20,6 +20,7 @@ export default function CookieBanner() {
     // Check if consent has already been given
     const consentStr = localStorage.getItem('plexus_cookie_consent');
     if (!consentStr) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setShowBanner(true);
     }
   }, []);
@@ -74,7 +75,7 @@ export default function CookieBanner() {
             <div className="flex-grow text-center md:text-left">
               <h3 className="text-lg font-bold text-slate-900 mb-2 font-outfit">We value your privacy</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
-                We use strictly necessary cookies to make our site work. We'd also like to set analytical and marketing cookies to help us improve it. We won't set optional cookies unless you enable them. For more detailed information, please see our{' '}
+                We use strictly necessary cookies to make our site work. We&apos;d also like to set analytical and marketing cookies to help us improve it. We won&apos;t set optional cookies unless you enable them. For more detailed information, please see our{' '}
                 <Link href={`/${locale}/privacy-policy`} className="text-primary hover:underline font-medium">Privacy Policy</Link>.
               </p>
             </div>

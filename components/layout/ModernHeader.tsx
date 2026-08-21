@@ -18,6 +18,7 @@ export default function ModernHeader() {
 
   const switchLanguage = (newLang: string) => {
     // Set cookie for middleware
+    // eslint-disable-next-line
     document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=31536000`;
     // pathname starts with the current locale, e.g., /en/about
     const newPath = pathname.replace(/^\/[^\/]+/, `/${newLang}`);

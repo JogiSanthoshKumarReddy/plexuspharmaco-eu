@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useSearchParams } from "next/navigation";
+import Link from "next/link";
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -309,7 +310,7 @@ export default function ContactForm() {
                 className="mt-1 w-5 h-5 rounded border-slate-300 text-brand-600 focus:ring-brand-500 transition-all"
               />
               <span className="text-sm text-slate-700 leading-relaxed">
-                I agree that Plexuspharmaco GmbH may process my personal data for the purpose of responding to my inquiry. I have read the <a href="/privacy-policy" className="text-brand-600 hover:underline">Privacy Policy</a>.
+                I agree that Plexuspharmaco GmbH may process my personal data for the purpose of responding to my inquiry. I have read the <Link href="/privacy-policy" className="text-brand-600 hover:underline">Privacy Policy</Link>.
               </span>
             </label>
             {errors.consent && <p className="mt-2 text-sm text-red-500 font-medium">{errors.consent.message}</p>}
