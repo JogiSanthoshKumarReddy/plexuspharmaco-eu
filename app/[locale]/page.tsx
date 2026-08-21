@@ -5,7 +5,6 @@ import HeroSection from "@/components/home/HeroSection";
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
 import UniqueSellingPoints from "@/components/home/UniqueSellingPoints";
 import FAQSection from "@/components/home/FAQSection";
-import ModernTestimonials from "@/components/home/ModernTestimonials";
 import CallToAction from "@/components/home/CallToAction";
 import FeatureSection from "@/components/home/FeatureSection";
 import GridSection from "@/components/home/GridSection";
@@ -127,7 +126,6 @@ export default function Home() {
         linkHref="/sustainability"
       />
 
-      {/* <ModernTestimonials /> */}
       <LatestNews />
       <FAQSection />
       <NewsletterCTA />

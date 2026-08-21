@@ -64,7 +64,7 @@ export default function PrivacyPolicyPage() {
           <ul>
             <li><strong>Right to Access (Art. 15):</strong> You have the right to request confirmation as to whether your data is being processed, and access to that data.</li>
             <li><strong>Right to Rectification (Art. 16):</strong> You have the right to request the correction of inaccurate or incomplete data.</li>
-            <li><strong>Right to Erasure (Art. 17):</strong> The "right to be forgotten" allows you to request the deletion of your personal data under certain conditions.</li>
+            <li><strong>Right to Erasure (Art. 17):</strong> The &quot;right to be forgotten&quot; allows you to request the deletion of your personal data under certain conditions.</li>
             <li><strong>Right to Restrict Processing (Art. 18):</strong> You have the right to request restriction of processing your personal data.</li>
             <li><strong>Right to Data Portability (Art. 20):</strong> You can request a structured, machine-readable copy of your data to transfer to another controller.</li>
             <li><strong>Right to Object (Art. 21):</strong> You may object to the processing of your data based on legitimate interests or direct marketing.</li>

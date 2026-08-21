@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, Download, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid } from 'lucide-react';
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';

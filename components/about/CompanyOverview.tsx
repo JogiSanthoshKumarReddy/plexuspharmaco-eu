@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { CheckCircle2 } from "lucide-react";
+import Link from "next/link";
 
 export default function CompanyOverview() {
   const points = [
@@ -72,9 +73,9 @@ export default function CompanyOverview() {
                 ))}
               </div>
 
-              <a href="/business-enquiry" className="inline-flex items-center justify-center px-8 py-4 bg-brand-900 text-white font-medium rounded-xl hover:bg-brand-800 hover:shadow-lg transition-all duration-300">
+              <Link href="/business-enquiry" className="inline-flex items-center justify-center px-8 py-4 bg-brand-900 text-white font-medium rounded-xl hover:bg-brand-800 hover:shadow-lg transition-all duration-300">
                 Partner With Us Today
-              </a>
+              </Link>
             </motion.div>
           </div>
           

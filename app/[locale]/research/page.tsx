@@ -1,4 +1,3 @@
-
 "use client";
 
 
@@ -6,6 +5,7 @@ import { motion } from "framer-motion";
 import { Microscope, Activity, Link as LinkIcon, ShieldCheck, TestTube, Network, FlaskConical, Stethoscope, BriefcaseMedical } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function ResearchPage() {
   const highlights = [
@@ -174,9 +174,9 @@ export default function ResearchPage() {
             <p className="text-lg text-brand-100 font-light leading-relaxed mb-10">
               Plexuspharmaco is aggressively expanding its therapeutic footprint. We currently have over 45 active R&D projects in various stages of development, focusing heavily on oncology, cardiovascular, and advanced nutraceutical formulations.
             </p>
-            <a href="/pipeline" className="inline-flex items-center gap-2 px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
+            <Link href="/pipeline" className="inline-flex items-center gap-2 px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
               Explore Our Pipeline
-            </a>
+            </Link>
           </div>
         </motion.div>
 

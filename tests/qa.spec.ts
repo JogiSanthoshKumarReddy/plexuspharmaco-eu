@@ -25,6 +25,7 @@ test.describe('Plexuspharmaco QA Testing', () => {
     await page.fill('input[id="form_country"]', 'UK');
     await page.getByRole('button', { name: 'Other' }).click(); // Select Inquiry Type
     await page.fill('textarea[id="form_message"]', 'This is a valid test message with more than 10 characters.');
+    await page.locator('input[name="consent"]').check();
     
     await page.getByRole('button', { name: 'Send Message' }).click();
     await expect(page.getByText('Failed to fetch')).toBeVisible({ timeout: 5000 }); // Handled error
@@ -44,6 +45,7 @@ test.describe('Plexuspharmaco QA Testing', () => {
 
     // Test Valid Submission
     await emailInput.fill('newsletter@example.com');
+    await page.locator('input[id="newsletter-consent"]').check();
     await subscribeBtn.click();
     
     await expect(page.getByText('Thank you for subscribing to our newsletter!')).toBeVisible();

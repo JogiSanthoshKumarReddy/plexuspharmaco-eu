@@ -31,7 +31,7 @@ export default function TermsConditionPage() {
           
           <h2>3. Forward-Looking Statements</h2>
           <p>
-            This website may contain forward-looking statements regarding Plexuspharmaco's future financial performance, business strategy, product pipeline, and clinical development. These statements involve substantial risks and uncertainties. Actual results or events could differ materially from those projected in forward-looking statements. We undertake no obligation to update any forward-looking statements as a result of new information or future events.
+            This website may contain forward-looking statements regarding Plexuspharmaco&apos;s future financial performance, business strategy, product pipeline, and clinical development. These statements involve substantial risks and uncertainties. Actual results or events could differ materially from those projected in forward-looking statements. We undertake no obligation to update any forward-looking statements as a result of new information or future events.
           </p>
 
           <h2>4. Intellectual Property & Trademarks</h2>
