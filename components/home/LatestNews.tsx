@@ -55,14 +55,14 @@ export default function LatestNews() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {newsItems.map((item, idx) => (
-            <motion.div 
-              key={idx}
-              initial={{ opacity: 0, y: 30 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, margin: "-50px" }}
-              transition={{ duration: 0.5, delay: idx * 0.15 }}
-              className="glass-card hover-lift rounded-3xl overflow-hidden group flex flex-col h-full bg-white"
-            >
+            <Link href="/press-release" key={idx} className="block group">
+              <motion.div 
+                initial={{ opacity: 0, y: 30 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true, margin: "-50px" }}
+                transition={{ duration: 0.5, delay: idx * 0.15 }}
+                className="glass-card hover-lift rounded-3xl overflow-hidden flex flex-col h-full bg-white"
+              >
               <div className="relative h-64 overflow-hidden">
                 <Image 
                   src={item.image} 
@@ -91,7 +91,8 @@ export default function LatestNews() {
                   </span>
                 </div>
               </div>
-            </motion.div>
+              </motion.div>
+            </Link>
           ))}
         </div>
       </div>

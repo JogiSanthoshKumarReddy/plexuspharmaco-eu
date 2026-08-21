@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Newspaper, Calendar, Image as ImageIcon, ArrowRight, Video, Mail } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
+import Link from "next/link";
 
 
 export default function MediaCenterPage() {
@@ -85,7 +86,7 @@ export default function MediaCenterPage() {
             </div>
             <div className="space-y-6">
               {pressReleases.map((pr, idx) => (
-                <div key={idx} className="group flex flex-col sm:flex-row justify-between sm:items-center gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 cursor-pointer">
+                <Link href="/press-release" key={idx} className="block group flex flex-col sm:flex-row justify-between sm:items-center gap-4 p-4 rounded-xl hover:bg-slate-50 transition-colors border border-transparent hover:border-slate-100 cursor-pointer">
                   <div>
                     <div className="flex items-center gap-3 mb-2">
                       <span className="text-xs font-bold text-slate-400 uppercase tracking-wider">{pr.date}</span>
@@ -94,7 +95,7 @@ export default function MediaCenterPage() {
                     <h4 className="text-lg font-bold text-brand-900 group-hover:text-brand-600 transition-colors">{pr.title}</h4>
                   </div>
                   <ArrowRight className="w-5 h-5 text-slate-300 group-hover:text-brand-700 group-hover:translate-x-1 transition-all flex-shrink-0 hidden sm:block" />
-                </div>
+                </Link>
               ))}
             </div>
           </div>
@@ -167,10 +168,10 @@ export default function MediaCenterPage() {
           <h3 className="text-3xl font-bold text-brand-900 mb-6">Media Kits & Assets</h3>
           <p className="text-lg text-slate-600 mb-12 max-w-2xl mx-auto">High-resolution corporate logos, executive headshots, and B-roll footage available for verified press and media organizations.</p>
           <div className="flex flex-wrap justify-center gap-6">
-            <button onClick={() => alert('Downloading Image Gallery (145 MB)...')} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
-              <ImageIcon className="w-5 h-5" /> Download Image Gallery
+            <button onClick={() => window.location.href = '/gallery'} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+              <ImageIcon className="w-5 h-5" /> View Image Gallery
             </button>
-            <button onClick={() => alert('Accessing Corporate B-Roll folder...')} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+            <button onClick={() => window.location.href = '/gallery'} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
               <Video className="w-5 h-5" /> Access Corporate B-Roll
             </button>
             <button onClick={() => window.location.href = '/business-enquiry'} className="flex items-center gap-3 px-8 py-4 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-colors shadow-md">

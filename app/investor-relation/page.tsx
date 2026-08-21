@@ -151,14 +151,18 @@ export default function InvestorRelationPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {reports.map((report, idx) => (
-              <motion.div 
+              <a
+                href="/assets/pdfs/dummy.pdf"
+                download
                 key={idx}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                onClick={() => alert(`Downloading ${report.title} (${report.size})...`)}
-                className="group flex items-center justify-between p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all cursor-pointer bg-slate-50/50 hover:bg-white"
+                className="block group"
               >
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="flex items-center justify-between p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all cursor-pointer bg-slate-50/50 hover:bg-white"
+                >
                 <div className="flex items-start gap-4">
                   <div className="w-12 h-12 rounded-xl bg-accent-500/10 flex items-center justify-center flex-shrink-0 text-accent-600">
                     <FileText className="w-6 h-6" />
@@ -177,7 +181,8 @@ export default function InvestorRelationPage() {
                 <div className="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-700 group-hover:bg-brand-900 group-hover:text-white transition-colors flex-shrink-0">
                   <Download className="w-5 h-5" />
                 </div>
-              </motion.div>
+                </motion.div>
+              </a>
             ))}
           </div>
         </div>
