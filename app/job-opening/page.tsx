@@ -1,5 +1,6 @@
 
 "use client";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import { Briefcase, ArrowRight, UserPlus, Heart, GraduationCap, TrendingUp, Sparkles, Building2, Coffee, MapPin, CheckCircle2 } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
@@ -24,6 +25,10 @@ export default function JobOpeningPage() {
     { title: "Clinical Trial Coordinator", dept: "Clinical", location: "Munich, Germany", type: "Full-Time" },
     { title: "Summer Internship (Pharma)", dept: "R&D", location: "Altendorf, Germany", type: "Internship" }
   ];
+
+  const [activeDept, setActiveDept] = useState("All");
+  const departments = ["All", ...Array.from(new Set(jobs.map(j => j.dept)))];
+  const filteredJobs = activeDept === "All" ? jobs : jobs.filter(j => j.dept === activeDept);
 
   return (
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
@@ -125,13 +130,32 @@ export default function JobOpeningPage() {
               <h3 className="text-3xl font-bold text-brand-900 mb-2">Open Positions</h3>
               <p className="text-slate-500">Join our growing global team of innovators.</p>
             </div>
-            <button className="mt-4 md:mt-0 px-6 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+            <button 
+              onClick={() => setActiveDept("All")}
+              className="mt-4 md:mt-0 px-6 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors"
+            >
               View All Departments
             </button>
           </div>
 
+          <div className="flex flex-wrap gap-3 mb-10">
+            {departments.map(dept => (
+              <button
+                key={dept}
+                onClick={() => setActiveDept(dept)}
+                className={`px-5 py-2 rounded-full font-bold text-sm transition-colors ${
+                  activeDept === dept 
+                    ? "bg-brand-900 text-white" 
+                    : "bg-slate-100 text-slate-600 hover:bg-slate-200"
+                }`}
+              >
+                {dept}
+              </button>
+            ))}
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {jobs.map((job, idx) => (
+            {filteredJobs.map((job, idx) => (
               <motion.div 
                 key={idx}
                 initial={{ opacity: 0, y: 10 }}

@@ -156,6 +156,7 @@ export default function InvestorRelationPage() {
                 initial={{ opacity: 0, y: 10 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
+                onClick={() => alert(`Downloading ${report.title} (${report.size})...`)}
                 className="group flex items-center justify-between p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all cursor-pointer bg-slate-50/50 hover:bg-white"
               >
                 <div className="flex items-start gap-4">

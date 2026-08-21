@@ -81,7 +81,7 @@ export default function MediaCenterPage() {
               <h3 className="text-2xl font-bold text-brand-900 flex items-center gap-3">
                 <Newspaper className="w-6 h-6 text-brand-700" /> Press Releases
               </h3>
-              <button className="text-brand-700 font-bold hover:text-brand-900 text-sm">View All Archive</button>
+              <button onClick={() => alert('Navigating to full archive...')} className="text-brand-700 font-bold hover:text-brand-900 text-sm">View All Archive</button>
             </div>
             <div className="space-y-6">
               {pressReleases.map((pr, idx) => (
@@ -137,6 +137,7 @@ export default function MediaCenterPage() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: idx * 0.1 }}
+                onClick={() => alert(`Opening full article: ${article.title}`)}
                 className="bg-white hover-lift overflow-hidden rounded-[2rem] border border-slate-100 shadow-sm flex flex-col h-full group cursor-pointer"
               >
                 <div className="relative h-48 w-full overflow-hidden">
@@ -166,13 +167,13 @@ export default function MediaCenterPage() {
           <h3 className="text-3xl font-bold text-brand-900 mb-6">Media Kits & Assets</h3>
           <p className="text-lg text-slate-600 mb-12 max-w-2xl mx-auto">High-resolution corporate logos, executive headshots, and B-roll footage available for verified press and media organizations.</p>
           <div className="flex flex-wrap justify-center gap-6">
-            <button className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+            <button onClick={() => alert('Downloading Image Gallery (145 MB)...')} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
               <ImageIcon className="w-5 h-5" /> Download Image Gallery
             </button>
-            <button className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+            <button onClick={() => alert('Accessing Corporate B-Roll folder...')} className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
               <Video className="w-5 h-5" /> Access Corporate B-Roll
             </button>
-            <button className="flex items-center gap-3 px-8 py-4 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-colors shadow-md">
+            <button onClick={() => window.location.href = '/business-enquiry'} className="flex items-center gap-3 px-8 py-4 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-colors shadow-md">
               <Mail className="w-5 h-5" /> Contact Press Office
             </button>
           </div>

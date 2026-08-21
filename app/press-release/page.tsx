@@ -1,7 +1,8 @@
 
 "use client";
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Megaphone, Calendar } from "lucide-react";
+import { Megaphone, Calendar, ChevronDown, ChevronUp } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 
 
@@ -38,6 +39,8 @@ export default function PressReleasePage() {
       summary: "Plexuspharmaco Group has secured NAFDAC approval for its food supplements manufacturing unit in Nigeria, marking a key milestone for the company and local consumers. The modern, validated facility is now authorized to produce EU-quality tablets, capsules, soft gels, powders, and liquid formulations, all adhering to the highest international standards. This approval reflects Plexuspharmaco's unwavering commitment to quality and safety. With a diverse portfolio designed to support nutrition and overall wellness, the company is set to elevate Nigeria's nutraceutical industry. This launch comes at a time of growing demand for preventive healthcare, offering consumers trusted, globally integrated supplements for healthier lives."
     }
   ];
+
+  const [expandedId, setExpandedId] = useState<number | null>(null);
 
   return (
     <div className="modern-page-wrapper bg-slate-50 min-h-screen pb-24">
@@ -104,9 +107,19 @@ export default function PressReleasePage() {
                 <h3 className="text-xl font-bold text-brand-900 mb-3 group-hover:text-brand-700 transition-colors">
                   {release.title}
                 </h3>
-                <p className="text-slate-600 leading-relaxed">
+                <div className={`text-slate-600 leading-relaxed overflow-hidden transition-all duration-300 ${expandedId === idx ? "line-clamp-none" : "line-clamp-2"}`}>
                   {release.summary}
-                </p>
+                </div>
+                <button 
+                  onClick={() => setExpandedId(expandedId === idx ? null : idx)}
+                  className="mt-4 flex items-center gap-2 text-sm font-bold text-brand-700 hover:text-brand-900 transition-colors"
+                >
+                  {expandedId === idx ? (
+                    <>Collapse <ChevronUp className="w-4 h-4" /></>
+                  ) : (
+                    <>Read Full Release <ChevronDown className="w-4 h-4" /></>
+                  )}
+                </button>
               </div>
             </motion.article>
           ))}
