@@ -80,6 +80,8 @@ export default function FAQSection() {
               >
                 <button
                   onClick={() => setOpenIndex(isOpen ? null : idx)}
+                  aria-expanded={isOpen}
+                  aria-controls={`faq-${idx}`}
                   className={`w-full flex items-center justify-between p-6 rounded-2xl transition-all duration-300 border text-left ${isOpen ? 'bg-brand-900 border-brand-900 shadow-lg' : 'bg-white border-slate-200 hover:border-brand-300 hover:shadow-md'}`}
                 >
                   <span className={`text-lg font-semibold pr-8 ${isOpen ? 'text-white' : 'text-brand-900'}`}>
@@ -91,6 +93,7 @@ export default function FAQSection() {
                 </button>
                 
                 <motion.div
+                  id={`faq-${idx}`}
                   initial={false}
                   animate={{ height: isOpen ? "auto" : 0, opacity: isOpen ? 1 : 0 }}
                   transition={{ duration: 0.3, ease: "easeInOut" }}

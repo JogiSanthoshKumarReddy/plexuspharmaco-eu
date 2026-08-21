@@ -106,6 +106,7 @@ export default function HeroSection() {
             key={idx}
             onClick={() => setCurrentSlide(idx)}
             aria-label={`Go to slide ${idx + 1}`}
+            aria-current={currentSlide === idx ? "true" : undefined}
             className={`w-3 h-3 rounded-full transition-all duration-500 ${
               currentSlide === idx ? "bg-accent-500 w-8" : "bg-white/40 hover:bg-white/70"
             }`}

@@ -35,13 +35,25 @@ export default function ModernHeader() {
   }, []);
 
   useEffect(() => {
+    const handleEscape = (e: KeyboardEvent) => {
+      if (e.key === 'Escape' && mobileMenuOpen) {
+        setMobileMenuOpen(false);
+        // Focus the menu button after closing for better accessibility
+        const toggleBtn = document.getElementById('mobile-menu-toggle');
+        if (toggleBtn) toggleBtn.focus();
+      }
+    };
+
     if (mobileMenuOpen) {
       document.body.style.overflow = 'hidden';
+      window.addEventListener('keydown', handleEscape);
     } else {
       document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleEscape);
     }
     return () => {
       document.body.style.overflow = '';
+      window.removeEventListener('keydown', handleEscape);
     };
   }, [mobileMenuOpen]);
 
@@ -184,6 +196,7 @@ export default function ModernHeader() {
 
           {/* Mobile Menu Toggle */}
           <button 
+            id="mobile-menu-toggle"
             className="lg:hidden relative z-50 p-2 text-brand-900 focus:outline-none focus:ring-2 focus:ring-brand-500 rounded-lg"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-expanded={mobileMenuOpen}
@@ -195,7 +208,8 @@ export default function ModernHeader() {
       </div>
 
       {/* Mobile Navigation Overlay */}
-      <div 
+      <nav 
+        aria-label="Mobile Navigation"
         className={`fixed inset-0 bg-white z-40 transition-transform duration-300 lg:hidden overflow-y-auto pt-24 pb-8 px-6 ${
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
@@ -249,7 +263,7 @@ export default function ModernHeader() {
             </Link>
           </div>
         </div>
-      </div>
+      </nav>
     </header>
   );
 }
