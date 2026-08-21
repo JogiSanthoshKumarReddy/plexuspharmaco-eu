@@ -32,6 +32,6 @@ export function proxy(request: NextRequest) {
 
 export const config = {
   matcher: [
-    '/((?!api|_next/static|_next/image|images|assets|pharma|favicon.ico|manifest.json|sitemap.xml).*)',
+    '/((?!api|_next/static|_next/image|images|assets|pharma|favicon.ico|manifest.json|sitemap.xml|robots.txt).*)',
   ],
 }
