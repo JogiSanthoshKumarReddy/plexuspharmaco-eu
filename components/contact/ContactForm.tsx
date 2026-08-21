@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle, Briefcase } from "lucide-react";
+import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle, Briefcase, Paperclip, X } from "lucide-react";
 
 // Form Schema Definition
 const contactSchema = z.object({
@@ -23,6 +23,7 @@ export default function ContactForm() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isSuccess, setIsSuccess] = useState(false);
   const [errorMessage, setErrorMessage] = useState("");
+  const [resumeFile, setResumeFile] = useState<File | null>(null);
 
   const {
     register,
@@ -61,15 +62,36 @@ export default function ContactForm() {
     { title: "Other", desc: "General inquiries", icon: HelpCircle }
   ];
 
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    if (e.target.files && e.target.files[0]) {
+      const file = e.target.files[0];
+      // Limit file size to 5MB
+      if (file.size > 5 * 1024 * 1024) {
+        setErrorMessage("File size must be less than 5MB");
+        return;
+      }
+      setResumeFile(file);
+      setErrorMessage("");
+    }
+  };
+
   const onSubmit = async (data: ContactFormValues) => {
     setIsSubmitting(true);
     setErrorMessage("");
     
     try {
+      const formData = new FormData();
+      Object.entries(data).forEach(([key, value]) => {
+        if (value) formData.append(key, value as string);
+      });
+
+      if (selectedInquiry === "Careers" && resumeFile) {
+        formData.append("resume", resumeFile);
+      }
+
       const response = await fetch("/api/submit-form", {
         method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(data),
+        body: formData,
       });
 
       const responseData = await response.json().catch(() => null);
@@ -79,33 +101,41 @@ export default function ContactForm() {
 
       setIsSuccess(true);
       reset();
+      setResumeFile(null);
       
       // Reset success message after 5 seconds
       setTimeout(() => setIsSuccess(false), 5000);
-    } catch (error: unknown) {
-      setErrorMessage(error instanceof Error ? error.message : "Something went wrong. Please try again later or contact us directly.");
+
+    } catch (error: any) {
+      setErrorMessage(error.message || "An unexpected error occurred. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
   };
 
-  return (
-    <div className="bg-white rounded-3xl shadow-xl p-8 lg:p-12 border border-slate-100 relative overflow-hidden group">
-      {/* Background Hover Glow */}
-      <div className="absolute -top-32 -right-32 w-64 h-64 bg-brand-50 rounded-full blur-[60px] pointer-events-none group-hover:bg-brand-100/50 transition-colors duration-700" />
-
-      {/* Success Overlay */}
-      <div 
-        className={`absolute inset-0 bg-white/95 backdrop-blur-md z-50 flex flex-col items-center justify-center transition-all duration-500 ${
-          isSuccess ? "opacity-100 visible" : "opacity-0 invisible pointer-events-none"
-        }`}
-      >
-        <div className="w-24 h-24 rounded-full bg-green-50 border border-green-100 flex items-center justify-center mb-6 shadow-[0_0_30px_rgba(34,197,94,0.1)]">
-          <CheckCircle2 className="w-12 h-12 text-green-500" />
+  if (isSuccess) {
+    return (
+      <div className="bg-white rounded-[2rem] p-10 lg:p-16 border border-slate-100 shadow-xl relative overflow-hidden flex flex-col items-center justify-center text-center min-h-[500px]">
+        <div className="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
+          <CheckCircle2 className="w-10 h-10" />
         </div>
-        <h3 className="text-3xl font-bold text-brand-900 mb-3 tracking-wide">Message Sent!</h3>
-        <p className="text-slate-600 text-center max-w-md font-light leading-relaxed">
-          Thank you for reaching out to Plexuspharmaco. Our global team will get back to you shortly.
+        <h3 className="text-3xl font-bold text-brand-900 mb-4">Message Sent Successfully</h3>
+        <p className="text-slate-600 text-lg">Thank you for reaching out to Plexuspharmaco. Our team will review your inquiry and get back to you shortly.</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="bg-white rounded-[2rem] p-8 lg:p-12 border border-slate-100 shadow-xl relative overflow-hidden">
+      {/* Background decoration */}
+      <div className="absolute top-0 right-0 w-64 h-64 bg-brand-50 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+      
+      <div className="flex items-center gap-4 mb-8 relative z-10">
+        <div className="w-12 h-12 bg-brand-50 rounded-xl flex items-center justify-center text-brand-900">
+          <Globe className="w-6 h-6" />
+        </div>
+        <p className="text-brand-900 font-bold uppercase tracking-wider text-sm">
+          Global Operations
         </p>
       </div>
 
@@ -232,9 +262,50 @@ export default function ContactForm() {
             {...register("form_message")}
             rows={5}
             placeholder={selectedInquiry === "Careers" ? "Please provide a brief cover letter and a link to your resume/LinkedIn profile..." : "How can we help you?"}
-            className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_message ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all resize-none`}
+            className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_message ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all resize-none mb-4`}
           />
-          {errors.form_message && <p className="mt-2 text-sm text-red-500">{errors.form_message.message}</p>}
+          {errors.form_message && <p className="mt-2 text-sm text-red-500 mb-4">{errors.form_message.message}</p>}
+
+          {/* Conditional Resume Upload Field for Careers */}
+          {selectedInquiry === "Careers" && (
+            <div className="mt-6 border-2 border-dashed border-slate-200 rounded-xl p-6 bg-slate-50/50 flex flex-col items-center justify-center text-center hover:bg-slate-50 hover:border-brand-300 transition-all">
+              {!resumeFile ? (
+                <>
+                  <div className="w-12 h-12 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 mb-3">
+                    <Paperclip className="w-5 h-5" />
+                  </div>
+                  <h4 className="text-brand-900 font-bold mb-1">Attach Resume / CV</h4>
+                  <p className="text-sm text-slate-500 mb-4">PDF, DOC, or DOCX (Max 5MB)</p>
+                  <label className="cursor-pointer inline-flex items-center gap-2 px-5 py-2.5 bg-white border border-slate-200 text-brand-900 font-medium rounded-lg hover:bg-slate-50 hover:border-brand-300 transition-all shadow-sm">
+                    <span>Browse Files</span>
+                    <input 
+                      type="file" 
+                      className="hidden" 
+                      accept=".pdf,.doc,.docx"
+                      onChange={handleFileChange}
+                    />
+                  </label>
+                </>
+              ) : (
+                <div className="flex items-center gap-4 bg-white px-5 py-3 rounded-lg border border-brand-200 shadow-sm w-full max-w-md">
+                  <div className="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-600 flex-shrink-0">
+                    <Paperclip className="w-4 h-4" />
+                  </div>
+                  <div className="flex-1 min-w-0 text-left">
+                    <p className="text-sm font-bold text-brand-900 truncate">{resumeFile.name}</p>
+                    <p className="text-xs text-slate-500">{(resumeFile.size / 1024 / 1024).toFixed(2)} MB</p>
+                  </div>
+                  <button 
+                    type="button" 
+                    onClick={() => setResumeFile(null)}
+                    className="w-8 h-8 flex items-center justify-center rounded-full hover:bg-red-50 text-slate-400 hover:text-red-500 transition-colors"
+                  >
+                    <X className="w-4 h-4" />
+                  </button>
+                </div>
+              )}
+            </div>
+          )}
         </div>
 
         {/* Submit Button */}

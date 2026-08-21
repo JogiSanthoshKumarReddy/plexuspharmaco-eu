@@ -36,10 +36,31 @@ export async function POST(request: Request) {
       rateLimitMap.set(ip, validTimestamps);
     }
 
-    const data = await request.json();
+    const contentType = request.headers.get('content-type') || '';
+    let data: Record<string, string> = {};
+    const attachments: { filename: string; content: Buffer; contentType: string }[] = [];
+    
+    if (contentType.includes('multipart/form-data')) {
+      const formData = await request.formData();
+      for (const [key, value] of formData.entries()) {
+        if (value instanceof File) {
+          if (value.size > 0 && value.name) {
+            const buffer = Buffer.from(await value.arrayBuffer());
+            attachments.push({
+              filename: value.name,
+              content: buffer,
+              contentType: value.type || 'application/octet-stream'
+            });
+          }
+        } else {
+          data[key] = String(value);
+        }
+      }
+    } else {
+      data = await request.json();
+    }
     
     // Create a Nodemailer transporter using SMTP
-    // You will need to set these environment variables in your deployment environment
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST || 'smtp.gmail.com',
       port: Number(process.env.SMTP_PORT) || 587,
@@ -77,6 +98,7 @@ export async function POST(request: Request) {
       to: process.env.SMTP_TO_EMAIL || 'info@plexuspharmaco.com',
       subject: `New Website Enquiry: ${formType}`,
       html: emailHtml,
+      attachments: attachments.length > 0 ? attachments : undefined
     };
 
     // If SMTP_USER is configured, send the email. Otherwise, mock success (for development).
@@ -84,6 +106,9 @@ export async function POST(request: Request) {
       await transporter.sendMail(mailOptions);
     } else {
       console.log('Mock email sent (SMTP not configured):', mailOptions);
+      if (attachments.length > 0) {
+        console.log(`Included ${attachments.length} attachments. First attachment: ${attachments[0].filename} (${attachments[0].content.length} bytes)`);
+      }
     }
 
     return NextResponse.json(
