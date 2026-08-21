@@ -136,6 +136,9 @@ export default function CookieBanner() {
                 </div>
                 <div className="flex-shrink-0">
                   <button 
+                    role="switch"
+                    aria-checked={analyticalConsent}
+                    aria-label="Analytical cookies"
                     onClick={() => setAnalyticalConsent(!analyticalConsent)}
                     className={`w-11 h-6 rounded-full relative transition-colors ${analyticalConsent ? 'bg-primary' : 'bg-slate-300'}`}
                   >
@@ -152,6 +155,9 @@ export default function CookieBanner() {
                 </div>
                 <div className="flex-shrink-0">
                   <button 
+                    role="switch"
+                    aria-checked={marketingConsent}
+                    aria-label="Marketing cookies"
                     onClick={() => setMarketingConsent(!marketingConsent)}
                     className={`w-11 h-6 rounded-full relative transition-colors ${marketingConsent ? 'bg-primary' : 'bg-slate-300'}`}
                   >
