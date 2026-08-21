@@ -130,12 +130,6 @@ export default function JobOpeningPage() {
               <h3 className="text-3xl font-bold text-brand-900 mb-2">Open Positions</h3>
               <p className="text-slate-500">Join our growing global team of innovators.</p>
             </div>
-            <button 
-              onClick={() => setActiveDept("All")}
-              className="mt-4 md:mt-0 px-6 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors"
-            >
-              View All Departments
-            </button>
           </div>
 
           <div className="flex flex-wrap gap-3 mb-10">
