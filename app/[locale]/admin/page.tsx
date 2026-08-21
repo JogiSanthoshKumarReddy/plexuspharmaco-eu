@@ -91,7 +91,7 @@ export default function AdminDashboard() {
           <div className="space-y-6">
             {[
               { title: "New Inquiry Received", desc: "Contract Manufacturing inquiry from TechBio GmbH.", time: "10 mins ago", icon: FileText, color: "text-brand-500", bg: "bg-brand-50" },
-              { title: "Product Updated", desc: "Admin User updated details for 'Plexwell Junior'.", time: "2 hours ago", icon: Package, color: "text-amber-500", bg: "bg-amber-50" },
+              { title: "Product Updated", desc: "Admin User updated details for 'PlexWell Junior'.", time: "2 hours ago", icon: Package, color: "text-amber-500", bg: "bg-amber-50" },
               { title: "Server Backup Completed", desc: "Daily snapshot created successfully.", time: "5 hours ago", icon: Activity, color: "text-emerald-500", bg: "bg-emerald-50" },
               { title: "New Job Application", desc: "Regulatory Affairs Manager role.", time: "1 day ago", icon: Users, color: "text-indigo-500", bg: "bg-indigo-50" },
             ].map((activity, idx) => (

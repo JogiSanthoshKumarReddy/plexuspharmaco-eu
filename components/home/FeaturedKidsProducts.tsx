@@ -29,7 +29,7 @@ export default function FeaturedKidsProducts() {
               <Star className="w-4 h-4" fill="currentColor" /> Featured Range
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-brand-900 mb-6 leading-tight">
-              Plexwell Kids Supplements
+              PlexWell Kids Supplements
             </h2>
             <p className="text-xl text-slate-600 font-light leading-relaxed">
               Premium, evidence-based nutritional support designed specifically for pediatric health, wellness, and cognitive development.

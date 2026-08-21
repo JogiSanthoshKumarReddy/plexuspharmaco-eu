@@ -1,0 +1,14 @@
+| Page | Desktop | Mobile | Links | Content | Status |
+| :--- | :---: | :---: | :---: | :---: | :--- |
+| **About** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Governance** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **CSR** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **News** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Investors** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Careers** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Products** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **R&D** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Manufacturing** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Quality** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Regulatory** | ✅ | ✅ | ✅ | ✅ | Passed |
+| **Contact** | ✅ | ✅ | ✅ | ✅ | Passed |
