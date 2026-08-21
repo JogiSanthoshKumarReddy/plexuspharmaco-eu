@@ -29,27 +29,27 @@ export default function PrivacyPolicyPage() {
             <strong>Email:</strong> <a href="mailto:info@plexuspharmaco.com">info@plexuspharmaco.com</a>
           </div>
 
-          <h2>2. Data Collection: Forms & Newsletters</h2>
+          <h2>2. Data Collection: Forms & Inquiries</h2>
           <p>
             We collect and process personal data when you voluntarily interact with our website:
           </p>
           <ul>
             <li><strong>Contact & Inquiry Forms:</strong> When you submit a business inquiry, partnership request, or general contact form, we collect your name, email address, phone number, company name, and the content of your message. This data is processed based on your consent (Art. 6(1)(a) GDPR) and our legitimate interest in fulfilling your request (Art. 6(1)(f) GDPR).</li>
-            <li><strong>Newsletter Subscriptions:</strong> If you subscribe to our newsletter, we collect your email address. We process this data based on your explicit consent (Art. 6(1)(a) GDPR). You may withdraw your consent and unsubscribe at any time using the link provided in every newsletter.</li>
+            <li><strong>Direct Communications:</strong> When you reach out to us via email or phone, we process your contact details solely to respond to your inquiry.</li>
           </ul>
 
           <h2>3. Cookies & Analytics</h2>
           <p>
-            Our website uses cookies and similar tracking technologies to enhance user experience, ensure technical functionality, and analyze site traffic.
+            Our website uses cookies and similar tracking technologies to ensure technical functionality.
           </p>
           <ul>
             <li><strong>Strictly Necessary Cookies:</strong> Required for basic site functionality (e.g., routing, session management, language preferences). Cannot be disabled.</li>
-            <li><strong>Analytical Cookies (e.g., Google Analytics):</strong> Used to understand how visitors interact with our website. These cookies collect data in an anonymized format. We only deploy these non-essential cookies with your explicit consent (Art. 6(1)(a) GDPR).</li>
+            <li><strong>Optional Cookies:</strong> If additional third-party analytics or marketing scripts are implemented, we only deploy these non-essential cookies with your explicit consent (Art. 6(1)(a) GDPR).</li>
           </ul>
 
           <h2>4. Third-Party Services & Data Sharing</h2>
           <p>
-            Plexuspharmaco GmbH does not sell, rent, or trade your personal data. We only share data with trusted third-party service providers (such as secure hosting providers, CRM platforms, and email delivery services) necessary for operating our business. All third-party processors are bound by strict Data Processing Agreements (DPAs) in compliance with GDPR.
+            Plexuspharmaco GmbH does not sell, rent, or trade your personal data. We only share data with trusted third-party service providers (such as secure hosting providers) necessary for operating our website. All third-party processors are bound by strict Data Processing Agreements (DPAs) in compliance with GDPR.
           </p>
 
           <h2>5. Data Retention</h2>

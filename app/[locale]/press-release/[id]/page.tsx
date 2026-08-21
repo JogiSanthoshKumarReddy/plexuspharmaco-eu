@@ -17,6 +17,8 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
   
   if (!release) return { title: "Not Found" };
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://plexuspharmaco.eu';
+
   return {
     title: release.title,
     description: release.summary,
@@ -26,6 +28,7 @@ export async function generateMetadata({ params }: { params: Promise<{ id: strin
     openGraph: {
       title: release.title,
       description: release.summary,
+      url: `${baseUrl}/${resolvedParams.locale}/press-release/${release.id}`,
       images: [{ url: release.image }],
     }
   };

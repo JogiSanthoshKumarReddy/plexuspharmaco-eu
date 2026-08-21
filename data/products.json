@@ -132,7 +132,7 @@
     ]
   },
   {
-    "id": "plexwell_ophthacare-junior-liquid-150 mL",
+    "id": "plexwell_ophthacare-junior-liquid-150-ml",
     "category": "Eye Vitamins",
     "name": "PlexWell OPHTHACARE JUNIOR LIQUID 150ML",
     "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml.png",
@@ -1480,7 +1480,7 @@
     ]
   },
   {
-    "id": "plexwell_junior-calcium-syrup-200 mL",
+    "id": "plexwell_junior-calcium-syrup-200-ml",
     "category": "Calcium Supplements",
     "name": "PlexWell JUNIOR CALCIUM SYRUP 200ML",
     "image": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200ml.png",
@@ -1505,7 +1505,7 @@
     "advertImage": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200 mL_Advert.png"
   },
   {
-    "id": "plexwell-omega-syrup-200 mL",
+    "id": "plexwell-omega-syrup-200-ml",
     "category": "Omega Supplements",
     "name": "PlexWell OMEGA SYRUP 200 mL",
     "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL Omega + Multiitamin Syrup for kids 200ml.png",
@@ -1535,7 +1535,7 @@
     ]
   },
   {
-    "id": "plexwell-seniomega-syrup-200 mL",
+    "id": "plexwell-seniomega-syrup-200-ml",
     "category": "Omega Supplements",
     "name": "PlexWell SENIOMEGA SYRUP 200 mL",
     "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell SeniOmega Syrup for 50+ age 200ml.png",
@@ -1563,7 +1563,7 @@
     ]
   },
   {
-    "id": "plexwell-omega-syrup-150 mL",
+    "id": "plexwell-omega-syrup-150-ml",
     "category": "Omega Supplements",
     "name": "PlexWell OMEGA SYRUP 150ML",
     "image": "/images/products/omega-supplements/Plexwell Omega Syrup 150ml.png",
@@ -1591,7 +1591,7 @@
     ]
   },
   {
-    "id": "plexwell-uti-biotic-syrup-150 mL",
+    "id": "plexwell-uti-biotic-syrup-150-ml",
     "category": "Age-Slow Complex",
     "name": "PlexWell UTI-BIOTIC SYRUP 150 mL",
     "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC Syrup 150ml.png",
@@ -1618,7 +1618,7 @@
     ]
   },
   {
-    "id": "plexwell-uti-biotic-syrup-op-2-150 mL",
+    "id": "plexwell-uti-biotic-syrup-op-2-150-ml",
     "category": "Biotics",
     "name": "PlexWell UTI-BIOTIC SYRUP OP 2 150ML",
     "image": "/images/products/biotics/Plexwell UTI-BIOTIC Syrup OP 2 150ml.png",
@@ -1642,7 +1642,7 @@
     ]
   },
   {
-    "id": "plexwell-cod-liver-oil-1500mg_200 mL",
+    "id": "plexwell-cod-liver-oil-1500mg_200-ml",
     "category": "Omega Supplements",
     "name": "PlexWell COD LIVER OIL 1500MG 200ML",
     "image": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200ml.png",
@@ -1951,7 +1951,7 @@
     ]
   },
   {
-    "id": "ferrolyte-liquid-200 mL",
+    "id": "ferrolyte-liquid-200-ml",
     "category": "General Wellness",
     "name": "FERROLYTE LIQUID 200ML",
     "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid 200ml.png",
@@ -1982,7 +1982,7 @@
     ]
   },
   {
-    "id": "ferrolyte-liquid-plus-200 mL",
+    "id": "ferrolyte-liquid-plus-200-ml",
     "category": "General Wellness",
     "name": "FERROLYTE LIQUID PLUS 200ML",
     "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid PLUS 200ml.png",
@@ -2121,7 +2121,7 @@
     ]
   },
   {
-    "id": "ageslow-complex_combo-pack_n60-capsule50 mL-bitter-drops-together",
+    "id": "ageslow-complex_combo-pack_n60-capsule50-ml-bitter-drops-together",
     "category": "Age-Slow Complex",
     "name": "AGESLOW-COMPLEX COMBO PACK N60 CAPSULE+50ML BITTER DROPS TOGETHER",
     "image": "/images/products/age-slow-complex/AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together.png",
@@ -2478,7 +2478,7 @@
     ]
   },
   {
-    "id": "plexwell-osteomax-liquid-200 mL",
+    "id": "plexwell-osteomax-liquid-200-ml",
     "category": "Age-Slow Complex",
     "name": "PlexWell OSTEOMAX LIQUID 200ML",
     "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax liquid 200ml.png",
@@ -4134,7 +4134,7 @@
     ]
   },
   {
-    "id": "folifen-liquid-150 mL",
+    "id": "folifen-liquid-150-ml",
     "category": "Women's Health",
     "name": "FOLIFEN LIQUID 150ML",
     "image": "/images/products/women-health/Folifen liquid 150ml.jpeg",

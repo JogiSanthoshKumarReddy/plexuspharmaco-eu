@@ -1,0 +1,25 @@
+{
+  "catalogue": {
+    "title": "Product Catalogue",
+    "breadcrumb": "Catalogue",
+    "global_portfolio": "Global Healthcare Portfolio",
+    "explore_therapies": "Explore Our Advanced Therapies",
+    "description": "At Plexus Group, we develop integrated pharmaceutical solutions using proprietary technology platforms to enhance therapeutic performance, dosing efficiency, and patient adherence. Our portfolio spans across multiple therapeutic indications targeting unmet global healthcare needs.",
+    "filter_products": "Filter Products",
+    "filters": "Filters",
+    "therapeutic_categories": "Therapeutic Categories",
+    "search_placeholder": "Search products by name or therapeutic area...",
+    "showing": "Showing",
+    "premium_solutions": "premium solutions",
+    "key_ingredients": "Key Ingredients",
+    "more": "more",
+    "view_full_details": "View Full Details",
+    "load_more": "Load More Products",
+    "remaining": "remaining",
+    "no_products_found": "No products found",
+    "no_products_desc": "We couldn't find any products matching",
+    "in": "in",
+    "adjust_search": "Please try adjusting your search terms.",
+    "clear_filters": "Clear All Filters"
+  }
+}

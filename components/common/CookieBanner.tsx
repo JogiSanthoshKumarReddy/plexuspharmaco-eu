@@ -3,10 +3,14 @@
 import React, { useState, useEffect } from 'react';
 import { X, Shield, Settings } from 'lucide-react';
 import Link from 'next/link';
+import { useParams } from 'next/navigation';
 
 export default function CookieBanner() {
   const [showBanner, setShowBanner] = useState(false);
   const [showPreferences, setShowPreferences] = useState(false);
+  
+  const params = useParams();
+  const locale = params?.locale || 'en';
   
   // Consent toggles
   const [analyticalConsent, setAnalyticalConsent] = useState(false);
@@ -25,6 +29,7 @@ export default function CookieBanner() {
   const handleAcceptAll = () => {
     const preferences = { strictlyNecessary: true, analytical: true, marketing: true, timestamp: new Date().toISOString() };
     localStorage.setItem('plexus_cookie_consent', JSON.stringify(preferences));
+    window.dispatchEvent(new Event('plexus_consent_updated'));
     setShowBanner(false);
     setShowPreferences(false);
   };
@@ -32,6 +37,7 @@ export default function CookieBanner() {
   const handleRejectAll = () => {
     const preferences = { strictlyNecessary: true, analytical: false, marketing: false, timestamp: new Date().toISOString() };
     localStorage.setItem('plexus_cookie_consent', JSON.stringify(preferences));
+    window.dispatchEvent(new Event('plexus_consent_updated'));
     setShowBanner(false);
     setShowPreferences(false);
   };
@@ -39,6 +45,7 @@ export default function CookieBanner() {
   const handleSavePreferences = () => {
     const preferences = { strictlyNecessary: true, analytical: analyticalConsent, marketing: marketingConsent, timestamp: new Date().toISOString() };
     localStorage.setItem('plexus_cookie_consent', JSON.stringify(preferences));
+    window.dispatchEvent(new Event('plexus_consent_updated'));
     setShowBanner(false);
     setShowPreferences(false);
   };
@@ -70,7 +77,7 @@ export default function CookieBanner() {
               <h3 className="text-lg font-bold text-slate-900 mb-2 font-outfit">We value your privacy</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 We use strictly necessary cookies to make our site work. We'd also like to set analytical and marketing cookies to help us improve it. We won't set optional cookies unless you enable them. For more detailed information, please see our{' '}
-                <Link href="/privacy-policy" className="text-primary hover:underline font-medium">Privacy Policy</Link>.
+                <Link href={`/${locale}/privacy-policy`} className="text-primary hover:underline font-medium">Privacy Policy</Link>.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row w-full md:w-auto gap-3 flex-shrink-0">

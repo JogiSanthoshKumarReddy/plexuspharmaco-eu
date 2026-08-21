@@ -10,8 +10,8 @@ import { Product } from '@/types/product';
 import { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }): Promise<Metadata> {
-  const { id } = await params;
-  const product = products.find((p) => p.id === id);
+  const resolvedParams = await params;
+  const product = products.find((p) => p.id === resolvedParams.id);
 
   if (!product) {
     return {
@@ -20,12 +20,36 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     };
   }
 
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://plexuspharmaco.eu';
+  
+  // Use product image or a fallback
+  const getProductImage = (category: string) => {
+    const nutraCategories = ["KID’S HEALTH", "VITAMINS", "SUPPLEMENTS", "NUTRACEUTICALS", "SPORTS NUTRITION", "SLEEP & RELAXATION"];
+    if (nutraCategories.some(cat => category.toUpperCase().includes(cat))) {
+      return "/assets/images/pharma_product_nutra.png";
+    }
+    return "/assets/images/pharma_product_pharma.png";
+  };
+  const imageUrl = product.image || getProductImage(product.category);
+
   return {
     title: `${product.name} | Plexuspharmaco`,
     description: product.description.substring(0, 160),
+    alternates: {
+      canonical: `/${resolvedParams.locale}/product-catalogue/${product.id}`,
+    },
     openGraph: {
       title: product.name,
       description: product.description.substring(0, 160),
+      url: `${baseUrl}/${resolvedParams.locale}/product-catalogue/${product.id}`,
+      images: [
+        {
+          url: imageUrl,
+          width: 800,
+          height: 600,
+          alt: product.name,
+        }
+      ],
     },
   };
 }

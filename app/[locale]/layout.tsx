@@ -6,6 +6,7 @@ import ModernFooter from "@/components/layout/ModernFooter";
 import RouteChangeHandler from "@/components/common/RouteChangeHandler";
 import StructuredData from "@/components/common/StructuredData";
 import CookieBanner from "@/components/common/CookieBanner";
+import ScriptManager from "@/components/common/ScriptManager";
 
 // Import modern UI fonts
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -100,6 +101,7 @@ export default async function RootLayout({
           </main>
           <ModernFooter locale={locale} />
           <CookieBanner />
+          <ScriptManager />
         </div>
       </body>
     </html>
