@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname, useRouter } from "next/navigation";
+import { useParams, usePathname, useRouter } from "next/navigation";
 import { Menu, X, ChevronDown, Globe } from "lucide-react";
 import { navigation } from "../../data/navigation";
 
@@ -13,6 +13,8 @@ export default function ModernHeader() {
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const pathname = usePathname();
   const router = useRouter();
+  const params = useParams();
+  const locale = params?.locale || 'en';
 
   const switchLanguage = (newLang: string) => {
     // Set cookie for middleware
@@ -67,14 +69,14 @@ export default function ModernHeader() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8" aria-label="Main Navigation">
             <Link 
-              href="/" 
-              className={`font-medium transition-colors ${pathname === "/" ? "text-brand-600" : "text-brand-900 hover:text-brand-600"}`}
+              href={`/${locale}`}
+              className={`font-medium transition-colors ${pathname === `/${locale}` ? "text-brand-600" : "text-brand-900 hover:text-brand-600"}`}
             >
               Home
             </Link>
             
             {navigation.map((nav, idx) => {
-              const isActive = nav.items.some(item => pathname === item.href || pathname.startsWith(item.href + '/'));
+              const isActive = nav.items.some(item => pathname === `/${locale}${item.href}` || pathname.startsWith(`/${locale}${item.href}` + '/'));
               
               return (
                 <div 
@@ -109,7 +111,7 @@ export default function ModernHeader() {
                           {nav.description || "Explore our comprehensive offerings and commitment to advancing global healthcare through innovation and quality."}
                         </p>
                       </div>
-                      <Link href={nav.items[0]?.href || "/"} className="text-sm text-brand-600 font-bold hover:text-brand-800 transition-colors inline-flex items-center gap-1">
+                      <Link href={`/${locale}${nav.items[0]?.href || ""}`} className="text-sm text-brand-600 font-bold hover:text-brand-800 transition-colors inline-flex items-center gap-1">
                         View All <ChevronDown className="w-3 h-3 -rotate-90" />
                       </Link>
                     </div>
@@ -117,10 +119,10 @@ export default function ModernHeader() {
                       {nav.items.map((item, i) => (
                         <Link 
                           key={i} 
-                          href={item.href}
+                          href={`/${locale}${item.href}`}
                           role="menuitem"
                           className={`block px-6 py-2.5 text-sm transition-colors focus-visible:outline-none focus-visible:bg-brand-50 ${
-                            pathname === item.href 
+                            pathname === `/${locale}${item.href}`
                               ? "bg-brand-50 text-brand-900 font-bold" 
                               : "text-brand-700 hover:bg-brand-50 hover:text-brand-900"
                           }`}
@@ -159,9 +161,6 @@ export default function ModernHeader() {
                 <div className="py-2">
                   {[
                     { code: "en", label: "English" },
-                    { code: "de", label: "German" },
-                    { code: "fr", label: "French" },
-                    { code: "es", label: "Spanish" },
                   ].map((lang) => (
                     <button
                       key={lang.code}
@@ -176,7 +175,7 @@ export default function ModernHeader() {
             </div>
 
             <Link 
-              href="/business-enquiry" 
+              href={`/${locale}/business-enquiry`}
               className="px-6 py-2.5 bg-brand-900 hover:bg-brand-800 text-white rounded-lg font-medium transition-colors shadow-sm hover:shadow-md"
             >
               Contact Us
@@ -203,10 +202,10 @@ export default function ModernHeader() {
       >
         <div className="flex flex-col gap-6">
           <Link 
-            href="/" 
+            href={`/${locale}`}
             onClick={() => setMobileMenuOpen(false)} 
-            className={`text-xl font-medium border-b border-slate-100 pb-4 ${pathname === "/" ? "text-brand-600" : "text-brand-900"}`}
-            aria-current={pathname === "/" ? "page" : undefined}
+            className={`text-xl font-medium border-b border-slate-100 pb-4 ${pathname === `/${locale}` ? "text-brand-600" : "text-brand-900"}`}
+            aria-current={pathname === `/${locale}` ? "page" : undefined}
           >
             Home
           </Link>
@@ -216,11 +215,11 @@ export default function ModernHeader() {
               <div className="text-lg font-bold text-brand-900 mb-2">{nav.title}</div>
               <div className="flex flex-col gap-3 pl-4 border-l-2 border-brand-100">
                 {nav.items.map((item, i) => {
-                  const isItemActive = pathname === item.href;
+                  const isItemActive = pathname === `/${locale}${item.href}`;
                   return (
                     <Link 
                       key={i} 
-                      href={item.href}
+                      href={`/${locale}${item.href}`}
                       onClick={() => setMobileMenuOpen(false)}
                       className={`font-medium ${isItemActive ? "text-brand-900 font-bold" : "text-brand-700"}`}
                       aria-current={isItemActive ? "page" : undefined}
@@ -238,14 +237,11 @@ export default function ModernHeader() {
               <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-2"><Globe className="w-4 h-4"/> Select Language</h4>
               <div className="grid grid-cols-2 gap-2">
                 <button onClick={() => switchLanguage("en")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">English</button>
-                <button onClick={() => switchLanguage("de")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">German</button>
-                <button onClick={() => switchLanguage("fr")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">French</button>
-                <button onClick={() => switchLanguage("es")} className="px-4 py-2 bg-slate-50 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100">Spanish</button>
               </div>
             </div>
             
             <Link 
-              href="/business-enquiry" 
+              href={`/${locale}/business-enquiry`}
               className="block w-full text-center bg-brand-700 text-white py-4 rounded-xl font-medium text-lg"
               onClick={() => setMobileMenuOpen(false)}
             >

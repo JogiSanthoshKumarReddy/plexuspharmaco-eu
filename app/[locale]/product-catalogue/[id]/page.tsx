@@ -9,7 +9,7 @@ import { Product } from '@/types/product';
 
 import { Metadata } from 'next';
 
-export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const product = products.find((p) => p.id === id);
 
@@ -36,7 +36,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function ProductDetailsPage({ params }: { params: Promise<{ id: string }> }) {
+export default async function ProductDetailsPage({ params }: { params: Promise<{ locale: string; id: string }> }) {
   const { id } = await params;
   const product = products.find((p) => p.id === id);
 
@@ -117,14 +117,16 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
 
               <div className="flex flex-col sm:flex-row gap-4 mt-auto pt-8 border-t border-slate-100">
                 <Link 
-                  href="/business-enquiry" 
+                  href={`/${(await params).locale}/business-enquiry`}
                   className="px-8 py-4 bg-brand-900 hover:bg-brand-800 text-white rounded-xl font-bold text-center transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
                   <FileText className="w-5 h-5" /> Enquire About Product
                 </Link>
+                {/* Brochure functionality disabled until official brochures are provided 
                 <button className="px-8 py-4 bg-white hover:bg-slate-50 text-brand-900 border border-slate-200 rounded-xl font-bold text-center transition-all duration-300 shadow-sm flex items-center justify-center gap-2 group">
                   <Download className="w-5 h-5 text-slate-400 group-hover:text-brand-900 transition-colors" /> Download Brochure
                 </button>
+                */}
               </div>
             </div>
           </div>
@@ -181,22 +183,8 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
 
             <div className="space-y-6 relative z-10 font-light text-brand-100 leading-relaxed">
               <p>
-                All Plexuspharmaco products are manufactured in modern, validated facilities adhering to stringent Global Good Manufacturing Practices (cGMP).
+                All Plexuspharmaco products are manufactured in modern, validated facilities adhering to rigorous quality standards. Specific regulatory documentation (CoA, FSC, GMP) and stability data are available upon request during the commercial inquiry process.
               </p>
-              <ul className="space-y-4 pt-4 border-t border-brand-800">
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-accent-500" /> 100% Quality Assured
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-accent-500" /> Rigorous Third-Party Testing
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-accent-500" /> Clinically Validated Ingredients
-                </li>
-                <li className="flex items-center gap-3">
-                  <div className="w-2 h-2 rounded-full bg-accent-500" /> Sustainably Sourced
-                </li>
-              </ul>
             </div>
           </div>
         </div>
@@ -207,15 +195,15 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <Package className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Packaging</h3>
-            <p className="text-slate-600 font-light">Available in primary packaging (blisters, HDPE bottles) and secondary packaging compliant with international transport standards. Customized packaging available for bulk orders.</p>
+            <p className="text-slate-600 font-light">Customized packaging configurations available for bulk orders to meet destination market requirements.</p>
           </div>
           
           <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
             <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
               <ThermometerSnowflake className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-bold text-brand-900 mb-4">Storage Conditions</h3>
-            <p className="text-slate-600 font-light">Store in a cool, dry place away from direct sunlight. Maintain temperature between 15°C and 25°C unless otherwise specified. Keep out of reach of children.</p>
+            <h3 className="text-xl font-bold text-brand-900 mb-4">Storage & Stability</h3>
+            <p className="text-slate-600 font-light">Specific storage conditions and comprehensive stability data are detailed in the product dossier, available upon commercial request.</p>
           </div>
           
           <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
@@ -223,7 +211,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <FileCheck className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Regulatory Compliance</h3>
-            <p className="text-slate-600 font-light">Manufactured under EU-GMP guidelines. Comprehensive dossiers (CTD format), Certificates of Analysis (CoA), and Free Sale Certificates (FSC) available upon request.</p>
+            <p className="text-slate-600 font-light">Dossiers (CTD format) and other necessary regulatory documentation are prepared per the specific regulatory requirements of the target market.</p>
           </div>
         </div>
 
@@ -243,7 +231,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             </div>
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
               <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Are stability studies available?</h4>
-              <p className="text-slate-600 font-light text-sm">Real-time and accelerated stability study data for climatic zones II, III, and IV are available as part of the product dossier.</p>
+              <p className="text-slate-600 font-light text-sm">Stability data corresponding to relevant climatic zones is available as part of the product dossier.</p>
             </div>
           </div>
         </div>

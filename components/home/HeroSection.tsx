@@ -2,6 +2,8 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
+import Link from "next/link";
+import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { homepageData } from "@/data/homepage";
 
@@ -14,6 +16,8 @@ const slides = [
 export default function HeroSection() {
   const { title, subtitle } = homepageData.hero;
   const [currentSlide, setCurrentSlide] = useState(0);
+  const params = useParams();
+  const locale = params?.locale || 'en';
 
   useEffect(() => {
     const timer = setInterval(() => {
@@ -85,12 +89,12 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.8, ease: "easeOut" }}
             className="flex flex-col sm:flex-row gap-4"
           >
-            <a href="/about" className="px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
+            <Link href={`/${locale}/about`} className="px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               Discover Our Company
-            </a>
-            <a href="/business-enquiry" className="px-8 py-4 bg-transparent border-2 border-white/30 hover:border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all duration-300 text-center">
+            </Link>
+            <Link href={`/${locale}/business-enquiry`} className="px-8 py-4 bg-transparent border-2 border-white/30 hover:border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all duration-300 text-center">
               Partner With Us
-            </a>
+            </Link>
           </motion.div>
         </div>
       </div>

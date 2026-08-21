@@ -1,7 +1,10 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
 import { ChevronRight } from "lucide-react";
 import Script from "next/script";
+import { useParams } from "next/navigation";
 
 interface BreadcrumbHeroProps {
   title: string;
@@ -10,6 +13,10 @@ interface BreadcrumbHeroProps {
 }
 
 export default function BreadcrumbHero({ title, paths, bgImage = "/assets/images/breadcrumb/breadcrumb-1.jpg" }: BreadcrumbHeroProps) {
+  const params = useParams();
+  const locale = params?.locale || 'en';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://plexuspharmaco.eu';
+
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -18,13 +25,13 @@ export default function BreadcrumbHero({ title, paths, bgImage = "/assets/images
         "@type": "ListItem",
         "position": 1,
         "name": "Home",
-        "item": "https://plexuspharmaco.eu"
+        "item": `${baseUrl}/${locale}`
       },
       ...paths.map((path, idx) => ({
         "@type": "ListItem",
         "position": idx + 2,
         "name": path.name,
-        "item": path.href ? `https://plexuspharmaco.eu${path.href}` : undefined
+        "item": path.href ? `${baseUrl}/${locale}${path.href}` : undefined
       }))
     ]
   };
@@ -53,12 +60,12 @@ export default function BreadcrumbHero({ title, paths, bgImage = "/assets/images
         </h1>
         
         <div className="flex items-center justify-center gap-2 text-brand-200 text-sm md:text-base">
-          <Link href="/" className="hover:text-white transition-colors font-medium">Home</Link>
+          <Link href={`/${locale}`} className="hover:text-white transition-colors font-medium">Home</Link>
           {paths.map((path, idx) => (
             <div key={idx} className="flex items-center gap-2">
               <ChevronRight className="w-4 h-4 text-brand-400" />
               {path.href ? (
-                <Link href={path.href} className="hover:text-white transition-colors font-medium">
+                <Link href={`/${locale}${path.href}`} className="hover:text-white transition-colors font-medium">
                   {path.name}
                 </Link>
               ) : (

@@ -2,12 +2,16 @@
 
 import Image from "next/image";
 import Link from "next/link";
+import { useParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { ArrowRight, Star } from "lucide-react";
 import products from "@/data/products.json";
 import { Product } from "@/types/product";
 
 export default function FeaturedKidsProducts() {
+  const params = useParams();
+  const locale = params?.locale || 'en';
+
   // Filter only the kids products that have the new WeTransfer images
   const featuredProducts = products.filter(
     (p: Product) =>
@@ -36,7 +40,7 @@ export default function FeaturedKidsProducts() {
             </p>
           </div>
           <Link
-            href="/product-catalogue"
+            href={`/${locale}/product-catalogue`}
             className="inline-flex items-center gap-2 px-6 py-3 bg-white border-2 border-brand-100 text-brand-700 hover:text-white hover:bg-brand-900 hover:border-brand-900 font-bold rounded-xl transition-all duration-300 shadow-sm group whitespace-nowrap"
           >
             View All Products
@@ -54,7 +58,7 @@ export default function FeaturedKidsProducts() {
               transition={{ duration: 0.6, delay: idx * 0.1 }}
             >
               <Link
-                href={`/product-catalogue/${product.id}`}
+                href={`/${locale}/product-catalogue/${product.id}`}
                 className="group block h-full bg-white rounded-3xl border border-slate-100 shadow-sm hover:shadow-2xl hover:shadow-brand-900/5 hover:-translate-y-2 transition-all duration-500 overflow-hidden relative"
               >
                 <div className="relative h-64 bg-slate-50/50 p-6 flex items-center justify-center overflow-hidden border-b border-slate-50">

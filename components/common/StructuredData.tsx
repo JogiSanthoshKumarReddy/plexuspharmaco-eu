@@ -1,19 +1,20 @@
 import Script from "next/script";
 
-export default function StructuredData() {
+export default function StructuredData({ locale = 'en' }: { locale?: string }) {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://plexuspharmaco.eu';
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
     "name": "Plexuspharmaco Europe",
-    "url": "https://plexuspharmaco.eu",
-    "logo": "https://plexuspharmaco.eu/pharma/assets/images/696f65db8cb34.png",
+    "url": `${baseUrl}/${locale}`,
+    "logo": `${baseUrl}/pharma/assets/images/696f65db8cb34.png`,
     "description": "A globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+44 742 225 1805",
+      "telephone": "+49 152 1304 8766",
       "contactType": "customer service",
       "areaServed": "Global",
-      "availableLanguage": ["English", "German", "French"]
+      "availableLanguage": ["English"]
     },
     "sameAs": [
       "https://www.linkedin.com/company/plexuspharmaco"

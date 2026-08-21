@@ -91,14 +91,14 @@ export default async function RootLayout({
           }
         ` }} /> 
         */}
-        <StructuredData />
+        <StructuredData locale={locale} />
         <div className="flex flex-col min-h-screen">
           <RouteChangeHandler />
           <ModernHeader />
           <main className="flex-grow pt-24">
             {children}
           </main>
-          <ModernFooter />
+          <ModernFooter locale={locale} />
           <CookieBanner />
         </div>
       </body>
