@@ -150,25 +150,26 @@ export default function JobOpeningPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {filteredJobs.map((job, idx) => (
-              <motion.div 
-                key={idx}
-                initial={{ opacity: 0, y: 10 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                className="group flex flex-col sm:flex-row sm:items-center justify-between p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all cursor-pointer bg-slate-50/50 hover:bg-white"
-              >
-                <div>
-                  <h4 className="text-xl font-bold text-brand-900 mb-2 group-hover:text-brand-600 transition-colors">{job.title}</h4>
-                  <div className="flex flex-wrap items-center gap-3 text-sm text-slate-500 font-medium">
-                    <span className="bg-slate-200/50 px-2.5 py-1 rounded-md text-slate-600">{job.dept}</span>
-                    <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> {job.location}</span>
-                    <span className="flex items-center gap-1"><Briefcase className="w-4 h-4" /> {job.type}</span>
+              <Link href="/business-enquiry" key={idx} className="block group">
+                <motion.div 
+                  initial={{ opacity: 0, y: 10 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  className="flex flex-col sm:flex-row sm:items-center justify-between p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all cursor-pointer bg-slate-50/50 hover:bg-white"
+                >
+                  <div>
+                    <h4 className="text-xl font-bold text-brand-900 mb-2 group-hover:text-brand-600 transition-colors">{job.title}</h4>
+                    <div className="flex flex-wrap items-center gap-3 text-sm text-slate-500 font-medium">
+                      <span className="bg-slate-200/50 px-2.5 py-1 rounded-md text-slate-600">{job.dept}</span>
+                      <span className="flex items-center gap-1"><MapPin className="w-4 h-4" /> {job.location}</span>
+                      <span className="flex items-center gap-1"><Briefcase className="w-4 h-4" /> {job.type}</span>
+                    </div>
                   </div>
-                </div>
-                <div className="mt-4 sm:mt-0 w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-700 group-hover:bg-brand-900 group-hover:text-white transition-colors">
-                  <ArrowRight className="w-5 h-5 group-hover:-rotate-45 transition-transform" />
-                </div>
-              </motion.div>
+                  <div className="mt-4 sm:mt-0 w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-700 group-hover:bg-brand-900 group-hover:text-white transition-colors flex-shrink-0">
+                    <ArrowRight className="w-5 h-5 group-hover:-rotate-45 transition-transform" />
+                  </div>
+                </motion.div>
+              </Link>
             ))}
           </div>
 
