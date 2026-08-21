@@ -1,11 +1,10 @@
-
 "use client";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import ContactForm from "@/components/contact/ContactForm";
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
 import { Mail, MapPin, Phone, Clock, Briefcase, Stethoscope, Users, Building2, AlertTriangle, ChevronDown } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
-import { useState } from "react";
+import { useState, Suspense } from "react";
 
 export default function BusinessEnquiryPage() {
   const departments = [
@@ -50,7 +49,9 @@ export default function BusinessEnquiryPage() {
             transition={{ delay: 0.1 }}
             className="lg:col-span-2"
           >
-            <ContactForm />
+            <Suspense fallback={<div className="p-8 text-center text-slate-500">Loading form...</div>}>
+              <ContactForm />
+            </Suspense>
           </motion.div>
 
           {/* Contact Info Column */}

@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useSearchParams } from "next/navigation";
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
@@ -40,16 +41,22 @@ export default function ContactForm() {
     }
   });
 
+  const searchParams = useSearchParams();
+
   useEffect(() => {
-    if (typeof window !== "undefined") {
-      const params = new URLSearchParams(window.location.search);
-      const role = params.get("role");
-      if (role) {
-        setValue("inquiry_type", "Careers");
-        setValue("form_message", `Role Application: ${role}\n\n`);
+    const role = searchParams?.get("role");
+    if (role) {
+      setValue("inquiry_type", "Careers");
+      setValue("form_message", `Role Application: ${role}\n\n`);
+    } else {
+      // If there is no role param, reset to default state if it was previously set to Careers
+      const currentInquiry = control._formValues.inquiry_type;
+      if (currentInquiry === "Careers") {
+        setValue("inquiry_type", "");
+        setValue("form_message", "");
       }
     }
-  }, [setValue]);
+  }, [searchParams, setValue, control]);
 
   const selectedInquiry = useWatch({ control, name: "inquiry_type" });
 
