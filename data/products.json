@@ -29,7 +29,7 @@
     "id": "plexwell-junior-kids-multivitamin-gummies",
     "category": "Kids Health",
     "name": "PLEXWELL JUNIOR KIDS’ MULTIVITAMIN GUMMIES",
-    "image": "/images/products/kids/PlexWell_Junior 2 gummies daily N60.png",
+    "image": "/images/products/kids/PlexWell_Junior daily 2 multivitamin gummies N60.png",
     "description": "Premium PlexWell Junior 2 gummies daily N60 formulation scientifically designed for optimal kids' health support.",
     "ingredients": [
       {
@@ -58,7 +58,7 @@
     "id": "plexwell-junior-multivitamin-liquid",
     "category": "Kids Health",
     "name": "PLEXWELL JUNIOR MULTIVITAMIN LIQUID",
-    "image": "/images/products/kids/Plexwell Junior multivitamin kids liquid 200 mL.png",
+    "image": "/images/products/kids/Plexwell Junior multivitamin kids liquid 200ml.png",
     "description": "Premium Plexwell Junior children's multivitamin liquid 200 mL formulation scientifically designed for optimal kids' health support.",
     "ingredients": [
       {
@@ -83,7 +83,7 @@
     "id": "plexwell-baby-multivitamin-drops",
     "category": "Kids Health",
     "name": "PLEXWELL BABY MULTIVITAMIN DROPS",
-    "image": "/images/products/kids/PlexWell Baby multivitamin drops 50 mL.png",
+    "image": "/images/products/kids/PlexWell Baby multiviamin drops 50ml.png",
     "description": "Premium PlexWell Baby multivitamin drops 50 mL formulation scientifically designed for optimal kids' health support.",
     "ingredients": [
       {
@@ -108,7 +108,7 @@
     "id": "plexwell-baby-vit-d3-drops",
     "category": "Kids Health",
     "name": "PLEXWELL BABY VIT D3 DROPS",
-    "image": "/images/products/kids/PlexWell Baby Vit D3 drops 20 mL.png",
+    "image": "/images/products/kids/PlexWell Baby Vit D3 drops 20ml.png",
     "description": "Premium PlexWell Baby Vit D3 drops 20 mL formulation scientifically designed for optimal kids' health support.",
     "ingredients": [
       {
@@ -224,7 +224,7 @@
     "id": "plexwell-men-70-multivitamin-spray",
     "category": "Men's Health",
     "name": "PLEXWELL MEN 70+ MULTIVITAMIN Spray",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 70+ multivitamin_Spray 75 mL.png",
+    "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 70+ multivitamin_Spray 75ml.png",
     "description": "Premium PlexWell Men 70+ multivitamin_Spray 75 mL formulation scientifically designed for optimal men s health support.",
     "ingredients": [
       {
@@ -675,7 +675,7 @@
     "id": "plexwell-omega-syrup-200 mL",
     "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA SYRUP 200 mL",
-    "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL Omega + Multiitamin Syrup for kids 200 mL.png",
+    "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL Omega + Multiitamin Syrup for kids 200ml.png",
     "description": "Premium PLEXWELL Omega + Multiitamin Syrup for kids 200 mL formulation scientifically designed for optimal men   women wellness pouches support.",
     "ingredients": [
       {
@@ -705,7 +705,7 @@
     "id": "plexwell-seniomega-syrup-200 mL",
     "category": "Omega Supplements",
     "name": "PLEXWELL SENIOMEGA SYRUP 200 mL",
-    "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell SeniOmega Syrup for 50+ age 200 mL.png",
+    "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell SeniOmega Syrup for 50+ age 200ml.png",
     "description": "Premium PlexWell SeniOmega Syrup for 50+ age 200 mL formulation scientifically designed for optimal men   women wellness pouches support.",
     "ingredients": [
       {
@@ -903,7 +903,7 @@
     "id": "ferrolyte-liquid-200 mL",
     "category": "General Wellness",
     "name": "FERROLYTE LIQUID 200ML",
-    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid 200 mL.png",
+    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid 200ml.png",
     "description": "Premium Ferrolyte Liquid 200 mL formulation scientifically designed for optimal men   women wellness pouches support.",
     "ingredients": [
       {
@@ -934,7 +934,7 @@
     "id": "ferrolyte-liquid-plus-200 mL",
     "category": "General Wellness",
     "name": "FERROLYTE LIQUID PLUS 200ML",
-    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid PLUS 200 mL.png",
+    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid PLUS 200ml.png",
     "description": "Premium Ferrolyte Liquid PLUS 200 mL formulation scientifically designed for optimal men   women wellness pouches support.",
     "ingredients": [
       {
@@ -1018,7 +1018,7 @@
     "id": "age-slow-complex-bitter-drops",
     "category": "Age-Slow Complex",
     "name": "AGE-SLOW COMPLEX BITTER DROPS",
-    "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex BItter drops 50 mL.png",
+    "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex BItter drops 50ml.png",
     "description": "Premium AgeSlow-Complex BItter drops 50 mL formulation scientifically designed for optimal anti aging ageslow complex support.",
     "ingredients": [
       {
@@ -1353,7 +1353,7 @@
     "id": "plexwell-osteomax-liquid-200 mL",
     "category": "Age-Slow Complex",
     "name": "PLEXWELL OSTEOMAX LIQUID 200ML",
-    "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax liquid 200 mL.png",
+    "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax liquid 200ml.png",
     "description": "Premium Plexwell_Osteomax liquid 200 mL formulation scientifically designed for optimal anti aging ageslow complex support.",
     "ingredients": [
       {
@@ -1601,7 +1601,7 @@
     "id": "plexwell-ophthacare-junior-syrup",
     "category": "Age-Slow Complex",
     "name": "PLEXWELL OPHTHACARE JUNIOR SYRUP",
-    "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare Junior Syrup 150 mL.png",
+    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml.png",
     "description": "Premium PlexWell_Ophthacare Junior Syrup 150 mL formulation scientifically designed for optimal anti aging ageslow complex support.",
     "ingredients": [
       {
@@ -1733,7 +1733,7 @@
     "id": "plexwell-cough-care-junior",
     "category": "Age-Slow Complex",
     "name": "PLEXWELL COUGH-CARE JUNIOR",
-    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Junior Day time 150 mL.png",
+    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Junior Day time 150ml.png",
     "description": "Premium Plexwell Cough Care Junior Day time 150 mL formulation scientifically designed for optimal anti aging ageslow complex support.",
     "ingredients": [
       {
@@ -1757,7 +1757,7 @@
     "id": "plexwell-cough-care",
     "category": "Age-Slow Complex",
     "name": "PLEXWELL COUGH-CARE",
-    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Adult 200 mL.png",
+    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Adult 200ml.png",
     "description": "Premium Plexwell Cough Care Adult 200 mL formulation scientifically designed for optimal anti aging ageslow complex support.",
     "ingredients": [
       {
@@ -1944,7 +1944,7 @@
     "id": "plexwell-uti-biotic-syrup-150 mL",
     "category": "Age-Slow Complex",
     "name": "PLEXWELL UTI-BIOTIC SYRUP 150 mL",
-    "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC Syrup 150 mL.png",
+    "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC Syrup 150ml.png",
     "description": "Premium Plexwell UTI-BIOTIC Syrup 150 mL formulation scientifically designed for optimal anti aging ageslow complex support.",
     "ingredients": [
       {
@@ -2027,7 +2027,7 @@
     "id": "ageslow-complex_combo-pack_n60-capsule50 mL-bitter-drops-together",
     "category": "Age-Slow Complex",
     "name": "AGESLOW-COMPLEX COMBO PACK N60 CAPSULE+50ML BITTER DROPS TOGETHER",
-    "image": "/images/products/age-slow-complex/AgeSlow-Complex_Combo Pack_N60 Capsule+50 mL bitter drops together.png",
+    "image": "/images/products/age-slow-complex/AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together.png",
     "description": "Premium AgeSlow-Complex_Combo Pack_N60 Capsule+50 mL bitter drops together formulation scientifically designed for optimal age slow complex support.",
     "ingredients": [
       {
@@ -2274,7 +2274,7 @@
     "id": "plexwell-cod-liver-oil-1500mg_200 mL",
     "category": "Omega Supplements",
     "name": "PLEXWELL COD LIVER OIL 1500MG 200ML",
-    "image": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200 mL.png",
+    "image": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200ml.png",
     "description": "Premium PlexWell Cod Liver Oil 1500mg_200 mL formulation scientifically designed for optimal omega supplements support.",
     "ingredients": [
       {
@@ -2416,7 +2416,7 @@
     "id": "plexwell-omega-syrup-150 mL",
     "category": "Omega Supplements",
     "name": "PLEXWELL OMEGA SYRUP 150ML",
-    "image": "/images/products/omega-supplements/Plexwell Omega Syrup 150 mL.png",
+    "image": "/images/products/omega-supplements/Plexwell Omega Syrup 150ml.png",
     "description": "Premium Plexwell Omega Syrup 150 mL formulation scientifically designed for optimal omega supplements support.",
     "ingredients": [
       {
@@ -2909,7 +2909,7 @@
     "id": "plexwell_junior-calcium-syrup-200 mL",
     "category": "Calcium Supplements",
     "name": "PLEXWELL JUNIOR CALCIUM SYRUP 200ML",
-    "image": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200 mL.png",
+    "image": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200ml.png",
     "description": "Premium Plexwell_Junior Calcium Syrup 200 mL formulation scientifically designed for optimal men health support.",
     "ingredients": [
       {
@@ -3087,7 +3087,7 @@
     "id": "plexwell_ophthacare-junior-liquid-150 mL",
     "category": "Eye Vitamins",
     "name": "PLEXWELL OPHTHACARE JUNIOR LIQUID 150ML",
-    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150 mL.png",
+    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml.png",
     "description": "Premium PlexWell_Ophthacare Junior Liquid 150 mL formulation scientifically designed for optimal eye vitamins support.",
     "ingredients": [
       {
@@ -3651,7 +3651,7 @@
     "id": "plexwell-uti-biotic-syrup-op-2-150 mL",
     "category": "Biotics",
     "name": "PLEXWELL UTI-BIOTIC SYRUP OP 2 150ML",
-    "image": "/images/products/biotics/Plexwell UTI-BIOTIC Syrup OP 2 150 mL.png",
+    "image": "/images/products/biotics/Plexwell UTI-BIOTIC Syrup OP 2 150ml.png",
     "description": "Premium Plexwell UTI-BIOTIC Syrup OP 2 150 mL formulation scientifically designed for optimal men health support.",
     "ingredients": [
       {
@@ -3726,7 +3726,7 @@
     "id": "folifen-liquid-150 mL",
     "category": "Women's Health",
     "name": "FOLIFEN LIQUID 150ML",
-    "image": "/images/products/women-health/Folifen liquid 150 mL.jpeg",
+    "image": "/images/products/women-health/Folifen liquid 150ml.jpeg",
     "description": "Premium Folifen liquid 150 mL formulation scientifically designed for optimal women health support.",
     "ingredients": [
       {
