@@ -67,4 +67,26 @@ test.describe('Plexuspharmaco QA Testing', () => {
     await expect(page.getByText('Active Ingredients')).toBeVisible();
   });
 
+  test('Hero CTAs Navigation', async ({ page }) => {
+    // Navigate to homepage
+    await page.goto('http://localhost:3000/');
+    
+    // Click 'Discover Our Company'
+    await page.getByRole('link', { name: 'Discover Our Company' }).click();
+    await expect(page).toHaveURL(/.*\/about/);
+    
+    // Ensure the page successfully loaded content
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+
+    // Go back to homepage
+    await page.goto('http://localhost:3000/');
+    
+    // Click 'Partner With Us'
+    await page.getByRole('link', { name: 'Partner With Us' }).click();
+    await expect(page).toHaveURL(/.*\/business-enquiry/);
+    
+    // Ensure the page successfully loaded content
+    await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+  });
+
 });
