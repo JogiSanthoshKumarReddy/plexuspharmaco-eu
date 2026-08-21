@@ -36,10 +36,10 @@ export default function HeroSection() {
         >
           <Image
             src={slides[currentSlide].image}
-            alt="Pharmaceutical Hero Background"
+            alt=""
             fill
-            priority
             className="object-cover object-center opacity-60"
+            priority={currentSlide === 0}
           />
           {/* Premium Gradient Overlay */}
           <div className="absolute inset-0 bg-gradient-to-r from-brand-900/90 via-brand-900/60 to-transparent mix-blend-multiply" />

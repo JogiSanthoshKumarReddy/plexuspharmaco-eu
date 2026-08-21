@@ -11,7 +11,7 @@ export default function CallToAction() {
       <div className="absolute inset-0 z-0">
         <Image
           src="/assets/images/hero-1.jpg"
-          alt="Global Partnership"
+          alt=""
           fill
           className="object-cover object-center opacity-40"
         />

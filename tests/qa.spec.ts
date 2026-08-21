@@ -89,4 +89,26 @@ test.describe('Plexuspharmaco QA Testing', () => {
     await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
   });
 
+  test('Homepage CTAs Navigation', async ({ page }) => {
+    const ctas = [
+      { name: 'Discover Our R&D Engine', urlRegex: /.*\/research-development/ },
+      { name: 'View Our Capabilities', urlRegex: /.*\/manufacture-capability/ },
+      { name: 'Read Our Quality Policy', urlRegex: /.*\/quality-assurance/ },
+      { name: 'Learn About Our Impact', urlRegex: /.*\/sustainability/ },
+      { name: 'View All News', urlRegex: /.*\/media/ },
+      { name: 'Start a Conversation', urlRegex: /.*\/business-enquiry/ },
+      { name: 'View All Products', urlRegex: /.*\/product-catalogue/ },
+      { name: 'View Our Products', urlRegex: /.*\/product-catalogue/ }
+    ];
+
+    for (const cta of ctas) {
+      await page.goto('http://localhost:3000/');
+      const link = page.getByRole('link', { name: cta.name, exact: false }).first();
+      await link.scrollIntoViewIfNeeded();
+      await link.click();
+      await expect(page).toHaveURL(cta.urlRegex);
+      await expect(page.getByRole('heading', { level: 1 }).first()).toBeVisible();
+    }
+  });
+
 });
