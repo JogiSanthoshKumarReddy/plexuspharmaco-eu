@@ -6,7 +6,7 @@ import path from 'path';
 import productsData from '@/data/products.json';
 import { pressReleases } from '@/data/press-releases';
 
-const BASE_URL = 'https://plexuspharmaco.eu';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://plexuspharmaco.eu';
 const LOCALES = ['en', 'de', 'fr', 'es'];
 
 export default function sitemap(): MetadataRoute.Sitemap {

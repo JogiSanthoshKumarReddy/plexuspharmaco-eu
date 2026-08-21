@@ -11,7 +11,27 @@ export function generateStaticParams() {
   }));
 }
 
-export default async function PressReleaseArticle({ params }: { params: Promise<{ id: string }> }) {
+export async function generateMetadata({ params }: { params: Promise<{ id: string, locale: string }> }) {
+  const resolvedParams = await params;
+  const release = pressReleases.find((pr) => pr.id === resolvedParams.id);
+  
+  if (!release) return { title: "Not Found" };
+
+  return {
+    title: release.title,
+    description: release.summary,
+    alternates: {
+      canonical: `/${resolvedParams.locale}/press-release/${release.id}`,
+    },
+    openGraph: {
+      title: release.title,
+      description: release.summary,
+      images: [{ url: release.image }],
+    }
+  };
+}
+
+export default async function PressReleaseArticle({ params }: { params: Promise<{ id: string, locale: string }> }) {
   const resolvedParams = await params;
   const release = pressReleases.find((pr) => pr.id === resolvedParams.id);
   
