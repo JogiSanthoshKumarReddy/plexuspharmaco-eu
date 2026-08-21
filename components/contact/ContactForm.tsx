@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle } from "lucide-react";
+import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle, Briefcase } from "lucide-react";
 
 // Form Schema Definition
 const contactSchema = z.object({
@@ -44,8 +44,8 @@ export default function ContactForm() {
       const params = new URLSearchParams(window.location.search);
       const role = params.get("role");
       if (role) {
-        setValue("inquiry_type", "Other");
-        setValue("form_message", `I would like to apply for the role of: ${role}\n\n[Please write your cover letter here and attach a link to your resume/LinkedIn]`);
+        setValue("inquiry_type", "Careers");
+        setValue("form_message", `Role Application: ${role}\n\n`);
       }
     }
   }, [setValue]);
@@ -57,6 +57,7 @@ export default function ContactForm() {
     { title: "Contract Manufacturing", desc: "End-to-end CMO services", icon: Factory },
     { title: "Product Sourcing", desc: "Supply chain & API sourcing", icon: PackageSearch },
     { title: "Regulatory Affairs", desc: "Compliance & submissions", icon: ShieldCheck },
+    { title: "Careers", desc: "Join our global team", icon: Briefcase },
     { title: "Other", desc: "General inquiries", icon: HelpCircle }
   ];
 
@@ -230,7 +231,7 @@ export default function ContactForm() {
             id="form_message"
             {...register("form_message")}
             rows={5}
-            placeholder="How can we help you?"
+            placeholder={selectedInquiry === "Careers" ? "Please provide a brief cover letter and a link to your resume/LinkedIn profile..." : "How can we help you?"}
             className={`w-full px-5 py-4 rounded-xl bg-slate-50 border ${errors.form_message ? "border-red-500 focus:ring-red-500/20" : "border-slate-200 focus:border-brand-500 focus:ring-brand-500/20"} text-base text-brand-900 placeholder-slate-400 focus:ring-4 focus:bg-white focus:outline-none transition-all resize-none`}
           />
           {errors.form_message && <p className="mt-2 text-sm text-red-500">{errors.form_message.message}</p>}
