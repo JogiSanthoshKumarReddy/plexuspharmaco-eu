@@ -49,7 +49,7 @@ export default function MediaKitsPage() {
               <h3 className="text-xl font-bold text-brand-900 mb-3">{kit.title}</h3>
               <p className="text-slate-600 text-sm mb-8 flex-grow">{kit.description}</p>
               
-              <button onClick={() => alert('Downloading asset...')} className="w-full flex items-center justify-center gap-2 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+              <button onClick={() => alert(`Downloading ${kit.title}...`)} className="w-full flex items-center justify-center gap-2 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
                 <Download className="w-4 h-4" /> Download ({kit.size})
               </button>
             </div>
