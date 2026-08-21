@@ -8,10 +8,10 @@ import Image from "next/image";
 
 export default function InvestorRelationPage() {
   const reports = [
-    { year: "2026", title: "Q2 2026 Financial Results", type: "PDF", size: "4.2 MB" },
-    { year: "2026", title: "Annual Sustainability & ESG Report", type: "PDF", size: "12.5 MB" },
-    { year: "2025", title: "Annual Report 2025", type: "PDF", size: "8.1 MB" },
-    { year: "2025", title: "Corporate Governance Statement", type: "PDF", size: "2.3 MB" }
+    { year: "2026", title: "Q2 2026 Financial Results", type: "PDF", size: "4.2 MB", file: "/assets/pdfs/financial-report-2026.pdf" },
+    { year: "2026", title: "Annual Sustainability & ESG Report", type: "PDF", size: "12.5 MB", file: "/assets/pdfs/esg-report-2026.pdf" },
+    { year: "2025", title: "Annual Report 2025", type: "PDF", size: "8.1 MB", file: "/assets/pdfs/annual-report-2025.pdf" },
+    { year: "2025", title: "Corporate Governance Statement", type: "PDF", size: "2.3 MB", file: "/assets/pdfs/governance-statement.pdf" }
   ];
 
   const pillars = [
@@ -152,7 +152,7 @@ export default function InvestorRelationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {reports.map((report, idx) => (
               <a
-                href="/assets/pdfs/dummy.pdf"
+                href={report.file}
                 download
                 key={idx}
                 className="block group"
