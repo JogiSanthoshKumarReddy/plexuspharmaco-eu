@@ -127,7 +127,7 @@ export default function Home() {
         linkHref="/sustainability"
       />
 
-      <ModernTestimonials />
+      {/* <ModernTestimonials /> */}
       <LatestNews />
       <FAQSection />
       <NewsletterCTA />

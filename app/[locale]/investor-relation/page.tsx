@@ -87,16 +87,11 @@ export default function InvestorRelationPage() {
                 As we aggressively expand our manufacturing footprint and advance our robust R&D pipeline, we remain deeply committed to delivering sustainable, long-term returns for our shareholders while fulfilling our primary mission: improving patient lives globally.
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
-                  <div className="text-4xl font-black text-brand-700 mb-2">€450M+</div>
-                  <div className="text-sm font-bold text-slate-500 uppercase">Annual Revenue</div>
+                <div className="bg-brand-50 p-6 rounded-2xl border border-brand-100 shadow-sm">
+                  <p className="text-sm font-medium text-brand-800 leading-relaxed">
+                    "Our disciplined approach to capital allocation, coupled with a rigorous focus on R&D and manufacturing excellence, positions Plexuspharmaco to generate sustainable value across all market cycles."
+                  </p>
                 </div>
-                <div className="bg-white p-6 rounded-2xl border border-slate-100 shadow-sm text-center">
-                  <div className="text-4xl font-black text-brand-700 mb-2">15%</div>
-                  <div className="text-sm font-bold text-slate-500 uppercase">YoY Growth</div>
-                </div>
-              </div>
             </motion.div>
           </div>
         </div>
@@ -185,6 +180,14 @@ export default function InvestorRelationPage() {
               </a>
             ))}
           </div>
+        </div>
+
+        {/* Forward-Looking Disclosure */}
+        <div className="mb-24 text-center max-w-4xl mx-auto px-6">
+          <p className="text-xs text-slate-400 leading-relaxed font-light text-justify">
+            <strong className="font-bold text-slate-500">Disclaimer / Forward-Looking Statements:</strong> The information contained on this website and in the downloadable reports above may contain forward-looking statements regarding Plexuspharmaco's financial position, business strategy, and future operations. These statements involve known and unknown risks, uncertainties, and other factors that may cause actual results, performance, or achievements to differ materially from those expressed or implied. 
+            All financial figures and reports provided on this site are for illustrative or informational purposes only and do not constitute an offer to sell or a solicitation of an offer to buy any securities.
+          </p>
         </div>
 
       </div>
