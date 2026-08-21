@@ -7,16 +7,19 @@ import productsData from '@/data/products.json';
 import { pressReleases } from '@/data/press-releases';
 
 const BASE_URL = 'https://plexuspharmaco.eu';
+const LOCALES = ['en', 'de', 'fr', 'es'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const routes: MetadataRoute.Sitemap = [];
 
-  // Add the root homepage
-  routes.push({
-    url: BASE_URL,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 1,
+  // Add the root homepage for all locales
+  LOCALES.forEach(locale => {
+    routes.push({
+      url: `${BASE_URL}/${locale}`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    });
   });
 
   // Dynamically find all static routes in app/[locale]
@@ -36,11 +39,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
           
           // If a page.tsx exists here, it's a valid route
           if (fs.existsSync(path.join(fullPath, 'page.tsx'))) {
-            routes.push({
-              url: `${BASE_URL}/${newBase}`,
-              lastModified: new Date(),
-              changeFrequency: 'monthly',
-              priority: 0.8,
+            // Generate a localized URL for each supported language
+            LOCALES.forEach(locale => {
+              routes.push({
+                url: `${BASE_URL}/${locale}/${newBase}`,
+                lastModified: new Date(),
+                changeFrequency: 'monthly',
+                priority: 0.8,
+              });
             });
           }
           
@@ -58,11 +64,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   if (Array.isArray(productsData)) {
     productsData.forEach((product: any) => {
       if (product && product.id) {
-        routes.push({
-          url: `${BASE_URL}/product-catalogue/${product.id}`,
-          lastModified: new Date(),
-          changeFrequency: 'monthly',
-          priority: 0.7,
+        LOCALES.forEach(locale => {
+          routes.push({
+            url: `${BASE_URL}/${locale}/product-catalogue/${product.id}`,
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 0.7,
+          });
         });
       }
     });
@@ -72,11 +80,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   if (Array.isArray(pressReleases)) {
     pressReleases.forEach((pr: any) => {
       if (pr && pr.id) {
-        routes.push({
-          url: `${BASE_URL}/press-release/${pr.id}`,
-          lastModified: new Date(pr.date || new Date()), // Try to use actual PR date if available
-          changeFrequency: 'yearly',
-          priority: 0.6,
+        LOCALES.forEach(locale => {
+          routes.push({
+            url: `${BASE_URL}/${locale}/press-release/${pr.id}`,
+            lastModified: new Date(pr.date || new Date()), // Try to use actual PR date if available
+            changeFrequency: 'yearly',
+            priority: 0.6,
+          });
         });
       }
     });

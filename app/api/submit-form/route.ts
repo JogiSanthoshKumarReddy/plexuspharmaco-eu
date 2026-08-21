@@ -101,14 +101,12 @@ export async function POST(request: Request) {
       attachments: attachments.length > 0 ? attachments : undefined
     };
 
-    // If SMTP_USER is configured, send the email. Otherwise, mock success (for development).
+    // If SMTP_USER is configured, send the email. Otherwise, throw an error.
     if (process.env.SMTP_USER) {
       await transporter.sendMail(mailOptions);
     } else {
-      console.log('Mock email sent (SMTP not configured):', mailOptions);
-      if (attachments.length > 0) {
-        console.log(`Included ${attachments.length} attachments. First attachment: ${attachments[0].filename} (${attachments[0].content.length} bytes)`);
-      }
+      console.error('CRITICAL: SMTP_USER is not configured. Cannot send email:', mailOptions);
+      throw new Error('SMTP Configuration Error');
     }
 
     return NextResponse.json(
@@ -118,7 +116,7 @@ export async function POST(request: Request) {
   } catch (error: unknown) {
     console.error('Error sending email:', error);
     return NextResponse.json(
-      { success: false, message: 'Failed to submit form. Please try again later.', error: (error as Error).message },
+      { success: false, message: 'Unable to process your request. Please try again later.' },
       { status: 500 }
     );
   }

@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
           </p>
           <ul>
             <li><strong>Contact & Inquiry Forms:</strong> When you submit a business inquiry, partnership request, or general contact form, we collect your name, email address, phone number, company name, and the content of your message. This data is processed based on your consent (Art. 6(1)(a) GDPR) and our legitimate interest in fulfilling your request (Art. 6(1)(f) GDPR).</li>
-            <li><strong>Newsletter Subscriptions:</strong> If you subscribe to our newsletter, we collect your email address. We employ a double-opt-in procedure to verify your consent. You may withdraw your consent and unsubscribe at any time using the link provided in every newsletter.</li>
+            <li><strong>Newsletter Subscriptions:</strong> If you subscribe to our newsletter, we collect your email address. We process this data based on your explicit consent (Art. 6(1)(a) GDPR). You may withdraw your consent and unsubscribe at any time using the link provided in every newsletter.</li>
           </ul>
 
           <h2>3. Cookies & Analytics</h2>

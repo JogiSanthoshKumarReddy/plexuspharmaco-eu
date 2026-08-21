@@ -16,6 +16,7 @@ const contactSchema = z.object({
   inquiry_type: z.string().min(1, "Please select an inquiry type"),
   form_message: z.string().min(10, "Message must be at least 10 characters long"),
   formType: z.string(),
+  consent: z.boolean().refine(val => val === true, "You must agree to the Privacy Policy to submit this form"),
 });
 
 type ContactFormValues = z.infer<typeof contactSchema>;
@@ -317,6 +318,20 @@ export default function ContactForm() {
 
         {/* Submit Button */}
         <div>
+          <div className="mb-6 bg-slate-50 p-4 rounded-xl border border-slate-200">
+            <label className="flex items-start gap-3 cursor-pointer">
+              <input 
+                type="checkbox"
+                {...register("consent")}
+                className="mt-1 w-5 h-5 rounded border-slate-300 text-brand-600 focus:ring-brand-500 transition-all"
+              />
+              <span className="text-sm text-slate-700 leading-relaxed">
+                I agree that Plexuspharmaco GmbH may process my personal data for the purpose of responding to my inquiry. I have read the <a href="/privacy-policy" className="text-brand-600 hover:underline">Privacy Policy</a>.
+              </span>
+            </label>
+            {errors.consent && <p className="mt-2 text-sm text-red-500 font-medium">{errors.consent.message}</p>}
+          </div>
+
           <button 
             type="submit"
             disabled={isSubmitting}

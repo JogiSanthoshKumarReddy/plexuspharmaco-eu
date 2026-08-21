@@ -7,12 +7,18 @@ import Image from "next/image";
 
 export default function NewsletterCTA() {
   const [email, setEmail] = useState("");
+  const [consent, setConsent] = useState(false);
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [errorMessage, setErrorMessage] = useState("");
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!email) return;
+    if (!consent) {
+      setStatus("error");
+      setErrorMessage("You must agree to the Privacy Policy to subscribe.");
+      return;
+    }
 
     setStatus("loading");
     setErrorMessage("");
@@ -109,9 +115,19 @@ export default function NewsletterCTA() {
                 </p>
               )}
               
-              <p className="text-brand-200/60 text-xs mt-4 text-center lg:text-left">
-                By subscribing, you agree to our Privacy Policy and consent to receive corporate communications.
-              </p>
+              <div className="mt-4 flex items-start gap-3">
+                <input 
+                  type="checkbox" 
+                  id="newsletter-consent" 
+                  checked={consent}
+                  onChange={(e) => setConsent(e.target.checked)}
+                  disabled={status === "loading" || status === "success"}
+                  className="mt-1 w-4 h-4 rounded border-brand-700/50 text-accent-500 focus:ring-accent-500/50 bg-brand-800"
+                />
+                <label htmlFor="newsletter-consent" className="text-brand-200/80 text-xs text-left cursor-pointer">
+                  I agree that Plexuspharmaco GmbH may process my email address to send me corporate newsletters. I have read the <a href="/privacy-policy" className="text-accent-400 hover:underline">Privacy Policy</a>.
+                </label>
+              </div>
             </div>
           </div>
         </motion.div>
