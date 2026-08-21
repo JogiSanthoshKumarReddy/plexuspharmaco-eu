@@ -113,8 +113,8 @@ export default function ContactForm() {
       // Reset success message after 5 seconds
       setTimeout(() => setIsSuccess(false), 5000);
 
-    } catch (error: any) {
-      setErrorMessage(error.message || "An unexpected error occurred. Please try again.");
+    } catch (error: unknown) {
+      setErrorMessage((error as Error).message || "An unexpected error occurred. Please try again.");
     } finally {
       setIsSubmitting(false);
     }
