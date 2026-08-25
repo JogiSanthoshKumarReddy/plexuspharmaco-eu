@@ -60,8 +60,9 @@ export default function ModernHeader() {
 
 
   return (
-    <header 
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-[var(--ease-premium)] ${
+    <>
+      <header 
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-[var(--ease-premium)] ${
         isScrolled ? "bg-white/95 backdrop-blur-xl shadow-[0_4px_20px_-10px_rgba(16,42,67,0.1)] py-3" : "bg-white py-5 border-b border-transparent"
       }`}
       style={isScrolled ? { WebkitBackdropFilter: "blur(24px)", backdropFilter: "blur(24px)" } : {}}
@@ -211,6 +212,7 @@ export default function ModernHeader() {
           </button>
         </div>
       </div>
+    </header>
 
       {/* Mobile Navigation Overlay */}
       <nav 
@@ -273,6 +275,6 @@ export default function ModernHeader() {
           </div>
         </div>
       </nav>
-    </header>
+    </>
   );
 }
