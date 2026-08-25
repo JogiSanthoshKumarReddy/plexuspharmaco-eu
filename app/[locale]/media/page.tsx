@@ -21,19 +21,22 @@ export default function MediaCenterPage() {
       title: "Leadership & Vision: Plexuspharmaco's Science-Led Growth Journey",
       date: "02-02-2026",
       summary: "Media profiles often reference the leadership vision driving Plexuspharmaco's growth trajectory. A strong emphasis on science, quality, and ethics defines the Group's culture.",
-      image: "/assets/images/pharma_hero_corporate.png"
+      image: "/assets/images/pharma_hero_corporate.png",
+      link: "/press-release"
     },
     {
       title: "Diversified Portfolio Drives Plexuspharmaco's Market Relevance",
       date: "02-02-2026",
       summary: "Media commentary highlights Plexuspharmaco's broad portfolio covering pharma FDFs, nutraceuticals, medical devices, dermo-cosmetics, and biological products.",
-      image: "/assets/images/pharma_hero_mfg.png"
+      image: "/assets/images/pharma_hero_mfg.png",
+      link: "/press-release"
     },
     {
       title: "Global Expansion Story: Expanding International Presence",
       date: "15-01-2026",
       summary: "Media features have highlighted Plexuspharmaco's expanding footprint across Europe, LATAM, Africa, Asia, and GCC regions.",
-      image: "/assets/images/pharma_hero_corporate.png"
+      image: "/assets/images/pharma_hero_corporate.png",
+      link: "/press-release"
     }
   ];
 
@@ -127,14 +130,14 @@ export default function MediaCenterPage() {
           <h3 className="text-3xl font-bold text-brand-900 mb-10 text-center">Featured Media Coverage</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {articles.map((article, idx) => (
-              <motion.article
-                key={idx}
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ delay: idx * 0.1 }}
-                className="bg-white hover-lift overflow-hidden rounded-[2rem] border border-slate-100 shadow-sm flex flex-col h-full group cursor-pointer"
-              >
+              <Link href={article.link} key={idx} className="block h-full">
+                <motion.article
+                  initial={{ opacity: 0, y: 30 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: idx * 0.1 }}
+                  className="bg-white hover-lift overflow-hidden rounded-[2rem] border border-slate-100 shadow-sm flex flex-col h-full group cursor-pointer"
+                >
                 <div className="relative h-48 w-full overflow-hidden">
                   <Image src={article.image} alt={article.title} fill className="object-cover group-hover:scale-110 transition-transform duration-700" />
                 </div>
@@ -152,7 +155,8 @@ export default function MediaCenterPage() {
                     Read Full Article <ArrowRight className="w-4 h-4" />
                   </span>
                 </div>
-              </motion.article>
+                </motion.article>
+              </Link>
             ))}
           </div>
         </div>

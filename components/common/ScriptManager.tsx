@@ -16,7 +16,7 @@ export default function ScriptManager() {
           setAnalytical(!!consent.analytical);
           setMarketing(!!consent.marketing);
         }
-      } catch (_e) {
+      } catch {
         // parsing error
       }
     };
