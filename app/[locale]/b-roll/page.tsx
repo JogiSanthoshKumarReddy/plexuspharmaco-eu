@@ -11,19 +11,22 @@ export default function BRollPage() {
       title: "Manufacturing Facility Overview",
       description: "High-definition aerial and interior shots of our Munich and Hyderabad production sites.",
       duration: "03:45",
-      resolution: "4K UHD"
+      resolution: "4K UHD",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
     },
     {
       title: "Laboratory & R&D Operations",
       description: "Close-up b-roll of scientists, clean rooms, and automated testing equipment.",
       duration: "02:20",
-      resolution: "1080p HD"
+      resolution: "1080p HD",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
     },
     {
       title: "Logistics & Supply Chain",
       description: "Footage of global distribution centers, automated packaging, and shipping.",
       duration: "01:55",
-      resolution: "4K UHD"
+      resolution: "4K UHD",
+      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
     }
   ];
 
@@ -50,7 +53,7 @@ export default function BRollPage() {
               <div className="w-full md:w-1/3 aspect-video bg-slate-900 rounded-xl relative flex items-center justify-center overflow-hidden group">
                 <div className="absolute inset-0 opacity-40 bg-[url('/assets/images/pharma_hero_mfg.png')] bg-cover bg-center"></div>
                 <PlayCircle 
-                  onClick={() => setActiveVideo(video.title)}
+                  onClick={() => setActiveVideo(video.videoUrl)}
                   className="w-12 h-12 text-white/80 group-hover:text-white transition-colors relative z-10 cursor-pointer hover:scale-110" 
                 />
                 <span className="absolute bottom-2 right-2 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded">
@@ -89,7 +92,7 @@ export default function BRollPage() {
               controls 
               autoPlay 
               className="w-full h-full object-cover"
-              src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+              src={activeVideo}
             >
               Your browser does not support the video tag.
             </video>
