@@ -12,21 +12,21 @@ export default function BRollPage() {
       description: "High-definition aerial and interior shots of our Munich and Hyderabad production sites.",
       duration: "03:45",
       resolution: "4K UHD",
-      videoUrl: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+      videoUrl: "/assets/videos/flower.mp4"
     },
     {
       title: "Laboratory & R&D Operations",
       description: "Close-up b-roll of scientists, clean rooms, and automated testing equipment.",
       duration: "02:20",
       resolution: "1080p HD",
-      videoUrl: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"
+      videoUrl: "/assets/videos/friday.mp4"
     },
     {
       title: "Logistics & Supply Chain",
       description: "Footage of global distribution centers, automated packaging, and shipping.",
       duration: "01:55",
       resolution: "4K UHD",
-      videoUrl: "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4"
+      videoUrl: "/assets/videos/Big_Buck_Bunny_1080_10s_1MB.mp4"
     }
   ];
 
@@ -94,9 +94,10 @@ export default function BRollPage() {
               autoPlay 
               muted
               playsInline
+              preload="auto"
               className="w-full h-full object-cover"
-              src={activeVideo}
             >
+              <source src={activeVideo} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
