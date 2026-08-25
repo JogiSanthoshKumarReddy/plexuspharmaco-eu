@@ -45,5 +45,5 @@ export default function GoogleTranslate() {
 
   }, [locale]);
 
-  return <div id="google_translate_element" style={{ display: "none", visibility: "hidden" }}></div>;
+  return <div id="google_translate_element" className="opacity-0 absolute -z-50 w-px h-px overflow-hidden pointer-events-none"></div>;
 }

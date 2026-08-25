@@ -79,7 +79,10 @@ export default async function RootLayout({
         <meta name="theme-color" content="#1e3a8a" />
         <link rel="manifest" href="/manifest.json" />
       </head>
-      <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
+      <body 
+        className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}
+        suppressHydrationWarning={true}
+      >
         <GoogleTranslate />
         <StructuredData locale={locale} />
         <div className="flex flex-col min-h-screen">
