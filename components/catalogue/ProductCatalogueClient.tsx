@@ -187,12 +187,12 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                     className="glass-card rounded-3xl overflow-hidden hover-lift group flex flex-col h-full bg-white border border-slate-100"
                   >
                     {/* Image Header */}
-                    <div className="relative h-64 bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center overflow-hidden border-b border-slate-100">
+                    <div className="relative h-72 bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center overflow-hidden border-b border-slate-100">
                       <Image 
                         src={product.image || getProductImage(product.category)}
                         alt={product.name}
                         fill
-                        className="object-contain p-8 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"
+                        className="object-contain p-4 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"
                       />
                       <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-brand-700 shadow-sm border border-slate-100 shadow-brand-900/5">
                         {product.category}
