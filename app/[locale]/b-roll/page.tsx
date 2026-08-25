@@ -1,11 +1,66 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import { Download, PlayCircle, Film, X } from "lucide-react";
 import Image from "next/image";
 
+// Sub-component for the AI Slideshow (simulates a video)
+function SlideShowModal({ images, onClose }: { images: string[], onClose: () => void }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentIndex((prev) => (prev + 1) % images.length);
+    }, 3500); // 3.5 seconds per slide
+    return () => clearInterval(interval);
+  }, [images]);
+
+  return (
+    <div className="fixed inset-0 z-[100] flex items-center justify-center p-4 bg-slate-900/95 backdrop-blur-sm">
+      <div className="bg-black w-full max-w-5xl aspect-video rounded-2xl relative overflow-hidden shadow-2xl border border-slate-700">
+        
+        {images.map((img, idx) => (
+          <div 
+            key={img}
+            className={`absolute inset-0 transition-all ease-in-out ${idx === currentIndex ? 'opacity-100 scale-105' : 'opacity-0 scale-100 z-[-1]'}`}
+            style={{ transitionDuration: '1.5s' }}
+          >
+            <Image 
+              src={img}
+              alt="AI B-Roll Slide"
+              fill
+              className="object-cover"
+              priority={idx === 0}
+            />
+          </div>
+        ))}
+        
+        {/* Subtle Overlay to make it look like a video player */}
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-black/30 z-10 pointer-events-none" />
+        
+        <div className="absolute bottom-6 left-6 z-20 flex flex-col gap-1">
+            <div className="flex items-center gap-3">
+              <Film className="w-5 h-5 text-red-500 animate-pulse" />
+              <div className="text-white/90 font-mono text-sm font-bold tracking-widest uppercase">
+                AI_GENERATED_B-ROLL_SEQ_{currentIndex + 1}
+              </div>
+            </div>
+            <div className="text-white/50 text-xs font-mono ml-8">Simulated Video Feed • RAW 4K</div>
+        </div>
+
+        <button 
+          onClick={onClose}
+          className="absolute top-4 right-4 z-20 p-2 bg-white/10 hover:bg-white/20 backdrop-blur-md text-white rounded-full transition-colors"
+        >
+          <X className="w-6 h-6" />
+        </button>
+      </div>
+    </div>
+  );
+}
+
 export default function BRollPage() {
-  const [activeVideo, setActiveVideo] = useState<string | null>(null);
+  const [activeVideoImages, setActiveVideoImages] = useState<string[] | null>(null);
 
   const videos = [
     {
@@ -13,21 +68,36 @@ export default function BRollPage() {
       description: "High-definition aerial and interior shots of our Munich and Hyderabad production sites.",
       duration: "03:45",
       resolution: "4K UHD",
-      placeholderImage: "/assets/images/pharma_hero_mfg.png"
+      thumbnail: "/assets/images/pharma_hero_mfg.png",
+      images: [
+        "/assets/images/pharma_hero_mfg.png",
+        "/assets/images/mfg_2.jpg",
+        "/assets/images/mfg_3.jpg"
+      ]
     },
     {
       title: "Laboratory & R&D Operations",
       description: "Close-up b-roll of scientists, clean rooms, and automated testing equipment.",
       duration: "02:20",
       resolution: "1080p HD",
-      placeholderImage: "/assets/images/pharma_hero_lab.png"
+      thumbnail: "/assets/images/pharma_hero_lab.png",
+      images: [
+        "/assets/images/pharma_hero_lab.png",
+        "/assets/images/lab_2.jpg",
+        "/assets/images/lab_3.jpg"
+      ]
     },
     {
       title: "Logistics & Supply Chain",
       description: "Footage of global distribution centers, automated packaging, and shipping.",
       duration: "01:55",
       resolution: "4K UHD",
-      placeholderImage: "/assets/images/pharma_hero_corporate.png"
+      thumbnail: "/assets/images/pharma_hero_corporate.png",
+      images: [
+        "/assets/images/pharma_hero_corporate.png",
+        "/assets/images/logistics_2.jpg",
+        "/assets/images/logistics_3.jpg"
+      ]
     }
   ];
 
@@ -57,10 +127,10 @@ export default function BRollPage() {
               {/* Thumbnail Area */}
               <div 
                 className="relative aspect-video bg-slate-900 cursor-pointer overflow-hidden"
-                onClick={() => setActiveVideo(video.placeholderImage)}
+                onClick={() => setActiveVideoImages(video.images)}
               >
                 <div className="absolute inset-0 opacity-60 group-hover:opacity-40 transition-opacity">
-                  <Image src={video.placeholderImage} alt={video.title} fill className="object-cover" />
+                  <Image src={video.thumbnail} alt={video.title} fill className="object-cover" />
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center">
                   <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-white group-hover:scale-110 group-hover:bg-brand-500 transition-all border border-white/30">
@@ -90,35 +160,12 @@ export default function BRollPage() {
         </div>
       </div>
 
-      {/* Video Modal */}
-      {activeVideo && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-sm">
-          <div className="bg-slate-900 w-full max-w-5xl aspect-video rounded-2xl relative overflow-hidden shadow-2xl border border-slate-700 flex flex-col items-center justify-center text-center">
-            
-            <Image 
-              src={activeVideo}
-              alt="Video Placeholder"
-              fill
-              className="object-cover opacity-30"
-            />
-            
-            <div className="relative z-10 flex flex-col items-center">
-              <Film className="w-16 h-16 text-brand-300 mb-6 opacity-75" />
-              <h3 className="text-3xl font-bold text-white mb-3 tracking-wide uppercase">Video Content Pending</h3>
-              <p className="text-slate-300 text-lg max-w-md">The final broadcast-quality MP4 file is currently pending client approval and upload.</p>
-              <div className="mt-8 px-4 py-2 border border-brand-500/50 bg-brand-900/50 rounded-lg text-brand-200 text-sm font-medium backdrop-blur-md">
-                Placeholder Mode Active
-              </div>
-            </div>
-
-            <button 
-              onClick={() => setActiveVideo(null)}
-              className="absolute top-4 right-4 z-20 p-2 bg-black/50 hover:bg-black text-white rounded-full transition-colors"
-            >
-              <X className="w-6 h-6" />
-            </button>
-          </div>
-        </div>
+      {/* Video Modal (Simulated Video via Slideshow) */}
+      {activeVideoImages && (
+        <SlideShowModal 
+          images={activeVideoImages} 
+          onClose={() => setActiveVideoImages(null)} 
+        />
       )}
     </div>
   );
