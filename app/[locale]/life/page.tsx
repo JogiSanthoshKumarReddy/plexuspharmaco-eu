@@ -28,7 +28,7 @@ export default function LifePage() {
   return (
     <div className="modern-page-wrapper bg-white min-h-screen pb-24">
       <BreadcrumbHero 
-        title="Life at Plexuspharmaco"
+        title="Life at Plexus Pharmaco"
         paths={[{ name: "Careers", href: "/" }, { name: "Life at Plexus" }]}
         bgImage="/assets/images/pharma_hero_corporate.png"
       />
@@ -53,7 +53,7 @@ export default function LifePage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexuspharmaco, our culture is built on integrity, quality, and scientific responsibility. We foster an environment where compliance, ethical practices, and patient safety are at the core of every decision, encouraging accountability and excellence across teams.
+                At Plexus Pharmaco, our culture is built on integrity, quality, and scientific responsibility. We foster an environment where compliance, ethical practices, and patient safety are at the core of every decision, encouraging accountability and excellence across teams.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

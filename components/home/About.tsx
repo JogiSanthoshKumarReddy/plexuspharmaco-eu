@@ -15,7 +15,7 @@ export default function About() {
             </h2>
 
             <p className="mt-6 text-slate-600 leading-8">
-              Plexuspharmaco GmbH provides innovative pharmaceutical,
+              Plexus Pharmaco GmbH provides innovative pharmaceutical,
               nutraceutical and medical device solutions with a strong
               commitment to research, quality, manufacturing excellence
               and global healthcare partnerships.

@@ -126,7 +126,7 @@ export default function ManufactureCapabilityPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Plexuspharmaco operates advanced manufacturing capabilities designed to meet the most stringent global pharmaceutical and healthcare standards. Our footprint spans multiple continents, producing billions of doses annually.
+                Plexus Pharmaco operates advanced manufacturing capabilities designed to meet the most stringent global pharmaceutical and healthcare standards. Our footprint spans multiple continents, producing billions of doses annually.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

@@ -18,7 +18,7 @@ export default function AboutSection() {
                 <div className="relative h-[250px] overflow-hidden rounded-lg shadow-lg">
                   <Image
                     src="/images/about/about-1.jpg"
-                    alt="Plexuspharmaco"
+                    alt="Plexus Pharmaco"
                     fill
                     className="object-cover transition-transform duration-500 hover:scale-110"
                   />
@@ -51,13 +51,13 @@ export default function AboutSection() {
           {/* Right Content */}
           <div className="relative z-10">
             <h2 className="text-[40px] font-bold text-[#00173c] leading-[1.2] mb-6">
-              About Plexuspharmaco<br />
+              About Plexus Pharmaco<br />
               <span className="text-blue-600">Connecting Science to Global Well-Being</span>
             </h2>
 
             <div className="space-y-4 text-gray-600 text-[15px] leading-relaxed">
               <p>
-                Plexuspharmaco GmbH is a Germany-based pharmaceutical organization committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide. Operating to the highest standards of scientific rigor, quality assurance, and regulatory compliance, we partner globally to bring trusted pharmaceuticals, nutraceuticals, liposomal formulations, medical devices, and dermo-cosmetic products to diverse markets.
+                Plexus Pharmaco GmbH is a Germany-based pharmaceutical organization committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide. Operating to the highest standards of scientific rigor, quality assurance, and regulatory compliance, we partner globally to bring trusted pharmaceuticals, nutraceuticals, liposomal formulations, medical devices, and dermo-cosmetic products to diverse markets.
               </p>
               <p>
                 Our integrated model spans product development, regulatory expertise, global distribution, and strategic partnerships, enabling sustainable value creation for healthcare systems and improved patient outcomes across regions.
@@ -67,7 +67,7 @@ export default function AboutSection() {
               </p>
               
               <p className="mt-6 italic font-medium text-gray-800">
-                Driven by excellence, transparency, and long-term collaboration, Plexuspharmaco GmbH stands as a reliable partner in advancing global health.
+                Driven by excellence, transparency, and long-term collaboration, Plexus Pharmaco GmbH stands as a reliable partner in advancing global health.
               </p>
             </div>
 

@@ -18,23 +18,23 @@ export default function MediaCenterPage() {
 
   const articles = [
     {
-      title: "Leadership & Vision: Plexuspharmaco's Science-Led Growth Journey",
+      title: "Leadership & Vision: Plexus Pharmaco's Science-Led Growth Journey",
       date: "02-02-2026",
-      summary: "Media profiles often reference the leadership vision driving Plexuspharmaco's growth trajectory. A strong emphasis on science, quality, and ethics defines the Group's culture.",
+      summary: "Media profiles often reference the leadership vision driving Plexus Pharmaco's growth trajectory. A strong emphasis on science, quality, and ethics defines the Group's culture.",
       image: "/assets/images/pharma_hero_corporate.png",
       link: "/press-release"
     },
     {
-      title: "Diversified Portfolio Drives Plexuspharmaco's Market Relevance",
+      title: "Diversified Portfolio Drives Plexus Pharmaco's Market Relevance",
       date: "02-02-2026",
-      summary: "Media commentary highlights Plexuspharmaco's broad portfolio covering pharma FDFs, nutraceuticals, medical devices, dermo-cosmetics, and biological products.",
+      summary: "Media commentary highlights Plexus Pharmaco's broad portfolio covering pharma FDFs, nutraceuticals, medical devices, dermo-cosmetics, and biological products.",
       image: "/assets/images/pharma_hero_mfg.png",
       link: "/press-release"
     },
     {
       title: "Global Expansion Story: Expanding International Presence",
       date: "15-01-2026",
-      summary: "Media features have highlighted Plexuspharmaco's expanding footprint across Europe, LATAM, Africa, Asia, and GCC regions.",
+      summary: "Media features have highlighted Plexus Pharmaco's expanding footprint across Europe, LATAM, Africa, Asia, and GCC regions.",
       image: "/assets/images/pharma_hero_corporate.png",
       link: "/press-release"
     }
@@ -67,7 +67,7 @@ export default function MediaCenterPage() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            Stay updated with the latest breakthroughs, financial milestones, and corporate announcements from Plexuspharmaco as we continue to shape the future of global healthcare.
+            Stay updated with the latest breakthroughs, financial milestones, and corporate announcements from Plexus Pharmaco as we continue to shape the future of global healthcare.
           </motion.p>
         </div>
 

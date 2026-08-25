@@ -67,7 +67,7 @@ export default function BiogenixPage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed mb-6"
           >
-            Plexus Biogenix LLP, under the Plexuspharmaco Group, is a globally aligned healthcare enterprise delivering end-to-end pharmaceutical, nutraceutical, and life-sciences solutions.
+            Plexus Biogenix LLP, under the Plexus Pharmaco Group, is a globally aligned healthcare enterprise delivering end-to-end pharmaceutical, nutraceutical, and life-sciences solutions.
           </motion.p>
           
           <motion.p 

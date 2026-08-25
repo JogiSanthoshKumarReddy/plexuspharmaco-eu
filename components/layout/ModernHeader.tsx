@@ -69,10 +69,10 @@ export default function ModernHeader() {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 relative z-50" aria-label="Plexuspharmaco Home">
+          <Link href="/" className="flex-shrink-0 relative z-50" aria-label="Plexus Pharmaco Home">
             <Image 
               src="/pharma/assets/images/696f65db8cb34.png" 
-              alt="Plexuspharmaco Logo" 
+              alt="Plexus Pharmaco Logo" 
               width={200}
               height={48}
               className="h-12 w-auto object-contain"

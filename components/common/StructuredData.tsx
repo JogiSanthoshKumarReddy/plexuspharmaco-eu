@@ -5,7 +5,7 @@ export default function StructuredData({ locale = 'en' }: { locale?: string }) {
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "MedicalOrganization",
-    "name": "Plexuspharmaco Europe",
+    "name": "Plexus Pharmaco Europe",
     "url": `${baseUrl}/${locale}`,
     "logo": `${baseUrl}/pharma/assets/images/696f65db8cb34.png`,
     "description": "A globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",

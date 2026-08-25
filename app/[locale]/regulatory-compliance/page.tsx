@@ -63,7 +63,7 @@ export default function RegulatoryCompliancePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-brand-600 leading-relaxed"
           >
-            At Plexuspharmaco, regulatory compliance is a cornerstone of our global operations and long-term credibility. We operate within a structured, governance-driven framework that ensures full adherence to EU regulations, U.S. FDA requirements, and internationally recognized regulatory standards.
+            At Plexus Pharmaco, regulatory compliance is a cornerstone of our global operations and long-term credibility. We operate within a structured, governance-driven framework that ensures full adherence to EU regulations, U.S. FDA requirements, and internationally recognized regulatory standards.
           </motion.p>
         </div>
 

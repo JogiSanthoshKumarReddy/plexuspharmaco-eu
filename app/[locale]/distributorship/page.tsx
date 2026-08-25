@@ -48,7 +48,7 @@ export default function DistributorshipPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Plexuspharmaco engages with distributors and agents as long-term market access partners, enabling efficient, compliant, and sustainable commercialization of healthcare products across diverse geographies. 
+                Plexus Pharmaco engages with distributors and agents as long-term market access partners, enabling efficient, compliant, and sustainable commercialization of healthcare products across diverse geographies. 
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

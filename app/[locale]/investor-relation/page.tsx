@@ -80,7 +80,7 @@ export default function InvestorRelationPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Plexuspharmaco’s Investor Relations framework is built on a foundation of transparency, accountability, and trust, financial discipline, and a clear vision for the future of global healthcare.
+                Plexus Pharmaco’s Investor Relations framework is built on a foundation of transparency, accountability, and trust, financial discipline, and a clear vision for the future of global healthcare.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
@@ -89,7 +89,7 @@ export default function InvestorRelationPage() {
 
                 <div className="bg-brand-50 p-6 rounded-2xl border border-brand-100 shadow-sm">
                   <p className="text-sm font-medium text-brand-800 leading-relaxed">
-                    &quot;Our disciplined approach to capital allocation, coupled with a rigorous focus on R&D and manufacturing excellence, positions Plexuspharmaco to generate sustainable value across all market cycles.&quot;
+                    &quot;Our disciplined approach to capital allocation, coupled with a rigorous focus on R&D and manufacturing excellence, positions Plexus Pharmaco to generate sustainable value across all market cycles.&quot;
                   </p>
                 </div>
             </motion.div>
@@ -185,7 +185,7 @@ export default function InvestorRelationPage() {
         {/* Forward-Looking Disclosure */}
         <div className="mb-24 text-center max-w-4xl mx-auto px-6">
           <p className="text-xs text-slate-400 leading-relaxed font-light text-justify">
-            <strong className="font-bold text-slate-500">Disclaimer / Forward-Looking Statements:</strong> The information contained on this website and in the downloadable reports above may contain forward-looking statements regarding Plexuspharmaco&apos;s financial position, business strategy, and future operations. These statements involve known and unknown risks, uncertainties, and other factors that may cause actual results, performance, or achievements to differ materially from those expressed or implied. 
+            <strong className="font-bold text-slate-500">Disclaimer / Forward-Looking Statements:</strong> The information contained on this website and in the downloadable reports above may contain forward-looking statements regarding Plexus Pharmaco&apos;s financial position, business strategy, and future operations. These statements involve known and unknown risks, uncertainties, and other factors that may cause actual results, performance, or achievements to differ materially from those expressed or implied. 
             All financial figures and reports provided on this site are for illustrative or informational purposes only and do not constitute an offer to sell or a solicitation of an offer to buy any securities.
           </p>
         </div>

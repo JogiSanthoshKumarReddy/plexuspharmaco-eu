@@ -84,7 +84,7 @@ export default function ComplianceReportingPage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed"
           >
-            Plexuspharmaco is committed to maintaining the highest ethical standards. If you have observed behavior that violates our corporate policies, regulatory standards, or ethical guidelines, we encourage you to report it safely and confidentially.
+            Plexus Pharmaco is committed to maintaining the highest ethical standards. If you have observed behavior that violates our corporate policies, regulatory standards, or ethical guidelines, we encourage you to report it safely and confidentially.
           </motion.p>
         </div>
 
@@ -120,7 +120,7 @@ export default function ComplianceReportingPage() {
               </div>
               <h3 className="text-xl font-bold text-brand-900 mb-2">Whistleblower Protection</h3>
               <p className="text-slate-600">
-                All reports are treated with strict confidentiality. Plexuspharmaco explicitly prohibits any form of retaliation against individuals who report concerns in good faith.
+                All reports are treated with strict confidentiality. Plexus Pharmaco explicitly prohibits any form of retaliation against individuals who report concerns in good faith.
               </p>
             </motion.div>
           </div>

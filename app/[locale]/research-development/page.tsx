@@ -73,7 +73,7 @@ export default function ResearchDevelopmentHubPage() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 leading-relaxed"
           >
-            At Plexuspharmaco, our commitment to scientific excellence spans the entire pharmaceutical lifecycle. Explore our core capabilities in research, advanced manufacturing, and rigorous quality assurance.
+            At Plexus Pharmaco, our commitment to scientific excellence spans the entire pharmaceutical lifecycle. Explore our core capabilities in research, advanced manufacturing, and rigorous quality assurance.
           </motion.p>
         </div>
 

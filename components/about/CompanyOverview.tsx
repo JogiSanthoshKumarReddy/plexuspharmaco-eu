@@ -22,7 +22,7 @@ export default function CompanyOverview() {
             <div className="relative h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
               <Image 
                 src="/assets/images/pharma_hero_lab.png"
-                alt="Plexuspharmaco European Operations"
+                alt="Plexus Pharmaco European Operations"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
               />
@@ -59,7 +59,7 @@ export default function CompanyOverview() {
               </h2>
               
               <p className="text-lg text-brand-600 mb-8 leading-relaxed">
-                Plexuspharmaco GmbH is a Germany-based pharmaceutical organization and a core entity within the broader Plexuspharmaco, committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide. 
+                Plexus Pharmaco GmbH is a Germany-based pharmaceutical organization and a core entity within the broader Plexus Pharmaco, committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide. 
                 <br/><br/>
                 Operating to the highest standards of scientific rigor, quality assurance, and regulatory compliance, we partner globally to bring trusted pharmaceuticals, nutraceuticals, liposomal formulations, medical devices, and dermo-cosmetic products to diverse markets.
               </p>

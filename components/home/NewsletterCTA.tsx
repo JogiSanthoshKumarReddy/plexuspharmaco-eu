@@ -126,7 +126,7 @@ export default function NewsletterCTA() {
                   className="mt-1 w-4 h-4 rounded border-brand-700/50 text-accent-500 focus:ring-accent-500/50 bg-brand-800"
                 />
                 <label htmlFor="newsletter-consent" className="text-brand-200/80 text-xs text-left cursor-pointer">
-                  I agree that Plexuspharmaco GmbH may process my email address to send me corporate newsletters. I have read the <Link href="/privacy-policy" className="text-accent-400 hover:underline">Privacy Policy</Link>.
+                  I agree that Plexus Pharmaco GmbH may process my email address to send me corporate newsletters. I have read the <Link href="/privacy-policy" className="text-accent-400 hover:underline">Privacy Policy</Link>.
                 </label>
               </div>
             </div>

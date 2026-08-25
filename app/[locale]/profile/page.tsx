@@ -84,7 +84,7 @@ export default function ProfilePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed mb-6"
           >
-            Plexuspharmaco operates a globally integrated footprint supporting compliant manufacturing, regional market access, and supply continuity. The Group owns manufacturing facilities in Germany, Turkey, and India, complemented by joint-venture manufacturing sites in Poland, Spain, and the United States.
+            Plexus Pharmaco operates a globally integrated footprint supporting compliant manufacturing, regional market access, and supply continuity. The Group owns manufacturing facilities in Germany, Turkey, and India, complemented by joint-venture manufacturing sites in Poland, Spain, and the United States.
           </motion.p>
         </div>
 

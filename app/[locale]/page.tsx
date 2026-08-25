@@ -46,9 +46,9 @@ export default function Home() {
       <FeatureSection 
         title="Delivering Quality Healthcare Solutions Worldwide"
         subtitle="Who We Are"
-        description="Plexuspharmaco is an innovative European pharmaceutical company dedicated to developing, manufacturing, and commercializing advanced healthcare solutions. Driven by scientific excellence and stringent quality standards, we focus on therapeutic areas with high unmet medical needs. Our robust manufacturing network empowers us to deliver accessible, high-quality therapies to patients globally."
+        description="Plexus Pharmaco is an innovative European pharmaceutical company dedicated to developing, manufacturing, and commercializing advanced healthcare solutions. Driven by scientific excellence and stringent quality standards, we focus on therapeutic areas with high unmet medical needs. Our robust manufacturing network empowers us to deliver accessible, high-quality therapies to patients globally."
         image="/assets/images/pharma_hero_corporate.png"
-        imageAlt="Plexuspharmaco Corporate Leadership"
+        imageAlt="Plexus Pharmaco Corporate Leadership"
         linkText="Explore Our Company"
         linkHref="/about"
       />
@@ -58,7 +58,7 @@ export default function Home() {
       <GridSection 
         title="The Principles That Drive Our Mission"
         subtitle="Our Core Values"
-        description="At the heart of Plexuspharmaco lies a deep-rooted commitment to ethical integrity, scientific rigor, and patient well-being."
+        description="At the heart of Plexus Pharmaco lies a deep-rooted commitment to ethical integrity, scientific rigor, and patient well-being."
         items={coreValues}
       />
 
@@ -77,7 +77,7 @@ export default function Home() {
       <GridSection 
         title="Strategic Business Verticals"
         subtitle="Our Expertise"
-        description="Plexuspharmaco operates across multiple high-growth segments, delivering specialized solutions that address unmet medical needs globally."
+        description="Plexus Pharmaco operates across multiple high-growth segments, delivering specialized solutions that address unmet medical needs globally."
         items={businessDivisions}
         columns={3}
       />

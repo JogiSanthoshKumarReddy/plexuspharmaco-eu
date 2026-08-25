@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: "/research-development",
   },
   openGraph: {
-    title: "Research Development | Plexuspharmaco Europe",
+    title: "Research Development | Plexus Pharmaco Europe",
     description: "Explore our robust R&D engine dedicated to complex generics, novel drug delivery systems, and advanced therapeutics.",
     url: "/research-development",
     images: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "Research Development - Plexuspharmaco Europe",
+        alt: "Research Development - Plexus Pharmaco Europe",
       },
     ],
   },

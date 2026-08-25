@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Milestone } from "lucide-react";
 
 const milestones = [
-  { year: "2003", title: "Inception", description: "Plexuspharmaco was founded with a vision to deliver high-quality pharmaceutical solutions." },
+  { year: "2003", title: "Inception", description: "Plexus Pharmaco was founded with a vision to deliver high-quality pharmaceutical solutions." },
   { year: "2010", title: "Global Expansion", description: "Expanded operations into the European and North American markets, establishing strategic hubs." },
   { year: "2015", title: "R&D Excellence", description: "Opened our modern, validated Research & Development center in France, focusing on novel therapeutics." },
   { year: "2020", title: "Sustainable Manufacturing", description: "Achieved carbon-neutral manufacturing across our primary facilities in Germany." },

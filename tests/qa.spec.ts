@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test.describe('Plexuspharmaco QA Testing', () => {
+test.describe('Plexus Pharmaco QA Testing', () => {
   
   test('Contact Form Validation & Submission', async ({ page }) => {
     // 1. Navigate to the contact form

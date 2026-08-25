@@ -37,7 +37,7 @@ export default function CallToAction() {
             transition={{ delay: 0.1 }}
             className="text-xl text-brand-100 mb-10 leading-relaxed font-light"
           >
-            Partner with Plexuspharmaco to leverage our global manufacturing footprint, regulatory expertise, and globally integrated supply chain. 
+            Partner with Plexus Pharmaco to leverage our global manufacturing footprint, regulatory expertise, and globally integrated supply chain. 
           </motion.p>
           
           <motion.div 

@@ -1,5 +1,5 @@
 /**
- * navigation.ts — Central navigation data for Plexuspharmaco.
+ * navigation.ts — Central navigation data for Plexus Pharmaco.
  * Used by Navbar.tsx. Mirrors the structure in HeaderHTML.tsx.
  * Update both files when adding new routes.
  */

@@ -56,7 +56,7 @@ export default function SustainabilityPage() {
     {
       title: "Employee Volunteering",
       icon: Users,
-      description: "Plexuspharmaco employees dedicate over 10,000 hours annually to local community service, disaster relief, and health awareness campaigns."
+      description: "Plexus Pharmaco employees dedicate over 10,000 hours annually to local community service, disaster relief, and health awareness campaigns."
     }
   ];
 
@@ -99,7 +99,7 @@ export default function SustainabilityPage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            At Plexuspharmaco, Corporate Social Responsibility is not an afterthought; it is integrated into our core business strategy. Our Environmental, Social, and Governance (ESG) framework ensures that our rapid global growth never comes at the expense of our communities or our environment.
+            At Plexus Pharmaco, Corporate Social Responsibility is not an afterthought; it is integrated into our core business strategy. Our Environmental, Social, and Governance (ESG) framework ensures that our rapid global growth never comes at the expense of our communities or our environment.
           </motion.p>
         </div>
 

@@ -52,7 +52,7 @@ export default function EthicalStandardPage() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 leading-relaxed mb-6"
           >
-            Ethical conduct is a foundational pillar of Corporate Social Responsibility at Plexuspharmaco. Our ethical standards are rooted in scientific integrity, regulatory compliance, transparency, and accountability, guiding every aspect of our operations and decision-making.
+            Ethical conduct is a foundational pillar of Corporate Social Responsibility at Plexus Pharmaco. Our ethical standards are rooted in scientific integrity, regulatory compliance, transparency, and accountability, guiding every aspect of our operations and decision-making.
           </motion.p>
           
           <motion.p 

@@ -10,7 +10,7 @@ export default function ProductSchema({ product }: { product: any }) {
     "material": product.ingredients?.map((ing: { name: string, dosage: string }) => `${ing.name} (${ing.dosage})`).join(', '),
     "brand": {
       "@type": "Brand",
-      "name": "Plexuspharmaco"
+      "name": "Plexus Pharmaco"
     },
     "category": product.category
   };

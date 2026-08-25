@@ -67,7 +67,7 @@ export default function BiocarePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed mb-6"
           >
-            Plexuspharmaco Group is a globally aligned healthcare and life-sciences enterprise operating under Plexus Biocare Pvt. Ltd., focused on the development, manufacturing, regulation, and international commercialization of pharmaceutical and healthcare products. 
+            Plexus Pharmaco Group is a globally aligned healthcare and life-sciences enterprise operating under Plexus Biocare Pvt. Ltd., focused on the development, manufacturing, regulation, and international commercialization of pharmaceutical and healthcare products. 
           </motion.p>
           
           <motion.p 
@@ -77,7 +77,7 @@ export default function BiocarePage() {
             transition={{ delay: 0.3 }}
             className="text-lg text-slate-600 leading-relaxed"
           >
-            With a strong foundation in quality, compliance, and governance, Plexuspharmaco is positioned as a long-term partner of choice for innovators, manufacturers, institutions, and global distributors.
+            With a strong foundation in quality, compliance, and governance, Plexus Pharmaco is positioned as a long-term partner of choice for innovators, manufacturers, institutions, and global distributors.
           </motion.p>
         </div>
 

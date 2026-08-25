@@ -13,7 +13,7 @@ export default function PrivacyPolicyPage() {
         <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-sm border border-slate-100 prose prose-brand max-w-none prose-h2:text-primary prose-h2:font-outfit prose-h2:text-2xl prose-h2:mb-4 prose-p:text-slate-600 prose-p:leading-relaxed prose-a:text-accent-600 hover:prose-a:text-accent-700">
           
           <p className="lead text-lg font-medium text-slate-800">
-            Plexuspharmaco Group is committed to protecting your privacy and handling your personal data transparently and securely. This Privacy Policy explains how we collect, use, process, and protect your personal data in strict compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679.
+            Plexus Pharmaco Group is committed to protecting your privacy and handling your personal data transparently and securely. This Privacy Policy explains how we collect, use, process, and protect your personal data in strict compliance with the General Data Protection Regulation (GDPR) (EU) 2016/679.
           </p>
           <hr className="my-8 border-slate-100" />
 
@@ -22,7 +22,7 @@ export default function PrivacyPolicyPage() {
             The controller responsible for processing your personal data on this website is:
           </p>
           <div className="bg-slate-50 p-6 rounded-xl border border-slate-100 my-4">
-            <strong>Plexuspharmaco GmbH</strong><br />
+            <strong>Plexus Pharmaco GmbH</strong><br />
             Frankenstr. 34<br />
             96146 Altendorf, Germany<br /><br />
             <strong>Phone:</strong> <a href="tel:+4915213048766">+49 152 1304 8766</a><br />
@@ -49,7 +49,7 @@ export default function PrivacyPolicyPage() {
 
           <h2>4. Third-Party Services & Data Sharing</h2>
           <p>
-            Plexuspharmaco GmbH does not sell, rent, or trade your personal data. We only share data with trusted third-party service providers (such as secure hosting providers) necessary for operating our website. All third-party processors are bound by strict Data Processing Agreements (DPAs) in compliance with GDPR.
+            Plexus Pharmaco GmbH does not sell, rent, or trade your personal data. We only share data with trusted third-party service providers (such as secure hosting providers) necessary for operating our website. All third-party processors are bound by strict Data Processing Agreements (DPAs) in compliance with GDPR.
           </p>
 
           <h2>5. Data Retention</h2>

@@ -27,7 +27,7 @@ export default function AdminDashboard() {
     <div className="space-y-8">
       <div>
         <h1 className="text-3xl font-bold text-brand-900">Dashboard Overview</h1>
-        <p className="text-slate-500 mt-2">Welcome back to the Plexuspharmaco Admin Portal.</p>
+        <p className="text-slate-500 mt-2">Welcome back to the Plexus Pharmaco Admin Portal.</p>
       </div>
 
       {/* Stats Grid */}

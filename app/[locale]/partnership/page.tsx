@@ -70,7 +70,7 @@ export default function PartnershipPage() {
               </h2>
               
               <p className="text-lg text-brand-600 mb-6 leading-relaxed">
-                We believe that the future of healthcare is collaborative. Plexuspharmaco actively pursues partnership opportunities that align with our strategic vision of delivering innovative, high-quality healthcare solutions globally.
+                We believe that the future of healthcare is collaborative. Plexus Pharmaco actively pursues partnership opportunities that align with our strategic vision of delivering innovative, high-quality healthcare solutions globally.
               </p>
               
               <p className="text-lg text-brand-600 leading-relaxed mb-8">

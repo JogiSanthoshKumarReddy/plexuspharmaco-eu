@@ -2,20 +2,20 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Intellectual Property",
-  description: "Explore information regarding Intellectual Property at Plexuspharmaco Europe, delivering high-quality healthcare solutions globally.",
+  description: "Explore information regarding Intellectual Property at Plexus Pharmaco Europe, delivering high-quality healthcare solutions globally.",
   alternates: {
     canonical: "/intellectual-property",
   },
   openGraph: {
-    title: "Intellectual Property | Plexuspharmaco Europe",
-    description: "Explore information regarding Intellectual Property at Plexuspharmaco Europe, delivering high-quality healthcare solutions globally.",
+    title: "Intellectual Property | Plexus Pharmaco Europe",
+    description: "Explore information regarding Intellectual Property at Plexus Pharmaco Europe, delivering high-quality healthcare solutions globally.",
     url: "/intellectual-property",
     images: [
       {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "Intellectual Property - Plexuspharmaco Europe",
+        alt: "Intellectual Property - Plexus Pharmaco Europe",
       },
     ],
   },
