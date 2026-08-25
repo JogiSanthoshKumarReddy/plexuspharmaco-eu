@@ -53,7 +53,7 @@ export default function PatientProgramPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Group of Companies, we put patients at the heart of everything we do. Our Patient Support Programs are designed to provide personalized guidance, education, and ongoing support.
+                At Plexuspharmaco, we put patients at the heart of everything we do. Our Patient Support Programs are designed to provide personalized guidance, education, and ongoing support.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

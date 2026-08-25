@@ -53,7 +53,7 @@ export default function ContractManufacturingPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Plexus Group of Companies provides end-to-end Contract Manufacturing (CMO), Contract Development and Manufacturing (CDMO), and White Labelling solutions tailored to the evolving needs of global pharmaceutical and healthcare partners.
+                Plexuspharmaco provides end-to-end Contract Manufacturing (CMO), Contract Development and Manufacturing (CDMO), and White Labelling solutions tailored to the evolving needs of global pharmaceutical and healthcare partners.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
@@ -116,7 +116,7 @@ export default function ContractManufacturingPage() {
           <div className="relative z-10 max-w-4xl mx-auto">
             <h3 className="text-3xl font-bold mb-6">Reliability & Compliance</h3>
             <p className="text-brand-200 text-lg leading-relaxed">
-              All activities are executed in strict compliance with EU regulatory requirements, U.S. FDA cGMP standards, and globally accepted quality frameworks. With a strong focus on operational excellence, regulatory discipline, and long-term partnership, Plexus Group serves as a reliable manufacturing ally for sustainable global growth.
+              All activities are executed in strict compliance with EU regulatory requirements, U.S. FDA cGMP standards, and globally accepted quality frameworks. With a strong focus on operational excellence, regulatory discipline, and long-term partnership, Plexuspharmaco serves as a reliable manufacturing ally for sustainable global growth.
             </p>
           </div>
         </div>

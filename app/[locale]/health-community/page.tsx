@@ -52,7 +52,7 @@ export default function HealthCommunityPage() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 leading-relaxed mb-6"
           >
-            At Plexus Group of Companies, health and community initiatives are designed as long-term, impact-driven programs aligned with our commitment to strengthening healthcare systems and improving patient outcomes.
+            At Plexuspharmaco, health and community initiatives are designed as long-term, impact-driven programs aligned with our commitment to strengthening healthcare systems and improving patient outcomes.
           </motion.p>
           
           <motion.p 

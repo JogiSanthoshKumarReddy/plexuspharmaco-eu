@@ -48,7 +48,7 @@ export default function IntellectualPropertyPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Intellectual Property (IP) at Plexus Group is managed as a strategic asset that safeguards innovation while supporting long-term business sustainability. 
+                Intellectual Property (IP) at Plexuspharmaco is managed as a strategic asset that safeguards innovation while supporting long-term business sustainability. 
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-6">

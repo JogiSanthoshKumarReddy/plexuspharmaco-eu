@@ -52,7 +52,7 @@ export default function TechnologyPlatformsPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Technology at Plexus Group is selected and deployed through a structured, evidence-based approach that balances scientific robustness, regulatory acceptability, and commercial scalability. 
+                Technology at Plexuspharmaco is selected and deployed through a structured, evidence-based approach that balances scientific robustness, regulatory acceptability, and commercial scalability. 
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-6">

@@ -57,7 +57,7 @@ export default function HealthcareToolPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Group of Companies, we empower healthcare professionals with scientifically validated tools and resources that support informed, patient-centered care. 
+                At Plexuspharmaco, we empower healthcare professionals with scientifically validated tools and resources that support informed, patient-centered care. 
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">
