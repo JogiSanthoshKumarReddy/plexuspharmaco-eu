@@ -7,6 +7,7 @@ import RouteChangeHandler from "@/components/common/RouteChangeHandler";
 import StructuredData from "@/components/common/StructuredData";
 import CookieBanner from "@/components/common/CookieBanner";
 import ScriptManager from "@/components/common/ScriptManager";
+import GoogleTranslate from "@/components/common/GoogleTranslate";
 import Script from "next/script";
 
 // Import modern UI fonts
@@ -79,13 +80,7 @@ export default async function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
-        <div id="google_translate_element" style={{ display: 'none' }}></div>
-        <Script id="google-translate-init" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: `
-          window.googleTranslateElementInit = function() {
-            new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
-          }
-        ` }} /> 
-        <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="afterInteractive" />
+        <GoogleTranslate />
         <StructuredData locale={locale} />
         <div className="flex flex-col min-h-screen">
           <RouteChangeHandler />
