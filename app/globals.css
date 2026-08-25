@@ -12,8 +12,10 @@
   --color-brand-400: #829ab1;
   --color-brand-500: #627d98;
   --color-brand-600: #486581;
-  --color-brand-700: #334e68; /* Primary */
+  --color-brand-700: #334e68;
+  --color-primary: var(--color-brand-700);
   --color-brand-800: #243b53;
+  --color-primary-dark: var(--color-brand-800);
   --color-brand-900: #102a43;
   --color-brand-950: #0a192f;
   
