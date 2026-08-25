@@ -89,8 +89,11 @@ export default function BRollPage() {
               <X className="w-6 h-6" />
             </button>
             <video 
+              key={activeVideo}
               controls 
               autoPlay 
+              muted
+              playsInline
               className="w-full h-full object-cover"
               src={activeVideo}
             >
