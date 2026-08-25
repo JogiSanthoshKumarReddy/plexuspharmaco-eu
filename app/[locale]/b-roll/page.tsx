@@ -12,21 +12,21 @@ export default function BRollPage() {
       description: "High-definition aerial and interior shots of our Munich and Hyderabad production sites.",
       duration: "03:45",
       resolution: "4K UHD",
-      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+      videoUrl: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
     },
     {
       title: "Laboratory & R&D Operations",
       description: "Close-up b-roll of scientists, clean rooms, and automated testing equipment.",
       duration: "02:20",
       resolution: "1080p HD",
-      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/TearsOfSteel.mp4"
+      videoUrl: "https://interactive-examples.mdn.mozilla.net/media/cc0-videos/friday.mp4"
     },
     {
       title: "Logistics & Supply Chain",
       description: "Footage of global distribution centers, automated packaging, and shipping.",
       duration: "01:55",
       resolution: "4K UHD",
-      videoUrl: "https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/Sintel.mp4"
+      videoUrl: "https://test-videos.co.uk/vids/bigbuckbunny/mp4/h264/1080/Big_Buck_Bunny_1080_10s_1MB.mp4"
     }
   ];
 
