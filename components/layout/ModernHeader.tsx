@@ -17,14 +17,16 @@ export default function ModernHeader() {
   const locale = params?.locale || 'en';
 
   const switchLanguage = (newLang: string) => {
-    // Set cookie for middleware
-    // eslint-disable-next-line
+    // Set cookies for Google Translate to automatically translate the page on load
+    const cookieStr = newLang === 'en' ? '/en/en' : `/en/${newLang}`;
+    document.cookie = `googtrans=${cookieStr}; path=/`;
+    document.cookie = `googtrans=${cookieStr}; path=/; domain=${window.location.hostname}`;
+    
     document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=31536000`;
-    // pathname starts with the current locale, e.g., /en/about
+    
     const newPath = pathname.replace(/^\/[^\/]+/, `/${newLang}`);
-    router.push(newPath);
-    setLangDropdownOpen(false);
-    setMobileMenuOpen(false);
+    // Use hard navigation so Google Translate script re-initializes
+    window.location.href = newPath;
   };
 
   useEffect(() => {
@@ -178,7 +180,6 @@ export default function ModernHeader() {
                     { code: "de", label: "Deutsch" },
                     { code: "fr", label: "Français" },
                     { code: "es", label: "Español" },
-                    { code: "it", label: "Italiano" },
                   ].map((lang) => (
                     <button
                       key={lang.code}
@@ -261,7 +262,6 @@ export default function ModernHeader() {
                 <button onClick={() => switchLanguage("de")} className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100 transition-colors">Deutsch</button>
                 <button onClick={() => switchLanguage("fr")} className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100 transition-colors">Français</button>
                 <button onClick={() => switchLanguage("es")} className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100 transition-colors">Español</button>
-                <button onClick={() => switchLanguage("it")} className="px-4 py-2 bg-slate-50 hover:bg-slate-100 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100 transition-colors">Italiano</button>
               </div>
             </div>
             

@@ -7,6 +7,7 @@ import RouteChangeHandler from "@/components/common/RouteChangeHandler";
 import StructuredData from "@/components/common/StructuredData";
 import CookieBanner from "@/components/common/CookieBanner";
 import ScriptManager from "@/components/common/ScriptManager";
+import Script from "next/script";
 
 // Import modern UI fonts
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });
@@ -78,20 +79,13 @@ export default async function RootLayout({
         <link rel="manifest" href="/manifest.json" />
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-inter antialiased bg-white text-slate-900`}>
-        {/* 
+        <div id="google_translate_element" style={{ display: 'none' }}></div>
         <Script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" strategy="lazyOnload" />
         <Script id="google-translate-init" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: `
           window.googleTranslateElementInit = function() {
             new google.translate.TranslateElement({pageLanguage: 'en', includedLanguages: 'en,de,fr,es', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
           }
-          window.changeLanguage = function(lang) {
-            var cookieStr = '/en/' + lang;
-            document.cookie = 'googtrans=' + cookieStr + '; path=/';
-            document.cookie = 'googtrans=' + cookieStr + '; path=/; domain=' + window.location.hostname;
-            window.location.reload();
-          }
         ` }} /> 
-        */}
         <StructuredData locale={locale} />
         <div className="flex flex-col min-h-screen">
           <RouteChangeHandler />
