@@ -1,8 +1,11 @@
 "use client";
+import { useState } from "react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
-import { Download, PlayCircle, Film } from "lucide-react";
+import { Download, PlayCircle, Film, X } from "lucide-react";
 
 export default function BRollPage() {
+  const [activeVideo, setActiveVideo] = useState<string | null>(null);
+
   const videos = [
     {
       title: "Manufacturing Facility Overview",
@@ -46,7 +49,10 @@ export default function BRollPage() {
             <div key={idx} className="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-100 flex flex-col md:flex-row items-center gap-8">
               <div className="w-full md:w-1/3 aspect-video bg-slate-900 rounded-xl relative flex items-center justify-center overflow-hidden group">
                 <div className="absolute inset-0 opacity-40 bg-[url('/assets/images/pharma_hero_mfg.png')] bg-cover bg-center"></div>
-                <PlayCircle className="w-12 h-12 text-white/80 group-hover:text-white transition-colors relative z-10 cursor-pointer" />
+                <PlayCircle 
+                  onClick={() => setActiveVideo(video.title)}
+                  className="w-12 h-12 text-white/80 group-hover:text-white transition-colors relative z-10 cursor-pointer hover:scale-110" 
+                />
                 <span className="absolute bottom-2 right-2 bg-black/60 text-white text-xs font-bold px-2 py-1 rounded">
                   {video.duration}
                 </span>
@@ -68,6 +74,28 @@ export default function BRollPage() {
           ))}
         </div>
       </div>
+
+      {/* Video Modal */}
+      {activeVideo && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-slate-900/90 backdrop-blur-sm">
+          <div className="bg-black w-full max-w-5xl aspect-video rounded-2xl relative overflow-hidden shadow-2xl border border-slate-700">
+            <button 
+              onClick={() => setActiveVideo(null)}
+              className="absolute top-4 right-4 z-10 p-2 bg-black/50 hover:bg-black text-white rounded-full transition-colors"
+            >
+              <X className="w-6 h-6" />
+            </button>
+            <video 
+              controls 
+              autoPlay 
+              className="w-full h-full object-cover"
+              src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerBlazes.mp4"
+            >
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
