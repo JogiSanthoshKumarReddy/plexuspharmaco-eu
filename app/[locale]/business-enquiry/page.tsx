@@ -136,7 +136,7 @@ export default function BusinessEnquiryPage() {
               <a key={idx} href={`mailto:${dept.email}`} className="bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-300 hover:shadow-md transition-all group block text-center">
                 <dept.icon className="w-8 h-8 text-brand-700 mx-auto mb-4 group-hover:scale-110 transition-transform" />
                 <h4 className="font-bold text-brand-900 mb-2">{dept.name}</h4>
-                <p className="text-sm text-brand-600 font-medium">{dept.email}</p>
+                <p className="text-sm text-brand-600 font-medium break-all">{dept.email}</p>
               </a>
             ))}
           </div>
