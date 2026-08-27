@@ -17,8 +17,8 @@ export default function BusinessEnquiryPage() {
 
   const faqs = [
     { q: "What product categories Plexuspharmaco GmbH works with?", a: "Plexuspharmaco GmbH works with Pharmaceuticals, food supplements, specially formulated nutraceuticals and medical devices of Class-I, II and III." },
-    { q: "How long does it take for a sales representative to respond?", a: "Our Global Sales & Distribution team typically responds to all inquiries within 24-48 business hours. For urgent regulatory matters, please contact the specific regional office directly via phone." },
-    { q: "Do you offer white-labeling services for nutraceuticals?", a: "Yes, our Biocare division specializes in white-label and private-label nutraceuticals. Please direct these specific inquiries to partner@plexuspharmaco.eu." },
+    { q: "How long does it take Plexuspharmaco GmbH to respond?", a: "Our Global Sales & Distribution team typically responds to all inquiries within 24-48 business hours. For urgent regulatory matters, please contact the specific regional office directly via phone." },
+    { q: "Do you offer white-labeling services for nutraceuticals?", a: "Yes, we specializes in white-label and private-label nutraceuticals. Please direct these specific inquiries to partner@plexuspharmaco.eu." },
   ];
 
   return (
