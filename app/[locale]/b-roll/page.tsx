@@ -4,7 +4,7 @@ import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import { Download, PlayCircle, Film, X } from "lucide-react";
 import Image from "next/image";
 
-// Sub-component for the AI Slideshow (simulates a video)
+// Sub-component for the Video Slideshow
 function SlideShowModal({ images, onClose }: { images: string[], onClose: () => void }) {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -27,7 +27,7 @@ function SlideShowModal({ images, onClose }: { images: string[], onClose: () => 
           >
             <Image 
               src={img}
-              alt="AI B-Roll Slide"
+              alt="B-Roll Slide"
               fill
               className="object-cover"
               priority={idx === 0}
@@ -42,7 +42,7 @@ function SlideShowModal({ images, onClose }: { images: string[], onClose: () => 
             <div className="flex items-center gap-3">
               <Film className="w-5 h-5 text-red-500 animate-pulse" />
               <div className="text-white/90 font-mono text-sm font-bold tracking-widest uppercase">
-                AI_GENERATED_B-ROLL_SEQ_{currentIndex + 1}
+                RAW_B-ROLL_SEQ_{currentIndex + 1}
               </div>
             </div>
             <div className="text-white/50 text-xs font-mono ml-8">Simulated Video Feed • RAW 4K</div>

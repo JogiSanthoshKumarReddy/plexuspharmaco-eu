@@ -36,7 +36,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
   // Extract unique categories
   const categories = ["All Products", ...Array.from(new Set(products.map(p => p.category)))];
 
-  // Helper to map categories to our beautiful AI generated images
+  // Helper to map categories to our product images
   const getProductImage = (category: string) => {
     const nutraCategories = ["KID’S HEALTH", "VITAMINS", "SUPPLEMENTS", "NUTRACEUTICALS"];
     if (nutraCategories.some(cat => category.toUpperCase().includes(cat))) {

@@ -1,6 +1,6 @@
 "use client";
 
-import { motion } from "framer-motion";
+// removed framer-motion
 import { ArrowRight, Calendar, User } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -33,11 +33,7 @@ export default function LatestNews() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {newsItems.map((item, idx) => (
             <Link href={`/press-release/${item.id}`} key={item.id} className="block group">
-              <motion.div 
-                initial={{ opacity: 0, y: 30 }}
-                whileInView={{ opacity: 1, y: 0 }}
-                viewport={{ once: true, margin: "-50px" }}
-                transition={{ duration: 0.5, delay: idx * 0.15 }}
+              <div 
                 className="glass-card hover-lift rounded-3xl overflow-hidden flex flex-col h-full bg-white"
               >
               <div className="relative h-64 overflow-hidden">
@@ -68,7 +64,7 @@ export default function LatestNews() {
                   </span>
                 </div>
               </div>
-              </motion.div>
+              </div>
             </Link>
           ))}
         </div>

@@ -43,12 +43,7 @@ export default function CompanyOverview() {
 
           {/* Text Content Side */}
           <div className="w-full lg:w-1/2">
-            <motion.div
-              initial={{ opacity: 0, x: 30 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true }}
-              transition={{ duration: 0.6 }}
-            >
+            <div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 mb-6">
                 <span className="w-2 h-2 rounded-full bg-accent-500 animate-pulse" />
                 <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">About Us</span>
@@ -76,7 +71,7 @@ export default function CompanyOverview() {
               <Link href="/business-enquiry" className="inline-flex items-center justify-center px-8 py-4 bg-brand-900 text-white font-medium rounded-xl hover:bg-brand-800 hover:shadow-lg transition-all duration-300">
                 Partner With Us Today
               </Link>
-            </motion.div>
+            </div>
           </div>
           
         </div>
