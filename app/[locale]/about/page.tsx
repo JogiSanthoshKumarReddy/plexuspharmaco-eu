@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import CompanyOverview from "@/components/about/CompanyOverview";
-import LeadershipTeam from "@/components/about/LeadershipTeam";
+
 import Certifications from "@/components/about/Certifications";
 import CSRSection from "@/components/about/CSRSection";
 import UniqueSellingPoints from "@/components/home/UniqueSellingPoints";
@@ -24,7 +24,7 @@ export default function AboutPage() {
       <HistoryTimeline />
       <Certifications />
       <CSRSection />
-      <LeadershipTeam />
+
       <UniqueSellingPoints />
     </div>
   );

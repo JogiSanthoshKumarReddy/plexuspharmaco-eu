@@ -76,7 +76,7 @@ export default function CSRSection() {
               className="relative h-[500px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100 group"
             >
               <Image 
-                src="/assets/images/pharma_hero_lab.png"
+                src="/assets/images/csr_community.jpg"
                 alt="Corporate Social Responsibility & Clean Production"
                 fill
                 className="object-cover group-hover:scale-105 transition-transform duration-700"
