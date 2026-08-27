@@ -23,7 +23,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       default: "Plexuspharmaco Europe | Global Healthcare Solutions",
       template: "%s | Plexuspharmaco Europe",
     },
-    description: "A globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
+    description: "A globally focused Healthcare company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: `/${locale}`,

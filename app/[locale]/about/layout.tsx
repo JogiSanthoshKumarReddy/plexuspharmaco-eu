@@ -2,13 +2,13 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "About",
-  description: "Learn about Plexuspharmaco, a global pharmaceutical company dedicated to innovation, quality, and improving patient outcomes worldwide.",
+  description: "Learn about Plexuspharmaco, a global Healthcare company dedicated to innovation, quality, and improving patient outcomes worldwide.",
   alternates: {
     canonical: "/about",
   },
   openGraph: {
     title: "About | Plexuspharmaco Europe",
-    description: "Learn about Plexuspharmaco, a global pharmaceutical company dedicated to innovation, quality, and improving patient outcomes worldwide.",
+    description: "Learn about Plexuspharmaco, a global Healthcare company dedicated to innovation, quality, and improving patient outcomes worldwide.",
     url: "/about",
     images: [
       {

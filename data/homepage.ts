@@ -1,7 +1,7 @@
 export const homepageData = {
   hero: {
     title: "Advancing Global Health through innovation and technology",
-    subtitle: "Plexuspharmaco is a globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
+    subtitle: "Plexuspharmaco is a globally focused Healthcare company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
     slides: [
       { id: 1, bg: "/assets/images/hero-1.jpg" },
       { id: 2, bg: "/assets/images/hero-2.jpg" },
