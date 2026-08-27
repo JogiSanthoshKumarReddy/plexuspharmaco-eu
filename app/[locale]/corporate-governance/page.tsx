@@ -55,7 +55,7 @@ export default function CorporateGovernancePage() {
               <p className="text-lg text-brand-600 mb-8 leading-relaxed">
                 At Plexuspharmaco GmbH, strong corporate governance underpins everything we do, ensuring transparency, accountability, and sustainable value creation. 
                 <br/><br/>
-                This disciplined approach enables Plexuspharmaco to foster innovation, collaboration, and sustainable growth across pharmaceuticals, nutraceuticals, healthcare solutions, and advanced technology platforms worldwide.
+                This disciplined approach enables Plexuspharmaco to foster innovation, collaboration, and sustainable growth across pharmaceuticals, nutraceuticals, medical devices, and advanced technology platforms worldwide.
               </p>
             </motion.div>
           </div>
