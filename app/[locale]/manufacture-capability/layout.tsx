@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: "/manufacture-capability",
   },
   openGraph: {
-    title: "Manufacture Capability | Plexus Pharmaco Europe",
+    title: "Manufacture Capability | Plexuspharmaco Europe",
     description: "Discover our WHO and EU GMP-certified global manufacturing network and high-precision production facilities.",
     url: "/manufacture-capability",
     images: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "Manufacture Capability - Plexus Pharmaco Europe",
+        alt: "Manufacture Capability - Plexuspharmaco Europe",
       },
     ],
   },

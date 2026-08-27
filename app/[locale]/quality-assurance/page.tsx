@@ -67,7 +67,7 @@ export default function QualityAssurancePage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Pharmaco, Quality Assurance is not a department—it is the foundational culture that governs every decision we make. We believe that every dose manufactured in our facilities represents a promise of health to a patient.
+                At Plexuspharmaco, Quality Assurance is not a department—it is the foundational culture that governs every decision we make. We believe that every dose manufactured in our facilities represents a promise of health to a patient.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-6">

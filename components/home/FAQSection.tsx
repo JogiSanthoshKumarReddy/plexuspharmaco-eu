@@ -6,7 +6,7 @@ import { Plus, Minus, HelpCircle } from "lucide-react";
 
 const faqs = [
   {
-    question: "What markets does Plexus Pharmaco operate in?",
+    question: "What markets does Plexuspharmaco operate in?",
     answer: "We operate in over 45 regulated and semi-regulated markets globally, including key presence across Europe, Asia, Africa, LATAM, GCC, and CIS regions."
   },
   {
@@ -22,7 +22,7 @@ const faqs = [
     answer: "Absolutely. We provide end-to-end contract manufacturing and out-licensing opportunities for pharmaceutical FDFs, nutraceuticals, and dermo-cosmetics to strategic partners worldwide."
   },
   {
-    question: "How does Plexus Pharmaco ensure supply chain reliability?",
+    question: "How does Plexuspharmaco ensure supply chain reliability?",
     answer: "We leverage a highly integrated global logistics network, diversified manufacturing sites, and rigorous risk management protocols to ensure uninterrupted delivery of critical medicines."
   }
 ];

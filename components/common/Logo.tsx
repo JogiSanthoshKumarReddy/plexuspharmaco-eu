@@ -6,7 +6,7 @@ export default function Logo() {
     <Link href="/" className="flex items-center">
       <Image
         src="/images/logo.png"
-        alt="Plexus Pharmaco"
+        alt="Plexuspharmaco"
         width={300}
         height={80}
         priority

@@ -51,7 +51,7 @@ export default function EventPage() {
             viewport={{ once: true }}
             className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight"
           >
-            Connect with Plexus Pharmaco
+            Connect with Plexuspharmaco
           </motion.h2>
           
           <motion.p 

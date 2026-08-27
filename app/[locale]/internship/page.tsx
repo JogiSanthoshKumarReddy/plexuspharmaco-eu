@@ -53,7 +53,7 @@ export default function InternshipPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Pharmaco, our Internship & Training programs immerse you in real-world pharmaceutical, nutraceutical, and medical device operations.
+                At Plexuspharmaco, our Internship & Training programs immerse you in real-world pharmaceutical, nutraceutical, and medical device operations.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

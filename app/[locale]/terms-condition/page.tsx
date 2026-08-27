@@ -13,13 +13,13 @@ export default function TermsConditionPage() {
         <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-sm border border-slate-100 prose prose-brand max-w-none prose-h2:text-primary prose-h2:font-outfit prose-h2:text-2xl prose-h2:mb-4 prose-p:text-slate-600 prose-p:leading-relaxed">
           
           <p className="lead text-lg font-medium text-slate-800">
-            Welcome to the Plexus Pharmaco Europe website. By accessing or using this website, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully.
+            Welcome to the Plexuspharmaco Europe website. By accessing or using this website, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully.
           </p>
           <hr className="my-8 border-slate-100" />
 
           <h2>1. General Provisions & Acceptance</h2>
           <p>
-            These Terms and Conditions govern your use of the website operated by <strong>Plexus Pharmaco GmbH</strong>, located at Frankenstr. 34, 96146 Altendorf, Germany. If you do not agree with any part of these terms, you must not use our website or services.
+            These Terms and Conditions govern your use of the website operated by <strong>Plexuspharmaco GmbH</strong>, located at Frankenstr. 34, 96146 Altendorf, Germany. If you do not agree with any part of these terms, you must not use our website or services.
           </p>
           
           <h2>2. Non-Medical Advice Disclaimer</h2>
@@ -31,22 +31,22 @@ export default function TermsConditionPage() {
           
           <h2>3. Forward-Looking Statements</h2>
           <p>
-            This website may contain forward-looking statements regarding Plexus Pharmaco&apos;s future financial performance, business strategy, product pipeline, and clinical development. These statements involve substantial risks and uncertainties. Actual results or events could differ materially from those projected in forward-looking statements. We undertake no obligation to update any forward-looking statements as a result of new information or future events.
+            This website may contain forward-looking statements regarding Plexuspharmaco&apos;s future financial performance, business strategy, product pipeline, and clinical development. These statements involve substantial risks and uncertainties. Actual results or events could differ materially from those projected in forward-looking statements. We undertake no obligation to update any forward-looking statements as a result of new information or future events.
           </p>
 
           <h2>4. Intellectual Property & Trademarks</h2>
           <p>
-            All content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, and software, is the property of Plexus Pharmaco GmbH or its content suppliers and is protected by international copyright and trademark laws. Product names (e.g., PlexWell) are registered trademarks of Plexus Pharmaco Group. Unauthorized use, reproduction, or distribution is strictly prohibited.
+            All content on this website, including but not limited to text, graphics, logos, images, audio clips, digital downloads, and software, is the property of Plexuspharmaco GmbH or its content suppliers and is protected by international copyright and trademark laws. Product names (e.g., PlexWell) are registered trademarks of Plexuspharmaco Group. Unauthorized use, reproduction, or distribution is strictly prohibited.
           </p>
 
           <h2>5. Third-Party Links & Resources</h2>
           <p>
-            Our website may contain links to third-party websites or services that are not owned or controlled by Plexus Pharmaco (such as regulatory authority portals or news outlets). We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites. You acknowledge and agree that Plexus Pharmaco shall not be responsible or liable for any damage or loss caused by your use of any such content.
+            Our website may contain links to third-party websites or services that are not owned or controlled by Plexuspharmaco (such as regulatory authority portals or news outlets). We have no control over, and assume no responsibility for, the content, privacy policies, or practices of any third-party websites. You acknowledge and agree that Plexuspharmaco shall not be responsible or liable for any damage or loss caused by your use of any such content.
           </p>
 
           <h2>6. Limitation of Liability & Indemnification</h2>
           <p>
-            To the maximum extent permitted by applicable German law, Plexus Pharmaco GmbH shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to, or use of, this website. By using this site, you agree to indemnify and hold harmless Plexus Pharmaco GmbH, its directors, officers, employees, and agents from and against any claims, liabilities, damages, judgments, or expenses arising from your violation of these Terms.
+            To the maximum extent permitted by applicable German law, Plexuspharmaco GmbH shall not be liable for any direct, indirect, incidental, consequential, or punitive damages arising out of your access to, or use of, this website. By using this site, you agree to indemnify and hold harmless Plexuspharmaco GmbH, its directors, officers, employees, and agents from and against any claims, liabilities, damages, judgments, or expenses arising from your violation of these Terms.
           </p>
 
           <h2>7. Governing Law and Jurisdiction</h2>

@@ -6,14 +6,14 @@ import Image from "next/image";
 
 const testimonials = [
   {
-    quote: "Plexus Pharmaco has been an indispensable partner in our supply chain. Their strict adherence to EU-GMP standards and reliable delivery of critical care medicines has profoundly impacted our hospital network's efficiency.",
+    quote: "Plexuspharmaco has been an indispensable partner in our supply chain. Their strict adherence to EU-GMP standards and reliable delivery of critical care medicines has profoundly impacted our hospital network's efficiency.",
     author: "Dr. Elena Rostova",
     role: "Chief Medical Officer",
     organization: "EuroHealth Alliance",
     image: "/assets/images/resources/testi-1.jpg"
   },
   {
-    quote: "The strategic licensing agreement with Plexus Pharmaco allowed us to expand our cardiology portfolio significantly. Their regulatory expertise and seamless tech-transfer process are truly globally integrated.",
+    quote: "The strategic licensing agreement with Plexuspharmaco allowed us to expand our cardiology portfolio significantly. Their regulatory expertise and seamless tech-transfer process are truly globally integrated.",
     author: "Marcus Chen",
     role: "VP of Global Partnerships",
     organization: "NovaMed Pharmaceuticals",

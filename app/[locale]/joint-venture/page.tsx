@@ -48,7 +48,7 @@ export default function JointVenturePage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Pharmaco, joint ventures represent highly integrated, synergistic collaborations that combine complementary strengths, resources, and expertise. We actively seek joint venture opportunities that accelerate market entry, scale manufacturing capabilities, and foster local innovation in target regions.
+                At Plexuspharmaco, joint ventures represent highly integrated, synergistic collaborations that combine complementary strengths, resources, and expertise. We actively seek joint venture opportunities that accelerate market entry, scale manufacturing capabilities, and foster local innovation in target regions.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

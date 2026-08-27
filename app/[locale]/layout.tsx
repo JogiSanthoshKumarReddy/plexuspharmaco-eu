@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
   return {
     title: {
-      default: "Plexus Pharmaco Europe | Global Healthcare Solutions",
-      template: "%s | Plexus Pharmaco Europe",
+      default: "Plexuspharmaco Europe | Global Healthcare Solutions",
+      template: "%s | Plexuspharmaco Europe",
     },
     description: "A globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
     metadataBase: new URL(baseUrl),
@@ -29,16 +29,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       canonical: `/${locale}`,
     },
     openGraph: {
-      title: "Plexus Pharmaco Europe",
+      title: "Plexuspharmaco Europe",
       description: "Regulatory-compliant, high-quality healthcare solutions.",
       url: `${baseUrl}/${locale}`,
-      siteName: "Plexus Pharmaco",
+      siteName: "Plexuspharmaco",
       images: [
         {
           url: "/pharma/assets/images/696f65db8cb34.png",
           width: 1200,
           height: 630,
-          alt: "Plexus Pharmaco Logo",
+          alt: "Plexuspharmaco Logo",
         },
       ],
       locale: locale,
@@ -46,7 +46,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     },
     twitter: {
       card: "summary_large_image",
-      title: "Plexus Pharmaco Europe",
+      title: "Plexuspharmaco Europe",
       description: "Global Healthcare Solutions and Advanced Therapies.",
       images: ["/pharma/assets/images/696f65db8cb34.png"],
     },

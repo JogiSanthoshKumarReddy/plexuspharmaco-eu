@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: "/sustainability",
   },
   openGraph: {
-    title: "Sustainability | Plexus Pharmaco Europe",
+    title: "Sustainability | Plexuspharmaco Europe",
     description: "Discover our commitment to environmental responsibility, green chemistry, and sustainable pharmaceutical manufacturing.",
     url: "/sustainability",
     images: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "Sustainability - Plexus Pharmaco Europe",
+        alt: "Sustainability - Plexuspharmaco Europe",
       },
     ],
   },

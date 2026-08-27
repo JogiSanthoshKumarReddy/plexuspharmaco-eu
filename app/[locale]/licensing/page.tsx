@@ -109,7 +109,7 @@ export default function LicensingPage() {
             className="text-lg text-slate-600 space-y-6 text-left md:text-center"
           >
             <p>
-              At Plexus Pharmaco, licensing opportunities are structured as strategic, science-aligned collaborations designed to create long-term value across the pharmaceutical lifecycle. Our licensing philosophy is grounded in technical compatibility, regulatory alignment, and shared governance principles.
+              At Plexuspharmaco, licensing opportunities are structured as strategic, science-aligned collaborations designed to create long-term value across the pharmaceutical lifecycle. Our licensing philosophy is grounded in technical compatibility, regulatory alignment, and shared governance principles.
             </p>
             <p>
               We adopt a value-based, evidence-driven approach to both in-licensing and out-licensing, focusing on products and technologies with a strong clinical rationale, differentiated formulation or delivery advantages, and scalable commercial potential.

@@ -61,7 +61,7 @@ export default function HeroSection() {
             className="inline-block mb-6 px-5 py-2 rounded-full glass border-white/20 shadow-xl"
           >
             <span className="text-sm md:text-base font-bold tracking-widest text-white uppercase">
-              Global Pharmaceutical Leaders
+              Global Healthcare Company
             </span>
           </motion.div>
 

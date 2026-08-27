@@ -42,7 +42,7 @@ export default function FinancialReportPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Plexus Pharmaco adheres to the highest international accounting and reporting standards, ensuring transparency, accuracy, and regulatory compliance.
+                Plexuspharmaco adheres to the highest international accounting and reporting standards, ensuring transparency, accuracy, and regulatory compliance.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

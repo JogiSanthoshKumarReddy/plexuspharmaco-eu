@@ -48,7 +48,7 @@ export default function StrategicAlliancePage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                Strategic alliances at Plexus Pharmaco are designed as deep, integrated collaborations that extend beyond transactional relationships. We work closely with research institutions, technology partners, manufacturers, contract research organizations, and healthcare companies to co-create innovation and accelerate global healthcare impact.
+                Strategic alliances at Plexuspharmaco are designed as deep, integrated collaborations that extend beyond transactional relationships. We work closely with research institutions, technology partners, manufacturers, contract research organizations, and healthcare companies to co-create innovation and accelerate global healthcare impact.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-8">

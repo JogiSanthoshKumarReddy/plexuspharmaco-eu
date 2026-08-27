@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const imageUrl = product.image || getProductImage(product.category);
 
   return {
-    title: `${product.name} | Plexus Pharmaco`,
+    title: `${product.name} | Plexuspharmaco`,
     description: product.description.substring(0, 160),
     alternates: {
       canonical: `/${resolvedParams.locale}/product-catalogue/${product.id}`,
@@ -207,7 +207,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
 
             <div className="space-y-6 relative z-10 font-light text-brand-100 leading-relaxed">
               <p>
-                All Plexus Pharmaco products are manufactured in modern, validated facilities adhering to rigorous quality standards. Specific regulatory documentation (CoA, FSC, GMP) and stability data are available upon request during the commercial inquiry process.
+                All Plexuspharmaco products are manufactured in modern, validated facilities adhering to rigorous quality standards. Specific regulatory documentation (CoA, FSC, GMP) and stability data are available upon request during the commercial inquiry process.
               </p>
             </div>
           </div>
@@ -251,7 +251,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             </div>
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
               <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Can this product be formulated under private label?</h4>
-              <p className="text-slate-600 font-light text-sm">Yes, Plexus Pharmaco offers extensive contract manufacturing and private labeling services for this product category subject to regulatory approvals in the target market.</p>
+              <p className="text-slate-600 font-light text-sm">Yes, Plexuspharmaco offers extensive contract manufacturing and private labeling services for this product category subject to regulatory approvals in the target market.</p>
             </div>
             <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
               <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Are stability studies available?</h4>

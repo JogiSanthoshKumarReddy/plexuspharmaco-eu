@@ -128,7 +128,7 @@ export default function ContactForm() {
           <CheckCircle2 className="w-10 h-10" />
         </div>
         <h3 className="text-3xl font-bold text-brand-900 mb-4">Message Sent Successfully</h3>
-        <p className="text-slate-600 text-lg">Thank you for reaching out to Plexus Pharmaco. Our team will review your inquiry and get back to you shortly.</p>
+        <p className="text-slate-600 text-lg">Thank you for reaching out to Plexuspharmaco. Our team will review your inquiry and get back to you shortly.</p>
       </div>
     );
   }
@@ -310,7 +310,7 @@ export default function ContactForm() {
                 className="mt-1 w-5 h-5 rounded border-slate-300 text-brand-600 focus:ring-brand-500 transition-all"
               />
               <span className="text-sm text-slate-700 leading-relaxed">
-                I agree that Plexus Pharmaco GmbH may process my personal data for the purpose of responding to my inquiry. I have read the <Link href="/privacy-policy" className="text-brand-600 hover:underline">Privacy Policy</Link>.
+                I agree that Plexuspharmaco GmbH may process my personal data for the purpose of responding to my inquiry. I have read the <Link href="/privacy-policy" className="text-brand-600 hover:underline">Privacy Policy</Link>.
               </span>
             </label>
             {errors.consent && <p className="mt-2 text-sm text-red-500 font-medium">{errors.consent.message}</p>}

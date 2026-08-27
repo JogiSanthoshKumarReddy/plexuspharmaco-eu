@@ -31,7 +31,7 @@ export default function GalleryPage() {
         {/* Intro Section */}
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-brand-900 mb-4">
-            Inside Plexus Pharmaco
+            Inside Plexuspharmaco
           </h2>
           <p className="text-lg text-slate-600 max-w-2xl mx-auto">
             Explore our modern, validated facilities, research laboratories, and the dedicated teams driving global healthcare innovation.

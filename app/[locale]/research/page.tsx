@@ -77,7 +77,7 @@ export default function ResearchPage() {
               </h2>
               
               <p className="text-lg text-slate-600 mb-6 leading-relaxed">
-                At Plexus Pharmaco, innovation begins with a disciplined, science-driven research and development framework embedded across formulation design, process development, and commercialization.
+                At Plexuspharmaco, innovation begins with a disciplined, science-driven research and development framework embedded across formulation design, process development, and commercialization.
               </p>
               
               <p className="text-lg text-slate-600 leading-relaxed mb-6">
@@ -172,7 +172,7 @@ export default function ResearchPage() {
             <BriefcaseMedical className="w-16 h-16 text-brand-200 mx-auto mb-6" />
             <h2 className="text-3xl lg:text-5xl font-bold mb-6">Our Robust Research Pipeline</h2>
             <p className="text-lg text-brand-100 font-light leading-relaxed mb-10">
-              Plexus Pharmaco is aggressively expanding its therapeutic footprint. We currently have over 45 active R&D projects in various stages of development, focusing heavily on oncology, cardiovascular, and advanced nutraceutical formulations.
+              Plexuspharmaco is aggressively expanding its therapeutic footprint. We currently have over 45 active R&D projects in various stages of development, focusing heavily on oncology, cardiovascular, and advanced nutraceutical formulations.
             </p>
             <Link href="/pipeline" className="inline-flex items-center gap-2 px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-bold rounded-xl transition-all shadow-lg hover:shadow-xl hover:-translate-y-1">
               Explore Our Pipeline

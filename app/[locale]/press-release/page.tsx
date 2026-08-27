@@ -45,7 +45,7 @@ export default function PressReleasePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed"
           >
-            Stay informed with the latest official announcements and corporate developments from Plexus Pharmaco Group. This section highlights key milestones, global expansions, strategic partnerships, manufacturing advancements, and governance initiatives across our integrated healthcare ecosystem.
+            Stay informed with the latest official announcements and corporate developments from Plexuspharmaco Group. This section highlights key milestones, global expansions, strategic partnerships, manufacturing advancements, and governance initiatives across our integrated healthcare ecosystem.
           </motion.p>
         </div>
 

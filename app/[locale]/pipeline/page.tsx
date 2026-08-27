@@ -42,7 +42,7 @@ export default function PipelinePage() {
           <div className="w-full lg:w-1/2">
             <h2 className="text-3xl font-bold text-brand-900 mb-4">Pipeline / Under Development</h2>
             <p className="text-lg text-brand-600 leading-relaxed mb-4">
-              At Plexus Pharmaco, our development pipeline reflects a forward-looking, science-led approach to building a strong and sustainable future portfolio. Ongoing R&D initiatives focus on formulation enhancement, differentiated delivery systems, and lifecycle value creation across key therapeutic segments.
+              At Plexuspharmaco, our development pipeline reflects a forward-looking, science-led approach to building a strong and sustainable future portfolio. Ongoing R&D initiatives focus on formulation enhancement, differentiated delivery systems, and lifecycle value creation across key therapeutic segments.
             </p>
             <p className="text-lg text-brand-600 leading-relaxed">
               Guided by Quality by Design (QbD) principles and regulatory foresight, our pipeline emphasizes improved bioavailability, stability, safety, and patient-centric performance while ensuring global compliance readiness.

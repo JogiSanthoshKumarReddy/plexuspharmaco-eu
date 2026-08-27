@@ -6,7 +6,7 @@ const milestones = [
   {
     year: "2018",
     title: "Foundation & Vision",
-    description: "Plexus Pharmaco was founded with a singular vision: to bridge the gap between complex pharmaceutical R&D and accessible patient care globally. Our first research facility opened in Frankfurt, Germany."
+    description: "Plexuspharmaco was founded with a singular vision: to bridge the gap between complex pharmaceutical R&D and accessible patient care globally. Our first research facility opened in Frankfurt, Germany."
   },
   {
     year: "2020",

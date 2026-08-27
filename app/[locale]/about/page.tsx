@@ -9,7 +9,7 @@ import HistoryTimeline from "@/components/about/HistoryTimeline";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "Learn about Plexus Pharmaco, our history, mission, and commitment to global healthcare solutions.",
+  description: "Learn about Plexuspharmaco, our history, mission, and commitment to global healthcare solutions.",
 };
 
 export default function AboutPage() {

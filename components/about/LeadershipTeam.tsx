@@ -10,7 +10,7 @@ export default function LeadershipTeam() {
       name: "Dr. Avinash J. Aher",
       role: "Founder and CEO",
       image: "/pharma/assets/images/6960c9043c7cf.jpeg",
-      bio: "Dr. Avinash holds a PhD in Neuroscience from Friedrich-Alexander-Universität (FAU), Germany, and is the author of 25 peer-reviewed scientific publications. With a rare blend of deep scientific expertise and entrepreneurial acumen, Dr. Avinash founded Plexus Pharmaco GmbH in 2018 with a clear vision to advance innovation-driven, evidence-based healthcare solutions."
+      bio: "Dr. Avinash holds a PhD in Neuroscience from Friedrich-Alexander-Universität (FAU), Germany, and is the author of 25 peer-reviewed scientific publications. With a rare blend of deep scientific expertise and entrepreneurial acumen, Dr. Avinash founded Plexuspharmaco GmbH in 2018 with a clear vision to advance innovation-driven, evidence-based healthcare solutions."
     }
   ];
 

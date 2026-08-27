@@ -12,7 +12,7 @@ export default function ModernFooter({ locale }: { locale: string }) {
           
           {/* About Column */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold text-white mb-6">Plexus Pharmaco</h3>
+            <h3 className="text-2xl font-bold text-white mb-6">Plexuspharmaco</h3>
             <p className="text-brand-300 leading-relaxed text-sm mb-6">
               A globally focused pharmaceutical company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions across regulated and emerging markets.
             </p>
@@ -59,7 +59,7 @@ export default function ModernFooter({ locale }: { locale: string }) {
                 <MapPin className="w-4 h-4 text-accent-500" /> Germany (Head Office)
               </h4>
               <p className="text-sm text-brand-400 pl-6">
-                Plexus Pharmaco GmbH<br />
+                Plexuspharmaco GmbH<br />
                 Frankenstr. 34, 96146 Altendorf, Germany.
               </p>
             </div>
@@ -99,7 +99,7 @@ export default function ModernFooter({ locale }: { locale: string }) {
         {/* Footer Bottom */}
         <div className="pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-brand-400">
-            &copy; {currentYear} <span className="text-white font-medium">Plexus Pharmaco GmbH</span>. All Rights Reserved.
+            &copy; {currentYear} <span className="text-white font-medium">Plexuspharmaco GmbH</span>. All Rights Reserved.
           </p>
           <div className="flex items-center gap-6 text-sm text-brand-400">
             <Link href={`/${locale}/privacy-policy`} className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Privacy Policy</Link>

@@ -13,7 +13,7 @@ export default function GlobalOfficePage() {
       id: "germany",
       title: "European Headquarters",
       country: "Germany",
-      company: "Plexus Pharmaco GmbH",
+      company: "Plexuspharmaco GmbH",
       address: "Frankenstr. 34, 96146 Altendorf, Germany",
       phone: "+49 152 1304 8766",
       email: "info@plexuspharmaco.com",
@@ -59,7 +59,7 @@ export default function GlobalOfficePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            With our European headquarters in Germany, Plexus Pharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
+            With our European headquarters in Germany, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
           </motion.p>
         </div>
 
@@ -136,7 +136,7 @@ export default function GlobalOfficePage() {
             <Ship className="w-12 h-12 text-brand-700 mb-6" />
             <h3 className="text-3xl font-bold text-brand-900 mb-6">Robust Export Network</h3>
             <p className="text-slate-600 leading-relaxed font-light mb-8">
-              Plexus Pharmaco leverages a highly optimized, temperature-controlled global logistics network ensuring our products reach distributors, hospitals, and pharmacies rapidly without compromising product integrity.
+              Plexuspharmaco leverages a highly optimized, temperature-controlled global logistics network ensuring our products reach distributors, hospitals, and pharmacies rapidly without compromising product integrity.
             </p>
             <div className="space-y-4">
               {exportMarkets.map((market, idx) => (

@@ -94,13 +94,13 @@ export default function JobOpeningPage() {
             transition={{ delay: 0.1 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            At Plexus Pharmaco, you aren&apos;t just taking a job—you are joining a global mission to extend and improve human life. We foster an inclusive, high-performance culture that empowers our people to innovate, grow, and lead.
+            At Plexuspharmaco, you aren&apos;t just taking a job—you are joining a global mission to extend and improve human life. We foster an inclusive, high-performance culture that empowers our people to innovate, grow, and lead.
           </motion.p>
         </div>
 
         {/* Benefits Grid */}
         <div className="mb-24">
-          <h3 className="text-3xl font-bold text-brand-900 mb-10 text-center">Why Join Plexus Pharmaco?</h3>
+          <h3 className="text-3xl font-bold text-brand-900 mb-10 text-center">Why Join Plexuspharmaco?</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {benefits.map((benefit, idx) => (
               <motion.div
@@ -132,7 +132,7 @@ export default function JobOpeningPage() {
             >
               <Image 
                 src="/assets/images/pharma_hero_corporate.png"
-                alt="Plexus Pharmaco Culture"
+                alt="Plexuspharmaco Culture"
                 fill
                 className="object-cover"
               />
@@ -149,7 +149,7 @@ export default function JobOpeningPage() {
                 We believe our greatest asset is our talent. We invest heavily in our &quot;Future Leaders Program,&quot; providing mentorship from industry veterans, cross-functional rotations, and executive coaching.
               </p>
               <p className="text-lg text-slate-600 mb-8 leading-relaxed">
-                Whether you are a seasoned pharmaceutical executive or a recent science graduate entering our robust Internship Program, Plexus Pharmaco offers a defined trajectory for your ambitions.
+                Whether you are a seasoned pharmaceutical executive or a recent science graduate entering our robust Internship Program, Plexuspharmaco offers a defined trajectory for your ambitions.
               </p>
               <ul className="space-y-4 mb-8">
                 <li className="flex items-center gap-3 text-brand-900 font-medium"><CheckCircle2 className="w-5 h-5 text-accent-500" /> Executive Mentorship</li>

@@ -43,7 +43,7 @@ export default function CSRSection() {
               transition={{ delay: 0.1 }}
               className="text-lg text-slate-600 mb-10 leading-relaxed"
             >
-              Beyond the laboratory, Plexus Pharmaco is deeply committed to making a positive, sustainable impact on the environment and society. Our CSR initiatives are integrated into our core business strategy.
+              Beyond the laboratory, Plexuspharmaco is deeply committed to making a positive, sustainable impact on the environment and society. Our CSR initiatives are integrated into our core business strategy.
             </motion.p>
 
             <div className="space-y-8">

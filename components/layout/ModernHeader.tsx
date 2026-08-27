@@ -72,10 +72,10 @@ export default function ModernHeader() {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex-shrink-0 relative z-50" aria-label="Plexus Pharmaco Home">
+          <Link href="/" className="flex-shrink-0 relative z-50" aria-label="Plexuspharmaco Home">
             <Image 
               src="/pharma/assets/images/696f65db8cb34.png" 
-              alt="Plexus Pharmaco Logo" 
+              alt="Plexuspharmaco Logo" 
               width={200}
               height={48}
               className="h-12 w-auto object-contain"
@@ -124,7 +124,7 @@ export default function ModernHeader() {
                       <div>
                         <h4 className="text-sm font-bold text-brand-900 mb-2">{nav.title} Overview</h4>
                         <p className="text-xs text-slate-500 leading-relaxed mb-4">
-                          {nav.description || "Explore our comprehensive offerings and commitment to advancing global healthcare through innovation and quality."}
+                          {nav.description || "Explore our comprehensive offerings and commitment to Advancing Global Health through innovation and technologycare through innovation and quality."}
                         </p>
                       </div>
                       <Link href={`/${locale}${nav.items[0]?.href || ""}`} className="text-sm text-brand-600 font-bold hover:text-brand-800 transition-colors inline-flex items-center gap-1">
