@@ -37,7 +37,7 @@ export default function BusinessEnquiryPage() {
           className="text-center max-w-3xl mx-auto mb-16"
         >
           <h2 className="text-4xl font-bold text-brand-900 mb-6">How Can We Help You?</h2>
-          <p className="text-lg text-slate-600 font-light">Whether you are looking for a reliable manufacturing partner, need regulatory support, or want to join our global team, we are ready to connect.</p>
+          <p className="text-lg text-slate-600 font-light">Whether you are looking for a scientifically validated healthcare products, or willing to offer your patented formulations, or want to join our global team, we are ready to connect.</p>
         </motion.div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-24">
@@ -64,25 +64,25 @@ export default function BusinessEnquiryPage() {
             
             {/* Primary Contact Card */}
             <div className="bg-white rounded-[2rem] p-8 shadow-sm border border-brand-100 group">
-              <h3 className="text-xl font-bold text-brand-900 mb-8 tracking-wide">European Headquarters</h3>
+              <h3 className="text-xl font-bold text-brand-900 mb-8 tracking-wide">German Headquarters</h3>
               <div className="flex flex-col gap-8">
-                <a href="mailto:info@plexuspharmaco.com" className="flex items-start gap-5 group/item">
+                <a href="mailto:info@plexuspharmaco.eu" className="flex items-start gap-5 group/item">
                   <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 group-hover/item:bg-accent-500 group-hover/item:text-white transition-all text-brand-700">
                     <Mail className="w-5 h-5" />
                   </div>
                   <div>
                     <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">General Email</span>
-                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors">info@plexuspharmaco.com</span>
+                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors">info@plexuspharmaco.eu</span>
                   </div>
                 </a>
 
-                <a href="tel:+4915213048766" className="flex items-start gap-5 group/item">
+                <a href="tel:+4915255460529" className="flex items-start gap-5 group/item">
                   <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 group-hover/item:bg-accent-500 group-hover/item:text-white transition-all text-brand-700">
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
                     <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Direct Phone (HQ)</span>
-                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors">+49 152 1304 8766</span>
+                    <span className="text-brand-900 font-medium group-hover/item:text-brand-600 transition-colors">+49 1525 5460529</span>
                   </div>
                 </a>
 

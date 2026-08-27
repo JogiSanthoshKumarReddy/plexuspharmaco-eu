@@ -11,7 +11,7 @@ export default function StructuredData({ locale = 'en' }: { locale?: string }) {
     "description": "A globally focused Healthcare company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
     "contactPoint": {
       "@type": "ContactPoint",
-      "telephone": "+49 152 1304 8766",
+      "telephone": "+49 1525 5460529",
       "contactType": "customer service",
       "areaServed": "Global",
       "availableLanguage": ["English"]

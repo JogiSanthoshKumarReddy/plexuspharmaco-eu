@@ -70,24 +70,24 @@ export default function ModernFooter({ locale }: { locale: string }) {
             <h3 className="text-xl font-bold text-white mb-6">Contact Us</h3>
             <ul className="flex flex-col gap-4">
               <li>
-                <a href="mailto:info@plexuspharmaco.com" className="flex items-start gap-3 group">
+                <a href="mailto:info@plexuspharmaco.eu" className="flex items-start gap-3 group">
                   <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-accent-500 transition-colors flex-shrink-0">
                     <Mail className="w-5 h-5 text-brand-300 group-hover:text-white" />
                   </div>
                   <div>
                     <span className="block text-xs text-brand-500 font-medium uppercase tracking-wider mb-1">Email Support</span>
-                    <span className="text-sm text-brand-300 group-hover:text-white transition-colors">info@plexuspharmaco.com</span>
+                    <span className="text-sm text-brand-300 group-hover:text-white transition-colors">info@plexuspharmaco.eu</span>
                   </div>
                 </a>
               </li>
               <li>
-                <a href="tel:+4915213048766" className="flex items-start gap-3 group">
+                <a href="tel:+4915255460529" className="flex items-start gap-3 group">
                   <div className="w-10 h-10 rounded-lg bg-white/5 flex items-center justify-center group-hover:bg-accent-500 transition-colors flex-shrink-0">
                     <Phone className="w-5 h-5 text-brand-300 group-hover:text-white" />
                   </div>
                   <div>
                     <span className="block text-xs text-brand-500 font-medium uppercase tracking-wider mb-1">Call Germany</span>
-                    <span className="text-sm text-brand-300 group-hover:text-white transition-colors">+49 152 1304 8766</span>
+                    <span className="text-sm text-brand-300 group-hover:text-white transition-colors">+49 1525 5460529</span>
                   </div>
                 </a>
               </li>

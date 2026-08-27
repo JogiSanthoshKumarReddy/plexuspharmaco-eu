@@ -11,12 +11,12 @@ export default function GlobalOfficePage() {
   const offices = [
     {
       id: "germany",
-      title: "European Headquarters",
+      title: "German Headquarters",
       country: "Germany",
       company: "Plexuspharmaco GmbH",
       address: "Frankenstr. 34, 96146 Altendorf, Germany",
-      phone: "+49 152 1304 8766",
-      email: "info@plexuspharmaco.com",
+      phone: "+49 1525 5460529",
+      email: "info@plexuspharmaco.eu",
       image: "/assets/images/pharma_hero_corporate.png",
       capabilities: "Corporate Strategy, EU Regulatory Affairs, European Distribution"
     },
@@ -59,7 +59,7 @@ export default function GlobalOfficePage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-slate-600 leading-relaxed font-light"
           >
-            With our European headquarters in Germany, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
+            With our German Headquarters in Germany, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
           </motion.p>
         </div>
 

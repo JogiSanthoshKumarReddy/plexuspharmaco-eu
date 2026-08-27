@@ -25,8 +25,8 @@ export default function PrivacyPolicyPage() {
             <strong>Plexuspharmaco GmbH</strong><br />
             Frankenstr. 34<br />
             96146 Altendorf, Germany<br /><br />
-            <strong>Phone:</strong> <a href="tel:+4915213048766">+49 152 1304 8766</a><br />
-            <strong>Email:</strong> <a href="mailto:info@plexuspharmaco.com">info@plexuspharmaco.com</a>
+            <strong>Phone:</strong> <a href="tel:+4915255460529">+49 1525 5460529</a><br />
+            <strong>Email:</strong> <a href="mailto:info@plexuspharmaco.eu">info@plexuspharmaco.eu</a>
           </div>
 
           <h2>2. Data Collection: Forms & Inquiries</h2>
@@ -70,7 +70,7 @@ export default function PrivacyPolicyPage() {
             <li><strong>Right to Object (Art. 21):</strong> You may object to the processing of your data based on legitimate interests or direct marketing.</li>
           </ul>
           <p>
-            To exercise any of these rights, please contact us at <a href="mailto:info@plexuspharmaco.com">info@plexuspharmaco.com</a>. You also have the right to lodge a complaint with a supervisory data protection authority in Germany or your country of residence if you believe your rights have been violated.
+            To exercise any of these rights, please contact us at <a href="mailto:info@plexuspharmaco.eu">info@plexuspharmaco.eu</a>. You also have the right to lodge a complaint with a supervisory data protection authority in Germany or your country of residence if you believe your rights have been violated.
           </p>
           
           <hr className="my-8 border-slate-100" />
