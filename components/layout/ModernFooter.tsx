@@ -63,6 +63,26 @@ export default function ModernFooter({ locale }: { locale: string }) {
                 Frankenstr. 34, 96146 Altendorf, Germany.
               </p>
             </div>
+
+            <div className="mb-6">
+              <h4 className="text-white font-medium mb-2 flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-accent-500" /> Nigeria
+              </h4>
+              <p className="text-sm text-brand-400 pl-6">
+                Heilen Therapeutics Ltd.<br />
+                No. 22 Michael Adiyoka Street, Ilupeju, Lagos, Nigeria.
+              </p>
+            </div>
+
+            <div className="mb-6">
+              <h4 className="text-white font-medium mb-2 flex items-center gap-2">
+                <MapPin className="w-4 h-4 text-accent-500" /> India
+              </h4>
+              <p className="text-sm text-brand-400 pl-6">
+                PlexMedTeq LLP<br />
+                Unit No. 43, 9th Floor, Sushma Infinium, Chandigarh Ambala Highway, Zirakpur, Punjab-140603.
+              </p>
+            </div>
           </div>
 
           {/* Contact Column */}

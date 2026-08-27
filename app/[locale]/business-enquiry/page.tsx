@@ -91,8 +91,28 @@ export default function BusinessEnquiryPage() {
                     <MapPin className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Address</span>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Germany (Head Office)</span>
                     <span className="text-brand-900 font-medium leading-relaxed">Frankenstr. 34, 96146 Altendorf, Germany.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 text-brand-700">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">Nigeria Office</span>
+                    <span className="text-brand-900 font-medium leading-relaxed">Heilen Therapeutics Ltd.<br />No. 22 Michael Adiyoka Street, Ilupeju, Lagos, Nigeria.</span>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-5">
+                  <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center flex-shrink-0 text-brand-700">
+                    <MapPin className="w-5 h-5" />
+                  </div>
+                  <div>
+                    <span className="block text-xs font-bold text-slate-400 mb-1 uppercase tracking-wider">India Office</span>
+                    <span className="text-brand-900 font-medium leading-relaxed">PlexMedTeq LLP<br />Unit No. 43, 9th Floor, Sushma Infinium, Chandigarh Ambala Highway, Zirakpur, Punjab-140603.</span>
                   </div>
                 </div>
 
