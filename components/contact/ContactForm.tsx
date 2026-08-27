@@ -63,8 +63,6 @@ export default function ContactForm() {
 
   const inquiryOptions = [
     { title: "Distribution Partnership", desc: "Expand our global reach", icon: Globe },
-    { title: "Contract Manufacturing", desc: "End-to-end CMO services", icon: Factory },
-    { title: "Product Sourcing", desc: "Supply chain & API sourcing", icon: PackageSearch },
     { title: "Regulatory Affairs", desc: "Compliance & submissions", icon: ShieldCheck },
     { title: "Careers", desc: "Join our global team", icon: Briefcase },
     { title: "Other", desc: "General inquiries", icon: HelpCircle }
