@@ -169,7 +169,9 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
             <div className="mb-8 flex justify-between items-end border-b border-slate-200 pb-4">
               <div>
                 <h3 className="text-2xl font-bold text-brand-900">{activeCategory}</h3>
-                <p className="text-slate-500 mt-2 font-medium">{dict.showing} {filteredProducts.length} {dict.premium_solutions}</p>
+                <p className="text-slate-500 mt-2 font-medium">
+                  {dict.showing} {Math.min(visibleCount, filteredProducts.length)} of {filteredProducts.length} {dict.premium_solutions}
+                </p>
               </div>
             </div>
 
@@ -204,26 +206,36 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                       <h4 className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors line-clamp-2">
                         {product.name}
                       </h4>
-                      <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">
-                        {product.description}
-                      </p>
+                      {product.description ? (
+                        <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">
+                          {product.description}
+                        </p>
+                      ) : (
+                        <p className="text-slate-400 italic text-sm leading-relaxed mb-6">
+                          Product details pending verification.
+                        </p>
+                      )}
                       
                       {/* Ingredients Section */}
                       <div className="mt-auto flex flex-col gap-6">
                         <div className="pt-6 border-t border-slate-100">
                           <h5 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">{dict.key_ingredients}</h5>
-                          <div className="flex flex-wrap gap-2">
-                            {product.ingredients.slice(0, 3).map((ing: { name: string; dosage: string }, idx: number) => (
-                              <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-50 text-slate-600 border border-slate-200">
-                                {ing.name} <span className="text-slate-400 ml-1">({ing.dosage})</span>
-                              </span>
-                            ))}
-                            {product.ingredients.length > 3 && (
-                              <span className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-brand-50 text-brand-700 border border-brand-100">
-                                +{product.ingredients.length - 3} {dict.more}
-                              </span>
-                            )}
-                          </div>
+                          {product.ingredients && product.ingredients.length > 0 ? (
+                            <div className="flex flex-wrap gap-2">
+                              {product.ingredients.slice(0, 3).map((ing: { name: string; dosage: string }, idx: number) => (
+                                <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-50 text-slate-600 border border-slate-200">
+                                  {ing.name} <span className="text-slate-400 ml-1">({ing.dosage})</span>
+                                </span>
+                              ))}
+                              {product.ingredients.length > 3 && (
+                                <span className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-brand-50 text-brand-700 border border-brand-100">
+                                  +{product.ingredients.length - 3} {dict.more}
+                                </span>
+                              )}
+                            </div>
+                          ) : (
+                            <span className="text-sm italic text-slate-400">Ingredients pending verification.</span>
+                          )}
                         </div>
                         <Link href={`/${locale}/product-catalogue/${product.id}`} className="w-full py-3 px-4 bg-brand-50 hover:bg-brand-900 text-brand-700 hover:text-white rounded-xl font-bold transition-all duration-300 flex items-center justify-center gap-2 group/btn border border-brand-100 hover:border-brand-900">
                           {dict.view_full_details} <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
@@ -242,7 +254,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                   onClick={() => setVisibleCount((prev) => prev + 12)}
                   className="px-8 py-4 bg-brand-900 hover:bg-brand-800 text-white rounded-xl font-bold transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-1"
                 >
-                  {dict.load_more} ({filteredProducts.length - visibleCount} {dict.remaining})
+                  {dict.load_more} ({Math.min(12, filteredProducts.length - visibleCount)} {dict.remaining})
                 </button>
               </div>
             )}

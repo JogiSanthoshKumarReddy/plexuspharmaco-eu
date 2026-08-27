@@ -8,10 +8,10 @@ import Link from "next/link";
 
 export default function FinancialReportPage() {
   const reports = [
-    { year: "2023", title: "Annual Financial Report", type: "PDF", size: "4.2 MB" },
-    { year: "2023", title: "ESG & Sustainability Report", type: "PDF", size: "5.1 MB" },
-    { year: "2022", title: "Annual Financial Report", type: "PDF", size: "3.8 MB" },
-    { year: "2022", title: "Q4 Earnings Release", type: "PDF", size: "1.2 MB" },
+    { year: "2023", title: "Annual Financial Report", type: "PDF" },
+    { year: "2023", title: "ESG & Sustainability Report", type: "PDF" },
+    { year: "2022", title: "Annual Financial Report", type: "PDF" },
+    { year: "2022", title: "Q4 Earnings Release", type: "PDF" },
   ];
 
   return (
@@ -104,9 +104,9 @@ export default function FinancialReportPage() {
                   </div>
                 </div>
                 <div className="flex items-center gap-3">
-                  <span className="text-sm font-medium text-slate-400 hidden sm:block">{report.size}</span>
-                  <div className="w-10 h-10 rounded-full bg-slate-50 flex items-center justify-center text-brand-900 group-hover:bg-brand-50 transition-colors">
-                    <Download className="w-5 h-5" />
+                  <span className="text-sm font-bold text-brand-700 group-hover:text-brand-900 transition-colors">Request Copy</span>
+                  <div className="w-10 h-10 rounded-full bg-brand-50 flex items-center justify-center text-brand-700 group-hover:bg-brand-900 group-hover:text-white transition-colors">
+                    <ArrowRight className="w-5 h-5" />
                   </div>
                 </div>
               </motion.a>

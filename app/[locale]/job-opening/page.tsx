@@ -43,7 +43,7 @@ export default function JobOpeningPage() {
       dept: "Logistics", 
       location: "Remote / Europe", 
       type: "Full-Time",
-      description: "Drive the strategic optimization of our global pharmaceutical supply chain. You will manage end-to-end logistics, from active pharmaceutical ingredient (API) sourcing to final distribution, ensuring cold-chain integrity and cost efficiency across 45+ countries."
+      description: "Drive the strategic optimization of our global pharmaceutical supply chain. You will manage end-to-end logistics, from active pharmaceutical ingredient (API) sourcing to final distribution, ensuring cold-chain integrity and cost efficiency across 50+ countries."
     },
     { 
       title: "Clinical Trial Coordinator", 
