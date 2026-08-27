@@ -46,7 +46,7 @@ export default function Home() {
       <FeatureSection 
         title="Delivering Quality Healthcare Solutions Worldwide"
         subtitle="Who We Are"
-        description="Plexuspharmaco is an innovative European Healthcare company dedicated to developing, manufacturing, and commercializing advanced healthcare solutions. Driven by scientific excellence and stringent quality standards, we focus on therapeutic areas with high unmet medical needs. Our robust manufacturing network empowers us to deliver accessible, high-quality therapies to patients globally."
+        description="Plexuspharmaco GmbH is a Germany-based healthcare organization committed to delivering high-quality, evidence-based, and accessible healthcare solutions worldwide."
         image="/assets/images/pharma_hero_corporate.png"
         imageAlt="Plexuspharmaco Corporate Leadership"
         linkText="Explore Our Company"

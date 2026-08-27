@@ -168,7 +168,7 @@ export async function POST(request: Request) {
     emailHtml += '</table>';
 
     const mailOptions = {
-      from: process.env.SMTP_FROM_EMAIL || '"Plexuspharmaco Website" <noreply@plexuspharmaco.com>',
+      from: process.env.SMTP_FROM_EMAIL || '"Plexuspharmaco Website" <noreply@plexuspharmaco.eu>',
       to: process.env.SMTP_TO_EMAIL || 'info@plexuspharmaco.eu',
       subject: `New Website Enquiry: ${formType}`,
       html: emailHtml,

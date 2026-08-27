@@ -8,17 +8,17 @@ import { useState, Suspense } from "react";
 
 export default function BusinessEnquiryPage() {
   const departments = [
-    { name: "Global Sales & Distribution", email: "sales@plexuspharmaco.com", icon: Building2 },
-    { name: "Regulatory Affairs", email: "regulatory@plexuspharmaco.com", icon: Stethoscope },
-    { name: "Human Resources (Careers)", email: "careers@plexuspharmaco.com", icon: Users },
-    { name: "Partnerships & Licensing", email: "partner@plexuspharmaco.com", icon: Briefcase }
+    { name: "Global Sales & Distribution", email: "sales@plexuspharmaco.eu", icon: Building2 },
+    { name: "Regulatory Affairs", email: "regulatory@plexuspharmaco.eu", icon: Stethoscope },
+    { name: "Human Resources (Careers)", email: "careers@plexuspharmaco.eu", icon: Users },
+    { name: "Partnerships & Licensing", email: "partner@plexuspharmaco.eu", icon: Briefcase }
   ];
   const [openFaq, setOpenFaq] = useState<number | null>(null);
 
   const faqs = [
-    { q: "What information should I include in a contract manufacturing inquiry?", a: "Please include your required product specifications, anticipated annual volume, target markets, and preferred packaging formats. This allows our team to quickly assess feasibility and provide an accurate timeline." },
+    { q: "What product categories Plexuspharmaco GmbH works with?", a: "Plexuspharmaco GmbH works with Pharmaceuticals, food supplements, specially formulated nutraceuticals and medical devices of Class-I, II and III." },
     { q: "How long does it take for a sales representative to respond?", a: "Our Global Sales & Distribution team typically responds to all inquiries within 24-48 business hours. For urgent regulatory matters, please contact the specific regional office directly via phone." },
-    { q: "Do you offer white-labeling services for nutraceuticals?", a: "Yes, our Biocare division specializes in white-label and private-label nutraceuticals. Please direct these specific inquiries to partner@plexuspharmaco.com." },
+    { q: "Do you offer white-labeling services for nutraceuticals?", a: "Yes, our Biocare division specializes in white-label and private-label nutraceuticals. Please direct these specific inquiries to partner@plexuspharmaco.eu." },
   ];
 
   return (
@@ -115,8 +115,8 @@ export default function BusinessEnquiryPage() {
                 <h3 className="text-xl font-bold">Pharmacovigilance</h3>
               </div>
               <p className="text-brand-100 text-sm mb-6 leading-relaxed">For urgent reporting of adverse drug reactions or product quality complaints, please contact our 24/7 safety desk.</p>
-              <a href="mailto:safety@plexuspharmaco.com" className="block w-full py-3 bg-white text-accent-600 font-bold text-center rounded-xl hover:bg-brand-50 transition-colors">
-                safety@plexuspharmaco.com
+              <a href="mailto:safety@plexuspharmaco.eu" className="block w-full py-3 bg-white text-accent-600 font-bold text-center rounded-xl hover:bg-brand-50 transition-colors">
+                safety@plexuspharmaco.eu
               </a>
             </div>
 

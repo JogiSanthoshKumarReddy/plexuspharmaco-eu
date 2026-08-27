@@ -39,7 +39,7 @@ export default function ComplianceReportingPage() {
       
       setTimeout(() => setIsSuccess(false), 5000);
     } catch {
-      setErrorMessage("Something went wrong. Please try again later or contact us directly at compliance@plexuspharmaco.com.");
+      setErrorMessage("Something went wrong. Please try again later or contact us directly at compliance@plexuspharmaco.eu.");
     } finally {
       setIsSubmitting(false);
     }
@@ -103,8 +103,8 @@ export default function ComplianceReportingPage() {
               </div>
               <h3 className="text-xl font-bold text-brand-900 mb-2">Compliance Officer</h3>
               <p className="text-slate-600 mb-4">Direct and confidential email to the Chief Compliance Officer.</p>
-              <a href="mailto:compliance@plexuspharmaco.com" className="text-brand-700 font-bold hover:text-brand-900 transition-colors">
-                compliance@plexuspharmaco.com
+              <a href="mailto:compliance@plexuspharmaco.eu" className="text-brand-700 font-bold hover:text-brand-900 transition-colors">
+                compliance@plexuspharmaco.eu
               </a>
             </motion.div>
             

@@ -14,7 +14,7 @@ export default function ModernFooter({ locale }: { locale: string }) {
           <div className="lg:col-span-1">
             <h3 className="text-2xl font-bold text-white mb-6">Plexuspharmaco</h3>
             <p className="text-brand-300 leading-relaxed text-sm mb-6">
-              A globally focused Healthcare company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions across regulated and emerging markets.
+              Plexuspharmaco GmbH is a globally focused healthcare company committed to building sustainable value through high-quality and regulatory-compliant healthcare solutions.
             </p>
             <div className="flex items-center gap-4">
               <a href="https://www.linkedin.com/company/plexuspharmaco" target="_blank" rel="noreferrer" aria-label="Follow us on LinkedIn" className="w-12 h-12 p-3 rounded-full bg-white/10 flex items-center justify-center hover:bg-accent-500 hover:text-white transition-colors">

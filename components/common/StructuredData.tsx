@@ -8,7 +8,7 @@ export default function StructuredData({ locale = 'en' }: { locale?: string }) {
     "name": "Plexuspharmaco Europe",
     "url": `${baseUrl}/${locale}`,
     "logo": `${baseUrl}/pharma/assets/images/696f65db8cb34.png`,
-    "description": "A globally focused Healthcare company committed to building sustainable value through regulatory-compliant, high-quality healthcare solutions.",
+    "description": "Plexuspharmaco GmbH is a globally focused healthcare company committed to building sustainable value through high-quality and regulatory-compliant healthcare solutions.",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+49 1525 5460529",
