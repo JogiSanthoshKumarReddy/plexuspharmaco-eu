@@ -177,7 +177,10 @@ export async function POST(request: Request) {
 
     // If SMTP_USER is configured, send the email. Otherwise, mock success for demo purposes.
     if (process.env.SMTP_USER) {
-      await transporter.sendMail(mailOptions);
+      const info = await transporter.sendMail(mailOptions);
+      if (process.env.SMTP_HOST?.includes('ethereal.email')) {
+        console.log('Test email sent. Preview URL:', nodemailer.getTestMessageUrl(info));
+      }
     } else {
       console.warn('DEMO MODE: SMTP_USER is not configured. Simulating successful email send to:', mailOptions.to);
       // Simulate 1 second network delay
