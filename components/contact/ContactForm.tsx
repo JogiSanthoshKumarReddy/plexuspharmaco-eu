@@ -108,9 +108,6 @@ export default function ContactForm() {
       setIsSuccess(true);
       reset();
       setResumeFile(null);
-      
-      // Reset success message after 5 seconds
-      setTimeout(() => setIsSuccess(false), 5000);
 
     } catch (error: unknown) {
       setErrorMessage((error as Error).message || "An unexpected error occurred. Please try again.");
@@ -119,20 +116,9 @@ export default function ContactForm() {
     }
   };
 
-  if (isSuccess) {
-    return (
-      <div className="bg-white rounded-[2rem] p-10 lg:p-16 border border-slate-100 shadow-xl relative overflow-hidden flex flex-col items-center justify-center text-center min-h-[500px]">
-        <div className="w-20 h-20 bg-green-100 text-green-600 rounded-full flex items-center justify-center mb-6">
-          <CheckCircle2 className="w-10 h-10" />
-        </div>
-        <h3 className="text-3xl font-bold text-brand-900 mb-4">Message Sent Successfully</h3>
-        <p className="text-slate-600 text-lg">Thank you for reaching out to Plexuspharmaco. Our team will review your inquiry and get back to you shortly.</p>
-      </div>
-    );
-  }
-
   return (
-    <div className="bg-white rounded-[2rem] p-8 lg:p-12 border border-slate-100 shadow-xl relative overflow-hidden">
+    <>
+      <div className="bg-white rounded-[2rem] p-8 lg:p-12 border border-slate-100 shadow-xl relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute top-0 right-0 w-64 h-64 bg-brand-50 rounded-full blur-3xl opacity-50 -translate-y-1/2 translate-x-1/2 pointer-events-none" />
       
@@ -330,6 +316,42 @@ export default function ContactForm() {
           </button>
         </div>
       </form>
-    </div>
+      </div>
+
+      {/* Success Modal Popup */}
+      {isSuccess && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center p-4">
+          {/* Overlay backdrop */}
+          <div 
+            className="absolute inset-0 bg-slate-900/40 backdrop-blur-sm transition-opacity" 
+            onClick={() => setIsSuccess(false)}
+          />
+          
+          {/* Modal Content */}
+          <div className="bg-white rounded-[2rem] p-8 lg:p-12 shadow-2xl relative overflow-hidden flex flex-col items-center justify-center text-center max-w-lg w-full z-10 animate-in fade-in zoom-in duration-300 scale-100">
+            {/* Background decoration */}
+            <div className="absolute top-0 right-0 w-64 h-64 bg-green-50 rounded-full blur-3xl opacity-70 -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-64 h-64 bg-brand-50 rounded-full blur-3xl opacity-70 translate-y-1/2 -translate-x-1/2 pointer-events-none" />
+            
+            <div className="relative z-10 flex flex-col items-center">
+              <div className="w-20 h-20 bg-green-50 text-green-500 rounded-[2rem] flex items-center justify-center mb-6 shadow-sm rotate-3 border border-green-100">
+                <CheckCircle2 className="w-10 h-10" />
+              </div>
+              <h3 className="text-3xl font-bold text-brand-900 mb-4 tracking-tight">Message Sent!</h3>
+              <p className="text-slate-600 text-base mb-8 leading-relaxed">
+                Thank you for reaching out to Plexuspharmaco. Our global team will review your inquiry and get back to you within 24-48 hours.
+              </p>
+              
+              <button 
+                onClick={() => setIsSuccess(false)}
+                className="w-full px-8 py-3.5 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-xl transition-all duration-300 shadow-md hover:shadow-lg hover:-translate-y-0.5"
+              >
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+    </>
   );
 }
