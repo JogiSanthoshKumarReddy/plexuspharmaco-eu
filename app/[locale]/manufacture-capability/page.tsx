@@ -155,7 +155,7 @@ export default function ManufactureCapabilityPage() {
         {/* Manufacturing Video Tour Showcase */}
         <VideoSectionPlayer
           videoUrl="/assets/videos/plexus_manufacturing_tour.mp4"
-          posterUrl="/assets/images/pharma_hero_mfg.png"
+          posterUrl="/assets/images/pharma_video_poster_mfg.jpg"
           title="Inside Plexuspharmaco Advanced Manufacturing Lines"
           subtitle="Explore automated cleanroom suites, high-speed blister packaging lines, and EU-GMP sterile FDF production facilities."
           badge="Manufacturing Facility Video Tour"

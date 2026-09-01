@@ -99,7 +99,7 @@ export default function QualityAssurancePage() {
         {/* Quality Video Tour Showcase */}
         <VideoSectionPlayer
           videoUrl="/assets/videos/plexus_quality_control.mp4"
-          posterUrl="/assets/images/pharma_quality_control.png"
+          posterUrl="/assets/images/pharma_video_poster_quality.jpg"
           title="Quality Control & Analytical Batch Release"
           subtitle="Watch our analytical chemistry teams validate raw material purity, HPLC chromatography, and finished product batch release."
           badge="Quality Control Video Tour"

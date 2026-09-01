@@ -16,7 +16,7 @@ export default function BRollPage() {
       resolution: "4K UHD",
       videoUrl: "/assets/videos/plexus_manufacturing_tour.mp4",
       filename: "Plexuspharmaco_Manufacturing_Tour_4K.mp4",
-      thumbnail: "/assets/images/pharma_hero_mfg.png"
+      thumbnail: "/assets/images/pharma_video_poster_mfg.jpg"
     },
     {
       title: "Laboratory & R&D Operations",
@@ -25,7 +25,7 @@ export default function BRollPage() {
       resolution: "1080p HD",
       videoUrl: "/assets/videos/plexus_rd_laboratory.mp4",
       filename: "Plexuspharmaco_RD_Laboratory_1080p.mp4",
-      thumbnail: "/assets/images/pharma_hero_lab.png"
+      thumbnail: "/assets/images/pharma_video_poster_rd.jpg"
     },
     {
       title: "Logistics & Global Distribution",
@@ -34,7 +34,7 @@ export default function BRollPage() {
       resolution: "4K UHD",
       videoUrl: "/assets/videos/plexus_global_logistics.mp4",
       filename: "Plexuspharmaco_Global_Logistics_4K.mp4",
-      thumbnail: "/assets/images/pharma_hero_corporate.png"
+      thumbnail: "/assets/images/pharma_video_poster_logistics.jpg"
     },
     {
       title: "Corporate Leadership Overview",
@@ -43,7 +43,7 @@ export default function BRollPage() {
       resolution: "4K UHD",
       videoUrl: "/assets/videos/plexus_corporate_overview.mp4",
       filename: "Plexuspharmaco_Corporate_Overview_4K.mp4",
-      thumbnail: "/assets/images/pharma_hero_corporate.png"
+      thumbnail: "/assets/images/pharma_video_poster_corporate.jpg"
     },
     {
       title: "Quality Assurance & Testing",
@@ -52,7 +52,7 @@ export default function BRollPage() {
       resolution: "1080p HD",
       videoUrl: "/assets/videos/plexus_quality_control.mp4",
       filename: "Plexuspharmaco_Quality_Control_1080p.mp4",
-      thumbnail: "/assets/images/pharma_quality_control.png"
+      thumbnail: "/assets/images/pharma_video_poster_quality.jpg"
     },
     {
       title: "Sustainability & Green Manufacturing",
@@ -61,7 +61,7 @@ export default function BRollPage() {
       resolution: "4K UHD",
       videoUrl: "/assets/videos/plexus_sustainability_esg.mp4",
       filename: "Plexuspharmaco_Sustainability_ESG_4K.mp4",
-      thumbnail: "/assets/images/pharma_hero_lab.png"
+      thumbnail: "/assets/images/pharma_video_poster_sustainability.jpg"
     },
     {
       title: "Medical Devices & Delivery Platforms",
@@ -70,7 +70,7 @@ export default function BRollPage() {
       resolution: "4K UHD",
       videoUrl: "/assets/videos/plexus_medical_devices.mp4",
       filename: "Plexuspharmaco_Medical_Devices_4K.mp4",
-      thumbnail: "/assets/images/pharma_hero_mfg.png"
+      thumbnail: "/assets/images/pharma_video_poster_devices.jpg"
     }
   ];
 

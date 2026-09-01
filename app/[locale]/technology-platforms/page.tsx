@@ -87,7 +87,7 @@ export default function TechnologyPlatformsPage() {
         {/* Technology Devices Video Showcase */}
         <VideoSectionPlayer
           videoUrl="/assets/videos/plexus_medical_devices.mp4"
-          posterUrl="/assets/images/pharma_hero_mfg.png"
+          posterUrl="/assets/images/pharma_video_poster_devices.jpg"
           title="Pre-Filled Syringes & Drug Delivery Platforms"
           subtitle="Explore ISO 13485 sterile isolator assembly, transdermal drug delivery matrices, and CE-marked medical device platforms."
           badge="Medical Devices Video Showcase"

@@ -68,7 +68,7 @@ export default function GlobalOfficePage() {
         {/* Global Logistics Video Showcase */}
         <VideoSectionPlayer
           videoUrl="/assets/videos/plexus_global_logistics.mp4"
-          posterUrl="/assets/images/pharma_hero_corporate.png"
+          posterUrl="/assets/images/pharma_video_poster_logistics.jpg"
           title="Plexuspharmaco Global Supply Chain & Cold Chain Logistics"
           subtitle="Watch our international distribution operations, GDP cold-chain transport, and temperature-monitored warehousing."
           badge="Global Logistics Video Showcase"

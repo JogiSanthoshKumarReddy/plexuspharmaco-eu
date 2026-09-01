@@ -108,7 +108,7 @@ export default function SustainabilityPage() {
         {/* ESG Video Tour Showcase */}
         <VideoSectionPlayer
           videoUrl="/assets/videos/plexus_sustainability_esg.mp4"
-          posterUrl="/assets/images/pharma_hero_lab.png"
+          posterUrl="/assets/images/pharma_video_poster_sustainability.jpg"
           title="Plexuspharmaco Green Manufacturing & CSR Initiatives"
           subtitle="Discover zero-liquid discharge water recycling, renewable solar power integration, and global community health programs."
           badge="Sustainability & ESG Video Tour"

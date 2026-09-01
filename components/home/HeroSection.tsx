@@ -112,7 +112,7 @@ export default function HeroSection() {
       {isVideoOpen && (
         <VideoModalPlayer
           videoUrl="/assets/videos/plexus_corporate_overview.mp4"
-          posterUrl="/assets/images/pharma_hero_corporate.png"
+          posterUrl="/assets/images/pharma_video_poster_corporate.jpg"
           title="Plexuspharmaco Corporate & Scientific Leadership"
           description="A global view of our European headquarters, R&D capabilities, and manufacturing excellence."
           onClose={() => setIsVideoOpen(false)}

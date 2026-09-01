@@ -82,7 +82,7 @@ export default function ResearchDevelopmentHubPage() {
         {/* R&D Video Showcase */}
         <VideoSectionPlayer
           videoUrl="/assets/videos/plexus_rd_laboratory.mp4"
-          posterUrl="/assets/images/pharma_hero_lab.png"
+          posterUrl="/assets/images/pharma_video_poster_rd.jpg"
           title="Inside Plexuspharmaco Advanced R&D Laboratories"
           subtitle="Discover analytical chemistry, bioequivalence formulation research, and continuous drug delivery innovation."
           badge="R&D Laboratory Video Showcase"
