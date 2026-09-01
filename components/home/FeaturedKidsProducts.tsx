@@ -15,7 +15,7 @@ export default function FeaturedKidsProducts() {
   // Filter only the kids products that have the new WeTransfer images
   const featuredProducts = products.filter(
     (p: Product) =>
-      p.category === "Kids Health"
+      p.category && (p.category.includes("Kid") || p.category.includes("Pediatric"))
   ).slice(0, 8);
 
   if (featuredProducts.length === 0) return null;
@@ -68,6 +68,8 @@ export default function FeaturedKidsProducts() {
                     src={product.image!}
                     alt={product.name}
                     fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    priority={idx < 4}
                     className="object-contain p-8 mix-blend-multiply group-hover:scale-110 transition-transform duration-700 relative z-10"
                   />
                   <div className="absolute top-4 right-4 z-20">

@@ -107,6 +107,8 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                   src={imageSrc}
                   alt={product.name}
                   fill
+                  priority
+                  sizes="(max-width: 1024px) 100vw, 50vw"
                   className="object-contain mix-blend-multiply"
                 />
               </div>

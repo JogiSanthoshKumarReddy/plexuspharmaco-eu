@@ -189,7 +189,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
             {/* Product Grid */}
             <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-12">
               <AnimatePresence mode="popLayout">
-                {filteredProducts.slice(0, visibleCount).map((product) => (
+                {filteredProducts.slice(0, visibleCount).map((product, idx) => (
                   <motion.div
                     key={product.id}
                     layout
@@ -205,6 +205,8 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                         src={product.image || getProductImage(product.category)}
                         alt={product.name}
                         fill
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                        priority={idx < 6}
                         className="object-contain p-4 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"
                       />
                       <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-brand-700 shadow-sm border border-slate-100 shadow-brand-900/5">
