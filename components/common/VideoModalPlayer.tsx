@@ -125,12 +125,12 @@ export default function VideoModalPlayer({
           </div>
         )}
 
-        {/* Video Element */}
+        {/* Video Element with Dual Source WebM/MP4 Fallback */}
         <video
           ref={videoRef}
-          src={videoUrl}
           poster={posterUrl}
           autoPlay
+          loop
           playsInline
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
@@ -138,7 +138,11 @@ export default function VideoModalPlayer({
           onCanPlay={() => setIsLoading(false)}
           onClick={togglePlay}
           className="w-full h-full object-contain cursor-pointer"
-        />
+        >
+          <source src={videoUrl.replace(/\.mp4$/i, '.webm')} type="video/webm" />
+          <source src={videoUrl.replace(/\.webm$/i, '.mp4')} type="video/mp4" />
+          <source src={videoUrl} />
+        </video>
 
         {/* Top Header Overlay */}
         <div className="absolute top-0 inset-x-0 p-6 bg-gradient-to-b from-black/80 to-transparent flex items-center justify-between z-30 pointer-events-auto">
