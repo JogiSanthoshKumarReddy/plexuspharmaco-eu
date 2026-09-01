@@ -145,20 +145,20 @@ export default function VideoModalPlayer({
         </video>
 
         {/* Top Header Overlay */}
-        <div className="absolute top-0 inset-x-0 p-6 bg-gradient-to-b from-black/80 to-transparent flex items-center justify-between z-30 pointer-events-auto">
+        <div className="absolute top-0 inset-x-0 p-5 bg-gradient-to-b from-black/90 via-black/50 to-transparent flex items-center justify-between z-30 pointer-events-auto backdrop-blur-sm">
           <div className="flex items-center gap-3">
-            <div className="w-9 h-9 rounded-xl bg-brand-900/80 border border-brand-700/50 flex items-center justify-center text-brand-300">
-              <Film className="w-5 h-5" />
+            <div className="w-10 h-10 rounded-xl bg-brand-900/90 border border-brand-500/30 flex items-center justify-center text-brand-300 shadow-md">
+              <Film className="w-5 h-5 text-brand-400" />
             </div>
             <div>
-              <h3 className="text-white font-bold text-lg line-clamp-1">{title}</h3>
-              {description && <p className="text-slate-400 text-xs line-clamp-1">{description}</p>}
+              <h3 className="text-white font-bold text-base md:text-lg line-clamp-1 drop-shadow-md">{title}</h3>
+              {description && <p className="text-slate-300 text-xs line-clamp-1 font-light drop-shadow">{description}</p>}
             </div>
           </div>
           <button
             onClick={onClose}
             aria-label="Close video player"
-            className="w-10 h-10 rounded-full bg-white/10 hover:bg-white/20 backdrop-blur-md flex items-center justify-center text-white transition-colors"
+            className="w-10 h-10 rounded-full bg-white/15 hover:bg-white/30 backdrop-blur-md flex items-center justify-center text-white transition-all shadow-lg border border-white/20"
           >
             <X className="w-6 h-6" />
           </button>
