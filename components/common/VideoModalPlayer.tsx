@@ -141,10 +141,10 @@ export default function VideoModalPlayer({
           </div>
         )}
 
-        {/* Video Element with Direct src and Dual Source Fallback */}
+        {/* Video Element with Direct WebM src and Dual Source Fallback */}
         <video
           ref={videoRef}
-          src={videoUrl}
+          src={videoUrl.replace(/\.mp4$/i, '.webm')}
           poster={posterUrl}
           autoPlay
           loop
@@ -158,8 +158,7 @@ export default function VideoModalPlayer({
           className="w-full h-full object-contain cursor-pointer"
         >
           <source src={videoUrl.replace(/\.mp4$/i, '.webm')} type="video/webm" />
-          <source src={videoUrl.replace(/\.webm$/i, '.mp4')} type="video/mp4" />
-          <source src={videoUrl} />
+          <source src={videoUrl} type="video/mp4" />
         </video>
 
         {/* Top Header Overlay */}

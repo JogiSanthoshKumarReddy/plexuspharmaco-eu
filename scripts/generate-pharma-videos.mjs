@@ -11,7 +11,7 @@ if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
 }
 
-console.log('Initializing Clean Cinematic Pharmaceutical Video Generator...');
+console.log('Initializing Pristine Pharmaceutical Video Generator...');
 
 const videoConfigs = [
   {
@@ -54,7 +54,7 @@ const videoConfigs = [
     drawScene: `
       // Cleanroom High-Speed Packaging Conveyor & Blisters
       ctx.fillStyle = '#1E293B';
-      ctx.fillRect(80, 460, 1120, 50); // Conveyor Track
+      ctx.fillRect(80, 460, 1120, 50);
       ctx.strokeStyle = '#475569'; ctx.lineWidth = 4;
       ctx.strokeRect(80, 460, 1120, 50);
 
@@ -263,7 +263,7 @@ function generateHTML(config) {
   const browser = await chromium.launch({ headless: true });
 
   for (const config of videoConfigs) {
-    console.log(`Rendering clean cinematic video: ${config.name}...`);
+    console.log(`Rendering pristine pharmaceutical video: ${config.name}...`);
     const tempDir = path.join('/tmp', config.name);
     if (!fs.existsSync(tempDir)) fs.mkdirSync(tempDir, { recursive: true });
 
@@ -286,10 +286,10 @@ function generateHTML(config) {
 
       fs.copyFileSync(srcWebm, destWebm);
       fs.copyFileSync(srcWebm, destMp4);
-      console.log(`Successfully generated clean video: ${config.name}.webm & ${config.name}.mp4`);
+      console.log(`Successfully generated clean video stream: ${config.name}.webm & ${config.name}.mp4`);
     }
   }
 
   await browser.close();
-  console.log('All 7 Clean Pharmaceutical Motion Video Assets Generated Successfully!');
+  console.log('All 7 Pristine Pharmaceutical Video Streams Completed Successfully!');
 })();
