@@ -62,6 +62,15 @@ export default function BRollPage() {
       videoUrl: "/assets/videos/plexus_sustainability_esg.mp4",
       filename: "Plexuspharmaco_Sustainability_ESG_4K.mp4",
       thumbnail: "/assets/images/pharma_hero_lab.png"
+    },
+    {
+      title: "Medical Devices & Delivery Platforms",
+      description: "Pre-filled syringe isolators, transdermal drug delivery matrix, and ISO 13485 cleanroom validation.",
+      duration: "02:50",
+      resolution: "4K UHD",
+      videoUrl: "/assets/videos/plexus_medical_devices.mp4",
+      filename: "Plexuspharmaco_Medical_Devices_4K.mp4",
+      thumbnail: "/assets/images/pharma_hero_mfg.png"
     }
   ];
 

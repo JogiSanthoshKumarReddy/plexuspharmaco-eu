@@ -5,6 +5,8 @@ import { Cpu, Fingerprint, Database, CheckCircle2 } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
+import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
+
 export default function TechnologyPlatformsPage() {
   const pillars = [
     {
@@ -81,6 +83,15 @@ export default function TechnologyPlatformsPage() {
             </motion.div>
           </div>
         </div>
+
+        {/* Technology Devices Video Showcase */}
+        <VideoSectionPlayer
+          videoUrl="/assets/videos/plexus_medical_devices.mp4"
+          posterUrl="/assets/images/pharma_hero_mfg.png"
+          title="Pre-Filled Syringes & Drug Delivery Platforms"
+          subtitle="Explore ISO 13485 sterile isolator assembly, transdermal drug delivery matrices, and CE-marked medical device platforms."
+          badge="Medical Devices Video Showcase"
+        />
 
         {/* Pillars Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-24">
