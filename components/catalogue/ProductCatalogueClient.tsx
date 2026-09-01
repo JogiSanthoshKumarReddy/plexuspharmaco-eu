@@ -4,7 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter, useSearchParams, usePathname } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, Filter, ChevronRight, X, Info } from 'lucide-react';
+import { Search, Filter, ChevronRight, X, Info, Download } from 'lucide-react';
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import enDict from '@/messages/en.json';
@@ -80,10 +80,21 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
             <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">{dict.global_portfolio}</span>
           </motion.div>
           
-          <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">{dict.explore_therapies}</h2>
-          <p className="text-lg lg:text-xl text-slate-600 leading-relaxed max-w-3xl">
-            {dict.description}
-          </p>
+          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
+            <div>
+              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">{dict.explore_therapies}</h2>
+              <p className="text-lg lg:text-xl text-slate-600 leading-relaxed max-w-3xl">
+                {dict.description}
+              </p>
+            </div>
+            <a 
+              href="/assets/pdfs/Plexuspharmaco_Product_Catalogue_2026.pdf" 
+              download="Plexuspharmaco_Product_Catalogue_2026.pdf"
+              className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer w-fit"
+            >
+              <Download className="w-5 h-5" /> Download Full Catalogue (PDF)
+            </a>
+          </div>
         </div>
 
         <div className="flex flex-col lg:flex-row gap-10">

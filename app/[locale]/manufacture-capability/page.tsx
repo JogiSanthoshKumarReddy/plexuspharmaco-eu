@@ -5,6 +5,8 @@ import { Settings, Shield, Zap, SearchCheck, Factory, Box, ThermometerSnowflake,
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
+import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
+
 export default function ManufactureCapabilityPage() {
   const capabilities = [
     {
@@ -149,6 +151,15 @@ export default function ManufactureCapabilityPage() {
             </motion.div>
           </div>
         </div>
+
+        {/* Manufacturing Video Tour Showcase */}
+        <VideoSectionPlayer
+          videoUrl="/assets/videos/plexus_manufacturing_tour.mp4"
+          posterUrl="/assets/images/pharma_hero_mfg.png"
+          title="Inside Plexuspharmaco Advanced Manufacturing Lines"
+          subtitle="Explore automated cleanroom suites, high-speed blister packaging lines, and EU-GMP sterile FDF production facilities."
+          badge="Manufacturing Facility Video Tour"
+        />
 
         {/* Facility & Capacity Overview */}
         <div className="mb-24">

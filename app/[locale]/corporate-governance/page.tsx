@@ -1,7 +1,7 @@
 
 "use client";
 import { motion } from "framer-motion";
-import { ShieldCheck, Scale, FileText, CheckCircle2 } from "lucide-react";
+import { ShieldCheck, Scale, FileText, CheckCircle2, Download } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
@@ -114,6 +114,21 @@ export default function CorporateGovernancePage() {
               </p>
             </motion.div>
           ))}
+        </div>
+
+        {/* Download Section */}
+        <div className="mt-16 bg-white rounded-3xl p-8 border border-slate-100 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 className="text-2xl font-bold text-brand-900 mb-2">Corporate Governance Charter</h3>
+            <p className="text-slate-600">Download our complete board oversight policy and corporate governance guidelines.</p>
+          </div>
+          <a 
+            href="/assets/pdfs/Plexuspharmaco_Corporate_Governance_Charter.pdf"
+            download="Plexuspharmaco_Corporate_Governance_Charter.pdf"
+            className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-md hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer"
+          >
+            <Download className="w-5 h-5" /> Download Charter (PDF)
+          </a>
         </div>
 
       </div>

@@ -338,64 +338,7 @@ export async function POST(request: Request) {
       if (process.env.SMTP_HOST?.includes('ethereal.email')) {
         console.log('Test email sent. Preview URL:', nodemailer.getTestMessageUrl(info));
       }
-      
-      // Send auto-responder to the user
-      if (data.form_email) {
-        const autoResponderHtml = `
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-          <meta charset="utf-8">
-          <meta name="viewport" content="width=device-width, initial-scale=1.0">
-          <title>Thank you for contacting Plexuspharmaco</title>
-        </head>
-        <body style="margin: 0; padding: 0; background-color: #f0f4f8; font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; line-height: 1.6; color: #333333;">
-          <table border="0" cellpadding="0" cellspacing="0" width="100%" style="background-color: #f0f4f8; padding: 40px 20px;">
-            <tr>
-              <td align="center">
-                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 600px; background-color: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
-                  <tr>
-                    <td style="background-color: #0b3d91; padding: 35px 40px; text-align: center; border-bottom: 4px solid #0056b3;">
-                      <h1 style="color: #ffffff; margin: 0; font-size: 24px; font-weight: bold; letter-spacing: 0.5px;">Plexuspharmaco GmbH</h1>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="padding: 40px;">
-                      <h2 style="margin: 0 0 15px 0; font-size: 20px; color: #1a1a1a; font-weight: 600;">Thank you for your enquiry</h2>
-                      <p style="margin: 0 0 15px 0; font-size: 15px; color: #555555; line-height: 1.6;">Dear ${sanitizeHtml(String(data.form_name || 'Valued Customer'))},</p>
-                      <p style="margin: 0 0 20px 0; font-size: 15px; color: #555555; line-height: 1.6;">We have successfully received your message. Our global team is currently reviewing your inquiry and will get back to you as soon as possible.</p>
-                      <p style="margin: 0; font-size: 15px; color: #555555; line-height: 1.6;">Best regards,<br><strong>The Plexuspharmaco Team</strong></p>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td style="background-color: #f8fafc; padding: 25px 40px; text-align: center; border-top: 1px solid #e2e8f0;">
-                      <p style="color: #64748b; margin: 0 0 10px 0; font-size: 12px;">
-                        <a href="${siteUrl}" style="color: #0b3d91; text-decoration: none;">Website</a> &nbsp;|&nbsp; 
-                        <a href="${siteUrl}/en/business-enquiry" style="color: #0b3d91; text-decoration: none;">Contact</a>
-                      </p>
-                      <p style="color: #94a3b8; margin: 0; font-size: 11px;">&copy; ${new Date().getFullYear()} Plexuspharmaco GmbH. All rights reserved.</p>
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-          </table>
-        </body>
-        </html>
-        `;
 
-        try {
-          await transporter.sendMail({
-            from: process.env.SMTP_FROM_EMAIL || '"Plexuspharmaco Website" <noreply@plexuspharmaco.eu>',
-            to: String(data.form_email),
-            subject: 'Thank you for contacting Plexuspharmaco',
-            html: autoResponderHtml,
-          });
-        } catch (autoResponderError) {
-          console.error('Failed to send auto-responder email:', autoResponderError);
-          // Do not throw here so the main submission still succeeds.
-        }
-      }
     } else {
       console.warn('DEMO MODE: SMTP_USER is not configured. Simulating successful email send to:', mailOptions.to);
       // Simulate 1 second network delay

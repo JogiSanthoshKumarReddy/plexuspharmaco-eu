@@ -6,6 +6,8 @@ import { Expand, X } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
+import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
+
 export default function GalleryPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
@@ -37,6 +39,15 @@ export default function GalleryPage() {
             Explore our modern, validated facilities, research laboratories, and the dedicated teams driving global healthcare innovation.
           </p>
         </div>
+
+        {/* Video Tour Showcase */}
+        <VideoSectionPlayer
+          videoUrl="/assets/videos/plexus_corporate_overview.mp4"
+          posterUrl="/assets/images/pharma_hero_corporate.png"
+          title="Plexuspharmaco Facility Video Tour & Highlights"
+          subtitle="Experience a video walkthrough of our European facilities, R&D labs, and cleanroom manufacturing."
+          badge="Corporate Video Gallery"
+        />
 
         {/* Masonry-style Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">

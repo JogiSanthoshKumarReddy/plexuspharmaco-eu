@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid, Download } from 'lucide-react';
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';
@@ -146,11 +146,13 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                 >
                   <FileText className="w-5 h-5" /> Enquire About Product
                 </Link>
-                {/* Brochure functionality disabled until official brochures are provided 
-                <button className="px-8 py-4 bg-white hover:bg-slate-50 text-brand-900 border border-slate-200 rounded-xl font-bold text-center transition-all duration-300 shadow-sm flex items-center justify-center gap-2 group">
-                  <Download className="w-5 h-5 text-slate-400 group-hover:text-brand-900 transition-colors" /> Download Brochure
-                </button>
-                */}
+                <a 
+                  href={`/assets/pdfs/Plexuspharmaco_Product_Spec_${product.id}.pdf`}
+                  download={`Plexuspharmaco_Product_Spec_${product.name.replace(/[^a-zA-Z0-9_-]/g, '_')}.pdf`}
+                  className="px-8 py-4 bg-white hover:bg-slate-50 text-brand-900 border border-slate-200 rounded-xl font-bold text-center transition-all duration-300 shadow-sm flex items-center justify-center gap-2 group cursor-pointer"
+                >
+                  <Download className="w-5 h-5 text-slate-400 group-hover:text-brand-900 transition-colors" /> Download Specification Sheet (PDF)
+                </a>
               </div>
             </div>
           </div>

@@ -1,9 +1,11 @@
 
 "use client";
 import { motion } from "framer-motion";
-import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users, ShieldCheck, Scale } from "lucide-react";
+import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users, ShieldCheck, Scale, Download } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
+
+import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
 
 export default function SustainabilityPage() {
   const envGoals = [
@@ -102,6 +104,15 @@ export default function SustainabilityPage() {
             At Plexuspharmaco, Corporate Social Responsibility is not an afterthought; it is integrated into our core business strategy. Our Environmental, Social, and Governance (ESG) framework ensures that our rapid global growth never comes at the expense of our communities or our environment.
           </motion.p>
         </div>
+
+        {/* ESG Video Tour Showcase */}
+        <VideoSectionPlayer
+          videoUrl="/assets/videos/plexus_sustainability_esg.mp4"
+          posterUrl="/assets/images/pharma_hero_lab.png"
+          title="Plexuspharmaco Green Manufacturing & CSR Initiatives"
+          subtitle="Discover zero-liquid discharge water recycling, renewable solar power integration, and global community health programs."
+          badge="Sustainability & ESG Video Tour"
+        />
 
         {/* Environmental Sustainability */}
         <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">
@@ -230,6 +241,21 @@ export default function SustainabilityPage() {
               </div>
             </motion.div>
           </div>
+        </div>
+
+        {/* Download Section */}
+        <div className="mt-16 bg-white rounded-3xl p-8 border border-slate-100 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 className="text-2xl font-bold text-brand-900 mb-2">Sustainability & ESG Policy Framework</h3>
+            <p className="text-slate-600">Download our complete ESG commitments, environmental stewardship goals, and CSR initiatives report.</p>
+          </div>
+          <a 
+            href="/assets/pdfs/Plexuspharmaco_Sustainability_ESG_Framework.pdf"
+            download="Plexuspharmaco_Sustainability_ESG_Framework.pdf"
+            className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-md hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer"
+          >
+            <Download className="w-5 h-5" /> Download ESG Framework (PDF)
+          </a>
         </div>
 
       </div>

@@ -8,19 +8,25 @@ export default function MediaKitsPage() {
       title: "Corporate Brand Guidelines",
       description: "Official color palettes, typography, and logo usage rules for Plexuspharmaco Europe.",
       icon: <FileText className="w-8 h-8 text-brand-600" />,
-      size: "2.4 MB PDF"
+      size: "1.5 MB PDF",
+      file: "/assets/pdfs/Plexuspharmaco_Corporate_Brand_Guidelines.pdf",
+      filename: "Plexuspharmaco_Corporate_Brand_Guidelines.pdf"
     },
     {
       title: "High-Res Logo Pack",
-      description: "Vector and raster formats (SVG, PNG, EPS) for print and digital media.",
+      description: "Vector and raster formats (SVG, PNG, EPS) specification for print and digital media.",
       icon: <ImageIcon className="w-8 h-8 text-brand-600" />,
-      size: "18.1 MB ZIP"
+      size: "1.2 MB PDF",
+      file: "/assets/pdfs/Plexuspharmaco_Logo_Brand_Pack.pdf",
+      filename: "Plexuspharmaco_Logo_Brand_Pack.pdf"
     },
     {
       title: "Executive Headshots",
-      description: "Professional portraits of our Board of Directors and C-Suite leadership team.",
+      description: "Professional leadership profiles of our Board of Directors and C-Suite team.",
       icon: <Briefcase className="w-8 h-8 text-brand-600" />,
-      size: "45.2 MB ZIP"
+      size: "1.1 MB PDF",
+      file: "/assets/pdfs/Plexuspharmaco_Executive_Leadership_Profile.pdf",
+      filename: "Plexuspharmaco_Executive_Leadership_Profile.pdf"
     }
   ];
 
@@ -49,9 +55,13 @@ export default function MediaKitsPage() {
               <h3 className="text-xl font-bold text-brand-900 mb-3">{kit.title}</h3>
               <p className="text-slate-600 text-sm mb-8 flex-grow">{kit.description}</p>
               
-              <button onClick={() => alert(`Downloading ${kit.title}...`)} className="w-full flex items-center justify-center gap-2 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
+              <a 
+                href={kit.file} 
+                download={kit.filename}
+                className="w-full flex items-center justify-center gap-2 py-3 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-900 hover:text-white transition-colors cursor-pointer"
+              >
                 <Download className="w-4 h-4" /> Download ({kit.size})
-              </button>
+              </a>
             </div>
           ))}
         </div>

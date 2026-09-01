@@ -7,6 +7,8 @@ import Image from "next/image";
 import GlobalPresenceMap from "@/components/home/GlobalPresenceMap";
 import CompanyStats from "@/components/home/CompanyStats";
 
+import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
+
 export default function GlobalOfficePage() {
   const offices = [
     {
@@ -62,6 +64,15 @@ export default function GlobalOfficePage() {
             With our German Headquarters in Germany, Plexuspharmaco maintains a robust, highly integrated global supply chain designed to support our partners in regulated and emerging markets worldwide.
           </motion.p>
         </div>
+
+        {/* Global Logistics Video Showcase */}
+        <VideoSectionPlayer
+          videoUrl="/assets/videos/plexus_global_logistics.mp4"
+          posterUrl="/assets/images/pharma_hero_corporate.png"
+          title="Plexuspharmaco Global Supply Chain & Cold Chain Logistics"
+          subtitle="Watch our international distribution operations, GDP cold-chain transport, and temperature-monitored warehousing."
+          badge="Global Logistics Video Showcase"
+        />
 
         {/* Global Stats */}
         <CompanyStats />

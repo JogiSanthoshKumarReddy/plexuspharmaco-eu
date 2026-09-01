@@ -1,9 +1,11 @@
 
 "use client";
 import { motion } from "framer-motion";
-import { ShieldCheck, Search, CheckCircle2, Shield, AlertTriangle, Fingerprint, RefreshCcw, Activity } from "lucide-react";
+import { ShieldCheck, Search, CheckCircle2, Shield, AlertTriangle, Fingerprint, RefreshCcw, Activity, Download } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
+
+import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
 
 export default function QualityAssurancePage() {
   const qcPillars = [
@@ -94,6 +96,15 @@ export default function QualityAssurancePage() {
           </div>
         </div>
 
+        {/* Quality Video Tour Showcase */}
+        <VideoSectionPlayer
+          videoUrl="/assets/videos/plexus_quality_control.mp4"
+          posterUrl="/assets/images/pharma_quality_control.png"
+          title="Quality Control & Analytical Batch Release"
+          subtitle="Watch our analytical chemistry teams validate raw material purity, HPLC chromatography, and finished product batch release."
+          badge="Quality Control Video Tour"
+        />
+
         {/* Six Pillars of Quality */}
         <div className="mb-24">
           <div className="text-center max-w-3xl mx-auto mb-16">
@@ -139,6 +150,21 @@ export default function QualityAssurancePage() {
             </p>
           </div>
         </motion.div>
+
+        {/* Download Section */}
+        <div className="mt-16 bg-white rounded-3xl p-8 border border-slate-100 shadow-sm flex flex-col md:flex-row items-center justify-between gap-6">
+          <div>
+            <h3 className="text-2xl font-bold text-brand-900 mb-2">Quality Policy & EU-GMP Statement</h3>
+            <p className="text-slate-600">Download our corporate Quality Policy, EU-GMP compliance framework, and analytical validation guidelines.</p>
+          </div>
+          <a 
+            href="/assets/pdfs/Plexuspharmaco_Quality_Policy_GMP.pdf"
+            download="Plexuspharmaco_Quality_Policy_GMP.pdf"
+            className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-md hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer"
+          >
+            <Download className="w-5 h-5" /> Download Quality Policy (PDF)
+          </a>
+        </div>
 
       </div>
     </div>

@@ -8,10 +8,10 @@ import Image from "next/image";
 
 export default function InvestorRelationPage() {
   const reports = [
-    { year: "2026", title: "Q2 2026 Financial Results", type: "PDF", size: "4.2 MB", file: "/assets/pdfs/financial-report-2026.pdf" },
-    { year: "2026", title: "Annual Sustainability & ESG Report", type: "PDF", size: "12.5 MB", file: "/assets/pdfs/esg-report-2026.pdf" },
-    { year: "2025", title: "Annual Report 2025", type: "PDF", size: "8.1 MB", file: "/assets/pdfs/annual-report-2025.pdf" },
-    { year: "2025", title: "Corporate Governance Statement", type: "PDF", size: "2.3 MB", file: "/assets/pdfs/governance-statement.pdf" }
+    { year: "2026", title: "Q2 2026 Financial Results", type: "PDF", size: "1.2 MB", file: "/assets/pdfs/Plexuspharmaco_Q2_2026_Financial_Results.pdf", filename: "Plexuspharmaco_Q2_2026_Financial_Results.pdf" },
+    { year: "2026", title: "Annual Sustainability & ESG Report", type: "PDF", size: "2.4 MB", file: "/assets/pdfs/Plexuspharmaco_ESG_Report_2026.pdf", filename: "Plexuspharmaco_ESG_Report_2026.pdf" },
+    { year: "2025", title: "Annual Report 2025", type: "PDF", size: "3.1 MB", file: "/assets/pdfs/Plexuspharmaco_Annual_Report_2025.pdf", filename: "Plexuspharmaco_Annual_Report_2025.pdf" },
+    { year: "2025", title: "Corporate Governance Statement", type: "PDF", size: "1.8 MB", file: "/assets/pdfs/Plexuspharmaco_Governance_Statement_2025.pdf", filename: "Plexuspharmaco_Governance_Statement_2025.pdf" }
   ];
 
   const pillars = [
@@ -148,7 +148,7 @@ export default function InvestorRelationPage() {
             {reports.map((report, idx) => (
               <a
                 href={report.file}
-                download
+                download={report.filename}
                 key={idx}
                 className="block group"
               >
