@@ -35,14 +35,14 @@ BT
 18.3999999999999986 TL
 0.118 0.161 0.231 rg
 56.6929133858267775 739.8427559055118081 Td
-(PlexWell SOMNA-MATRIX CAPSULE WITH BOX N60) Tj
+(PlexWell SOMNA-MATRIX CAPSULE N60) Tj
 ET
 BT
 /F1 9 Tf
 10.3499999999999996 TL
 0.392 0.455 0.545 rg
 56.6929133858267775 720.0002362204724022 Td
-(Category: Sleep Support  |  Product Specification Sheet) Tj
+(Category: Sleep \(Somna-Matrix\)  |  Product Specification Sheet) Tj
 ET
 BT
 /F2 11 Tf
@@ -56,8 +56,8 @@ BT
 10.9249999999999989 TL
 0.118 0.161 0.231 rg
 39.6850393700787407 666.1419685039369369 Td
-(PlexWell SOMNA-MATRIX CAPSULE WITH BOX N60 is a premium formulation manufactured in accordance with strict) Tj
-T* (European Good Manufacturing Practice \(GMP\) standards.) Tj
+(PlexWell SOMNA-MATRIX CAPSULE N60 is a premium formulation manufactured in accordance with strict European) Tj
+T* (Good Manufacturing Practice \(GMP\) standards.) Tj
 ET
 BT
 /F2 11 Tf
@@ -150,7 +150,7 @@ BT
 9.7749999999999986 TL
 0.118 0.161 0.231 rg
 186.3094781714785597 489.0000393700786958 Td
-(Sleep Support) Tj
+(Sleep \(Somna-Matrix\)) Tj
 ET
 1. g
 0.78 G
@@ -472,7 +472,7 @@ endobj
 19 0 obj
 <<
 /Producer (jsPDF 4.2.1)
-/CreationDate (D:20260901174301+05'30')
+/CreationDate (D:20260901181544+05'30')
 >>
 endobj
 20 0 obj
@@ -511,7 +511,7 @@ trailer
 /Size 21
 /Root 20 0 R
 /Info 19 0 R
-/ID [ <E08E9BC042ED338A17000403711F18BE> <E08E9BC042ED338A17000403711F18BE> ]
+/ID [ <C6D3F8372C74445B2198185A0309F674> <C6D3F8372C74445B2198185A0309F674> ]
 >>
 startxref
 8418

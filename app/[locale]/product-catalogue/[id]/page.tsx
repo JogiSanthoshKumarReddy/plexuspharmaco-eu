@@ -125,6 +125,25 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                 {product.description}
               </p>
 
+              {/* Pack Size Variants */}
+              {product.packSizes && product.packSizes.length > 0 && (
+                <div className="mb-8 p-6 bg-slate-50 rounded-2xl border border-slate-100">
+                  <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-3 flex items-center gap-2">
+                    <Package className="w-4 h-4 text-brand-600" /> Available Pack Sizes & Packaging Formats
+                  </h3>
+                  <div className="flex flex-wrap gap-2">
+                    {product.packSizes.map((size: string, idx: number) => (
+                      <span 
+                        key={idx}
+                        className="px-4 py-2 rounded-xl bg-white border border-brand-200 text-brand-900 font-bold text-sm shadow-sm hover:border-brand-500 transition-colors"
+                      >
+                        {size}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              )}
+
               <div className="space-y-6 mb-12">
                 <h3 className="text-lg font-bold text-brand-900 border-b border-slate-100 pb-3">Key Benefits & Features</h3>
                 <ul className="space-y-4">
