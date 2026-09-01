@@ -40,6 +40,22 @@ export default function VideoModalPlayer({
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, []);
 
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.load();
+      videoRef.current.play().then(() => {
+        setIsPlaying(true);
+      }).catch((err) => {
+        console.log("Autoplay unmuted restriction, attempting muted play:", err);
+        if (videoRef.current) {
+          videoRef.current.muted = true;
+          setIsMuted(true);
+          videoRef.current.play().then(() => setIsPlaying(true)).catch(console.error);
+        }
+      });
+    }
+  }, [videoUrl]);
+
   const togglePlay = () => {
     if (!videoRef.current) return;
     if (isPlaying) {
@@ -125,12 +141,14 @@ export default function VideoModalPlayer({
           </div>
         )}
 
-        {/* Video Element with Dual Source WebM/MP4 Fallback */}
+        {/* Video Element with Direct src and Dual Source Fallback */}
         <video
           ref={videoRef}
+          src={videoUrl}
           poster={posterUrl}
           autoPlay
           loop
+          muted={isMuted}
           playsInline
           onTimeUpdate={handleTimeUpdate}
           onLoadedMetadata={handleLoadedMetadata}
