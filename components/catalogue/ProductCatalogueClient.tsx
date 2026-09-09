@@ -17,9 +17,11 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
   // Get initial state from URL or defaults
   const initialSearch = searchParams?.get('search') || "";
   const initialCategory = searchParams?.get('category') || "All Products";
+  const initialSegment = searchParams?.get('segment') || null;
 
   const [searchQuery, setSearchQuery] = useState(initialSearch);
   const [activeCategory, setActiveCategory] = useState<string>(initialCategory);
+  const [activeSegment, setActiveSegment] = useState<string | null>(initialSegment);
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(12);
 
@@ -28,13 +30,22 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
     const params = new URLSearchParams();
     if (searchQuery) params.set('search', searchQuery);
     if (activeCategory && activeCategory !== "All Products") params.set('category', activeCategory);
+    if (activeSegment) params.set('segment', activeSegment);
     
     // We use router.replace to avoid filling up the history stack on every keystroke
     router.replace(`${pathname}?${params.toString()}`, { scroll: false });
-  }, [searchQuery, activeCategory, pathname, router]);
+  }, [searchQuery, activeCategory, activeSegment, pathname, router]);
 
-  // Extract unique categories
-  const categories = ["All Products", ...Array.from(new Set(products.map(p => p.category)))];
+  // Filter products by segment first
+  const segmentProducts = useMemo(() => {
+    if (!activeSegment) return [];
+    return products.filter(p => p.segment === activeSegment || (!p.segment && activeSegment === 'Pharmaceuticals')); // Default old products to Pharmaceuticals
+  }, [activeSegment]);
+
+  // Extract unique categories for the active segment
+  const categories = useMemo(() => {
+    return ["All Products", ...Array.from(new Set(segmentProducts.map(p => p.category)))];
+  }, [segmentProducts]);
 
   // Helper to map categories to our product images
   const getProductImage = (category: string) => {
@@ -47,7 +58,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
 
   // Filter products
   const filteredProducts = useMemo(() => {
-    return products.filter(p => {
+    return segmentProducts.filter(p => {
       const matchesCategory = activeCategory === "All Products" || p.category === activeCategory;
       const matchesSearch = !searchQuery || 
         p.name.toLowerCase().includes(searchQuery.toLowerCase()) || 
@@ -55,7 +66,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
       
       return matchesCategory && matchesSearch;
     });
-  }, [searchQuery, activeCategory]);
+  }, [searchQuery, activeCategory, segmentProducts]);
 
   const dict = enDict.catalogue; // In a real app, pick dictionary based on locale prop
 
@@ -97,7 +108,39 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
           </div>
         </div>
 
-        <div className="flex flex-col lg:flex-row gap-10">
+        {!activeSegment ? (
+          /* Segments Landing Page */
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+            {[
+              { id: 'Nutraceuticals', title: 'Nutraceuticals', desc: 'Premium dietary supplements and natural health products.', icon: '/assets/images/pharma_product_nutra.png' },
+              { id: 'Medical Devices', title: 'Medical Devices', desc: 'Advanced medical technology and diagnostic tools.', icon: '/assets/images/pharma_product_pharma.png' },
+              { id: 'Pharmaceuticals', title: 'Pharmaceuticals', desc: 'Prescription medications and therapeutic treatments.', icon: '/assets/images/pharma_product_pharma.png' },
+            ].map(segment => (
+              <button 
+                key={segment.id}
+                onClick={() => { setActiveSegment(segment.id); setActiveCategory('All Products'); setVisibleCount(12); }}
+                className="group flex flex-col items-center p-12 bg-white rounded-[3rem] border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer text-center"
+              >
+                <div className="w-32 h-32 mb-8 relative bg-brand-50 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
+                  <Image src={segment.icon} alt={segment.title} fill className="object-contain p-6 mix-blend-multiply" />
+                </div>
+                <h3 className="text-3xl font-bold text-brand-900 mb-4 group-hover:text-brand-700">{segment.title}</h3>
+                <p className="text-slate-600 text-lg leading-relaxed">{segment.desc}</p>
+                <div className="mt-8 px-6 py-3 bg-brand-50 text-brand-700 rounded-full font-bold group-hover:bg-brand-900 group-hover:text-white transition-colors flex items-center gap-2">
+                  View Catalogue <ChevronRight className="w-5 h-5" />
+                </div>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <div className="flex flex-col lg:flex-row gap-10">
+            
+            {/* Back to segments button */}
+            <div className="w-full lg:hidden mb-4">
+              <button onClick={() => setActiveSegment(null)} className="text-brand-600 font-bold flex items-center gap-2 hover:text-brand-900">
+                <ChevronRight className="w-5 h-5 rotate-180" /> Back to Categories
+              </button>
+            </div>
           
           {/* Mobile Filter Toggle */}
           <div className="lg:hidden">
@@ -179,8 +222,11 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
             {/* Results Header */}
             <div className="mb-8 flex justify-between items-end border-b border-slate-200 pb-4">
               <div>
-                <h3 className="text-2xl font-bold text-brand-900">{activeCategory}</h3>
-                <p className="text-slate-500 mt-2 font-medium">
+                <button onClick={() => setActiveSegment(null)} className="hidden lg:flex text-brand-600 font-bold items-center gap-2 hover:text-brand-900 mb-4 bg-brand-50 px-4 py-2 rounded-lg w-fit transition-colors">
+                  <ChevronRight className="w-4 h-4 rotate-180" /> Back to Main Categories
+                </button>
+                <h3 className="text-3xl font-bold text-brand-900 mb-2">{activeSegment} <span className="text-slate-300 mx-2">|</span> {activeCategory}</h3>
+                <p className="text-slate-500 font-medium">
                   {dict.showing} {Math.min(visibleCount, filteredProducts.length)} of {filteredProducts.length} {dict.premium_solutions}
                 </p>
               </div>
@@ -297,6 +343,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
 
           </div>
         </div>
+        )}
       </div>
     </div>
   );

@@ -1,111 +1,11 @@
 [
   {
-    "id": "plexwell-eassichew-kids-chewable-multivitamin",
-    "category": "Kid's Health",
-    "name": "PlexWell EASSICHEW KIDS CHEWABLE MULTIVITAMIN",
-    "image": "/images/products/kids/Plexwell EassiChew kids multivitamin chewable tablets N100.png",
-    "description": "A high-quality formulation featuring Essential Vitamins A-Z and Iron (Ferrous Sulfate).",
-    "ingredients": [
-      {
-        "name": "Essential Vitamins A-Z",
-        "dosage": "Varies",
-        "dv": "100%"
-      },
-      {
-        "name": "Iron (Ferrous Sulfate)",
-        "dosage": "10mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/kids/Plexwell EassiChew kids multivitamin chewable tablets N100_advert 1.png",
-    "supplementFactsImage": "/images/products/kids/Plexwell EassiChew kids multivitamin chewable tablets N100_Supplement facts table.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_omegavit-d3coq10_vit-ecucumin_n60",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA+VIT D3+COQ10 VIT E+CURCUMIN N60",
-    "image": "/images/products/omega-supplements/Plexwell_Omega+Vit D3+CoQ10_Vit E+Cucumin_N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/omega-supplements/Plexwell_Omega+Vit D3+CoQ10_Vit E+Cucumin_N60_Advert.png",
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-drops-for-kids-1-4-y-age",
-    "category": "Vitamin D3 Supplements",
-    "name": "PlexWell VIT D3 DROPS FOR KIDS 1-4 Y AGE",
-    "image": "/images/products/vitamin-d3/Plexwell Vit D3 drops for kids 1-4 Y age.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/vitamin-d3/Plexwell Vit D3 drops for kids 1-4 Y age_Advert.png",
-    "galleryImages": [
-      "/images/products/vitamin-d3/Plexwell Vit D3 drops for kids 1-4 Y age_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-junior-kids-multivitamin-gummies",
-    "category": "Kid's Health",
-    "name": "PlexWell JUNIOR KIDS’ MULTIVITAMIN GUMMIES",
-    "image": "/images/products/kids/PlexWell_Junior daily 2 multivitamin gummies N60.png",
-    "description": "A high-quality formulation featuring Vitamin A, C, D, E Blend and Zinc Citrate.",
-    "ingredients": [
-      {
-        "name": "Vitamin A, C, D, E Blend",
-        "dosage": "500mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Zinc Citrate",
-        "dosage": "5mg",
-        "dv": "50%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/kids/PlexWell_Junior 2 gummies daily N60_Advert.png",
-    "supplementFactsImage": "/images/products/kids/PlexWell_Junior 2 gummies daily N60_Supplement facts table.png",
-    "galleryImages": [
-      "/images/products/kids-health/PlexWell_Junior 2 gummies daily N60_advert 2.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-multivitaminomega_gummies-n60",
-    "category": "Omega Supplements",
-    "name": "PlexWell MULTIVITAMIN+OMEGA GUMMIES N60",
-    "image": "/images/products/omega-supplements/PlexWell Multivitamin+Omega_Gummies N60.png",
-    "description": "",
+    "id": "plexwell-naturals-eassichew-kids-chewable-multivitamin-tablet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS KID’S HEALTH",
+    "name": "PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -113,532 +13,17 @@
       "Available for commercial partnership."
     ],
     "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_ophthacare-junior-liquid-150-ml",
-    "category": "Eye/Vision Supplements",
-    "name": "PlexWell OPHTHACARE JUNIOR LIQUID 150ML",
-    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150 mL_Advert.png",
-    "galleryImages": [
-      "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150 mL_Advert 2.png",
-      "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150 mL_Advert 3.png"
-    ],
-    "packSizes": [
-      "150ML"
-    ]
-  },
-  {
-    "id": "plexwell-junior-multivitamin-liquid",
-    "category": "Kid's Health",
-    "name": "PlexWell JUNIOR MULTIVITAMIN LIQUID",
-    "image": "/images/products/kids/Plexwell Junior multivitamin kids liquid 200ml.png",
-    "description": "A high-quality formulation featuring Essential Vitamins A-Z and Iron (Ferrous Sulfate).",
-    "ingredients": [
-      {
-        "name": "Essential Vitamins A-Z",
-        "dosage": "Varies",
-        "dv": "100%"
-      },
-      {
-        "name": "Iron (Ferrous Sulfate)",
-        "dosage": "10mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/kids/Plexwell Junior multivitamin kids liquid 200 mL_advert 1.png",
-    "packSizes": [
       "N30",
       "N60"
     ]
   },
   {
-    "id": "plexwell-baby-multivitamin-drops",
-    "category": "Kid's Health",
-    "name": "PlexWell BABY MULTIVITAMIN DROPS",
-    "image": "/images/products/kids/PlexWell Baby multiviamin drops 50ml.png",
-    "description": "A high-quality formulation featuring Essential Vitamins A-Z and Iron (Ferrous Sulfate).",
-    "ingredients": [
-      {
-        "name": "Essential Vitamins A-Z",
-        "dosage": "Varies",
-        "dv": "100%"
-      },
-      {
-        "name": "Iron (Ferrous Sulfate)",
-        "dosage": "10mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/kids/PlexWell Baby multivitamin drops 50 mL_advert1.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-baby-vit-d3-drops",
-    "category": "Kid's Health",
-    "name": "PlexWell BABY VIT D3 DROPS",
-    "image": "/images/products/kids/PlexWell Baby Vit D3 drops 20ml.png",
-    "description": "A high-quality formulation featuring Cholecalciferol (Vitamin D3) and MCT Oil (Carrier).",
-    "ingredients": [
-      {
-        "name": "Cholecalciferol (Vitamin D3)",
-        "dosage": "400 IU",
-        "dv": "100%"
-      },
-      {
-        "name": "MCT Oil (Carrier)",
-        "dosage": "0.2ml",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/kids/PlexWell Baby Vit D3 drops 20 mL_advert.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-gummies",
-    "category": "Kid's Health",
-    "name": "PlexWell VIT D3+ GUMMIES",
-    "image": "/images/products/d3/PlexWell D3 family/PlexWell Vit D3+ gummies N60.png",
-    "description": "A high-quality formulation featuring Cholecalciferol (Vitamin D3) and MCT Oil (Carrier).",
-    "ingredients": [
-      {
-        "name": "Cholecalciferol (Vitamin D3)",
-        "dosage": "400 IU",
-        "dv": "100%"
-      },
-      {
-        "name": "MCT Oil (Carrier)",
-        "dosage": "0.2ml",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/kids-health/PlexWell Vit D3+ gummies N60_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-gummies-for-kids-4-10-y-age",
-    "category": "Vitamin D3 Supplements",
-    "name": "PlexWell VIT D3 GUMMIES FOR KIDS 4-10 Y AGE",
-    "image": "/images/products/vitamin-d3/Plexwell Vit D3 gummies for kids 4-10 Y age.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/vitamin-d3/Plexwell Vit D3 gummies for kids 4-10 Y age_Advert.png",
-    "galleryImages": [
-      "/images/products/vitamin-d3/Plexwell Vit D3 gummies for kids 4-10 Y age_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-multivitamin-tab",
-    "category": "Men's Health",
-    "name": "PlexWell MEN MULTIVITAMIN TAB",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 50+ multivitamin_100 tablets.png",
-    "description": "A high-quality formulation featuring Vitamin C (Ascorbic Acid), Vitamin B12, and Magnesium.",
-    "ingredients": [
-      {
-        "name": "Vitamin C (Ascorbic Acid)",
-        "dosage": "90mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Vitamin B12",
-        "dosage": "2.4mcg",
-        "dv": "100%"
-      },
-      {
-        "name": "Magnesium",
-        "dosage": "100mg",
-        "dv": "24%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell Men and Men50+_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-multivitamin-100-tablets",
-    "category": "Men's Health",
-    "name": "PlexWell MEN MULTIVITAMIN 100 TABLETS",
-    "image": "/images/products/men-health/PlexWell Men multivitamin 100 tablets.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/PlexWell Men multivitamin 100 tablets_Advert.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-multivitamin",
-    "category": "Men's Health",
-    "name": "PlexWell MEN MULTIVITAMIN",
-    "image": "/images/products/men-health/PlexWell Men multivitamin.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/PlexWell Men multivitamin 100 tablets_Advert.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-50-multivitamin",
-    "category": "Men's Health",
-    "name": "PlexWell MEN 50+ MULTIVITAMIN",
-    "image": "/images/products/men-health/PlexWell Men 50+ multivitamin.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/PlexWell Men 50+ multivitamin_100 tablets_Advert.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-70-multivitamin-powder",
-    "category": "Men's Health",
-    "name": "PlexWell MEN 70+ MULTIVITAMIN POWDER",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 70+ multivitamin_Powder sachet N28.png",
-    "description": "A high-quality formulation featuring Vitamin C (Ascorbic Acid), Vitamin B12, and Magnesium.",
-    "ingredients": [
-      {
-        "name": "Vitamin C (Ascorbic Acid)",
-        "dosage": "90mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Vitamin B12",
-        "dosage": "2.4mcg",
-        "dv": "100%"
-      },
-      {
-        "name": "Magnesium",
-        "dosage": "100mg",
-        "dv": "24%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell Men 70+ multivitamin_Powder sachet N28_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_vit-c_energy-powder_n30",
-    "category": "Vitamin C Supplements",
-    "name": "PlexWell VIT C+ ENERGY POWDER N30",
-    "image": "/images/products/vitamin-c/Plexwell_VIt C+_Energy Powder_N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/vitamin-c/Plexwell_VIt C+_Energy Powder_N30_Advert1.png",
-    "galleryImages": [
-      "/images/products/vitamin-c/Plexwell_VIt C+_Energy Powder_N30_Advert 2.png"
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-men-70-multivitamin-spray",
-    "category": "Men's Health",
-    "name": "PlexWell MEN 70+ MULTIVITAMIN Spray",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell Men 70+ multivitamin_Spray 75ml.png",
-    "description": "A high-quality formulation featuring Vitamin C (Ascorbic Acid), Vitamin B12, and Magnesium.",
-    "ingredients": [
-      {
-        "name": "Vitamin C (Ascorbic Acid)",
-        "dosage": "90mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Vitamin B12",
-        "dosage": "2.4mcg",
-        "dv": "100%"
-      },
-      {
-        "name": "Magnesium",
-        "dosage": "100mg",
-        "dv": "24%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell Men 70+ multivitamin_Spray 75 mL_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-ferti-pro-tablet-fertility-support",
-    "category": "Men's Health",
-    "name": "PlexWell MEN FERTi-PRO TABLET (Fertility Support)",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_FERTi-PRO tablet_N100.png",
-    "description": "A high-quality formulation featuring L-Carnitine, CoQ10, and Selenium.",
-    "ingredients": [
-      {
-        "name": "L-Carnitine",
-        "dosage": "1000mg",
-        "dv": "-"
-      },
-      {
-        "name": "CoQ10",
-        "dosage": "200mg",
-        "dv": "-"
-      },
-      {
-        "name": "Selenium",
-        "dosage": "55mcg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell_FERTi-PRO tablet_N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-prosti-pro-softgel-prostate-health",
-    "category": "Men's Health",
-    "name": "PlexWell MEN PROSTi-PRO SOFTGEL (Prostate Health)",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_PROSTi-PRO_softgel N100.png",
-    "description": "A high-quality formulation featuring Saw Palmetto Extract, Zinc Picolinate, and Lycopene.",
-    "ingredients": [
-      {
-        "name": "Saw Palmetto Extract",
-        "dosage": "320mg",
-        "dv": "-"
-      },
-      {
-        "name": "Zinc Picolinate",
-        "dosage": "15mg",
-        "dv": "136%"
-      },
-      {
-        "name": "Lycopene",
-        "dosage": "10mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell_PROSTi-PRO_softgel N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-erecti-pro-capsule-n100-sex-and-stamina-booster",
-    "category": "Men's Health",
-    "name": "PlexWell MEN ERECTi-PRO CAPSULE N100 (Men's Health Support)",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_ERECTi-PRO_Capsule N100.png",
-    "description": "A high-quality formulation featuring Tribulus Terrestris Extract, Maca Root Extract, and Panax Ginseng.",
-    "ingredients": [
-      {
-        "name": "Tribulus Terrestris Extract",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Maca Root Extract",
-        "dosage": "400mg",
-        "dv": "-"
-      },
-      {
-        "name": "Panax Ginseng",
-        "dosage": "200mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell_ERECTi-PRO_Capsule N100_Advert.png"
-    ],
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell_regainox_capsule-n10",
-    "category": "Men's Health",
-    "name": "PlexWell REGAINOX CAPSULE N10",
-    "image": "/images/products/men-health/Plexwell_RegaiNOX_Capsule N10.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/Plexwell_RegaiNOX_Capsule N10_Advert.png",
-    "packSizes": [
-      "N10"
-    ]
-  },
-  {
-    "id": "plexwell_relaunch_capsule-n10",
-    "category": "Men's Health",
-    "name": "PlexWell RELAUNCH CAPSULE N10",
-    "image": "/images/products/men-health/Plexwell_Relaunch_Capsule N10.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/Plexwell_Relaunch_Capsule N10_Advert.png",
-    "packSizes": [
-      "N10"
-    ]
-  },
-  {
-    "id": "plexwell_manstru-support-capsule_n100",
-    "category": "Men's Health",
-    "name": "PlexWell Menstrual SUPPORT CAPSULE N100",
-    "image": "/images/products/women-health/PlexWell_Manstru Support Capsule_N100.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Manstru Support Capsule_N100_Advert.png",
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell_ut-support_capsule_n100",
-    "category": "Men's Health",
-    "name": "PlexWell UTI-Support CAPSULE N100",
-    "image": "/images/products/women-health/PlexWell_UT-Support_Capsule_N100.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_UT-Support_Capsule_N100_Advert.png",
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell-hair-skin-nail-pro-n30",
-    "category": "Beauty Supplements",
-    "name": "PlexWell HAIR SKIN NAIL PRO N30",
-    "image": "/images/products/beauty-care/Plexwell Hair Skin Nail Pro N30.png",
-    "description": "",
+    "id": "plexwell-naturals-junior-multivitamin-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS KID’S HEALTH",
+    "name": "PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -646,120 +31,18 @@
       "Available for commercial partnership."
     ],
     "packSizes": [
-      "N30"
+      "N30",
+      "N60"
     ]
   },
   {
-    "id": "plexwell_hair-pro-complex_effervescent_-n20_1",
-    "category": "Beauty Supplements",
-    "name": "PlexWell HAIR-PRO COMPLEX EFFERVESCENT N20 1",
-    "image": "/images/products/beauty-care/PlexWell_Hair-PRO Complex_Effervescent_ N20_1.png",
-    "description": "",
+    "id": "plexwell-naturals-junior-multivitamin-liquid",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS KID’S HEALTH",
+    "name": "PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID formulated for optimal health and wellness.",
     "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N20"
-    ]
-  },
-  {
-    "id": "plexwell-men-hair-pro-complex-capsule",
-    "category": "Men's Health",
-    "name": "PlexWell MEN HAIR-PRO COMPLEX CAPSULE",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_Hair-PRO Complex_Capsule_ N100.png",
-    "description": "A high-quality formulation featuring Biotin (Vitamin B7), Hydrolyzed Marine Collagen, and Keratin.",
-    "ingredients": [
-      {
-        "name": "Biotin (Vitamin B7)",
-        "dosage": "10000mcg",
-        "dv": "33333%"
-      },
-      {
-        "name": "Hydrolyzed Marine Collagen",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Keratin",
-        "dosage": "100mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell_Hair-PRO Complex_Capsule_ N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-men-hair-pro-complex-effervescent",
-    "category": "Men's Health",
-    "name": "PlexWell MEN HAIR-PRO COMPLEX EFFERVESCENT",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_Hair-PRO Complex_Effervescent_ N20.png",
-    "description": "A high-quality formulation featuring Biotin (Vitamin B7), Hydrolyzed Marine Collagen, and Keratin.",
-    "ingredients": [
-      {
-        "name": "Biotin (Vitamin B7)",
-        "dosage": "10000mcg",
-        "dv": "33333%"
-      },
-      {
-        "name": "Hydrolyzed Marine Collagen",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Keratin",
-        "dosage": "100mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell_Hair-PRO Complex_Effervescent_ N20_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-hair-pro-scalp-serum",
-    "category": "Beauty Supplements",
-    "name": "PlexWell HAIR-PRO SCALP SERUM",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_Hair-PRO Complex_Scalp Serum_ 100ml.png",
-    "description": "A high-quality formulation featuring Biotin (Vitamin B7), Hydrolyzed Marine Collagen, and Keratin.",
-    "ingredients": [
-      {
-        "name": "Biotin (Vitamin B7)",
-        "dosage": "10000mcg",
-        "dv": "33333%"
-      },
-      {
-        "name": "Hydrolyzed Marine Collagen",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Keratin",
-        "dosage": "100mg",
-        "dv": "-"
-      }
-    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -771,378 +54,13 @@
     ]
   },
   {
-    "id": "plexwell_women-capsule_n100",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN CAPSULE N100",
-    "image": "/images/products/women-health/PlexWell_Women Capsule_N100.png",
-    "description": "",
+    "id": "plexwell-naturals-baby-multivitamin-drops",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS KID’S HEALTH",
+    "name": "PLEXWELL NATURALS BABY MULTIVITAMIN DROPS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BABY MULTIVITAMIN DROPS formulated for optimal health and wellness.",
     "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Women Capsule_N100_Advert.png",
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell_women-50-capsule_n100",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN 50+ CAPSULE N100",
-    "image": "/images/products/women-health/PlexWell_Women 50+ Capsule_N100.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Women 50+ Capsule_N100_Advert.png",
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell_women-70-powder-sachet_n28",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN 70+ POWDER SACHET N28",
-    "image": "/images/products/women-health/PlexWell_Women 70+ Powder Sachet_N28.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Women 70+ Powder Sachet_N28_Advert.png",
-    "packSizes": [
-      "N28"
-    ]
-  },
-  {
-    "id": "plexwell-menopause-day-support",
-    "category": "Men's Health",
-    "name": "PlexWell MENOPAUSE DAY SUPPORT",
-    "image": "/images/products/women/Plexwell Women Supplements/PlexWell_Menopause DAY Support tablet_N30_Blister.png",
-    "description": "A high-quality formulation featuring Black Cohosh Extract, Red Clover Isoflavones, and Vitamin E.",
-    "ingredients": [
-      {
-        "name": "Black Cohosh Extract",
-        "dosage": "40mg",
-        "dv": "-"
-      },
-      {
-        "name": "Red Clover Isoflavones",
-        "dosage": "80mg",
-        "dv": "-"
-      },
-      {
-        "name": "Vitamin E",
-        "dosage": "15mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/womens-health/PlexWell_Menopause DAY Support tablet_N30_Blister_Supplement facts table.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-menopause-night-support",
-    "category": "Men's Health",
-    "name": "PlexWell MENOPAUSE NIGHT SUPPORT",
-    "image": "/images/products/women/Plexwell Women Supplements/PlexWell_Menopause Night Support capsule_N100.png",
-    "description": "A high-quality formulation featuring Black Cohosh Extract, Red Clover Isoflavones, and Vitamin E.",
-    "ingredients": [
-      {
-        "name": "Black Cohosh Extract",
-        "dosage": "40mg",
-        "dv": "-"
-      },
-      {
-        "name": "Red Clover Isoflavones",
-        "dosage": "80mg",
-        "dv": "-"
-      },
-      {
-        "name": "Vitamin E",
-        "dosage": "15mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/womens-health/PlexWell_Menopause Night Support capsule_N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_menopause-night-support-tablet_n30_blister",
-    "category": "Men's Health",
-    "name": "PlexWell MENOPAUSE NIGHT SUPPORT TABLET N30 BLISTER",
-    "image": "/images/products/women-health/PlexWell_Menopause Night Support tablet_N30_Blister.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/PlexWell_Menopause Night Support tablet_N30_Blister_Supplement facts table.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-pcos-support-complex-capsule",
-    "category": "Men's Health",
-    "name": "PlexWell PCOS SUPPORT COMPLEX CAPSULE",
-    "image": "/images/products/women/Plexwell Women Supplements/PlexWell_PCOS Support_Capsule N100.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/womens-health/PlexWell_PCOS Support_Capsule N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_pcos-support_capsule-n30",
-    "category": "Men's Health",
-    "name": "PlexWell PCOS SUPPORT CAPSULE N30",
-    "image": "/images/products/women-health/PlexWell_PCOS Support_Capsule N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/PlexWell_PCOS Support_Capsule N30_Supplements facts table.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_women-ferti-pro_capsule-n100",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN FERTI-PRO CAPSULE N100",
-    "image": "/images/products/women-health/PlexWell_Women FERTi-PRO_Capsule N100.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Women FERTi-PRO_Capsule N100_Advert.png",
-    "supplementFactsImage": "/images/products/women-health/PlexWell_Women FERTi-PRO_Capsule N100_Supplement facts table.png",
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell-women-pro-n30",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN PRO N30",
-    "image": "/images/products/women-health/Plexwell Women Pro N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-pregnency-support-tri-1",
-    "category": "Men's Health",
-    "name": "PlexWell PREGNANCY SUPPORT Tri-1",
-    "image": "/images/products/women/Plexwell Women Supplements/PlexWell_Pregnency Support_Tri-1_N180 capsules.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/womens-health/PlexWell_Pregnency Support_Tri-1_N180 capsules_Advert.png",
-      "/images/products/womens-health/PlexWell_Pregnency Support_Tri-1_N180 capsules_Supplement facts table.png",
-      "/images/products/womens-health/PlexWell_Pregnency Support A4 Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_pregnency-support_tri-2_n180-capsules",
-    "category": "Men's Health",
-    "name": "PlexWell PREGNANCY SUPPORT TRI-2 N180 CAPSULES",
-    "image": "/images/products/women-health/PlexWell_Pregnency Support_Tri-2_N180 capsules.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Pregnency Support_Tri-2_N180 capsules_Advert.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_pregnency-support_tri-3_n180-capsules",
-    "category": "Men's Health",
-    "name": "PlexWell PREGNANCY SUPPORT TRI-3 N180 CAPSULES",
-    "image": "/images/products/women-health/PlexWell_Pregnency Support_Tri-3_N180 capsules.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Pregnency Support_Tri-3_N180 capsules_Advert.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plxwell-ladylove-capsule-n10",
-    "category": "Men's Health",
-    "name": "PlexWell LADYLOVE CAPSULE N10",
-    "image": "/images/products/women/Plexwell Women Supplements/Plexwell_LadyLove_Capsule N10 Blister.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/womens-health/Plexwell_LadyLove_Capsule N10 Blister_Advert.png"
-    ],
-    "packSizes": [
-      "N10"
-    ]
-  },
-  {
-    "id": "plexwell_men-wellness-pouch_n28-pouches",
-    "category": "Wellness Pouches",
-    "name": "PlexWell MEN WELLNESS POUCH N28 POUCHES",
-    "image": "/images/products/men-health/PlexWell_Men Wellness Pouch_N28 pouches.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/PlexWell_Men Wellness Pouch_N28 pouches_Advert.png",
-    "packSizes": [
-      "N28"
-    ]
-  },
-  {
-    "id": "plexwell_women-wellness-pouch_n28-pouches",
-    "category": "Wellness Pouches",
-    "name": "PlexWell WOMEN WELLNESS POUCH N28 POUCHES",
-    "image": "/images/products/women-health/PlexWell_Women Wellness Pouch_N28 pouches.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Women Wellness Pouch_N28 pouches_Advert.png",
-    "packSizes": [
-      "N28"
-    ]
-  },
-  {
-    "id": "plexwell-omega-family",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA FAMILY",
-    "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL_OMEGA_FAMILY_ULTRA_HD.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1154,145 +72,12 @@
     ]
   },
   {
-    "id": "plexwell_junior-calcium-syrup-200-ml",
-    "category": "Calcium & OsteoMax",
-    "name": "PlexWell JUNIOR CALCIUM SYRUP 200ML",
-    "image": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200ml.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/calcium-supplements/Plexwell_Junior Calcium Syrup 200 mL_Advert.png",
-    "packSizes": [
-      "200ML"
-    ]
-  },
-  {
-    "id": "plexwell-omega-syrup-200-ml",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA SYRUP 200 mL",
-    "image": "/images/products/omega/PlexWell Omega Supplements/PLEXWELL Omega + Multiitamin Syrup for kids 200ml.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/PLEXWELL Omega + Multiitamin Syrup for kids 200 mL_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/PLEXWELL Omega + Multiitamin Syrup for kids 200 mL_advert.png",
-      "/images/products/men-women-wellness-pouches/Plexwell Omega 1-6 Y Syrup 200 mL_advert.png",
-      "/images/products/men-women-wellness-pouches/Plexwell Omega Syrup 200 mL_advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-seniomega-syrup-200-ml",
-    "category": "Omega Supplements",
-    "name": "PlexWell SENIOMEGA SYRUP 200 mL",
-    "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell SeniOmega Syrup for 50+ age 200ml.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/PlexWell SeniOmega Syrup for 50+ age 200 mL_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/PlexWell SeniOmega Syrup for 50+ age 200 mL_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-omega-syrup-150-ml",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA SYRUP 150ML",
-    "image": "/images/products/omega-supplements/Plexwell Omega Syrup 150ml.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/omega-supplements/Plexwell Omega Syrup 150 mL_Advert.png",
-    "galleryImages": [
-      "/images/products/omega-supplements/Plexwell Omega Syrup 150 mL_A4 advert.png"
-    ],
-    "packSizes": [
-      "150ML"
-    ]
-  },
-  {
-    "id": "plexwell-uti-biotic-syrup-150-ml",
-    "category": "Pre-, Pro- & Post-Biotics",
-    "name": "PlexWell UTI-BIOTIC SYRUP 150 mL",
-    "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC Syrup 150ml.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell UTI-BIOTIC Syrup 150 mL_Supplement facts.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-uti-biotic-syrup-op-2-150-ml",
-    "category": "Pre-, Pro- & Post-Biotics",
-    "name": "PlexWell UTI-BIOTIC SYRUP 150ML",
-    "image": "/images/products/biotics/Plexwell UTI-BIOTIC Syrup OP 2 150ml.png",
-    "description": "",
+    "id": "plexwell-naturals-baby-vitamin-d3-drops",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS KID’S HEALTH",
+    "name": "PLEXWELL NATURALS BABY VITAMIN D3 DROPS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BABY VITAMIN D3 DROPS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -1300,235 +85,112 @@
       "Available for commercial partnership."
     ],
     "packSizes": [
-      "150ML"
+      "N30",
+      "N60"
     ]
   },
   {
-    "id": "plexwell-cod-liver-oil-1500mg_200-ml",
-    "category": "Omega Supplements",
-    "name": "PlexWell COD LIVER OIL 1500MG 200ML",
-    "image": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200ml.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS KID’S HEALTH",
+    "name": "PLEXWELL NATURALS VITAMIN D3+ GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "advertImage": "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200 mL_Advert.png",
-    "galleryImages": [
-      "/images/products/omega-supplements/PlexWell Cod Liver Oil 1500mg_200 mL_A4 advert.png"
-    ],
-    "packSizes": [
-      "200ML"
-    ]
-  },
-  {
-    "id": "plexwell-vegan-omega-softgel",
-    "category": "Omega Supplements",
-    "name": "PlexWell VEGAN OMEGA SOFTGEL",
-    "image": "/images/products/omega/PlexWell Omega Supplements/PlexWell Vegan Omega 1200mg softgel.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/PlexWell Vegan Omega 1200mg softgel_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/PlexWell Vegan Omega 1200mg softgel_Advert.png"
-    ],
     "packSizes": [
       "N30",
       "N60"
     ]
   },
   {
-    "id": "plexwell-ultra-omega-2000mg-softgel",
-    "category": "Omega Supplements",
-    "name": "PlexWell ULTRA OMEGA 2000MG SOFTGEL",
-    "image": "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel.png",
-    "description": "",
+    "id": "plexwell-naturals-men-multivitamin",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MEN MULTIVITAMIN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MEN MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "advertImage": "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel_blister pack_Advert.png",
-    "galleryImages": [
-      "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel_A4 advert.png",
-      "/images/products/omega-supplements/Plexwell Ultra Omega 2000mg softgel_Advert.png"
-    ],
     "packSizes": [
       "N30",
       "N60"
     ]
   },
   {
-    "id": "plexwell-krill-oil-1200mg-softgel",
-    "category": "Omega Supplements",
-    "name": "PlexWell KRILL OIL 1200MG SOFTGEL",
-    "image": "/images/products/omega-supplements/Plexwell Krill oil 1200mg softgel.png",
-    "description": "",
+    "id": "plexwell-naturals-men-50-multivitamin",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "advertImage": "/images/products/omega-supplements/Plexwell Krill oil 1200mg softgel_Advert.png",
-    "galleryImages": [
-      "/images/products/omega-supplements/Plexwell Krill oil 1200mg softgel_A4 advert.png"
-    ],
     "packSizes": [
       "N30",
       "N60"
     ]
   },
   {
-    "id": "plexwell-omega-3-1200mg-gummies-n60",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA 3 1200MG GUMMIES N60",
-    "image": "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60.png",
-    "description": "",
+    "id": "plexwell-naturals-men-70-multivitamin",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "advertImage": "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60_Advert.png",
-    "galleryImages": [
-      "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60_A4 advert.png",
-      "/images/products/omega-supplements/PlexWell Omega 3 1200mg Gummies N60_Advert-1.png"
-    ],
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-omega-gummies-for-kids",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA GUMMIES FOR KIDS",
-    "image": "/images/products/omega/PlexWell Omega Supplements/Plexwell Omega 3 gummies for kids 3-14 years.png",
-    "description": "A high-quality formulation featuring Vitamin A, C, D, E Blend and Zinc Citrate.",
-    "ingredients": [
-      {
-        "name": "Vitamin A, C, D, E Blend",
-        "dosage": "500mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Zinc Citrate",
-        "dosage": "5mg",
-        "dv": "50%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Plexwell Omega 3 gummies for kids 3-14 years_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/Plexwell Omega 3 gummies for kids 3-14 years_Advert.png"
-    ],
     "packSizes": [
       "N30",
       "N60"
     ]
   },
   {
-    "id": "plexwell-ultra-omega-15x4-blister",
-    "category": "Omega Supplements",
-    "name": "PlexWell ULTRA OMEGA 15x4 BLISTER",
-    "image": "/images/products/omega/PlexWell Omega Supplements/Plexwell Ultra Omega 2000mg softgel_blister pack.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Plexwell Ultra Omega 2000mg softgel_blister pack_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_omegavit-e-n60",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA+VIT E N60",
-    "image": "/images/products/omega-supplements/Plexwell_Omega+Vit E N60.png",
-    "description": "",
+    "id": "plexwell-naturals-ferti-men",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS FERTi-MEN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS FERTi-MEN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "advertImage": "/images/products/omega-supplements/Plexwell_Omega+Vit E N60_Advert.png",
     "packSizes": [
+      "N30",
       "N60"
     ]
   },
   {
-    "id": "plexwell-omega-probiotics-curcumin-softgel",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA + Probiotics + Curcumin SOFTGEL",
-    "image": "/images/products/omega/PlexWell Omega Supplements/Plexwell_Omega+Probiotics+Curcumin N60.png",
-    "description": "A high-quality formulation featuring Lactobacillus Acidophilus, Bifidobacterium Lactis, and Inulin (Prebiotic).",
-    "ingredients": [
-      {
-        "name": "Lactobacillus Acidophilus",
-        "dosage": "10 Billion CFU",
-        "dv": "-"
-      },
-      {
-        "name": "Bifidobacterium Lactis",
-        "dosage": "5 Billion CFU",
-        "dv": "-"
-      },
-      {
-        "name": "Inulin (Prebiotic)",
-        "dosage": "200mg",
-        "dv": "-"
-      }
-    ],
+    "id": "plexwell-naturals-prosti-men",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS PROSTi-MEN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS PROSTi-MEN formulated for optimal health and wellness.",
+    "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Plexwell_Omega+Probiotics+Curcumin N60_Advert.png"
     ],
     "packSizes": [
       "N30",
@@ -1536,30 +198,539 @@
     ]
   },
   {
-    "id": "plexwell-omega-vit-d3-vit-e-coq10-curcumin-softgel",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell_VIt D3+Cod liver+Omega 3_Softgel_N30.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
+    "id": "plexwell-naturals-erecti-men",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS ERECTi-MEN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ERECTi-MEN formulated for optimal health and wellness.",
+    "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Plexwell_VIt D3+Cod liver+Omega 3_Softgel_N30_Advert.png"
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-hair-pro-complex-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-hair-pro-complex-effervescent",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS HAIR-PRO COMPLEX EFFERVESCENT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX EFFERVESCENT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-hair-pro-scalp-serum",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS HAIR-PRO SCALP SERUM",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS HAIR-PRO SCALP SERUM formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-women-multivitamin",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS WOMEN MULTIVITAMIN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS WOMEN MULTIVITAMIN formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-women-50-multivitamin",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS WOMEN 50+ MULTIVITAMIN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS WOMEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-women-70-multivitamin",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS WOMEN 70+ MULTIVITAMIN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS WOMEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-menopause-day-support",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MENOPAUSE DAY SUPPORT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MENOPAUSE DAY SUPPORT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-menopause-night-support",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MENOPAUSE NIGHT SUPPORT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MENOPAUSE NIGHT SUPPORT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-menstrual-support",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MENSTRUAL SUPPORT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MENSTRUAL SUPPORT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-uti-support",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS UTI- SUPPORT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS UTI- SUPPORT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-pcos-support",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS PCOS SUPPORT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS PCOS SUPPORT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ferti-women",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS FERTi-WOMEN",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS FERTi-WOMEN formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-pregna-women1",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS PREGNa-WOMEN1",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN1 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-pregna-women2",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS PREGNa-WOMEN2",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN2 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-pregna-women3",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLEXWELL NATURALS PREGNa-WOMEN3",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN3 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plxwell-naturals-ladylove-capsule-n10",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLXWELL NATURALS LADYLOVE CAPSULE N10",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLXWELL NATURALS LADYLOVE CAPSULE N10 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-syrup-200ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA SYRUP 200ml",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA SYRUP 200ml formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-codliver-oil-with-multi-vitamins-200ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS CODLIVER OIL WITH MULTI VITAMINS 200ml",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS CODLIVER OIL WITH MULTI VITAMINS 200ml formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-s-natural-seniomega-syrup-200ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL S NATURAL SENIOMEGA SYRUP 200ml",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL S NATURAL SENIOMEGA SYRUP 200ml formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-vegan-omega-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS VEGAN OMEGA SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VEGAN OMEGA SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-krill-oil-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS KRILL OIL SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS KRILL OIL SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-gummies-adults",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA GUMMIES ADULTS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA GUMMIES ADULTS formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-gummies-kids",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA GUMMIES KIDS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA GUMMIES KIDS formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-3-6-9-5-in-1-formula",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA 3-6-9 5-in-1 FORMULA",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA 3-6-9 5-in-1 FORMULA formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ultra-omega-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS ULTRA OMEGA SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ULTRA OMEGA SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-probiotics-curcumin-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA + Probiotics + Curcumin SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA + Probiotics + Curcumin SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-vit-e-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA + VIT E SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA + VIT E SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-vit-d3-vit-e-coq10-curcumin-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA-α SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA-α SOFTGEL formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
     ],
     "packSizes": [
       "N30",
@@ -1568,146 +739,89 @@
   },
   {
     "id": "ferrolyte-sr-capsule",
-    "category": "General Wellness",
+    "segment": "Nutraceuticals",
+    "category": "FERROLYTE FAMILY",
     "name": "FERROLYTE SR CAPSULE",
-    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Capsule N30.jpeg",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Ferrolyte Capsule N30_A4 advert.jpeg",
-      "/images/products/men-women-wellness-pouches/Ferrolyte Capsule N30_Advert.jpeg"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "ferrolyte-liquid-200-ml",
-    "category": "General Wellness",
-    "name": "FERROLYTE LIQUID 200ML",
-    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid 200ml.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid 200 mL_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid 200 mL_Advert.png",
-      "/images/products/men-women-wellness-pouches/Ferrolyte family_advert-1.png",
-      "/images/products/men-women-wellness-pouches/Ferrolyte family_advert-2.png",
-      "/images/products/men-women-wellness-pouches/Ferrolyte family_advert.png"
-    ],
-    "packSizes": [
-      "200ML"
-    ]
-  },
-  {
-    "id": "ferrolyte-liquid-plus-200-ml",
-    "category": "General Wellness",
-    "name": "FERROLYTE LIQUID PLUS 200ML",
-    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Liquid PLUS 200ml.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid PLUS 200 mL_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/Ferrolyte Liquid PLUS 200 mL_Advert.png"
-    ],
-    "packSizes": [
-      "200ML"
-    ]
-  },
-  {
-    "id": "ferrolyte-gummies-for-kids",
-    "category": "General Wellness",
-    "name": "FERROLYTE GUMMIES FOR KIDS",
-    "image": "/images/products/ferrolyte/Ferrolyte Family/Ferrolyte Gummies for Kids N60.png",
-    "description": "A high-quality formulation featuring Vitamin A, C, D, E Blend and Zinc Citrate.",
-    "ingredients": [
-      {
-        "name": "Vitamin A, C, D, E Blend",
-        "dosage": "500mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Zinc Citrate",
-        "dosage": "5mg",
-        "dv": "50%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/men-women-wellness-pouches/Ferrolyte Gummies for Kids N60_A4 advert.png",
-      "/images/products/men-women-wellness-pouches/Ferrolyte Gummies for Kids N60_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "ferrolyte_essichew-tablet-for-kids",
-    "category": "Iron & Blood Health",
-    "name": "FERROLYTE ESSICHEW TABLET FOR KIDS",
-    "image": "/images/products/iron-supplements/Ferrolyte_Essichew tablet for kids.png",
-    "description": "",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality FERROLYTE SR CAPSULE formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "advertImage": "/images/products/iron-supplements/Ferrolyte_Essichew tablet for kids_Advert.png",
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "ferrolyte-liquid-200ml",
+    "segment": "Nutraceuticals",
+    "category": "FERROLYTE FAMILY",
+    "name": "FERROLYTE LIQUID 200ML",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality FERROLYTE LIQUID 200ML formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "ferrolyte-liquid-plus-200ml",
+    "segment": "Nutraceuticals",
+    "category": "FERROLYTE FAMILY",
+    "name": "FERROLYTE LIQUID PLUS 200ML",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality FERROLYTE LIQUID PLUS 200ML formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "ferrolyte-gummies-for-kids",
+    "segment": "Nutraceuticals",
+    "category": "FERROLYTE FAMILY",
+    "name": "FERROLYTE GUMMIES FOR KIDS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality FERROLYTE GUMMIES FOR KIDS formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "ferrolyte-eassichew-tablets-for-kids",
+    "segment": "Nutraceuticals",
+    "category": "FERROLYTE FAMILY",
+    "name": "FERROLYTE EASSiCHEW TABLETS FOR KIDS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality FERROLYTE EASSiCHEW TABLETS FOR KIDS formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
     "packSizes": [
       "N30",
       "N60"
@@ -1715,30 +829,34 @@
   },
   {
     "id": "age-slow-caps",
-    "category": "Age-Slow Complex",
+    "segment": "Nutraceuticals",
+    "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW CAPS",
-    "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex 70+ age N60 Caps.png",
-    "description": "Premium AgeSlow-Complex 70+ age N60 Caps.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality AGE-SLOW CAPS formulated for optimal health and wellness.",
+    "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex 70+ age N60 Caps_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex 70+ age N60 Caps_Advert.png"
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "age-slow-caps-70-age",
+    "segment": "Nutraceuticals",
+    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "name": "AGE-SLOW CAPS 70+ AGE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality AGE-SLOW CAPS 70+ AGE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
     ],
     "packSizes": [
       "N30",
@@ -1747,44 +865,11 @@
   },
   {
     "id": "age-slow-complex-bitter-drops",
-    "category": "Age-Slow Complex",
+    "segment": "Nutraceuticals",
+    "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW COMPLEX BITTER DROPS",
-    "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex BItter drops 50ml.png",
-    "description": "Premium AgeSlow-Complex BItter drops 50 mL.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex BItter drops 50 mL_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex BItter drops_White Background_ 50 mL.png",
-      "/images/products/anti-aging-ageslow-complex/AgeSlow-Complex BItter drops_White Background_ 50 mL_Advert.png",
-      "/images/products/anti-aging-ageslow-complex/PlexWell Bitter Drops 50 mL_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "ageslow-complex_combo-pack_n60-capsule50-ml-bitter-drops-together",
-    "category": "Age-Slow Complex",
-    "name": "AGESLOW-COMPLEX COMBO PACK N60 CAPSULE+50ML BITTER DROPS TOGETHER",
-    "image": "/images/products/age-slow-complex/AgeSlow-Complex_Combo Pack_N60 Capsule+50ml bitter drops together.png",
-    "description": "",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality AGE-SLOW COMPLEX BITTER DROPS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -1792,34 +877,40 @@
       "Available for commercial partnership."
     ],
     "packSizes": [
+      "N30",
       "N60"
     ]
   },
   {
-    "id": "age-slow-compex-powder",
-    "category": "Age-Slow Complex",
-    "name": "AGE-SLOW COMPLEX POWDER",
-    "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Cellular Reset Powder 12gm_N30.png",
-    "description": "Premium AgeSlow-Cellular Reset Powder 12gm_N30.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
+    "id": "age-slow-complex-gummies",
+    "segment": "Nutraceuticals",
+    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "name": "AGE-SLOW COMPLEX GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality AGE-SLOW COMPLEX GUMMIES formulated for optimal health and wellness.",
+    "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
     ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/AgeSlow-Cellular Reset Powder 12gm_N30_Advert.png"
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "age-slow-compex-powder",
+    "segment": "Nutraceuticals",
+    "category": "ANTI-AGING AGESLOW COMPLEX",
+    "name": "AGE-SLOW COMPEX POWDER",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality AGE-SLOW COMPEX POWDER formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
     ],
     "packSizes": [
       "N30",
@@ -1828,750 +919,11 @@
   },
   {
     "id": "age-slow-complex-shots",
-    "category": "Age-Slow Complex",
+    "segment": "Nutraceuticals",
+    "category": "ANTI-AGING AGESLOW COMPLEX",
     "name": "AGE-SLOW COMPLEX SHOTS",
-    "image": "/images/products/age-slow/Age-Slow Complex family/AgeSlow-Complex Shots 30ml_N15-1.png",
-    "description": "Premium AgeSlow-Complex Shots 30ml_N15-1.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-c-tab",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT C+ TAB",
-    "image": "/images/products/vitamin-c/Vitamin C+ Supplements/Plexwell_VIt C+_Tablets_N100.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_VIt C+_Tablets_N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-c-effervescent",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT C+ EFFERVESCENT",
-    "image": "/images/products/vitamin-c/Vitamin C+ Supplements/Plexwell_VIt C+_Effervescent_N20.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_VIt C+_Effervescent_N20_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-c-gummies",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT C+ GUMMIES",
-    "image": "/images/products/vitamin-c/Vitamin C+ Supplements/Plexwell_VIt C+_Gummies_N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_VIt C+_Gummies_N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-tablets-for-kids-4-10-y",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT D3 TABLETS FOR KIDS 4-10 Y",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 tablets for kids 4-10 Y age.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Cholecalciferol (Vitamin D3)",
-        "dosage": "400 IU",
-        "dv": "100%"
-      },
-      {
-        "name": "MCT Oil (Carrier)",
-        "dosage": "0.2ml",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for kids 4-10 Y age_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for kids 4-10 Y age_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-tablets-for-teen-11-17-y-age",
-    "category": "Vitamin D3 Supplements",
-    "name": "PlexWell VIT D3 TABLETS FOR TEEN 11-17 Y AGE",
-    "image": "/images/products/vitamin-d3/Plexwell Vit D3 tablets for Teen 11-17 Y age.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/vitamin-d3/Plexwell Vit D3 tablets for Teen 11-17 Y age_Advert.png",
-    "galleryImages": [
-      "/images/products/vitamin-d3/Plexwell Vit D3 tablets for Teen 11-17 Y age_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-multivitamin-syrup-3-15-y",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT D3+ MULTIVITAMIN SYRUP 3-15 Y",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Vitamin C (Ascorbic Acid)",
-        "dosage": "90mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Vitamin B12",
-        "dosage": "2.4mcg",
-        "dv": "100%"
-      },
-      {
-        "name": "Magnesium",
-        "dosage": "100mg",
-        "dv": "24%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3+multivitamin Syrup for kids 3-15 Y age_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-tablet-for-teens",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell Vit D3 TABLET FOR TEENS",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 5000 IU tablets for adults.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 5000 IU tablets for adults_Advert.png",
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets 5000 IU for adults_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-10000-iu-adult",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT D3 10,000 IU ADULT",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 tablets for adults 10000 IU.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 10000 IU_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 10000 IU_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-20000-iu-adult",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT D3 20,000 IU ADULT",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 tablets for adults 20000 IU.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 20000 IU_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 tablets for adults 20000 IU_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-vit-d3-effervescent",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell VIT D3+ EFFERVESCENT",
-    "image": "/images/products/d3/PlexWell D3 family/Plexwell Vit D3 effervescent tablets for adults.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 effervescent tablets for adults_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/Plexwell Vit D3 effervescent tablets for adults_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-osteomax-liquid-200-ml",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OSTEOMAX LIQUID 200ML",
-    "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax liquid 200ml.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Glucosamine Sulfate",
-        "dosage": "1500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Chondroitin Sulfate",
-        "dosage": "1200mg",
-        "dv": "-"
-      },
-      {
-        "name": "MSM",
-        "dosage": "1000mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Osteomax liquid 200 mL_Advert.png"
-    ],
-    "packSizes": [
-      "200ML"
-    ]
-  },
-  {
-    "id": "plexwell-osteomax-effervescent",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OSTEOMAX EFFERVESCENT",
-    "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax Effervescent Tab_N20-1.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Glucosamine Sulfate",
-        "dosage": "1500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Chondroitin Sulfate",
-        "dosage": "1200mg",
-        "dv": "-"
-      },
-      {
-        "name": "MSM",
-        "dosage": "1000mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_osteomax-effervescent-tab_n20",
-    "category": "Calcium & OsteoMax",
-    "name": "PlexWell OSTEOMAX EFFERVESCENT TAB N20",
-    "image": "/images/products/calcium-supplements/Plexwell_Osteomax Effervescent Tab_N20.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/calcium-supplements/Plexwell_Osteomax Effervescent Tab_N20_Advert.png",
-    "packSizes": [
-      "N20"
-    ]
-  },
-  {
-    "id": "plexwell-osteomax-softgel",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OSTEOMAX+ SOFTGEL",
-    "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax+Softgel_N60.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Glucosamine Sulfate",
-        "dosage": "1500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Chondroitin Sulfate",
-        "dosage": "1200mg",
-        "dv": "-"
-      },
-      {
-        "name": "MSM",
-        "dosage": "1000mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Osteomax+Softgel_N60_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-osteomax-tablet",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OSTEOMAX TABLET",
-    "image": "/images/products/calcium/Plexwell Calcium Supplements/Plexwell_Osteomax tablet N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Glucosamine Sulfate",
-        "dosage": "1500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Chondroitin Sulfate",
-        "dosage": "1200mg",
-        "dv": "-"
-      },
-      {
-        "name": "MSM",
-        "dosage": "1000mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Osteomax tablet N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-hair-skin-and-nails-tablets",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell HAIR, SKIN AND NAILS TABLETS",
-    "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty_Hair Skin and Nails tab_N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Biotin (Vitamin B7)",
-        "dosage": "10000mcg",
-        "dv": "33333%"
-      },
-      {
-        "name": "Hydrolyzed Marine Collagen",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Keratin",
-        "dosage": "100mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty_Hair Skin and Nails tab_N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-beauty-pouch-for-her",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell BEAUTY POUCH FOR HER",
-    "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty Pouch for her_N14.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty Pouch for her_N14_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-beauty-collagen-matrix-powder",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell BEAUTY COLLAGEN MATRIX POWDER",
-    "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty Collagen Matrix Capsule_N100.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Biotin (Vitamin B7)",
-        "dosage": "10000mcg",
-        "dv": "33333%"
-      },
-      {
-        "name": "Hydrolyzed Marine Collagen",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Keratin",
-        "dosage": "100mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty Collagen Matrix Capsule_N100_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_beauty-collagen-matrix_n30",
-    "category": "Beauty Supplements",
-    "name": "PlexWell BEAUTY COLLAGEN MATRIX N30",
-    "image": "/images/products/beauty-care/Plexwell_Beauty Collagen Matrix_N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/beauty-care/Plexwell_Beauty Collagen Matrix_N30_Advert.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_skin-clear-matrix_capsule_n60",
-    "category": "Beauty Supplements",
-    "name": "PlexWell SKIN CLEAR MATRIX CAPSULE N60",
-    "image": "/images/products/beauty-care/Plexwell_Skin clear Matrix_Capsule_N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/beauty-care/Plexwell_Beauty Skin clear Matrix_Capsule_N60_Advert.png"
-    ],
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-beauty-glow-matrix-capsule",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell BEAUTY GLOW-MATRIX CAPSULE",
-    "image": "/images/products/beauty/Plexwell Beauty Supplements/Plexwell_Beauty Glow Matrix Capsule_N60.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Biotin (Vitamin B7)",
-        "dosage": "10000mcg",
-        "dv": "33333%"
-      },
-      {
-        "name": "Hydrolyzed Marine Collagen",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Keratin",
-        "dosage": "100mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Beauty Glow Matrix Capsule_N60_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-niacinamide-250mg",
-    "category": "Beauty Supplements",
-    "name": "PlexWell NIACINAMIDE 250MG",
-    "image": "/images/products/women-health/Plexwell Niacinamide 250mg.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/Plexwell Niacinamide 250mg_Supplement facts.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-niacinamide-500mg",
-    "category": "Beauty Supplements",
-    "name": "PlexWell NIACINAMIDE 500MG",
-    "image": "/images/products/women-health/Plexwell Niacinamide 500mg.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/Plexwell Niacinamide 500mg_Supplement facts.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_anti-acne-complex-tablet-n30",
-    "category": "Beauty Supplements",
-    "name": "PlexWell ANTI ACNE COMPLEX TABLET N30",
-    "image": "/images/products/women-health/Plexwell_Anti Acne Complex Tablet N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/Plexwell_Anti Acne Complex Tablet N30_Supplement facts.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_somna-matrix_capsule-with-box_n60",
-    "category": "Sleep (Somna-Matrix)",
-    "name": "PlexWell SOMNA-MATRIX CAPSULE N60",
-    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Capsule with box_N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_somna-matrix_family",
-    "category": "Sleep (Somna-Matrix)",
-    "name": "PlexWell SOMNA-MATRIX FAMILY",
-    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Family.png",
-    "description": "",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality AGE-SLOW COMPLEX SHOTS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -2584,536 +936,12 @@
     ]
   },
   {
-    "id": "plexwell_somna-matrix_gummy_n60",
-    "category": "Sleep (Somna-Matrix)",
-    "name": "PlexWell SOMNA-MATRIX GUMMY N60",
-    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Gummy_N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/sleep-support/Plexwell_Somna-Matrix_Gummy_N60_Advert.png",
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_somna-matrix_oral-spray_30ml",
-    "category": "Sleep (Somna-Matrix)",
-    "name": "PlexWell SOMNA-MATRIX ORAL SPRAY 30ML",
-    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Oral Spray_30ml.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/sleep-support/Plexwell_Somna-Matrix_Oral Spray_30ml_Advert.png",
-    "packSizes": [
-      "30ML"
-    ]
-  },
-  {
-    "id": "plexwell-ophthacare-junior-syrup",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OPHTHACARE JUNIOR SYRUP",
-    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare Junior Liquid 150ml.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Essential Vitamins A-Z",
-        "dosage": "Varies",
-        "dv": "100%"
-      },
-      {
-        "name": "Iron (Ferrous Sulfate)",
-        "dosage": "10mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare Junior Syrup 150 mL_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-ophthacare-capsule",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OPHTHACARE CAPSULE",
-    "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell Ophthacare Capsule N60.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_ophthacare-60-n30-capsule",
-    "category": "Eye/Vision Supplements",
-    "name": "PlexWell OPHTHACARE 60+ N30 CAPSULE",
-    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare 60+ N30 capsule.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-ophthacare-age-60-capsule",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OPHTHACARE AGE 60+ CAPSULE",
-    "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare Age 60+_Capsule N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare Age 60+_Capsule N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-ophthacare-effervescent",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OPHTHACARE EFFERVESCENT",
-    "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare_Effervescent_N20.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare_Effervescent_N20_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-cough-care-junior",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell COUGH-CARE JUNIOR",
-    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Junior Day time 150ml.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Essential Vitamins A-Z",
-        "dosage": "Varies",
-        "dv": "100%"
-      },
-      {
-        "name": "Iron (Ferrous Sulfate)",
-        "dosage": "10mg",
-        "dv": "100%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-cough-care",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell COUGH-CARE",
-    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell Cough Care Adult 200ml.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell Cough Care Adult 200 mL_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-cough-care-day-sachet",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell COUGH-CARE DAY SACHET",
-    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell_Cough-Care Day Time Drink sachets_N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Cough-Care Day Time Drink sachets_N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-cough-care-night-sachet",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell COUGH-CARE NIGHT SACHET",
-    "image": "/images/products/cough/Plexwell Cough Remedies/Plexwell_Cough-Care Night Time Drink sachets_N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell_Cough-Care Night Time Drink sachets_N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-kids-digesmart-gummies",
-    "category": "Kid's Health",
-    "name": "PlexWell KIDS DIGESMART GUMMIES",
-    "image": "/images/products/kids/Plexwell Kids Digesmart Gummies N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Vitamin A, C, D, E Blend",
-        "dosage": "500mg",
-        "dv": "100%"
-      },
-      {
-        "name": "Zinc Citrate",
-        "dosage": "5mg",
-        "dv": "50%"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/kids/Plexwell Kids Digesmart Gummies N30_Supplement facts.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-diacare-oral-sachet",
-    "category": "Kid's Health",
-    "name": "PlexWell DIACARE ORAL SACHET",
-    "image": "/images/products/kids/Plexwell Diacare Oral sachet N14.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/kids/Plexwell Diacare Oral sachet N14_Supplement facts.png",
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-tri-biotic-gummies",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell TRI-BIOTIC GUMMIES",
-    "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/PlexWell_Tri-Biotic Gummies N60.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Tri-Biotic Gummies N60_A4 advert.png",
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Tri-Biotic Gummies N60_Advert.png",
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Tri-Biotic Gummies N60_Supplement facts.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-flora-balance-capsule-n30",
-    "category": "Pre-, Pro- & Post-Biotics",
-    "name": "PlexWell FLORA BALANCE CAPSULE N30",
-    "image": "/images/products/biotics/Plexwell Flora Balance capsule N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/biotics/Plexwell Flora Balance capsule N30_Supplement facts table.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-uti-biotic-capsule",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell UTI-BIOTIC CAPSULE",
-    "image": "/images/products/biotics/Plexwell Pre Pro and Post Biotic supplements/Plexwell UTI-BIOTIC capsule N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/Plexwell UTI-BIOTIC capsule N30_Supplement facts.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-uti-biotic-capsule-op1-n30",
-    "category": "Pre-, Pro- & Post-Biotics",
-    "name": "PlexWell UTI-BIOTIC CAPSULE OP1 N30",
-    "image": "/images/products/biotics/Plexwell UTI-BIOTIC capsule Op1 N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "ageslow-complex-n60-caps",
-    "category": "Age-Slow Complex",
-    "name": "AGESLOW-COMPLEX N60 CAPS",
-    "image": "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps_Advert.png",
-    "galleryImages": [
-      "/images/products/age-slow-complex/AgeSlow-Complex N60 Caps_A4 advert.png",
-      "/images/products/age-slow-complex/AgeSlow-Complex Family_A4 advert.png"
-    ],
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "ageslow-complex-shots-30ml_n15",
-    "category": "Age-Slow Complex",
-    "name": "AGESLOW-COMPLEX SHOTS 30ML N15",
-    "image": "/images/products/age-slow-complex/AgeSlow-Complex Shots 30ml_N15.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/age-slow-complex/AgeSlow-Complex Shots 30ml_N15-1_Advert.png",
-    "packSizes": [
-      "30ML"
-    ]
-  },
-  {
-    "id": "ageslow-gummies-n60",
-    "category": "Age-Slow Complex",
-    "name": "AGESLOW-GUMMIES N60",
-    "image": "/images/products/age-slow-complex/AgeSlow-Gummies N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/age-slow-complex/AgeSlow-Gummies N60_Advert.png",
-    "galleryImages": [
-      "/images/products/age-slow-complex/AgeSlow-Gummies N60_A4 advert.png"
-    ],
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_ageslow-gummies-n60",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell AGESLOW GUMMIES N60",
-    "image": "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60_Advert.png",
-    "galleryImages": [
-      "/images/products/age-slow-complex/PlexWell_AgeSlow gummies N60_A4 advert.png"
-    ],
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "3in1-collagen-multiblister",
-    "category": "Beauty Supplements",
-    "name": "3IN1 COLLAGEN MULTIBLISTER",
-    "image": "/images/products/beauty-care/3in1 Collagen Multiblister.png",
-    "description": "Premium 3in1 Collagen Multiblister.",
+    "id": "plexwell-naturals-vit-c-tab",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN C SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VIT C+ TAB",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VIT C+ TAB formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3126,11 +954,12 @@
     ]
   },
   {
-    "id": "vitabiotin-10000",
-    "category": "Beauty Supplements",
-    "name": "VITABIOTIN 10000",
-    "image": "/images/products/beauty-care/Vitabiotin 10000.jpeg",
-    "description": "Premium Vitabiotin 10000.",
+    "id": "plexwell-naturals-vit-c-effervescent",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN C SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VIT C+ EFFERVESCENT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VIT C+ EFFERVESCENT formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3143,11 +972,12 @@
     ]
   },
   {
-    "id": "vitasoma-collagen-1000mg",
-    "category": "Beauty Supplements",
-    "name": "VITASOMA COLLAGEN 1000MG",
-    "image": "/images/products/beauty-care/Vitasoma Collagen 1000mg.jpeg",
-    "description": "Premium Vitasoma Collagen 1000mg.",
+    "id": "plexwell-naturals-vit-c-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN C SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VIT C+ GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VIT C+ GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3160,11 +990,12 @@
     ]
   },
   {
-    "id": "calciplex_tablets",
-    "category": "Calcium & OsteoMax",
-    "name": "CALCIPLEX TABLETS",
-    "image": "/images/products/calcium-supplements/Calciplex_tablets.png",
-    "description": "Premium Calciplex_tablets.",
+    "id": "plexwell-naturals-vit-c-powder-sachet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN C SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VIT C+ POWDER SACHET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VIT C+ POWDER SACHET formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3177,11 +1008,12 @@
     ]
   },
   {
-    "id": "plexwell-osteomax-family-1",
-    "category": "Calcium & OsteoMax",
-    "name": "PlexWell OSTEOMAX FAMILY-1",
-    "image": "/images/products/calcium-supplements/Plexwell Osteomax family-1.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-baby-drops",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3 BABY DROPS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 BABY DROPS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3194,11 +1026,12 @@
     ]
   },
   {
-    "id": "plexwell-osteomax-family",
-    "category": "Calcium & OsteoMax",
-    "name": "PlexWell OSTEOMAX FAMILY",
-    "image": "/images/products/calcium-supplements/Plexwell Osteomax family.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3 GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3211,11 +1044,12 @@
     ]
   },
   {
-    "id": "cofcare_day-time-drink",
-    "category": "Herbal Cough Remedies",
-    "name": "COFCARE DAY TIME DRINK",
-    "image": "/images/products/cough-remedies/Cofcare_Day Time Drink.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-tablets-for-kids-4-10-y",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3 TABLETS FOR KIDS 4-10 Y",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 TABLETS FOR KIDS 4-10 Y formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3228,11 +1062,12 @@
     ]
   },
   {
-    "id": "cofcare_night-time-drink",
-    "category": "Herbal Cough Remedies",
-    "name": "COFCARE NIGHT TIME DRINK",
-    "image": "/images/products/cough-remedies/Cofcare_Night Time Drink.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-multivitamin-syrup-3-15-y",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3+ MULTIVITAMIN SYRUP 3-15 Y",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ MULTIVITAMIN SYRUP 3-15 Y formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3245,11 +1080,12 @@
     ]
   },
   {
-    "id": "ophthaplex-complex-tablet",
-    "category": "Eye/Vision Supplements",
-    "name": "OPHTHAPLEX COMPLEX TABLET",
-    "image": "/images/products/eye-vitamins/Ophthaplex Complex Tablet.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-5000-iu",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3 5000 IU",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 5000 IU formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3262,27 +1098,12 @@
     ]
   },
   {
-    "id": "plexwell-vision-pro-n30",
-    "category": "Eye/Vision Supplements",
-    "name": "PlexWell VISION PRO N30",
-    "image": "/images/products/eye-vitamins/Plexwell Vision Pro N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_ophthacare-family",
-    "category": "Eye/Vision Supplements",
-    "name": "PlexWell OPHTHACARE FAMILY",
-    "image": "/images/products/eye-vitamins/Plexwell_Ophthacare Family.png",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-10000-iu",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3 10000 IU",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 10000 IU formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3295,11 +1116,12 @@
     ]
   },
   {
-    "id": "inuflora-kids",
-    "category": "Pre-, Pro- & Post-Biotics",
-    "name": "INUFLORA KIDS",
-    "image": "/images/products/kids-health/Inuflora kids.jpeg",
-    "description": "",
+    "id": "plexwell-naturals-vitamin-d3-20000-iu",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3 20000 IU",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 20000 IU formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3312,11 +1134,12 @@
     ]
   },
   {
-    "id": "andropren-tablet",
-    "category": "Men's Health",
-    "name": "ANDROPREN TABLET",
-    "image": "/images/products/men-health/Andropren tablet.jpeg",
-    "description": "Premium Andropren tablet.",
+    "id": "plexwell-naturals-vitamin-d3-effervescent",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3+ EFFERVESCENT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ EFFERVESCENT formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3329,11 +1152,12 @@
     ]
   },
   {
-    "id": "formafert-tablet",
-    "category": "Men's Health",
-    "name": "FORMAFERT TABLET",
-    "image": "/images/products/men-health/Formafert tablet.jpeg",
-    "description": "Premium Formafert tablet.",
+    "id": "plexwell-naturals-vitamin-d3-cod-liver-oil-omega-3-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS VITAMIN D3+ COD LIVER OIL + OMEGA 3 SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ COD LIVER OIL + OMEGA 3 SOFTGEL formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3346,11 +1170,12 @@
     ]
   },
   {
-    "id": "libidoclin-caps",
-    "category": "Men's Health",
-    "name": "LIBIDOCLIN CAPS",
-    "image": "/images/products/men-health/Libidoclin caps.jpeg",
-    "description": "Premium Libidoclin caps.",
+    "id": "plexwell-naturals-kidcal-syrup-200ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS CALCIUM + OTHER SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS KIDCAL SYRUP 200ML",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS KIDCAL SYRUP 200ML formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3363,11 +1188,12 @@
     ]
   },
   {
-    "id": "plexbido-capsule",
-    "category": "Men's Health",
-    "name": "PLEXBIDO CAPSULE",
-    "image": "/images/products/men-health/Plexbido Capsule.png",
-    "description": "Premium Plexbido Capsule.",
+    "id": "plexwell-naturals-osteomax-liquid-200ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS CALCIUM + OTHER SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OSTEOMAX LIQUID 200ML",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OSTEOMAX LIQUID 200ML formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3380,11 +1206,12 @@
     ]
   },
   {
-    "id": "plexwell-conception-plus-sex-drive-enhancer-for-him-in-bottle",
-    "category": "Men's Health",
-    "name": "PlexWell CONCEPTION PLUS VITALITY SUPPORT FOR HIM IN BOTTLE",
-    "image": "/images/products/men-health/Plexwell Conception plus Sex drive enhancer for Him in bottle.png",
-    "description": "",
+    "id": "plexwell-naturals-osteomax-effervescent",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS CALCIUM + OTHER SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OSTEOMAX EFFERVESCENT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OSTEOMAX EFFERVESCENT formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3397,11 +1224,12 @@
     ]
   },
   {
-    "id": "omepren-1000mg",
-    "category": "Omega Supplements",
-    "name": "OMEPREN 1000MG",
-    "image": "/images/products/omega-supplements/Omepren 1000mg.png",
-    "description": "",
+    "id": "plexwell-naturals-osteomax-softgel",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS CALCIUM + OTHER SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OSTEOMAX+ SOFTGEL",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OSTEOMAX+ SOFTGEL formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3414,49 +1242,12 @@
     ]
   },
   {
-    "id": "plexwell-omeha-alpha-softgel-n30",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA-ALPHA SOFTGEL N30",
-    "image": "/images/products/omega-supplements/PlexWell Omeha-Alpha softgel N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/omega-supplements/PlexWell Omeha-Alpha softgel N30_Advert.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-omga-3-6-9-with-multivitamin-softgel-for-adults",
-    "category": "Omega Supplements",
-    "name": "PlexWell OMEGA 3 6 9 WITH MULTIVITAMIN SOFTGEL FOR ADULTS",
-    "image": "/images/products/omega-supplements/PlexWell Omga 3 6 9 with multivitamin softgel for adults.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/omega-supplements/PlexWell Omga 3 6 9 with multivitamin softgel for adults_Advert.png",
-    "galleryImages": [
-      "/images/products/omega-supplements/PlexWell Omga 3 6 9 with multivitamin softgel for adults_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "folifen-tablet",
-    "category": "Men's Health",
-    "name": "FOLIFEN TABLET",
-    "image": "/images/products/women-health/Folifen Tablet.jpg",
-    "description": "Premium Folifen Tablet.",
+    "id": "plexwell-naturals-osteomax-tablet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS CALCIUM + OTHER SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OSTEOMAX TABLET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OSTEOMAX TABLET formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3469,67 +1260,12 @@
     ]
   },
   {
-    "id": "folifen-liquid-150-ml",
-    "category": "Men's Health",
-    "name": "FOLIFEN LIQUID 150ML",
-    "image": "/images/products/women-health/Folifen liquid 150ml.jpeg",
-    "description": "Premium Folifen liquid 150 mL.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "150ML"
-    ]
-  },
-  {
-    "id": "plexwell-women-50-60-capsules",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN 50+ 60 CAPSULES",
-    "image": "/images/products/women-health/PlexWell Women 50+ 60 capsules.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/women-health/PlexWell Women and Women50+_A4 advert.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-women-60-capsules",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN 60 CAPSULES",
-    "image": "/images/products/women-health/PlexWell Women 60 capsules.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/women-health/PlexWell Women 60 capsules Brouchure.png"
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-conception-for-couple",
-    "category": "Men's Health",
-    "name": "PlexWell CONCEPTION FOR COUPLE",
-    "image": "/images/products/women-health/Plexwell Conception for Couple.png",
-    "description": "",
+    "id": "plexwell-naturals-osteomax-gummies-for-kids",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS CALCIUM + OTHER SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OSTEOMAX GUMMIES FOR KIDS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OSTEOMAX GUMMIES FOR KIDS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3542,11 +1278,12 @@
     ]
   },
   {
-    "id": "plexwell-conception-for-women",
-    "category": "Men's Health",
-    "name": "PlexWell CONCEPTION FOR WOMEN",
-    "image": "/images/products/women-health/Plexwell Conception for women.png",
-    "description": "",
+    "id": "plexwell-naturals-hair-skin-and-nails",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS HAIR, SKIN AND NAILS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS HAIR, SKIN AND NAILS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3559,11 +1296,12 @@
     ]
   },
   {
-    "id": "pregnafen-liquid",
-    "category": "Women's Health",
-    "name": "PREGNAFEN LIQUID",
-    "image": "/images/products/women-health/Pregnafen Liquid.jpg",
-    "description": "Premium Pregnafen Liquid.",
+    "id": "plexwell-naturals-beauty-pouch-for-her",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS BEAUTY POUCH FOR HER",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BEAUTY POUCH FOR HER formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3576,210 +1314,12 @@
     ]
   },
   {
-    "id": "plexwell-men-erecti-pro-capsule-n10-sex-and-stamina-booster",
-    "category": "Men's Health",
-    "name": "PlexWell MEN ERECTi-PRO CAPSULE N10 (Men's Health Support)",
-    "image": "/images/products/men/Plexwell Men Supplements/PlexWell_ERECTi-PRO_Capsule N10.png",
-    "description": "A high-quality formulation featuring Tribulus Terrestris Extract, Maca Root Extract, and Panax Ginseng.",
-    "ingredients": [
-      {
-        "name": "Tribulus Terrestris Extract",
-        "dosage": "500mg",
-        "dv": "-"
-      },
-      {
-        "name": "Maca Root Extract",
-        "dosage": "400mg",
-        "dv": "-"
-      },
-      {
-        "name": "Panax Ginseng",
-        "dosage": "200mg",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/mens-health/PlexWell_ERECTi-PRO_Capsule N10_Advert.png"
-    ],
-    "packSizes": [
-      "N10"
-    ]
-  },
-  {
-    "id": "plexwell_regainox_gummies-n60",
-    "category": "Men's Health",
-    "name": "PlexWell REGAINOX GUMMIES N60",
-    "image": "/images/products/men-health/Plexwell_RegaiNOX_Gummies N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/men-health/Plexwell_RegaiNOX_Gummies N60_Advert.png",
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_relaunch_capsule-n30-bottle",
-    "category": "Men's Health",
-    "name": "PlexWell RELAUNCH CAPSULE N30 BOTTLE",
-    "image": "/images/products/men-health/Plexwell_Relaunch_Capsule N30 Bottle.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_relaunch_capsule-n30",
-    "category": "Men's Health",
-    "name": "PlexWell RELAUNCH CAPSULE N30",
-    "image": "/images/products/men-health/Plexwell_Relaunch_Capsule N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_menopause-day-support-tablet_n100",
-    "category": "Men's Health",
-    "name": "PlexWell MENOPAUSE DAY SUPPORT TABLET N100",
-    "image": "/images/products/women-health/PlexWell_Menopause Day Support tablet_N100.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/women-health/PlexWell_Menopause Day Support tablet_N100_Advert.png",
-    "packSizes": [
-      "N100"
-    ]
-  },
-  {
-    "id": "plexwell_menstrual-support-capsule_n20",
-    "category": "Men's Health",
-    "name": "PlexWell MENSTRUAL SUPPORT CAPSULE N20",
-    "image": "/images/products/women-health/PlexWell_Menstrual Support Capsule_N20.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/PlexWell_Menstrual Support Capsule_N20_Supplement facts table.png",
-    "packSizes": [
-      "N20"
-    ]
-  },
-  {
-    "id": "plexwell_uti-support_capsule_n30",
-    "category": "Men's Health",
-    "name": "PlexWell UTI-SUPPORT CAPSULE N30",
-    "image": "/images/products/women-health/PlexWell_UTI-Support_Capsule_N30.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "supplementFactsImage": "/images/products/women-health/PlexWell_UTI-Support_Capsule_N30_Supplement facts table.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plxwell-ladylove-capsule-n30",
-    "category": "Men's Health",
-    "name": "PlexWell LADYLOVE CAPSULE N30",
-    "image": "/images/products/women/Plexwell Women Supplements/Plexwell_LadyLove_Capsule N30.png",
-    "description": "A high-quality formulation featuring Active Pharmaceutical Ingredient and Excipients.",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/womens-health/Plexwell_LadyLove_Capsule N30_Advert.png"
-    ],
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell_osteomax-gummies_n60",
-    "category": "Calcium & OsteoMax",
-    "name": "PlexWell OSTEOMAX GUMMIES N60",
-    "image": "/images/products/calcium-supplements/Plexwell_Osteomax Gummies_N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/calcium-supplements/Plexwell_Osteomax Gummies_N60_Advert.png",
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_somna-matrix_capsule_n60",
-    "category": "Sleep (Somna-Matrix)",
-    "name": "PlexWell SOMNA-MATRIX CAPSULE N60",
-    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Capsule_N60.png",
-    "description": "",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/sleep-support/Plexwell_Somna-Matrix_Capsule_N60_Advert.png",
-    "packSizes": [
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell_somna-matrix_family2",
-    "category": "Sleep (Somna-Matrix)",
-    "name": "PlexWell SOMNA-MATRIX Family",
-    "image": "/images/products/sleep-support/Plexwell_Somna-Matrix_Family2.png",
-    "description": "",
+    "id": "plexwell-naturals-beauty-collagen-matrix-powder",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX POWDER",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX POWDER formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3792,47 +1332,17 @@
     ]
   },
   {
-    "id": "plexwell_ophthacare_capsule-n30",
-    "category": "Eye/Vision Supplements",
-    "name": "PlexWell OPHTHACARE CAPSULE N30",
-    "image": "/images/products/eye-vitamins/PlexWell_Ophthacare_Capsule N30.png",
-    "description": "",
+    "id": "plexwell-naturals-beauty-collagen-matrix-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX CAPSULE formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
       "Available for commercial partnership."
-    ],
-    "advertImage": "/images/products/eye-vitamins/PlexWell_Ophthacare_Capsule N30_Advert.png",
-    "packSizes": [
-      "N30"
-    ]
-  },
-  {
-    "id": "plexwell-ophthacare-gummies",
-    "category": "Age-Slow Complex",
-    "name": "PlexWell OPHTHACARE GUMMIES",
-    "image": "/images/products/eye/Plexwell Eye Vitamins/PlexWell_Ophthacare_Gummies N30.png",
-    "description": "",
-    "ingredients": [
-      {
-        "name": "Active Pharmaceutical Ingredient",
-        "dosage": "Varies",
-        "dv": "-"
-      },
-      {
-        "name": "Excipients",
-        "dosage": "q.s.",
-        "dv": "-"
-      }
-    ],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "galleryImages": [
-      "/images/products/anti-aging-ageslow-complex/PlexWell_Ophthacare_Gummies N30_Advert.png"
     ],
     "packSizes": [
       "N30",
@@ -3840,11 +1350,12 @@
     ]
   },
   {
-    "id": "plexwell-flora-balance-capsule-op-1-n30",
-    "category": "Pre-, Pro- & Post-Biotics",
-    "name": "PlexWell FLORA BALANCE CAPSULE N30",
-    "image": "/images/products/biotics/Plexwell Flora Balance capsule OP 1 N30.png",
-    "description": "",
+    "id": "plexwell-naturals-beauty-skin-clear-matrix-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS BEAUTY SKIN-CLEAR MATRIX CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BEAUTY SKIN-CLEAR MATRIX CAPSULE formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3852,15 +1363,17 @@
       "Available for commercial partnership."
     ],
     "packSizes": [
-      "N30"
+      "N30",
+      "N60"
     ]
   },
   {
-    "id": "plexwell-women-n30",
-    "category": "Men's Health",
-    "name": "PlexWell WOMEN N30",
-    "image": "/images/products/women-health/Plexwell Women N30.png",
-    "description": "",
+    "id": "plexwell-naturals-beauty-glow-matrix-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS BEAUTY GLOW-MATRIX CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BEAUTY GLOW-MATRIX CAPSULE formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -3868,7 +1381,782 @@
       "Available for commercial partnership."
     ],
     "packSizes": [
-      "N30"
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-niacinamide-250mg-tablet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS NIACINAMIDE 250MG TABLET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS NIACINAMIDE 250MG TABLET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-niacinamide-500mg-tablet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NIACINAMIDE 500MG TABLET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NIACINAMIDE 500MG TABLET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-anti-acne-complex-tablet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS ANTI ACNE COMPLEX TABLET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ANTI ACNE COMPLEX TABLET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-somna-matrix-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS SLEEP SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS SOMNA-MATRIX CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS SOMNA-MATRIX CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-somna-matrix-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS SLEEP SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS SOMNA-MATRIX GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS SOMNA-MATRIX GUMMIES formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-somna-matrix-spray",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS SLEEP SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS SOMNA-MATRIX SPRAY",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS SOMNA-MATRIX SPRAY formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ophthacare-junior-syrup",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS EYE/VISION SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OPHTHACARE JUNIOR SYRUP",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OPHTHACARE JUNIOR SYRUP formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ophthacare-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS EYE/VISION SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OPHTHACARE CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OPHTHACARE CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ophthacare-age-60-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS EYE/VISION SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OPHTHACARE AGE 60+ CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OPHTHACARE AGE 60+ CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ophthacare-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS EYE/VISION SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OPHTHACARE GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OPHTHACARE GUMMIES formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ophthacare-effervescent",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS EYE/VISION SUPPLEMENT’S",
+    "name": "PLEXWELL NATURALS OPHTHACARE EFFERVESCENT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OPHTHACARE EFFERVESCENT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-cough-care-junior",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS COUGH REMEDIES (HERBAL)",
+    "name": "PLEXWELL NATURALS COUGH-CARE JUNIOR",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS COUGH-CARE JUNIOR formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-cough-care-adult",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS COUGH REMEDIES (HERBAL)",
+    "name": "PLEXWELL NATURALS COUGH-CARE ADULT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS COUGH-CARE ADULT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-cough-care-day-sachet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS COUGH REMEDIES (HERBAL)",
+    "name": "PLEXWELL NATURALS COUGH-CARE DAY SACHET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS COUGH-CARE DAY SACHET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-cough-care-night-sachet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS COUGH REMEDIES (HERBAL)",
+    "name": "PLEXWELL NATURALS COUGH-CARE NIGHT SACHET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS COUGH-CARE NIGHT SACHET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-digesmart-kids-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
+    "name": "PLEXWELL NATURALS DIGESMART KIDS GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS DIGESMART KIDS GUMMIES formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-diacare-oral-sachet",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
+    "name": "PLEXWELL NATURALS DIACARE ORAL SACHET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS DIACARE ORAL SACHET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-tri-biotic-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
+    "name": "PLEXWELL NATURALS TRI-BIOTIC GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS TRI-BIOTIC GUMMIES formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-flora-balance-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
+    "name": "PLEXWELL NATURALS FLORA BALANCE CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS FLORA BALANCE CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-uti-biotic-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
+    "name": "PLEXWELL NATURALS UTI-BIOTIC CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS UTI-BIOTIC CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-uti-biotic-syrup-150ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
+    "name": "PLEXWELL NATURALS UTI-BIOTIC SYRUP 150ml",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS UTI-BIOTIC SYRUP 150ml formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-astaxanthin-12mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS ASTAXANTHIN 12MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ASTAXANTHIN 12MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-sea-buckthron",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS SEA BUCKTHRON",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS SEA BUCKTHRON formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-zinc-glycinate-30mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS ZINC GLYCINATE 30MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ZINC GLYCINATE 30MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-magnesium-glycinate-1500mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS MAGNESIUM GLYCINATE 1500MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MAGNESIUM GLYCINATE 1500MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-magnesium-malate-1500mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS MAGNESIUM MALATE 1500MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MAGNESIUM MALATE 1500MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-magnesium-taurate-1500mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS MAGNESIUM TAURATE 1500MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MAGNESIUM TAURATE 1500MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-curcumin-1500mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS CURCUMIN 1500MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS CURCUMIN 1500MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-vit-b12-1000mcg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS VIT B12 1000MCG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VIT B12 1000MCG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-biotin-5000mcg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS BIOTIN 5000MCG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS BIOTIN 5000MCG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-alpha-lipoic-acid-650mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS ALPHA LIPOIC ACID 650MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ALPHA LIPOIC ACID 650MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-coq10-100mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS COQ10 100mg",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS COQ10 100mg formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-iron-bisglycinate-25mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS IRON BISGLYCINATE 25MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS IRON BISGLYCINATE 25MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-magnesium-l-threonate-800mg",
+    "segment": "Nutraceuticals",
+    "category": "SINGLE INGREDIENTS FOOD SUPPLEMENTS",
+    "name": "PLEXWELL NATURALS MAGNESIUM L-THREONATE 800MG",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MAGNESIUM L-THREONATE 800MG formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-alkaline-support",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS ALKALINE SUPPORT",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS ALKALINE SUPPORT formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-nitric-oxide-booster",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS NITRIC OXIDE BOOSTER",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS NITRIC OXIDE BOOSTER formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-freshstart-anti-hangover",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS FRESHSTART (ANTI HANGOVER)",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS FRESHSTART (ANTI HANGOVER) formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-structura-glp1-support",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS STRUCTURA (GLP1 SUPPORT)",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS STRUCTURA (GLP1 SUPPORT) formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-slimming-secret",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS SLIMMING SECRET",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS SLIMMING SECRET formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-neurotone",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS NEUROTONE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS NEUROTONE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-vital-mushrooms",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS VITAL MUSHROOMS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS VITAL MUSHROOMS formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-stressno",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "PLEXWELL NATURALS STRESSNO",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS STRESSNO formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "myo-gummy",
+    "segment": "Nutraceuticals",
+    "category": "SPECIAL BLEND NUTRACEUTICALS",
+    "name": "Myo-GUMMY",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality Myo-GUMMY formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
     ]
   }
 ]

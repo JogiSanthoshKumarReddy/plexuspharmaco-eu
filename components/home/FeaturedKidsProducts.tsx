@@ -12,11 +12,8 @@ export default function FeaturedKidsProducts() {
   const params = useParams();
   const locale = params?.locale || 'en';
 
-  // Filter only the kids products that have the new WeTransfer images
-  const featuredProducts = products.filter(
-    (p: Product) =>
-      p.category && (p.category.includes("Kid") || p.category.includes("Pediatric"))
-  ).slice(0, 8);
+  // Show first 8 products as placeholders until specific list is provided
+  const featuredProducts = products.slice(0, 8);
 
   if (featuredProducts.length === 0) return null;
 
