@@ -80,33 +80,32 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
 
       <div className="container mx-auto px-6 lg:px-12 mt-12">
         
-        {/* Intro Section */}
-        <div className="max-w-4xl mb-12">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white border border-brand-100 mb-6 shadow-sm"
-          >
-            <Info className="w-4 h-4 text-brand-700" />
-            <span className="text-sm font-bold text-brand-700 uppercase tracking-widest">{dict.global_portfolio}</span>
-          </motion.div>
-          
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-6">
-            <div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight">{dict.explore_therapies}</h2>
-              <p className="text-lg lg:text-xl text-slate-600 leading-relaxed max-w-3xl">
-                {dict.description}
-              </p>
+        {/* Intro Banner Section */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="w-full mb-12 bg-white rounded-3xl p-8 lg:p-10 border border-slate-100 shadow-sm flex flex-col lg:flex-row lg:items-center justify-between gap-8"
+        >
+          <div className="max-w-3xl">
+            <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-brand-50 border border-brand-100 mb-4 shadow-sm">
+              <Info className="w-4 h-4 text-brand-700" />
+              <span className="text-xs font-bold text-brand-700 uppercase tracking-widest">{dict.global_portfolio}</span>
             </div>
+            <h2 className="text-3xl lg:text-4xl font-bold text-brand-900 mb-3 leading-tight">{dict.explore_therapies}</h2>
+            <p className="text-slate-600 text-base lg:text-lg leading-relaxed">
+              {dict.description}
+            </p>
+          </div>
+          <div className="flex-shrink-0">
             <a 
               href="/assets/pdfs/Plexuspharmaco_Product_Catalogue_2026.pdf" 
               download="Plexuspharmaco_Product_Catalogue_2026.pdf"
-              className="flex-shrink-0 inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer w-fit"
+              className="inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer text-sm tracking-wide w-full sm:w-auto justify-center"
             >
-              <Download className="w-5 h-5" /> Download Full Catalogue (PDF)
+              <Download className="w-5 h-5 text-accent-400" /> Download Full Catalogue (PDF)
             </a>
           </div>
-        </div>
+        </motion.div>
 
         {!activeSegment ? (
           /* Segments Landing Page */
@@ -232,79 +231,81 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
               </div>
             </div>
 
-            {/* Product Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-12">
-              <AnimatePresence mode="popLayout">
-                {filteredProducts.slice(0, visibleCount).map((product, idx) => (
-                  <motion.div
-                    key={product.id}
-                    layout
-                    initial={{ opacity: 0, scale: 0.9, y: 20 }}
-                    animate={{ opacity: 1, scale: 1, y: 0 }}
-                    exit={{ opacity: 0, scale: 0.9, y: 20 }}
-                    transition={{ duration: 0.3 }}
-                    className="glass-card rounded-3xl overflow-hidden hover-lift group flex flex-col h-full bg-white border border-slate-100"
-                  >
-                    {/* Image Header */}
-                    <div className="relative h-72 bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center overflow-hidden border-b border-slate-100">
-                      <Image 
-                        src={product.image || getProductImage(product.category)}
-                        alt={product.name}
-                        fill
-                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-                        priority={idx < 6}
-                        className="object-contain p-4 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"
-                      />
-                      <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-brand-700 shadow-sm border border-slate-100 shadow-brand-900/5">
-                        {product.category}
-                      </div>
+            {/* Smooth Product Grid Transition */}
+            <motion.div 
+              key={`${activeSegment}-${activeCategory}-${searchQuery}`}
+              initial={{ opacity: 0, y: 12 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.3, ease: "easeOut" }}
+              className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 mb-12"
+            >
+              {filteredProducts.slice(0, visibleCount).map((product, idx) => (
+                <motion.div
+                  key={product.id}
+                  initial={{ opacity: 0, y: 15 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.25, delay: Math.min(idx * 0.03, 0.3) }}
+                  className="glass-card rounded-3xl overflow-hidden hover-lift group flex flex-col h-full bg-white border border-slate-100"
+                >
+                  {/* Image Header */}
+                  <div className="relative h-72 bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center overflow-hidden border-b border-slate-100">
+                    <Image 
+                      src={product.image || getProductImage(product.category)}
+                      alt={product.name}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      priority={idx < 6}
+                      className="object-contain p-4 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"
+                    />
+                    <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-brand-700 shadow-sm border border-slate-100 shadow-brand-900/5">
+                      {product.category}
                     </div>
+                  </div>
+                  
+                  {/* Content Body */}
+                  <div className="p-8 flex flex-col flex-grow">
+                    <h4 className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors line-clamp-2">
+                      {product.name}
+                    </h4>
+                    {product.description ? (
+                      <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">
+                        {product.description}
+                      </p>
+                    ) : (
+                      <p className="text-slate-400 italic text-sm leading-relaxed mb-6">
+                        Product details pending verification.
+                      </p>
+                    )}
                     
-                    {/* Content Body */}
-                    <div className="p-8 flex flex-col flex-grow">
-                      <h4 className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors line-clamp-2">
-                        {product.name}
-                      </h4>
-                      {product.description ? (
-                        <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">
-                          {product.description}
-                        </p>
-                      ) : (
-                        <p className="text-slate-400 italic text-sm leading-relaxed mb-6">
-                          Product details pending verification.
-                        </p>
-                      )}
-                      
-                      {/* Ingredients Section */}
-                      <div className="mt-auto flex flex-col gap-6">
-                        <div className="pt-6 border-t border-slate-100">
-                          <h5 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">{dict.key_ingredients}</h5>
-                          {product.ingredients && product.ingredients.length > 0 ? (
-                            <div className="flex flex-wrap gap-2">
-                              {product.ingredients.slice(0, 3).map((ing: { name: string; dosage: string }, idx: number) => (
-                                <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-50 text-slate-600 border border-slate-200">
-                                  {ing.name} <span className="text-slate-400 ml-1">({ing.dosage})</span>
-                                </span>
-                              ))}
-                              {product.ingredients.length > 3 && (
-                                <span className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-brand-50 text-brand-700 border border-brand-100">
-                                  +{product.ingredients.length - 3} {dict.more}
-                                </span>
-                              )}
-                            </div>
-                          ) : (
-                            <span className="text-sm italic text-slate-400">Ingredients pending verification.</span>
-                          )}
-                        </div>
-                        <Link href={`/${locale}/product-catalogue/${product.id}`} className="w-full py-3 px-4 bg-brand-50 hover:bg-brand-900 text-brand-700 hover:text-white rounded-xl font-bold transition-all duration-300 flex items-center justify-center gap-2 group/btn border border-brand-100 hover:border-brand-900">
-                          {dict.view_full_details} <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
-                        </Link>
+                    {/* Ingredients Section */}
+                    <div className="mt-auto flex flex-col gap-6">
+                      <div className="pt-6 border-t border-slate-100">
+                        <h5 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3">{dict.key_ingredients}</h5>
+                        {product.ingredients && product.ingredients.length > 0 ? (
+                          <div className="flex flex-wrap gap-2">
+                            {product.ingredients.slice(0, 3).map((ing: { name: string; dosage: string }, idx: number) => (
+                              <span key={idx} className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-slate-50 text-slate-600 border border-slate-200">
+                                {ing.name} <span className="text-slate-400 ml-1">({ing.dosage})</span>
+                              </span>
+                            ))}
+                            {product.ingredients.length > 3 && (
+                              <span className="inline-flex items-center px-2.5 py-1 rounded-md text-xs font-medium bg-brand-50 text-brand-700 border border-brand-100">
+                                +{product.ingredients.length - 3} {dict.more}
+                              </span>
+                            )}
+                          </div>
+                        ) : (
+                          <span className="text-sm italic text-slate-400">Ingredients pending verification.</span>
+                        )}
                       </div>
+                      <Link href={`/${locale}/product-catalogue/${product.id}`} className="w-full py-3 px-4 bg-brand-50 hover:bg-brand-900 text-brand-700 hover:text-white rounded-xl font-bold transition-all duration-300 flex items-center justify-center gap-2 group/btn border border-brand-100 hover:border-brand-900">
+                        {dict.view_full_details} <ChevronRight className="w-4 h-4 group-hover/btn:translate-x-1 transition-transform" />
+                      </Link>
                     </div>
-                  </motion.div>
-                ))}
-              </AnimatePresence>
-            </div>
+                  </div>
+                </motion.div>
+              ))}
+            </motion.div>
 
             {/* Load More Button */}
             {visibleCount < filteredProducts.length && (
