@@ -5,9 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
-import { PlayCircle } from "lucide-react";
 import { homepageData } from "@/data/homepage";
-import VideoModalPlayer from "@/components/common/VideoModalPlayer";
 
 const slides = [
   { id: 1, image: "/assets/images/pharma_hero_lab.png" },
@@ -18,7 +16,6 @@ const slides = [
 export default function HeroSection() {
   const { title, subtitle } = homepageData.hero;
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isVideoOpen, setIsVideoOpen] = useState(false);
   const params = useParams();
   const locale = params?.locale || 'en';
 
@@ -95,12 +92,9 @@ export default function HeroSection() {
             <Link href={`/${locale}/about`} className="px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               Discover Our Company
             </Link>
-            <button
-              onClick={() => setIsVideoOpen(true)}
-              className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-medium rounded-lg transition-all duration-300 flex items-center justify-center gap-2 group cursor-pointer"
-            >
-              <PlayCircle className="w-5 h-5 text-brand-300 group-hover:scale-110 transition-transform" /> Watch Corporate Video
-            </button>
+            <Link href={`/${locale}/products`} className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-medium rounded-lg transition-all duration-300 text-center">
+              Explore Products
+            </Link>
             <Link href={`/${locale}/business-enquiry`} className="px-8 py-4 bg-transparent border-2 border-white/30 hover:border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all duration-300 text-center">
               Partner With Us
             </Link>
@@ -108,16 +102,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Video Modal Player */}
-      {isVideoOpen && (
-        <VideoModalPlayer
-          videoUrl="/assets/videos/plexus_corporate_overview.mp4"
-          posterUrl="/assets/images/pharma_video_poster_corporate.jpg"
-          title="Plexuspharmaco Corporate & Scientific Leadership"
-          description="A global view of our European headquarters, R&D capabilities, and manufacturing excellence."
-          onClose={() => setIsVideoOpen(false)}
-        />
-      )}
+
 
       {/* Slide Indicators */}
       <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-20 flex gap-3">

@@ -5,7 +5,7 @@ import { Leaf, Droplets, Wind, HeartHandshake, Stethoscope, GraduationCap, Users
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 
-import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
+
 
 export default function SustainabilityPage() {
   const envGoals = [
@@ -105,14 +105,7 @@ export default function SustainabilityPage() {
           </motion.p>
         </div>
 
-        {/* ESG Video Tour Showcase */}
-        <VideoSectionPlayer
-          videoUrl="/assets/videos/plexus_sustainability_esg.mp4"
-          posterUrl="/assets/images/pharma_video_poster_sustainability.jpg"
-          title="Plexuspharmaco Green Manufacturing & CSR Initiatives"
-          subtitle="Discover zero-liquid discharge water recycling, renewable solar power integration, and global community health programs."
-          badge="Sustainability & ESG Video Tour"
-        />
+
 
         {/* Environmental Sustainability */}
         <div className="flex flex-col lg:flex-row gap-16 items-center mb-24">

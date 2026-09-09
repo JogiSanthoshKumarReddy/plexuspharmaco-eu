@@ -5,7 +5,7 @@ import { Microscope, FlaskConical, ShieldCheck, Factory, Dna, FileCheck, ArrowRi
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Link from "next/link";
 
-import VideoSectionPlayer from "@/components/common/VideoSectionPlayer";
+
 
 export default function ResearchDevelopmentHubPage() {
   const sections = [
@@ -79,14 +79,7 @@ export default function ResearchDevelopmentHubPage() {
           </motion.p>
         </div>
 
-        {/* R&D Video Showcase */}
-        <VideoSectionPlayer
-          videoUrl="/assets/videos/plexus_rd_laboratory.mp4"
-          posterUrl="/assets/images/pharma_video_poster_rd.jpg"
-          title="Inside Plexuspharmaco Advanced R&D Laboratories"
-          subtitle="Discover analytical chemistry, bioequivalence formulation research, and continuous drug delivery innovation."
-          badge="R&D Laboratory Video Showcase"
-        />
+
 
         {/* Directory Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">

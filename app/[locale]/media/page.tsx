@@ -1,6 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import { Newspaper, Calendar, Image as ImageIcon, ArrowRight, Video, Mail } from "lucide-react";
+import { Newspaper, Calendar, Image as ImageIcon, ArrowRight, Mail } from "lucide-react";
 import BreadcrumbHero from "@/components/common/BreadcrumbHero";
 import Image from "next/image";
 import Link from "next/link";
@@ -164,13 +164,10 @@ export default function MediaCenterPage() {
         {/* Multimedia Assets */}
         <div className="bg-white rounded-[3rem] p-10 lg:p-16 border border-slate-100 shadow-sm text-center">
           <h3 className="text-3xl font-bold text-brand-900 mb-6">Media Kits & Assets</h3>
-          <p className="text-lg text-slate-600 mb-12 max-w-2xl mx-auto">High-resolution corporate logos, executive headshots, and B-roll footage available for verified press and media organizations.</p>
+          <p className="text-lg text-slate-600 mb-12 max-w-2xl mx-auto">High-resolution corporate logos, executive headshots, and press materials available for verified press and media organizations.</p>
           <div className="flex flex-wrap justify-center gap-6">
             <Link href="/media-kits" className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
               <ImageIcon className="w-5 h-5" /> Download Media Kits
-            </Link>
-            <Link href="/b-roll" className="flex items-center gap-3 px-8 py-4 bg-brand-50 text-brand-700 font-bold rounded-xl hover:bg-brand-100 transition-colors">
-              <Video className="w-5 h-5" /> Access Corporate B-Roll
             </Link>
             <Link href="/business-enquiry" className="flex items-center gap-3 px-8 py-4 bg-accent-500 text-white font-bold rounded-xl hover:bg-accent-600 transition-colors shadow-md">
               <Mail className="w-5 h-5" /> Contact Press Office
