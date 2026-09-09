@@ -95,7 +95,7 @@
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS VITAMIN D3+ GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ GUMMIES formulated for optimal health and wellness.",
+    "description": "High-quality PLEXWELL NATURALS VITAMIN D3 GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -111,7 +111,7 @@
     "id": "plexwell-naturals-men-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN MULTIVITAMIN",
+    "name": "PLEXWELL NATURALS MEN MULTIVITAMIN TAB",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MEN MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -129,7 +129,7 @@
     "id": "plexwell-naturals-men-50-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN",
+    "name": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN TAB",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -147,9 +147,27 @@
     "id": "plexwell-naturals-men-70-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN",
+    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN POWDER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-men-70-multivitamin-spray",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN SPRAY",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN SPRAY formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -165,7 +183,7 @@
     "id": "plexwell-naturals-ferti-men",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS FERTi-MEN",
+    "name": "PLEXWELL NATURALS MEN FERTi-PRO TABLET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS FERTi-MEN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -183,7 +201,7 @@
     "id": "plexwell-naturals-prosti-men",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS PROSTi-MEN",
+    "name": "PLEXWELL NATURALS MEN PROSTi-PRO SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PROSTi-MEN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -198,12 +216,82 @@
     ]
   },
   {
-    "id": "plexwell-naturals-erecti-men",
+    "id": "plexwell-naturals-erecti-men-n100",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS ERECTi-MEN",
+    "name": "PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N100",
     "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS ERECTi-MEN formulated for optimal health and wellness.",
+    "description": "High-quality PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N100 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N100"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-erecti-men-n10",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N10",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N10 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N10"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-regainox-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS REGAINOX CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS REGAINOX CAPSULE formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-regainox-gummies",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS REGAINOX GUMMIES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS REGAINOX GUMMIES formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-relaunch-capsule",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS MEN’S HEALTH",
+    "name": "PLEXWELL NATURALS RELAUNCH CAPSULE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS RELAUNCH CAPSULE formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -219,7 +307,7 @@
     "id": "plexwell-naturals-hair-pro-complex-capsule",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE",
+    "name": "PLEXWELL NATURALS MEN HAIR-PRO COMPLEX CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE formulated for optimal health and wellness.",
     "ingredients": [],
@@ -237,7 +325,7 @@
     "id": "plexwell-naturals-hair-pro-complex-effervescent",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS HAIR-PRO COMPLEX EFFERVESCENT",
+    "name": "PLEXWELL NATURALS MEN HAIR-PRO COMPLEX EFFERVESCENT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX EFFERVESCENT formulated for optimal health and wellness.",
     "ingredients": [],
@@ -273,7 +361,7 @@
     "id": "plexwell-naturals-women-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS WOMEN MULTIVITAMIN",
+    "name": "PLEXWELL NATURALS WOMEN CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS WOMEN MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -291,7 +379,7 @@
     "id": "plexwell-naturals-women-50-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS WOMEN 50+ MULTIVITAMIN",
+    "name": "PLEXWELL NATURALS WOMEN 50+ CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS WOMEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -309,7 +397,7 @@
     "id": "plexwell-naturals-women-70-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS WOMEN 70+ MULTIVITAMIN",
+    "name": "PLEXWELL NATURALS WOMEN 70+ POWDER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS WOMEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -417,7 +505,7 @@
     "id": "plexwell-naturals-ferti-women",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS FERTi-WOMEN",
+    "name": "PLEXWELL NATURALS WOMEN FERTi-PRO",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS FERTi-WOMEN formulated for optimal health and wellness.",
     "ingredients": [],
@@ -435,7 +523,7 @@
     "id": "plexwell-naturals-pregna-women1",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS PREGNa-WOMEN1",
+    "name": "PLEXWELL NATURALS PREGNANCY SUPPORT Tri-1",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN1 formulated for optimal health and wellness.",
     "ingredients": [],
@@ -453,7 +541,7 @@
     "id": "plexwell-naturals-pregna-women2",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS PREGNa-WOMEN2",
+    "name": "PLEXWELL NATURALS PREGNANCY SUPPORT Tri-2",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN2 formulated for optimal health and wellness.",
     "ingredients": [],
@@ -471,7 +559,7 @@
     "id": "plexwell-naturals-pregna-women3",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLEXWELL NATURALS PREGNa-WOMEN3",
+    "name": "PLEXWELL NATURALS PREGNANCY SUPPORT Tri-3",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN3 formulated for optimal health and wellness.",
     "ingredients": [],
@@ -489,9 +577,62 @@
     "id": "plxwell-naturals-ladylove-capsule-n10",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
-    "name": "PLXWELL NATURALS LADYLOVE CAPSULE N10",
+    "name": "PLXWELL LADYLOVE CAPSULE N10",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLXWELL NATURALS LADYLOVE CAPSULE N10 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plxwell-naturals-ladylove-capsule-n30",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS WOMEN’S HEALTH",
+    "name": "PLXWELL LADYLOVE CAPSULE N30",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLXWELL LADYLOVE CAPSULE N30 formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30"
+    ]
+  },
+  {
+    "id": "plexwell-men-wellness-pouch-n28-pouches",
+    "segment": "Nutraceuticals",
+    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "name": "PlexWell MEN WELLNESS POUCH N28 POUCHES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PlexWell MEN WELLNESS POUCH N28 POUCHES formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-women-wellness-pouch-n28-pouches",
+    "segment": "Nutraceuticals",
+    "category": "MEN & WOMEN WELLNESS POUCHES",
+    "name": "PlexWell WOMEN WELLNESS POUCH N28 POUCHES",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PlexWell WOMEN WELLNESS POUCH N28 POUCHES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -510,6 +651,24 @@
     "name": "PLEXWELL NATURALS OMEGA SYRUP 200ml",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA SYRUP 200ml formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-omega-syrup-150ml",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL NATURALS OMEGA SYRUP 150ml",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL NATURALS OMEGA SYRUP 150ml formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -543,7 +702,7 @@
     "id": "plexwell-s-natural-seniomega-syrup-200ml",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS OMEGA FAMILY",
-    "name": "PLEXWELL S NATURAL SENIOMEGA SYRUP 200ml",
+    "name": "PLEXWELL SENIOMEGA SYRUP 200ml",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL S NATURAL SENIOMEGA SYRUP 200ml formulated for optimal health and wellness.",
     "ingredients": [],
@@ -615,7 +774,7 @@
     "id": "plexwell-naturals-omega-gummies-kids",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS OMEGA FAMILY",
-    "name": "PLEXWELL NATURALS OMEGA GUMMIES KIDS",
+    "name": "PLEXWELL NATURALS OMEGA GUMMIES FOR KIDS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA GUMMIES KIDS formulated for optimal health and wellness.",
     "ingredients": [],
@@ -633,7 +792,7 @@
     "id": "plexwell-naturals-omega-3-6-9-5-in-1-formula",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS OMEGA FAMILY",
-    "name": "PLEXWELL NATURALS OMEGA 3-6-9 5-in-1 FORMULA",
+    "name": "PLEXWELL NATURALS OMEGA 3-6-9 5in1 FORMULA",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA 3-6-9 5-in-1 FORMULA formulated for optimal health and wellness.",
     "ingredients": [],
@@ -648,12 +807,30 @@
     ]
   },
   {
-    "id": "plexwell-naturals-ultra-omega-softgel",
+    "id": "plexwell-naturals-ultra-omega-15x4-blister",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS OMEGA FAMILY",
-    "name": "PLEXWELL NATURALS ULTRA OMEGA SOFTGEL",
+    "name": "PLEXWELL ULTRA OMEGA 15x4 BLISTER",
     "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS ULTRA OMEGA SOFTGEL formulated for optimal health and wellness.",
+    "description": "High-quality PLEXWELL ULTRA OMEGA 15x4 BLISTER formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-ultra-omega-n60-bottle",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS OMEGA FAMILY",
+    "name": "PLEXWELL ULTRA OMEGA N60 BOTTLE",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL ULTRA OMEGA N60 BOTTLE formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -1011,7 +1188,7 @@
     "id": "plexwell-naturals-vitamin-d3-baby-drops",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3 BABY DROPS",
+    "name": "PLEXWELL NATURALS VIT D3 BABY DROPS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 BABY DROPS formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1029,7 +1206,7 @@
     "id": "plexwell-naturals-vitamin-d3-gummies",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3 GUMMIES",
+    "name": "PLEXWELL NATURALS VIT D3 GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1047,7 +1224,7 @@
     "id": "plexwell-naturals-vitamin-d3-tablets-for-kids-4-10-y",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3 TABLETS FOR KIDS 4-10 Y",
+    "name": "PLEXWELL NATURALS VIT D3 TABLETS FOR KIDS 4-10 Y",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 TABLETS FOR KIDS 4-10 Y formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1065,9 +1242,27 @@
     "id": "plexwell-naturals-vitamin-d3-multivitamin-syrup-3-15-y",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3+ MULTIVITAMIN SYRUP 3-15 Y",
+    "name": "PLEXWELL NATURALS VIT D3+ MULTIVITAMIN SYRUP 3-15 Y",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ MULTIVITAMIN SYRUP 3-15 Y formulated for optimal health and wellness.",
+    "ingredients": [],
+    "features": [
+      "Manufactured under certified quality systems.",
+      "Subject to strict quality control.",
+      "Available for commercial partnership."
+    ],
+    "packSizes": [
+      "N30",
+      "N60"
+    ]
+  },
+  {
+    "id": "plexwell-naturals-vitamin-d3-tablet-for-teens",
+    "segment": "Nutraceuticals",
+    "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
+    "name": "PLEXWELL Vit D3 TABLET FOR TEENS",
+    "image": "/assets/images/pharma_product_nutra.png",
+    "description": "High-quality PLEXWELL Vit D3 TABLET FOR TEENS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
@@ -1083,7 +1278,7 @@
     "id": "plexwell-naturals-vitamin-d3-5000-iu",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3 5000 IU",
+    "name": "PLEXWELL NATURALS VIT D3 5000 IU ADULT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 5000 IU formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1101,7 +1296,7 @@
     "id": "plexwell-naturals-vitamin-d3-10000-iu",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3 10000 IU",
+    "name": "PLEXWELL NATURALS VIT D3 10000 IU ADULT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 10000 IU formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1119,7 +1314,7 @@
     "id": "plexwell-naturals-vitamin-d3-20000-iu",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3 20000 IU",
+    "name": "PLEXWELL NATURALS VIT D3 20000 IU ADULT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 20000 IU formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1137,7 +1332,7 @@
     "id": "plexwell-naturals-vitamin-d3-effervescent",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3+ EFFERVESCENT",
+    "name": "PLEXWELL NATURALS VIT D3+ EFFERVESCENT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ EFFERVESCENT formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1155,7 +1350,7 @@
     "id": "plexwell-naturals-vitamin-d3-cod-liver-oil-omega-3-softgel",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS VITAMIN D3+ COD LIVER OIL + OMEGA 3 SOFTGEL",
+    "name": "PLEXWELL NATURALS VIT D3+ COD LIVER OIL + OMEGA 3 SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ COD LIVER OIL + OMEGA 3 SOFTGEL formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1281,7 +1476,7 @@
     "id": "plexwell-naturals-hair-skin-and-nails",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS BEAUTY SUPPLEMENT’S",
-    "name": "PLEXWELL NATURALS HAIR, SKIN AND NAILS",
+    "name": "PLEXWELL NATURALS HAIR, SKIN AND NAILS TABLETS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS HAIR, SKIN AND NAILS formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1605,7 +1800,7 @@
     "id": "plexwell-naturals-cough-care-adult",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS COUGH REMEDIES (HERBAL)",
-    "name": "PLEXWELL NATURALS COUGH-CARE ADULT",
+    "name": "PLEXWELL NATURALS COUGH-CARE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS COUGH-CARE ADULT formulated for optimal health and wellness.",
     "ingredients": [],
@@ -1659,7 +1854,7 @@
     "id": "plexwell-naturals-digesmart-kids-gummies",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS PRE- PRO- AND POST-BIOTICS",
-    "name": "PLEXWELL NATURALS DIGESMART KIDS GUMMIES",
+    "name": "PLEXWELL NATURALS KIDS DIGESMART GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS DIGESMART KIDS GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
