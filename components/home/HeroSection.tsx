@@ -92,9 +92,6 @@ export default function HeroSection() {
             <Link href={`/${locale}/about`} className="px-8 py-4 bg-accent-500 hover:bg-accent-600 text-white font-medium rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 text-center">
               Discover Our Company
             </Link>
-            <Link href={`/${locale}/products`} className="px-8 py-4 bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/30 text-white font-medium rounded-lg transition-all duration-300 text-center">
-              Explore Products
-            </Link>
             <Link href={`/${locale}/business-enquiry`} className="px-8 py-4 bg-transparent border-2 border-white/30 hover:border-white text-white font-medium rounded-lg hover:bg-white/10 transition-all duration-300 text-center">
               Partner With Us
             </Link>
