@@ -12,7 +12,7 @@ import LatestNews from "@/components/home/LatestNews";
 import NewsletterCTA from "@/components/home/NewsletterCTA";
 import { ShieldCheck, Heart, Leaf, Microscope, Globe2, Truck, TestTube, Lightbulb, Users, Award, Shield, FileCheck2 } from "lucide-react";
 
-import FeaturedKidsProducts from "@/components/home/FeaturedKidsProducts";
+import FeaturedProducts from "@/components/home/FeaturedProducts";
 
 export default function Home() {
   const coreValues = [
@@ -40,7 +40,7 @@ export default function Home() {
     <div className="modern-page-wrapper">
       <HeroSection />
       
-      <FeaturedKidsProducts />
+      <FeaturedProducts />
       
       {/* Company Introduction */}
       <FeatureSection 

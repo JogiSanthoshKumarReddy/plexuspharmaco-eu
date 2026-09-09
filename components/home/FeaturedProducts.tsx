@@ -8,12 +8,23 @@ import { ArrowRight, Star } from "lucide-react";
 import products from "@/data/products.json";
 import { Product } from "@/types/product";
 
-export default function FeaturedKidsProducts() {
+export default function FeaturedProducts() {
   const params = useParams();
   const locale = params?.locale || 'en';
 
-  // Show first 8 products as placeholders until specific list is provided
-  const featuredProducts = products.slice(0, 8);
+  // Select 8 interesting products
+  const featuredIds = [
+    "plexwell-naturals-eassichew-kids-chewable-multivitamin-tablet",
+    "plexwell-naturals-men-multivitamin",
+    "plexwell-naturals-women-multivitamin",
+    "plexwell-naturals-vegan-omega-softgel",
+    "age-slow-caps",
+    "plexwell-naturals-vit-c-tab",
+    "plexwell-naturals-beauty-collagen-matrix-capsule",
+    "plexwell-naturals-digesmart-kids-gummies"
+  ];
+  
+  const featuredProducts = products.filter(p => featuredIds.includes(p.id)).slice(0, 8);
 
   if (featuredProducts.length === 0) return null;
 
@@ -30,10 +41,10 @@ export default function FeaturedKidsProducts() {
               <Star className="w-4 h-4" fill="currentColor" /> Featured Range
             </div>
             <h2 className="text-4xl md:text-5xl font-bold text-brand-900 mb-6 leading-tight">
-              PlexWell Kids Supplements
+              PlexWell Naturals
             </h2>
             <p className="text-xl text-slate-600 font-light leading-relaxed">
-              Premium, evidence-based nutritional support designed specifically for pediatric health, wellness, and cognitive development.
+              Premium, evidence-based nutritional support designed for all ages, wellness, and specialized care.
             </p>
           </div>
           <Link
