@@ -121,9 +121,11 @@ export default function ModernFooter({ locale }: { locale: string }) {
           <p className="text-sm text-brand-400">
             &copy; {currentYear} <span className="text-white font-medium">Plexuspharmaco GmbH</span>. All Rights Reserved.
           </p>
-          <div className="flex items-center gap-6 text-sm text-brand-400">
+          <div className="flex flex-wrap items-center gap-6 text-sm text-brand-400">
             <Link href={`/${locale}/privacy-policy`} className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Privacy Policy</Link>
+            <Link href={`/${locale}/cookie-policy`} className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Cookie Policy</Link>
             <Link href={`/${locale}/terms-condition`} className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Terms of Service</Link>
+            <Link href={`/${locale}/impressum`} className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Impressum</Link>
             <Link href="/sitemap.xml" className="hover:text-white transition-colors inline-flex min-h-[48px] items-center">Sitemap</Link>
           </div>
         </div>

@@ -27,6 +27,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     metadataBase: new URL(baseUrl),
     alternates: {
       canonical: `/${locale}`,
+      languages: {
+        'en': '/en',
+        'de': '/de',
+        'fr': '/fr',
+        'es': '/es',
+        'x-default': '/en',
+      },
     },
     openGraph: {
       title: "Plexuspharmaco Europe",
@@ -73,7 +80,7 @@ export default async function RootLayout({
 }>) {
   const { locale } = await params;
   return (
-    <html lang="en">
+    <html lang={locale}>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, interactive-widget=resizes-content" />
         <meta name="theme-color" content="#1e3a8a" />

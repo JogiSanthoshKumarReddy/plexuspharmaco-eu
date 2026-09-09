@@ -76,7 +76,8 @@ export default function CookieBanner() {
               <h3 className="text-lg font-bold text-slate-900 mb-2 font-outfit">We value your privacy</h3>
               <p className="text-sm text-slate-600 leading-relaxed">
                 We use strictly necessary cookies to make our site work. We&apos;d also like to set analytical and marketing cookies to help us improve it. We won&apos;t set optional cookies unless you enable them. For more detailed information, please see our{' '}
-                <Link href={`/${locale}/privacy-policy`} className="text-primary hover:underline font-medium">Privacy Policy</Link>.
+                <Link href={`/${locale}/privacy-policy`} className="text-primary hover:underline font-medium">Privacy Policy</Link> and{' '}
+                <Link href={`/${locale}/cookie-policy`} className="text-primary hover:underline font-medium">Cookie Policy</Link>.
               </p>
             </div>
             <div className="flex flex-col sm:flex-row w-full md:w-auto gap-3 flex-shrink-0">
