@@ -256,7 +256,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
             >
               {filteredProducts.slice(0, visibleCount).map((product, idx) => (
                 <motion.div
-                  key={product.id}
+                  key={`${product.id}-${idx}`}
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.25, delay: Math.min(idx * 0.03, 0.3) }}

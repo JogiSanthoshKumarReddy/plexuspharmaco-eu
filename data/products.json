@@ -6,7 +6,28 @@
     "name": "PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET",
     "image": "/assets/images/products/kids/plexwell-naturals-eassichew-kids-chewable-multivitamin-tablet.jpg",
     "description": "High-quality PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "400 mcg"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg (400 IU)"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "6 mg"
+      },
+      {
+        "name": "B-Complex Vitamins",
+        "dosage": "Standard"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -24,7 +45,20 @@
     "name": "PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES",
     "image": "/assets/images/products/kids/plexwell-naturals-junior-multivitamin-gummies.jpg",
     "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin C",
+        "dosage": "30 mg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg (400 IU)"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "3 mg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -42,7 +76,20 @@
     "name": "PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID",
     "image": "/assets/images/products/kids/plexwell-naturals-junior-multivitamin-liquid.jpg",
     "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "400 mcg"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg (400 IU)"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -60,7 +107,20 @@
     "name": "PLEXWELL NATURALS BABY MULTIVITAMIN DROPS",
     "image": "/assets/images/products/kids/plexwell-naturals-baby-multivitamin-drops.jpg",
     "description": "High-quality PLEXWELL NATURALS BABY MULTIVITAMIN DROPS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "300 mcg"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "30 mg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg (400 IU)"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -78,7 +138,12 @@
     "name": "PLEXWELL NATURALS BABY VITAMIN D3 DROPS",
     "image": "/assets/images/products/kids/plexwell-naturals-baby-vitamin-d3-drops.jpg",
     "description": "High-quality PLEXWELL NATURALS BABY VITAMIN D3 DROPS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg (400 IU)"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -94,9 +159,30 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS VITAMIN D3+ GUMMIES",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-vitamin-d3-gummies.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3",
+        "dosage": "15 mcg (600 IU)"
+      },
+      {
+        "name": "Vitamin K2 (MK-7)",
+        "dosage": "20 mcg"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "15 mg"
+      },
+      {
+        "name": "Calcium",
+        "dosage": "50 mg"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "20 mg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -111,10 +197,35 @@
     "id": "plexwell-naturals-men-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN MULTIVITAMIN TAB",
+    "name": "PLEXWELL NATURALS MEN MULTIVITAMIN",
     "image": "/assets/images/products/mens/plexwell-naturals-men-multivitamin.jpg",
     "description": "High-quality PLEXWELL NATURALS MEN MULTIVITAMIN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "900 mcg"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "90 mg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "11 mg"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "400 mg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -129,10 +240,31 @@
     "id": "plexwell-naturals-men-50-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN TAB",
+    "name": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN",
     "image": "/assets/images/products/mens/plexwell-naturals-men-50-multivitamin.jpg",
     "description": "High-quality PLEXWELL NATURALS MEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "900 mcg"
+      },
+      {
+        "name": "Vitamin B12",
+        "dosage": "2.4 mcg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "25 mcg (1000 IU)"
+      },
+      {
+        "name": "Saw Palmetto Extract",
+        "dosage": "160 mg"
+      },
+      {
+        "name": "Lycopene",
+        "dosage": "5 mg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -147,28 +279,31 @@
     "id": "plexwell-naturals-men-70-multivitamin",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN POWDER",
+    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN",
     "image": "/assets/images/products/mens/plexwell-naturals-men-70-multivitamin.jpg",
     "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+    "ingredients": [
+      {
+        "name": "Vitamin B12",
+        "dosage": "2.4 mcg"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "25 mcg (1000 IU)"
+      },
+      {
+        "name": "Calcium",
+        "dosage": "500 mg"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "11 mg"
+      },
+      {
+        "name": "Ginkgo Biloba Extract",
+        "dosage": "120 mg"
+      }
     ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-naturals-men-70-multivitamin-spray",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN SPRAY",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN SPRAY formulated for optimal health and wellness.",
-    "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -183,10 +318,31 @@
     "id": "plexwell-naturals-ferti-men",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN FERTi-PRO TABLET",
+    "name": "PLEXWELL NATURALS FERTi-MEN",
     "image": "/assets/images/products/mens/plexwell-naturals-ferti-men.jpg",
     "description": "High-quality PLEXWELL NATURALS FERTi-MEN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "L-Carnitine",
+        "dosage": "500 mg"
+      },
+      {
+        "name": "CoQ10",
+        "dosage": "100 mg"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15 mg"
+      },
+      {
+        "name": "Selenium",
+        "dosage": "55 mcg"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -201,10 +357,27 @@
     "id": "plexwell-naturals-prosti-men",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN PROSTi-PRO SOFTGEL",
+    "name": "PLEXWELL NATURALS PROSTi-MEN",
     "image": "/assets/images/products/mens/plexwell-naturals-prosti-men.jpg",
     "description": "High-quality PLEXWELL NATURALS PROSTi-MEN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Saw Palmetto Extract",
+        "dosage": "320 mg"
+      },
+      {
+        "name": "Pumpkin Seed Extract",
+        "dosage": "200 mg"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15 mg"
+      },
+      {
+        "name": "Lycopene",
+        "dosage": "10 mg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -219,10 +392,27 @@
     "id": "plexwell-naturals-erecti-men-n100",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N100",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "name": "PLEXWELL NATURALS ERECTi-MEN",
+    "image": "/assets/images/products/mens/plexwell-naturals-erecti-men.png",
     "description": "High-quality PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N100 formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "L-Arginine",
+        "dosage": "1000 mg"
+      },
+      {
+        "name": "Maca Root Extract",
+        "dosage": "500 mg"
+      },
+      {
+        "name": "Ginseng Extract",
+        "dosage": "200 mg"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15 mg"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -233,120 +423,34 @@
     ]
   },
   {
-    "id": "plexwell-naturals-erecti-men-n10",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N10",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N10 formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N10"
-    ]
-  },
-  {
-    "id": "plexwell-naturals-regainox-capsule",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS REGAINOX CAPSULE",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS REGAINOX CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-naturals-regainox-gummies",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS REGAINOX GUMMIES",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS REGAINOX GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-naturals-relaunch-capsule",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS RELAUNCH CAPSULE",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS RELAUNCH CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
     "id": "plexwell-naturals-hair-pro-complex-capsule",
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN HAIR-PRO COMPLEX CAPSULE",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "name": "PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE",
+    "image": "/assets/images/products/mens/plexwell-naturals-hair-pro-complex.png",
     "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+    "ingredients": [
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg"
+      },
+      {
+        "name": "Keratin",
+        "dosage": "250 mg"
+      },
+      {
+        "name": "Saw Palmetto Extract",
+        "dosage": "160 mg"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "15 mg"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg"
+      }
     ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-naturals-hair-pro-complex-effervescent",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS MEN HAIR-PRO COMPLEX EFFERVESCENT",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX EFFERVESCENT formulated for optimal health and wellness.",
-    "ingredients": [],
-    "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
-    ],
-    "packSizes": [
-      "N30",
-      "N60"
-    ]
-  },
-  {
-    "id": "plexwell-naturals-hair-pro-scalp-serum",
-    "segment": "Nutraceuticals",
-    "category": "PLEXWELL NATURALS MEN’S HEALTH",
-    "name": "PLEXWELL NATURALS HAIR-PRO SCALP SERUM",
-    "image": "/assets/images/pharma_product_nutra.png",
-    "description": "High-quality PLEXWELL NATURALS HAIR-PRO SCALP SERUM formulated for optimal health and wellness.",
-    "ingredients": [],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1207,7 +1311,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS VITAMIN D3 SUPPLEMENT’S",
     "name": "PLEXWELL NATURALS VIT D3 GUMMIES",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-vitamin-d3-gummies.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [

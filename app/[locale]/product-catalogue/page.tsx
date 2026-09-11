@@ -18,8 +18,8 @@ export default async function ProductCataloguePage({ params }: { params: Promise
       </Suspense>
       {/* SEO hidden links for crawlers to discover all products since the client component paginates */}
       <div className="sr-only">
-        {products.map((product) => (
-          <Link key={product.id} href={`/${locale}/product-catalogue/${product.id}`}>
+        {products.map((product, idx) => (
+          <Link key={`${product.id}-${idx}`} href={`/${locale}/product-catalogue/${product.id}`}>
             {product.name}
           </Link>
         ))}
