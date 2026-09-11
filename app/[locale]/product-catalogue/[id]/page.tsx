@@ -1,7 +1,7 @@
 import { notFound } from 'next/navigation';
 import Image from 'next/image';
 import Link from 'next/link';
-import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid, Download } from 'lucide-react';
+import { ArrowLeft, CheckCircle2, Shield, Beaker, FileText, ThermometerSnowflake, FileCheck, HelpCircle, Package, Grid, Download, Globe } from 'lucide-react';
 import products from '@/data/products.json';
 import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';
@@ -262,7 +262,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <ThermometerSnowflake className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Storage & Stability</h3>
-            <p className="text-slate-600 font-light">Specific storage conditions and comprehensive stability data are detailed in the product dossier, available upon commercial request.</p>
+            <p className="text-slate-600 font-light">{((product as any).storage) || "Specific storage conditions and comprehensive stability data are detailed in the product dossier, available upon commercial request."}</p>
           </div>
           
           <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
@@ -270,8 +270,18 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <FileCheck className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Regulatory Compliance</h3>
-            <p className="text-slate-600 font-light">Dossiers (CTD format) and other necessary regulatory documentation are prepared per the specific regulatory requirements of the target market.</p>
+            <p className="text-slate-600 font-light">{((product as any).regulatoryCompliance) || "Dossiers (CTD format) and other necessary regulatory documentation are prepared per the specific regulatory requirements of the target market."}</p>
           </div>
+
+          {((product as any).origin) && (
+            <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
+              <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
+                <Globe className="w-6 h-6" />
+              </div>
+              <h3 className="text-xl font-bold text-brand-900 mb-4">Origin</h3>
+              <p className="text-slate-600 font-light">{(product as any).origin}</p>
+            </div>
+          )}
         </div>
 
         <div className="mb-24 bg-white rounded-[3rem] p-10 lg:p-16 border border-slate-100 shadow-sm">

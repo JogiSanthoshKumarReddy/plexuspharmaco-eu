@@ -2372,13 +2372,10 @@
       }
     ],
     "features": [
-      "Made in USA",
       "World's first primary ready-to-use liquid hemostatic agent.",
       "Arrests bleeding in seconds on contact.",
       "Effective in all kinds of surgeries, all ages, and effective even in presence of anticoagulants or factor deficiencies.",
-      "For invasive, semi-invasive, and non-invasive surgeries.",
-      "Regulatory Compliance: Class-III CE Marked Medical Device. Made in USA. FDA Phase-I and Phase-II completed.",
-      "Storage: Long term storage: -10 to -70 °C. Up to 48 hours: 2 to 8 °C. Up to 12 hours: at room temperature below 25 °C. Shelf Life: 3 years"
+      "For invasive, semi-invasive, and non-invasive surgeries."
     ],
     "packSizes": [
       "3ml vial",
@@ -2406,6 +2403,8 @@
         "question": "Is SeraSeal a bioabsorbable hemostatic agent?",
         "answer": "Yes. SeraSeal has a good bioabsorbtion profile and gets absorbed within 14 days."
       }
-    ]
+    ],
+    "origin": "Made in USA",
+    "storage": "Long term storage: -10 to -70 °C. Up to 48 hours: 2 to 8 °C. Up to 12 hours: at room temperature below 25 °C. Shelf Life: 3 years"
   }
 ]
