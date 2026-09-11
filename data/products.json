@@ -2362,8 +2362,14 @@
     "image": "/assets/images/products/featured/seraseal.png",
     "description": "World's first primary ready-to-use liquid hemostatic agent. Arrests bleeding in seconds on contact.",
     "ingredients": [
-      "Agar",
-      "Coagulation factors (bovine) II, VII, IX, and X"
+      {
+        "name": "Agar",
+        "dosage": "Standard"
+      },
+      {
+        "name": "Coagulation factors (bovine) II, VII, IX, and X",
+        "dosage": "Standard"
+      }
     ],
     "features": [
       "Made in USA",
