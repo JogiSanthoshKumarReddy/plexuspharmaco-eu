@@ -25,9 +25,9 @@ export default function FeaturedProducts() {
   ];
   
   // Map through IDs to preserve the exact sequence specified above
-  const featuredProducts = featuredIds
+  const featuredProducts = (featuredIds
     .map(id => products.find(p => p.id === id))
-    .filter(Boolean)
+    .filter(Boolean) as Product[])
     .slice(0, 8);
 
   if (featuredProducts.length === 0) return null;
