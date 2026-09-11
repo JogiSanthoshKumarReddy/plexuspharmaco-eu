@@ -9,4 +9,5 @@ export interface Product {
   description: string;
   ingredients: { name: string; dosage: string; dv?: string }[];
   features: string[];
+  faqs?: { question: string; answer: string }[];
 }

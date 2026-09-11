@@ -25,6 +25,18 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
   const [isMobileFiltersOpen, setIsMobileFiltersOpen] = useState(false);
   const [visibleCount, setVisibleCount] = useState(12);
 
+  const renderProductName = (name: string) => {
+    if (!name.includes('™')) return name;
+    const parts = name.split('™');
+    return (
+      <>
+        {parts[0]}
+        <sup className="text-[0.6em] text-accent-500 font-extrabold mx-0.5 align-super">™</sup>
+        {parts[1]}
+      </>
+    );
+  };
+
   // Sync state to URL without reloading
   useEffect(() => {
     const params = new URLSearchParams();
@@ -268,7 +280,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                   {/* Content Body */}
                   <div className="p-8 flex flex-col flex-grow">
                     <h4 className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors line-clamp-2">
-                      {product.name}
+                      {renderProductName(product.name)}
                     </h4>
                     {product.description ? (
                       <p className="text-slate-600 text-sm leading-relaxed mb-6 line-clamp-3">

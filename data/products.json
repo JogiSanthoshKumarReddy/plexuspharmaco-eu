@@ -2359,7 +2359,7 @@
     "segment": "Medical Devices",
     "category": "MEDICAL DEVICE CLASS-III",
     "name": "SeraSeal™",
-    "image": "/assets/images/products/featured/seraseal.png",
+    "image": "/assets/images/products/featured/seraseal.jpg",
     "description": "World's first primary ready-to-use liquid hemostatic agent. Arrests bleeding in seconds on contact.",
     "ingredients": [
       {
@@ -2377,13 +2377,35 @@
       "Arrests bleeding in seconds on contact.",
       "Effective in all kinds of surgeries, all ages, and effective even in presence of anticoagulants or factor deficiencies.",
       "For invasive, semi-invasive, and non-invasive surgeries.",
-      "Storage: Long term storage: -10 to -70 °C. Up to 48 hours: 2 to 8 °C. Up to 12 hours: at room temperature below 25 °C.",
-      "Regulatory Compliance: Class-III CE Marked Medical Device. Made in USA. FDA Phase-I and Phase-II completed."
+      "Regulatory Compliance: Class-III CE Marked Medical Device. Made in USA. FDA Phase-I and Phase-II completed.",
+      "Storage: Long term storage: -10 to -70 °C. Up to 48 hours: 2 to 8 °C. Up to 12 hours: at room temperature below 25 °C. Shelf Life: 3 years"
     ],
     "packSizes": [
       "3ml vial",
       "5ml vial",
       "30ml foam canister"
+    ],
+    "faqs": [
+      {
+        "question": "What is SeraSeal?",
+        "answer": "A one component hemostatic agent designed to arrest all forms of hemorrhages in seconds. It can be used invasively, semi-invasively, and non-invasively."
+      },
+      {
+        "question": "What is in SeraSeal®?",
+        "answer": "SeraSeal® contains bovine proteins: Factors II, VII, IX, and X."
+      },
+      {
+        "question": "Is SeraSeal® a drug?",
+        "answer": "No. SeraSeal® is a Class III Medical Device. The product is applied topically to the wound, and it is not introduced into the vascular system, nor enters the cell, as per the definition of a drug."
+      },
+      {
+        "question": "Have there been any adverse reactions?",
+        "answer": "No. SeraSeal® has had no reported adverse effects. It is estimated that less than 0.05% of the population would be sensitive to SeraSeal®, and they would be patients sensitive to bovine proteins, and a few lupus patients."
+      },
+      {
+        "question": "Is SeraSeal a bioabsorbable hemostatic agent?",
+        "answer": "Yes. SeraSeal has a good bioabsorbtion profile and gets absorbed within 14 days."
+      }
     ]
   }
 ]

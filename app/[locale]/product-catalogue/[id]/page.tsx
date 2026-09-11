@@ -64,6 +64,18 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
   const { id } = await params;
   const product = products.find((p) => p.id === id);
 
+  const renderProductName = (name: string) => {
+    if (!name.includes('™')) return name;
+    const parts = name.split('™');
+    return (
+      <>
+        {parts[0]}
+        <sup className="text-[0.6em] text-accent-500 font-extrabold mx-0.5 align-super">™</sup>
+        {parts[1]}
+      </>
+    );
+  };
+
   if (!product) {
     notFound();
   }
@@ -120,7 +132,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               </div>
               
               <h1 className="text-4xl lg:text-5xl font-bold text-brand-900 mb-6 leading-tight tracking-tight">
-                {product.name}
+                {renderProductName(product.name)}
               </h1>
               
               <p className="text-xl text-slate-600 leading-relaxed font-light mb-10">
@@ -268,18 +280,25 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             <p className="text-slate-600">Common queries regarding {product.name}</p>
           </div>
           <div className="space-y-6 max-w-4xl mx-auto">
-            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-              <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> What is the minimum order quantity (MOQ)?</h4>
-              <p className="text-slate-600 font-light text-sm">MOQ varies depending on the packaging type and destination country. Please contact our sales team using the inquiry form for a detailed quote.</p>
-            </div>
-            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-              <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Can this product be formulated under private label?</h4>
-              <p className="text-slate-600 font-light text-sm">Yes, Plexuspharmaco offers extensive contract manufacturing and private labeling services for this product category subject to regulatory approvals in the target market.</p>
-            </div>
-            <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-              <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> Are stability studies available?</h4>
-              <p className="text-slate-600 font-light text-sm">Stability data corresponding to relevant climatic zones is available as part of the product dossier.</p>
-            </div>
+            {((product as any).faqs || [
+              {
+                question: "What is the minimum order quantity (MOQ)?",
+                answer: "MOQ varies depending on the packaging type and destination country. Please contact our sales team using the inquiry form for a detailed quote."
+              },
+              {
+                question: "Can this product be formulated under private label?",
+                answer: "Yes, Plexuspharmaco offers extensive contract manufacturing and private labeling services for this product category subject to regulatory approvals in the target market."
+              },
+              {
+                question: "Are stability studies available?",
+                answer: "Stability data corresponding to relevant climatic zones is available as part of the product dossier."
+              }
+            ]).map((faq: { question: string, answer: string }, idx: number) => (
+              <div key={idx} className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
+                <h4 className="font-bold text-brand-900 mb-2 flex items-center gap-2"><HelpCircle className="w-4 h-4 text-brand-600"/> {faq.question}</h4>
+                <p className="text-slate-600 font-light text-sm">{faq.answer}</p>
+              </div>
+            ))}
           </div>
         </div>
 
@@ -336,7 +355,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                   <Image src={related.image || getProductImage(related.category)} alt={related.name} fill className="object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="text-xs font-bold text-brand-600 uppercase mb-2">{related.category}</div>
-                <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1">{related.name}</h4>
+                <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1">{renderProductName(related.name)}</h4>
               </Link>
             ))}
           </div>

@@ -12,6 +12,18 @@ export default function FeaturedProducts() {
   const params = useParams();
   const locale = params?.locale || 'en';
 
+  const renderProductName = (name: string) => {
+    if (!name.includes('™')) return name;
+    const parts = name.split('™');
+    return (
+      <>
+        {parts[0]}
+        <sup className="text-[0.6em] text-accent-500 font-extrabold mx-0.5 align-super">™</sup>
+        {parts[1]}
+      </>
+    );
+  };
+
   // Select 8 interesting products in specific order
   const featuredIds = [
     "myo-gummy",
@@ -93,7 +105,7 @@ export default function FeaturedProducts() {
                 
                 <div className="p-6 flex flex-col h-[calc(100%-16rem)]">
                   <h3 className="font-bold text-brand-900 text-lg mb-2 line-clamp-2 group-hover:text-brand-700 transition-colors">
-                    {product.name}
+                    {renderProductName(product.name)}
                   </h3>
                   <p className="text-slate-500 text-sm font-light line-clamp-2 flex-grow">
                     {product.description}
