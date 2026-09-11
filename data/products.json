@@ -2361,12 +2361,16 @@
     "name": "SeraSeal",
     "image": "/assets/images/products/featured/seraseal.png",
     "description": "World's first primary ready-to-use liquid hemostatic agent. Arrests bleeding in seconds on contact.",
-    "ingredients": [],
+    "ingredients": [
+      "Agar",
+      "Coagulation factors (bovine) II, VII, IX, and X"
+    ],
     "features": [
       "World's first primary ready-to-use liquid hemostatic agent.",
       "Arrests bleeding in seconds on contact.",
       "Effective in all kinds of surgeries, all ages, and effective even in presence of anticoagulants or factor deficiencies.",
-      "Made in USA"
+      "Made in USA",
+      "For invasive, semi-invasive, and non-invasive surgeries."
     ],
     "packSizes": [
       "3ml vial",
