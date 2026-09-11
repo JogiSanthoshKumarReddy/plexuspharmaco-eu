@@ -373,18 +373,19 @@ function generateProductSpecPDF(product) {
   doc.setFont('helvetica', 'bold');
   doc.setFontSize(11);
   doc.setTextColor(...NAVY);
-  doc.text('4. Regulatory & Commercial Specifications', 14, currentY);
+  doc.text('4. Product Specifications', 14, currentY);
   currentY += 6;
 
   autoTable(doc, {
     startY: currentY,
-    head: [['Parameter', 'Specification Standard']],
+    head: [['Specification', 'Details']],
     body: [
-      ['Dosage Form / Delivery', product.category || 'Pharmaceutical / Nutraceutical'],
-      ['Quality Certificate', 'Certificate of Analysis (CoA), GMP, Free Sale Certificate (FSC)'],
-      ['Regulatory Dossier', 'CTD / eCTD Format Available Upon Request'],
-      ['Storage Conditions', 'Store below 25°C in a dry place, protected from direct sunlight'],
-      ['Shelf Life / Stability', '24 to 36 Months (Accelerated & Real-Time Stability Data Available)']
+      ['Segment', product.segment || 'Pharmaceuticals / Nutraceuticals'],
+      ['Category', product.category || 'General Health'],
+      ['Packaging', product.packSizes && product.packSizes.length > 0 ? product.packSizes.join(', ') : 'Customized packaging configurations available for bulk orders to meet destination market requirements.'],
+      ['Storage & Stability', product.storage || 'Specific storage conditions and comprehensive stability data are detailed in the product dossier, available upon commercial request.'],
+      ['Regulatory Compliance', product.regulatoryCompliance || 'Dossiers (CTD format) and other necessary regulatory documentation are prepared per the specific regulatory requirements of the target market.'],
+      ['Quality Certificate', 'Certificate of Analysis (CoA), GMP, Free Sale Certificate (FSC)']
     ],
     headStyles: { fillColor: NAVY, textColor: 255, fontStyle: 'bold', fontSize: 9 },
     bodyStyles: { textColor: SLATE_DARK, fontSize: 8.5 },
@@ -426,13 +427,14 @@ function generateFullCataloguePDF(products) {
   const tableBody = products.map((p, idx) => [
     (idx + 1).toString(),
     p.name,
+    p.segment || 'Nutraceuticals',
     p.category,
     p.ingredients && p.ingredients.length > 0 ? p.ingredients.map(i => i.name).join(', ') : 'Standard Formulation'
   ]);
 
   autoTable(doc, {
     startY: currentY,
-    head: [['#', 'Product Name', 'Category', 'Key Ingredients']],
+    head: [['#', 'Product Name', 'Segment', 'Category', 'Key Ingredients']],
     body: tableBody,
     headStyles: { fillColor: NAVY, textColor: 255, fontStyle: 'bold', fontSize: 8.5 },
     bodyStyles: { textColor: SLATE_DARK, fontSize: 7.5 },

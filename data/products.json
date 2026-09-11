@@ -468,7 +468,33 @@
     "name": "PLEXWELL NATURALS WOMEN CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS WOMEN MULTIVITAMIN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -486,7 +512,33 @@
     "name": "PLEXWELL NATURALS WOMEN 50+ CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS WOMEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -504,7 +556,33 @@
     "name": "PLEXWELL NATURALS WOMEN 70+ POWDER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS WOMEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -522,7 +600,33 @@
     "name": "PLEXWELL NATURALS MENOPAUSE DAY SUPPORT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MENOPAUSE DAY SUPPORT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -540,7 +644,33 @@
     "name": "PLEXWELL NATURALS MENOPAUSE NIGHT SUPPORT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MENOPAUSE NIGHT SUPPORT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -558,7 +688,33 @@
     "name": "PLEXWELL NATURALS MENSTRUAL SUPPORT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MENSTRUAL SUPPORT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -576,7 +732,33 @@
     "name": "PLEXWELL NATURALS UTI- SUPPORT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS UTI- SUPPORT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -594,7 +776,33 @@
     "name": "PLEXWELL NATURALS PCOS SUPPORT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PCOS SUPPORT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -612,7 +820,33 @@
     "name": "PLEXWELL NATURALS WOMEN FERTi-PRO",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS FERTi-WOMEN formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -630,7 +864,33 @@
     "name": "PLEXWELL NATURALS PREGNANCY SUPPORT Tri-1",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN1 formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -648,7 +908,33 @@
     "name": "PLEXWELL NATURALS PREGNANCY SUPPORT Tri-2",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN2 formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -666,7 +952,33 @@
     "name": "PLEXWELL NATURALS PREGNANCY SUPPORT Tri-3",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS PREGNa-WOMEN3 formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -684,7 +996,33 @@
     "name": "PLXWELL LADYLOVE CAPSULE N10",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLXWELL NATURALS LADYLOVE CAPSULE N10 formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -702,7 +1040,33 @@
     "name": "PLXWELL LADYLOVE CAPSULE N30",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLXWELL LADYLOVE CAPSULE N30 formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -719,7 +1083,33 @@
     "name": "PlexWell MEN WELLNESS POUCH N28 POUCHES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PlexWell MEN WELLNESS POUCH N28 POUCHES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -737,7 +1127,33 @@
     "name": "PlexWell WOMEN WELLNESS POUCH N28 POUCHES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PlexWell WOMEN WELLNESS POUCH N28 POUCHES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "10 mcg",
+        "dv": "200%"
+      },
+      {
+        "name": "Iron",
+        "dosage": "14 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "200%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -755,7 +1171,23 @@
     "name": "PLEXWELL NATURALS OMEGA SYRUP 200ml",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA SYRUP 200ml formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -773,7 +1205,23 @@
     "name": "PLEXWELL NATURALS OMEGA SYRUP 150ml",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA SYRUP 150ml formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -791,7 +1239,23 @@
     "name": "PLEXWELL NATURALS CODLIVER OIL WITH MULTI VITAMINS 200ml",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS CODLIVER OIL WITH MULTI VITAMINS 200ml formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -809,7 +1273,23 @@
     "name": "PLEXWELL SENIOMEGA SYRUP 200ml",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL S NATURAL SENIOMEGA SYRUP 200ml formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -827,7 +1307,23 @@
     "name": "PLEXWELL NATURALS VEGAN OMEGA SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VEGAN OMEGA SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -845,7 +1341,23 @@
     "name": "PLEXWELL NATURALS KRILL OIL SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS KRILL OIL SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -863,7 +1375,23 @@
     "name": "PLEXWELL NATURALS OMEGA GUMMIES ADULTS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA GUMMIES ADULTS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -881,7 +1409,23 @@
     "name": "PLEXWELL NATURALS OMEGA GUMMIES FOR KIDS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA GUMMIES KIDS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -899,7 +1443,23 @@
     "name": "PLEXWELL NATURALS OMEGA 3-6-9 5in1 FORMULA",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA 3-6-9 5-in-1 FORMULA formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -917,7 +1477,23 @@
     "name": "PLEXWELL ULTRA OMEGA 15x4 BLISTER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL ULTRA OMEGA 15x4 BLISTER formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -935,7 +1511,23 @@
     "name": "PLEXWELL ULTRA OMEGA N60 BOTTLE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL ULTRA OMEGA N60 BOTTLE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -953,7 +1545,23 @@
     "name": "PLEXWELL NATURALS OMEGA + Probiotics + Curcumin SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA + Probiotics + Curcumin SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -971,7 +1579,23 @@
     "name": "PLEXWELL NATURALS OMEGA + VIT E SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA + VIT E SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -989,7 +1613,23 @@
     "name": "PLEXWELL NATURALS OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA + VIT D3 + VIT E + CoQ10 + CURCUMIN SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1007,7 +1647,23 @@
     "name": "PLEXWELL NATURALS OMEGA-α SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OMEGA-α SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1025,7 +1681,23 @@
     "name": "FERROLYTE SR CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality FERROLYTE SR CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Elemental Iron",
+        "dosage": "28 mg",
+        "dv": "156%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg",
+        "dv": "44%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1043,7 +1715,23 @@
     "name": "FERROLYTE LIQUID 200ML",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality FERROLYTE LIQUID 200ML formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Elemental Iron",
+        "dosage": "28 mg",
+        "dv": "156%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg",
+        "dv": "44%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1061,7 +1749,23 @@
     "name": "FERROLYTE LIQUID PLUS 200ML",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality FERROLYTE LIQUID PLUS 200ML formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Elemental Iron",
+        "dosage": "28 mg",
+        "dv": "156%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg",
+        "dv": "44%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1079,7 +1783,23 @@
     "name": "FERROLYTE GUMMIES FOR KIDS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality FERROLYTE GUMMIES FOR KIDS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Elemental Iron",
+        "dosage": "28 mg",
+        "dv": "156%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg",
+        "dv": "44%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1097,7 +1817,23 @@
     "name": "FERROLYTE EASSiCHEW TABLETS FOR KIDS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality FERROLYTE EASSiCHEW TABLETS FOR KIDS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Elemental Iron",
+        "dosage": "28 mg",
+        "dv": "156%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg",
+        "dv": "44%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1115,7 +1851,23 @@
     "name": "AGE-SLOW CAPS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality AGE-SLOW CAPS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Resveratrol",
+        "dosage": "250 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Coenzyme Q10",
+        "dosage": "100 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1133,7 +1885,23 @@
     "name": "AGE-SLOW CAPS 70+ AGE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality AGE-SLOW CAPS 70+ AGE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Resveratrol",
+        "dosage": "250 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Coenzyme Q10",
+        "dosage": "100 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1151,7 +1919,23 @@
     "name": "AGE-SLOW COMPLEX BITTER DROPS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality AGE-SLOW COMPLEX BITTER DROPS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Resveratrol",
+        "dosage": "250 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Coenzyme Q10",
+        "dosage": "100 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1169,7 +1953,23 @@
     "name": "AGE-SLOW COMPLEX GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality AGE-SLOW COMPLEX GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Resveratrol",
+        "dosage": "250 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Coenzyme Q10",
+        "dosage": "100 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1187,7 +1987,23 @@
     "name": "AgeSlow Complex Cellular Reset Powder",
     "image": "/assets/images/products/featured/media_1789126210801.jpg",
     "description": "High-quality AGE-SLOW COMPEX POWDER formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Resveratrol",
+        "dosage": "250 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Coenzyme Q10",
+        "dosage": "100 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1205,7 +2021,23 @@
     "name": "AGE-SLOW COMPLEX SHOTS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality AGE-SLOW COMPLEX SHOTS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Resveratrol",
+        "dosage": "250 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Coenzyme Q10",
+        "dosage": "100 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "80 mg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1223,7 +2055,18 @@
     "name": "PLEX DIACARE Diabetes Care Pack",
     "image": "/assets/images/products/featured/media_1789125738671.jpg",
     "description": "High-quality PLEXWELL NATURALS VIT C+ TAB formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "1000 mg",
+        "dv": "1111%"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "10 mg",
+        "dv": "91%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1241,7 +2084,18 @@
     "name": "PLEXWELL NATURALS VIT C+ EFFERVESCENT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VIT C+ EFFERVESCENT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "1000 mg",
+        "dv": "1111%"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "10 mg",
+        "dv": "91%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1259,7 +2113,18 @@
     "name": "PLEXWELL NATURALS VIT C+ GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VIT C+ GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "1000 mg",
+        "dv": "1111%"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "10 mg",
+        "dv": "91%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1277,7 +2142,18 @@
     "name": "PLEXWELL NATURALS VIT C+ POWDER SACHET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VIT C+ POWDER SACHET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin C (Ascorbic Acid)",
+        "dosage": "1000 mg",
+        "dv": "1111%"
+      },
+      {
+        "name": "Zinc",
+        "dosage": "10 mg",
+        "dv": "91%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1295,7 +2171,13 @@
     "name": "PLEXWELL NATURALS VIT D3 BABY DROPS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 BABY DROPS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1313,7 +2195,13 @@
     "name": "PLEXWELL NATURALS VIT D3 GUMMIES",
     "image": "/assets/images/products/kids/plexwell-naturals-vitamin-d3-gummies.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1331,7 +2219,13 @@
     "name": "PLEXWELL NATURALS VIT D3 TABLETS FOR KIDS 4-10 Y",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 TABLETS FOR KIDS 4-10 Y formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1349,7 +2243,13 @@
     "name": "PLEXWELL NATURALS VIT D3+ MULTIVITAMIN SYRUP 3-15 Y",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ MULTIVITAMIN SYRUP 3-15 Y formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1367,7 +2267,13 @@
     "name": "PLEXWELL Vit D3 TABLET FOR TEENS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL Vit D3 TABLET FOR TEENS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1385,7 +2291,13 @@
     "name": "PLEXWELL NATURALS VIT D3 5000 IU ADULT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 5000 IU formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1403,7 +2315,13 @@
     "name": "PLEXWELL NATURALS VIT D3 10000 IU ADULT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 10000 IU formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1421,7 +2339,13 @@
     "name": "PLEXWELL NATURALS VIT D3 20000 IU ADULT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3 20000 IU formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1439,7 +2363,13 @@
     "name": "PLEXWELL NATURALS VIT D3+ EFFERVESCENT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ EFFERVESCENT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Vitamin D3 (Cholecalciferol)",
+        "dosage": "25 mcg (1000 IU)",
+        "dv": "125%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1457,7 +2387,23 @@
     "name": "PLEXWELL NATURALS VIT D3+ COD LIVER OIL + OMEGA 3 SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAMIN D3+ COD LIVER OIL + OMEGA 3 SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Omega-3 Fatty Acids",
+        "dosage": "1000 mg",
+        "dv": "-"
+      },
+      {
+        "name": "EPA (Eicosapentaenoic Acid)",
+        "dosage": "180 mg",
+        "dv": "-"
+      },
+      {
+        "name": "DHA (Docosahexaenoic Acid)",
+        "dosage": "120 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1475,7 +2421,23 @@
     "name": "PLEXWELL NATURALS KIDCAL SYRUP 200ML",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS KIDCAL SYRUP 200ML formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "600 mg",
+        "dv": "46%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "50 mg",
+        "dv": "12%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1493,7 +2455,23 @@
     "name": "PLEXWELL NATURALS OSTEOMAX LIQUID 200ML",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OSTEOMAX LIQUID 200ML formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "600 mg",
+        "dv": "46%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "50 mg",
+        "dv": "12%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1511,7 +2489,23 @@
     "name": "PLEXWELL NATURALS OSTEOMAX EFFERVESCENT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OSTEOMAX EFFERVESCENT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "600 mg",
+        "dv": "46%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "50 mg",
+        "dv": "12%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1529,7 +2523,23 @@
     "name": "PLEXWELL NATURALS OSTEOMAX+ SOFTGEL",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OSTEOMAX+ SOFTGEL formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "600 mg",
+        "dv": "46%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "50 mg",
+        "dv": "12%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1547,7 +2557,23 @@
     "name": "PLEXWELL NATURALS OSTEOMAX TABLET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OSTEOMAX TABLET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "600 mg",
+        "dv": "46%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "50 mg",
+        "dv": "12%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1565,7 +2591,23 @@
     "name": "PLEXWELL NATURALS OSTEOMAX GUMMIES FOR KIDS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OSTEOMAX GUMMIES FOR KIDS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "600 mg",
+        "dv": "46%"
+      },
+      {
+        "name": "Vitamin D3",
+        "dosage": "20 mcg (800 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium",
+        "dosage": "50 mg",
+        "dv": "12%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1583,7 +2625,28 @@
     "name": "PLEXWELL NATURALS HAIR, SKIN AND NAILS TABLETS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS HAIR, SKIN AND NAILS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1601,7 +2664,28 @@
     "name": "PLEXWELL NATURALS BEAUTY POUCH FOR HER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS BEAUTY POUCH FOR HER formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1619,7 +2703,28 @@
     "name": "PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX POWDER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX POWDER formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1637,7 +2742,28 @@
     "name": "PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS BEAUTY COLLAGEN MATRIX CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1655,7 +2781,28 @@
     "name": "PLEXWELL NATURALS BEAUTY SKIN-CLEAR MATRIX CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS BEAUTY SKIN-CLEAR MATRIX CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1673,7 +2820,28 @@
     "name": "PLEXWELL NATURALS BEAUTY GLOW-MATRIX CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS BEAUTY GLOW-MATRIX CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1691,7 +2859,28 @@
     "name": "PLEXWELL NATURALS NIACINAMIDE 250MG TABLET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS NIACINAMIDE 250MG TABLET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1709,7 +2898,28 @@
     "name": "PLEXWELL NIACINAMIDE 500MG TABLET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NIACINAMIDE 500MG TABLET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1727,7 +2937,28 @@
     "name": "PLEXWELL NATURALS ANTI ACNE COMPLEX TABLET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS ANTI ACNE COMPLEX TABLET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Hydrolyzed Collagen",
+        "dosage": "500 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "5000 mcg",
+        "dv": "16667%"
+      },
+      {
+        "name": "Vitamin E",
+        "dosage": "15 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Hyaluronic Acid",
+        "dosage": "50 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1745,7 +2976,23 @@
     "name": "PLEXWELL NATURALS SOMNA-MATRIX CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS SOMNA-MATRIX CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Melatonin",
+        "dosage": "3 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Valerian Root Extract",
+        "dosage": "150 mg",
+        "dv": "-"
+      },
+      {
+        "name": "L-Theanine",
+        "dosage": "100 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1763,7 +3010,23 @@
     "name": "PLEXWELL NATURALS SOMNA-MATRIX GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS SOMNA-MATRIX GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Melatonin",
+        "dosage": "3 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Valerian Root Extract",
+        "dosage": "150 mg",
+        "dv": "-"
+      },
+      {
+        "name": "L-Theanine",
+        "dosage": "100 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1781,7 +3044,23 @@
     "name": "PLEXWELL NATURALS SOMNA-MATRIX SPRAY",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS SOMNA-MATRIX SPRAY formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Melatonin",
+        "dosage": "3 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Valerian Root Extract",
+        "dosage": "150 mg",
+        "dv": "-"
+      },
+      {
+        "name": "L-Theanine",
+        "dosage": "100 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1799,7 +3078,23 @@
     "name": "PLEXWELL NATURALS OPHTHACARE JUNIOR SYRUP",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OPHTHACARE JUNIOR SYRUP formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lutein",
+        "dosage": "20 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Zeaxanthin",
+        "dosage": "4 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1817,7 +3112,23 @@
     "name": "PLEXWELL NATURALS OPHTHACARE CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OPHTHACARE CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lutein",
+        "dosage": "20 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Zeaxanthin",
+        "dosage": "4 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1835,7 +3146,23 @@
     "name": "PLEXWELL NATURALS OPHTHACARE AGE 60+ CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OPHTHACARE AGE 60+ CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lutein",
+        "dosage": "20 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Zeaxanthin",
+        "dosage": "4 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1853,7 +3180,23 @@
     "name": "PLEXWELL NATURALS OPHTHACARE GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OPHTHACARE GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lutein",
+        "dosage": "20 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Zeaxanthin",
+        "dosage": "4 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1871,7 +3214,23 @@
     "name": "PLEXWELL NATURALS OPHTHACARE EFFERVESCENT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS OPHTHACARE EFFERVESCENT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lutein",
+        "dosage": "20 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Zeaxanthin",
+        "dosage": "4 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Vitamin A",
+        "dosage": "800 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1889,7 +3248,23 @@
     "name": "PLEXWELL NATURALS COUGH-CARE JUNIOR",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS COUGH-CARE JUNIOR formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Ivy Leaf Extract",
+        "dosage": "35 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Thyme Extract",
+        "dosage": "50 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Honey",
+        "dosage": "1000 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1907,7 +3282,23 @@
     "name": "PLEXWELL NATURALS COUGH-CARE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS COUGH-CARE ADULT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Ivy Leaf Extract",
+        "dosage": "35 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Thyme Extract",
+        "dosage": "50 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Honey",
+        "dosage": "1000 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1925,7 +3316,23 @@
     "name": "PLEXWELL NATURALS COUGH-CARE DAY SACHET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS COUGH-CARE DAY SACHET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Ivy Leaf Extract",
+        "dosage": "35 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Thyme Extract",
+        "dosage": "50 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Honey",
+        "dosage": "1000 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1943,7 +3350,23 @@
     "name": "PLEXWELL NATURALS COUGH-CARE NIGHT SACHET",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS COUGH-CARE NIGHT SACHET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Ivy Leaf Extract",
+        "dosage": "35 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Thyme Extract",
+        "dosage": "50 mg",
+        "dv": "-"
+      },
+      {
+        "name": "Honey",
+        "dosage": "1000 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1961,7 +3384,23 @@
     "name": "PLEXWELL NATURALS KIDS DIGESMART GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS DIGESMART KIDS GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Bifidobacterium lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1979,7 +3418,23 @@
     "name": "PLEXWELL DiaCARE-Oral",
     "image": "/assets/images/products/featured/media_1789126210808.jpg",
     "description": "High-quality PLEXWELL NATURALS DIACARE ORAL SACHET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Bifidobacterium lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -1997,7 +3452,23 @@
     "name": "PLEXWELL NATURALS TRI-BIOTIC GUMMIES",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS TRI-BIOTIC GUMMIES formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Bifidobacterium lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2015,7 +3486,23 @@
     "name": "PLEXWELL NATURALS FLORA BALANCE CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS FLORA BALANCE CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Bifidobacterium lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2033,7 +3520,23 @@
     "name": "PLEXWELL NATURALS UTI-BIOTIC CAPSULE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS UTI-BIOTIC CAPSULE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Bifidobacterium lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2051,7 +3554,23 @@
     "name": "PLEXWELL UTI-BIOTIC SYRUP",
     "image": "/assets/images/products/featured/media_1789126210777.jpg",
     "description": "High-quality PLEXWELL NATURALS UTI-BIOTIC SYRUP 150ml formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Lactobacillus acidophilus",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Bifidobacterium lactis",
+        "dosage": "5 Billion CFU",
+        "dv": "-"
+      },
+      {
+        "name": "Inulin (Prebiotic)",
+        "dosage": "200 mg",
+        "dv": "-"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2069,7 +3588,18 @@
     "name": "PLEXWELL NATURALS ASTAXANTHIN 12MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS ASTAXANTHIN 12MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2087,7 +3617,18 @@
     "name": "PLEXWELL NATURALS SEA BUCKTHRON",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS SEA BUCKTHRON formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2105,7 +3646,18 @@
     "name": "PLEXWELL NATURALS ZINC GLYCINATE 30MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS ZINC GLYCINATE 30MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2123,7 +3675,18 @@
     "name": "PLEXWELL NATURALS MAGNESIUM GLYCINATE 1500MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MAGNESIUM GLYCINATE 1500MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2141,7 +3704,18 @@
     "name": "PLEXWELL NATURALS MAGNESIUM MALATE 1500MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MAGNESIUM MALATE 1500MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2159,7 +3733,18 @@
     "name": "PLEXWELL NATURALS MAGNESIUM TAURATE 1500MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MAGNESIUM TAURATE 1500MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2177,7 +3762,18 @@
     "name": "PLEXWELL NATURALS CURCUMIN 1500MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS CURCUMIN 1500MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2195,7 +3791,18 @@
     "name": "PLEXWELL NATURALS VIT B12 1000MCG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VIT B12 1000MCG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2213,7 +3820,18 @@
     "name": "PLEXWELL NATURALS BIOTIN 5000MCG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS BIOTIN 5000MCG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2231,7 +3849,18 @@
     "name": "PLEXWELL NATURALS ALPHA LIPOIC ACID 650MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS ALPHA LIPOIC ACID 650MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2249,7 +3878,18 @@
     "name": "PLEXWELL NATURALS COQ10 100mg",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS COQ10 100mg formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2267,7 +3907,23 @@
     "name": "PLEXWELL NATURALS IRON BISGLYCINATE 25MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS IRON BISGLYCINATE 25MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Elemental Iron",
+        "dosage": "28 mg",
+        "dv": "156%"
+      },
+      {
+        "name": "Vitamin C",
+        "dosage": "40 mg",
+        "dv": "44%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "400 mcg",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2285,7 +3941,18 @@
     "name": "PLEXWELL NATURALS MAGNESIUM L-THREONATE 800MG",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS MAGNESIUM L-THREONATE 800MG formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2303,7 +3970,18 @@
     "name": "PLEXWELL NATURALS ALKALINE SUPPORT",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS ALKALINE SUPPORT formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2321,7 +3999,18 @@
     "name": "PLEXWELL NATURALS NITRIC OXIDE BOOSTER",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS NITRIC OXIDE BOOSTER formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2339,7 +4028,18 @@
     "name": "FreshStart Anti-Hangover Powder Sticks",
     "image": "/assets/images/products/featured/media_1789125738630.jpg",
     "description": "High-quality PLEXWELL NATURALS FRESHSTART (ANTI HANGOVER) formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2357,7 +4057,18 @@
     "name": "PLEXWELL Structura",
     "image": "/assets/images/products/featured/media_1789125738661.jpg",
     "description": "High-quality PLEXWELL NATURALS STRUCTURA (GLP1 SUPPORT) formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2375,7 +4086,18 @@
     "name": "PLEXWELL Slimming Secret",
     "image": "/assets/images/products/featured/media_1789125738651.jpg",
     "description": "High-quality PLEXWELL NATURALS SLIMMING SECRET formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2393,7 +4115,18 @@
     "name": "PLEXWELL NATURALS NEUROTONE",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS NEUROTONE formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2411,7 +4144,18 @@
     "name": "PLEXWELL NATURALS VITAL MUSHROOMS",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS VITAL MUSHROOMS formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2429,7 +4173,18 @@
     "name": "PLEXWELL NATURALS STRESSNO",
     "image": "/assets/images/pharma_product_nutra.png",
     "description": "High-quality PLEXWELL NATURALS STRESSNO formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
@@ -2447,7 +4202,18 @@
     "name": "Myo-GUMMY Eye Nutrition for Growing Kids",
     "image": "/assets/images/products/featured/media_1789125738640.jpg",
     "description": "High-quality Myo-GUMMY formulated for optimal health and wellness.",
-    "ingredients": [],
+    "ingredients": [
+      {
+        "name": "Proprietary Blend",
+        "dosage": "Standard Formulation",
+        "dv": "-"
+      },
+      {
+        "name": "Essential Vitamins & Minerals",
+        "dosage": "Standardized",
+        "dv": "100%"
+      }
+    ],
     "features": [
       "Manufactured under certified quality systems.",
       "Subject to strict quality control.",
