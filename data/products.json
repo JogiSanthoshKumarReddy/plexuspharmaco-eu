@@ -2353,5 +2353,25 @@
       "N30",
       "N60"
     ]
+  },
+  {
+    "id": "seraseal-hemostatic-agent",
+    "segment": "Medical Devices",
+    "category": "MEDICAL DEVICE CLASS-III",
+    "name": "SeraSeal",
+    "image": "/assets/images/products/featured/seraseal.png",
+    "description": "World's first primary ready-to-use liquid hemostatic agent. Arrests bleeding in seconds on contact.",
+    "ingredients": [],
+    "features": [
+      "World's first primary ready-to-use liquid hemostatic agent.",
+      "Arrests bleeding in seconds on contact.",
+      "Effective in all kinds of surgeries, all ages, and effective even in presence of anticoagulants or factor deficiencies.",
+      "Made in USA"
+    ],
+    "packSizes": [
+      "3ml vial",
+      "5ml vial",
+      "30ml foam canister"
+    ]
   }
 ]
