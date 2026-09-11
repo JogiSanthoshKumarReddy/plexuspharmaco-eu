@@ -208,7 +208,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                 <thead>
                   <tr className="border-b-2 border-slate-100">
                     <th className="py-4 px-6 text-sm font-bold text-slate-400 uppercase tracking-wider bg-slate-50 rounded-tl-xl">Component</th>
-                    <th className="py-4 px-6 text-sm font-bold text-slate-400 uppercase tracking-wider bg-slate-50">Amount Per Serving</th>
+                    <th className="py-4 px-6 text-sm font-bold text-slate-400 uppercase tracking-wider bg-slate-50">Quantitative Composition Per Serving</th>
                     <th className="py-4 px-6 text-sm font-bold text-slate-400 uppercase tracking-wider bg-slate-50 rounded-tr-xl">% Daily Value</th>
                   </tr>
                 </thead>

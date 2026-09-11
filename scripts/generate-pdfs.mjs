@@ -353,7 +353,7 @@ function generateProductSpecPDF(product) {
 
     autoTable(doc, {
       startY: currentY,
-      head: [['Active Component', 'Amount Per Serving', '% Daily Value (DV)']],
+      head: [['Active Component', 'Quantitative Composition Per Serving', '% Daily Value (DV)']],
       body: tableBody,
       headStyles: { fillColor: NAVY, textColor: 255, fontStyle: 'bold', fontSize: 9 },
       bodyStyles: { textColor: SLATE_DARK, fontSize: 8.5 },
