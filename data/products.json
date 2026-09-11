@@ -2358,7 +2358,7 @@
     "id": "seraseal-hemostatic-agent",
     "segment": "Medical Devices",
     "category": "MEDICAL DEVICE CLASS-III",
-    "name": "SeraSeal",
+    "name": "SeraSeal™",
     "image": "/assets/images/products/featured/seraseal.png",
     "description": "World's first primary ready-to-use liquid hemostatic agent. Arrests bleeding in seconds on contact.",
     "ingredients": [
@@ -2371,7 +2371,8 @@
       "Arrests bleeding in seconds on contact.",
       "Effective in all kinds of surgeries, all ages, and effective even in presence of anticoagulants or factor deficiencies.",
       "For invasive, semi-invasive, and non-invasive surgeries.",
-      "Storage: Long term storage: -10 to -70 °C. Up to 48 hours: 2 to 8 °C. Up to 12 hours: at room temperature below 25 °C."
+      "Storage: Long term storage: -10 to -70 °C. Up to 48 hours: 2 to 8 °C. Up to 12 hours: at room temperature below 25 °C.",
+      "Regulatory Compliance: Class-III CE Marked Medical Device. Made in USA. FDA Phase-I and Phase-II completed."
     ],
     "packSizes": [
       "3ml vial",
