@@ -172,19 +172,19 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                 </ul>
               </div>
 
-              <div className="flex flex-col sm:flex-row gap-4 mt-auto pt-8 border-t border-slate-100">
+              <div className="flex flex-wrap gap-4 mt-auto pt-8 border-t border-slate-100">
                 <Link 
                   href={`/${(await params).locale}/business-enquiry`}
-                  className="px-8 py-4 bg-brand-900 hover:bg-brand-800 text-white rounded-xl font-bold text-center transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2"
+                  className="flex-1 basis-[calc(50%-0.5rem)] min-w-[240px] px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white rounded-xl font-bold text-center transition-all duration-300 shadow-md hover:shadow-xl hover:-translate-y-1 flex items-center justify-center gap-2"
                 >
-                  <FileText className="w-5 h-5" /> Enquire About Product
+                  <FileText className="w-5 h-5 flex-shrink-0" /> <span>Enquire About Product</span>
                 </Link>
                 <a 
                   href={`/assets/pdfs/Plexuspharmaco_Product_Spec_${product.id}.pdf`}
                   download={`Plexuspharmaco_Product_Spec_${product.name.replace(/[^a-zA-Z0-9_-]/g, '_')}.pdf`}
-                  className="px-8 py-4 bg-white hover:bg-slate-50 text-brand-900 border border-slate-200 rounded-xl font-bold text-center transition-all duration-300 shadow-sm flex items-center justify-center gap-2 group cursor-pointer"
+                  className="flex-1 basis-[calc(50%-0.5rem)] min-w-[240px] px-6 py-4 bg-white hover:bg-slate-50 text-brand-900 border border-slate-200 rounded-xl font-bold text-center transition-all duration-300 shadow-sm flex items-center justify-center gap-2 group cursor-pointer"
                 >
-                  <Download className="w-5 h-5 text-slate-400 group-hover:text-brand-900 transition-colors" /> Download Specification Sheet (PDF)
+                  <Download className="w-5 h-5 flex-shrink-0 text-slate-400 group-hover:text-brand-900 transition-colors" /> <span>Download Specification Sheet (PDF)</span>
                 </a>
               </div>
             </div>

@@ -8,34 +8,125 @@
     "description": "High-quality PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin A",
-        "dosage": "400 mcg"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "15 mcg (600 IU)",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin C",
-        "dosage": "40 mg"
+        "name": "Vitamin A (as Beta-Carotene)",
+        "dosage": "300 mcg RAE",
+        "dv": "67%"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "10 mcg (400 IU)"
+        "name": "Vitamin C (as Ascorbic Acid & Sodium Ascorbate)",
+        "dosage": "45 mg",
+        "dv": "180%"
       },
       {
-        "name": "Vitamin E",
-        "dosage": "6 mg"
+        "name": "Vitamin E (as d-alpha-Tocopheryl Acetate)",
+        "dosage": "6 mg",
+        "dv": "86%"
       },
       {
-        "name": "B-Complex Vitamins",
-        "dosage": "Standard"
+        "name": "Vitamin B1 (Thiamine Mononitrate)",
+        "dosage": "0.5 mg",
+        "dv": "42%"
+      },
+      {
+        "name": "Vitamin B2 (Riboflavin)",
+        "dosage": "0.5 mg",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B3 (as Niacinamide)",
+        "dosage": "6 mg",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxine HCl)",
+        "dosage": "0.5 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folate (as L-Methylfolate)",
+        "dosage": "150 mcg DFE",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "2 mcg",
+        "dv": "167%"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "8 mcg",
+        "dv": "67%"
+      },
+      {
+        "name": "Pantothenic Acid (as Calcium D-Pantothenate)",
+        "dosage": "2 mg",
+        "dv": "50%"
+      },
+      {
+        "name": "Calcium (as Calcium Carbonate)",
+        "dosage": "50 mg",
+        "dv": "4%"
+      },
+      {
+        "name": "Zinc (as Zinc Citrate)",
+        "dosage": "3 mg",
+        "dv": "60%"
+      },
+      {
+        "name": "Iodine (as Potassium Iodide)",
+        "dosage": "30 mcg",
+        "dv": "33%"
+      },
+      {
+        "name": "Calories",
+        "dosage": "5 Calories",
+        "dv": "**"
+      },
+      {
+        "name": "Total Carbohydrates",
+        "dosage": "1.5 g",
+        "dv": "<1%"
+      },
+      {
+        "name": "Total Sugars / Added Sugars",
+        "dosage": "0 g",
+        "dv": "0%"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Supports Strong Bones & Teeth: Backed by the dual action of 100% daily value Vitamin D3 and Calcium.",
+      "Immune System Shield: Anchored by high-potency Vitamin C (from sodium ascorbate) and pure Zinc Citrate.",
+      "Brain & Energy Support: Driven by active-form B-vitamins (Methylcobalamin) that assist cellular vitality.",
+      "Healthy Eye Function: Supported by safe, plant-derived Beta-Carotene (Vitamin A)."
     ],
     "packSizes": [
       "N30",
-      "N60"
+      "N60",
+      "N100"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "Who is PlexWell Naturals EASSiCHEW Kids Multivitamin suitable for?",
+        "answer": "EASSiCHEW is a daily multivitamin and mineral supplement formulated for children aged 3 years and onwards. It provides essential vitamins and minerals to complement a child's everyday diet and support healthy growth, development, immunity and general well-being."
+      },
+      {
+        "question": "How many EASSiCHEW tablets should my child take each day?",
+        "answer": "The recommended serving is 1 chewable tablet daily, preferably with or after a meal. The easy-to-chew format is designed to make daily supplementation convenient for children. Do not exceed the recommended daily intake."
+      },
+      {
+        "question": "What are the main benefits of EASSiCHEW Kids Multivitamin?",
+        "answer": "The formula provides key nutrients including Vitamins A, C, D3, E, B-complex vitamins, Folate, Zinc, Iodine and Calcium. These nutrients help support normal immune function, energy metabolism, healthy bones and teeth, cognitive development, and overall growth and well-being as part of a balanced diet."
+      },
+      {
+        "question": "Does EASSiCHEW contain artificial colors or added sugar?",
+        "answer": "The formula provides 0 g total/added sugars per serving and uses natural colors from beet juice powder and turmeric extract. It is sweetened with xylitol, sorbitol and purified stevia leaf extract and comes in child-friendly cherry, orange and grape fruit flavors."
+      }
     ]
   },
   {
@@ -47,26 +138,190 @@
     "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin C",
-        "dosage": "30 mg"
+        "name": "Vitamin A (as Acetate)",
+        "dosage": "150 mcg",
+        "dv": "50%"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "10 mcg (400 IU)"
+        "name": "Betacarotene (Natural Carotenoids)",
+        "dosage": "0.5 mg",
+        "dv": "*"
       },
       {
-        "name": "Zinc",
-        "dosage": "3 mg"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "5 mcg (200 IU)",
+        "dv": "33%"
+      },
+      {
+        "name": "Vitamin E (as D-Alpha Tocopheryl Succinate)",
+        "dosage": "6 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin K",
+        "dosage": "25 mcg",
+        "dv": "45%"
+      },
+      {
+        "name": "Vitamin C (as Ascorbic Acid)",
+        "dosage": "15 mg",
+        "dv": "60%"
+      },
+      {
+        "name": "Vitamin B1 (Thiamin Mononitrate)",
+        "dosage": "0.5 mg",
+        "dv": "83%"
+      },
+      {
+        "name": "Vitamin B2 (Riboflavin)",
+        "dosage": "0.5 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B3 (Niacinamide)",
+        "dosage": "6 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B6 (Pyridoxine HCl)",
+        "dosage": "0.5 mg",
+        "dv": "83%"
+      },
+      {
+        "name": "Folic Acid",
+        "dosage": "100 mcg",
+        "dv": "67%"
+      },
+      {
+        "name": "Vitamin B12 (Cyanocobalamin)",
+        "dosage": "1 mcg",
+        "dv": "83%"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "8 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B5 (Pantothenic Acid)",
+        "dosage": "2 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Magnesium (as Magnesium Oxide)",
+        "dosage": "20 mg",
+        "dv": "15%"
+      },
+      {
+        "name": "Iron (as Ferrous Fumarate)",
+        "dosage": "2.5 mg",
+        "dv": "25%"
+      },
+      {
+        "name": "Zinc (as Zinc Sulphate)",
+        "dosage": "2.5 mg",
+        "dv": "50%"
+      },
+      {
+        "name": "Copper (as Copper Sulphate)",
+        "dosage": "0.15 mg",
+        "dv": "34%"
+      },
+      {
+        "name": "Manganese (as Manganese Sulphate)",
+        "dosage": "0.5 mg",
+        "dv": "42%"
+      },
+      {
+        "name": "Selenium (as Sodium Selenate)",
+        "dosage": "15 mcg",
+        "dv": "75%"
+      },
+      {
+        "name": "Chromium (as Chromium Chloride)",
+        "dosage": "10 mcg",
+        "dv": "91%"
+      },
+      {
+        "name": "Iodine (as Potassium Iodide)",
+        "dosage": "45 mcg",
+        "dv": "50%"
+      },
+      {
+        "name": "Silicon (as Silicon Dioxide)",
+        "dosage": "0.5 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Taurine",
+        "dosage": "15 mg",
+        "dv": "*"
+      },
+      {
+        "name": "L-Theanine",
+        "dosage": "10 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Coenzyme Q10 (CoQ10)",
+        "dosage": "5 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Para-Aminobenzoic Acid (P.A.B.A.)",
+        "dosage": "5 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Cranberry Extract",
+        "dosage": "15 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Grape Seed Extract",
+        "dosage": "15 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Green Tea Extract (Decaffeinated)",
+        "dosage": "10 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Citrus Bioflavonoids",
+        "dosage": "2 mg",
+        "dv": "*"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Supercharged Daily Immune Shield",
+      "24 Essential Vitamins & Micro-Nutrients",
+      "With Natural Berry Antioxidants",
+      "Soft & Chewy Pectin Gummies",
+      "No Artificial Dyes or High-Fructose Corn Syrup",
+      "Zero Stimulants / 100% Caffeine-Free"
     ],
     "packSizes": [
-      "N30",
       "N60"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What are the main benefits of PlexWell Naturals Kids Multivitamin Gummies?",
+        "answer": "These gummies provide a broad combination of essential vitamins, minerals, trace elements, amino acids, antioxidants and botanical extracts. The formula is designed to complement a child’s daily diet and support normal growth and development, immune function, energy metabolism, cognitive function, and overall nutritional well-being."
+      },
+      {
+        "question": "How many gummies should my child take each day?",
+        "answer": "The serving size is 2 gummies daily for children aged 4–8 years, preferably taken with a meal. Each bottle contains 60 gummies, providing a 30-day supply when taken at the recommended serving."
+      },
+      {
+        "question": "What makes this formula different from a regular kids’ multivitamin?",
+        "answer": "In addition to essential vitamins and minerals such as Vitamins A, C, D3, E, B-complex, Iron, Zinc, Selenium and Iodine, the formula contains additional nutritional ingredients including Taurine, L-Theanine, CoQ10, Cranberry Extract, Grape Seed Extract and Citrus Bioflavonoids, providing broader nutritional and antioxidant support."
+      },
+      {
+        "question": "Does the formula contain caffeine or artificial colors?",
+        "answer": "The formula is designed to be caffeine-free and uses decaffeinated Green Tea Extract. Its color is derived from fruit and vegetable juice, and the gummies have a natural mixed-berry flavor."
+      }
     ]
   },
   {
@@ -78,26 +333,113 @@
     "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin A",
-        "dosage": "400 mcg"
+        "name": "Vitamin A (as Beta-Carotene)",
+        "dosage": "400 mcg RAE",
+        "dv": "44%"
       },
       {
-        "name": "Vitamin C",
-        "dosage": "40 mg"
+        "name": "Vitamin C (as Ascorbic Acid)",
+        "dosage": "40 mg",
+        "dv": "44%"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "10 mcg (400 IU)"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "15 mcg (600 IU)",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin E (as d-alpha-Tocopherol)",
+        "dosage": "10 mg",
+        "dv": "67%"
+      },
+      {
+        "name": "Vitamin B1 (as Thiamine Hydrochloride)",
+        "dosage": "1.5 mg",
+        "dv": "125%"
+      },
+      {
+        "name": "Vitamin B2 (as Riboflavin-5-Phosphate)",
+        "dosage": "1.6 mg",
+        "dv": "123%"
+      },
+      {
+        "name": "Vitamin B3 (as Niacinamide)",
+        "dosage": "16 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxal-5-Phosphate)",
+        "dosage": "1.6 mg",
+        "dv": "94%"
+      },
+      {
+        "name": "Folate (as L-Methylfolate)",
+        "dosage": "200 mcg DFE",
+        "dv": "50%"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "5 mcg",
+        "dv": "208%"
+      },
+      {
+        "name": "Iron (as Ferrous Bisglycinate Chelate)",
+        "dosage": "10 mg",
+        "dv": "56%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "6 mg",
+        "dv": "55%"
+      },
+      {
+        "name": "Iodine (as Potassium Iodide)",
+        "dosage": "80 mcg",
+        "dv": "53%"
+      },
+      {
+        "name": "Calories",
+        "dosage": "15 Calories",
+        "dv": "**"
+      },
+      {
+        "name": "Total Carbohydrates",
+        "dosage": "3 g",
+        "dv": "1%"
+      },
+      {
+        "name": "Total Sugars / Added Sugars",
+        "dosage": "0 g",
+        "dv": "0%"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "100% Sugar-Free & Dental Safe: Formulated with Xylitol to protect growing teeth against enamel erosion and cavities.",
+      "Activated B-Complex: Contains pre-methylated vitamins for fast, seamless metabolic absorption.",
+      "Gentle, Non-Constipating Iron: Uses a superior chelated iron form that eliminates stomach aches or tummy distress.",
+      "No Artificial Dyes, Flavors, or Preservatives: Clean-label formulation with a delicious natural orange-mango taste kids look forward to."
     ],
     "packSizes": [
-      "N30",
-      "N60"
+      "200ml bottle"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What are the main benefits of PlexWell Naturals Kids Multivitamin Liquid?",
+        "answer": "This comprehensive liquid multivitamin provides essential vitamins and minerals to complement your child’s daily diet. Nutrients including Vitamins A, C, D3, E, B-complex, Iron, Zinc and Iodine help support normal growth and development, immune function, energy metabolism, cognitive function, healthy bones and overall nutritional well-being."
+      },
+      {
+        "question": "What makes this kids’ multivitamin formula different?",
+        "answer": "The formula uses carefully selected premium nutrient forms, including Riboflavin-5-Phosphate, Pyridoxal-5-Phosphate (P5P), L-Methylfolate and Methylcobalamin, together with chelated Ferrous Bisglycinate and Zinc Bisglycinate. These forms are selected to provide a high-quality, child-focused daily nutritional formula."
+      },
+      {
+        "question": "How much should my child take each day?",
+        "answer": "The serving size is 10 mL, preferably taken with or after a meal. Each 200 mL bottle provides 20 servings at this serving size. Parents should follow the directions on the product label and should not exceed the recommended daily intake."
+      },
+      {
+        "question": "Does PlexWell Naturals Kids Multivitamin Liquid contain added sugar?",
+        "answer": "No. The formula provides 0 g total sugars and 0 g added sugars per 10 mL serving, making it a convenient sugar-free option for everyday supplementation"
+      }
     ]
   },
   {
@@ -109,26 +451,93 @@
     "description": "High-quality PLEXWELL NATURALS BABY MULTIVITAMIN DROPS formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin A",
-        "dosage": "300 mcg"
+        "name": "Vitamin A (as Beta-Carotene)",
+        "dosage": "300 mcg RAE",
+        "dv": "67%"
       },
       {
-        "name": "Vitamin C",
-        "dosage": "30 mg"
+        "name": "Vitamin C (as Sodium Ascorbate)",
+        "dosage": "30 mg",
+        "dv": "120%"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "10 mcg (400 IU)"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "10 mcg (400 IU)",
+        "dv": "67%"
+      },
+      {
+        "name": "Vitamin E (as d-alpha-Tocopherol)",
+        "dosage": "5 mg",
+        "dv": "71%"
+      },
+      {
+        "name": "Vitamin B1 (as Thiamine HCl)",
+        "dosage": "0.5 mg",
+        "dv": "42%"
+      },
+      {
+        "name": "Vitamin B2 (as Riboflavin-5-Phosphate)",
+        "dosage": "0.5 mg",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B3 (as Niacinamide)",
+        "dosage": "6 mg",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxal-5-Phosphate)",
+        "dosage": "0.5 mg",
+        "dv": "100%"
+      },
+      {
+        "name": "Folate (as L-Methylfolate)",
+        "dosage": "150 mcg DFE",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "2 mcg",
+        "dv": "167%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "3 mg",
+        "dv": "60%"
+      },
+      {
+        "name": "Calories",
+        "dosage": "5 Calories",
+        "dv": "**"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Pleasant Vanilla-Banana Flavor: Zero metallic notes or sour citrus bites—designed specifically for infant palates.",
+      "Activated B-Vitamins & Chelated Zinc: Formulated with pre-methylated coenzymes for gentle, maximum absorption.",
+      "100% Sugar-Free & Tooth-Safe: Gentle on emerging milk teeth and gums.",
+      "Free from artificial colors, parabens, alcohol, dairy, gluten, soy, and synthetic sweeteners."
     ],
     "packSizes": [
-      "N30",
-      "N60"
+      "50ml bottle with dropper"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What are the main benefits of PlexWell Naturals Baby Multivitamin Drops?",
+        "answer": "PlexWell Naturals Baby Multivitamin Drops provide a concentrated combination of Vitamins A, C, D3, E, B-complex vitamins, Folate and Zinc. These essential nutrients help support normal growth and development, immune function, healthy bones, energy metabolism, nervous system function and overall nutritional well-being during the early years."
+      },
+      {
+        "question": "What makes this baby multivitamin formula special?",
+        "answer": "The formula features carefully selected nutrient forms including Beta-Carotene, non-acidic Sodium Ascorbate, natural d-alpha-Tocopherol, Riboflavin-5-Phosphate, active P5P, L-Methylfolate, Methylcobalamin and chelated Zinc Bisglycinate. The concentrated liquid-drop format also makes daily supplementation convenient for young children."
+      },
+      {
+        "question": "How should PlexWell Naturals Baby Multivitamin Drops be given?",
+        "answer": "The serving size is 10 drops (approximately 0.5 mL). The drops can be administered using the dropper according to the directions on the product label. Each 50 mL bottle provides approximately 100 servings. For young children, parents should follow the recommended serving instructions and consult their pediatrician if they have questions about supplementation."
+      },
+      {
+        "question": "What does the product contain besides vitamins and minerals?",
+        "answer": "The liquid base is made with organic vegetable glycerin, purified water and organic light agave nectar, with a natural banana and vanilla flavor complex. Potassium sorbate is included to help maintain product freshness and stability."
+      }
     ]
   },
   {
