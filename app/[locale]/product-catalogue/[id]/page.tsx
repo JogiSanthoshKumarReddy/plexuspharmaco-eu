@@ -230,7 +230,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             </div>
           </div>
 
-          <div className="bg-brand-900 rounded-3xl shadow-xl border border-brand-800 p-8 lg:p-12 text-white relative overflow-hidden">
+          <div className="bg-brand-900 rounded-3xl shadow-xl border border-brand-800 p-8 lg:p-12 text-white relative overflow-hidden h-fit">
             <div className="absolute top-0 right-0 w-48 h-48 bg-brand-700/50 rounded-full blur-[50px] pointer-events-none" />
             
             <div className="flex items-center gap-4 mb-8 relative z-10">
