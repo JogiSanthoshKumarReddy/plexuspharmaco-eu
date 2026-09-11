@@ -199,7 +199,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               </div>
               <div>
                 <h2 className="text-2xl font-bold text-brand-900">Active Ingredients</h2>
-                <p className="text-slate-500 text-sm">Quantitative composition per serving</p>
+                <p className="text-slate-500 text-sm">Quantitative composition per serving{product.servingSize ? ` (${product.servingSize})` : ''}</p>
               </div>
             </div>
 

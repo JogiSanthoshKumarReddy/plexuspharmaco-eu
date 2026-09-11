@@ -127,7 +127,8 @@
         "question": "Does EASSiCHEW contain artificial colors or added sugar?",
         "answer": "The formula provides 0 g total/added sugars per serving and uses natural colors from beet juice powder and turmeric extract. It is sweetened with xylitol, sorbitol and purified stevia leaf extract and comes in child-friendly cherry, orange and grape fruit flavors."
       }
-    ]
+    ],
+    "servingSize": "1 tablet"
   },
   {
     "id": "plexwell-naturals-junior-multivitamin-gummies",
@@ -322,7 +323,8 @@
         "question": "Does the formula contain caffeine or artificial colors?",
         "answer": "The formula is designed to be caffeine-free and uses decaffeinated Green Tea Extract. Its color is derived from fruit and vegetable juice, and the gummies have a natural mixed-berry flavor."
       }
-    ]
+    ],
+    "servingSize": "2 gummies"
   },
   {
     "id": "plexwell-naturals-junior-multivitamin-liquid",
@@ -440,7 +442,8 @@
         "question": "Does PlexWell Naturals Kids Multivitamin Liquid contain added sugar?",
         "answer": "No. The formula provides 0 g total sugars and 0 g added sugars per 10 mL serving, making it a convenient sugar-free option for everyday supplementation"
       }
-    ]
+    ],
+    "servingSize": "10ml"
   },
   {
     "id": "plexwell-naturals-baby-multivitamin-drops",
@@ -538,7 +541,8 @@
         "question": "What does the product contain besides vitamins and minerals?",
         "answer": "The liquid base is made with organic vegetable glycerin, purified water and organic light agave nectar, with a natural banana and vanilla flavor complex. Potassium sorbate is included to help maintain product freshness and stability."
       }
-    ]
+    ],
+    "servingSize": "10 drops"
   },
   {
     "id": "plexwell-naturals-baby-vitamin-d3-drops",
@@ -582,7 +586,8 @@
         "question": "What other ingredients are in the Vitamin D3 Drops?",
         "answer": "The formula is intentionally simple. In addition to Vitamin D3, it contains organic fractionated coconut (MCT) oil as the carrier and natural mixed tocopherols as antioxidants to help maintain the freshness and stability of the oil."
       }
-    ]
+    ],
+    "servingSize": "2 drops"
   },
   {
     "id": "plexwell-naturals-vitamin-d3-gummies",
@@ -652,7 +657,8 @@
         "answer": "The serving size is 2 gummies daily, providing 600 IU (15 mcg) Vitamin D3 and 20 mcg Vitamin K2, along with Vitamin C, Calcium, Magnesium and avocado-derived fats. Each bottle contains 60 gummies, providing a 30-day supply. People taking anticoagulant medication such as warfarin should consult their healthcare professional before using a Vitamin K-containing supplement."
       }
     ],
-    "otherIngredients": "Organic Tapioca Syrup, Organic Cane Sugar, Purified Water, Pectin (plant-derived gelling agent), Natural Flavors, Citric Acid, Sodium Citrate, Natural Colors (Fruit and Vegetable Juices), Fractionated Coconut Oil, Carnauba Wax (to prevent sticking)."
+    "otherIngredients": "Organic Tapioca Syrup, Organic Cane Sugar, Purified Water, Pectin (plant-derived gelling agent), Natural Flavors, Citric Acid, Sodium Citrate, Natural Colors (Fruit and Vegetable Juices), Fractionated Coconut Oil, Carnauba Wax (to prevent sticking).",
+    "servingSize": "2 gummies"
   },
   {
     "id": "plexwell-naturals-men-multivitamin",

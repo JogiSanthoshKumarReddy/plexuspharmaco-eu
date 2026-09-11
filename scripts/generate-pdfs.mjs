@@ -349,6 +349,12 @@ function generateProductSpecPDF(product) {
     doc.text('3. Active Ingredients & Composition', 14, currentY);
     currentY += 6;
 
+    doc.setFont('helvetica', 'normal');
+    doc.setFontSize(9);
+    doc.setTextColor(...SLATE_DARK);
+    doc.text(`Quantitative composition per serving${product.servingSize ? ` (${product.servingSize})` : ''}`, 14, currentY);
+    currentY += 6;
+
     const tableBody = product.ingredients.map(i => [i.name, i.dosage, i.dv || '-']);
 
     autoTable(doc, {
