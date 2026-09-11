@@ -254,7 +254,11 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <Package className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Packaging</h3>
-            <p className="text-slate-600 font-light">Customized packaging configurations available for bulk orders to meet destination market requirements.</p>
+            <p className="text-slate-600 font-light">
+              {product.packSizes && product.packSizes.length > 0 
+                ? product.packSizes.join(', ') 
+                : "Customized packaging configurations available for bulk orders to meet destination market requirements."}
+            </p>
           </div>
           
           <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
