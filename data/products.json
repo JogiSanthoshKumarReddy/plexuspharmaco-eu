@@ -4,7 +4,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-eassichew-kids-chewable-multivitamin-tablet.jpg",
     "description": "High-quality PLEXWELL NATURALS EASSiCHEW KIDS CHEWABLE MULTIVITAMIN TABLET formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -22,7 +22,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-junior-multivitamin-gummies.jpg",
     "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN GUMMIES formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -40,7 +40,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-junior-multivitamin-liquid.jpg",
     "description": "High-quality PLEXWELL NATURALS JUNIOR MULTIVITAMIN LIQUID formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -58,7 +58,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS BABY MULTIVITAMIN DROPS",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-baby-multivitamin-drops.jpg",
     "description": "High-quality PLEXWELL NATURALS BABY MULTIVITAMIN DROPS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -76,7 +76,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS KID’S HEALTH",
     "name": "PLEXWELL NATURALS BABY VITAMIN D3 DROPS",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/kids/plexwell-naturals-baby-vitamin-d3-drops.jpg",
     "description": "High-quality PLEXWELL NATURALS BABY VITAMIN D3 DROPS formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
