@@ -4,7 +4,7 @@ import Container from "@/components/common/Container";
 
 export default function AboutSection() {
   return (
-    <section className="relative bg-white py-24 overflow-hidden">
+    <section className="relative bg-gradient-to-b from-white to-slate-50 py-24 overflow-hidden">
       {/* Floating Shapes */}
       <Image src="/images/shapes/about-shape1.png" alt="shape" width={200} height={400} className="absolute left-0 top-1/4 animate-pulse opacity-50 hidden lg:block" />
       <Image src="/images/shapes/about-shape2.png" alt="shape" width={200} height={400} className="absolute right-0 bottom-0 animate-pulse opacity-50 hidden lg:block" />

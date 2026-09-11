@@ -38,7 +38,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
 
   // Filter products by segment first
   const segmentProducts = useMemo(() => {
-    if (!activeSegment) return [];
+    if (!activeSegment) return products;
     return products.filter(p => p.segment === activeSegment || (!p.segment && activeSegment === 'Pharmaceuticals')); // Default old products to Pharmaceuticals
   }, [activeSegment]);
 
@@ -107,50 +107,41 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
           </div>
         </motion.div>
 
-        {!activeSegment ? (
-          /* Segments Landing Page */
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-24">
+        {/* Persistent Segment Tabs */}
+        <div className="mb-10 w-full overflow-x-auto pb-4 custom-scrollbar" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
+          <div className="flex gap-2 min-w-max p-1.5 bg-white rounded-2xl border border-slate-200 shadow-sm w-fit">
             {[
-              { id: 'Nutraceuticals', title: 'Nutraceuticals', desc: 'Premium dietary supplements and natural health products.', icon: '/assets/images/pharma_product_nutra.png' },
-              { id: 'Medical Devices', title: 'Medical Devices', desc: 'Advanced medical technology and diagnostic tools.', icon: '/assets/images/pharma_product_pharma.png' },
-              { id: 'Pharmaceuticals', title: 'Pharmaceuticals', desc: 'Prescription medications and therapeutic treatments.', icon: '/assets/images/pharma_product_pharma.png' },
-            ].map(segment => (
-              <button 
-                key={segment.id}
-                onClick={() => { setActiveSegment(segment.id); setActiveCategory('All Products'); setVisibleCount(12); }}
-                className="group flex flex-col items-center p-12 bg-white rounded-[3rem] border border-slate-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-2 cursor-pointer text-center"
-              >
-                <div className="w-32 h-32 mb-8 relative bg-brand-50 rounded-full flex items-center justify-center group-hover:scale-110 transition-transform duration-500">
-                  <Image src={segment.icon} alt={segment.title} fill className="object-contain p-6 mix-blend-multiply" />
-                </div>
-                <h3 className="text-3xl font-bold text-brand-900 mb-4 group-hover:text-brand-700">{segment.title}</h3>
-                <p className="text-slate-600 text-lg leading-relaxed">{segment.desc}</p>
-                <div className="mt-8 px-6 py-3 bg-brand-50 text-brand-700 rounded-full font-bold group-hover:bg-brand-900 group-hover:text-white transition-colors flex items-center gap-2">
-                  View Catalogue <ChevronRight className="w-5 h-5" />
-                </div>
-              </button>
-            ))}
+              { id: null, title: 'All Segments' },
+              { id: 'Pharmaceuticals', title: 'Pharmaceuticals' },
+              { id: 'Nutraceuticals', title: 'Nutraceuticals' },
+              { id: 'Medical Devices', title: 'Medical Devices' }
+            ].map(segment => {
+              const isActive = activeSegment === segment.id;
+              return (
+                <button
+                  key={segment.id || 'all'}
+                  onClick={() => { setActiveSegment(segment.id); setActiveCategory('All Products'); setVisibleCount(12); }}
+                  className={`relative px-6 py-3.5 sm:px-8 sm:py-4 rounded-xl font-bold text-sm sm:text-base transition-colors duration-300 ${
+                    isActive ? 'text-white' : 'text-slate-600 hover:text-brand-900 hover:bg-slate-50'
+                  }`}
+                >
+                  {isActive && (
+                    <motion.div
+                      layoutId="activeSegmentTab"
+                      className="absolute inset-0 bg-brand-900 rounded-xl"
+                      initial={false}
+                      transition={{ type: "spring", bounce: 0.2, duration: 0.6 }}
+                    />
+                  )}
+                  <span className="relative z-10">{segment.title}</span>
+                </button>
+              );
+            })}
           </div>
-        ) : (
-          <div className="flex flex-col lg:flex-row gap-10">
-            
-            {/* Back to segments button */}
-            <div className="w-full lg:hidden mb-4">
-              <button onClick={() => setActiveSegment(null)} className="text-brand-600 font-bold flex items-center gap-2 hover:text-brand-900">
-                <ChevronRight className="w-5 h-5 rotate-180" /> Back to Categories
-              </button>
-            </div>
-          
-          {/* Mobile Filter Toggle */}
-          <div className="lg:hidden">
-            <button 
-              onClick={() => setIsMobileFiltersOpen(true)}
-              className="flex items-center gap-2 px-6 py-3 bg-white border border-slate-200 rounded-xl shadow-sm text-brand-900 font-bold w-full justify-center"
-            >
-              <Filter className="w-5 h-5" /> {dict.filter_products}
-            </button>
-          </div>
+        </div>
 
+        <div className="flex flex-col lg:flex-row gap-10">
+          
           {/* Sidebar / Categories */}
           <div className={`
             fixed inset-0 z-50 bg-brand-900/40 backdrop-blur-sm transition-all duration-300 lg:static lg:bg-transparent lg:backdrop-blur-none lg:z-auto lg:w-1/4 lg:block
@@ -167,13 +158,13 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                 </button>
               </div>
 
-              <div className="bg-white rounded-3xl shadow-sm border border-slate-100 p-6 sticky top-28">
+              <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-6 sticky top-28">
                 <h3 className="text-lg font-bold text-brand-900 mb-6 border-b border-slate-100 pb-4">{dict.therapeutic_categories}</h3>
                 <ul className="flex flex-col gap-2 max-h-[60vh] overflow-y-auto pr-2 custom-scrollbar">
                   {categories.map((cat, idx) => (
                     <li key={idx}>
                       <button
-                        onClick={() => { setActiveCategory(cat); setIsMobileFiltersOpen(false); setVisibleCount(12); }}
+                         onClick={() => { setActiveCategory(cat); setIsMobileFiltersOpen(false); setVisibleCount(12); }}
                         className={`w-full text-left px-5 py-3 rounded-xl text-sm font-bold transition-all flex items-center justify-between group ${
                           activeCategory === cat 
                             ? "bg-brand-50 text-brand-700 shadow-sm border border-brand-100" 
@@ -197,34 +188,46 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
           {/* Product Grid Area */}
           <div className="w-full lg:w-3/4">
             
-            {/* Search Bar */}
-            <div className="bg-white rounded-3xl shadow-sm border border-slate-100 p-2 mb-8 flex items-center gap-4 transition-all focus-within:shadow-md focus-within:border-brand-300">
-              <div className="pl-6">
-                <Search className="w-6 h-6 text-slate-400" />
+            {/* Search and Mobile Filter Toggle Row */}
+            <div className="flex flex-col md:flex-row gap-4 mb-8">
+              {/* Mobile Filter Toggle */}
+              <div className="md:hidden">
+                <button 
+                  onClick={() => setIsMobileFiltersOpen(true)}
+                  className="flex items-center gap-2 px-6 py-4 bg-white border border-slate-200 rounded-2xl shadow-sm text-brand-900 font-bold w-full justify-center transition-all focus:border-brand-300"
+                >
+                  <Filter className="w-5 h-5" /> {dict.filter_products}
+                </button>
               </div>
-              <input 
-                type="text"
-                placeholder={dict.search_placeholder}
-                value={searchQuery}
-                onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(12); }}
-                className="w-full bg-transparent border-none focus:ring-0 text-brand-900 font-medium placeholder:text-slate-400 placeholder:font-normal text-lg py-4 outline-none"
-              />
-              {searchQuery && (
-                <div className="pr-4">
-                  <button onClick={() => { setSearchQuery(""); setVisibleCount(12); }} className="p-2 bg-slate-100 rounded-full text-slate-500 hover:text-red-500 hover:bg-red-50 transition-colors">
-                    <X className="w-5 h-5" />
-                  </button>
+
+              {/* Modern Search Bar */}
+              <div className="relative w-full">
+                <div className="absolute inset-y-0 left-0 pl-6 flex items-center pointer-events-none">
+                  <Search className="w-6 h-6 text-brand-400" />
                 </div>
-              )}
+                <input 
+                  type="text"
+                  placeholder={dict.search_placeholder}
+                  value={searchQuery}
+                  onChange={(e) => { setSearchQuery(e.target.value); setVisibleCount(12); }}
+                  className="w-full bg-white border border-slate-200 focus:border-brand-500 focus:ring-4 focus:ring-brand-500/10 text-brand-900 font-medium placeholder:text-slate-400 placeholder:font-normal text-lg py-4 pl-16 pr-16 rounded-2xl shadow-sm transition-all outline-none"
+                />
+                {searchQuery && (
+                  <div className="absolute inset-y-0 right-0 pr-4 flex items-center">
+                    <button onClick={() => { setSearchQuery(""); setVisibleCount(12); }} className="p-2 bg-slate-100 rounded-full text-slate-500 hover:text-red-500 hover:bg-red-50 transition-colors focus:outline-none focus:ring-2 focus:ring-red-200">
+                      <X className="w-5 h-5" />
+                    </button>
+                  </div>
+                )}
+              </div>
             </div>
 
             {/* Results Header */}
             <div className="mb-8 flex justify-between items-end border-b border-slate-200 pb-4">
               <div>
-                <button onClick={() => setActiveSegment(null)} className="hidden lg:flex text-brand-600 font-bold items-center gap-2 hover:text-brand-900 mb-4 bg-brand-50 px-4 py-2 rounded-lg w-fit transition-colors">
-                  <ChevronRight className="w-4 h-4 rotate-180" /> Back to Main Categories
-                </button>
-                <h3 className="text-3xl font-bold text-brand-900 mb-2">{activeSegment} <span className="text-slate-300 mx-2">|</span> {activeCategory}</h3>
+                <h3 className="text-3xl font-bold text-brand-900 mb-2">
+                  {activeSegment || 'All Segments'} <span className="text-slate-300 mx-2">|</span> {activeCategory}
+                </h3>
                 <p className="text-slate-500 font-medium">
                   {dict.showing} {Math.min(visibleCount, filteredProducts.length)} of {filteredProducts.length} {dict.premium_solutions}
                 </p>
@@ -245,7 +248,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                   initial={{ opacity: 0, y: 15 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.25, delay: Math.min(idx * 0.03, 0.3) }}
-                  className="glass-card rounded-3xl overflow-hidden hover-lift group flex flex-col h-full bg-white border border-slate-100"
+                  className="glass-card rounded-3xl overflow-hidden hover-lift group flex flex-col h-full bg-white border border-slate-200 shadow-sm hover:shadow-lg transition-all"
                 >
                   {/* Image Header */}
                   <div className="relative h-72 bg-gradient-to-br from-slate-50 to-slate-100 p-8 flex items-center justify-center overflow-hidden border-b border-slate-100">
@@ -257,7 +260,7 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                       priority={idx < 6}
                       className="object-contain p-4 group-hover:scale-110 transition-transform duration-700 mix-blend-multiply"
                     />
-                    <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-brand-700 shadow-sm border border-slate-100 shadow-brand-900/5">
+                    <div className="absolute top-4 right-4 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-full text-xs font-bold text-brand-700 shadow-sm border border-slate-100">
                       {product.category}
                     </div>
                   </div>
@@ -324,10 +327,10 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
               <motion.div 
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                className="bg-white rounded-3xl p-16 text-center shadow-sm border border-slate-100"
+                className="bg-white rounded-3xl p-16 text-center shadow-sm border border-slate-200"
               >
                 <div className="w-24 h-24 bg-brand-50 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <Search className="w-10 h-10 text-brand-300" />
+                  <Search className="w-10 h-10 text-brand-400" />
                 </div>
                 <h3 className="text-2xl font-bold text-brand-900 mb-4">{dict.no_products_found}</h3>
                 <p className="text-lg text-slate-500 mb-8 max-w-md mx-auto">
@@ -344,7 +347,6 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
 
           </div>
         </div>
-        )}
       </div>
     </div>
   );

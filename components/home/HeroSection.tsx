@@ -18,16 +18,22 @@ export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const params = useParams();
   const locale = params?.locale || 'en';
+  const [isHovered, setIsHovered] = useState(false);
 
   useEffect(() => {
+    if (isHovered) return;
     const timer = setInterval(() => {
       setCurrentSlide((prev) => (prev === slides.length - 1 ? 0 : prev + 1));
     }, 6000); // Change slide every 6 seconds
     return () => clearInterval(timer);
-  }, []);
+  }, [isHovered]);
 
   return (
-    <section className="relative h-screen min-h-[100dvh] w-full flex items-center justify-center overflow-hidden bg-brand-900 touch-pan-y">
+    <section 
+      className="relative h-screen min-h-[100dvh] w-full flex items-center justify-center overflow-hidden bg-brand-900 touch-pan-y"
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+    >
       {/* Background Image Slider with Parallax and Overlay */}
       <AnimatePresence mode="wait">
         <motion.div 

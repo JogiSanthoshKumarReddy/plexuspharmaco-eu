@@ -12,19 +12,23 @@ export default function FeaturedProducts() {
   const params = useParams();
   const locale = params?.locale || 'en';
 
-  // Select 8 interesting products
+  // Select 8 interesting products in specific order
   const featuredIds = [
-    "plexwell-naturals-eassichew-kids-chewable-multivitamin-tablet",
-    "plexwell-naturals-men-multivitamin",
-    "plexwell-naturals-women-multivitamin",
-    "plexwell-naturals-vegan-omega-softgel",
-    "age-slow-caps",
-    "plexwell-naturals-vit-c-tab",
-    "plexwell-naturals-beauty-collagen-matrix-capsule",
-    "plexwell-naturals-digesmart-kids-gummies"
+    "myo-gummy",
+    "plexwell-naturals-structura-glp1-support",
+    "plexwell-naturals-slimming-secret",
+    "plexwell-naturals-freshstart-anti-hangover",
+    "plexwell-naturals-diacare-oral-sachet",
+    "plexwell-naturals-uti-biotic-syrup-150ml",
+    "age-slow-compex-powder",
+    "plexwell-naturals-vit-c-tab"
   ];
   
-  const featuredProducts = products.filter(p => featuredIds.includes(p.id)).slice(0, 8);
+  // Map through IDs to preserve the exact sequence specified above
+  const featuredProducts = featuredIds
+    .map(id => products.find(p => p.id === id))
+    .filter(Boolean)
+    .slice(0, 8);
 
   if (featuredProducts.length === 0) return null;
 
@@ -81,7 +85,7 @@ export default function FeaturedProducts() {
                     className="object-contain p-8 mix-blend-multiply group-hover:scale-110 transition-transform duration-700 relative z-10"
                   />
                   <div className="absolute top-4 right-4 z-20">
-                    <span className="px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-xs font-bold text-brand-600 shadow-sm border border-slate-100">
+                    <span className="px-3 py-1 bg-white/90 backdrop-blur-md rounded-full text-xs font-bold text-brand-600 shadow-sm border border-slate-100 animate-pulse">
                       New
                     </span>
                   </div>

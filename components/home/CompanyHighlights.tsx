@@ -74,8 +74,8 @@ export default function CompanyHighlights() {
                   className="object-cover group-hover:scale-110 transition-transform duration-700" 
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-brand-900/90 via-brand-900/20 to-transparent opacity-80 group-hover:opacity-60 transition-opacity duration-300" />
-                <div className="absolute bottom-6 left-6 w-14 h-14 rounded-2xl bg-white/95 backdrop-blur flex items-center justify-center border border-white/20 shadow-lg group-hover:-translate-y-2 group-hover:bg-accent-500 transition-all duration-300 z-10">
-                  {/* Note: Icon needs to dynamically handle light/dark based on bg, assuming iconMap provides light icons */}
+                <div className="absolute bottom-6 left-6 w-14 h-14 rounded-2xl bg-brand-900/90 backdrop-blur flex items-center justify-center border border-white/20 shadow-lg group-hover:-translate-y-2 group-hover:bg-accent-500 transition-all duration-300 z-10">
+                  {/* The iconMap provides text-white icons, so we use a dark background here for visibility */}
                   {iconMap[feature.icon]}
                 </div>
               </div>
