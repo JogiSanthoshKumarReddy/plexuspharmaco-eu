@@ -31,12 +31,12 @@ function addHeaderFooter(doc, title, docRef) {
     // Top Brand Bar
     doc.setFillColor(...NAVY);
     doc.rect(0, 0, pageWidth, 12, 'F');
-    
+
     doc.setFont('helvetica', 'bold');
     doc.setFontSize(8);
     doc.setTextColor(255, 255, 255);
     doc.text('PLEXUSPHARMACO GmbH  |  EUROPEAN HEADQUARTERS', 14, 8);
-    
+
     if (docRef) {
       doc.setFont('helvetica', 'normal');
       doc.text(`DOC REF: ${docRef}`, pageWidth - 14, 8, { align: 'right' });
@@ -58,7 +58,7 @@ function addHeaderFooter(doc, title, docRef) {
 // Helper: Title Section
 function addTitleBlock(doc, title, subtitle, category = 'OFFICIAL DOCUMENT') {
   const pageWidth = doc.internal.pageSize.getWidth();
-  
+
   doc.setFillColor(...LIGHT_BG);
   doc.rect(14, 20, pageWidth - 28, 28, 'F');
   doc.setDrawColor(...NAVY);
@@ -349,17 +349,11 @@ function generateProductSpecPDF(product) {
     doc.text('3. Active Ingredients & Composition', 14, currentY);
     currentY += 6;
 
-    doc.setFont('helvetica', 'normal');
-    doc.setFontSize(9);
-    doc.setTextColor(...SLATE_DARK);
-    doc.text(`Quantitative composition per serving${product.servingSize ? ` (${product.servingSize})` : ''}`, 14, currentY);
-    currentY += 6;
-
     const tableBody = product.ingredients.map(i => [i.name, i.dosage, i.dv || '-']);
 
     autoTable(doc, {
       startY: currentY,
-      head: [['Active Component', 'Quantitative Composition Per Serving', '% Daily Value (DV)']],
+      head: [['Active Component', 'Amount Per Serving', '% Daily Value (DV)']],
       body: tableBody,
       headStyles: { fillColor: NAVY, textColor: 255, fontStyle: 'bold', fontSize: 9 },
       bodyStyles: { textColor: SLATE_DARK, fontSize: 8.5 },
@@ -563,7 +557,7 @@ function main() {
   if (fs.existsSync(productsPath)) {
     const productsData = JSON.parse(fs.readFileSync(productsPath, 'utf8'));
     console.log(`Generating PDFs for ${productsData.length} products...`);
-    
+
     productsData.forEach(prod => {
       generateProductSpecPDF(prod);
     });
