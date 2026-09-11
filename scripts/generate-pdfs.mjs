@@ -404,7 +404,7 @@ function generateFullCataloguePDF(products) {
 
   addTitleBlock(
     doc,
-    'Plexuspharmaco Product Catalogue 2026',
+    'Plexuspharmaco Product Catalogue',
     'Comprehensive Portfolio of Pharmaceuticals, Nutraceuticals & Healthcare Solutions',
     'FULL PRODUCT CATALOGUE'
   );
@@ -442,9 +442,9 @@ function generateFullCataloguePDF(products) {
     margin: { left: 14, right: 14 }
   });
 
-  addHeaderFooter(doc, 'Plexuspharmaco Product Catalogue 2026', 'DOC-CATALOGUE-2026');
-  fs.writeFileSync(path.join(outputDir, 'Plexuspharmaco_Product_Catalogue_2026.pdf'), Buffer.from(doc.output('arraybuffer')));
-  console.log('Generated: Plexuspharmaco_Product_Catalogue_2026.pdf');
+  addHeaderFooter(doc, 'Plexuspharmaco Product Catalogue', 'DOC-CATALOGUE');
+  fs.writeFileSync(path.join(outputDir, 'Plexuspharmaco_Product_Catalogue.pdf'), Buffer.from(doc.output('arraybuffer')));
+  console.log('Generated: Plexuspharmaco_Product_Catalogue.pdf');
 }
 
 // MAIN EXECUTION

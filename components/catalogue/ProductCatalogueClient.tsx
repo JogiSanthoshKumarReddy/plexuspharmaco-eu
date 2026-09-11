@@ -110,8 +110,8 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
           </div>
           <div className="flex-shrink-0">
             <a 
-              href="/assets/pdfs/Plexuspharmaco_Product_Catalogue_2026.pdf" 
-              download="Plexuspharmaco_Product_Catalogue_2026.pdf"
+              href="/assets/pdfs/Plexuspharmaco_Product_Catalogue.pdf" 
+              download="Plexuspharmaco_Product_Catalogue.pdf"
               className="inline-flex items-center gap-3 px-6 py-4 bg-brand-900 hover:bg-brand-800 text-white font-bold rounded-2xl shadow-lg hover:shadow-xl transition-all hover:-translate-y-0.5 cursor-pointer text-sm tracking-wide w-full sm:w-auto justify-center"
             >
               <Download className="w-5 h-5 text-accent-400" /> Download Full Catalogue (PDF)
