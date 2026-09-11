@@ -112,7 +112,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
     "name": "PLEXWELL NATURALS MEN MULTIVITAMIN TAB",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/mens/plexwell-naturals-men-multivitamin.jpg",
     "description": "High-quality PLEXWELL NATURALS MEN MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -130,7 +130,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
     "name": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN TAB",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/mens/plexwell-naturals-men-50-multivitamin.jpg",
     "description": "High-quality PLEXWELL NATURALS MEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -148,7 +148,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
     "name": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN POWDER",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/mens/plexwell-naturals-men-70-multivitamin.jpg",
     "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -184,7 +184,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
     "name": "PLEXWELL NATURALS MEN FERTi-PRO TABLET",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/mens/plexwell-naturals-ferti-men.jpg",
     "description": "High-quality PLEXWELL NATURALS FERTi-MEN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
@@ -202,7 +202,7 @@
     "segment": "Nutraceuticals",
     "category": "PLEXWELL NATURALS MEN’S HEALTH",
     "name": "PLEXWELL NATURALS MEN PROSTi-PRO SOFTGEL",
-    "image": "/assets/images/pharma_product_nutra.png",
+    "image": "/assets/images/products/mens/plexwell-naturals-prosti-men.jpg",
     "description": "High-quality PLEXWELL NATURALS PROSTi-MEN formulated for optimal health and wellness.",
     "ingredients": [],
     "features": [
