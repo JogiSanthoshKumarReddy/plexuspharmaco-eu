@@ -279,7 +279,10 @@ export default function ProductCatalogueClient({ locale }: { locale: string }) {
                   
                   {/* Content Body */}
                   <div className="p-8 flex flex-col flex-grow">
-                    <h4 className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors line-clamp-2">
+                    <h4 
+                      className="text-xl font-bold text-brand-900 mb-4 group-hover:text-brand-700 transition-colors line-clamp-2"
+                      title={product.name}
+                    >
                       {renderProductName(product.name)}
                     </h4>
                     {product.description ? (

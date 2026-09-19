@@ -669,39 +669,152 @@
     "description": "High-quality PLEXWELL NATURALS MEN MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin A",
-        "dosage": "900 mcg"
+        "name": "Vitamin A (50% Beta-Carotene & 50% Palmitate)",
+        "dosage": "900 mcg RAE",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin C",
-        "dosage": "90 mg"
+        "name": "Vitamin C (as Ascorbic Acid)",
+        "dosage": "150 mg",
+        "dv": "167%"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "20 mcg (800 IU)"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "50 mcg (2,000 IU)",
+        "dv": "250%"
       },
       {
-        "name": "Vitamin E",
-        "dosage": "15 mg"
+        "name": "Vitamin E (as d-alpha-Tocopheryl Acetate)",
+        "dosage": "30 mg",
+        "dv": "200%"
       },
       {
-        "name": "Zinc",
-        "dosage": "11 mg"
+        "name": "Vitamin B1 (Thiamine Mononitrate)",
+        "dosage": "15 mg",
+        "dv": "1,250%"
       },
       {
-        "name": "Magnesium",
-        "dosage": "400 mg"
+        "name": "Vitamin B2 (Riboflavin)",
+        "dosage": "15 mg",
+        "dv": "1,154%"
+      },
+      {
+        "name": "Vitamin B3 (as Niacinamide)",
+        "dosage": "30 mg",
+        "dv": "188%"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxal-5-Phosphate)",
+        "dosage": "10 mg",
+        "dv": "588%"
+      },
+      {
+        "name": "Folate (as L-Methylfolate)",
+        "dosage": "400 mcg DFE",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "100 mcg",
+        "dv": "4,167%"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "150 mcg",
+        "dv": "500%"
+      },
+      {
+        "name": "Pantothenic Acid (as Calcium D-Pantothenate)",
+        "dosage": "20 mg",
+        "dv": "400%"
+      },
+      {
+        "name": "Magnesium (as Magnesium Bisglycinate Chelate)",
+        "dosage": "150 mg",
+        "dv": "36%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "15 mg",
+        "dv": "136%"
+      },
+      {
+        "name": "Iron (as Ferrous Bisglycinate Chelate)",
+        "dosage": "6 mg",
+        "dv": "33%"
+      },
+      {
+        "name": "Manganese (as Manganese Bisglycinate Chelate)",
+        "dosage": "2 mg",
+        "dv": "87%"
+      },
+      {
+        "name": "Iodine (as Potassium Iodide)",
+        "dosage": "150 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "100 mcg",
+        "dv": "182%"
+      },
+      {
+        "name": "Chromium (as Chromium Picolinate)",
+        "dosage": "100 mcg",
+        "dv": "286%"
+      },
+      {
+        "name": "L-Arginine",
+        "dosage": "200 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Saw Palmetto Extract (standardized to 45% Fatty Acids)",
+        "dosage": "100 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Coenzyme Q10 (Ubiquinone)",
+        "dosage": "30 mg",
+        "dv": "*"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Complete Men's Daily Nutrition — comprehensive vitamins, minerals and specialist nutrients formulated for men's everyday nutritional needs.",
+      "Energy & Reduced Tiredness — high-potency B vitamins, Vitamin C and magnesium contribute to normal energy metabolism, with several nutrients contributing to the reduction of tiredness and fatigue.",
+      "Immune Defense — Vitamins C, D, zinc and selenium contribute to normal immune system function.",
+      "Male Reproductive Health — zinc contributes to normal fertility and reproduction and to the maintenance of normal testosterone levels; selenium contributes to normal spermatogenesis.",
+      "Muscle & Bone Health — Vitamin D contributes to normal muscle function and maintenance of normal bones, while magnesium contributes to normal muscle function.",
+      "Prostate-Focused Formula — includes 100 mg standardized Saw Palmetto extract as a specialist botanical ingredient.",
+      "Heart & Cellular Energy — provides 30 mg CoQ10 alongside antioxidant nutrients.",
+      "Blood Flow & Performance Nutrition — provides 200 mg L-Arginine, an amino acid involved in nitric-oxide metabolism.",
+      "Antioxidant Protection — Vitamins C and E, zinc and selenium contribute to protection of cells from oxidative stress.",
+      "Premium Nutrient Forms — includes P5P Vitamin B6, L-Methylfolate, Methylcobalamin B12, Magnesium Bisglycinate, Zinc Bisglycinate and L-Selenomethionine.",
+      "50-Day Supply — 100 tablets with a daily serving of 2 tablets."
     ],
     "packSizes": [
-      "N30",
-      "N60"
-    ]
+      "N100"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What are the main benefits of PLEXWELL NATURALS MEN MULTIVITAMIN?",
+        "answer": "PLEXWELL NATURALS MEN MULTIVITAMIN provides a comprehensive combination of high-potency vitamins, minerals and specialist nutrients formulated for men's daily nutritional needs. Key nutrients support normal energy metabolism, immune function, muscle and bone health, cognitive function, antioxidant protection, and male reproductive health."
+      },
+      {
+        "question": "What makes PLEXWELL NATURALS MEN MULTIVITAMIN different from a standard men's multivitamin?",
+        "answer": "Beyond essential vitamins and minerals, PLEXWELL NATURALS MEN MULTIVITAMIN contains Saw Palmetto, L-Arginine and Coenzyme Q10 (CoQ10). It also features premium nutrient forms including P5P Vitamin B6, L-Methylfolate, Methylcobalamin B12, Magnesium Bisglycinate, Zinc Bisglycinate and L-Selenomethionine, creating a comprehensive men's wellness formula."
+      },
+      {
+        "question": "Does PLEXWELL NATURALS MEN MULTIVITAMIN support men's reproductive health and normal testosterone levels?",
+        "answer": "Yes. Each daily serving provides 15 mg of zinc, which contributes to normal fertility and reproduction and the maintenance of normal testosterone levels in the blood. It also provides selenium, which contributes to normal spermatogenesis, alongside L-Arginine and Saw Palmetto as specialist ingredients formulated for men's nutritional needs."
+      },
+      {
+        "question": "How should I take PLEXWELL NATURALS MEN MULTIVITAMIN, and how long does one pack last?",
+        "answer": "The recommended serving is 2 tablets daily, preferably with a meal and water. Each pack contains 100 tablets, providing a 50-day supply when taken at the recommended daily serving. Do not exceed the recommended daily intake."
+      }
+    ],
+    "servingSize": "2 tablets"
   },
   {
     "id": "plexwell-naturals-men-50-multivitamin",
@@ -712,35 +825,164 @@
     "description": "High-quality PLEXWELL NATURALS MEN 50+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin A",
-        "dosage": "900 mcg"
+        "name": "Vitamin A (70% Beta-Carotene & 30% Palmitate)",
+        "dosage": "900 mcg RAE",
+        "dv": "100%"
       },
       {
-        "name": "Vitamin B12",
-        "dosage": "2.4 mcg"
+        "name": "Vitamin C (as Calcium Ascorbate)",
+        "dosage": "150 mg",
+        "dv": "167%"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "25 mcg (1000 IU)"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "50 mcg (2,000 IU)",
+        "dv": "250%"
       },
       {
-        "name": "Saw Palmetto Extract",
-        "dosage": "160 mg"
+        "name": "Vitamin E (as d-alpha-Tocopheryl Acetate)",
+        "dosage": "30 mg",
+        "dv": "200%"
       },
       {
-        "name": "Lycopene",
-        "dosage": "5 mg"
+        "name": "Vitamin K2 (as Menaquinone-7 / MK-7)",
+        "dosage": "15 mcg",
+        "dv": "13%"
+      },
+      {
+        "name": "Vitamin B1 (Thiamine Mononitrate)",
+        "dosage": "12 mg",
+        "dv": "1,000%"
+      },
+      {
+        "name": "Vitamin B2 (Riboflavin)",
+        "dosage": "12 mg",
+        "dv": "923%"
+      },
+      {
+        "name": "Vitamin B3 (as Niacinamide)",
+        "dosage": "20 mg",
+        "dv": "125%"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxal-5-Phosphate)",
+        "dosage": "15 mg",
+        "dv": "882%"
+      },
+      {
+        "name": "Folate (as L-Methylfolate)",
+        "dosage": "400 mcg DFE",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "100 mcg",
+        "dv": "4,167%"
+      },
+      {
+        "name": "Biotin",
+        "dosage": "150 mcg",
+        "dv": "500%"
+      },
+      {
+        "name": "Pantothenic Acid (as Calcium D-Pantothenate)",
+        "dosage": "20 mg",
+        "dv": "400%"
+      },
+      {
+        "name": "Magnesium (as Magnesium Bisglycinate & Citrate)",
+        "dosage": "150 mg",
+        "dv": "36%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "15 mg",
+        "dv": "136%"
+      },
+      {
+        "name": "Manganese (as Manganese Bisglycinate Chelate)",
+        "dosage": "2 mg",
+        "dv": "87%"
+      },
+      {
+        "name": "Iodine (as Potassium Iodide)",
+        "dosage": "150 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "150 mcg",
+        "dv": "273%"
+      },
+      {
+        "name": "Chromium (as Chromium Picolinate)",
+        "dosage": "100 mcg",
+        "dv": "286%"
+      },
+      {
+        "name": "Saw Palmetto Extract (45% Fatty Acids)",
+        "dosage": "150 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Alpha Lipoic Acid (ALA)",
+        "dosage": "50 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Coenzyme Q10 (Ubiquinone)",
+        "dosage": "30 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Lycopene (from Natural Tomato Extract)",
+        "dosage": "10 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Lutein (from Marigold Flower Extract)",
+        "dosage": "6 mg",
+        "dv": "*"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Complete Daily Nutrition for Men 50+ — comprehensive combination of essential vitamins, minerals and specialist nutrients formulated for the nutritional needs of mature men.",
+      "Energy & Vitality — high-potency B vitamins and magnesium support normal energy-yielding metabolism and help reduce tiredness and fatigue.",
+      "Prostate-Focused Nutrition — features 150 mg Saw Palmetto + 10 mg Lycopene, specifically selected for a men's 50+ formula.",
+      "Muscle & Bone Health — Vitamin D3 and magnesium support normal muscle function, while Vitamins D3 and K contribute to the maintenance of normal bones.",
+      "Immune System Support — Vitamins C and D, zinc and selenium contribute to normal immune system function.",
+      "Heart & Cellular Energy Support — includes CoQ10 and Alpha Lipoic Acid, alongside key antioxidant micronutrients.",
+      "Memory & Cognitive Support — zinc contributes to normal cognitive function, while B vitamins support normal nervous-system and psychological function.",
+      "Eye Health Nutrition — contains 6 mg Lutein plus Beta-Carotene and zinc as part of its senior-focused nutritional profile.",
+      "Antioxidant Protection — Vitamins C and E, zinc and selenium help protect cells from oxidative stress.",
+      "Male Reproductive Health — zinc contributes to normal fertility and reproduction and maintenance of normal testosterone levels; selenium contributes to normal spermatogenesis.",
+      "Premium, Bioavailable Nutrient Forms — includes P5P Vitamin B6, L-Methylfolate, Methylcobalamin B12, Magnesium Bisglycinate, Zinc Bisglycinate and L-Selenomethionine.",
+      "Clean Formula — free from artificial colors, titanium dioxide, gluten and dairy.",
+      "Convenient 30-Day Supply — 60 tablets, with a daily serving of 2 tablets."
     ],
     "packSizes": [
-      "N30",
       "N60"
-    ]
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "Why is PLEXWELL NATURALS MEN 50+ MULTIVITAMIN specifically formulated for men over 50?",
+        "answer": "PLEXWELL NATURALS MEN 50+ MULTIVITAMIN combines essential vitamins and minerals with Saw Palmetto, Lycopene, CoQ10, Alpha Lipoic Acid and Lutein to provide comprehensive nutritional support for mature men. The formula focuses on energy and vitality, immune function, muscle and bone health, cognitive function, antioxidant protection and men's nutritional needs."
+      },
+      {
+        "question": "Is PLEXWELL NATURALS MEN 50+ MULTIVITAMIN designed to be gentle on the stomach?",
+        "answer": "Yes. This senior-friendly formula has been designed with tolerability in mind. It uses buffered Calcium Ascorbate as the Vitamin C source and highly absorbable mineral forms such as Magnesium Bisglycinate and Zinc Bisglycinate, while the tablet formulation is designed for efficient disintegration. Taking the tablets with a meal is recommended for comfortable daily use."
+      },
+      {
+        "question": "Does PLEXWELL NATURALS MEN 50+ MULTIVITAMIN use high-absorption forms of vitamins and minerals?",
+        "answer": "Yes. A key feature of PLEXWELL NATURALS MEN 50+ MULTIVITAMIN is its emphasis on carefully selected, bioavailable nutrient forms. These include Pyridoxal-5-Phosphate (P5P), L-Methylfolate, Methylcobalamin, Magnesium Bisglycinate, Zinc Bisglycinate and L-Selenomethionine, making it particularly suitable for a premium senior-focused multivitamin."
+      },
+      {
+        "question": "How should PLEXWELL NATURALS MEN 50+ MULTIVITAMIN be taken, and how long does one pack last?",
+        "answer": "The recommended serving is 2 tablets daily, preferably taken with a meal and water. Each pack contains 60 tablets, providing a convenient 30-day supply. Anyone taking medication—particularly anticoagulants—or managing a medical condition should consult a healthcare professional before use."
+      }
+    ],
+    "servingSize": "2 tablets"
   },
   {
     "id": "plexwell-naturals-men-70-multivitamin",
@@ -751,35 +993,136 @@
     "description": "High-quality PLEXWELL NATURALS MEN 70+ MULTIVITAMIN formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Vitamin B12",
-        "dosage": "2.4 mcg"
+        "name": "L-Glutamine",
+        "dosage": "1,000 mg",
+        "dv": "*"
       },
       {
-        "name": "Vitamin D3",
-        "dosage": "25 mcg (1000 IU)"
+        "name": "Glucosamine Sulfate 2KCl",
+        "dosage": "500 mg",
+        "dv": "*"
       },
       {
-        "name": "Calcium",
-        "dosage": "500 mg"
+        "name": "Rose Hip Extract (Rosa canina)",
+        "dosage": "200 mg",
+        "dv": "*"
       },
       {
-        "name": "Zinc",
-        "dosage": "11 mg"
+        "name": "Ginkgo Biloba Extract (Std. 24% Flavonoids)",
+        "dosage": "120 mg",
+        "dv": "*"
       },
       {
-        "name": "Ginkgo Biloba Extract",
-        "dosage": "120 mg"
+        "name": "Vitamin A (as Beta-Carotene)",
+        "dosage": "900 mcg RAE",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin C (as Calcium Ascorbate)",
+        "dosage": "250 mg",
+        "dv": "278%"
+      },
+      {
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "50 mcg (2,000 IU)",
+        "dv": "250%"
+      },
+      {
+        "name": "Vitamin E (as d-alpha-Tocopheryl Acetate)",
+        "dosage": "30 mg",
+        "dv": "200%"
+      },
+      {
+        "name": "Vitamin K2 (as Menaquinone-7 / MK-7)",
+        "dosage": "45 mcg",
+        "dv": "38%"
+      },
+      {
+        "name": "Vitamin B1 (as Thiamine Hydrochloride)",
+        "dosage": "10 mg",
+        "dv": "833%"
+      },
+      {
+        "name": "Vitamin B2 (as Riboflavin-5-Phosphate)",
+        "dosage": "10 mg",
+        "dv": "769%"
+      },
+      {
+        "name": "Vitamin B3 (as Niacinamide)",
+        "dosage": "20 mg",
+        "dv": "125%"
+      },
+      {
+        "name": "Vitamin B6 (as Pyridoxal-5-Phosphate / P5P)",
+        "dosage": "15 mg",
+        "dv": "882%"
+      },
+      {
+        "name": "Folate (as L-Methylfolate)",
+        "dosage": "400 mcg DFE",
+        "dv": "100%"
+      },
+      {
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "250 mcg",
+        "dv": "10,417%"
+      },
+      {
+        "name": "Magnesium (as Magnesium Citrate)",
+        "dosage": "200 mg",
+        "dv": "48%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "15 mg",
+        "dv": "136%"
+      },
+      {
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "150 mcg",
+        "dv": "273%"
+      },
+      {
+        "name": "Chromium (as Chromium Picolinate)",
+        "dosage": "100 mcg",
+        "dv": "286%"
+      },
+      {
+        "name": "Potassium (from Potassium Bicarbonate)",
+        "dosage": "150 mg",
+        "dv": "3%"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Senior-Friendly & Easy to Digest — Thoughtfully formulated for men aged 70+, with carefully selected, highly absorbable nutrient forms and a gentle effervescent delivery system designed for comfortable everyday supplementation.",
+      "Hydration + Electrolyte Support — Each sachet dissolves in 200–250 mL of water, combining daily multivitamin nutrition with fluid intake and key electrolytes including magnesium and potassium.",
+      "Muscle, Joint & Mobility Support — A targeted combination featuring L-Glutamine, Glucosamine and Rose Hip, complemented by Vitamin D and magnesium to support normal muscle function, mobility and active ageing.",
+      "Memory & Cognitive Support — Features Ginkgo Biloba together with premium active-form B vitamins including Methylcobalamin (Vitamin B12) and L-Methylfolate, creating a comprehensive nutritional formula for cognitive and nervous-system support.",
+      "Bone, Immunity & Daily Vitality — Combines Vitamin D3 + Vitamin K2 (MK-7) with Vitamin C, zinc and other essential micronutrients to support normal bones, immune function, energy metabolism and everyday vitality."
     ],
     "packSizes": [
-      "N30",
-      "N60"
-    ]
+      "N28 Sachets"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What makes PLEXWELL NATURALS MEN 70+ MULTIVITAMIN suitable for senior men?",
+        "answer": "PLEXWELL NATURALS MEN 70+ MULTIVITAMIN is specifically designed around the nutritional needs of men aged 70+. It combines essential vitamins and minerals with L-Glutamine, Glucosamine, Rose Hip, Ginkgo Biloba, Vitamin D3 + K2, magnesium and zinc to provide comprehensive nutritional support for muscles, bones, mobility, immunity, cognitive function, energy and everyday vitality."
+      },
+      {
+        "question": "Is PLEXWELL NATURALS MEN 70+ MULTIVITAMIN easy to digest and absorb?",
+        "answer": "The formula has been developed with senior-friendly digestion and nutrient delivery in mind. It features buffered Calcium Ascorbate, soluble Magnesium Citrate, chelated Zinc Bisglycinate, and active-form nutrients including P5P, L-Methylfolate and Methylcobalamin. The effervescent drink format also eliminates the need to swallow large tablets or capsules."
+      },
+      {
+        "question": "How do I use PLEXWELL NATURALS MEN 70+ MULTIVITAMIN?",
+        "answer": "Empty 1 sachet (10 g) into 200–250 mL of cold water. Stir gently and allow the mild effervescence to settle before drinking. Take once daily, preferably with or after breakfast. Each box contains 28 individually portioned sachets, providing a 4-week supply."
+      },
+      {
+        "question": "What additional ingredients make this formula different from an ordinary senior multivitamin?",
+        "answer": "In addition to high-potency vitamins and minerals, each daily sachet provides 1,000 mg L-Glutamine, 500 mg Glucosamine Sulfate, 200 mg Rose Hip Extract and 120 mg standardized Ginkgo Biloba Extract. It also features Vitamin D3 + K2, active B vitamins and premium mineral forms, while being sugar-free, artificial dye-free, titanium dioxide-free and gluten-free."
+      }
+    ],
+    "servingSize": "1 sachet (10g)"
   },
   {
     "id": "plexwell-naturals-ferti-men",
@@ -790,35 +1133,112 @@
     "description": "High-quality PLEXWELL NATURALS FERTi-MEN formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "L-Carnitine",
-        "dosage": "500 mg"
+        "name": "Vitamin C (as L-Ascorbic Acid)",
+        "dosage": "250 mg",
+        "dv": "278%"
       },
       {
-        "name": "CoQ10",
-        "dosage": "100 mg"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "25 mcg (1,000 IU)",
+        "dv": "125%"
       },
       {
-        "name": "Zinc",
-        "dosage": "15 mg"
+        "name": "Vitamin E (as d-Alpha Tocopheryl Succinate)",
+        "dosage": "120 mg",
+        "dv": "800%"
       },
       {
-        "name": "Selenium",
-        "dosage": "55 mcg"
+        "name": "Folate (as L-5-Methyltetrahydrofolate)",
+        "dosage": "800 mcg DFE",
+        "dv": "200%"
       },
       {
-        "name": "Folic Acid",
-        "dosage": "400 mcg"
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "500 mcg",
+        "dv": "20,833%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "25 mg",
+        "dv": "227%"
+      },
+      {
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "100 mcg",
+        "dv": "182%"
+      },
+      {
+        "name": "L-Carnitine L-Tartrate",
+        "dosage": "750 mg",
+        "dv": "*"
+      },
+      {
+        "name": "N-Acetyl-L-Cysteine (NAC)",
+        "dosage": "300 mg",
+        "dv": "*"
+      },
+      {
+        "name": "L-Arginine HCl",
+        "dosage": "250 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Coenzyme Q10 (CoQ10)",
+        "dosage": "100 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Ashwagandha Root Extract",
+        "dosage": "150 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Reduced Glutathione",
+        "dosage": "80 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Lycopene (from Natural Tomato Extract)",
+        "dosage": "10 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Astaxanthin",
+        "dosage": "4 mg",
+        "dv": "*"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Advanced Male Fertility Support – Zinc supports normal fertility, reproduction and maintenance of normal testosterone levels, while Selenium supports normal spermatogenesis.",
+      "Sperm Energy & Vitality Complex – L-Carnitine, CoQ10 and L-Arginine provide specialist nutritional support for male reproductive health and cellular energy.",
+      "Powerful Antioxidant Protection – NAC, Glutathione, Vitamins C & E, Lycopene, Astaxanthin, CoQ10 and Selenium provide comprehensive antioxidant support and help protect cells from oxidative stress.",
+      "Premium Active Nutrient Forms – Features L-Methylfolate, Methylcobalamin B12, Zinc Bisglycinate and L-Selenomethionine for a premium formulation.",
+      "Male Wellness & Preconception Nutrition – Ashwagandha, Vitamin D3, Folate and B12 complement the fertility formula with nutritional support for vitality, energy metabolism and overall male wellness.",
+      "High-Potency 15-Ingredient Formula – A comprehensive combination of vitamins, minerals, amino acids, antioxidants and botanical nutrients in 2 tablets daily | 100 tablets | 50-day supply."
     ],
     "packSizes": [
-      "N30",
-      "N60"
-    ]
+      "N100"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What makes PLEXWELL NATURALS FERTi-MEN different from a regular men’s multivitamin?",
+        "answer": "PLEXWELL NATURALS FERTi-MEN is an advanced male fertility and preconception nutritional formula, rather than a standard multivitamin. It combines 15 specialist nutrients including L-Carnitine, NAC, CoQ10, L-Arginine, Glutathione, Lycopene, Astaxanthin and Ashwagandha with high-potency vitamins and minerals. Zinc supports normal fertility and reproduction, while selenium contributes to normal spermatogenesis."
+      },
+      {
+        "question": "How does PLEXWELL NATURALS FERTi-MEN support antioxidant protection and male reproductive health?",
+        "answer": "PLEXWELL NATURALS FERTi-MEN provides a comprehensive antioxidant complex containing NAC, Reduced Glutathione, Vitamins C & E, CoQ10, Lycopene, Astaxanthin and Selenium. Vitamins C and E and selenium contribute to the protection of cells from oxidative stress, while L-Carnitine, CoQ10 and L-Arginine provide additional specialist nutritional support for male reproductive wellness."
+      },
+      {
+        "question": "Does PLEXWELL NATURALS FERTi-MEN use premium forms of vitamins and minerals?",
+        "answer": "Yes. PLEXWELL NATURALS FERTi-MEN features carefully selected nutrient forms including L-5-Methyltetrahydrofolate (L-Methylfolate), Methylcobalamin Vitamin B12, Zinc Bisglycinate Chelate and L-Selenomethionine. Each daily serving also provides 750 mg L-Carnitine L-Tartrate, 300 mg NAC, 100 mg CoQ10 and 1,000 IU Vitamin D3."
+      },
+      {
+        "question": "How should I take PLEXWELL NATURALS FERTi-MEN and how long does one pack last?",
+        "answer": "Take 2 tablets of PLEXWELL NATURALS FERTi-MEN daily, preferably with a meal and sufficient water. Each pack contains 100 tablets, providing a convenient 50-day supply. For preconception nutritional support, consistent daily use according to the recommended intake is important."
+      }
+    ],
+    "servingSize": "2 tablets"
   },
   {
     "id": "plexwell-naturals-prosti-men",
@@ -829,31 +1249,72 @@
     "description": "High-quality PLEXWELL NATURALS PROSTi-MEN formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Saw Palmetto Extract",
-        "dosage": "320 mg"
+        "name": "Zinc (as Zinc Picolinate)",
+        "dosage": "15 mg",
+        "dv": "136%"
       },
       {
-        "name": "Pumpkin Seed Extract",
-        "dosage": "200 mg"
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "70 mcg",
+        "dv": "127%"
       },
       {
-        "name": "Zinc",
-        "dosage": "15 mg"
+        "name": "Saw Palmetto Extract (Serenoa repens) (Fruit), standardized to 85–95% Fatty Acids",
+        "dosage": "320 mg",
+        "dv": "*"
       },
       {
-        "name": "Lycopene",
-        "dosage": "10 mg"
+        "name": "Beta-Sitosterol (from Plant Sterol Complex)",
+        "dosage": "150 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Stinging Nettle Extract (Urtica dioica) (Root), 10:1 Concentrate",
+        "dosage": "120 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Pygeum Extract (Pygeum africanum) (Bark), standardized to 13% Total Sterols",
+        "dosage": "100 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Lycopene (from Natural Tomato Extract)",
+        "dosage": "15 mg",
+        "dv": "*"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Advanced Prostate Nutrition Formula – A comprehensive combination of Saw Palmetto, Beta-Sitosterol, Stinging Nettle Root and Pygeum specifically formulated for the nutritional needs of adult men.",
+      "High-Strength Standardized Saw Palmetto – Provides 320 mg Saw Palmetto Extract, standardized to 85–95% fatty acids, delivering a consistent concentration of its characteristic lipid components.",
+      "Premium 4-Botanical Prostate Complex – Combines Saw Palmetto + 150 mg Beta-Sitosterol + 120 mg concentrated Stinging Nettle Root + 100 mg standardized Pygeum, providing multi-ingredient botanical support in one daily serving.",
+      "Supports Normal Male Reproductive Health – Provides 15 mg Zinc, which contributes to normal fertility and reproduction and the maintenance of normal testosterone levels in the blood.",
+      "Antioxidant & Cellular Protection – Selenium contributes to the protection of cells from oxidative stress, complemented by 15 mg natural tomato Lycopene as a specialist carotenoid ingredient.",
+      "Premium Oil-Based Softgel Delivery – Formulated with Pumpkin Seed Oil and Sunflower Lecithin in an easy-to-use softgel format. 2 softgels daily | 100 softgels | 50-day supply."
     ],
     "packSizes": [
-      "N30",
-      "N60"
-    ]
+      "N100 Softgels"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What makes PLEXWELL NATURALS PROSTi-MEN different from an ordinary men’s supplement?",
+        "answer": "PLEXWELL NATURALS PROSTi-MEN is a specialist prostate-focused nutritional formula combining 320 mg standardized Saw Palmetto, 150 mg Beta-Sitosterol, Stinging Nettle Root, Pygeum and Lycopene with Zinc and Selenium. This multi-ingredient approach provides comprehensive nutritional support specifically designed for adult men."
+      },
+      {
+        "question": "What are the key botanical ingredients in PLEXWELL NATURALS PROSTi-MEN?",
+        "answer": "Each daily serving combines 320 mg Saw Palmetto standardized to 85–95% fatty acids, 150 mg Beta-Sitosterol, 120 mg concentrated Stinging Nettle Root and 100 mg Pygeum standardized to 13% total sterols. These carefully selected botanicals make PROSTi-MEN a high-strength, prostate-focused men’s wellness formula."
+      },
+      {
+        "question": "Does PLEXWELL NATURALS PROSTi-MEN provide benefits beyond its botanical complex?",
+        "answer": "Yes. PROSTi-MEN also provides 15 mg Zinc, 70 mcg Selenium and 15 mg Lycopene. Zinc contributes to normal fertility and reproduction and maintenance of normal testosterone levels, while Selenium contributes to the protection of cells from oxidative stress. Lycopene from natural tomato extract provides an additional specialist carotenoid component."
+      },
+      {
+        "question": "How should I take PLEXWELL NATURALS PROSTi-MEN and how long does one pack last?",
+        "answer": "Take 2 softgels daily, preferably with a meal and sufficient water. The oil-based softgel formulation contains Pumpkin Seed Oil and Sunflower Lecithin and provides the botanical and micronutrient complex in a convenient daily format. Each pack contains 100 softgels, providing a 50-day supply."
+      }
+    ],
+    "servingSize": "2 softgels"
   },
   {
     "id": "plexwell-naturals-erecti-men-n100",
@@ -864,30 +1325,114 @@
     "description": "High-quality PLEXWELL NATURALS MEN ERECTi-PRO CAPSULE N100 formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "L-Arginine",
-        "dosage": "1000 mg"
+        "name": "Vitamin C (as Ascorbic Acid)",
+        "dosage": "120 mg",
+        "dv": "133%"
       },
       {
-        "name": "Maca Root Extract",
-        "dosage": "500 mg"
+        "name": "Vitamin E (as d-Alpha Tocopherol)",
+        "dosage": "60 mg",
+        "dv": "400%"
       },
       {
-        "name": "Ginseng Extract",
-        "dosage": "200 mg"
+        "name": "Folate (as L-5-Methyltetrahydrofolate)",
+        "dosage": "400 mcg DFE",
+        "dv": "100%"
       },
       {
-        "name": "Zinc",
-        "dosage": "15 mg"
+        "name": "Vitamin B12 (as Methylcobalamin)",
+        "dosage": "250 mcg",
+        "dv": "10,417%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "30 mg",
+        "dv": "273%"
+      },
+      {
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "100 mcg",
+        "dv": "182%"
+      },
+      {
+        "name": "L-Citrulline Malate (2:1)",
+        "dosage": "400 mg",
+        "dv": "*"
+      },
+      {
+        "name": "L-Carnitine L-Tartrate",
+        "dosage": "300 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Ashwagandha Root Extract (KSM-66®️)",
+        "dosage": "200 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Maca Root Extract (4:1, Gelatinized)",
+        "dosage": "200 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Coenzyme Q10 (Ubiquinone)",
+        "dosage": "100 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Tongkat Ali Extract (Eurycoma longifolia, 100:1)",
+        "dosage": "100 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Panax Ginseng Extract (10% Ginsenosides)",
+        "dosage": "100 mg",
+        "dv": "*"
+      },
+      {
+        "name": "Pycnogenol®️ (French Maritime Pine Bark Extract)",
+        "dosage": "40 mg",
+        "dv": "*"
+      },
+      {
+        "name": "BioPerine®️ (Black Pepper Fruit Extract)",
+        "dosage": "5 mg",
+        "dv": "*"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Dual-Action Male Fertility & Performance Support – Designed to combine male reproductive nutrition with sexual vitality and performance support in one targeted formula.",
+      "Supports Sperm Health & Male Reproduction – Provides specialist nutrients and antioxidants formulated to support normal sperm formation, motility and overall reproductive wellness.",
+      "Nitric Oxide & Healthy Circulation Support – Features nutrients designed to support nitric oxide production and healthy peripheral blood circulation, important for normal sexual function.",
+      "Stamina, Energy & Vitality Complex – Combines selected amino acids and adaptogenic botanicals to support physical stamina, energy and resistance to fatigue.",
+      "Advanced Antioxidant Protection – Antioxidant nutrients help protect cells from oxidative stress, providing additional nutritional support during male preconception."
     ],
     "packSizes": [
+      "N10",
+      "N30",
+      "N60",
       "N100"
-    ]
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What is this product designed to support?",
+        "answer": "This advanced men’s formula provides dual-action nutritional support for male reproductive health and physical vitality. It combines L-Carnitine, CoQ10, Zinc, Selenium and antioxidant vitamins with L-Citrulline, Ashwagandha, Maca, Tongkat Ali, Panax Ginseng and Pycnogenol®️ for comprehensive male wellness support."
+      },
+      {
+        "question": "How does the formula support male fertility and sperm health?",
+        "answer": "The formula provides Zinc, Selenium, L-Carnitine, CoQ10, Folate, Vitamin B12 and antioxidant Vitamins C & E. Zinc contributes to normal fertility and reproduction, Selenium contributes to normal spermatogenesis, while Vitamins C and E help protect cells from oxidative stress."
+      },
+      {
+        "question": "How does the product support stamina, vitality and sexual wellness?",
+        "answer": "The specialist performance complex combines L-Citrulline Malate, Ashwagandha KSM-66®️, Maca, Tongkat Ali, Panax Ginseng and Pycnogenol®️ to complement nutritional support for physical stamina, vitality, healthy circulation and overall male sexual wellness."
+      },
+      {
+        "question": "How should I take the product, and what pack sizes are available?",
+        "answer": "Take 2 veggie capsules daily, preferably with a meal and sufficient water. The product is conveniently available in four pack sizes to suit different requirements: N10 – 5-day supply, N30 – 15-day supply, N60 – 30-day supply, and N100 – 50-day supply."
+      }
+    ],
+    "servingSize": "2 capsules"
   },
   {
     "id": "plexwell-naturals-hair-pro-complex-capsule",
@@ -898,35 +1443,119 @@
     "description": "High-quality PLEXWELL NATURALS HAIR-PRO COMPLEX CAPSULE formulated for optimal health and wellness.",
     "ingredients": [
       {
-        "name": "Biotin",
-        "dosage": "5000 mcg"
+        "name": "Vitamin D3 (as Cholecalciferol)",
+        "dosage": "50 mcg (2,000 IU)",
+        "dv": "250%"
       },
       {
-        "name": "Keratin",
-        "dosage": "250 mg"
+        "name": "Vitamin E (as d-Alpha Tocopheryl Succinate)",
+        "dosage": "30 mg",
+        "dv": "200%"
       },
       {
-        "name": "Saw Palmetto Extract",
-        "dosage": "160 mg"
+        "name": "Vitamin B6 (as Pyridoxal-5-Phosphate)",
+        "dosage": "10 mg",
+        "dv": "588%"
       },
       {
-        "name": "Zinc",
-        "dosage": "15 mg"
+        "name": "Biotin (Vitamin B7)",
+        "dosage": "5,000 mcg",
+        "dv": "16,667%"
       },
       {
-        "name": "Vitamin E",
-        "dosage": "15 mg"
+        "name": "Iron (as Ferrous Bisglycinate Chelate)",
+        "dosage": "9 mg",
+        "dv": "50%"
+      },
+      {
+        "name": "Zinc (as Zinc Bisglycinate Chelate)",
+        "dosage": "15 mg",
+        "dv": "136%"
+      },
+      {
+        "name": "Selenium (as L-Selenomethionine)",
+        "dosage": "55 mcg",
+        "dv": "100%"
+      },
+      {
+        "name": "Copper (as Copper Bisglycinate Chelate)",
+        "dosage": "1 mg",
+        "dv": "111%"
+      },
+      {
+        "name": "Saw Palmetto Berry Extract (std. to 45% Fatty Acids)",
+        "dosage": "320 mg",
+        "dv": "**"
+      },
+      {
+        "name": "Marine Collagen Peptides (Type I & III)",
+        "dosage": "200 mg",
+        "dv": "**"
+      },
+      {
+        "name": "Pumpkin Seed Extract (Cucurbita pepo, 4:1)",
+        "dosage": "150 mg",
+        "dv": "**"
+      },
+      {
+        "name": "Pygeum Bark Extract (std. to 13% Phytosterols)",
+        "dosage": "100 mg",
+        "dv": "**"
+      },
+      {
+        "name": "Green Tea Leaf Extract (std. to 98% Polyphenols, 50% EGCG)",
+        "dosage": "100 mg",
+        "dv": "**"
+      },
+      {
+        "name": "Horsetail Extract (Equisetum arvense, std. to 7% Silica)",
+        "dosage": "100 mg",
+        "dv": "**"
+      },
+      {
+        "name": "Resveratrol (from Polygonum cuspidatum)",
+        "dosage": "40 mg",
+        "dv": "**"
+      },
+      {
+        "name": "BioPerine®️ (Black Pepper Fruit Extract)",
+        "dosage": "5 mg",
+        "dv": "**"
       }
     ],
     "features": [
-      "Manufactured under certified quality systems.",
-      "Subject to strict quality control.",
-      "Available for commercial partnership."
+      "Advanced Hair & Follicle Nutrition – A comprehensive 16-active formula combining Saw Palmetto, Pumpkin Seed, Pygeum, Biotin, Zinc and Selenium to provide targeted nutritional support for healthy hair and follicles.",
+      "High-Potency Biotin + Structural Support – Provides 5,000 mcg Biotin, together with Marine Collagen Peptides and silica-rich Horsetail to support normal hair maintenance, strength and healthy-looking hair structure.",
+      "Premium Botanical Hair Complex – Features 320 mg standardized Saw Palmetto, Pumpkin Seed Extract and standardized Pygeum in a specialist botanical combination formulated for men’s hair and scalp wellness.",
+      "Antioxidant Follicle Protection – Vitamin E, Selenium, Green Tea Polyphenols and Resveratrol provide a broad antioxidant complex, with Vitamin E and Selenium contributing to protection of cells from oxidative stress.",
+      "Essential Minerals for Healthy Hair – Zinc, Selenium, Copper and Iron complement the formula; Zinc, Selenium and Biotin contribute to the maintenance of normal hair, while Copper contributes to normal hair pigmentation.",
+      "Complete 50-Day Hair Wellness Program – 100 veggie capsules | 2 capsules daily | 50-day supply, combining vitamins, minerals, botanicals, collagen and antioxidants in one comprehensive daily formula."
     ],
     "packSizes": [
       "N30",
-      "N60"
-    ]
+      "N60",
+      "N100"
+    ],
+    "storage": "At room temperature below 25 deg C. Shelf life: 3 years.",
+    "faqs": [
+      {
+        "question": "What makes PLEXWELL NATURALS HAIR-PRO COMPLEX different from a regular Biotin supplement?",
+        "answer": "PLEXWELL NATURALS HAIR-PRO COMPLEX is a comprehensive 16-active hair and follicle formula, rather than a simple Biotin supplement. It combines 5,000 mcg Biotin with Saw Palmetto, Pumpkin Seed, Pygeum, Marine Collagen, Horsetail Silica, Zinc, Selenium, Iron, Copper and antioxidants to provide broad nutritional support for healthy hair, follicles and scalp wellness."
+      },
+      {
+        "question": "How does PLEXWELL NATURALS HAIR-PRO COMPLEX support stronger, healthier-looking hair?",
+        "answer": "PLEXWELL NATURALS HAIR-PRO COMPLEX provides a multi-nutrient approach to hair wellness. Biotin, Zinc and Selenium contribute to the maintenance of normal hair, while Marine Collagen Peptides and silica-rich Horsetail provide additional structural nutrition. Vitamin D3, Vitamin B6, Iron and Copper further complement the formula for comprehensive daily hair nutrition."
+      },
+      {
+        "question": "What is special about the botanical and antioxidant complex in PLEXWELL NATURALS HAIR-PRO COMPLEX?",
+        "answer": "Each daily serving contains 320 mg standardized Saw Palmetto, 150 mg Pumpkin Seed Extract and 100 mg standardized Pygeum, supported by Green Tea Extract and Resveratrol. The formula also contains Vitamin E and Selenium, which contribute to the protection of cells from oxidative stress, creating a comprehensive botanical and antioxidant approach to hair and scalp wellness."
+      },
+      {
+        "question": "How should I take PLEXWELL NATURALS HAIR-PRO COMPLEX, and how long does one pack last?",
+        "answer": "Take 2 veggie capsules daily, preferably with a meal and sufficient water. Each pack of PLEXWELL NATURALS HAIR-PRO COMPLEX contains 100 veggie capsules, providing a convenient 50-day supply for consistent daily hair and follicle nutrition."
+      }
+    ],
+    "servingSize": "2 capsules"
   },
   {
     "id": "plexwell-naturals-women-multivitamin",

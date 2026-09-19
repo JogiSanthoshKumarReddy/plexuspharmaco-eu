@@ -104,7 +104,10 @@ export default function FeaturedProducts() {
                 </div>
                 
                 <div className="p-6 flex flex-col h-[calc(100%-16rem)]">
-                  <h3 className="font-bold text-brand-900 text-lg mb-2 line-clamp-2 group-hover:text-brand-700 transition-colors">
+                  <h3 
+                    className="font-bold text-brand-900 text-lg mb-2 line-clamp-2 group-hover:text-brand-700 transition-colors"
+                    title={product.name}
+                  >
                     {renderProductName(product.name)}
                   </h3>
                   <p className="text-slate-500 text-sm font-light line-clamp-2 flex-grow">
