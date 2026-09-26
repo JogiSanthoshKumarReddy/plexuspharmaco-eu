@@ -39,6 +39,10 @@ const nextConfig: NextConfig = {
           {
             key: 'Content-Security-Policy',
             value: "default-src 'self'; script-src 'self' 'unsafe-eval' 'unsafe-inline' https://*.google.com https://*.googleapis.com https://*.gstatic.com; style-src 'self' 'unsafe-inline' https://*.googleapis.com https://*.gstatic.com https://*.google.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https://*.googleapis.com https://*.google.com https://*.gstatic.com; frame-src 'self' https://*.google.com; connect-src 'self' https://*.googleapis.com https://*.google.com;"
+          },
+          {
+            key: 'Permissions-Policy',
+            value: 'camera=(), microphone=(), geolocation=()'
           }
         ]
       }
