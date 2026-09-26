@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useForm, useWatch } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as z from "zod";
-import { Loader2, CheckCircle2, Globe, Factory, PackageSearch, ShieldCheck, HelpCircle, Briefcase, Paperclip, X } from "lucide-react";
+import { Loader2, CheckCircle2, Globe, ShieldCheck, HelpCircle, Briefcase, Paperclip, X } from "lucide-react";
 
 // Form Schema Definition
 const contactSchema = z.object({

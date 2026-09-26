@@ -1,5 +1,5 @@
 "use client";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "next/navigation";
 
 declare global {
@@ -17,7 +17,32 @@ export default function GoogleTranslate() {
   const params = useParams();
   const locale = (params?.locale as string) || "en";
 
+  const [hasConsent, setHasConsent] = useState(false);
+
   useEffect(() => {
+    const checkConsent = () => {
+      try {
+        const consentStr = localStorage.getItem("plexus_cookie_consent");
+        if (consentStr) {
+          const consent = JSON.parse(consentStr);
+          // Assuming Google Translate falls under analytical/preferences
+          if (consent.analytical) {
+            setHasConsent(true);
+          }
+        }
+      } catch {
+        // pass
+      }
+    };
+
+    checkConsent();
+    window.addEventListener("plexus_consent_updated", checkConsent);
+    return () => window.removeEventListener("plexus_consent_updated", checkConsent);
+  }, []);
+
+  useEffect(() => {
+    if (!hasConsent) return;
+
     const forceTranslate = () => {
       const select = document.querySelector(".goog-te-combo") as HTMLSelectElement;
       if (select) {
@@ -56,7 +81,7 @@ export default function GoogleTranslate() {
     // Start polling to force the translation as soon as the widget loads
     setTimeout(forceTranslate, 500);
 
-  }, [locale]);
+  }, [locale, hasConsent]);
 
   return <div id="google_translate_element" className="opacity-0 absolute -z-50 w-px h-px overflow-hidden pointer-events-none"></div>;
 }

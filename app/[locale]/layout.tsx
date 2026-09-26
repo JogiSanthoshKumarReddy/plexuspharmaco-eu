@@ -8,7 +8,7 @@ import StructuredData from "@/components/common/StructuredData";
 import CookieBanner from "@/components/common/CookieBanner";
 import ScriptManager from "@/components/common/ScriptManager";
 import GoogleTranslate from "@/components/common/GoogleTranslate";
-import Script from "next/script";
+
 
 // Import modern UI fonts
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "swap" });

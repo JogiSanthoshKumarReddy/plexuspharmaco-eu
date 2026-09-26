@@ -2,7 +2,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { useParams, usePathname, useRouter } from "next/navigation";
+import { useParams, usePathname } from "next/navigation";
 import { Menu, X, ChevronDown, Globe } from "lucide-react";
 import { navigation } from "../../data/navigation";
 
@@ -12,7 +12,6 @@ export default function ModernHeader() {
   const [activeDropdown, setActiveDropdown] = useState<number | null>(null);
   const [langDropdownOpen, setLangDropdownOpen] = useState(false);
   const pathname = usePathname();
-  const router = useRouter();
   const params = useParams();
   const locale = params?.locale || 'en';
 

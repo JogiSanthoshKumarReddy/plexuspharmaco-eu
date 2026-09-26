@@ -31,7 +31,7 @@ export default function LatestNews() {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {newsItems.map((item, idx) => (
+          {newsItems.map((item) => (
             <Link href={`/press-release/${item.id}`} key={item.id} className="block group">
               <div 
                 className="glass-card hover-lift rounded-3xl overflow-hidden flex flex-col h-full bg-white"
