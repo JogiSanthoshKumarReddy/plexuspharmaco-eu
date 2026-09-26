@@ -7,6 +7,12 @@ import BreadcrumbHero from '@/components/common/BreadcrumbHero';
 import ProductSchema from '@/components/common/ProductSchema';
 import { Product } from '@/types/product';
 
+interface ExtendedProduct extends Product {
+  storage?: string;
+  regulatoryCompliance?: string;
+  origin?: string;
+  faqs?: { question: string; answer: string }[];
+}
 import { Metadata } from 'next';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string; id: string }> }): Promise<Metadata> {
@@ -266,7 +272,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <ThermometerSnowflake className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Storage & Stability</h3>
-            <p className="text-slate-600 font-light">{((product as any).storage) || "Specific storage conditions and comprehensive stability data are detailed in the product dossier, available upon commercial request."}</p>
+            <p className="text-slate-600 font-light">{((product as ExtendedProduct).storage) || "Specific storage conditions and comprehensive stability data are detailed in the product dossier, available upon commercial request."}</p>
           </div>
           
           <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
@@ -274,16 +280,16 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
               <FileCheck className="w-6 h-6" />
             </div>
             <h3 className="text-xl font-bold text-brand-900 mb-4">Regulatory Compliance</h3>
-            <p className="text-slate-600 font-light">{((product as any).regulatoryCompliance) || "Dossiers (CTD format) and other necessary regulatory documentation are prepared per the specific regulatory requirements of the target market."}</p>
+            <p className="text-slate-600 font-light">{((product as ExtendedProduct).regulatoryCompliance) || "Dossiers (CTD format) and other necessary regulatory documentation are prepared per the specific regulatory requirements of the target market."}</p>
           </div>
 
-          {((product as any).origin) && (
+          {((product as ExtendedProduct).origin) && (
             <div className="bg-white p-8 rounded-3xl border border-slate-100 shadow-sm">
               <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center text-brand-700 mb-6">
                 <Globe className="w-6 h-6" />
               </div>
               <h3 className="text-xl font-bold text-brand-900 mb-4">Origin</h3>
-              <p className="text-slate-600 font-light">{(product as any).origin}</p>
+              <p className="text-slate-600 font-light">{(product as ExtendedProduct).origin}</p>
             </div>
           )}
         </div>
@@ -294,7 +300,7 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
             <p className="text-slate-600">Common queries regarding {product.name}</p>
           </div>
           <div className="space-y-6 max-w-4xl mx-auto">
-            {((product as any).faqs || [
+            {((product as ExtendedProduct).faqs || [
               {
                 question: "What is the minimum order quantity (MOQ)?",
                 answer: "MOQ varies depending on the packaging type and destination country. Please contact our sales team using the inquiry form for a detailed quote."

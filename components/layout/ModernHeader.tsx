@@ -19,13 +19,17 @@ export default function ModernHeader() {
   const switchLanguage = (newLang: string) => {
     // Set cookies for Google Translate to automatically translate the page on load
     const cookieStr = newLang === 'en' ? '/en/en' : `/en/${newLang}`;
+    // eslint-disable-next-line react-hooks/immutability
     document.cookie = `googtrans=${cookieStr}; path=/`;
+    // eslint-disable-next-line react-hooks/immutability
     document.cookie = `googtrans=${cookieStr}; path=/; domain=${window.location.hostname}`;
     
+    // eslint-disable-next-line react-hooks/immutability
     document.cookie = `NEXT_LOCALE=${newLang}; path=/; max-age=31536000`;
     
     const newPath = pathname.replace(/^\/[^\/]+/, `/${newLang}`);
     // Use hard navigation so Google Translate script re-initializes
+    // eslint-disable-next-line react-hooks/immutability
     window.location.href = newPath;
   };
 

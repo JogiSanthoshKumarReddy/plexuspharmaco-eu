@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import nodemailer from 'nodemailer';
+
 import { Redis } from '@upstash/redis';
 import { Ratelimit } from '@upstash/ratelimit';
 
@@ -134,16 +134,6 @@ export async function POST(request: Request) {
       data = await request.json();
     }
     
-    // Create a Nodemailer transporter using SMTP
-    const transporter = nodemailer.createTransport({
-      host: process.env.SMTP_HOST || 'smtp.gmail.com',
-      port: Number(process.env.SMTP_PORT) || 587,
-      secure: process.env.SMTP_SECURE === 'true', // true for 465, false for other ports
-      auth: {
-        user: process.env.SMTP_USER,
-        pass: process.env.SMTP_PASS,
-      },
-    });
 
     // Build the email content based on the submitted form data
     const formType = data.formType || 'Contact Form Submission';
@@ -185,7 +175,7 @@ export async function POST(request: Request) {
     const dateStr = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
     const timeStr = new Date().toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit', timeZoneName: 'short' });
     
-    let emailHtml = `
+    const emailHtml = `
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -324,23 +314,33 @@ export async function POST(request: Request) {
     </html>
     `;
 
-    const mailOptions = {
-      from: process.env.SMTP_FROM_EMAIL || '"Plexuspharmaco Website" <noreply@plexuspharmaco.eu>',
-      to: process.env.SMTP_TO_EMAIL || 'info@plexuspharmaco.eu',
-      subject: `New Website Enquiry: ${formType}`,
-      html: emailHtml,
-      attachments: attachments.length > 0 ? attachments : undefined
-    };
+    const fromEmail = process.env.RESEND_FROM_EMAIL || 'Plexuspharmaco Website <noreply@plexuspharmaco.eu>';
+    const toEmail = process.env.RESEND_TO_EMAIL || 'info@plexuspharmaco.eu';
 
-    // If SMTP_USER is configured, send the email. Otherwise, mock success for demo purposes.
-    if (process.env.SMTP_USER) {
-      const info = await transporter.sendMail(mailOptions);
-      if (process.env.SMTP_HOST?.includes('ethereal.email')) {
-        console.log('Test email sent. Preview URL:', nodemailer.getTestMessageUrl(info));
+    if (process.env.RESEND_API_KEY) {
+      const resendRes = await fetch('https://api.resend.com/emails', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${process.env.RESEND_API_KEY}`,
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({
+          from: fromEmail,
+          to: [toEmail],
+          subject: `New Website Enquiry: ${formType}`,
+          html: emailHtml,
+          attachments: attachments.map(att => ({
+            filename: att.filename,
+            content: att.content.toString('base64'),
+          }))
+        })
+      });
+      
+      if (!resendRes.ok) {
+        throw new Error(`Resend API Error: ${await resendRes.text()}`);
       }
-
     } else {
-      console.warn('DEMO MODE: SMTP_USER is not configured. Simulating successful email send to:', mailOptions.to);
+      console.warn('DEMO MODE: RESEND_API_KEY is not configured. Simulating successful email send to:', toEmail);
       // Simulate 1 second network delay
       await new Promise(resolve => setTimeout(resolve, 1000));
     }

@@ -2,6 +2,17 @@
 import { useEffect } from "react";
 import { useParams } from "next/navigation";
 
+declare global {
+  interface Window {
+    googleTranslateElementInit?: () => void;
+    google?: {
+      translate: {
+        TranslateElement: new (options: Record<string, unknown>, id: string) => void;
+      };
+    };
+  }
+}
+
 export default function GoogleTranslate() {
   const params = useParams();
   const locale = (params?.locale as string) || "en";
@@ -22,15 +33,17 @@ export default function GoogleTranslate() {
     };
 
     if (!document.getElementById("google-translate-script")) {
-      (window as any).googleTranslateElementInit = () => {
-        new (window as any).google.translate.TranslateElement(
-          { 
-            pageLanguage: "en", 
-            includedLanguages: "en,de,fr,es",
-            autoDisplay: false 
-          },
-          "google_translate_element"
-        );
+      window.googleTranslateElementInit = () => {
+        if (window.google) {
+          new window.google.translate.TranslateElement(
+            { 
+              pageLanguage: "en", 
+              includedLanguages: "en,de,fr,es",
+              autoDisplay: false 
+            },
+            "google_translate_element"
+          );
+        }
       };
 
       const script = document.createElement("script");
