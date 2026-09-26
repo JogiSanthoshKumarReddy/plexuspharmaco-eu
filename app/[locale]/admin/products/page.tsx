@@ -58,7 +58,7 @@ export default function AdminProductsPage() {
               {filtered.slice(0, 10).map((product, idx) => (
                 <tr key={idx} className="hover:bg-slate-50/80 transition-colors group">
                   <td className="p-4">
-                    <div className="font-bold text-slate-900 group-hover:text-brand-600 transition-colors">{product.name}</div>
+                    <div className="font-bold text-slate-900 group-hover:text-brand-600 transition-colors" title={product.name}>{product.name}</div>
                     <div className="text-xs text-slate-500 truncate max-w-[300px] mt-1">{product.description}</div>
                   </td>
                   <td className="p-4">
