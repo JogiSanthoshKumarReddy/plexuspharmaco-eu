@@ -369,7 +369,12 @@ export default async function ProductDetailsPage({ params }: { params: Promise<{
                   <Image src={related.image || getProductImage(related.category)} alt={related.name} fill className="object-contain mix-blend-multiply group-hover:scale-110 transition-transform duration-500" />
                 </div>
                 <div className="text-xs font-bold text-brand-600 uppercase mb-2">{related.category}</div>
-                <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1" title={related.name}>{renderProductName(related.name)}</h4>
+                <div className="relative group/tooltip">
+                  <h4 className="font-bold text-brand-900 group-hover:text-brand-700 transition-colors line-clamp-1">{renderProductName(related.name)}</h4>
+                  <div className="absolute left-0 bottom-full mb-2 w-full min-w-full bg-slate-900 text-white text-sm px-3 py-2 rounded-lg shadow-xl opacity-0 invisible group-hover/tooltip:opacity-100 group-hover/tooltip:visible transition-all duration-200 z-50 pointer-events-none">
+                    {related.name}
+                  </div>
+                </div>
               </Link>
             ))}
           </div>

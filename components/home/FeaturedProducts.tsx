@@ -104,12 +104,16 @@ export default function FeaturedProducts() {
                 </div>
                 
                 <div className="p-6 flex flex-col h-[calc(100%-16rem)]">
-                  <h3 
-                    className="font-bold text-brand-900 text-lg mb-2 line-clamp-2 group-hover:text-brand-700 transition-colors"
-                    title={product.name}
-                  >
-                    {renderProductName(product.name)}
-                  </h3>
+                  <div className="relative group/tooltip">
+                    <h3 
+                      className="font-bold text-brand-900 text-lg mb-2 line-clamp-2 group-hover:text-brand-700 transition-colors"
+                    >
+                      {renderProductName(product.name)}
+                    </h3>
+                    <div className="absolute left-0 bottom-full mb-2 w-full min-w-full bg-slate-900 text-white text-sm px-3 py-2 rounded-lg shadow-xl opacity-0 invisible group-hover/tooltip:opacity-100 group-hover/tooltip:visible transition-all duration-200 z-50 pointer-events-none">
+                      {product.name}
+                    </div>
+                  </div>
                   <p className="text-slate-500 text-sm font-light line-clamp-2 flex-grow">
                     {product.description}
                   </p>
