@@ -37,7 +37,7 @@ function sanitizeHtml(str: string): string {
 }
 
 // Magic Bytes check for PDF, DOC, DOCX
-function isValidMagicBytes(buffer: Buffer, mimetype: string): boolean {
+function isValidMagicBytes(buffer: Uint8Array, mimetype: string): boolean {
   if (buffer.length < 4) return false;
   
   // PDF: %PDF (25 50 44 46)
@@ -66,12 +66,16 @@ export async function POST(request: Request) {
     if (ip !== 'unknown') {
       if (ratelimit) {
         // Use Distributed Rate Limiter
-        const { success } = await ratelimit.limit(ip);
-        if (!success) {
-          return NextResponse.json(
-            { success: false, message: 'Too many requests. Please try again later.' },
-            { status: 429 }
-          );
+        try {
+          const { success } = await ratelimit.limit(ip);
+          if (!success) {
+            return NextResponse.json(
+              { success: false, message: 'Too many requests. Please try again later.' },
+              { status: 429 }
+            );
+          }
+        } catch (rlError) {
+          console.warn("Rate limit check failed, bypassing:", rlError);
         }
       } else {
         // Use Memory Fallback
@@ -92,7 +96,7 @@ export async function POST(request: Request) {
 
     const contentType = request.headers.get('content-type') || '';
     let data: Record<string, string> = {};
-    const attachments: { filename: string; content: Buffer; contentType: string }[] = [];
+    const attachments: { filename: string; content: string; contentType: string }[] = [];
     
     if (contentType.includes('multipart/form-data')) {
       const formData = await request.formData();
@@ -114,16 +118,24 @@ export async function POST(request: Request) {
               return NextResponse.json({ success: false, message: `Invalid file type for ${value.name}. Allowed: PDF, DOC, DOCX` }, { status: 400 });
             }
 
-            const buffer = Buffer.from(await value.arrayBuffer());
+            const arrayBuffer = await value.arrayBuffer();
+            const buffer = new Uint8Array(arrayBuffer);
             
             // Validate Magic Bytes (File Signature)
             if (!isValidMagicBytes(buffer, fileType)) {
               return NextResponse.json({ success: false, message: `File signature mismatch for ${value.name}. Potentially spoofed file.` }, { status: 400 });
             }
 
+            // Convert to base64 for email
+            let binary = '';
+            for (let i = 0; i < buffer.byteLength; i++) {
+              binary += String.fromCharCode(buffer[i]);
+            }
+            const base64Content = btoa(binary);
+
             attachments.push({
               filename: value.name,
-              content: buffer,
+              content: base64Content,
               contentType: fileType
             });
           }
@@ -332,7 +344,7 @@ export async function POST(request: Request) {
           html: emailHtml,
           attachments: attachments.map(att => ({
             filename: att.filename,
-            content: att.content.toString('base64'),
+            content: att.content,
           }))
         })
       });
