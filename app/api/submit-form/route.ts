@@ -1,25 +1,7 @@
 import { NextResponse } from 'next/server';
 
-export const runtime = 'edge';
 import { Redis } from '@upstash/redis';
 import { Ratelimit } from '@upstash/ratelimit';
-
-// Distributed Rate Limiter setup (Fallback to memory map if no KV configured)
-let ratelimit: Ratelimit | null = null;
-try {
-  if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
-    ratelimit = new Ratelimit({
-      redis: new Redis({
-        url: process.env.KV_REST_API_URL,
-        token: process.env.KV_REST_API_TOKEN,
-      }),
-      limiter: Ratelimit.slidingWindow(3, "1 m"),
-      analytics: true,
-    });
-  }
-} catch (e) {
-  console.warn("Failed to initialize Upstash Redis rate limiter", e);
-}
 
 const fallbackRateLimitMap = new Map<string, number[]>();
 const RATE_LIMIT_WINDOW_MS = 60 * 1000; // 1 minute
@@ -60,6 +42,23 @@ function isValidMagicBytes(buffer: Uint8Array, mimetype: string): boolean {
 
 export async function POST(request: Request) {
   try {
+    // Distributed Rate Limiter setup (Fallback to memory map if no KV configured)
+    let ratelimit: Ratelimit | null = null;
+    try {
+      if (process.env.KV_REST_API_URL && process.env.KV_REST_API_TOKEN) {
+        ratelimit = new Ratelimit({
+          redis: new Redis({
+            url: process.env.KV_REST_API_URL,
+            token: process.env.KV_REST_API_TOKEN,
+          }),
+          limiter: Ratelimit.slidingWindow(3, "1 m"),
+          analytics: true,
+        });
+      }
+    } catch (e) {
+      console.warn("Failed to initialize Upstash Redis rate limiter", e);
+    }
+
     const ip = request.headers.get('x-forwarded-for') || 'unknown';
     const now = Date.now();
     
