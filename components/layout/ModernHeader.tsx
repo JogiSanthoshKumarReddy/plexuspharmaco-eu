@@ -72,7 +72,7 @@ export default function ModernHeader() {
       }`}
       style={isScrolled ? { WebkitBackdropFilter: "blur(24px)", backdropFilter: "blur(24px)" } : {}}
     >
-      <div className="container mx-auto px-6 lg:px-8">
+      <div className="container mx-auto px-4 lg:px-6 xl:px-8">
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex-shrink-0 relative z-50" aria-label="Plexuspharmaco Home">
@@ -86,7 +86,7 @@ export default function ModernHeader() {
           </Link>
 
           {/* Desktop Navigation */}
-          <nav className="hidden lg:flex items-center gap-8" aria-label="Main Navigation">
+          <nav className="hidden xl:flex items-center gap-4 2xl:gap-8" aria-label="Main Navigation">
             <Link 
               href={`/${locale}`}
               className={`font-medium transition-colors ${pathname === `/${locale}` ? "text-brand-600" : "text-brand-900 hover:text-brand-600"}`}
@@ -157,7 +157,7 @@ export default function ModernHeader() {
           </nav>
 
           {/* Contact Button Desktop & Language Dropdown */}
-          <div className="hidden lg:flex items-center gap-4">
+          <div className="hidden xl:flex items-center gap-4">
             {/* Language Selector */}
             <div 
               className="relative"
@@ -227,7 +227,7 @@ export default function ModernHeader() {
           {/* Mobile Menu Toggle */}
           <button 
             id="mobile-menu-toggle"
-            className="lg:hidden relative z-50 p-2 text-brand-900 focus:outline-none focus:ring-2 focus:ring-brand-500 rounded-lg"
+            className="xl:hidden relative z-50 p-2 text-brand-900 focus:outline-none focus:ring-2 focus:ring-brand-500 rounded-lg"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             aria-expanded={mobileMenuOpen}
             aria-label={mobileMenuOpen ? "Close menu" : "Open menu"}
@@ -241,7 +241,7 @@ export default function ModernHeader() {
       {/* Mobile Navigation Overlay */}
       <nav 
         aria-label="Mobile Navigation"
-        className={`fixed inset-0 bg-white z-40 transition-transform duration-300 lg:hidden overflow-y-auto pt-24 pb-8 px-6 ${
+        className={`fixed inset-0 bg-white z-40 transition-transform duration-300 xl:hidden overflow-y-auto pt-24 pb-8 px-6 ${
           mobileMenuOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
