@@ -168,8 +168,14 @@ export default function ModernHeader() {
                 className="px-3 py-1.5 text-slate-600 hover:text-brand-700 hover:bg-slate-50 rounded-full transition-colors flex items-center gap-1.5"
                 aria-label="Language Selector"
               >
-                <span className="text-xl leading-none">
-                  {locale === 'de' ? '🇩🇪' : locale === 'fr' ? '🇫🇷' : locale === 'es' ? '🇪🇸' : '🇬🇧'}
+                <span className="flex items-center justify-center">
+                  <Image 
+                    src={`/flags/${locale === 'en' ? 'gb' : locale}.svg`} 
+                    alt={`${locale} flag`} 
+                    width={20} 
+                    height={15} 
+                    className="rounded-sm object-cover" 
+                  />
                 </span>
                 <ChevronDown className={`w-3 h-3 transition-transform ${langDropdownOpen ? 'rotate-180' : ''}`} />
               </button>
@@ -181,10 +187,10 @@ export default function ModernHeader() {
               >
                 <div className="py-2">
                   {[
-                    { code: "en", flag: "🇬🇧" },
-                    { code: "de", flag: "🇩🇪" },
-                    { code: "fr", flag: "🇫🇷" },
-                    { code: "es", flag: "🇪🇸" },
+                    { code: "en" },
+                    { code: "de" },
+                    { code: "fr" },
+                    { code: "es" },
                   ].map((lang) => {
                     const labels: Record<string, Record<string, string>> = {
                       en: { en: "English", de: "German", fr: "French", es: "Spanish" },
@@ -200,7 +206,9 @@ export default function ModernHeader() {
                       onClick={() => switchLanguage(lang.code)}
                       className="w-full text-left px-4 py-2.5 text-sm text-brand-700 hover:bg-brand-50 hover:text-brand-900 transition-colors font-medium flex items-center gap-2.5 notranslate"
                     >
-                      <span className="text-lg leading-none">{lang.flag}</span>
+                      <span className="flex items-center justify-center">
+                        <Image src={`/flags/${lang.code === 'en' ? 'gb' : lang.code}.svg`} alt={`${lang.code} flag`} width={20} height={15} className="rounded-sm object-cover" />
+                      </span>
                       {label}
                     </button>
                   )})}
@@ -274,10 +282,10 @@ export default function ModernHeader() {
               <h4 className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-3 flex items-center gap-2"><Globe className="w-4 h-4"/> Select Language</h4>
               <div className="grid grid-cols-2 gap-2 notranslate">
                 {[
-                  { code: "en", flag: "🇬🇧" },
-                  { code: "de", flag: "🇩🇪" },
-                  { code: "fr", flag: "🇫🇷" },
-                  { code: "es", flag: "🇪🇸" },
+                  { code: "en" },
+                  { code: "de" },
+                  { code: "fr" },
+                  { code: "es" },
                 ].map((lang) => {
                   const labels: Record<string, Record<string, string>> = {
                     en: { en: "English", de: "German", fr: "French", es: "Spanish" },
@@ -289,7 +297,9 @@ export default function ModernHeader() {
                   
                   return (
                     <button key={lang.code} onClick={() => switchLanguage(lang.code)} className="px-4 py-2.5 flex items-center gap-2 bg-slate-50 hover:bg-slate-100 text-brand-900 font-medium rounded-lg text-sm text-left border border-slate-100 transition-colors">
-                      <span className="text-lg leading-none">{lang.flag}</span> {label}
+                      <span className="flex items-center justify-center">
+                        <Image src={`/flags/${lang.code === 'en' ? 'gb' : lang.code}.svg`} alt={`${lang.code} flag`} width={20} height={15} className="rounded-sm object-cover" />
+                      </span> {label}
                     </button>
                   );
                 })}
