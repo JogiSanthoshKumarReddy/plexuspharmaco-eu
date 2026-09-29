@@ -1,4 +1,3 @@
-import { NextResponse } from 'next/server';
 
 
 
@@ -50,7 +49,7 @@ export async function POST(request: Request) {
         const validTimestamps = timestamps.filter(t => now - t < RATE_LIMIT_WINDOW_MS);
         
         if (validTimestamps.length >= MAX_REQUESTS_PER_WINDOW) {
-          return NextResponse.json(
+          return Response.json(
             { success: false, message: 'Too many requests. Please try again later.' },
             { status: 429 }
           );
@@ -71,7 +70,7 @@ export async function POST(request: Request) {
           if (value.size > 0 && value.name) {
             // Strict Size Limit (5MB)
             if (value.size > 5 * 1024 * 1024) {
-              return NextResponse.json({ success: false, message: `File ${value.name} exceeds 5MB limit` }, { status: 400 });
+              return Response.json({ success: false, message: `File ${value.name} exceeds 5MB limit` }, { status: 400 });
             }
 
             // Allowed Extensions & Mime Types
@@ -81,7 +80,7 @@ export async function POST(request: Request) {
             const fileType = value.type || 'application/octet-stream';
 
             if (!allowedTypes.includes(fileType) || !allowedExts.includes('.' + ext)) {
-              return NextResponse.json({ success: false, message: `Invalid file type for ${value.name}. Allowed: PDF, DOC, DOCX` }, { status: 400 });
+              return Response.json({ success: false, message: `Invalid file type for ${value.name}. Allowed: PDF, DOC, DOCX` }, { status: 400 });
             }
 
             const arrayBuffer = await value.arrayBuffer();
@@ -89,7 +88,7 @@ export async function POST(request: Request) {
             
             // Validate Magic Bytes (File Signature)
             if (!isValidMagicBytes(buffer, fileType)) {
-              return NextResponse.json({ success: false, message: `File signature mismatch for ${value.name}. Potentially spoofed file.` }, { status: 400 });
+              return Response.json({ success: false, message: `File signature mismatch for ${value.name}. Potentially spoofed file.` }, { status: 400 });
             }
 
             // Convert to base64 for email
@@ -324,13 +323,13 @@ export async function POST(request: Request) {
       await new Promise(resolve => setTimeout(resolve, 1000));
     }
 
-    return NextResponse.json(
+    return Response.json(
       { success: true, message: 'Application submitted successfully! We will get back to you soon.' },
       { status: 200 }
     );
   } catch (error: unknown) {
     console.error('Error sending email:', error);
-    return NextResponse.json(
+    return Response.json(
       { success: false, message: 'Unable to process your request. Please try again later.' },
       { status: 500 }
     );
