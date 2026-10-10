@@ -12,13 +12,13 @@ export interface PressRelease {
 export const pressReleases: PressRelease[] = [
   {
     id: "welcome-to-plexuspharmaco",
-    title: "Welcome to Plexuspharmaco Europe",
+    title: "Welcome to Plexuspharmaco GmbH",
     date: "Aug 15, 2026",
     category: "Corporate News",
     author: "Corporate Comms",
     image: "/assets/images/pharma_hero_corporate.png",
-    summary: "Welcome to the official news portal of Plexuspharmaco Europe.",
-    content: "Welcome to the official news portal of Plexuspharmaco Europe. We are committed to transparency, compliance, and excellence in healthcare. Please check back later for official announcements, regulatory updates, and corporate milestones. [PENDING CLIENT APPROVAL]"
+    summary: "Welcome to the official news portal of Plexuspharmaco GmbH.",
+    content: "Welcome to the official news portal of Plexuspharmaco GmbH. We are committed to transparency, compliance, and excellence in healthcare. Please check back later for official announcements, regulatory updates, and corporate milestones. [PENDING CLIENT APPROVAL]"
   },
   {
     id: "new-rnd-facility-munich",

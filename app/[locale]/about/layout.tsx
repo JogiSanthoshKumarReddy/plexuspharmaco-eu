@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: "/about",
   },
   openGraph: {
-    title: "About | Plexuspharmaco Europe",
+    title: "About | Plexuspharmaco GmbH",
     description: "Learn about Plexuspharmaco, a global Healthcare company dedicated to innovation, quality, and improving patient outcomes worldwide.",
     url: "/about",
     images: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "About - Plexuspharmaco Europe",
+        alt: "About - Plexuspharmaco GmbH",
       },
     ],
   },

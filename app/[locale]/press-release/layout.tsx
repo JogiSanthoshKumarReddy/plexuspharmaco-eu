@@ -5,13 +5,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://plexuspharmaco.eu';
 
   return {
-    title: 'Press Releases | Plexuspharmaco Europe',
+    title: 'Press Releases | Plexuspharmaco GmbH',
     description: 'Stay informed with the latest official announcements, corporate developments, and strategic updates from Plexuspharmaco Group.',
     alternates: {
       canonical: `/${locale}/press-release`,
     },
     openGraph: {
-      title: 'Press Releases | Plexuspharmaco Europe',
+      title: 'Press Releases | Plexuspharmaco GmbH',
       description: 'Latest corporate announcements and strategic updates from Plexuspharmaco Group.',
       url: `${baseUrl}/${locale}/press-release`,
       images: [

@@ -22,7 +22,7 @@ export default function CompanyOverview() {
             <div className="relative h-[600px] w-full rounded-3xl overflow-hidden shadow-2xl border border-slate-100">
               <Image 
                 src="/assets/images/pharma_hero_lab.png"
-                alt="Plexuspharmaco European Operations"
+                alt="Plexuspharmaco GmbHan Operations"
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-700"
               />

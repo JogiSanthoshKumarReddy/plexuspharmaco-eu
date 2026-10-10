@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: "/quality-assurance",
   },
   openGraph: {
-    title: "Quality Assurance | Plexuspharmaco Europe",
+    title: "Quality Assurance | Plexuspharmaco GmbH",
     description: "Learn how Plexuspharmaco embeds Quality by Design (QbD) across all global manufacturing and supply chain operations.",
     url: "/quality-assurance",
     images: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "Quality Assurance - Plexuspharmaco Europe",
+        alt: "Quality Assurance - Plexuspharmaco GmbH",
       },
     ],
   },

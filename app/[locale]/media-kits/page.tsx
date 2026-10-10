@@ -6,7 +6,7 @@ export default function MediaKitsPage() {
   const kits = [
     {
       title: "Corporate Brand Guidelines",
-      description: "Official color palettes, typography, and logo usage rules for Plexuspharmaco Europe.",
+      description: "Official color palettes, typography, and logo usage rules for Plexuspharmaco GmbH.",
       icon: <FileText className="w-8 h-8 text-brand-600" />,
       size: "1.5 MB PDF",
       file: "/assets/pdfs/Plexuspharmaco_Corporate_Brand_Guidelines.pdf",

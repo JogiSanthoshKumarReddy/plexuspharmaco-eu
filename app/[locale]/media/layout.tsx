@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     canonical: "/media",
   },
   openGraph: {
-    title: "Media | Plexuspharmaco Europe",
+    title: "Media | Plexuspharmaco GmbH",
     description: "Read the latest corporate news, press releases, and media updates from Plexuspharmaco.",
     url: "/media",
     images: [
@@ -15,7 +15,7 @@ export const metadata: Metadata = {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "Media - Plexuspharmaco Europe",
+        alt: "Media - Plexuspharmaco GmbH",
       },
     ],
   },

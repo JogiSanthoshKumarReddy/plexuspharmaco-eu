@@ -13,7 +13,7 @@ const seoMapping = {
   'quality-assurance': 'Learn how Plexuspharmaco embeds Quality by Design (QbD) across all global manufacturing and supply chain operations.',
   'research-development': 'Explore our robust R&D engine dedicated to complex generics, novel drug delivery systems, and advanced therapeutics.',
   'manufacture-capability': 'Discover our WHO and EU GMP-certified global manufacturing network and high-precision production facilities.',
-  'investor-relation': 'Access financial reports, corporate presentations, and investor updates for Plexuspharmaco Europe.',
+  'investor-relation': 'Access financial reports, corporate presentations, and investor updates for Plexuspharmaco GmbH.',
   'media': 'Read the latest corporate news, press releases, and media updates from Plexuspharmaco.',
   'careers': 'Join our team of dedicated professionals advancing global healthcare. Explore current job openings at Plexuspharmaco.',
 };
@@ -21,7 +21,7 @@ const seoMapping = {
 function generateDescription(title, routeSegment) {
   if (seoMapping[routeSegment]) return seoMapping[routeSegment];
   // Fallback generic description
-  return `Explore information regarding ${title} at Plexuspharmaco Europe, delivering high-quality healthcare solutions globally.`;
+  return `Explore information regarding ${title} at Plexuspharmaco GmbH, delivering high-quality healthcare solutions globally.`;
 }
 
 function processDirectory(dir, routeSegment = '') {
@@ -59,7 +59,7 @@ function processDirectory(dir, routeSegment = '') {
     canonical: "${canonicalUrl}",
   },
   openGraph: {
-    title: "${title} | Plexuspharmaco Europe",
+    title: "${title} | Plexuspharmaco GmbH",
     description: "${description}",
     url: "${canonicalUrl}",
     images: [
@@ -67,7 +67,7 @@ function processDirectory(dir, routeSegment = '') {
         url: "/assets/images/pharma_hero_corporate.png",
         width: 1200,
         height: 630,
-        alt: "${title} - Plexuspharmaco Europe",
+        alt: "${title} - Plexuspharmaco GmbH",
       },
     ],
   },

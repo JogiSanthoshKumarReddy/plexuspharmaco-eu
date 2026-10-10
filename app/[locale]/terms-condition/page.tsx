@@ -13,7 +13,7 @@ export default function TermsConditionPage() {
         <div className="bg-white rounded-3xl p-8 lg:p-12 shadow-sm border border-slate-100 prose prose-brand max-w-none prose-h2:text-primary prose-h2:font-outfit prose-h2:text-2xl prose-h2:mb-4 prose-p:text-slate-600 prose-p:leading-relaxed">
           
           <p className="lead text-lg font-medium text-slate-800">
-            Welcome to the Plexuspharmaco Europe website. By accessing or using this website, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully.
+            Welcome to the Plexuspharmaco GmbH website. By accessing or using this website, you agree to comply with and be bound by the following Terms and Conditions. Please review them carefully.
           </p>
           <hr className="my-8 border-slate-100" />
 
