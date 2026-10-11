@@ -41,3 +41,7 @@ yarn-error.log*
 next-env.d.ts
 test-results/
 playwright-report/
+
+# cloudflare & open-next
+.open-next/
+.wrangler/
